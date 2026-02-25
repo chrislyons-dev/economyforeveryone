@@ -1,0 +1,121 @@
+---
+import '../styles/global.css';
+import { isNavActive } from '../utils/nav';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'Economy for Everyone' } = Astro.props;
+const path = Astro.url.pathname;
+
+const navItems = [
+  { href: '/', label: 'Home' },
+  { href: '/start-here', label: 'Start Here' },
+  { href: '/core-model', label: 'Core Model' },
+  { href: '/case-studies', label: 'Case Studies' },
+  { href: '/field-notes', label: 'Field Notes' },
+  { href: '/playbooks', label: 'Playbooks' },
+  { href: '/ai-and-work', label: 'AI and Work' },
+  { href: '/methods-and-sources', label: 'Methods' },
+  { href: '/blog', label: 'Blog' },
+  { href: '/about', label: 'About' },
+  { href: '/contribute', label: 'Contribute' },
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <div class="site-wrap">
+      <div class="site-chassis shell">
+        <header class="site-nav">
+          <div class="ledger-header">
+            <p class="eyebrow-wide">Economy for Everyone</p>
+            <h1 class="site-title">Narrative-first, evidence-driven</h1>
+          </div>
+          <details class="mobile-nav">
+            <summary aria-label="Toggle navigation">
+              <span class="hamburger" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+              <span>Menu</span>
+            </summary>
+            <nav class="nav-links nav-links-mobile">
+              {
+                navItems.map((item) => (
+                  <a
+                    href={item.href}
+                    class:list={{ 'is-active': isNavActive(path, item.href) }}
+                    aria-current={isNavActive(path, item.href) ? 'page' : undefined}
+                  >
+                    {item.label}
+                  </a>
+                ))
+              }
+            </nav>
+          </details>
+
+          <nav class="nav-links nav-links-desktop">
+            {
+              navItems.map((item) => (
+                <a
+                  href={item.href}
+                  class:list={{ 'is-active': isNavActive(path, item.href) }}
+                  aria-current={isNavActive(path, item.href) ? 'page' : undefined}
+                >
+                  {item.label}
+                </a>
+              ))
+            }
+          </nav>
+        </header>
+
+        <main>
+          <slot />
+        </main>
+
+        <footer class="footer footer-minimal">
+          <p>&copy; 2026 Economy for Everyone</p>
+          <nav class="footer-links" aria-label="External links">
+            <a href="#" rel="me" aria-label="LinkedIn" title="LinkedIn" class="icon-link">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M6.94 8.5H3.56V20h3.38V8.5zM5.25 3A2.01 2.01 0 1 0 5.3 7a2.01 2.01 0 0 0-.05-4zM20.44 13.4c0-3.47-1.85-5.09-4.32-5.09a3.73 3.73 0 0 0-3.36 1.85V8.5H9.38V20h3.38v-6.38c0-1.68.32-3.3 2.4-3.3 2.05 0 2.08 1.91 2.08 3.4V20h3.38v-6.6z"
+                ></path>
+              </svg>
+            </a>
+            <a href="#" rel="me" aria-label="GitHub" title="GitHub" class="icon-link">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.21.68-.48v-1.7c-2.78.6-3.36-1.18-3.36-1.18-.46-1.14-1.1-1.44-1.1-1.44-.91-.62.07-.6.07-.6 1 .07 1.54 1.03 1.54 1.03.89 1.54 2.34 1.1 2.9.84.09-.65.35-1.1.63-1.35-2.22-.26-4.55-1.1-4.55-4.96 0-1.1.39-2 .99-2.7-.1-.25-.43-1.27.1-2.65 0 0 .82-.26 2.7 1.03a9.4 9.4 0 0 1 4.9 0c1.87-1.29 2.7-1.03 2.7-1.03.52 1.38.2 2.4.1 2.65.6.7.99 1.6.99 2.7 0 3.87-2.34 4.7-4.57 4.96.36.31.68.92.68 1.86v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2z"
+                ></path>
+              </svg>
+            </a>
+            <a href="#" rel="me" aria-label="Facebook" title="Facebook" class="icon-link">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.87.25-1.46 1.5-1.46H17V3.98c-.35-.05-1.52-.12-2.9-.12-2.86 0-4.82 1.74-4.82 4.95V10H6.5v3h2.78v8h4.22z"
+                ></path>
+              </svg>
+            </a>
+            <a href="#" rel="me" aria-label="Substack" title="Substack (soon)" class="icon-link">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3 5h18v2H3V5zm0 4h18v2H3V9zm0 4h18v6H3v-6z"></path>
+              </svg>
+            </a>
+          </nav>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

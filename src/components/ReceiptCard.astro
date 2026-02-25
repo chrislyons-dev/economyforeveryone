@@ -1,0 +1,21 @@
+---
+interface Props {
+  claim: string;
+  source: string;
+  href: string;
+  confidence?: 'High' | 'Medium' | 'Low';
+}
+
+const { claim, source, href, confidence = 'Medium' } = Astro.props;
+---
+
+<article class="panel receipt-card">
+  <p class="eyebrow">Receipt</p>
+  <p class="claim">{claim}</p>
+  <p class="muted-note">
+    Source: <a href={href}>{source}</a>
+  </p>
+  <p class="muted-note">
+    Confidence: <strong>{confidence}</strong>
+  </p>
+</article>

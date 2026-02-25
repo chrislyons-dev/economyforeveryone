@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://economyforeveryone.org/sitemap-index.xml

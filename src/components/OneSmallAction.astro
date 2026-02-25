@@ -1,0 +1,14 @@
+---
+interface Props {
+  action: string;
+}
+
+const { action } = Astro.props;
+---
+
+<section class="panel action-card">
+  <p class="eyebrow">One Small Action</p>
+  <p class="title-reset">
+    {action}
+  </p>
+</section>

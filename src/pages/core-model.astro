@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SignalVsFact from '../components/SignalVsFact.astro';
+---
+
+<BaseLayout title="Core Model | Economy for Everyone">
+  <section class="section-grid">
+    <div class="ledger-header">
+      <h2 class="title-reset">Core Model</h2>
+    </div>
+    <p class="prose-e4e">
+      The E4E core model links household pressure, institutional behavior, trust, and outcomes. The
+      aim is to explain what people are feeling in plain terms, then map it to policy and
+      organizational levers.
+    </p>
+    <SignalVsFact
+      signal="High-level economic numbers can look strong while daily life feels less stable."
+      fact="Distribution, housing, healthcare, childcare, and institutional reliability drive lived economic outcomes."
+    />
+  </section>
+</BaseLayout>

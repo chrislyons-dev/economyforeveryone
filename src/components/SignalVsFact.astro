@@ -1,0 +1,21 @@
+---
+interface Props {
+  signal: string;
+  fact: string;
+}
+
+const { signal, fact } = Astro.props;
+---
+
+<section class="panel guardrail-card">
+  <div class="two-col">
+    <div>
+      <p class="eyebrow">Signal</p>
+      <p class="title-reset">{signal}</p>
+    </div>
+    <div>
+      <p class="eyebrow">Fact</p>
+      <p class="title-reset">{fact}</p>
+    </div>
+  </div>
+</section>

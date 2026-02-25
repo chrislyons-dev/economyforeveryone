@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CaseStudyTimeline from '../components/CaseStudyTimeline.astro';
+
+const sampleEvents = [
+  {
+    event: 'Rule violations were treated as operational noise.',
+    decision: 'Oversight was delayed and fragmented.',
+    outcome: 'Public trust eroded and enforcement legitimacy dropped.',
+    lesson: 'Fast, visible guardrails outperform reactive damage control.',
+  },
+];
+---
+
+<BaseLayout title="Case Studies | Economy for Everyone">
+  <section class="section-grid">
+    <div class="ledger-header">
+      <h2 class="title-reset">Case Studies</h2>
+      <p class="muted-note">Structure: context, events, receipts, lessons, transferable pattern.</p>
+    </div>
+    <CaseStudyTimeline events={sampleEvents} />
+  </section>
+</BaseLayout>
