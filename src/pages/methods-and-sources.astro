@@ -1,6 +1,79 @@
----
+﻿---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import ReceiptCard from '../components/ReceiptCard.astro';
+import { getCollection } from 'astro:content';
+
+const receiptTypes = [
+  {
+    id: 'primary-documents',
+    label: 'Primary documents',
+    description: 'Original records, filings, policies, and official documents.',
+  },
+  {
+    id: 'official-data',
+    label: 'Official data',
+    description: 'Public datasets and statistical releases from agencies and institutions.',
+  },
+  {
+    id: 'independent-analysis',
+    label: 'Independent analysis',
+    description: 'Research, audits, and serious reporting used to test competing claims.',
+  },
+  {
+    id: 'direct-observation',
+    label: 'Direct observation',
+    description: 'Field notes, lived examples, and local reporting tied to concrete events.',
+  },
+] as const;
+
+const receiptTypeById = new Map(receiptTypes.map((type) => [type.id, type]));
+
+const caseStudies = await getCollection('case-studies', ({ data }) => data.status === 'published');
+const posts = await getCollection('blog', ({ data }) => data.status === 'published');
+const receiptGroups = (
+  await getCollection('receipts', ({ data }) => data.status === 'published')
+).sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+const caseTitleBySlug = new Map(caseStudies.map((study) => [study.slug, study.data.title]));
+const postTitleBySlug = new Map(posts.map((post) => [post.slug, post.data.title]));
+
+const byReceiptType = receiptTypes.map((type) => ({
+  ...type,
+  caseStudies: caseStudies
+    .filter((study) => (study.data.receiptTags ?? []).includes(type.id))
+    .sort((a, b) => b.data.studyDate.valueOf() - a.data.studyDate.valueOf()),
+  posts: posts
+    .filter((post) => (post.data.receiptTags ?? []).includes(type.id))
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()),
+  receiptCount: receiptGroups.filter((group) => group.data.typeId === type.id).length,
+}));
+
+const caseFilterOptions = [
+  ...new Set(receiptGroups.flatMap((group) => group.data.linkedCaseSlugs ?? [])),
+]
+  .map((slug) => ({ slug, title: caseTitleBySlug.get(slug) ?? slug }))
+  .sort((a, b) => a.title.localeCompare(b.title));
+
+const postFilterOptions = [
+  ...new Set(receiptGroups.flatMap((group) => group.data.linkedPostSlugs ?? [])),
+]
+  .map((slug) => ({ slug, title: postTitleBySlug.get(slug) ?? slug }))
+  .sort((a, b) => a.title.localeCompare(b.title));
+
+const tagFilterOptions = [...new Set(receiptGroups.flatMap((group) => group.data.tags ?? []))].sort(
+  (a, b) => a.localeCompare(b)
+);
+
+const buildSearchText = (group: (typeof receiptGroups)[number]) =>
+  [
+    group.data.title,
+    group.data.claim,
+    ...(group.data.tags ?? []),
+    ...(group.data.sources ?? []).map((source) => source.title),
+    ...(group.data.linkedCaseSlugs ?? []).map((slug) => caseTitleBySlug.get(slug) ?? slug),
+    ...(group.data.linkedPostSlugs ?? []).map((slug) => postTitleBySlug.get(slug) ?? slug),
+  ]
+    .join(' ')
+    .toLowerCase();
 ---
 
 <BaseLayout title="Methods and Sources | Economy for Everyone">
@@ -8,15 +81,258 @@ import ReceiptCard from '../components/ReceiptCard.astro';
     <div class="ledger-header">
       <h2 class="title-reset">Methods and Sources</h2>
     </div>
+
     <p class="prose-e4e">
       Method: name the feeling, test the story with facts, state it cleanly, do one useful thing,
       stay awake.
     </p>
-    <ReceiptCard
-      claim="This publication distinguishes between observed facts, inferred patterns, and open uncertainty."
-      source="Editorial policy"
-      href="#"
-      confidence="High"
-    />
+
+    <div class="prose-e4e">
+      <p>
+        This page is the evidence ledger for the project. Instead of turning every case study and post
+        into a long citation dump, we keep narrative pages readable and maintain receipts here as grouped
+        evidence.
+      </p>
+      <p>
+        Each receipt group makes one testable claim, links to core sources, and points back to the
+        related case studies or blog entries. Use the type matrix for quick orientation, then filter by
+        type, case study, tag, or keyword.
+      </p>
+    </div>
+
+    <article class="panel" id="receipt-type-matrix">
+      <p class="eyebrow">Receipt Types</p>
+      <h3 class="title-reset">Type Matrix</h3>
+      <div class="receipt-type-grid">
+        {
+          byReceiptType.map((type) => (
+            <details class="receipt-type-row" id={`receipt-${type.id}`}>
+              <summary>
+                <span class="receipt-type-name">{type.label}</span>
+                <span class="receipt-type-counts">
+                  {type.caseStudies.length} {type.caseStudies.length === 1 ? 'case study' : 'case studies'}
+                  {' | '}
+                  {type.posts.length} {type.posts.length === 1 ? 'blog post' : 'blog posts'}
+                  {' | '}
+                  {type.receiptCount} {type.receiptCount === 1 ? 'group' : 'groups'}
+                </span>
+              </summary>
+              <p class="muted-note">{type.description}</p>
+              <p class="muted-note">
+                <a href="#receipt-groups" data-type-filter={type.id}>Filter receipt groups to this type</a>
+              </p>
+              {type.caseStudies.length > 0 && (
+                <p class="muted-note">
+                  <strong>Case studies:</strong>{' '}
+                  {type.caseStudies.map((study, index) => (
+                    <>
+                      {index > 0 && ', '}
+                      <a href={`/case-studies/${study.slug}/`}>{study.data.title}</a>
+                    </>
+                  ))}
+                </p>
+              )}
+              {type.posts.length > 0 && (
+                <p class="muted-note">
+                  <strong>Blog:</strong>{' '}
+                  {type.posts.map((post, index) => (
+                    <>
+                      {index > 0 && ', '}
+                      <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
+                    </>
+                  ))}
+                </p>
+              )}
+            </details>
+          ))
+        }
+      </div>
+    </article>
+
+    <article class="panel" id="receipt-groups">
+      <p class="eyebrow">Receipt Groups</p>
+      <h3 class="title-reset">Filter Receipt Groups</h3>
+
+      <div class="case-filter-row" id="receipt-filters">
+        <label>
+          Type
+          <select id="receipt-filter-type" class="case-filter-input">
+            <option value="all">All types</option>
+            {receiptTypes.map((type) => <option value={type.id}>{type.label}</option>)}
+          </select>
+        </label>
+
+        <label>
+          Case Study
+          <select id="receipt-filter-case" class="case-filter-input">
+            <option value="all">All case studies</option>
+            {caseFilterOptions.map((option) => <option value={option.slug}>{option.title}</option>)}
+          </select>
+        </label>
+
+        <label>
+          Blog Post
+          <select id="receipt-filter-post" class="case-filter-input">
+            <option value="all">All blog posts</option>
+            {postFilterOptions.map((option) => <option value={option.slug}>{option.title}</option>)}
+          </select>
+        </label>
+
+        <label>
+          Tag
+          <select id="receipt-filter-tag" class="case-filter-input">
+            <option value="all">All tags</option>
+            {tagFilterOptions.map((tag) => <option value={tag}>{tag}</option>)}
+          </select>
+        </label>
+      </div>
+
+      <label>
+        Search
+        <input
+          id="receipt-filter-search"
+          class="case-filter-input"
+          type="search"
+          placeholder="Search claims, tags, or source titles"
+        />
+      </label>
+
+      <p id="receipt-filter-status" class="muted-note">
+        Showing {receiptGroups.length} of {receiptGroups.length} receipt groups.
+      </p>
+
+      <div class="section-grid" id="receipt-group-list">
+        {
+          receiptGroups.map((group) => {
+            const typeMeta = receiptTypeById.get(group.data.typeId);
+            const linkedCaseSlugs = group.data.linkedCaseSlugs ?? [];
+            const linkedPostSlugs = group.data.linkedPostSlugs ?? [];
+            const tags = group.data.tags ?? [];
+
+            return (
+              <article
+                class="panel receipt-card receipt-group-item"
+                id={`receipt-group-${group.slug}`}
+                data-type-id={group.data.typeId}
+                data-case-slugs={linkedCaseSlugs.join(',')}
+                data-post-slugs={linkedPostSlugs.join(',')}
+                data-tags={tags.join(',')}
+                data-search={buildSearchText(group)}
+              >
+                <p class="eyebrow">{typeMeta?.label ?? group.data.typeId}</p>
+                <p class="claim">{group.data.title}</p>
+                <p class="muted-note">{group.data.claim}</p>
+
+                {(linkedCaseSlugs.length > 0 || linkedPostSlugs.length > 0) && (
+                  <p class="muted-note">
+                    <strong>Linked content:</strong>{' '}
+                    {linkedCaseSlugs.map((slug, index) => (
+                      <>
+                        {index > 0 && ', '}
+                        <a href={`/case-studies/${slug}/`}>{caseTitleBySlug.get(slug) ?? slug}</a>
+                      </>
+                    ))}
+                    {linkedCaseSlugs.length > 0 && linkedPostSlugs.length > 0 && '; '}
+                    {linkedPostSlugs.map((slug, index) => (
+                      <>
+                        {index > 0 && ', '}
+                        <a href={`/blog/${slug}/`}>{postTitleBySlug.get(slug) ?? slug}</a>
+                      </>
+                    ))}
+                  </p>
+                )}
+
+                {tags.length > 0 && (
+                  <p class="muted-note">
+                    <strong>Tags:</strong> {tags.join(', ')}
+                  </p>
+                )}
+
+                <ul>
+                  {group.data.sources.map((source) => (
+                    <li>
+                      <a href={source.url}>{source.title}</a>
+                    </li>
+                  ))}
+                </ul>
+              </article>
+            );
+          })
+        }
+      </div>
+
+      <p id="receipt-filter-empty" class="muted-note" hidden>
+        No receipt groups match this filter.
+      </p>
+    </article>
   </section>
+
+  <script is:inline>
+    (() => {
+      const filterType = document.getElementById('receipt-filter-type');
+      const filterCase = document.getElementById('receipt-filter-case');
+      const filterPost = document.getElementById('receipt-filter-post');
+      const filterTag = document.getElementById('receipt-filter-tag');
+      const filterSearch = document.getElementById('receipt-filter-search');
+      const status = document.getElementById('receipt-filter-status');
+      const empty = document.getElementById('receipt-filter-empty');
+      const items = Array.from(document.querySelectorAll('.receipt-group-item'));
+
+      const toList = (value) =>
+        (value || '')
+          .split(',')
+          .map((part) => part.trim())
+          .filter(Boolean);
+
+      const applyFilters = () => {
+        const typeValue = filterType instanceof HTMLSelectElement ? filterType.value : 'all';
+        const caseValue = filterCase instanceof HTMLSelectElement ? filterCase.value : 'all';
+        const postValue = filterPost instanceof HTMLSelectElement ? filterPost.value : 'all';
+        const tagValue = filterTag instanceof HTMLSelectElement ? filterTag.value : 'all';
+        const searchValue =
+          filterSearch instanceof HTMLInputElement ? filterSearch.value.trim().toLowerCase() : '';
+
+        let shown = 0;
+
+        for (const item of items) {
+          const element = item;
+          const typeMatch = typeValue === 'all' || element.dataset.typeId === typeValue;
+          const caseMatch =
+            caseValue === 'all' || toList(element.dataset.caseSlugs).includes(caseValue);
+          const postMatch =
+            postValue === 'all' || toList(element.dataset.postSlugs).includes(postValue);
+          const tagMatch = tagValue === 'all' || toList(element.dataset.tags).includes(tagValue);
+          const searchMatch = !searchValue || (element.dataset.search || '').includes(searchValue);
+
+          const visible = typeMatch && caseMatch && postMatch && tagMatch && searchMatch;
+          element.hidden = !visible;
+          if (visible) shown += 1;
+        }
+
+        if (status) {
+          status.textContent = `Showing ${shown} of ${items.length} receipt groups.`;
+        }
+
+        if (empty) {
+          empty.hidden = shown !== 0;
+        }
+      };
+
+      if (filterType) filterType.addEventListener('change', applyFilters);
+      if (filterCase) filterCase.addEventListener('change', applyFilters);
+      if (filterPost) filterPost.addEventListener('change', applyFilters);
+      if (filterTag) filterTag.addEventListener('change', applyFilters);
+      if (filterSearch) filterSearch.addEventListener('input', applyFilters);
+      for (const link of Array.from(document.querySelectorAll('[data-type-filter]'))) {
+        link.addEventListener('click', () => {
+          if (filterType instanceof HTMLSelectElement && link instanceof HTMLElement) {
+            filterType.value = link.dataset.typeFilter || 'all';
+            applyFilters();
+          }
+        });
+      }
+
+      applyFilters();
+    })();
+  </script>
 </BaseLayout>

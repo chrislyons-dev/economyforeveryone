@@ -212,6 +212,7 @@ a:hover {
 
 .nav-links-desktop {
   display: flex;
+  padding-left: 1rem;
 }
 
 .mobile-nav {
@@ -533,8 +534,9 @@ a:hover {
 .case-filter-row {
   display: grid;
   gap: 0.7rem;
-  grid-template-columns: minmax(14rem, 1.5fr) repeat(2, minmax(9rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
   align-items: end;
+  max-width: 100%;
 }
 
 .case-filter-row label {
@@ -542,6 +544,7 @@ a:hover {
   gap: 0.25rem;
   font-size: 0.85rem;
   color: var(--theme-text-secondary);
+  min-width: 0;
 }
 
 .case-filter-input {
@@ -550,6 +553,43 @@ a:hover {
   padding: 0.42rem 0.5rem;
   background: var(--theme-bg-surface);
   color: var(--theme-text-primary);
+  width: 100%;
+  max-width: 22rem;
+  min-width: 0;
+}
+
+.receipt-type-grid {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.receipt-type-row {
+  border: 0.08rem solid var(--theme-border-subtle);
+  border-radius: 0.35rem;
+  padding: 0.4rem 0.55rem;
+  background: color-mix(in oklch, var(--theme-bg-elevated) 35%, transparent);
+}
+
+.receipt-type-row summary {
+  display: grid;
+  grid-template-columns: minmax(10rem, 1fr) auto;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.receipt-type-row summary::-webkit-details-marker {
+  display: none;
+}
+
+.receipt-type-name {
+  font-weight: 600;
+}
+
+.receipt-type-counts {
+  color: var(--theme-text-muted);
+  font-size: 0.85rem;
 }
 
 @media (max-width: 900px) {

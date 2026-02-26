@@ -19,6 +19,10 @@ tags:
   - 'membership-model'
   - 'turnover'
   - 'execution'
+receiptTags:
+  - 'primary-documents'
+  - 'official-data'
+  - 'independent-analysis'
 sources: []
 ---
 

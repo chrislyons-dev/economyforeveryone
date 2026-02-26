@@ -20,6 +20,10 @@ tags:
   - 'incentives'
   - 'layoffs'
   - 'eaf'
+receiptTags:
+  - 'primary-documents'
+  - 'official-data'
+  - 'independent-analysis'
 sources: []
 ---
 

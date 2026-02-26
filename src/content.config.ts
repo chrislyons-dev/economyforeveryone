@@ -15,6 +15,7 @@ const caseStudies = defineCollection({
     evidenceLevel: z.enum(['high', 'medium', 'low']).default('medium'),
     policyDomain: z.array(z.string()).default([]),
     tags: z.array(z.string()).default([]),
+    receiptTags: z.array(z.string()).default([]),
     sources: z
       .array(
         z.object({
@@ -39,6 +40,7 @@ const blog = defineCollection({
     category: z.string().min(1),
     topics: z.array(z.string()).default([]),
     tags: z.array(z.string()).default([]),
+    receiptTags: z.array(z.string()).default([]),
     sourceChannel: z.enum(['facebook', 'linkedin', 'economyforeveryone', 'mixed']).default('mixed'),
     legacyPostRef: z.string().optional(),
     triage: z
@@ -64,7 +66,34 @@ const blog = defineCollection({
   }),
 });
 
+const receipts = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string().min(1),
+    claim: z.string().min(1),
+    typeId: z.enum([
+      'primary-documents',
+      'official-data',
+      'independent-analysis',
+      'direct-observation',
+    ]),
+    status: z.enum(['draft', 'published']).default('draft'),
+    linkedCaseSlugs: z.array(z.string()).default([]),
+    linkedPostSlugs: z.array(z.string()).default([]),
+    tags: z.array(z.string()).default([]),
+    sources: z
+      .array(
+        z.object({
+          title: z.string().min(1),
+          url: z.string().url(),
+        })
+      )
+      .default([]),
+  }),
+});
+
 export const collections = {
   'case-studies': caseStudies,
   blog,
+  receipts,
 };

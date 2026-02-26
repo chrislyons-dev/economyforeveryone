@@ -14,6 +14,9 @@ policyDomain:
 tags:
   - 'labor'
   - 'pricing'
+receiptTags:
+  - 'primary-documents'
+  - 'official-data'
 sources:
   - title: 'Source title'
     url: 'https://example.com/report'
@@ -32,7 +35,3 @@ Describe the actions and outcomes.
 ## Why It Matters
 
 Connect this case to the core model.
-
-## Receipts
-
-Add key citations and links.

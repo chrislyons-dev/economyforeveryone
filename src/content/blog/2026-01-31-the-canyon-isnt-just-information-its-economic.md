@@ -14,6 +14,9 @@ tags:
   - 'insecurity'
   - 'monthly-squeeze'
   - 'bridge-building'
+receiptTags:
+  - 'official-data'
+  - 'independent-analysis'
 sourceChannel: 'facebook'
 legacyPostRef: '2026-01-31'
 triage: 'promote-to-canonical+linkedin'

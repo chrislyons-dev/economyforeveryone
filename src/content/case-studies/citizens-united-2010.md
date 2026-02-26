@@ -19,6 +19,10 @@ tags:
   - 'fec'
   - 'enforcement'
   - 'accountability'
+receiptTags:
+  - 'primary-documents'
+  - 'official-data'
+  - 'independent-analysis'
 sources: []
 ---
 

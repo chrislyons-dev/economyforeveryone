@@ -14,6 +14,9 @@ tags:
   - 'due-process'
   - 'information-bubbles'
   - 'civic-habits'
+receiptTags:
+  - 'primary-documents'
+  - 'independent-analysis'
 sourceChannel: 'facebook'
 legacyPostRef: '2026-01-30 #4/#5'
 triage: 'promote-to-canonical+linkedin'

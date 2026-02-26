@@ -13,6 +13,8 @@ tags:
   - 'monthly-squeeze'
   - 'dignity'
   - 'neighbor-lane'
+receiptTags:
+  - 'direct-observation'
 sourceChannel: 'facebook'
 legacyPostRef: '2026-01-30 #2'
 triage: 'promote-to-canonical'

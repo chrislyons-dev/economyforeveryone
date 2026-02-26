@@ -19,6 +19,10 @@ tags:
   - 'deed-restrictions'
   - 'ami'
   - 'production'
+receiptTags:
+  - 'primary-documents'
+  - 'official-data'
+  - 'independent-analysis'
 sources: []
 ---
 

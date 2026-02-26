@@ -9,6 +9,8 @@ topics:
   - 'institutions'
 tags:
   - 'accountability'
+receiptTags:
+  - 'independent-analysis'
 sourceChannel: 'facebook'
 legacyPostRef: '2026-02-20'
 triage: 'promote-to-canonical+linkedin'

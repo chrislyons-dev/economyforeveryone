@@ -12,6 +12,9 @@ tags:
   - 'constitutional-rights'
   - 'social-media'
   - 'bridge-building'
+receiptTags:
+  - 'direct-observation'
+  - 'independent-analysis'
 sourceChannel: 'facebook'
 legacyPostRef: '2026-01-30 #3'
 triage: 'promote-to-canonical+linkedin'

@@ -12,6 +12,18 @@ export async function getStaticPaths() {
 
 const { study } = Astro.props;
 const { Content } = await render(study);
+
+const receiptTypes = new Map([
+  ['primary-documents', 'Primary documents'],
+  ['official-data', 'Official data'],
+  ['independent-analysis', 'Independent analysis'],
+  ['direct-observation', 'Direct observation'],
+]);
+
+const receiptTags = (study.data.receiptTags ?? []).map((tag: string) => ({
+  id: tag,
+  label: receiptTypes.get(tag) ?? tag.replaceAll('-', ' '),
+}));
 ---
 
 <BaseLayout title={`${study.data.title} | Case Studies | Economy for Everyone`}>
@@ -41,6 +53,23 @@ const { Content } = await render(study);
         }
       </p>
     </div>
+
+    {
+      receiptTags.length > 0 && (
+        <div class="panel">
+          <p class="eyebrow">Receipts</p>
+          <p class="muted-note">Receipt details are tracked in Methods and Sources by type:</p>
+          <p class="muted-note">
+            {receiptTags.map((tag, index) => (
+              <>
+                {index > 0 && ', '}
+                <a href={`/methods-and-sources#receipt-${tag.id}`}>{tag.label}</a>
+              </>
+            ))}
+          </p>
+        </div>
+      )
+    }
 
     <Content />
 

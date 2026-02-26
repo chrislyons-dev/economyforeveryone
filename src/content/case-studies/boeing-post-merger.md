@@ -20,6 +20,10 @@ tags:
   - 'oversight'
   - 'incentives'
   - 'accountability'
+receiptTags:
+  - 'primary-documents'
+  - 'official-data'
+  - 'independent-analysis'
 sources: []
 ---
 

@@ -19,6 +19,9 @@ tags:
   - 'saturn'
   - 'gm'
   - 'autonomy'
+receiptTags:
+  - 'primary-documents'
+  - 'independent-analysis'
 sources: []
 ---
 

@@ -20,6 +20,10 @@ tags:
   - 'by-right'
   - 'supply'
   - 'affordability'
+receiptTags:
+  - 'primary-documents'
+  - 'official-data'
+  - 'independent-analysis'
 sources: []
 ---
 
