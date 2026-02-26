@@ -23,14 +23,14 @@ test('desktop navigation is visible and marks active page', async ({ page }) => 
 
 test('mobile navigation switches to hamburger and expands links', async ({ page }) => {
   await page.setViewportSize({ width: 375, height: 812 });
-  await page.goto('/start-here');
+  await page.goto('/about');
 
   await expect(page.locator('.mobile-nav')).toBeVisible();
   await expect(page.locator('.nav-links-desktop')).not.toBeVisible();
 
   await page.locator('.mobile-nav summary').click();
   await expect(page.locator('.nav-links-mobile')).toBeVisible();
-  await expect(page.locator('.nav-links-mobile a[aria-current="page"]')).toHaveText('Start Here');
+  await expect(page.locator('.nav-links-mobile a[aria-current="page"]')).toHaveText('About');
 });
 
 test('footer icon links are visible with accessible labels', async ({ page }) => {

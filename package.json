@@ -18,7 +18,7 @@
     "test:coverage": "vitest run --coverage",
     "test:e2e": "playwright test",
     "test:e2e:install": "playwright install --with-deps chromium",
-    "quality": "npm run lint && npm run format && npm run check && npm run test && npm run build",
+    "quality": "npm run lint && npm run format && npm run check && npm run test && npm run test:e2e && npm run build",
     "csp:generate": "node scripts/generate-csp-headers.mjs"
   },
   "dependencies": {
