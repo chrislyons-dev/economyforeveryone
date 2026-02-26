@@ -331,11 +331,16 @@ a:hover {
   line-height: 1.6;
 }
 
+.hero-subtitle-wide {
+  max-width: none;
+}
+
 .hero-chips {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 1rem;
+  justify-content: flex-start;
 }
 
 .chip {
@@ -358,10 +363,18 @@ a:hover {
 }
 
 .cta-row {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 0.6rem;
-  margin-top: 1rem;
+  margin-top: 1.25rem;
+  padding-top: 0.85rem;
+  border-top: 0.08rem solid var(--theme-border-subtle);
+  max-width: 100%;
+}
+
+.cta-row .btn {
+  width: 100%;
+  text-align: center;
 }
 
 .btn {
@@ -455,6 +468,11 @@ a:hover {
 @media (max-width: 900px) {
   .hero-title-tight {
     white-space: normal;
+  }
+
+  .cta-row {
+    grid-template-columns: 1fr;
+    max-width: 100%;
   }
 
   .footer-minimal {
