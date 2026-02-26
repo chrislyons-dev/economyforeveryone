@@ -1,6 +1,6 @@
 ﻿---
 title: 'Montgomery HPF Revolving Fund Mechanics'
-claim: 'Montgomery County''s HPF operates as a revolving construction-loan fund where county-backed capital is recycled across projects, rather than spent once.'
+claim: "Montgomery County's HPF operates as a revolving construction-loan fund where county-backed capital is recycled across projects, rather than spent once."
 typeId: 'primary-documents'
 status: 'published'
 linkedCaseSlugs:

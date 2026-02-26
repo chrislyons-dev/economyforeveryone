@@ -1,6 +1,6 @@
 ﻿---
 title: 'Long-Horizon Market Validation'
-claim: 'Costco''s long-horizon return profile supports durable model execution over multiple cycles, though benchmarking claims should specify the exact period and comparator.'
+claim: "Costco's long-horizon return profile supports durable model execution over multiple cycles, though benchmarking claims should specify the exact period and comparator."
 typeId: 'official-data'
 status: 'published'
 linkedCaseSlugs:

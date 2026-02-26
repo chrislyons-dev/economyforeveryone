@@ -1,6 +1,6 @@
 ﻿---
 title: 'Administrative Burden and Practical Policy Filters'
-claim: 'Administrative burden evidence supports E4E''s insistence on simplicity: implementation friction is often outcome-defining, especially for households already under squeeze.'
+claim: "Administrative burden evidence supports E4E's insistence on simplicity: implementation friction is often outcome-defining, especially for households already under squeeze."
 typeId: 'independent-analysis'
 status: 'published'
 linkedPostSlugs:

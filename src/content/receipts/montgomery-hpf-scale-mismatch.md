@@ -1,6 +1,6 @@
 ﻿---
 title: 'Scale Mismatch Against County Need'
-claim: 'HPF is a meaningful tool but not a full solution: projected unit output addresses only a minority share of Montgomery County''s stated housing requirement.'
+claim: "HPF is a meaningful tool but not a full solution: projected unit output addresses only a minority share of Montgomery County's stated housing requirement."
 typeId: 'official-data'
 status: 'published'
 linkedCaseSlugs:

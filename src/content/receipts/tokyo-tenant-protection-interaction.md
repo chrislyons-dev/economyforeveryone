@@ -1,6 +1,6 @@
 ﻿---
 title: 'Tenant Protection Regime Interaction'
-claim: 'Japan''s strong lease-renewal protections are a major institutional condition interacting with zoning; using Tokyo as a pure supply-side template without this context is incomplete.'
+claim: "Japan's strong lease-renewal protections are a major institutional condition interacting with zoning; using Tokyo as a pure supply-side template without this context is incomplete."
 typeId: 'primary-documents'
 status: 'published'
 linkedCaseSlugs:

@@ -1,6 +1,6 @@
 ﻿---
 title: 'National By-Right Zoning Framework (Japan)'
-claim: 'Japan''s national zoning framework permits multifamily housing by right across most residential zones, materially limiting local exclusionary veto power compared with typical US zoning structures.'
+claim: "Japan's national zoning framework permits multifamily housing by right across most residential zones, materially limiting local exclusionary veto power compared with typical US zoning structures."
 typeId: 'primary-documents'
 status: 'published'
 linkedCaseSlugs:

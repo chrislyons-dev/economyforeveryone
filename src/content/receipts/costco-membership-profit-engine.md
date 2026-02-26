@@ -1,6 +1,6 @@
 ﻿---
 title: 'Membership Model as Profit Engine'
-claim: 'Costco''s membership-fee model is a structural prerequisite, not a minor guardrail: fees are a small share of revenue but a large share of operating income.'
+claim: "Costco's membership-fee model is a structural prerequisite, not a minor guardrail: fees are a small share of revenue but a large share of operating income."
 typeId: 'official-data'
 status: 'published'
 linkedCaseSlugs:

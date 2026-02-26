@@ -1,6 +1,6 @@
 ﻿---
 title: 'Long-Run Stability vs Recent Price Regime Shift'
-claim: 'Tokyo''s long period of relative affordability and rent burden stability is documented, but 2023-2025 price acceleration indicates the equilibrium is not structurally guaranteed.'
+claim: "Tokyo's long period of relative affordability and rent burden stability is documented, but 2023-2025 price acceleration indicates the equilibrium is not structurally guaranteed."
 typeId: 'official-data'
 status: 'published'
 linkedCaseSlugs:

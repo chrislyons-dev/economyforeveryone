@@ -1,6 +1,6 @@
 ﻿---
 title: 'NOAH Loss and Unmet Demand Pressure'
-claim: 'Montgomery County''s naturally affordable stock decline and high waiting-list pressure indicate unmet demand that outpaces HPF replacement capacity.'
+claim: "Montgomery County's naturally affordable stock decline and high waiting-list pressure indicate unmet demand that outpaces HPF replacement capacity."
 typeId: 'official-data'
 status: 'published'
 linkedCaseSlugs:

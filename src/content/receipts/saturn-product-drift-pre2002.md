@@ -1,6 +1,6 @@
 ﻿---
 title: 'Product-Line Drift Predated 2002 Framing'
-claim: 'Saturn''s product/governance divergence began before the commonly cited 2002 breakpoint, with major platform and production shifts evident by the 2000 model cycle.'
+claim: "Saturn's product/governance divergence began before the commonly cited 2002 breakpoint, with major platform and production shifts evident by the 2000 model cycle."
 typeId: 'primary-documents'
 status: 'published'
 linkedCaseSlugs:

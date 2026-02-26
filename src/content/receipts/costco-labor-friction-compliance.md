@@ -1,6 +1,6 @@
 ﻿---
 title: 'Labor Friction and Compliance Counter-Evidence'
-claim: 'Costco''s high-wage narrative coexists with documented labor conflict and compliance issues; these do not erase performance strengths but materially qualify the model.'
+claim: "Costco's high-wage narrative coexists with documented labor conflict and compliance issues; these do not erase performance strengths but materially qualify the model."
 typeId: 'primary-documents'
 status: 'published'
 linkedCaseSlugs:

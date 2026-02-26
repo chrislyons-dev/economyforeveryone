@@ -1,6 +1,6 @@
 ﻿---
 title: 'Vacancy Overhang and Geographic Mismatch'
-claim: 'Japan''s large and rising vacant-home stock demonstrates that aggregate supply can coexist with severe local affordability pressure when location and market segment mismatch persist.'
+claim: "Japan's large and rising vacant-home stock demonstrates that aggregate supply can coexist with severe local affordability pressure when location and market segment mismatch persist."
 typeId: 'official-data'
 status: 'published'
 linkedCaseSlugs:

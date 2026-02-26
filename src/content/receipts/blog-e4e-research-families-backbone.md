@@ -1,6 +1,6 @@
 ﻿---
 title: 'E4E Research Families Backbone'
-claim: 'E4E''s core loop is a synthesis across multiple research families; no single study proves the full loop, but each link has supporting evidence with explicit uncertainty labels.'
+claim: "E4E's core loop is a synthesis across multiple research families; no single study proves the full loop, but each link has supporting evidence with explicit uncertainty labels."
 typeId: 'independent-analysis'
 status: 'published'
 linkedPostSlugs:

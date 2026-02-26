@@ -1,6 +1,6 @@
 ﻿---
 title: 'Structural Profitability Constraint'
-claim: 'Evidence suggests Saturn''s core economics were fragile: episodic upside for workers coexisted with sustained business-model pressure and recurring losses.'
+claim: "Evidence suggests Saturn's core economics were fragile: episodic upside for workers coexisted with sustained business-model pressure and recurring losses."
 typeId: 'official-data'
 status: 'published'
 linkedCaseSlugs:

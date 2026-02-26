@@ -1,6 +1,6 @@
 ﻿---
 title: 'Section 232 Tailwind and Dependency Uncertainty'
-claim: 'Section 232 improved Nucor''s operating environment and profitability, but the degree of model dependence on tariff protection remains unresolved.'
+claim: "Section 232 improved Nucor's operating environment and profitability, but the degree of model dependence on tariff protection remains unresolved."
 typeId: 'primary-documents'
 status: 'published'
 linkedCaseSlugs:

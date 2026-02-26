@@ -1,6 +1,6 @@
 ﻿---
 title: 'Brand Equity Was Real but Degrading'
-claim: 'Saturn''s early customer-satisfaction strength and demand were real, but quality rankings and product-market fit declined before shutdown.'
+claim: "Saturn's early customer-satisfaction strength and demand were real, but quality rankings and product-market fit declined before shutdown."
 typeId: 'official-data'
 status: 'published'
 linkedCaseSlugs:

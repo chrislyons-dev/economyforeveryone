@@ -1,6 +1,6 @@
 ﻿---
 title: 'EAF Technology Envelope vs Cultural Story'
-claim: 'Nucor''s labor model is partly cultural and partly technological: EAF economics and flexibility create conditions that make its employment practices more viable.'
+claim: "Nucor's labor model is partly cultural and partly technological: EAF economics and flexibility create conditions that make its employment practices more viable."
 typeId: 'independent-analysis'
 status: 'published'
 linkedCaseSlugs:

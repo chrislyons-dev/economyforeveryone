@@ -1,6 +1,6 @@
 ﻿---
 title: 'No-Layoff Norm vs WARN and Facility Actions'
-claim: 'Nucor''s no-layoff norm remains important but has documented exceptions through WARN filings and later facility-level actions.'
+claim: "Nucor's no-layoff norm remains important but has documented exceptions through WARN filings and later facility-level actions."
 typeId: 'primary-documents'
 status: 'published'
 linkedCaseSlugs:

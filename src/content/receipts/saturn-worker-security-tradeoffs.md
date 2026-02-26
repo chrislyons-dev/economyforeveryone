@@ -1,6 +1,6 @@
 ﻿---
 title: 'Worker Security Tradeoffs in Risk-and-Reward Design'
-claim: 'Saturn''s labor design offered upside in strong years but exposed workers to volatility, scheduling strain, and weaker conventional protections.'
+claim: "Saturn's labor design offered upside in strong years but exposed workers to volatility, scheduling strain, and weaker conventional protections."
 typeId: 'independent-analysis'
 status: 'published'
 linkedCaseSlugs:

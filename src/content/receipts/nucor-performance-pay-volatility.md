@@ -1,6 +1,6 @@
 ﻿---
 title: 'Performance-Pay Structure and Volatility Tradeoff'
-claim: 'Nucor''s incentive-heavy pay model supports high upside in strong cycles but transmits severe downside risk to workers during downturns.'
+claim: "Nucor's incentive-heavy pay model supports high upside in strong cycles but transmits severe downside risk to workers during downturns."
 typeId: 'independent-analysis'
 status: 'published'
 linkedCaseSlugs:

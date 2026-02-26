@@ -89,14 +89,14 @@ const buildSearchText = (group: (typeof receiptGroups)[number]) =>
 
     <div class="prose-e4e">
       <p>
-        This page is the evidence ledger for the project. Instead of turning every case study and post
-        into a long citation dump, we keep narrative pages readable and maintain receipts here as grouped
-        evidence.
+        This page is the evidence ledger for the project. Instead of turning every case study and
+        post into a long citation dump, we keep narrative pages readable and maintain receipts here
+        as grouped evidence.
       </p>
       <p>
         Each receipt group makes one testable claim, links to core sources, and points back to the
-        related case studies or blog entries. Use the type matrix for quick orientation, then filter by
-        type, case study, tag, or keyword.
+        related case studies or blog entries. Use the type matrix for quick orientation, then filter
+        by type, case study, tag, or keyword.
       </p>
     </div>
 
@@ -110,7 +110,8 @@ const buildSearchText = (group: (typeof receiptGroups)[number]) =>
               <summary>
                 <span class="receipt-type-name">{type.label}</span>
                 <span class="receipt-type-counts">
-                  {type.caseStudies.length} {type.caseStudies.length === 1 ? 'case study' : 'case studies'}
+                  {type.caseStudies.length}{' '}
+                  {type.caseStudies.length === 1 ? 'case study' : 'case studies'}
                   {' | '}
                   {type.posts.length} {type.posts.length === 1 ? 'blog post' : 'blog posts'}
                   {' | '}
@@ -119,7 +120,9 @@ const buildSearchText = (group: (typeof receiptGroups)[number]) =>
               </summary>
               <p class="muted-note">{type.description}</p>
               <p class="muted-note">
-                <a href="#receipt-groups" data-type-filter={type.id}>Filter receipt groups to this type</a>
+                <a href="#receipt-groups" data-type-filter={type.id}>
+                  Filter receipt groups to this type
+                </a>
               </p>
               {type.caseStudies.length > 0 && (
                 <p class="muted-note">
