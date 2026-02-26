@@ -4,6 +4,10 @@
 
 Ship a secure static Astro foundation for `economyforeveryone.org` that aligns with the communication plan and is resilient across multi-session implementation.
 
+## Status
+
+Bootstrap scope is complete. This document remains as historical baseline; active delivery has moved to content migration and publishing workflows.
+
 ## Scope (This Bootstrap)
 
 1. Static Astro app scaffold (no SSR).
@@ -29,7 +33,7 @@ Ship a secure static Astro foundation for `economyforeveryone.org` that aligns w
 
 ## Next Sessions
 
-1. Add content collections and first two foundation posts.
-2. Implement dark mode toggle with CSP-safe script strategy.
-3. Add stronger linting/tests and a security check stage.
-4. Introduce signature components in production content templates.
+1. Build blog content pipeline using content collections.
+2. Migrate blog posts from old Facebook content into `src/content/blog/`.
+3. Implement blog index/search/filter parity with case studies.
+4. Add publishing guardrails (metadata quality checks, draft handling, and source citation conventions).

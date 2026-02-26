@@ -1,0 +1,45 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const caseStudies = await getCollection('case-studies', ({ data }) => data.status === 'published');
+  return caseStudies.map((study) => ({ params: { slug: study.slug }, props: { study } }));
+}
+
+const { study } = Astro.props;
+const { Content } = await render(study);
+---
+
+<BaseLayout title={`${study.data.title} | Case Studies | Economy for Everyone`}>
+  <section class="section-grid prose-e4e">
+    <p>
+      <a href="/case-studies">Back to case studies</a>
+    </p>
+
+    <div class="ledger-header">
+      <h2 class="title-reset">{study.data.title}</h2>
+      <p class="muted-note">
+        {study.data.bucket} | {study.data.studyDate.toISOString().slice(0, 10)}
+      </p>
+    </div>
+
+    <div class="panel receipt-card">
+      <p><strong>Core pattern:</strong> {study.data.corePattern}</p>
+      <p><strong>Claim:</strong> {study.data.claim}</p>
+      {study.data.summary && <p>{study.data.summary}</p>}
+      <p class="muted-note">
+        <strong>Evidence level:</strong> {study.data.evidenceLevel}
+        {study.data.eventWindowStart && study.data.eventWindowEnd
+          ? ` | Event window: ${study.data.eventWindowStart.toISOString().slice(0, 10)} to ${study.data.eventWindowEnd.toISOString().slice(0, 10)}`
+          : ''}
+      </p>
+    </div>
+
+    <Content />
+
+    <p>
+      <a href="/case-studies">Back to case studies</a>
+    </p>
+  </section>
+</BaseLayout>

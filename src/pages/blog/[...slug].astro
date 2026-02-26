@@ -1,0 +1,42 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => data.status === 'published');
+  return posts.map((post) => ({ params: { slug: post.slug }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<BaseLayout title={`${post.data.title} | Blog | Economy for Everyone`}>
+  <section class="section-grid prose-e4e">
+    <p>
+      <a href="/blog">Back to blog</a>
+    </p>
+
+    <div class="ledger-header">
+      <h2 class="title-reset">{post.data.title}</h2>
+      <p class="muted-note">
+        {post.data.category} | {post.data.pubDate.toISOString().slice(0, 10)} | {post.data.sourceChannel}
+      </p>
+    </div>
+
+    <div class="panel receipt-card">
+      <p>{post.data.description}</p>
+      {post.data.oneSmallAction && (
+        <p class="muted-note">
+          <strong>One small action:</strong> {post.data.oneSmallAction}
+        </p>
+      )}
+    </div>
+
+    <Content />
+
+    <p>
+      <a href="/blog">Back to blog</a>
+    </p>
+  </section>
+</BaseLayout>

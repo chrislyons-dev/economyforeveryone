@@ -172,13 +172,14 @@ a:hover {
 }
 
 .site-nav {
-  border-bottom: 0.08rem solid var(--theme-border-subtle);
+  border-bottom: 0.12rem solid var(--theme-border-strong);
   margin-bottom: 1.4rem;
   padding: 0.35rem 0 0.8rem;
   position: sticky;
-  top: 0.5rem;
-  z-index: 20;
-  backdrop-filter: blur(4px);
+  top: 0;
+  z-index: 50;
+  background: var(--theme-bg-surface);
+  isolation: isolate;
 }
 
 .eyebrow {
@@ -508,3 +509,52 @@ a:hover {
 .timeline-item p {
   margin: 0.25rem 0;
 }
+
+.case-study-title {
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+
+.case-study-detail {
+  margin-top: 0.6rem;
+}
+
+.case-study-detail .prose-e4e h1,
+.case-study-detail .prose-e4e h2,
+.case-study-detail .prose-e4e h3,
+.case-study-detail .prose-e4e h4 {
+  font-weight: 700;
+}
+
+.case-read-link {
+  font-weight: 700;
+}
+
+.case-filter-row {
+  display: grid;
+  gap: 0.7rem;
+  grid-template-columns: minmax(14rem, 1.5fr) repeat(2, minmax(9rem, 1fr));
+  align-items: end;
+}
+
+.case-filter-row label {
+  display: grid;
+  gap: 0.25rem;
+  font-size: 0.85rem;
+  color: var(--theme-text-secondary);
+}
+
+.case-filter-input {
+  border: 0.08rem solid var(--theme-border-default);
+  border-radius: 0.35rem;
+  padding: 0.42rem 0.5rem;
+  background: var(--theme-bg-surface);
+  color: var(--theme-text-primary);
+}
+
+@media (max-width: 900px) {
+  .case-filter-row {
+    grid-template-columns: 1fr;
+  }
+}
+
