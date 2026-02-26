@@ -1,0 +1,76 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const toIdPath = (id: string) => id.replaceAll('\\', '/');
+
+const getDocType = (id: string) => {
+  const path = toIdPath(id).toLowerCase();
+  if (path.includes('/templates/')) return 'template';
+  if (path.includes('/core/')) return 'core';
+  if (path.includes('/adapters/')) return 'adapter';
+  if (path.includes('/modules/')) return 'module';
+  if (path.includes('/places/')) return 'place';
+  if (path.endsWith('/readme.md')) return 'overview';
+  return 'playbook';
+};
+
+export async function getStaticPaths() {
+  const normalizeId = (id: string) => id.replaceAll('\\', '/');
+  const toPath = (id: string) => {
+    const normalized = normalizeId(id).replace(/\.md$/i, '');
+    const lower = normalized.toLowerCase();
+    if (lower === 'readme') return '';
+    if (lower.endsWith('/readme')) return normalized.slice(0, -'/README'.length);
+    return normalized;
+  };
+
+  const entries = await getCollection('playbooks', (entry) => {
+    const id = normalizeId(entry.id);
+    const urlPath = toPath(id);
+    return !id.includes('/_archive/') && !id.startsWith('_archive/') && Boolean(urlPath);
+  });
+
+  return entries.map((entry) => ({
+    params: { slug: toPath(entry.id) },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const id = toIdPath(entry.id);
+const docType = getDocType(id);
+const updated = entry.data.last_updated ? entry.data.last_updated.toISOString().slice(0, 10) : '';
+---
+
+<BaseLayout title={`${entry.data.title} | Playbooks | Economy for Everyone`}>
+  <section class="section-grid prose-e4e">
+    <p>
+      <a href="/playbooks">Back to playbooks</a>
+    </p>
+
+    <div class="ledger-header">
+      <h2 class="title-reset">{entry.data.title}</h2>
+      <p class="muted-note">
+        {entry.data.lane} | {docType}
+        {updated ? ` | Updated ${updated}` : ''}
+      </p>
+    </div>
+
+    {
+      entry.data.tags.length > 0 && (
+        <div class="panel">
+          <p class="eyebrow">Tags</p>
+          <p class="muted-note">{entry.data.tags.join(', ')}</p>
+        </div>
+      )
+    }
+
+    <Content />
+
+    <p>
+      <a href="/playbooks">Back to playbooks</a>
+    </p>
+  </section>
+</BaseLayout>

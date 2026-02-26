@@ -1,4 +1,4 @@
----
+﻿---
 title: "I Didn't Know the Term Mutual Aid Until I Needed It"
 description: "Mutual aid isn't new. My awareness of it was. Learning from people who have carried this work for generations."
 pubDate: 2026-01-29
@@ -24,8 +24,6 @@ audience:
   - 'community-leaders'
 receipts: []
 ---
-
-# I Didn't Know the Term Mutual Aid Until I Needed It
 
 I'm going to admit something that's uncomfortable, but true:
 

@@ -1,6 +1,83 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import OneSmallAction from '../components/OneSmallAction.astro';
+
+import { getCollection } from 'astro:content';
+
+const toIdPath = (id: string) => id.replaceAll('\\', '/');
+const toUrlPath = (id: string) => {
+  const normalized = toIdPath(id).replace(/\.md$/i, '');
+  const lower = normalized.toLowerCase();
+  if (lower === 'readme') return '';
+  if (lower.endsWith('/readme')) return normalized.slice(0, -'/README'.length);
+  return normalized;
+};
+
+const getDocType = (id: string) => {
+  const path = toIdPath(id).toLowerCase();
+  if (path.includes('/templates/')) return 'template';
+  if (path.includes('/core/')) return 'core';
+  if (path.includes('/adapters/')) return 'adapter';
+  if (path.includes('/modules/')) return 'module';
+  if (path.includes('/places/')) return 'place';
+  if (path.endsWith('/readme.md')) return 'overview';
+  return 'playbook';
+};
+
+const toExcerpt = (markdown: string) =>
+  markdown
+    .replace(/```[\s\S]*?```/g, ' ')
+    .replace(/`[^`]*`/g, ' ')
+    .replace(/!\[[^\]]*\]\([^)]+\)/g, ' ')
+    .replace(/\[[^\]]+\]\([^)]+\)/g, ' ')
+    .replace(/^#+\s+/gm, '')
+    .replace(/[*_>~-]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 190);
+
+const playbooks = (
+  await getCollection('playbooks', (entry) => {
+    const id = toIdPath(entry.id);
+    const urlPath = toUrlPath(id);
+    return !id.includes('/_archive/') && !id.startsWith('_archive/') && Boolean(urlPath);
+  })
+)
+  .map((entry) => {
+    const id = toIdPath(entry.id);
+    const pathParts = id.split('/');
+    const lane = entry.data.lane || pathParts[0] || 'Playbooks';
+    const docType = getDocType(id);
+    const excerpt = toExcerpt(entry.body ?? '');
+    return {
+      id,
+      urlPath: toUrlPath(id),
+      title: entry.data.title,
+      lane,
+      docType,
+      isRoot: entry.data.is_root ?? false,
+      tags: entry.data.tags ?? [],
+      lastUpdated: entry.data.last_updated
+        ? entry.data.last_updated.toISOString().slice(0, 10)
+        : '',
+      excerpt,
+    };
+  })
+  .sort((a, b) => {
+    if (a.isRoot !== b.isRoot) return a.isRoot ? -1 : 1;
+    const laneCompare = a.lane.localeCompare(b.lane);
+    if (laneCompare !== 0) return laneCompare;
+    return a.title.localeCompare(b.title);
+  });
+
+const laneOptions = [...new Set(playbooks.map((item) => item.lane))].sort((a, b) =>
+  a.localeCompare(b)
+);
+const docTypeOptions = [...new Set(playbooks.map((item) => item.docType))].sort((a, b) =>
+  a.localeCompare(b)
+);
+const tagOptions = [...new Set(playbooks.flatMap((item) => item.tags ?? []))].sort((a, b) =>
+  a.localeCompare(b)
+);
 ---
 
 <BaseLayout title="Playbooks | Economy for Everyone">
@@ -8,12 +85,137 @@ import OneSmallAction from '../components/OneSmallAction.astro';
     <div class="ledger-header">
       <h2 class="title-reset">Playbooks</h2>
     </div>
-    <p class="prose-e4e">
-      Practical guidance for individuals, teams, and communities. Every playbook ends with one
-      concrete next step.
+
+    <div class="prose-e4e">
+      <p>
+        This is the action library for the project. The model explains what is happening; these
+        playbooks are how to do something useful about it in real life.
+      </p>
+      <p>
+        We keep them practical, small, and repeatable: one clear move, one measurable outcome, one
+        follow-up. Use filters to find what fits your lane, then start with the smallest next step.
+      </p>
+    </div>
+
+    <div class="case-filter-row panel" id="playbook-filters">
+      <label>
+        Lane
+        <select id="playbook-filter-lane" class="case-filter-input">
+          <option value="all">All lanes</option>
+          {laneOptions.map((lane) => <option value={lane}>{lane}</option>)}
+        </select>
+      </label>
+
+      <label>
+        Type
+        <select id="playbook-filter-type" class="case-filter-input">
+          <option value="all">All types</option>
+          {docTypeOptions.map((type) => <option value={type}>{type}</option>)}
+        </select>
+      </label>
+
+      <label>
+        Tag
+        <select id="playbook-filter-tag" class="case-filter-input">
+          <option value="all">All tags</option>
+          {tagOptions.map((tag) => <option value={tag}>{tag}</option>)}
+        </select>
+      </label>
+
+      <label>
+        Search
+        <input
+          id="playbook-filter-search"
+          class="case-filter-input"
+          type="search"
+          placeholder="Search title, excerpt, path, or tags"
+        />
+      </label>
+    </div>
+
+    <p id="playbook-filter-status" class="muted-note">
+      Showing {playbooks.length} of {playbooks.length} playbooks.
     </p>
-    <OneSmallAction
-      action="Use this section to publish operator briefs and field-tested actions from your 05/06 outputs."
-    />
+
+    <div class="section-grid" id="playbook-list">
+      {
+        playbooks.map((item) => (
+          <article
+            class="panel action-card playbook-item"
+            data-lane={item.lane}
+            data-type={item.docType}
+            data-tags={(item.tags ?? []).join(',')}
+            data-search={`${item.title} ${item.excerpt} ${item.id} ${(item.tags ?? []).join(' ')}`.toLowerCase()}
+          >
+            <p class="eyebrow">
+              {item.lane} | {item.docType}
+              {item.lastUpdated ? ` | Updated ${item.lastUpdated}` : ''}
+            </p>
+            <h3 class="title-reset case-study-title">{item.title}</h3>
+            <p>{item.excerpt}</p>
+            <p>
+              <a class="case-read-link" href={`/playbooks/${item.urlPath}/`}>
+                Read full playbook
+              </a>
+            </p>
+            {item.tags.length > 0 && (
+              <p class="muted-note">
+                <strong>Tags:</strong> {item.tags.join(', ')}
+              </p>
+            )}
+          </article>
+        ))
+      }
+    </div>
+
+    <p id="playbook-filter-empty" class="muted-note" hidden>No playbooks match this filter.</p>
   </section>
+
+  <script is:inline>
+    (() => {
+      const laneFilter = document.getElementById('playbook-filter-lane');
+      const typeFilter = document.getElementById('playbook-filter-type');
+      const tagFilter = document.getElementById('playbook-filter-tag');
+      const searchFilter = document.getElementById('playbook-filter-search');
+      const status = document.getElementById('playbook-filter-status');
+      const empty = document.getElementById('playbook-filter-empty');
+      const items = Array.from(document.querySelectorAll('.playbook-item'));
+
+      const toList = (value) =>
+        (value || '')
+          .split(',')
+          .map((part) => part.trim())
+          .filter(Boolean);
+
+      const applyFilters = () => {
+        const laneValue = laneFilter instanceof HTMLSelectElement ? laneFilter.value : 'all';
+        const typeValue = typeFilter instanceof HTMLSelectElement ? typeFilter.value : 'all';
+        const tagValue = tagFilter instanceof HTMLSelectElement ? tagFilter.value : 'all';
+        const searchValue =
+          searchFilter instanceof HTMLInputElement ? searchFilter.value.trim().toLowerCase() : '';
+
+        let shown = 0;
+        for (const item of items) {
+          const element = item;
+          const laneMatch = laneValue === 'all' || element.dataset.lane === laneValue;
+          const typeMatch = typeValue === 'all' || element.dataset.type === typeValue;
+          const tagMatch = tagValue === 'all' || toList(element.dataset.tags).includes(tagValue);
+          const searchMatch = !searchValue || (element.dataset.search || '').includes(searchValue);
+
+          const visible = laneMatch && typeMatch && tagMatch && searchMatch;
+          element.hidden = !visible;
+          if (visible) shown += 1;
+        }
+
+        if (status) status.textContent = `Showing ${shown} of ${items.length} playbooks.`;
+        if (empty) empty.hidden = shown !== 0;
+      };
+
+      if (laneFilter) laneFilter.addEventListener('change', applyFilters);
+      if (typeFilter) typeFilter.addEventListener('change', applyFilters);
+      if (tagFilter) tagFilter.addEventListener('change', applyFilters);
+      if (searchFilter) searchFilter.addEventListener('input', applyFilters);
+      applyFilters();
+    })();
+  </script>
 </BaseLayout>

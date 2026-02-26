@@ -1,4 +1,4 @@
----
+﻿---
 title: 'Small Guardrails, Big Consequences'
 description: 'Democracies rarely die all at once. They erode when small rule changes, courts, and accountability stop working in real time.'
 pubDate: 2026-01-25
@@ -26,8 +26,6 @@ audience:
   - 'community-leaders'
 receipts: []
 ---
-
-# Small Guardrails, Big Consequences
 
 ## Why I'm posting this
 
@@ -224,18 +222,18 @@ Stay kind. Stay curious. Stay awake.
 ## Sources / receipts
 
 ```text
-• White House order on policy-influencing positions (federal workforce reclassification):
+â€¢ White House order on policy-influencing positions (federal workforce reclassification):
 https://www.whitehouse.gov/.../restoring-accountability.../
 
-• Reuters - White House rule restricting journalists' access:
+â€¢ Reuters - White House rule restricting journalists' access:
 https://www.reuters.com/.../white-house-issues-new-rule.../
 
-• Brennan Center - Election certification (why it matters, what to watch):
+â€¢ Brennan Center - Election certification (why it matters, what to watch):
 https://www.brennancenter.org/.../election-certification
 
-• ICNL - U.S. Protest Law Tracker (anti-protest bills and trends):
+â€¢ ICNL - U.S. Protest Law Tracker (anti-protest bills and trends):
 https://www.icnl.org/usprotestlawtracker/
 
-• AP - Pentagon media restrictions (approval requirements / access limits):
+â€¢ AP - Pentagon media restrictions (approval requirements / access limits):
 https://apnews.com/article/8420d3a80de20a39605c588d9990c582
 ```

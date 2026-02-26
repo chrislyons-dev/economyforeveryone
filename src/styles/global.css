@@ -163,12 +163,50 @@ a:hover {
 
 .prose-e4e {
   font-family: var(--font-serif);
-  line-height: 1.62;
+  line-height: 1.1;
   max-width: 70ch;
 }
 
 .prose-e4e p {
-  margin: 0 0 1rem;
+  margin: 0 0 0.72rem;
+}
+
+.prose-e4e h1,
+.prose-e4e h2,
+.prose-e4e h3,
+.prose-e4e h4 {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--theme-text-primary);
+  margin: 0.25rem 0 0.25rem;
+}
+
+.prose-e4e h1 {
+  font-size: 1.42rem;
+}
+
+.prose-e4e h2 {
+  font-size: 1.27rem;
+}
+
+.prose-e4e h3 {
+  font-size: 1.12rem;
+}
+
+.prose-e4e h4 {
+  font-size: 1.1rem;
+  letter-spacing: 0.01em;
+}
+
+.prose-e4e ul,
+.prose-e4e ol {
+  margin: 0.25rem 0 0.78rem;
+  padding-left: 1.2rem;
+}
+
+.prose-e4e li {
+  margin: 0.2rem 0;
 }
 
 .site-nav {
@@ -192,15 +230,18 @@ a:hover {
 
 .eyebrow-wide {
   margin: 0;
-  font-size: 0.8rem;
+  font-size: 0.98rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--theme-text-muted);
+  font-weight: 700;
+  color: var(--theme-text-secondary);
 }
 
 .site-title {
-  margin: 0.2rem 0 0;
-  font-size: 1.35rem;
+  margin: 0.15rem 0 0;
+  font-size: 1.12rem;
+  font-weight: 500;
+  color: var(--theme-text-muted);
 }
 
 .nav-links {

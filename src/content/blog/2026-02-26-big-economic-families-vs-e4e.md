@@ -27,8 +27,6 @@ audience:
 receipts: []
 ---
 
-# Big Economic Families vs E4E (and Why I'm Not Joining Anyone's Tribe)
-
 ## The point of this post (and what it's not)
 
 I am not trying to be left or right. I am trying to be useful: lower the monthly squeeze, increase

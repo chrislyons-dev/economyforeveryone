@@ -38,8 +38,6 @@ receipts:
     url: 'https://www.nber.org/papers/w22637'
 ---
 
-# E4E Isn't a New Ideology. It's a Practical Mash-Up (With Receipts)
-
 ## A quick confession
 
 For a long time, my economy opinions were mostly vibes plus whatever I had absorbed from headlines,

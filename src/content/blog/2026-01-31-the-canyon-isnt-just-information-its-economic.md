@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Canyon Isn't Just Information. It's Economic."
 description: "A lot of polarization is downstream of economic insecurity. When people don't feel secure, they are easier to scare, aim, and split."
 pubDate: 2026-01-31
@@ -26,8 +26,6 @@ audience:
   - 'policy-interested-readers'
 receipts: []
 ---
-
-# The Canyon Isn't Just Information. It's Economic.
 
 I've been writing a lot about information bubbles lately, how we get algorithmed into different
 realities, and how I'm trying to build small bridges instead of yelling across the canyon.
@@ -165,3 +163,8 @@ I'm trying to trade doomscrolling for daily practice:
 **be humble, be kind, be useful - and stay awake.**
 
 Take what helps. Leave the rest.
+
+## Related Core Model Posts
+
+- [Information Bubbles and Shared Reality](/blog/2026-01-28-information-bubbles-and-shared-reality/)
+- [Core Model](/core-model/)

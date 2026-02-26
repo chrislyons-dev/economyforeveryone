@@ -1,9 +1,9 @@
----
+﻿---
 title: 'Information Bubbles and Shared Reality'
 description: "When we live in different information bubbles, we don't just disagree; we struggle to agree on what's happening."
 pubDate: 2026-01-28
 status: 'published'
-category: 'methods'
+category: 'core-model'
 topics:
   - 'information-environment'
   - 'bridge-building'
@@ -24,8 +24,6 @@ audience:
   - 'practitioners'
 receipts: []
 ---
-
-# Information Bubbles and Shared Reality
 
 I think we all agree on this: the U.S. government shouldn't violate constitutional rights. Period.
 
@@ -175,3 +173,8 @@ Not viral results. Not dopamine results.
 **Human results.**
 
 And right now, I'll take those.
+
+## Related Core Model Posts
+
+- [The Canyon Isn't Just Information. It's Economic.](/blog/2026-01-31-the-canyon-isnt-just-information-its-economic/)
+- [Core Model](/core-model/)

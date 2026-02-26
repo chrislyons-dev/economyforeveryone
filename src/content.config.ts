@@ -92,8 +92,21 @@ const receipts = defineCollection({
   }),
 });
 
+const playbooks = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string().min(1),
+    last_updated: z.coerce.date().optional(),
+    status: z.enum(['draft', 'published']).default('draft'),
+    lane: z.string().min(1),
+    is_root: z.boolean().default(false),
+    tags: z.array(z.string()).default([]),
+  }),
+});
+
 export const collections = {
   'case-studies': caseStudies,
   blog,
   receipts,
+  playbooks,
 };
