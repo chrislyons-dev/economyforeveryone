@@ -6,8 +6,34 @@ economyforeveryone.org source: a narrative-first, evidence-driven publication on
 
 - Astro (static output, no SSR)
 - Tailwind CSS v4 via Vite plugin
-- Optional React islands support (`@astrojs/react`)
+- React islands support (`@astrojs/react`) for interactive content browsers
 - Cloudflare Pages deployment via GitHub Actions
+
+## Content Architecture (Current)
+
+- Website-published content lives in this repo under `src/content/**`.
+- Astro Content Collections are defined in `src/content.config.ts` for:
+  - `blog`
+  - `case-studies`
+  - `playbooks`
+  - `receipts`
+- Primary content paths:
+  - `src/content/blog`
+  - `src/content/case-studies`
+  - `src/content/playbooks`
+  - `src/content/receipts`
+
+## Current IA and UX Notes
+
+- Public primary nav emphasizes: Home, Origin Story, Core Model, Playbooks, Blog, Case Studies, Methods, About.
+- Standalone `Contribute` page was folded into `About`.
+- Standalone public `Field Notes` page/nav item was removed.
+- Content indexes for blog, case studies, and playbooks now share a consistent search/filter UX pattern:
+  - same bordered filter container
+  - same control styling
+  - section-specific card color accents
+- Detail pages render frontmatter title; redundant in-body `# Title` headings have been removed where applicable.
+- Playbook internal links are normalized to clean site routes (`/playbooks/...`) with human-readable link labels.
 
 ## Local Development
 
@@ -50,6 +76,11 @@ npm run quality
 
 - Bootstrap plan: `docs/roadmap/bootstrap-session-plan.md`
 - Session log: `docs/roadmap/session-log.md`
+
+## Architecture Docs
+
+- Architecture index: `docs/architecture/README.md`
+- Architecture Decision Records (ADRs): `docs/architecture/decisions/`
 
 ## Licensing
 

@@ -58,17 +58,34 @@
 - Added `/blog/posts.json` metadata endpoint.
 - Added Playwright e2e coverage for blog index/search behavior.
 
+### Completed (Later Sessions)
+
+1. Migrated and normalized playbooks into local site content under `src/content/playbooks` (self-contained in `economyforeveryone`).
+2. Added playbook collection rendering with list + detail routes and search/filter UI.
+3. Added root playbook ordering (`is_root`) and consistent root naming (`<Lane> Playbook`).
+4. Linked Civics/Community/Healthcare/Writing root playbooks to internal playbook routes with human-readable titles.
+5. Removed public `Field Notes` nav/page; kept playbook content references where useful.
+6. Merged `Contribute` into `About` and standardized contribution path (GitHub issues + email).
+7. Migrated and normalized additional blog posts; cleaned frontmatter, descriptions, and encoding artifacts.
+8. Reclassified core-model-adjacent blogs and added reciprocal “Related Core Model Posts” links.
+9. Removed redundant in-body blog `# title` headings where frontmatter title is already rendered.
+10. Unified search/filter UX treatment across playbooks/blogs/case studies (shared border/card treatment).
+11. Applied lane-level visual differentiation (blogs blue, case studies terracotta, playbooks olive/action).
+12. Improved reading UX with tighter prose rhythm and clearer heading hierarchy.
+13. Rebalanced site header typography so brand hierarchy reads correctly.
+14. Repeatedly validated with `npm run check` and kept diagnostics clean.
+
 ### Risks / Follow-ups
 
-1. Blog remains placeholder-only and is not yet using content collections.
-2. Case-study `sources` arrays are currently unfilled for migrated entries.
-3. Case-study browser currently uses in-page hydrated metadata; no query-param persistence yet.
-4. Occasional dev-server/HMR instability can mimic UI disappearance; restart resolves.
+1. Astro dev-mode duplicate-id warnings still appear intermittently during sync; checks/builds are clean but warning source should be audited.
+2. Some migrated content still has `draft` status in playbooks and may need publish-state review before launch.
+3. Link QA across all newly normalized playbook routes should be run once more in production-like build.
+4. Cloudflare deploy secrets/workflow validation remains required for first live publish.
 
 ### Next Action
 
-1. Start blog migration from old Facebook posts into `src/content/blog/`.
-2. Add `blog` collection schema and frontmatter template.
-3. Implement `/blog` browser parity (search/filter/sort + detail pages).
-4. Migrate first 5-10 Facebook-derived posts and validate publishing workflow.
-5. Normalize receipts and source links for migrated foundation posts.
+1. Final pre-deploy content pass: spot-check key pages (home, origin, core model, playbooks, blogs, case studies).
+2. Run full release checks: `npm run check`, `npm run build`, and smoke e2e on critical paths.
+3. Verify deployment wiring and secrets for Cloudflare production publish.
+4. Execute first production deployment and validate post-deploy headers/CSP and route health.
+5. Open a post-launch stabilization checklist (broken links, metadata, analytics, feedback capture).

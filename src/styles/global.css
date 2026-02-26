@@ -235,6 +235,17 @@ a:hover {
   text-transform: uppercase;
   font-weight: 700;
   color: var(--theme-text-secondary);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.brand-mark {
+  width: 1.1rem;
+  height: 1.1rem;
+  flex: 0 0 auto;
+  display: block;
+  color: var(--theme-text-secondary);
 }
 
 .site-title {

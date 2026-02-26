@@ -6,7 +6,7 @@ Ship a secure static Astro foundation for `economyforeveryone.org` that aligns w
 
 ## Status
 
-Bootstrap scope is complete. This document remains as historical baseline; active delivery has moved to content migration and publishing workflows.
+Bootstrap scope is complete. This document remains as historical baseline; active delivery has moved to content migration, UX consistency, and deployment readiness.
 
 ## Scope (This Bootstrap)
 
@@ -33,7 +33,8 @@ Bootstrap scope is complete. This document remains as historical baseline; activ
 
 ## Next Sessions
 
-1. Build blog content pipeline using content collections.
-2. Migrate blog posts from old Facebook content into `src/content/blog/`.
-3. Implement blog index/search/filter parity with case studies.
-4. Add publishing guardrails (metadata quality checks, draft handling, and source citation conventions).
+1. Complete deployment readiness checklist (content publish-state review + link QA).
+2. Run release validation (`check`, `build`, and smoke e2e across core routes).
+3. Verify Cloudflare deploy configuration/secrets and execute first production deployment.
+4. Validate post-deploy CSP/headers, route health, and rollback path.
+5. Begin post-launch operations cadence (content updates, QA gate, and issue intake).
