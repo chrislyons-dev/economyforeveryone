@@ -1,25 +1,25 @@
 ---
-title: "Boeing (Post-Merger Era)"
-bucket: "failure"
-corePattern: "Boeing optimized for financial results, weakened safety guardrails, and paid for it late."
+title: 'Boeing (Post-Merger Era)'
+bucket: 'failure'
+corePattern: 'Boeing optimized for financial results, weakened safety guardrails, and paid for it late.'
 studyDate: 2026-02-26
 eventWindowStart: 1997-01-01
 eventWindowEnd: 2026-02-01
-status: "published"
-summary: "After the 1997 merger era shift toward financial targets, Boeing experienced repeated safety and quality failures with delayed but severe losses. The case stress-tests the model: market punishment eventually arrived, but too late to function as a primary safety guardrail."
-claim: "In safety-critical systems, competition and market discipline are not enough without independent, fast, enforceable safety oversight."
-evidenceLevel: "medium"
+status: 'published'
+summary: 'After the 1997 merger era shift toward financial targets, Boeing experienced repeated safety and quality failures with delayed but severe losses. The case stress-tests the model: market punishment eventually arrived, but too late to function as a primary safety guardrail.'
+claim: 'In safety-critical systems, competition and market discipline are not enough without independent, fast, enforceable safety oversight.'
+evidenceLevel: 'medium'
 policyDomain:
-  - "aviation-safety"
-  - "corporate-governance"
-  - "regulation"
-  - "labor"
+  - 'aviation-safety'
+  - 'corporate-governance'
+  - 'regulation'
+  - 'labor'
 tags:
-  - "boeing"
-  - "737-max"
-  - "oversight"
-  - "incentives"
-  - "accountability"
+  - 'boeing'
+  - '737-max'
+  - 'oversight'
+  - 'incentives'
+  - 'accountability'
 sources: []
 ---
 
@@ -53,13 +53,13 @@ delayed.
 
 ## Guardrails - and how each one failed
 
-| Guardrail | What should have happened | What actually happened |
-|---|---|---|
-| **FAA oversight** | Independent certification and hard challenge of safety claims | Boeing had broad self-certification authority; oversight proved too weak (confirmed) |
-| **Internal safety culture** | Engineers and pilots could escalate and stop unsafe choices | Warnings were documented, but did not trigger strong corrective action (confirmed/plausible by event) |
-| **Board oversight** | Long-term risk should have constrained short-term extraction | Incentives remained aligned with market outcomes, not safety-first outcomes (plausible) |
-| **Compensation design** | Pay should reward durable safety and product integrity | Share-price incentives dominated the period before the crashes (confirmed/plausible by component detail) |
-| **Market discipline** | Competition should punish unsafe behavior early | Penalty came late, after severe harm (confirmed) |
+| Guardrail                   | What should have happened                                     | What actually happened                                                                                   |
+| --------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **FAA oversight**           | Independent certification and hard challenge of safety claims | Boeing had broad self-certification authority; oversight proved too weak (confirmed)                     |
+| **Internal safety culture** | Engineers and pilots could escalate and stop unsafe choices   | Warnings were documented, but did not trigger strong corrective action (confirmed/plausible by event)    |
+| **Board oversight**         | Long-term risk should have constrained short-term extraction  | Incentives remained aligned with market outcomes, not safety-first outcomes (plausible)                  |
+| **Compensation design**     | Pay should reward durable safety and product integrity        | Share-price incentives dominated the period before the crashes (confirmed/plausible by component detail) |
+| **Market discipline**       | Competition should punish unsafe behavior early               | Penalty came late, after severe harm (confirmed)                                                         |
 
 Competition existed (Airbus remained strong), but that alone did not prevent failure.
 

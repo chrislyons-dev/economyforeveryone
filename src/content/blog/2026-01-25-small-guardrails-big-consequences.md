@@ -1,26 +1,26 @@
 ---
-title: "Small Guardrails, Big Consequences"
-description: "Democracies rarely die all at once. They erode when small rule changes, courts, and accountability stop working in real time."
+title: 'Small Guardrails, Big Consequences'
+description: 'Democracies rarely die all at once. They erode when small rule changes, courts, and accountability stop working in real time.'
 pubDate: 2026-01-25
-status: "published"
-category: "guardrails"
+status: 'published'
+category: 'guardrails'
 topics:
-  - "institutions"
-  - "rule-of-law"
-  - "democracy"
+  - 'institutions'
+  - 'rule-of-law'
+  - 'democracy'
 tags:
-  - "democracy"
-  - "rule-of-law"
-  - "due-process"
-  - "information-bubbles"
-  - "civic-habits"
-sourceChannel: "facebook"
-legacyPostRef: "2026-01-30 #4/#5"
-triage: "promote-to-canonical+linkedin"
-oneSmallAction: "One meeting, one call, one act of neighborly help. Repeat."
+  - 'democracy'
+  - 'rule-of-law'
+  - 'due-process'
+  - 'information-bubbles'
+  - 'civic-habits'
+sourceChannel: 'facebook'
+legacyPostRef: '2026-01-30 #4/#5'
+triage: 'promote-to-canonical+linkedin'
+oneSmallAction: 'One meeting, one call, one act of neighborly help. Repeat.'
 audience:
-  - "general-public"
-  - "community-leaders"
+  - 'general-public'
+  - 'community-leaders'
 receipts: []
 ---
 

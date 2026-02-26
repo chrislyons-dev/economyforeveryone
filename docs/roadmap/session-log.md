@@ -50,12 +50,13 @@
 8. Added case-study Playwright e2e coverage for list stability and detail-page persistence.
 9. Adjusted sticky header layering/background to prevent content bleed-through.
 10. Scaffolded blog content system using communication-plan and legacy-post structure cues:
-   - Added `blog` collection schema in `src/content.config.ts`.
-   - Added blog template in `src/content/blog/TEMPLATE.md`.
-   - Added initial migrated foundation posts from legacy Facebook references.
-   - Added blog browser island with search/filter/sort and static detail routes.
-   - Added `/blog/posts.json` metadata endpoint.
-   - Added Playwright e2e coverage for blog index/search behavior.
+
+- Added `blog` collection schema in `src/content.config.ts`.
+- Added blog template in `src/content/blog/TEMPLATE.md`.
+- Added initial migrated foundation posts from legacy Facebook references.
+- Added blog browser island with search/filter/sort and static detail routes.
+- Added `/blog/posts.json` metadata endpoint.
+- Added Playwright e2e coverage for blog index/search behavior.
 
 ### Risks / Follow-ups
 

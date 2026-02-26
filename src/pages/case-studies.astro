@@ -3,8 +3,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import CaseStudyBrowser from '../components/CaseStudyBrowser';
 
-const caseStudies = (await getCollection('case-studies', ({ data }) => data.status === 'published'))
-  .sort((a, b) => b.data.studyDate.valueOf() - a.data.studyDate.valueOf());
+const caseStudies = (
+  await getCollection('case-studies', ({ data }) => data.status === 'published')
+).sort((a, b) => b.data.studyDate.valueOf() - a.data.studyDate.valueOf());
 
 const caseStudyIndex = caseStudies.map((study) => ({
   slug: study.slug,
@@ -49,7 +50,9 @@ const caseStudyIndex = caseStudies.map((study) => ({
                 <h3 class="title-reset case-study-title">{study.data.title}</h3>
                 <p>{study.data.summary ?? study.data.claim}</p>
                 <p>
-                  <a class="case-read-link" href={`/case-studies/${study.slug}/`}>Read full case</a>
+                  <a class="case-read-link" href={`/case-studies/${study.slug}/`}>
+                    Read full case
+                  </a>
                 </p>
               </li>
             ))}

@@ -3,8 +3,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import BlogBrowser from '../../components/BlogBrowser';
 
-const posts = (await getCollection('blog', ({ data }) => data.status === 'published'))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const posts = (await getCollection('blog', ({ data }) => data.status === 'published')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
 
 const postIndex = posts.map((post) => ({
   slug: post.slug,
@@ -47,7 +48,9 @@ const postIndex = posts.map((post) => ({
                 <h3 class="title-reset case-study-title">{post.data.title}</h3>
                 <p>{post.data.description}</p>
                 <p>
-                  <a class="case-read-link" href={`/blog/${post.slug}/`}>Read full post</a>
+                  <a class="case-read-link" href={`/blog/${post.slug}/`}>
+                    Read full post
+                  </a>
                 </p>
               </li>
             ))}

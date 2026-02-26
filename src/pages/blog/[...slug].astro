@@ -20,17 +20,21 @@ const { Content } = await render(post);
     <div class="ledger-header">
       <h2 class="title-reset">{post.data.title}</h2>
       <p class="muted-note">
-        {post.data.category} | {post.data.pubDate.toISOString().slice(0, 10)} | {post.data.sourceChannel}
+        {post.data.category} | {post.data.pubDate.toISOString().slice(0, 10)} | {
+          post.data.sourceChannel
+        }
       </p>
     </div>
 
     <div class="panel receipt-card">
       <p>{post.data.description}</p>
-      {post.data.oneSmallAction && (
-        <p class="muted-note">
-          <strong>One small action:</strong> {post.data.oneSmallAction}
-        </p>
-      )}
+      {
+        post.data.oneSmallAction && (
+          <p class="muted-note">
+            <strong>One small action:</strong> {post.data.oneSmallAction}
+          </p>
+        )
+      }
     </div>
 
     <Content />

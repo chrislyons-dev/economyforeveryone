@@ -1,24 +1,24 @@
 ---
-title: "Saturn (GM Division)"
-bucket: "failure"
-corePattern: "Saturn had two problems at once: weak protection from GM control and a business model that kept losing money."
+title: 'Saturn (GM Division)'
+bucket: 'failure'
+corePattern: 'Saturn had two problems at once: weak protection from GM control and a business model that kept losing money.'
 studyDate: 2026-02-26
 eventWindowStart: 1985-01-01
 eventWindowEnd: 2010-01-01
-status: "published"
-summary: "Saturn combined an initially strong worker-customer model with weak parent-level autonomy protections and fragile economics. The case shows that governance protections and business viability must both hold for a distinct subsidiary model to survive."
-claim: "Subsidiary autonomy can improve outcomes, but without durable decision rights and viable unit economics, parent control and financial pressure eventually dominate."
-evidenceLevel: "medium"
+status: 'published'
+summary: 'Saturn combined an initially strong worker-customer model with weak parent-level autonomy protections and fragile economics. The case shows that governance protections and business viability must both hold for a distinct subsidiary model to survive.'
+claim: 'Subsidiary autonomy can improve outcomes, but without durable decision rights and viable unit economics, parent control and financial pressure eventually dominate.'
+evidenceLevel: 'medium'
 policyDomain:
-  - "corporate-governance"
-  - "labor"
-  - "industrial-policy"
+  - 'corporate-governance'
+  - 'labor'
+  - 'industrial-policy'
 tags:
-  - "automotive"
-  - "subsidiary"
-  - "saturn"
-  - "gm"
-  - "autonomy"
+  - 'automotive'
+  - 'subsidiary'
+  - 'saturn'
+  - 'gm'
+  - 'autonomy'
 sources: []
 ---
 
@@ -49,12 +49,12 @@ So two things were true at once:
 
 ## Guardrails - and how each one failed
 
-| Guardrail | What was needed | What actually happened |
-|---|---|---|
-| **Who had final say** | Saturn needed durable authority over long-term product choices | GM kept final control and redirected product/platform decisions |
-| **Could workers keep their deal** | Spring Hill labor model needed long-term stability | Workers raised major complaints, modified terms in 1999, and voted back to GM master contract in 2003-2004 |
-| **Leadership commitment** | Long-term board/CEO support for Saturn's distinct model | GM leadership changed; each team prioritized portfolio-level returns |
-| **Protected product funding** | Saturn needed a reliable product pipeline | GM did not expand Spring Hill when demand exceeded supply and moved key production elsewhere |
+| Guardrail                         | What was needed                                                | What actually happened                                                                                     |
+| --------------------------------- | -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Who had final say**             | Saturn needed durable authority over long-term product choices | GM kept final control and redirected product/platform decisions                                            |
+| **Could workers keep their deal** | Spring Hill labor model needed long-term stability             | Workers raised major complaints, modified terms in 1999, and voted back to GM master contract in 2003-2004 |
+| **Leadership commitment**         | Long-term board/CEO support for Saturn's distinct model        | GM leadership changed; each team prioritized portfolio-level returns                                       |
+| **Protected product funding**     | Saturn needed a reliable product pipeline                      | GM did not expand Spring Hill when demand exceeded supply and moved key production elsewhere               |
 
 Bottom line: the model had no external protector. Its survival depended on GM leadership, UAW
 national leadership, and Spring Hill workers all staying aligned. That alignment did not hold.

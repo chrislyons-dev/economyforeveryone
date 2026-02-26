@@ -1,24 +1,24 @@
 ---
-title: "Citizens United v. FEC (2010)"
-bucket: "failure"
-corePattern: "Remove a spending guardrail, fail to enforce the replacement, and money scales faster than accountability."
+title: 'Citizens United v. FEC (2010)'
+bucket: 'failure'
+corePattern: 'Remove a spending guardrail, fail to enforce the replacement, and money scales faster than accountability.'
 studyDate: 2026-02-26
 eventWindowStart: 2010-01-21
 eventWindowEnd: 2026-02-01
-status: "published"
-summary: "This case tracks how post-2010 campaign-finance design removed scale constraints while enforcement capacity failed to keep pace. The result is a durable stress test: disclosure and coordination rules without timely enforcement become mostly ornamental."
-claim: "When spending scale rises faster than enforcement capacity, guardrails degrade even if formal rules remain on paper."
-evidenceLevel: "medium"
+status: 'published'
+summary: 'This case tracks how post-2010 campaign-finance design removed scale constraints while enforcement capacity failed to keep pace. The result is a durable stress test: disclosure and coordination rules without timely enforcement become mostly ornamental.'
+claim: 'When spending scale rises faster than enforcement capacity, guardrails degrade even if formal rules remain on paper.'
+evidenceLevel: 'medium'
 policyDomain:
-  - "campaign-finance"
-  - "governance"
-  - "regulation"
+  - 'campaign-finance'
+  - 'governance'
+  - 'regulation'
 tags:
-  - "super-pac"
-  - "dark-money"
-  - "fec"
-  - "enforcement"
-  - "accountability"
+  - 'super-pac'
+  - 'dark-money'
+  - 'fec'
+  - 'enforcement'
+  - 'accountability'
 sources: []
 ---
 

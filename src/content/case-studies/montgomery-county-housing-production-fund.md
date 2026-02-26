@@ -1,24 +1,24 @@
 ---
-title: "Montgomery County Housing Production Fund"
-bucket: "mixed"
+title: 'Montgomery County Housing Production Fund'
+bucket: 'mixed'
 corePattern: "Government can fill the housing gap the market won't through revolving loans and permanent affordability, but one fund is not a full system."
 studyDate: 2026-02-26
 eventWindowStart: 2021-08-01
 eventWindowEnd: 2027-12-31
-status: "published"
+status: 'published'
 summary: "Montgomery County's $100M revolving housing fund demonstrates a practical way to finance permanently affordable units in high-cost markets. Early evidence is promising, but scale limits, deeper affordability gaps, and unresolved implementation risks keep this as a partial success under stress-test conditions."
-claim: "HPF-style revolving public finance can create permanent affordability with favorable leverage, but it must be scaled and paired with preservation and deeper-subsidy tools to close the full housing gap."
-evidenceLevel: "medium"
+claim: 'HPF-style revolving public finance can create permanent affordability with favorable leverage, but it must be scaled and paired with preservation and deeper-subsidy tools to close the full housing gap.'
+evidenceLevel: 'medium'
 policyDomain:
-  - "housing"
-  - "local-government-finance"
-  - "affordability"
+  - 'housing'
+  - 'local-government-finance'
+  - 'affordability'
 tags:
-  - "montgomery-county"
-  - "revolving-fund"
-  - "deed-restrictions"
-  - "ami"
-  - "production"
+  - 'montgomery-county'
+  - 'revolving-fund'
+  - 'deed-restrictions'
+  - 'ami'
+  - 'production'
 sources: []
 ---
 
@@ -73,8 +73,7 @@ Oregon Legislature in 2025. [confirmed] People are paying attention.
 - **Completed:** The Laureate at Shady Grove, 268 units, 80 of them affordable (67 at 50% AMI, 13
   at 70% AMI), open as of 2024. [confirmed]
 - **Under construction:** Hillandale Gateway, 463 units (308 multi-generational, 155 senior), 54%
-  affordable at 30-80% AMI, $303 million total financing closed October 2024, completion estimated
-  2027. [confirmed]
+  affordable at 30-80% AMI, $303 million total financing closed October 2024, completion estimated 2027. [confirmed]
 - **Pipeline:** The Sage (413 units), Wheaton Gateway (780 units), Elizabeth House IV, Forest Glen
   Park & Ride, Avondale. [confirmed, HOC portfolio]
 - **20-year projection:** 6,000 total units; 1,800 permanently affordable. HOC's 2024 interim target:

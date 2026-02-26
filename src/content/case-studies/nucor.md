@@ -1,25 +1,25 @@
 ---
-title: "Nucor Steel"
-bucket: "success"
-corePattern: "Performance pay + shared sacrifice + no-layoff norm = durable competitive advantage in a brutal industry."
+title: 'Nucor Steel'
+bucket: 'success'
+corePattern: 'Performance pay + shared sacrifice + no-layoff norm = durable competitive advantage in a brutal industry.'
 studyDate: 2026-02-26
 eventWindowStart: 1966-01-01
 eventWindowEnd: 2026-01-31
-status: "published"
-summary: "Nucor built durable performance in steel by combining EAF mini-mill economics with decentralized operations, strong incentive pay, and a no-layoff norm. The case supports a qualified lesson: shared-upside systems can scale when technology economics and governance choices align, but worker protections remain uneven and conditional."
-claim: "Nucor demonstrates a scalable shared-upside manufacturing model, but with real volatility, documented exceptions, and equity gaps that matter."
-evidenceLevel: "medium"
+status: 'published'
+summary: 'Nucor built durable performance in steel by combining EAF mini-mill economics with decentralized operations, strong incentive pay, and a no-layoff norm. The case supports a qualified lesson: shared-upside systems can scale when technology economics and governance choices align, but worker protections remain uneven and conditional.'
+claim: 'Nucor demonstrates a scalable shared-upside manufacturing model, but with real volatility, documented exceptions, and equity gaps that matter.'
+evidenceLevel: 'medium'
 policyDomain:
-  - "labor"
-  - "competition"
-  - "trade"
-  - "corporate-governance"
+  - 'labor'
+  - 'competition'
+  - 'trade'
+  - 'corporate-governance'
 tags:
-  - "steel"
-  - "manufacturing"
-  - "incentives"
-  - "layoffs"
-  - "eaf"
+  - 'steel'
+  - 'manufacturing'
+  - 'incentives'
+  - 'layoffs'
+  - 'eaf'
 sources: []
 ---
 
@@ -154,12 +154,12 @@ the top. That is real. It does not change the floor that hourly workers hit.
 WARN filings are legal notifications of actual layoffs, not leading indicators or pressure signals.
 The record:
 
-| WARN Date | Location | State | Employees |
-|---|---|---|---|
-| August 18, 2023 | Longview, TX | Texas | 173 |
-| September 11, 2020 | Eufaula, AL | Alabama | 309 |
-| July 6, 2018 | Bourbonnais, IL | Illinois | 0 reported |
-| (4th event, 2018-2023) | Unknown | Unknown | Remainder to 655 total |
+| WARN Date              | Location        | State    | Employees              |
+| ---------------------- | --------------- | -------- | ---------------------- |
+| August 18, 2023        | Longview, TX    | Texas    | 173                    |
+| September 11, 2020     | Eufaula, AL     | Alabama  | 309                    |
+| July 6, 2018           | Bourbonnais, IL | Illinois | 0 reported             |
+| (4th event, 2018-2023) | Unknown         | Unknown  | Remainder to 655 total |
 
 Four events, 655 employees total, 2018-2023 (confirmed for the Alabama and Texas events,
 WARNTracker.com; the Bourbonnais event employee count and the fourth event details are plausible

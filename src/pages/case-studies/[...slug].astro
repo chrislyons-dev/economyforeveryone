@@ -3,7 +3,10 @@ import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 export async function getStaticPaths() {
-  const caseStudies = await getCollection('case-studies', ({ data }) => data.status === 'published');
+  const caseStudies = await getCollection(
+    'case-studies',
+    ({ data }) => data.status === 'published'
+  );
   return caseStudies.map((study) => ({ params: { slug: study.slug }, props: { study } }));
 }
 
@@ -29,10 +32,13 @@ const { Content } = await render(study);
       <p><strong>Claim:</strong> {study.data.claim}</p>
       {study.data.summary && <p>{study.data.summary}</p>}
       <p class="muted-note">
-        <strong>Evidence level:</strong> {study.data.evidenceLevel}
-        {study.data.eventWindowStart && study.data.eventWindowEnd
-          ? ` | Event window: ${study.data.eventWindowStart.toISOString().slice(0, 10)} to ${study.data.eventWindowEnd.toISOString().slice(0, 10)}`
-          : ''}
+        <strong>Evidence level:</strong>
+        {study.data.evidenceLevel}
+        {
+          study.data.eventWindowStart && study.data.eventWindowEnd
+            ? ` | Event window: ${study.data.eventWindowStart.toISOString().slice(0, 10)} to ${study.data.eventWindowEnd.toISOString().slice(0, 10)}`
+            : ''
+        }
       </p>
     </div>
 

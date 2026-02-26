@@ -2,25 +2,25 @@
 title: "The Canyon Isn't Just Information. It's Economic."
 description: "A lot of polarization is downstream of economic insecurity. When people don't feel secure, they are easier to scare, aim, and split."
 pubDate: 2026-01-31
-status: "published"
-category: "core-model"
+status: 'published'
+category: 'core-model'
 topics:
-  - "economic-insecurity"
-  - "information-environment"
-  - "middle-out-growth"
+  - 'economic-insecurity'
+  - 'information-environment'
+  - 'middle-out-growth'
 tags:
-  - "economy-for-everyone"
-  - "information-bubbles"
-  - "insecurity"
-  - "monthly-squeeze"
-  - "bridge-building"
-sourceChannel: "facebook"
-legacyPostRef: "2026-01-31"
-triage: "promote-to-canonical+linkedin"
-oneSmallAction: "Pick one steady action you can repeat each week to lower squeeze or increase agency."
+  - 'economy-for-everyone'
+  - 'information-bubbles'
+  - 'insecurity'
+  - 'monthly-squeeze'
+  - 'bridge-building'
+sourceChannel: 'facebook'
+legacyPostRef: '2026-01-31'
+triage: 'promote-to-canonical+linkedin'
+oneSmallAction: 'Pick one steady action you can repeat each week to lower squeeze or increase agency.'
 audience:
-  - "general-public"
-  - "policy-interested-readers"
+  - 'general-public'
+  - 'policy-interested-readers'
 receipts: []
 ---
 

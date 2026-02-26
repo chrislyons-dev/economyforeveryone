@@ -2,7 +2,9 @@ import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 
 export const GET: APIRoute = async () => {
-  const caseStudies = (await getCollection('case-studies', ({ data }) => data.status === 'published'))
+  const caseStudies = (
+    await getCollection('case-studies', ({ data }) => data.status === 'published')
+  )
     .sort((a, b) => b.data.studyDate.valueOf() - a.data.studyDate.valueOf())
     .map((study) => ({
       slug: study.slug,
@@ -19,7 +21,7 @@ export const GET: APIRoute = async () => {
       policyDomain: study.data.policyDomain ?? [],
     }));
 
-  return new Response(JSON.stringify(caseStudies), {
+  return new globalThis.Response(JSON.stringify(caseStudies), {
     headers: {
       'Content-Type': 'application/json; charset=utf-8',
       'Cache-Control': 'public, max-age=0, must-revalidate',

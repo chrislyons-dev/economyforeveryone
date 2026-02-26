@@ -2,24 +2,24 @@
 title: "I Didn't Know the Term Mutual Aid Until I Needed It"
 description: "Mutual aid isn't new. My awareness of it was. Learning from people who have carried this work for generations."
 pubDate: 2026-01-29
-status: "published"
-category: "field-notes"
+status: 'published'
+category: 'field-notes'
 topics:
-  - "community-resilience"
-  - "mutual-aid"
+  - 'community-resilience'
+  - 'mutual-aid'
 tags:
-  - "mutual-aid"
-  - "community"
-  - "monthly-squeeze"
-  - "dignity"
-  - "neighbor-lane"
-sourceChannel: "facebook"
-legacyPostRef: "2026-01-30 #2"
-triage: "promote-to-canonical"
-oneSmallAction: "Offer one concrete support action: a ride, meal, check-in, or paperwork help."
+  - 'mutual-aid'
+  - 'community'
+  - 'monthly-squeeze'
+  - 'dignity'
+  - 'neighbor-lane'
+sourceChannel: 'facebook'
+legacyPostRef: '2026-01-30 #2'
+triage: 'promote-to-canonical'
+oneSmallAction: 'Offer one concrete support action: a ride, meal, check-in, or paperwork help.'
 audience:
-  - "general-public"
-  - "community-leaders"
+  - 'general-public'
+  - 'community-leaders'
 receipts: []
 ---
 

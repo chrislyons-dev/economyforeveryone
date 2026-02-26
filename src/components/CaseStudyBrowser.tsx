@@ -111,7 +111,11 @@ export default function CaseStudyBrowser({ items }: CaseStudyBrowserProps) {
         {filtered.map((study) => (
           <li
             key={study.slug}
-            className={['panel', 'timeline-item', bucketToneClass[study.bucket] ?? 'receipt-card'].join(' ')}
+            className={[
+              'panel',
+              'timeline-item',
+              bucketToneClass[study.bucket] ?? 'receipt-card',
+            ].join(' ')}
           >
             <p className="eyebrow">
               {study.bucket} · {study.studyDate.slice(0, 10)}

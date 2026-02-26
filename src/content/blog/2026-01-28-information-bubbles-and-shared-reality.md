@@ -1,24 +1,24 @@
 ---
-title: "Information Bubbles and Shared Reality"
+title: 'Information Bubbles and Shared Reality'
 description: "When we live in different information bubbles, we don't just disagree; we struggle to agree on what's happening."
 pubDate: 2026-01-28
-status: "published"
-category: "methods"
+status: 'published'
+category: 'methods'
 topics:
-  - "information-environment"
-  - "bridge-building"
+  - 'information-environment'
+  - 'bridge-building'
 tags:
-  - "shared-reality"
-  - "constitutional-rights"
-  - "social-media"
-  - "bridge-building"
-sourceChannel: "facebook"
-legacyPostRef: "2026-01-30 #3"
-triage: "promote-to-canonical+linkedin"
-oneSmallAction: "Start with one shared value, then compare reality anchors before arguing conclusions."
+  - 'shared-reality'
+  - 'constitutional-rights'
+  - 'social-media'
+  - 'bridge-building'
+sourceChannel: 'facebook'
+legacyPostRef: '2026-01-30 #3'
+triage: 'promote-to-canonical+linkedin'
+oneSmallAction: 'Start with one shared value, then compare reality anchors before arguing conclusions.'
 audience:
-  - "general-public"
-  - "practitioners"
+  - 'general-public'
+  - 'practitioners'
 receipts: []
 ---
 

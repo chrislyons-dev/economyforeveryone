@@ -17,7 +17,7 @@ export const GET: APIRoute = async () => {
       sourceChannel: post.data.sourceChannel,
     }));
 
-  return new Response(JSON.stringify(posts), {
+  return new globalThis.Response(JSON.stringify(posts), {
     headers: {
       'Content-Type': 'application/json; charset=utf-8',
       'Cache-Control': 'public, max-age=0, must-revalidate',

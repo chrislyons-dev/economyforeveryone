@@ -1,25 +1,25 @@
 ---
-title: "Tokyo Housing Throughput Model"
-bucket: "mixed"
-corePattern: "National by-right zoning preemption removed the local veto on multifamily housing and enabled long-run throughput, but exogenous cost and capital shocks can still overwhelm permissive zoning."
+title: 'Tokyo Housing Throughput Model'
+bucket: 'mixed'
+corePattern: 'National by-right zoning preemption removed the local veto on multifamily housing and enabled long-run throughput, but exogenous cost and capital shocks can still overwhelm permissive zoning.'
 studyDate: 2026-02-26
 eventWindowStart: 1968-01-01
 eventWindowEnd: 2026-02-01
-status: "published"
+status: 'published'
 summary: "Tokyo's long-run housing throughput supports the case for by-right preemption as a key supply mechanism. Recent price and rent surges stress-test the model: zoning permissiveness can raise supply capacity, but it cannot by itself neutralize labor shortages, input inflation, or global capital shocks."
-claim: "Removing local veto points is likely necessary for supply-side housing abundance, but not sufficient without complementary labor, tenant, and macro-stability policies."
-evidenceLevel: "medium"
+claim: 'Removing local veto points is likely necessary for supply-side housing abundance, but not sufficient without complementary labor, tenant, and macro-stability policies.'
+evidenceLevel: 'medium'
 policyDomain:
-  - "housing"
-  - "zoning"
-  - "urban-policy"
-  - "tenant-protection"
+  - 'housing'
+  - 'zoning'
+  - 'urban-policy'
+  - 'tenant-protection'
 tags:
-  - "tokyo"
-  - "japan"
-  - "by-right"
-  - "supply"
-  - "affordability"
+  - 'tokyo'
+  - 'japan'
+  - 'by-right'
+  - 'supply'
+  - 'affordability'
 sources: []
 ---
 
@@ -253,9 +253,9 @@ throughput. That much is mechanically similar. Whether the magnitude of effect t
 
 **Personal lever**
 
-Every time a housing proposal comes up in your city or state, ask two questions: *How many of these
-homes are approved by right, no hearing required?* And *what is the median time from application to
-permit?* If neither number is tracked or published, that is the problem.
+Every time a housing proposal comes up in your city or state, ask two questions: _How many of these
+homes are approved by right, no hearing required?_ And _what is the median time from application to
+permit?_ If neither number is tracked or published, that is the problem.
 
 **Community and policy lever**
 
@@ -270,12 +270,12 @@ and starts first.
 
 **Scoreboard: what to track**
 
-| Metric | Why it matters | Lag |
-|---|---|---|
-| Median time-to-permit | Is discretionary friction actually lower? | Short |
-| % of applications approved ministerially | Is by-right the default or still the exception? | Short |
-| Starts per 1,000 residents | Is supply actually moving? | Medium |
-| Rent-to-income ratio | Is it reaching people? | Long - don't overclaim early |
+| Metric                                   | Why it matters                                  | Lag                          |
+| ---------------------------------------- | ----------------------------------------------- | ---------------------------- |
+| Median time-to-permit                    | Is discretionary friction actually lower?       | Short                        |
+| % of applications approved ministerially | Is by-right the default or still the exception? | Short                        |
+| Starts per 1,000 residents               | Is supply actually moving?                      | Medium                       |
+| Rent-to-income ratio                     | Is it reaching people?                          | Long - don't overclaim early |
 
 **If you do zoning reform, you still need:**
 

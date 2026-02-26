@@ -1,24 +1,24 @@
 ---
-title: "Post Title"
-description: "One-sentence summary focused on the practical point."
+title: 'Post Title'
+description: 'One-sentence summary focused on the practical point.'
 pubDate: 2026-02-26
 updatedDate: 2026-02-26
-status: "draft"
-category: "guardrails"
+status: 'draft'
+category: 'guardrails'
 topics:
-  - "institutions"
+  - 'institutions'
 tags:
-  - "accountability"
-sourceChannel: "facebook"
-legacyPostRef: "2026-02-20"
-triage: "promote-to-canonical+linkedin"
-oneSmallAction: "One call. One meeting. One calm conversation. Repeat."
+  - 'accountability'
+sourceChannel: 'facebook'
+legacyPostRef: '2026-02-20'
+triage: 'promote-to-canonical+linkedin'
+oneSmallAction: 'One call. One meeting. One calm conversation. Repeat.'
 audience:
-  - "general-public"
+  - 'general-public'
 receipts:
-  - title: "Source title"
-    url: "https://example.com"
-    publisher: "Publisher"
+  - title: 'Source title'
+    url: 'https://example.com'
+    publisher: 'Publisher'
     publishedDate: 2026-02-01
 ---
 
