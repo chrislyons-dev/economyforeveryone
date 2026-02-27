@@ -199,3 +199,66 @@ Now it feels more like building a toolkit:
 E4E is not a tribe.
 
 It is an attempt to be useful.
+
+## Appendix: Comparison Grid
+
+**header key:**  
+`mo` = middle-out · `comp` = competition / anti-monopoly · `cap` = capacity / abundance · `simp` = simplicity · `gov` = guardrails / accountability · `inf` = inflation discipline · `anti` = anti-scapegoating
+
+<div class="appendix-table-wrap">
+  <table class="appendix-table">
+    <thead>
+      <tr>
+        <th>family</th>
+        <th>mo</th>
+        <th>comp</th>
+        <th>cap</th>
+        <th>simp</th>
+        <th>gov</th>
+        <th>inf</th>
+        <th>anti</th>
+        <th>overall</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>libertarian /<br />classical liberal</td>
+        <td>0</td><td>+</td><td>0</td><td>++</td><td>0</td><td>+</td><td>+</td><td><strong>+5</strong></td>
+      </tr>
+      <tr>
+        <td>neoliberal /<br />globalization-first technocracy</td>
+        <td>0</td><td>0</td><td>0</td><td>0</td><td>+</td><td>+</td><td>+</td><td><strong>+3</strong></td>
+      </tr>
+      <tr>
+        <td>social democracy<br />(nordic-ish)</td>
+        <td>++</td><td>0</td><td>0</td><td>-</td><td>+</td><td>0</td><td>+</td><td><strong>+3</strong></td>
+      </tr>
+      <tr>
+        <td>christian democracy /<br />communitarian center-right</td>
+        <td>+</td><td>0</td><td>0</td><td>0</td><td>+</td><td>+</td><td>0</td><td><strong>+3</strong></td>
+      </tr>
+      <tr>
+        <td>abundance /<br />supply-side progressivism</td>
+        <td>+</td><td>+</td><td>++</td><td>+</td><td>+</td><td>++</td><td>+</td><td><strong>+9</strong></td>
+      </tr>
+      <tr>
+        <td>green industrial policy</td>
+        <td>+</td><td>0</td><td>+</td><td>-</td><td>0</td><td>+</td><td>+</td><td><strong>+3</strong></td>
+      </tr>
+      <tr>
+        <td>national conservatism /<br />right industrial policy</td>
+        <td>0</td><td>-</td><td>0</td><td>0</td><td>-</td><td>0</td><td>--</td><td><strong>-4</strong></td>
+      </tr>
+      <tr>
+        <td>austerity centrism<br />(deficits above all)</td>
+        <td>-</td><td>0</td><td>--</td><td>+</td><td>0</td><td>++</td><td>0</td><td><strong>0</strong></td>
+      </tr>
+      <tr>
+        <td>left populism<br />(anti-monopoly + anti-corruption + pro-worker)</td>
+        <td>++</td><td>++</td><td>0</td><td>0</td><td>+</td><td>0</td><td>0</td><td><strong>+5</strong></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+**Scale:** `++` strong alignment · `+` some alignment · `0` mixed/depends · `-` often in tension · `--` frequent conflict

@@ -209,6 +209,48 @@ a:hover {
   margin: 0.2rem 0;
 }
 
+.prose-e4e .appendix-table-wrap {
+  width: min(92vw, 74rem);
+  max-width: none;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  overflow-x: auto;
+  border: 0.08rem solid var(--theme-border-default);
+  border-radius: 0.4rem;
+  background: color-mix(in oklch, var(--theme-bg-elevated) 45%, transparent);
+}
+
+.prose-e4e .appendix-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.prose-e4e .appendix-table th,
+.prose-e4e .appendix-table td {
+  padding: 0.4rem 0.5rem;
+  border-bottom: 0.06rem solid var(--theme-border-subtle);
+  text-align: center;
+  vertical-align: top;
+}
+
+.prose-e4e .appendix-table th {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+  color: var(--theme-text-secondary);
+  background: color-mix(in oklch, var(--theme-bg-elevated) 65%, transparent);
+  position: sticky;
+  top: 0;
+}
+
+.prose-e4e .appendix-table td:first-child,
+.prose-e4e .appendix-table th:first-child {
+  text-align: left;
+  min-width: 12.5rem;
+}
+
 .site-nav {
   border-bottom: 0.12rem solid var(--theme-border-strong);
   margin-bottom: 1.4rem;
