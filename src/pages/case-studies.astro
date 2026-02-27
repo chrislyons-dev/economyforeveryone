@@ -1,0 +1,65 @@
+﻿---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import CaseStudyBrowser from '../components/CaseStudyBrowser';
+
+const caseStudies = (
+  await getCollection('case-studies', ({ data }) => data.status === 'published')
+).sort((a, b) => b.data.studyDate.valueOf() - a.data.studyDate.valueOf());
+
+const caseStudyIndex = caseStudies.map((study) => ({
+  slug: study.slug,
+  title: study.data.title,
+  bucket: study.data.bucket,
+  corePattern: study.data.corePattern,
+  studyDate: study.data.studyDate.toISOString(),
+  summary: study.data.summary ?? '',
+  claim: study.data.claim,
+  evidenceLevel: study.data.evidenceLevel,
+  eventWindowStart: study.data.eventWindowStart ? study.data.eventWindowStart.toISOString() : null,
+  eventWindowEnd: study.data.eventWindowEnd ? study.data.eventWindowEnd.toISOString() : null,
+  tags: study.data.tags ?? [],
+  policyDomain: study.data.policyDomain ?? [],
+}));
+---
+
+<BaseLayout title="Case Studies | Economy for Everyone">
+  <section class="section-grid">
+    <div class="ledger-header">
+      <h2 class="title-reset">Case Studies</h2>
+      <p class="muted-note">
+        Structure: context, events, lessons, and transferable pattern. Receipts are tracked by type
+        in Methods and Sources.
+      </p>
+    </div>
+
+    <CaseStudyBrowser client:load items={caseStudyIndex} />
+
+    <noscript>
+      {
+        caseStudies.length === 0 ? (
+          <div class="panel guardrail-card">
+            <p class="claim">No published case studies yet.</p>
+          </div>
+        ) : (
+          <ol class="timeline-list">
+            {caseStudies.map((study) => (
+              <li class="panel timeline-item receipt-card">
+                <p class="eyebrow">
+                  {study.data.bucket} · {study.data.studyDate.toISOString().slice(0, 10)}
+                </p>
+                <h3 class="title-reset case-study-title">{study.data.title}</h3>
+                <p>{study.data.summary ?? study.data.claim}</p>
+                <p>
+                  <a class="case-read-link" href={`/case-studies/${study.slug}/`}>
+                    Read full case
+                  </a>
+                </p>
+              </li>
+            ))}
+          </ol>
+        )
+      }
+    </noscript>
+  </section>
+</BaseLayout>

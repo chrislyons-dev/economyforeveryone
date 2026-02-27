@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="E4E mark">
+  <!-- Paper background -->
+  <rect width="128" height="128" rx="18" fill="var(--color-paper, #f7f4ee)"/>
+
+  <!-- Outer loop (ink) -->
+  <!-- r=54 with stroke=10 => inner edge is about r=49 -->
+  <circle cx="64" cy="64" r="54"
+          fill="none"
+          stroke="var(--color-ink, #1f2428)"
+          stroke-width="10"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+  <!-- House (ink) with 5 points that *barely* touch the inner edge of the ring -->
+  <path fill="var(--color-ink, #1f2428)" fill-rule="evenodd" d="
+    M64 14
+    L16 50
+    L40.25 108
+    L87.75 108
+    L112 50
+    Z
+
+    M55 108
+    L55 80
+    Q55 72 64 72
+    Q73 72 73 80
+    L73 108
+    Z
+  "/>
+</svg>

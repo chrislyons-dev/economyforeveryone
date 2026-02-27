@@ -1,0 +1,75 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => data.status === 'published');
+  return posts.map((post) => ({ params: { slug: post.slug }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+
+const receiptTypes = new Map([
+  ['primary-documents', 'Primary documents'],
+  ['official-data', 'Official data'],
+  ['independent-analysis', 'Independent analysis'],
+  ['direct-observation', 'Direct observation'],
+]);
+
+const receiptTags = (post.data.receiptTags ?? []).map((tag: string) => ({
+  id: tag,
+  label: receiptTypes.get(tag) ?? tag.replaceAll('-', ' '),
+}));
+---
+
+<BaseLayout title={`${post.data.title} | Blog | Economy for Everyone`}>
+  <section class="section-grid prose-e4e">
+    <p>
+      <a href="/blog">Back to blog</a>
+    </p>
+
+    <div class="ledger-header">
+      <h2 class="title-reset">{post.data.title}</h2>
+      <p class="muted-note">
+        {post.data.category} | {post.data.pubDate.toISOString().slice(0, 10)} | {
+          post.data.sourceChannel
+        }
+      </p>
+    </div>
+
+    <div class="panel receipt-card">
+      <p>{post.data.description}</p>
+      {
+        post.data.oneSmallAction && (
+          <p class="muted-note">
+            <strong>One small action:</strong> {post.data.oneSmallAction}
+          </p>
+        )
+      }
+    </div>
+
+    {
+      receiptTags.length > 0 && (
+        <div class="panel">
+          <p class="eyebrow">Receipts</p>
+          <p class="muted-note">Receipt details are tracked in Methods and Sources by type:</p>
+          <p class="muted-note">
+            {receiptTags.map((tag, index) => (
+              <>
+                {index > 0 && ', '}
+                <a href={`/methods-and-sources#receipt-${tag.id}`}>{tag.label}</a>
+              </>
+            ))}
+          </p>
+        </div>
+      )
+    }
+
+    <Content />
+
+    <p>
+      <a href="/blog">Back to blog</a>
+    </p>
+  </section>
+</BaseLayout>

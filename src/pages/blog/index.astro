@@ -1,0 +1,62 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import BlogBrowser from '../../components/BlogBrowser';
+
+const posts = (await getCollection('blog', ({ data }) => data.status === 'published')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const postIndex = posts.map((post) => ({
+  slug: post.slug,
+  title: post.data.title,
+  description: post.data.description,
+  pubDate: post.data.pubDate.toISOString(),
+  updatedDate: post.data.updatedDate ? post.data.updatedDate.toISOString() : null,
+  category: post.data.category,
+  topics: post.data.topics ?? [],
+  tags: post.data.tags ?? [],
+  oneSmallAction: post.data.oneSmallAction ?? null,
+  sourceChannel: post.data.sourceChannel,
+}));
+---
+
+<BaseLayout title="Blog | Economy for Everyone">
+  <section class="section-grid">
+    <div class="ledger-header">
+      <h2 class="title-reset">Blog</h2>
+      <p class="muted-note">
+        Canonical long-form posts, migrated and normalized from working-note channels.
+      </p>
+    </div>
+
+    <BlogBrowser client:load items={postIndex} />
+
+    <noscript>
+      {
+        posts.length === 0 ? (
+          <div class="panel guardrail-card">
+            <p class="claim">No published blog posts yet.</p>
+          </div>
+        ) : (
+          <ol class="timeline-list">
+            {posts.map((post) => (
+              <li class="panel timeline-item receipt-card">
+                <p class="eyebrow">
+                  {post.data.category} · {post.data.pubDate.toISOString().slice(0, 10)}
+                </p>
+                <h3 class="title-reset case-study-title">{post.data.title}</h3>
+                <p>{post.data.description}</p>
+                <p>
+                  <a class="case-read-link" href={`/blog/${post.slug}/`}>
+                    Read full post
+                  </a>
+                </p>
+              </li>
+            ))}
+          </ol>
+        )
+      }
+    </noscript>
+  </section>
+</BaseLayout>

@@ -1,0 +1,29 @@
+---
+interface Props {
+  events: Array<{ event: string; decision: string; outcome: string; lesson: string }>;
+}
+
+const { events } = Astro.props;
+---
+
+<ol class="timeline-list">
+  {
+    events.map((item, index) => (
+      <li class="panel timeline-item">
+        <p class="eyebrow">Case Point {index + 1}</p>
+        <p>
+          <strong>Event:</strong> {item.event}
+        </p>
+        <p>
+          <strong>Decision:</strong> {item.decision}
+        </p>
+        <p>
+          <strong>Outcome:</strong> {item.outcome}
+        </p>
+        <p>
+          <strong>Lesson:</strong> {item.lesson}
+        </p>
+      </li>
+    ))
+  }
+</ol>

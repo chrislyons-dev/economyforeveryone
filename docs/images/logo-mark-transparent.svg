@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="E4E mark">
+  <circle cx="64" cy="64" r="54"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="10"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+  <path fill="currentColor" fill-rule="evenodd" d="
+    M64 14
+    L16 50
+    L40.25 108
+    L87.75 108
+    L112 50
+    Z
+
+    M55 108
+    L55 80
+    Q55 72 64 72
+    Q73 72 73 80
+    L73 108
+    Z
+  "/>
+</svg>
