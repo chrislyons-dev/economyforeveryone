@@ -112,28 +112,30 @@ What that looks like:
 The goal is not to abolish cars.
 The goal is to reduce the amount of household life governed by transportation captivity.
 
-## What we can do without fantasy
+## What we can do that is practical
+
+For this series, **short-term** means moves that can start now or within the next year, **medium-term** means changes that usually take one to three years to put in place, and **long-term** means the deeper structural work that takes several years and has to hold up over time.
 
 ### Short-term
 
-- require all-in pricing and real opt-in for dealer add-ons
-- ban or heavily constrain yo-yo financing
-- trigger automatic review when insurance renewals spike above a threshold
-- require itemized repair estimates and fair access to diagnostics
-- expand practical last-mile options like vanpools, shuttles, and guaranteed ride-home pilots
+- require dealers to show the real out-the-door price and get real permission before adding extras people did not clearly choose
+- ban or sharply limit yo-yo financing, where buyers think the deal is done and then get pulled back into worse terms
+- automatically review insurance renewals when the price jump crosses a reasonable threshold
+- require itemized repair estimates and fair access to the tools and diagnostics independent shops need to do the work
+- expand practical last-mile options like vanpools, work shuttles, and guaranteed ride-home programs that help people keep a job when one link fails
 
 ### Medium-term
 
-- phase out credit-based insurance scoring
-- constrain zip-based pricing and similar proxy systems
-- cap or ban dealer discretionary markups
-- strengthen rules around title fraud, buy-here-pay-here abuse, and telematics access
+- phase out insurance pricing that relies on credit scores instead of actual driving risk
+- limit the use of zip code and similar stand-ins when they function more like poverty pricing than safety pricing
+- cap or ban dealer markups that depend mostly on how trapped or rushed the buyer is
+- strengthen rules against title fraud, abusive buy-here-pay-here deals, and closed telematics systems that lock people into one repair ecosystem
 
 ### Long-term
 
-- reduce car dependency by aligning transportation, housing, and job access
-- create durable right-to-repair standards for connected vehicles
-- build systems where households have more than one viable way to reach work and daily life
+- reduce forced car dependence by lining up housing, transportation, and job access better than we do now
+- create lasting right-to-repair rules for modern connected vehicles so owners and independent shops are not frozen out by software locks
+- build communities where people have more than one realistic way to get to work, school, care, and daily life
 
 The test is simple:
 does the reform reduce captivity, or just make captivity slightly nicer?
@@ -150,17 +152,27 @@ The real question is whether households have any real exit from a system that ke
 That is a harder question.
 It is also the honest one.
 
-## Receipt stubs
+## How this reinforces the problem loop
 
-- **Lived experience:** household stories where one repair, renewal spike, or financing surprise created a work or budget crisis
-- **Lived experience:** examples of distance between affordable housing and jobs making car dependence effectively mandatory
-- **Mechanism proof:** evidence on dealer markups, proxy insurance pricing, or repair lock-in
-- **Mechanism proof:** evidence on weak alternatives, job access, or volatility of transport burden
-- **What worked somewhere:** a rule or pilot that improved all-in pricing, repair access, non-car job access, or rate-spike review
+This is the transportation version of the same trap described in the [Core Model](/core-model/):
+
+- more [monthly squeeze](/core-model/) because repairs, insurance spikes, and financing trouble can hit all at once
+- less [real choice](/core-model/) when work, housing, and daily life all assume the car is mandatory
+- more [complexity as a hidden tax](/core-model/) through pricing games, financing traps, proxy insurance rules, and repair lock-in
+- weaker [guardrails that actually bite](/core-model/) when captive households keep paying just to stay employed
+
+## How this moves toward the north star
+
+If the north star is a society where ordinary households have breathing room, transportation has to move in this direction:
+
+- more [security](/core-model/) because one breakdown or renewal spike should not threaten a job or a week of income
+- more [real choice](/core-model/) because people need more than one realistic way to reach work and daily life
+- more [fair competition](/core-model/) because dealers, lenders, insurers, and repair systems should not make money from captivity
+- more [shared gains](/core-model/) because reliable mobility helps households participate in the rest of the economy
 
 ## Related reading
 
-- The Monthly Squeeze Series
-- The Squeeze Summary: One System, Five Bills, Same Trap
-- Housing: The Bill That Sets the Whole Month on Fire
-- Transportation case study and addendum
+- [The Monthly Squeeze Series](/blog/monthly-squeeze-series-index/)
+- [The Squeeze Summary: One System, Five Bills, Same Trap](/blog/monthly-squeeze-summary/)
+- [Housing: The Bill That Sets the Whole Month on Fire](/blog/monthly-squeeze-housing/)
+- [Transportation Guardrails: The Hidden Job Access Tax](/case-studies/transportation-guardrails-and-squeeze/)

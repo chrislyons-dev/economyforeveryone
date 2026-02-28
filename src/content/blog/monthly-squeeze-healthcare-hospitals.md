@@ -107,28 +107,30 @@ What that looks like:
 Again, this needs to stay grounded in what can actually be done.
 It is just a healthcare system that wastes less money on the tollbooths.
 
-## What we can do that is achievable
+## What we can do that is practical
+
+For this series, **short-term** means moves that can start now or within the next year, **medium-term** means changes that usually take one to three years to put in place, and **long-term** means the deeper structural work that takes several years and has to hold up over time.
 
 ### Short-term
 
-- raise the penalty for hospital price-transparency noncompliance
-- require real audits of price-data accuracy, not just posted files
-- require clearer prior-auth response timelines and denial disclosures
-- restore protection against medical debt on credit reports
-- publish denial, appeal, and overturn rates in plain view
+- fine hospitals that ignore price-transparency rules enough that breaking the rule stops being cheaper than following it
+- check whether posted prices are actually usable and accurate, not just whether a file exists somewhere on a website
+- require faster prior-auth responses and plain-language denial notices that tell people what happened and what they can do next
+- bring back protections so medical debt does less long-term damage to people’s credit and daily life
+- publish denial, appeal, and overturn rates in one place where patients, employers, and reporters can actually find them
 
 ### Medium-term
 
-- require all hospital mergers above a threshold to clear stronger antitrust review
-- set minimum charity-care and community-benefit standards for nonprofit tax exemption
-- expand gold-card or similar prior-auth relief where approval history is consistently high
-- benchmark administrative cost share across large hospital systems
+- give bigger hospital mergers a much harder review before more local pricing power gets locked in
+- require nonprofit hospitals to meet real charity-care and community-benefit standards if they want the tax break
+- let clinicians or groups with a strong approval track record skip some prior-auth hurdles instead of refiling the same paperwork forever
+- compare how much large hospital systems spend on billing and paperwork so the public can see who is adding the most complexity
 
 ### Long-term
 
-- simplify billing and contract structures at the system level
-- reduce the role of denial-driven utilization management as a core cost-control tool
-- build a hospital financing and oversight model that rewards care delivery more than transaction complexity
+- simplify hospital billing and contracting so fewer dollars get burned up in coding fights, contract games, and payment disputes
+- rely less on denial-heavy utilization management as the main way to control cost
+- build financing and oversight rules that reward hospitals for delivering care well, not for getting better at working the transaction maze
 
 The point is not to wave a magic wand over healthcare.
 The point is to make more spending should mean more care a credible statement again.
@@ -146,17 +148,28 @@ Some hospitals are genuinely under pressure.
 That does not make the complexity layer less real.
 It makes fixing it more urgent.
 
-## Receipt stubs
+## How this reinforces the problem loop
 
-- **Lived experience:** billing timelines showing how many entities touched one episode of hospital care after the visit itself
-- **Lived experience:** clinician or patient notes showing time lost to prior-auth churn, portal confusion, or denial loops
-- **Mechanism proof:** evidence on hospital price opacity, consolidation, or administrative cost share
-- **Mechanism proof:** evidence on denial rates, turnaround delays, or medical debt spillover into household stress
-- **What worked somewhere:** a system, state, or payer arrangement that reduced billing complexity, improved transparency, or narrowed denial drag
+This is the healthcare version of the same trap described in the [Core Model](/core-model/):
+
+- more [monthly squeeze](/core-model/) because one hospital episode can destabilize the whole month
+- less [real choice](/core-model/) when patients cannot shop, switch, or walk away in time
+- more [complexity as a hidden tax](/core-model/) through billing churn, prior auth, and debt collection
+- weaker [guardrails that actually bite](/core-model/) when opacity and consolidation let the tollbooths keep multiplying
+
+## How this moves toward the north star
+
+If the north star is a society where ordinary households have breathing room, healthcare has to move in this direction:
+
+- more [security](/core-model/) because getting sick should not trigger a second crisis in billing and debt
+- more [real choice](/core-model/) because patients need usable prices and cleaner exits from bad arrangements
+- more [fair competition](/core-model/) because concentrated hospital markets should not be able to charge whatever confusion allows
+- more [shared gains](/core-model/) because money spent on care should reach care more directly
 
 ## Related reading
 
-- The Monthly Squeeze Series
-- The Squeeze Summary: One System, Five Bills, Same Trap
-- Education: The Price of Entry Keeps Rising While Families Carry the Risk
-- Hospital complexity-tax case study and addendum
+- [The Monthly Squeeze Series](/blog/monthly-squeeze-series-index/)
+- [The Squeeze Summary: One System, Five Bills, Same Trap](/blog/monthly-squeeze-summary/)
+- [Education: The Price of Entry Keeps Rising While Families Carry the Risk](/blog/monthly-squeeze-education/)
+- [Hospitals: The Complexity Tax](/case-studies/healthcare-hospitals-complexity-tax/)
+- [Pharma Guardrails: When an Essential Market Learns to Exploit Delay](/case-studies/healthcare-guardrails-pharma-multi-abuse/)

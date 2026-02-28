@@ -53,6 +53,9 @@ That is why the squeeze matters politically as well as economically.
 And the good loop runs the other direction:
 **security -> choice -> competition -> shared gains -> more security.**
 
+Inside each big cost, that same structural pattern keeps showing up.
+The larger problem loop is what happens when those patterns keep hitting households month after month.
+
 > **Repeating pattern:** scarcity -> captivity -> complexity -> extraction -> weak guardrails
 
 ## What is happening
@@ -142,26 +145,28 @@ What that usually looks like:
 Different sectors need different specifics.
 But the direction is consistent.
 
-## What we can do without fantasy
+## What we can do that is practical
+
+For this series, **short-term** means moves that can start now or within the next year, **medium-term** means changes that usually take one to three years to put in place, and **long-term** means the deeper structural work that takes several years and has to hold up over time.
 
 ### Short-term
 
-- require clearer all-in pricing in essential markets
-- cut obvious fee traps and friction
-- enforce against the worst forms of coordination, lock-in, and abuse
-- publish simple dashboards so people can see whether throughput and prices are improving
+- require clearer all-in pricing in the markets people cannot easily avoid
+- remove obvious fee traps, paperwork loops, and other friction that make basic services harder to use
+- go after the worst forms of coordination, lock-in, and abuse instead of waiting until the damage is normal
+- publish simple dashboards so people can tell whether approvals, access, and prices are actually improving
 
 ### Medium-term
 
-- expand supply and capacity in the systems people rely on most
-- align infrastructure, staffing, and delivery systems with real demand
-- reduce local veto points and process games that keep scarcity in place
+- expand supply and capacity in the systems people rely on most, especially where shortages are already obvious
+- make infrastructure, staffing, and delivery systems match how people really live and where demand actually is
+- reduce the veto points and procedural games that let scarcity drag on long after everyone can see the problem
 
 ### Long-term
 
-- build durable institutions that survive political turnover
-- make anti-capture enforcement routine, not occasional
-- design systems around human use rather than professional navigation
+- build institutions that can keep working even when political leadership changes
+- make anti-capture enforcement a normal part of governance instead of something that happens only after a scandal
+- design systems ordinary people can use without needing a lawyer, consultant, or full-time navigator
 
 The right test is not whether a proposal sounds ambitious.
 It is whether it lowers squeeze, increases real options, and can be implemented without creating a fresh layer of maze-like bureaucracy.
@@ -183,19 +188,29 @@ That is a better sentence than turning every landlord, tenant, homeowner, or new
 Truth matters.
 Heat is optional.
 
-## Receipt stubs
+## How this reinforces the problem loop
 
-- **Lived experience:** Monthly budget stories showing how one unstable bill pushes stress into the rest of the month
-- **Lived experience:** Notes or field observations on how people delay care, moves, repairs, or work changes because one other bill already broke the buffer
-- **Mechanism proof:** Cross-domain evidence that switching costs, opacity, and weak exits raise extraction risk
-- **Mechanism proof:** Evidence that administrative burden and delayed guardrails function like hidden cost increases
-- **What worked somewhere:** A place or system that lowered friction, increased real choice, and made the benefit usable without a maze
+The whole point of this summary is that the same [problem loop](/core-model/) keeps showing up in different clothes:
+
+- more [monthly squeeze](/core-model/) when five big bills keep rising or getting harder to use
+- more insecurity when households lose buffer, time, and planning room
+- more [complexity as a hidden tax](/core-model/) when ordinary people need expert navigation just to function
+- weaker [guardrails that actually bite](/core-model/) when the same loopholes stay open across sectors
+
+## How this moves toward the north star
+
+If the north star is a strong middle class with real breathing room, the shared direction is straightforward:
+
+- more [security](/core-model/) so one bad bill does not destabilize the rest of the month
+- more [real choice](/core-model/) so people can switch, wait, or walk away from bad deals
+- more [fair competition](/core-model/) so low-choice systems stop acting like extraction machines
+- more [shared gains](/core-model/) so broad stability reinforces the next round of good decisions
 
 ## Related reading
 
-- The Monthly Squeeze Series
-- Housing: The Bill That Sets the Whole Month on Fire
-- Hospitals: The Complexity Tax Inside American Healthcare
-- Childcare: When Something Essential Is Priced Like a Luxury
-- Education: The Price of Entry Keeps Rising While Families Carry the Risk
-- Transportation: The Hidden Tax of Time, Car Dependence, and Volatility
+- [The Monthly Squeeze Series](/blog/monthly-squeeze-series-index/)
+- [Housing: The Bill That Sets the Whole Month on Fire](/blog/monthly-squeeze-housing/)
+- [Hospitals: The Complexity Tax Inside American Healthcare](/blog/monthly-squeeze-healthcare-hospitals/)
+- [Childcare: When Something Essential Is Priced Like a Luxury](/blog/monthly-squeeze-childcare/)
+- [Education: The Price of Entry Keeps Rising While Families Carry the Risk](/blog/monthly-squeeze-education/)
+- [Transportation: The Hidden Tax of Time, Car Dependence, and Volatility](/blog/monthly-squeeze-transportation/)

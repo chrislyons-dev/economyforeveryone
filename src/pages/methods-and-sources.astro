@@ -1,4 +1,4 @@
-﻿---
+---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
@@ -152,7 +152,7 @@ const buildSearchText = (group: (typeof receiptGroups)[number]) =>
       </div>
     </article>
 
-    <article class="panel" id="receipt-groups">
+    <article class="panel" id="receipt-groups-filters">
       <p class="eyebrow">Receipt Groups</p>
       <h3 class="title-reset">Filter Receipt Groups</h3>
 
@@ -203,6 +203,11 @@ const buildSearchText = (group: (typeof receiptGroups)[number]) =>
       <p id="receipt-filter-status" class="muted-note">
         Showing {receiptGroups.length} of {receiptGroups.length} receipt groups.
       </p>
+    </article>
+
+    <article id="receipt-groups">
+      <p class="eyebrow">Receipt Groups</p>
+      <h3 class="title-reset">Matching Groups</h3>
 
       <div class="section-grid" id="receipt-group-list">
         {
@@ -270,8 +275,10 @@ const buildSearchText = (group: (typeof receiptGroups)[number]) =>
     </article>
   </section>
 
-  <script is:inline>
+  <script>
+    import { matchesReceiptFilters } from '../utils/receipt-filters';
     (() => {
+      const params = new URLSearchParams(window.location.search);
       const filterType = document.getElementById('receipt-filter-type');
       const filterCase = document.getElementById('receipt-filter-case');
       const filterPost = document.getElementById('receipt-filter-post');
@@ -279,35 +286,31 @@ const buildSearchText = (group: (typeof receiptGroups)[number]) =>
       const filterSearch = document.getElementById('receipt-filter-search');
       const status = document.getElementById('receipt-filter-status');
       const empty = document.getElementById('receipt-filter-empty');
-      const items = Array.from(document.querySelectorAll('.receipt-group-item'));
-
-      const toList = (value) =>
-        (value || '')
-          .split(',')
-          .map((part) => part.trim())
-          .filter(Boolean);
+      const items = Array.from(document.querySelectorAll<HTMLElement>('.receipt-group-item'));
 
       const applyFilters = () => {
-        const typeValue = filterType instanceof HTMLSelectElement ? filterType.value : 'all';
-        const caseValue = filterCase instanceof HTMLSelectElement ? filterCase.value : 'all';
-        const postValue = filterPost instanceof HTMLSelectElement ? filterPost.value : 'all';
-        const tagValue = filterTag instanceof HTMLSelectElement ? filterTag.value : 'all';
-        const searchValue =
-          filterSearch instanceof HTMLInputElement ? filterSearch.value.trim().toLowerCase() : '';
+        const filters = {
+          type: filterType instanceof HTMLSelectElement ? filterType.value : 'all',
+          caseSlug: filterCase instanceof HTMLSelectElement ? filterCase.value : 'all',
+          postSlug: filterPost instanceof HTMLSelectElement ? filterPost.value : 'all',
+          tag: filterTag instanceof HTMLSelectElement ? filterTag.value : 'all',
+          search:
+            filterSearch instanceof HTMLInputElement ? filterSearch.value.trim().toLowerCase() : '',
+        };
 
         let shown = 0;
 
-        for (const item of items) {
-          const element = item;
-          const typeMatch = typeValue === 'all' || element.dataset.typeId === typeValue;
-          const caseMatch =
-            caseValue === 'all' || toList(element.dataset.caseSlugs).includes(caseValue);
-          const postMatch =
-            postValue === 'all' || toList(element.dataset.postSlugs).includes(postValue);
-          const tagMatch = tagValue === 'all' || toList(element.dataset.tags).includes(tagValue);
-          const searchMatch = !searchValue || (element.dataset.search || '').includes(searchValue);
-
-          const visible = typeMatch && caseMatch && postMatch && tagMatch && searchMatch;
+        for (const element of items) {
+          const visible = matchesReceiptFilters(
+            {
+              typeId: element.dataset.typeId,
+              caseSlugs: element.dataset.caseSlugs,
+              postSlugs: element.dataset.postSlugs,
+              tags: element.dataset.tags,
+              search: element.dataset.search,
+            },
+            filters
+          );
           element.hidden = !visible;
           if (visible) shown += 1;
         }
@@ -318,6 +321,28 @@ const buildSearchText = (group: (typeof receiptGroups)[number]) =>
 
         if (empty) {
           empty.hidden = shown !== 0;
+        }
+      };
+
+      const applyQueryFilters = () => {
+        if (filterType instanceof HTMLSelectElement) {
+          filterType.value = params.get('type') || 'all';
+        }
+
+        if (filterCase instanceof HTMLSelectElement) {
+          filterCase.value = params.get('case') || 'all';
+        }
+
+        if (filterPost instanceof HTMLSelectElement) {
+          filterPost.value = params.get('post') || 'all';
+        }
+
+        if (filterTag instanceof HTMLSelectElement) {
+          filterTag.value = params.get('tag') || 'all';
+        }
+
+        if (filterSearch instanceof HTMLInputElement) {
+          filterSearch.value = params.get('q') || '';
         }
       };
 
@@ -335,6 +360,7 @@ const buildSearchText = (group: (typeof receiptGroups)[number]) =>
         });
       }
 
+      applyQueryFilters();
       applyFilters();
     })();
   </script>

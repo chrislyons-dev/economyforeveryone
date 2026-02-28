@@ -12,6 +12,7 @@ export async function getStaticPaths() {
 
 const { study } = Astro.props;
 const { Content } = await render(study);
+const receiptGroups = await getCollection('receipts', ({ data }) => data.status === 'published');
 
 const receiptTypes = new Map([
   ['primary-documents', 'Primary documents'],
@@ -24,12 +25,35 @@ const receiptTags = (study.data.receiptTags ?? []).map((tag: string) => ({
   id: tag,
   label: receiptTypes.get(tag) ?? tag.replaceAll('-', ' '),
 }));
+
+const relatedReceiptGroups = receiptGroups.filter((group) =>
+  (group.data.linkedCaseSlugs ?? []).includes(study.slug)
+);
+
+const relatedMethodTypes = [
+  ...new Set(relatedReceiptGroups.map((group) => group.data.typeId).filter(Boolean)),
+].map((typeId) => ({
+  id: typeId,
+  label: receiptTypes.get(typeId) ?? typeId.replaceAll('-', ' '),
+  count: relatedReceiptGroups.filter((group) => group.data.typeId === typeId).length,
+}));
 ---
 
 <BaseLayout title={`${study.data.title} | Case Studies | Economy for Everyone`}>
   <section class="section-grid prose-e4e">
-    <p>
+    <p class="detail-top-actions no-print">
       <a href="/case-studies">Back to case studies</a>
+      <span class="detail-action-group">
+        <button
+          type="button"
+          class="print-button icon-button"
+          data-print-page
+          title="Opens your browser print dialog."
+          aria-label="Print or save as PDF"
+        >
+          <span aria-hidden="true">[pdf]</span>
+        </button>
+      </span>
     </p>
 
     <div class="ledger-header">
@@ -69,8 +93,42 @@ const receiptTags = (study.data.receiptTags ?? []).map((tag: string) => ({
     }
     <Content />
 
+    {
+      relatedReceiptGroups.length > 0 && (
+        <div class="panel">
+          <p class="eyebrow">Related methods</p>
+          <p class="muted-note">
+            <a href={`/methods-and-sources?case=${study.slug}#receipt-groups`}>
+              View receipt groups filtered to this case study
+            </a>
+          </p>
+          {relatedMethodTypes.length > 0 && (
+            <p class="muted-note">
+              <strong>By type:</strong>{' '}
+              {relatedMethodTypes.map((type, index) => (
+                <>
+                  {index > 0 && ' | '}
+                  <a
+                    href={`/methods-and-sources?case=${study.slug}&type=${type.id}#receipt-groups`}
+                  >
+                    {type.label} ({type.count})
+                  </a>
+                </>
+              ))}
+            </p>
+          )}
+        </div>
+      )
+    }
+
     <p>
       <a href="/case-studies">Back to case studies</a>
     </p>
   </section>
 </BaseLayout>
+
+<script is:inline>
+  document.querySelectorAll('[data-print-page]').forEach((button) => {
+    button.addEventListener('click', () => window.print());
+  });
+</script>

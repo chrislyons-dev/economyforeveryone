@@ -111,29 +111,31 @@ What that looks like:
 That is not utopia.
 That is what a healthier housing system looks like.
 
-## What we can do without fantasy
+## What we can do that is practical
+
+For this series, **short-term** means moves that can start now or within the next year, **medium-term** means changes that usually take one to three years to put in place, and **long-term** means the deeper structural work that takes several years and has to hold up over time.
 
 ### Short-term
 
 - require all-in move-in cost disclosure before application fees are paid
-- standardize fee names so comparison shopping works
-- seal dismissed or withdrawn eviction filings automatically
-- require cure periods or mediation windows where feasible
-- require disclosure and recordkeeping for pricing software used in rental markets
-- publish permit dashboards and create by-right fast lanes for compliant projects
+- use the same names for common rental fees so people can compare places without decoding every lease from scratch
+- automatically hide eviction cases that were dismissed or dropped so they do not keep haunting people later
+- give tenants a real chance to fix a problem or work it out before an eviction filing becomes the first move
+- make landlords keep records when they use rent-pricing software and disclose that they are using it
+- publish simple permit dashboards and create faster approvals for projects that already meet the rules
 
 ### Medium-term
 
-- legalize missing-middle housing by right
-- create state backstops when local veto points block region-wide need
-- align infrastructure planning with housing production
-- preserve existing affordable units before they fall out of reach
+- allow more small and medium-sized homes to be built in existing neighborhoods without forcing every project into a long political fight
+- give states a way to step in when a region clearly needs more housing and one town or board keeps blocking it
+- make roads, water, sewer, transit, and school planning line up with where new housing is actually supposed to go
+- keep older lower-cost apartments and starter homes from disappearing through neglect, speculation, or conversion before replacements exist
 
 ### Long-term
 
-- build construction labor and materials capacity
-- review local ownership concentration, not just national market share
-- create durable anti-capture rules so scarcity cannot keep being monetized the same way
+- train and support enough construction workers, and expand the materials and supply chains needed to build homes faster and more reliably
+- watch whether a few owners or firms are quietly gaining too much control over a local housing market, even if the national market still looks competitive on paper
+- put lasting rules in place so the same shortage cannot keep being turned into a permanent profit machine through loopholes, capture, or weak enforcement
 
 The test is simple:
 does the fix increase real choice and reduce the ability to profit from captivity?
@@ -150,17 +152,27 @@ It names the mechanism without turning every landlord, homeowner, renter, or new
 That matters, because housing gets tribal fast.
 If the goal is more homes and cleaner rules, the language has to stay focused on incentives, not enemies.
 
-## Receipt stubs
+## How this reinforces the problem loop
 
-- **Lived experience:** screenshots or notes showing real move-in costs after fees, deposits, and required add-ons are counted
-- **Lived experience:** stories of screening or eviction filings creating lasting damage even when the case did not end in a judgment
-- **Mechanism proof:** evidence that housing scarcity and slow approvals reduce exit options and raise prices
-- **Mechanism proof:** evidence of fee stacking, pricing software use, or local concentration shaping effective rent levels
-- **What worked somewhere:** a city or state that improved by-right approvals, permit speed, fee clarity, or screening fairness
+This is a housing version of the same trap described in the [Core Model](/core-model/):
+
+- more [monthly squeeze](/core-model/) because housing sets the floor under the rest of the month
+- less [real choice](/core-model/) when scarcity leaves people with nowhere better to go
+- more [complexity as a hidden tax](/core-model/) through fees, screening friction, and opaque pricing
+- weaker [guardrails that actually bite](/core-model/) when low-choice markets make bad behavior more profitable
+
+## How this moves toward the north star
+
+If the north star is a society where ordinary households have breathing room, housing has to move in this direction:
+
+- more [security](/core-model/) because one rent jump should not wreck the whole month
+- more [real choice](/core-model/) because people need actual exit options, not just theory
+- more [fair competition](/core-model/) because scarcity should not be a license to profit from captivity
+- more [shared gains](/core-model/) because stable housing makes the rest of life more workable
 
 ## Related reading
 
-- The Monthly Squeeze Series
-- The Squeeze Summary: One System, Five Bills, Same Trap
-- Transportation: The Hidden Tax of Time, Car Dependence, and Volatility
-- Housing case study and addendum
+- [The Monthly Squeeze Series](/blog/monthly-squeeze-series-index/)
+- [The Squeeze Summary: One System, Five Bills, Same Trap](/blog/monthly-squeeze-summary/)
+- [Transportation: The Hidden Tax of Time, Car Dependence, and Volatility](/blog/monthly-squeeze-transportation/)
+- [Housing Guardrails: When the Rules Protect the Wrong Thing](/case-studies/housing-guardrails-and-squeeze/)

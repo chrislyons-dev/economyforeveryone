@@ -100,27 +100,29 @@ What that looks like:
 The point is not one giant perfect bill tomorrow.
 The point is a sequence that expands capacity without pretending the underlying math will fix itself.
 
-## What we can do without fantasy
+## What we can do that is practical
+
+For this series, **short-term** means moves that can start now or within the next year, **medium-term** means changes that usually take one to three years to put in place, and **long-term** means the deeper structural work that takes several years and has to hold up over time.
 
 ### Short-term
 
-- make stabilization funding permanent enough to stop the cliff cycle
-- smooth subsidy cliffs so taking more work still pays
-- close the infant-slot financing gap
-- measure and fund nonstandard-hour capacity instead of treating it like an afterthought
-- fund childcare deserts with boring supply-side grants that keep centers open
+- keep stabilization money around long enough that providers are not constantly hiring, expanding, and then falling off a funding cliff
+- phase childcare help out more gradually so taking extra hours or a raise does not leave a family worse off
+- put real money behind infant care, where the staffing needs are highest and the math breaks first
+- count and fund evening, overnight, and weekend care instead of pretending every family works banker hours
+- send steady operating support to childcare deserts so centers can stay open in places the market keeps abandoning
 
 ### Medium-term
 
-- expand pre-K in a mixed-delivery model
-- treat wraparound care as part of real access
-- tie wage floors for publicly funded programs to reimbursement that actually covers them
+- expand pre-K in ways that use schools, nonprofits, and licensed providers together instead of assuming one model has to do everything
+- treat before-school, after-school, summer, and gap-hour care as part of real access, not as an optional side problem for parents to solve alone
+- if publicly funded programs are expected to pay better wages, reimburse them enough to actually cover those wages
 
 ### Long-term
 
-- build durable funding floors with a strong federal role
-- create safe, scalable support for co-ops and micro-providers
-- treat childcare as workforce infrastructure rather than as a private scheduling problem
+- build a long-term funding floor, with real federal backing, so the system stops swinging from rescue to rescue
+- make it easier for co-ops and small providers to open safely, grow steadily, and stay licensed
+- treat childcare as basic workforce infrastructure, not as a private scheduling mess every family is supposed to solve on its own
 
 The real test is whether the system creates more care slots, more labor-force stability, and fewer impossible household tradeoffs.
 
@@ -136,17 +138,27 @@ It lowers the chance that the conversation collapses into providers are greedy o
 It also leaves room for a practical sequence:
 stabilize providers, fix subsidy cliffs, close the infant funding gap, and expand pre-K with wraparound that matches real work schedules.
 
-## Receipt stubs
+## How this reinforces the problem loop
 
-- **Lived experience:** parent or provider stories showing what happens when one subsidy cliff or closure changes the whole work week
-- **Lived experience:** examples of infant care or off-hours care being the breaking point rather than generic access alone
-- **Mechanism proof:** evidence on labor share, ratios, thin margins, and why the trilemma is structural
-- **Mechanism proof:** evidence on subsidy cliffs, provider closures, or child-care desert patterns
-- **What worked somewhere:** a mixed-delivery or funding model that expanded slots, stabilized providers, or improved wraparound coverage
+This is the childcare version of the same trap described in the [Core Model](/core-model/):
+
+- more [monthly squeeze](/core-model/) because care costs and unstable schedules hit the household budget at the same time
+- less [real choice](/core-model/) when parents cannot reliably choose work, hours, or care that actually fits their lives
+- more [complexity as a hidden tax](/core-model/) through subsidy cliffs, patchwork hours, and fragile provider capacity
+- weaker [guardrails that actually bite](/core-model/) when a clearly broken market is still expected to solve itself
+
+## How this moves toward the north star
+
+If the north star is a society where ordinary households have breathing room, childcare has to move in this direction:
+
+- more [security](/core-model/) because one care disruption should not throw work, income, and family life into chaos
+- more [real choice](/core-model/) because parents need actual care options, not waitlists and wishful thinking
+- more [fair competition](/core-model/) because providers should compete on quality and fit, not on who can survive the worst math
+- more [shared gains](/core-model/) because stable childcare helps families, employers, and the wider economy at the same time
 
 ## Related reading
 
-- The Monthly Squeeze Series
-- The Squeeze Summary: One System, Five Bills, Same Trap
-- Housing: The Bill That Sets the Whole Month on Fire
-- Childcare case study and addendum
+- [The Monthly Squeeze Series](/blog/monthly-squeeze-series-index/)
+- [The Squeeze Summary: One System, Five Bills, Same Trap](/blog/monthly-squeeze-summary/)
+- [Housing: The Bill That Sets the Whole Month on Fire](/blog/monthly-squeeze-housing/)
+- [Childcare Guardrails: The Market That Cannot Work Without Help](/case-studies/childcare-guardrails-and-squeeze/)

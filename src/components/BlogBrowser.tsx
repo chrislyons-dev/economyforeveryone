@@ -1,4 +1,5 @@
-﻿import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import { parseShowFutureOverride, shouldShowScheduledPost } from '../utils/blog-schedule';
 
 type BlogIndexItem = {
   slug: string;
@@ -24,10 +25,9 @@ export default function BlogBrowser({ items }: BlogBrowserProps) {
   const [showFuture, setShowFuture] = useState(false);
 
   useEffect(() => {
-    if (!import.meta.env.DEV) return;
-    const params = new URLSearchParams(window.location.search);
-    const enabled = ['1', 'true', 'yes'].includes((params.get('showFuture') || '').toLowerCase());
-    setShowFuture(enabled);
+    const search =
+      typeof globalThis.location?.search === 'string' ? globalThis.location.search : '';
+    setShowFuture(parseShowFutureOverride(search, import.meta.env.DEV));
   }, []);
 
   const categories = useMemo(() => {
@@ -36,13 +36,8 @@ export default function BlogBrowser({ items }: BlogBrowserProps) {
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    const today = new Date();
-    today.setHours(23, 59, 59, 999);
-
     const searched = items.filter((item) => {
-      const pubTime = new Date(item.pubDate).valueOf();
-      if (Number.isNaN(pubTime)) return false;
-      if (!showFuture && pubTime > today.valueOf()) return false;
+      if (!shouldShowScheduledPost(item.pubDate, showFuture)) return false;
       if (category !== 'all' && item.category !== category) return false;
       if (!q) return true;
       const haystack = [
