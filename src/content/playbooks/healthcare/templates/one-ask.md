@@ -2,7 +2,7 @@
 title: 'One Ask (Clinic Ops / IT / Leadership)'
 last_updated: 2026-02-26
 status: draft
-lane: Healthcare-MD
+lane: Healthcare
 tags:
   - healthcare
   - one-ask

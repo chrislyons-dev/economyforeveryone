@@ -1,4 +1,5 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import { parseShowFutureOverride, shouldShowScheduledPost } from '../utils/blog-schedule';
 
 type BlogIndexItem = {
   slug: string;
@@ -21,6 +22,13 @@ export default function BlogBrowser({ items }: BlogBrowserProps) {
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('all');
   const [sortBy, setSortBy] = useState<'newest' | 'oldest' | 'title'>('newest');
+  const [showFuture, setShowFuture] = useState(false);
+
+  useEffect(() => {
+    const search =
+      typeof globalThis.location?.search === 'string' ? globalThis.location.search : '';
+    setShowFuture(parseShowFutureOverride(search, import.meta.env.DEV));
+  }, []);
 
   const categories = useMemo(() => {
     return Array.from(new Set(items.map((item) => item.category))).sort();
@@ -28,8 +36,8 @@ export default function BlogBrowser({ items }: BlogBrowserProps) {
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-
     const searched = items.filter((item) => {
+      if (!shouldShowScheduledPost(item.pubDate, showFuture)) return false;
       if (category !== 'all' && item.category !== category) return false;
       if (!q) return true;
       const haystack = [
@@ -49,7 +57,7 @@ export default function BlogBrowser({ items }: BlogBrowserProps) {
       if (sortBy === 'oldest') return new Date(a.pubDate).valueOf() - new Date(b.pubDate).valueOf();
       return new Date(b.pubDate).valueOf() - new Date(a.pubDate).valueOf();
     });
-  }, [category, items, query, sortBy]);
+  }, [category, items, query, showFuture, sortBy]);
 
   return (
     <div className="section-grid">
@@ -93,13 +101,19 @@ export default function BlogBrowser({ items }: BlogBrowserProps) {
         </label>
       </div>
 
+      {import.meta.env.DEV && showFuture && (
+        <p className="muted-note">
+          Dev preview active: showing future-dated posts because <code>?showFuture=1</code> is set.
+        </p>
+      )}
+
       <p className="muted-note">{filtered.length} posts</p>
 
       <ol className="timeline-list">
         {filtered.map((post) => (
           <li key={post.slug} className="panel timeline-item receipt-card">
             <p className="eyebrow">
-              {post.category} · {post.pubDate.slice(0, 10)} · {post.sourceChannel}
+              {post.category} | {post.pubDate.slice(0, 10)} | {post.sourceChannel}
             </p>
             <h3 className="title-reset case-study-title">{post.title}</h3>
             <p>{post.description}</p>

@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+﻿@import 'tailwindcss';
 
 @theme {
   --font-sans: 'Atkinson Hyperlegible', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
@@ -161,14 +161,85 @@ a:hover {
   background: color-mix(in oklch, var(--theme-bg-surface) 88%, var(--theme-accent-positive) 8%);
 }
 
+.case-meta-inline {
+  margin: 0.4rem 0 1rem;
+  font-size: 0.92rem;
+}
+
+.case-meta-inline strong {
+  color: var(--theme-text-strong);
+}
+
+.case-meta-inline a {
+  white-space: nowrap;
+}
+
+.coming-soon-link {
+  cursor: default;
+}
+
+.coming-soon-note {
+  color: var(--theme-text-muted);
+  font-size: 0.95em;
+  font-weight: 500;
+}
+
+.detail-top-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.detail-action-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.print-button {
+  appearance: none;
+  border: 1px solid color-mix(in oklch, var(--theme-border) 82%, var(--theme-accent) 18%);
+  background: color-mix(in oklch, var(--theme-bg-surface) 90%, var(--theme-accent) 6%);
+  color: var(--theme-text);
+  border-radius: 999px;
+  padding: 0.42rem 0.85rem;
+  font: inherit;
+  font-size: 0.92rem;
+  line-height: 1.2;
+  cursor: pointer;
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease;
+}
+
+.print-button:hover {
+  background: color-mix(in oklch, var(--theme-bg-surface) 84%, var(--theme-accent) 10%);
+  border-color: color-mix(in oklch, var(--theme-border) 68%, var(--theme-accent) 32%);
+}
+
+.print-button:focus-visible {
+  outline: 2px solid var(--theme-accent);
+  outline-offset: 2px;
+}
+
+.icon-button {
+  min-width: 0;
+  padding: 0.4rem 0.65rem;
+  justify-content: flex-start;
+}
 .prose-e4e {
   font-family: var(--font-serif);
-  line-height: 1.1;
-  max-width: 70ch;
+  font-size: clamp(1rem, 0.98rem + 0.22vw, 1.08rem);
+  line-height: 1.58;
+  max-width: 72ch;
 }
 
 .prose-e4e p {
-  margin: 0 0 0.72rem;
+  margin: 0 0 0.66rem;
 }
 
 .prose-e4e h1,
@@ -177,38 +248,73 @@ a:hover {
 .prose-e4e h4 {
   font-family: var(--font-sans);
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.18;
   color: var(--theme-text-primary);
-  margin: 0.25rem 0 0.25rem;
+  margin: 0.3rem 0 0.22rem;
 }
 
 .prose-e4e h1 {
-  font-size: 1.42rem;
+  font-size: 1.62rem;
 }
 
 .prose-e4e h2 {
-  font-size: 1.27rem;
+  font-size: 1.4rem;
 }
 
 .prose-e4e h3 {
-  font-size: 1.12rem;
+  font-size: 1.22rem;
 }
 
 .prose-e4e h4 {
-  font-size: 1.1rem;
+  font-size: 1.08rem;
   letter-spacing: 0.01em;
 }
 
 .prose-e4e ul,
 .prose-e4e ol {
-  margin: 0.25rem 0 0.78rem;
-  padding-left: 1.2rem;
+  margin: 0.14rem 0 0.62rem;
+}
+
+.prose-e4e ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.prose-e4e ul li {
+  position: relative;
+  padding-left: 1.05rem;
+}
+
+.prose-e4e ul li::before {
+  content: '-';
+  position: absolute;
+  left: 0;
+  color: var(--theme-text-muted);
+}
+
+.prose-e4e ol {
+  padding-left: 1.3rem;
+}
+
+.prose-e4e ol li::marker {
+  color: var(--theme-text-muted);
 }
 
 .prose-e4e li {
-  margin: 0.2rem 0;
+  margin: 0.12rem 0;
 }
 
+.prose-e4e :is(h1, h2, h3, h4) + :is(p, ul, ol, blockquote) {
+  margin-top: 0.14rem;
+}
+
+.prose-e4e p + :is(ul, ol) {
+  margin-top: -0.12rem;
+}
+
+.prose-e4e :is(ul, ol) + p {
+  margin-top: 0.2rem;
+}
 .prose-e4e .appendix-table-wrap {
   width: min(92vw, 74rem);
   max-width: none;
@@ -264,7 +370,7 @@ a:hover {
 
 .eyebrow {
   margin: 0 0 0.4rem;
-  font-size: 0.76rem;
+  font-size: 0.8rem;
   letter-spacing: 0.07em;
   text-transform: uppercase;
   color: var(--theme-text-muted);
@@ -356,7 +462,7 @@ a:hover {
   border: 0.06rem solid transparent;
   border-radius: 999px;
   padding: 0.28rem 0.62rem;
-  font-size: 0.88rem;
+  font-size: 0.92rem;
 }
 
 .nav-links a:hover {
@@ -598,6 +704,55 @@ a:hover {
 .muted-note {
   margin: 0.6rem 0 0;
   color: var(--theme-text-muted);
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+@media print {
+  :root {
+    background: #fff;
+  }
+
+  body {
+    background: #fff !important;
+    color: #111 !important;
+  }
+
+  header,
+  footer,
+  nav,
+  .mobile-nav,
+  .nav-shell,
+  .no-print {
+    display: none !important;
+  }
+
+  main,
+  .site-shell,
+  .section-grid,
+  .prose-e4e {
+    max-width: none !important;
+    width: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: 0 !important;
+  }
+
+  .panel,
+  .receipt-card {
+    background: #fff !important;
+    border: 1px solid #d9d9d9 !important;
+    box-shadow: none !important;
+    break-inside: avoid;
+  }
+
+  a,
+  a:visited {
+    color: #111 !important;
+    text-decoration: underline;
+  }
 }
 
 .claim {
@@ -624,8 +779,8 @@ a:hover {
 }
 
 .case-study-title {
-  font-size: 1.35rem;
-  line-height: 1.2;
+  font-size: 1.42rem;
+  line-height: 1.22;
 }
 
 .case-study-detail {
@@ -654,7 +809,7 @@ a:hover {
 .case-filter-row label {
   display: grid;
   gap: 0.25rem;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: var(--theme-text-secondary);
   min-width: 0;
 }

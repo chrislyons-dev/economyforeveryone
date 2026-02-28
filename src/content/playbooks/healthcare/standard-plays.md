@@ -2,7 +2,7 @@
 title: 'Standard Plays (Minimum Viable Interventions)'
 last_updated: 2026-02-26
 status: draft
-lane: Healthcare-MD
+lane: Healthcare
 tags:
   - healthcare
   - interventions
