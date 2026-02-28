@@ -2,7 +2,7 @@
 title: 'Field Notes (MD / Clinic)'
 last_updated: 2026-02-26
 status: draft
-lane: Healthcare-MD
+lane: Healthcare
 tags:
   - healthcare
   - field-notes

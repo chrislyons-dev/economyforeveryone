@@ -1,4 +1,4 @@
----
+﻿---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
@@ -51,21 +51,17 @@ const receiptTags = (post.data.receiptTags ?? []).map((tag: string) => ({
 
     {
       receiptTags.length > 0 && (
-        <div class="panel">
-          <p class="eyebrow">Receipts</p>
-          <p class="muted-note">Receipt details are tracked in Methods and Sources by type:</p>
-          <p class="muted-note">
-            {receiptTags.map((tag, index) => (
-              <>
-                {index > 0 && ', '}
-                <a href={`/methods-and-sources#receipt-${tag.id}`}>{tag.label}</a>
-              </>
-            ))}
-          </p>
-        </div>
+        <p class="case-meta-inline muted-note">
+          <strong>Receipts:</strong> tracked in Methods and Sources by type:{' '}
+          {receiptTags.map((tag, index) => (
+            <>
+              {index > 0 && ' | '}
+              <a href={`/methods-and-sources#receipt-${tag.id}`}>{tag.label}</a>
+            </>
+          ))}
+        </p>
       )
     }
-
     <Content />
 
     <p>

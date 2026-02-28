@@ -14,7 +14,7 @@ This folder turns principles into repeatable practice.
 Pick a lane:
 
 - [Kids Playbook](/playbooks/kids/)
-- [Healthcare-MD Playbook](/playbooks/healthcare-md/)
+- [Healthcare Playbook](/playbooks/healthcare/)
 - [Civics Playbook](/playbooks/civics/)
 - [Community Playbook](/playbooks/community/)
 - [Writing Playbook](/playbooks/writing/)

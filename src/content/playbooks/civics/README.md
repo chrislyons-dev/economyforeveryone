@@ -1,6 +1,6 @@
 ﻿---
 title: 'Civics Playbook'
-last_updated: 2026-02-26
+last_updated: 2026-02-28
 status: draft
 lane: Civics
 is_root: true
@@ -10,7 +10,7 @@ tags:
   - index
 ---
 
-This folder is the “small but complete” civics toolkit.
+This folder is the small but complete civics toolkit.
 
 Goal: **high coverage without 100 playbooks**.
 
@@ -24,17 +24,13 @@ If you only ever use **two** things, use:
 - [**One-Ask Engine**](/playbooks/civics/core/01-one-ask-engine/)
 - [**Information Hygiene**](/playbooks/civics/core/12-information-hygiene/)
 
----
-
 ## The core model (why this exists)
 
-Monthly squeeze → insecurity → manipulation/scapegoats → division → no fixes → more squeeze
+Monthly squeeze -> insecurity -> manipulation/scapegoats -> division -> no fixes -> more squeeze
 
 Civics playbooks are how we interrupt that loop without losing ourselves.
 
----
-
-## How to use this (the “not overwhelmed” flow)
+## How to use this (the not-overwhelmed flow)
 
 ### Step 1: Pick your lane (one is enough)
 
@@ -45,16 +41,14 @@ Civics playbooks are how we interrupt that loop without losing ourselves.
 
 ### Step 2: Use the smallest useful playbook
 
-- If you’re unsure: [**One-Ask Engine**](/playbooks/civics/core/01-one-ask-engine/)
-- If you’re angry or doomscrolling: [**Information Hygiene**](/playbooks/civics/core/12-information-hygiene/)
-- If there’s a meeting coming: [**Public Meeting**](/playbooks/civics/core/06-public-meeting/)
-- If it’s election season: [**GOTV Micro-Team**](/playbooks/civics/core/05-gotv-micro-team/) or [**Relational Canvassing**](/playbooks/civics/core/04-relational-canvassing/)
+- If you're unsure: [**One-Ask Engine**](/playbooks/civics/core/01-one-ask-engine/)
+- If you're angry or doomscrolling: [**Information Hygiene**](/playbooks/civics/core/12-information-hygiene/)
+- If there's a meeting coming: [**Public Meeting**](/playbooks/civics/core/06-public-meeting/)
+- If it's election season: [**GOTV Micro-Team**](/playbooks/civics/core/05-gotv-micro-team/) or [**Relational Canvassing**](/playbooks/civics/core/04-relational-canvassing/)
 
 ### Step 3: Add the right adapter
 
 - Local / State / Federal (see below)
-
----
 
 ## Core playbooks (the starter set)
 
@@ -63,77 +57,126 @@ Same moves, different targets.
 
 ### 01) One-Ask Engine (default civic move)
 
-**Use when:** you don’t know what to do, or you want clean leverage.  
+**Use when:** you do not know what to do, or you want clean leverage.
 **Output:** one clear ask + one measurable outcome + one next step.
 [Open playbook](/playbooks/civics/core/01-one-ask-engine/)
 
 ### 02) Candidate Evaluation + Feedback
 
-**Use when:** you’re choosing who to support, or giving candidates consistent feedback.  
+**Use when:** you're choosing who to support, or giving candidates consistent feedback.
 **Includes:** hard-fail guardrails, scorecard, short message template.
 [Open playbook](/playbooks/civics/core/02-candidate-evaluation-and-feedback/)
 
 ### 03) Voting Plan (Personal + Household)
 
-**Use when:** 60 days out (or whenever you realize you’re behind).  
+**Use when:** 60 days out (or whenever you realize you're behind).
 **Includes:** registration check, ballot plan, friction removal.
 [Open playbook](/playbooks/civics/core/03-voting-plan/)
 
 ### 04) Relational Canvassing (friend network, not weird)
 
-**Use when:** you want persuasion without becoming a troll.  
+**Use when:** you want persuasion without becoming a troll.
 **Includes:** 3 questions, 2 stories, 1 ask. DM > comments.
 [Open playbook](/playbooks/civics/core/04-relational-canvassing/)
 
-### 05) GOTV Micro-Team (3–8 people)
+### 05) GOTV Micro-Team (3-8 people)
 
-**Use when:** elections matter and you want real leverage.  
+**Use when:** elections matter and you want real leverage.
 **Includes:** roles, weekly rhythm, minimum viable turnout plan.
 [Open playbook](/playbooks/civics/core/05-gotv-micro-team/)
 
 ### 06) Public Meeting (show up + be effective)
 
-**Use when:** school board, city council, county, zoning, commissions.  
+**Use when:** school board, city council, county, zoning, commissions.
 **Includes:** agenda prep, 90-second testimony, follow-up.
 [Open playbook](/playbooks/civics/core/06-public-meeting/)
 
 ### 07) Public Comment + Rulemaking
 
-**Use when:** agencies ask for input (local/state/federal).  
-**Includes:** comment template, harm → fix → measurable request.
+**Use when:** agencies ask for input (local/state/federal).
+**Includes:** comment template, harm -> fix -> measurable request.
 [Open playbook](/playbooks/civics/core/07-public-comment-and-rulemaking/)
 
 ### 08) Accountability (Watchdog Lite)
 
-**Use when:** you suspect dysfunction/capture and want _real receipts_.  
+**Use when:** you suspect dysfunction/capture and want _real receipts_.
 **Includes:** meeting minutes, budgets, contracts, dashboards, escalation.
 [Open playbook](/playbooks/civics/core/08-accountability-watchdog-lite/)
 
 ### 09) Coalition Basics (work with imperfect allies)
 
-**Use when:** you need allies and don’t want purity spirals.  
+**Use when:** you need allies and do not want purity spirals.
 **Includes:** shared goal/facts/rules, conflict rules, exit rules.
 [Open playbook](/playbooks/civics/core/09-coalition-basics/)
 
 ### 10) Donations with Discipline
 
-**Use when:** you donate and want impact, not vibes.  
+**Use when:** you donate and want impact, not vibes.
 **Includes:** giving rubric, recurring vs one-time, budget guardrails.
 [Open playbook](/playbooks/civics/core/10-donations-with-discipline/)
 
 ### 11) Mutual Aid + Rapid Response
 
-**Use when:** people get hit now (raids, layoffs, eviction, disaster).  
+**Use when:** people get hit now (raids, layoffs, eviction, disaster).
 **Includes:** calm coordination, who-to-call tree, legality/safety guardrails.
 [Open playbook](/playbooks/civics/core/11-mutual-aid-and-rapid-response/)
 
 ### 12) Information Hygiene (anti-rage-bait)
 
-**Use when:** your feed is trying to hijack your brain.  
-**Includes:** verify steps, “share or don’t share” rules, correction scripts.
+**Use when:** your feed is trying to hijack your brain.
+**Includes:** verify steps, share-or-don't-share rules, correction scripts.
 [Open playbook](/playbooks/civics/core/12-information-hygiene/)
 
----
+## What stronger asks sound like
+
+A good civic ask is boring in the best way.
+It names:
+
+- the rule
+- the owner
+- the metric
+- the deadline
+
+The newer big-cost case studies sharpened a few recurring ask types:
+
+- **Price legibility:** all-in price, standard fee labels, plain-language notices
+- **Throughput state:** dashboards, deadlines, simple forms, faster review that people can actually feel
+- **Fair terms:** cure periods, refund rules, itemized estimates, appeal rights
+- **Real access:** wraparound care, repair choice, non-car job access, infant slots, by-right small infill
+
+### A few concrete examples
+
+Instead of:
+
+- make housing affordable
+
+Use:
+
+- require all-in move-in cost disclosure before any application fee is paid, and publish compliance data by quarter.
+
+Instead of:
+
+- fix childcare
+
+Use:
+
+- publish childcare licensing timelines monthly and create an infant-slot support fund with a public slot count by county.
+
+Instead of:
+
+- healthcare is too complicated
+
+Use:
+
+- publish prior-authorization turnaround times by major payer and require plain-language denial reasons.
+
+Instead of:
+
+- transportation is broken
+
+Use:
+
+- require all-in vehicle pricing and clear opt-in for add-ons, with complaint tracking by quarter.
 
 ## Level adapters (what changes by level)
 
@@ -143,7 +186,7 @@ Adapters answer: **who decides, when, and what actually moves.**
 
 Best for: housing supply, school climate, policing priorities, procurement/contracts, permitting, transit tweaks.
 
-You’ll usually need:
+You'll usually need:
 
 - [Public Meeting](/playbooks/civics/core/06-public-meeting/)
 - [One-Ask Engine](/playbooks/civics/core/01-one-ask-engine/)
@@ -154,7 +197,7 @@ You’ll usually need:
 
 Best for: preemption, standards, funding formulas, licensing, state agencies.
 
-You’ll usually need:
+You'll usually need:
 
 - [Public Comment + Rulemaking](/playbooks/civics/core/07-public-comment-and-rulemaking/)
 - [Candidate Evaluation + Feedback](/playbooks/civics/core/02-candidate-evaluation-and-feedback/)
@@ -165,38 +208,32 @@ You’ll usually need:
 
 Best for: national standards, major budgets, civil rights enforcement, agency rulemaking, oversight.
 
-You’ll usually need:
+You'll usually need:
 
 - [Public Comment + Rulemaking](/playbooks/civics/core/07-public-comment-and-rulemaking/)
 - [Accountability (Watchdog Lite)](/playbooks/civics/core/08-accountability-watchdog-lite/)
-- [Donations with Discipline](/playbooks/civics/core/10-donations-with-discipline/) (if you’re choosing leverage orgs)
+- [Donations with Discipline](/playbooks/civics/core/10-donations-with-discipline/) (if you're choosing leverage orgs)
 - [Open federal adapter](/playbooks/civics/adapters/federal/)
-
----
 
 ## Quick chooser (when you have 2 minutes)
 
-- “I’m overwhelmed.” → [**01 One-Ask Engine**](/playbooks/civics/core/01-one-ask-engine/)
-- “My feed is melting my brain.” → [**12 Information Hygiene**](/playbooks/civics/core/12-information-hygiene/)
-- “There’s a meeting next week.” → [**06 Public Meeting**](/playbooks/civics/core/06-public-meeting/)
-- “Election is coming.” → [**05 GOTV Micro-Team**](/playbooks/civics/core/05-gotv-micro-team/) (or [**04 Relational Canvassing**](/playbooks/civics/core/04-relational-canvassing/))
-- “There’s a comment period / proposed rule.” → [**07 Public Comment + Rulemaking**](/playbooks/civics/core/07-public-comment-and-rulemaking/)
-- “Something smells off.” → [**08 Accountability (Watchdog Lite)**](/playbooks/civics/core/08-accountability-watchdog-lite/)
-- “I want to help _now_.” → [**11 Mutual Aid + Rapid Response**](/playbooks/civics/core/11-mutual-aid-and-rapid-response/)
-- “I want to donate.” → [**10 Donations with Discipline**](/playbooks/civics/core/10-donations-with-discipline/)
-
----
+- I'm overwhelmed. -> [**01 One-Ask Engine**](/playbooks/civics/core/01-one-ask-engine/)
+- My feed is melting my brain. -> [**12 Information Hygiene**](/playbooks/civics/core/12-information-hygiene/)
+- There's a meeting next week. -> [**06 Public Meeting**](/playbooks/civics/core/06-public-meeting/)
+- Election is coming. -> [**05 GOTV Micro-Team**](/playbooks/civics/core/05-gotv-micro-team/) (or [**04 Relational Canvassing**](/playbooks/civics/core/04-relational-canvassing/))
+- There's a comment period / proposed rule. -> [**07 Public Comment + Rulemaking**](/playbooks/civics/core/07-public-comment-and-rulemaking/)
+- Something smells off. -> [**08 Accountability (Watchdog Lite)**](/playbooks/civics/core/08-accountability-watchdog-lite/)
+- I want to help _now_. -> [**11 Mutual Aid + Rapid Response**](/playbooks/civics/core/11-mutual-aid-and-rapid-response/)
+- I want to donate. -> [**10 Donations with Discipline**](/playbooks/civics/core/10-donations-with-discipline/)
 
 ## Success criteria (so this stays real)
 
-A playbook is “good” if it:
+A playbook is good if it:
 
 - produces **one clear ask**
 - has a **measurable outcome**
 - reduces the **monthly squeeze** or reduces **manipulation/division**
 - can be repeated without turning you into a jerk
-
----
 
 ## Your weekly default (the steady thing)
 
@@ -206,8 +243,6 @@ Pick one:
 - **One Meeting** (attend or watch, take notes, follow up)
 - **One Micro-Team touch** (nudge, plan, assign roles)
 - **One Hygiene reset** (verify before sharing; calm correction if needed)
-
----
 
 ## Maintenance cadence (small and durable)
 
