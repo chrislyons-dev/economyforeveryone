@@ -41,11 +41,20 @@ jobs:
           PROJECT_NAME="${CF_PAGES_PROJECT_NAME:-economyforeveryone}"
           echo "Using Pages project: $PROJECT_NAME"
 
-          if npx -y wrangler pages project list --format json | node -e "const fs=require('fs'); const name=process.argv[1]; const list=JSON.parse(fs.readFileSync(0,'utf8')); process.exit(list.some((p)=>p.name===name)?0:1)" "$PROJECT_NAME"; then
+          STATUS_CODE="$(curl -sS -o /tmp/cf-pages-project.json -w "%{http_code}" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            -H "Content-Type: application/json" \
+            "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/$PROJECT_NAME")"
+
+          if [ "$STATUS_CODE" = "200" ]; then
             echo "Pages project '$PROJECT_NAME' already exists."
-          else
+          elif [ "$STATUS_CODE" = "404" ]; then
             echo "Creating Pages project '$PROJECT_NAME'..."
             npx -y wrangler pages project create "$PROJECT_NAME" --production-branch main
+          else
+            echo "Unexpected Cloudflare API response while checking project existence:"
+            cat /tmp/cf-pages-project.json
+            exit 1
           fi
 
       - name: Deploy to Cloudflare Pages
