@@ -1,4 +1,4 @@
----
+﻿---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import BlogBrowser from '../../components/BlogBrowser';
@@ -43,7 +43,7 @@ const postIndex = posts.map((post) => ({
             {posts.map((post) => (
               <li class="panel timeline-item receipt-card">
                 <p class="eyebrow">
-                  {post.data.category} · {post.data.pubDate.toISOString().slice(0, 10)}
+                  {post.data.category} | {post.data.pubDate.toISOString().slice(0, 10)}
                 </p>
                 <h3 class="title-reset case-study-title">{post.data.title}</h3>
                 <p>{post.data.description}</p>

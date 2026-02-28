@@ -2,7 +2,7 @@
 title: 'Housing: The Bill That Sets the Whole Month on Fire'
 description: 'Housing is not just one more expense. It is often the cost that determines whether the rest of the month is survivable, and scarcity makes the worst forms of rigging more profitable.'
 pubDate: 2026-03-05
-status: 'draft'
+status: 'published'
 category: 'big-costs'
 topics:
   - 'housing'

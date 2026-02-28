@@ -2,7 +2,7 @@
 title: 'The Squeeze Summary: One System, Five Bills, Same Trap'
 description: 'A durable overview of the monthly squeeze: how housing, healthcare, childcare, education, and transportation reinforce each other and what practical reform has to do differently.'
 pubDate: 2026-03-24
-status: 'draft'
+status: 'published'
 category: 'big-costs'
 topics:
   - 'monthly-squeeze'
