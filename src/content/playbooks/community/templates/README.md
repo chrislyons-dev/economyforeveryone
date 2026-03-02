@@ -19,18 +19,18 @@ One ask beats ten hot takes.
 
 ## What’s included
 
-- [`one-pager.md`](./one-pager.md)
-- [`meeting-agenda.md`](./meeting-agenda.md)
-- [`one-ask-email.md`](./one-ask-email.md)
-- [`follow-up-email.md`](./follow-up-email.md)
-- [`call-your-rep-script.md`](./call-your-rep-script.md)
-- [`testimony-90-seconds.md`](./testimony-90-seconds.md)
-- [`after-action-review.md`](./after-action-review.md)
-- [`civics-log.md`](./civics-log.md)
-- [`metrics-definition-card.md`](./metrics-definition-card.md)
-- [`module-sprint-kit.md`](./module-sprint-kit.md)
-- [`scoreboard-template.md`](./scoreboard-template.md)
-- [`stakeholder-map.md`](./stakeholder-map.md)
+- [One-Pager Template (Community)](./one-pager.md)
+- [Meeting Agenda Template (30 minutes)](./meeting-agenda.md)
+- [One-Ask Email (Template)](./one-ask-email.md)
+- [Follow-Up Email (Template)](./follow-up-email.md)
+- [Call Your Rep Script (Voicemail)](./call-your-rep-script.md)
+- [90-Second Testimony (Public Meeting)](./testimony-90-seconds.md)
+- [After-Action Review (AAR)](./after-action-review.md)
+- [Civics Log (Consistency > Intensity)](./civics-log.md)
+- [Metrics Definition Card](./metrics-definition-card.md)
+- [Module Sprint Kit](./module-sprint-kit.md)
+- [Scoreboard Template (Owner + Metric + Follow-Up)](./scoreboard-template.md)
+- [Stakeholder Map (Deciders + Influencers)](./stakeholder-map.md)
 
 ## Definition of done
 

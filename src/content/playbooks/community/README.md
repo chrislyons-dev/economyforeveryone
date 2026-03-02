@@ -35,25 +35,25 @@ The newer case-study work sharpened the kinds of asks that tend to matter most:
 
 ## What's inside
 
-- [`community-os.md`](./community-os.md)  
+- [Community OS (E4E)](./community-os.md)  
   The operating system: the repeatable loop, roles, and rhythm.
 
-- [`modules/README.md`](./modules/README.md)
+- [Community Modules (Topic Menus)](./modules/README.md)
   Topic menus with concrete asks you can lift into a one-pager or meeting.
 
-- [`places/README.md`](./places/README.md)
+- [Places (E4E)](./places/README.md)
   Place wrappers that keep the target, bottleneck, scoreboard, and next decision date in one place.
 
-- [`templates/one-pager.md`](./templates/one-pager.md)  
+- [One-Pager Template (Community)](./templates/one-pager.md)  
   The one-page handout: problem -> mechanism -> options -> recommendation -> ask -> success.
 
-- [`templates/meeting-agenda.md`](./templates/meeting-agenda.md)  
+- [Meeting Agenda Template (30 minutes)](./templates/meeting-agenda.md)  
   A simple agenda for a small group (or you + one ally) to stay action-oriented.
 
-- [`templates/scoreboard-template.md`](./templates/scoreboard-template.md)  
+- [Scoreboard Template (Owner + Metric + Follow-Up)](./templates/scoreboard-template.md)  
   A lightweight way to track the ask, the owner, the metric, and the follow-up.
 
-- [`places/template-place.md`](./places/template-place.md)  
+- [Place Playbook Template (Belief Tests + Scoreboard)](./places/template-place.md)  
   A place-specific belief-test template (3-5 tests, falsifiable, updated quarterly).
 
 ## Current topic modules

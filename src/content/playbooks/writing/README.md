@@ -20,22 +20,22 @@ The goal is: **clear + checkable + bridge-building + one next step**.
 
 ## What’s inside
 
-- [`bridge-language.md`](./bridge-language.md)  
+- [Bridge Language](./bridge-language.md)  
   Connection-first lines that keep you human, plus “bridge + boundary” exits to avoid circular comment fights.
 
-- [`post-frames.md`](./post-frames.md)  
+- [Post Frames (Small Set, High Reuse)](./post-frames.md)  
   A small set of reusable post structures (one point each).
 
-- [`channel-shapes.md`](./channel-shapes.md)
+- [Channel Shapes](./channel-shapes.md)
   What changes across Facebook, Substack notes, Substack posts, blogs, and notes.
 
-- [`editing-checklist.md`](./editing-checklist.md)  
+- [Editing Checklist (Integrity Gate)](./editing-checklist.md)  
   The pre-publish integrity gate: evidence labeling, mechanism, tone, and one action.
 
-- [`receipts-stubs.md`](./receipts-stubs.md)  
+- [Receipts Stubs (Backlog)](./receipts-stubs.md)  
   A “backlog” format for facts you want to source properly before posting.
 
-- [`action-menu.md`](./action-menu.md)  
+- [Action Menu](./action-menu.md)  
   A tiny library of repeatable actions so every post can end with something concrete.
 
 ## Default workflow (5 minutes)

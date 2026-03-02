@@ -16,7 +16,7 @@ test('blog index renders migrated posts and supports search', async ({ page }) =
   ).toBeVisible();
 });
 
-test('blog index hides future-dated posts by default and shows them with dev override', async ({
+test('blog index hides future-dated posts by default and shows them with query override', async ({
   page,
 }) => {
   await page.goto('/blog');
@@ -34,25 +34,18 @@ test('blog index hides future-dated posts by default and shows them with dev ove
   ).toBeVisible();
 });
 
-test('future related-reading blog links render as coming soon text without a hyperlink', async ({
-  page,
-}) => {
+test('future related-reading blog links stay live on blog detail pages', async ({ page }) => {
   await page.goto('/blog/fast-relief-slow-repair/');
 
   const relatedReading = page.getByRole('heading', { name: 'Related reading' }).locator('..');
-  await expect(relatedReading).toContainText('The Monthly Squeeze Series (coming soon)');
   await expect(
     relatedReading.getByRole('link', { name: 'The Monthly Squeeze Series' })
-  ).toHaveCount(0);
-
-  await expect(relatedReading).toContainText(
-    'Housing: The Bill That Sets the Whole Month on Fire (coming soon)'
-  );
+  ).toHaveAttribute('href', '/blog/monthly-squeeze-series-index/');
   await expect(
     relatedReading.getByRole('link', {
       name: 'Housing: The Bill That Sets the Whole Month on Fire',
     })
-  ).toHaveCount(0);
+  ).toHaveAttribute('href', '/blog/monthly-squeeze-housing/');
 });
 
 test('blog detail shows related methods links only when real receipt groups exist', async ({

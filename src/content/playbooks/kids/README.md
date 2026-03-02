@@ -21,16 +21,16 @@ The goal is: **calmer + clearer + one next step**.
 
 ## What’s inside
 
-- [`10-minute-talk.md`](./10-minute-talk.md)  
+- [10-Minute Talk (Kids)](./10-minute-talk.md)  
   The fast script you can run anytime.
 
-- [`fears-to-agency.md`](./fears-to-agency.md)  
+- [Fears to Agency](./fears-to-agency.md)  
   The underlying mechanic: how to move from fear to action without denial.
 
-- [`agency-menu.md`](./agency-menu.md)  
+- [Agency Menu](./agency-menu.md)  
   A short menu of actions so the talk doesn’t stall at “nothing we can do.”
 
-- [`skills-that-age-well.md`](./skills-that-age-well.md)  
+- [Skills That Age Well](./skills-that-age-well.md)  
   The long-game frame: what you can build that still matters in a changing world.
 
 ## How to use (the 2-minute version)

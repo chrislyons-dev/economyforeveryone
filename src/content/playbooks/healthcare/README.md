@@ -34,31 +34,31 @@ So the working question is:
 
 ## What's inside
 
-- [`admin-drag-map.md`](./admin-drag-map.md)  
+- [Admin Drag Map (MD / Clinic)](./admin-drag-map.md)  
   Where time goes (documentation, prior auth, inbox, etc.) and what's driving it.
 
-- [`ai-for-care-guardrails.md`](./ai-for-care-guardrails.md)  
+- [AI for Care (with Guardrails)](./ai-for-care-guardrails.md)  
   What AI can do safely, what it must never do, and the always-required rules.
 
-- [`triage-and-prioritization.md`](./triage-and-prioritization.md)  
+- [Triage and Prioritization](./triage-and-prioritization.md)  
   How to pick the first target (frequency x minutes x judgment x risk).
 
-- [`standard-plays.md`](./standard-plays.md)  
+- [Standard Plays (Minimum Viable Interventions)](./standard-plays.md)  
   A small menu of safe interventions (delegation + standardization first, automation second).
 
-- [`scoreboard.md`](./scoreboard.md)  
+- [Scoreboard (Prove It Helped)](./scoreboard.md)  
   3-5 metrics to prove this is working.
 
-- [`templates/field-notes.md`](./templates/field-notes.md)  
+- [Field Notes (MD / Clinic)](./templates/field-notes.md)  
   A 5-minute weekly capture that turns lived pain into the next fix.
 
-- [`templates/one-ask.md`](./templates/one-ask.md)  
+- [One Ask (Clinic Ops / IT / Leadership)](./templates/one-ask.md)  
   A short request you can send to leadership/ops/IT to remove a bottleneck.
 
-- [`quickstart-15-min.md`](./quickstart-15-min.md)
+- [Quickstart (15 Minutes)](./quickstart-15-min.md)
   A fast entry point for testing the kit on one real workflow.
 
-- [`md-feedback-questions.md`](./md-feedback-questions.md)
+- [MD Feedback Questions](./md-feedback-questions.md)
   Questions that make it easier for a physician to review the playbook against real clinic reality.
 
 ## The practical target list

@@ -21,7 +21,7 @@ Metadata convention:
 Pick a lane:
 
 - [Kids](./kids/README.md)
-- [Healthcare (MD)](./healthcare-md/README.md)
+- [Healthcare (MD)](./healthcare/README.md)
 - [Civics](./civics/README.md)
 - [Community](./community/README.md)
 - [Writing](./writing/README.md)

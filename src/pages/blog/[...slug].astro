@@ -9,14 +9,7 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
-const publishedPosts = await getCollection('blog', ({ data }) => data.status === 'published');
 const receiptGroups = await getCollection('receipts', ({ data }) => data.status === 'published');
-const blogSchedule = Object.fromEntries(
-  publishedPosts.map((entry) => [
-    `/blog/${entry.slug}/`,
-    entry.data.pubDate.toISOString().slice(0, 10),
-  ])
-);
 
 const receiptTypes = new Map([
   ['primary-documents', 'Primary documents'],
@@ -150,41 +143,7 @@ const oneSmallActionParts = (() => {
   </section>
 </BaseLayout>
 
-<script is:inline define:vars={{ blogSchedule, devMode: import.meta.env.DEV }}>
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-  const showFuture =
-    devMode && new URLSearchParams(window.location.search).get('showFuture') === '1';
-
-  const normalizePath = (pathname) => (pathname.endsWith('/') ? pathname : `${pathname}/`);
-
-  if (!showFuture) {
-    document.querySelectorAll('.prose-e4e a[href^="/blog/"]').forEach((link) => {
-      const href = link.getAttribute('href');
-      if (!href) return;
-
-      const path = normalizePath(new URL(href, window.location.origin).pathname);
-      const pubDate = blogSchedule[path];
-      if (!pubDate) return;
-
-      const releaseDate = new Date(`${pubDate}T00:00:00`);
-      if (Number.isNaN(releaseDate.getTime()) || releaseDate <= today) return;
-      if (link.dataset.comingSoon === 'true') return;
-
-      const replacement = document.createElement('span');
-      replacement.dataset.comingSoon = 'true';
-      replacement.className = 'coming-soon-link';
-      replacement.textContent = link.textContent ?? '';
-
-      const note = document.createElement('span');
-      note.className = 'coming-soon-note';
-      note.textContent = ' (coming soon)';
-      replacement.appendChild(note);
-
-      link.replaceWith(replacement);
-    });
-  }
-
+<script is:inline>
   document.querySelectorAll('[data-print-page]').forEach((button) => {
     button.addEventListener('click', () => window.print());
   });

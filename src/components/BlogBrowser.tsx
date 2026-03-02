@@ -38,7 +38,7 @@ export default function BlogBrowser({ items }: BlogBrowserProps) {
   useEffect(() => {
     const search =
       typeof globalThis.location?.search === 'string' ? globalThis.location.search : '';
-    setShowFuture(parseShowFutureOverride(search, import.meta.env.DEV));
+    setShowFuture(parseShowFutureOverride(search));
   }, []);
 
   const categories = useMemo(() => {
@@ -170,9 +170,9 @@ export default function BlogBrowser({ items }: BlogBrowserProps) {
         </div>
       </div>
 
-      {import.meta.env.DEV && showFuture && (
+      {showFuture && (
         <p className="muted-note">
-          Dev preview active: showing future-dated posts because <code>?showFuture=1</code> is set.
+          Preview active: showing future-dated posts because <code>?showFuture=1</code> is set.
         </p>
       )}
 

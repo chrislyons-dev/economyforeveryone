@@ -1,5 +1,30 @@
-export function parseShowFutureOverride(search: string | undefined, isDev: boolean): boolean {
-  if (!isDev) return false;
+const SITE_TIME_ZONE = 'America/Chicago';
+
+function toDateKey(value: string): string | null {
+  const directMatch = value.match(/^(\d{4}-\d{2}-\d{2})/);
+  if (directMatch) return directMatch[1];
+
+  const parsed = new Date(value);
+  if (Number.isNaN(parsed.valueOf())) return null;
+
+  return new Intl.DateTimeFormat('en-CA', {
+    timeZone: SITE_TIME_ZONE,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).format(parsed);
+}
+
+function getTodayKey(now: Date): string {
+  return new Intl.DateTimeFormat('en-CA', {
+    timeZone: SITE_TIME_ZONE,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).format(now);
+}
+
+export function parseShowFutureOverride(search: string | undefined): boolean {
   const params = new globalThis.URLSearchParams(search ?? '');
   return ['1', 'true', 'yes'].includes((params.get('showFuture') || '').toLowerCase());
 }
@@ -9,28 +34,8 @@ export function shouldShowScheduledPost(
   showFuture: boolean,
   now: Date = new Date()
 ): boolean {
-  const pubTime = new Date(pubDate).valueOf();
-  if (Number.isNaN(pubTime)) return false;
+  const pubDateKey = toDateKey(pubDate);
+  if (!pubDateKey) return false;
 
-  const today = new Date(now);
-  today.setHours(23, 59, 59, 999);
-
-  return showFuture || pubTime <= today.valueOf();
-}
-
-export function getScheduledLinkState(
-  pubDate: string | undefined,
-  showFuture: boolean,
-  now: Date = new Date()
-): 'live' | 'coming-soon' | 'unknown' {
-  if (!pubDate) return 'unknown';
-  if (showFuture) return 'live';
-
-  const releaseDate = new Date(`${pubDate}T00:00:00`);
-  if (Number.isNaN(releaseDate.getTime())) return 'unknown';
-
-  const today = new Date(now);
-  today.setHours(0, 0, 0, 0);
-
-  return releaseDate <= today ? 'live' : 'coming-soon';
+  return showFuture || pubDateKey <= getTodayKey(now);
 }
