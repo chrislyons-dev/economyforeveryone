@@ -1,5 +1,5 @@
 ﻿---
-title: "Bridge Language"
+title: 'Bridge Language'
 last_updated: 2026-03-01
 status: draft
 lane: Writing
@@ -29,7 +29,7 @@ Use these to lower the temperature without surrendering your spine.
 - “What part do you think is confirmed vs still unclear?”
 - “If we had to pick one next step, what would it be?”
 
-## Bridge + boundary (connection *and* an exit)
+## Bridge + boundary (connection _and_ an exit)
 
 Use these when the thread turns into heat, insults, or infinite debate.
 

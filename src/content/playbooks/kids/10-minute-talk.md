@@ -1,5 +1,5 @@
 ﻿---
-title: "10-Minute Talk (Kids)"
+title: '10-Minute Talk (Kids)'
 last_updated: 2026-03-01
 status: draft
 lane: Kids

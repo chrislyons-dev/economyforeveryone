@@ -1,5 +1,5 @@
 ﻿---
-title: "Receipts Stubs (Backlog)"
+title: 'Receipts Stubs (Backlog)'
 last_updated: 2026-03-01
 status: draft
 lane: Writing
@@ -12,7 +12,7 @@ tags:
 
 # Receipts Stubs (Backlog)
 
-Use this when you *want* to make a factual claim but you don’t have the source ready.
+Use this when you _want_ to make a factual claim but you don’t have the source ready.
 This is how you avoid “confident but wrong.”
 
 ## Template
@@ -27,7 +27,7 @@ This is how you avoid “confident but wrong.”
 **Best counterargument / what would falsify this:**  
 **Status review date:**  
 **If confirmed, how I’ll phrase it:** (plain language, cautious)  
-**Link(s):**  
+**Link(s):**
 
 ## Tips
 

@@ -1,5 +1,5 @@
 ﻿---
-title: "Writing Playbook (Bridge, Receipts, One Ask)"
+title: 'Writing Playbook (Bridge, Receipts, One Ask)'
 last_updated: 2026-03-01
 status: draft
 lane: Writing
@@ -40,12 +40,12 @@ The goal is: **clear + checkable + bridge-building + one next step**.
 
 ## Default workflow (5 minutes)
 
-1) Pick a **frame** (one point)  
-2) Write the post in plain language  
-3) Run the **editing checklist**  
-4) Add **one action** (from the action menu)  
-5) Add a **boundary line** if the topic is high-heat  
-6) If you need stats: add a **receipts stub** instead of guessing
+1. Pick a **frame** (one point)
+2. Write the post in plain language
+3. Run the **editing checklist**
+4. Add **one action** (from the action menu)
+5. Add a **boundary line** if the topic is high-heat
+6. If you need stats: add a **receipts stub** instead of guessing
 
 ## Definition of Done for a post
 
@@ -72,6 +72,7 @@ Every post should ladder into at least one of these:
 ## Success criteria
 
 A post is “good” if:
+
 - you’re not embarrassed reading it tomorrow
 - it’s clear what’s confirmed vs unknown
 - it names a mechanism (not a villain story)

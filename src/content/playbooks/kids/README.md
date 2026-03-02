@@ -1,5 +1,5 @@
 ﻿---
-title: "Kids Playbook (Fear to Clarity to Agency)"
+title: 'Kids Playbook (Fear to Clarity to Agency)'
 last_updated: 2026-03-01
 status: draft
 lane: Kids
@@ -35,11 +35,11 @@ The goal is: **calmer + clearer + one next step**.
 
 ## How to use (the 2-minute version)
 
-1) **Downshift** (if feelings are big)  
-2) **Sort reality** (known / unclear / gasoline)  
-3) **Pick one action** (from the menu)  
-4) **Name who we want to be** (values, not perfection)  
-5) **Close the loop** (we’re done for tonight)
+1. **Downshift** (if feelings are big)
+2. **Sort reality** (known / unclear / gasoline)
+3. **Pick one action** (from the menu)
+4. **Name who we want to be** (values, not perfection)
+5. **Close the loop** (we’re done for tonight)
 
 ## Notes
 

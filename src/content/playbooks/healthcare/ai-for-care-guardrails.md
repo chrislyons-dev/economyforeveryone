@@ -1,5 +1,5 @@
 ﻿---
-title: "AI for Care (with Guardrails)"
+title: 'AI for Care (with Guardrails)'
 last_updated: 2026-03-01
 status: draft
 lane: Healthcare-MD

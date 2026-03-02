@@ -1,5 +1,5 @@
 ﻿---
-title: "Community OS (E4E)"
+title: 'Community OS (E4E)'
 last_updated: 2026-03-01
 status: draft
 lane: Community
@@ -9,6 +9,7 @@ tags:
   - big-costs
   - monthly-squeeze
 ---
+
 # Community OS (E4E)
 
 This is a lightweight operating system for local community work.
@@ -30,12 +31,15 @@ A loop you can repeat without burning out.
 ## The playbook format (what every community effort should produce)
 
 ### 1) What’s happening (1–2 sentences)
+
 Plain language. No jargon.
 
 ### 2) Why it’s happening (mechanism)
+
 Name the constraint: money, rules, staffing, timelines, market power, enforcement.
 
 ### 3) What good looks like (principles)
+
 - Dignity and due process (no scapegoats)
 - Transparency
 - Predictability
@@ -43,10 +47,12 @@ Name the constraint: money, rules, staffing, timelines, market power, enforcemen
 - “Markets are good at creating solutions, bad at policing themselves” (so rules matter)
 
 ### 4) What to do
+
 - **Personal**: one relationship move (invite, ask, show up, listen)
 - **Community lever**: one measurable ask (who/what/when)
 
 ### 5) How to talk about it
+
 Bridge language: calm, factual, no contempt.
 
 ## Definition of done
@@ -76,20 +82,24 @@ One person can hold multiple roles. Keep it light.
 ## The monthly rhythm (repeatable)
 
 ### Week 1: Pick the bottleneck
+
 - What squeeze are we targeting this month?
 - What’s the bottleneck we can actually move?
 - What is the decision point (meeting / vote / contract / budget moment)?
 
 ### Week 2: One-pager + one ask
+
 - Draft the one-pager (problem → mechanism → options → recommendation → ask → success)
 - Decide the one measurable ask
 - Identify the decider + staff contact
 
 ### Week 3: Show up
+
 - Attend the meeting, submit comment, or send the ask
 - Get: **owner + next step + date**
 
 ### Week 4: Follow-up + scoreboard
+
 - Follow up once, politely, in writing
 - Update the scoreboard
 - Write 3 bullets: what happened, what we learned, what’s next
@@ -110,6 +120,7 @@ Most groups only need four documents to stay coherent:
 Pick metrics that match the bottleneck.
 
 Examples:
+
 - **Housing**: median permit time; units approved; inspections backlog; vacancy rate trend
 - **Childcare**: licensed slots; waitlist time; staff turnover; subsidy processing time
 - **Transport**: bus reliability; average commute time; crash hotspots fixed
@@ -122,6 +133,7 @@ Rule: if you can’t measure it, it drifts into impression and argument.
 ## The One Ask (definition)
 
 A good ask has:
+
 - **who** (the decider)
 - **what** (specific action)
 - **when** (date)
@@ -145,6 +157,7 @@ Protect dignity.
 ## “Boring but powerful” levers checklist
 
 Most community wins come from:
+
 - timelines
 - staffing capacity
 - published metrics
@@ -157,9 +170,9 @@ Most community wins come from:
 ## After-action notes (keep it short)
 
 After each action, log:
+
 - What did we ask for?
 - What did they say?
 - What’s the next step + date?
 - What metric will we track?
 - What did we learn about the bottleneck?
-

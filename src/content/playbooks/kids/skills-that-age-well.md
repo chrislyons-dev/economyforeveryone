@@ -1,5 +1,5 @@
 ﻿---
-title: "Skills That Age Well"
+title: 'Skills That Age Well'
 last_updated: 2026-03-01
 status: draft
 lane: Kids
@@ -27,7 +27,7 @@ These skills keep paying you back anyway.
 
 ## The teen translation
 
-> “The world can be weird. These are how you stay *capable*.”
+> “The world can be weird. These are how you stay _capable_.”
 
 ## Tiny ways to practice (no big speeches)
 
