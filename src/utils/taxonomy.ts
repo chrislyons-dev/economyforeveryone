@@ -139,6 +139,27 @@ const canonicalBlogTopicLabels = new Map([
   ['workforce-capacity', 'Workforce Capacity'],
 ]);
 
+const caseStudyBucketLabels = new Map([
+  ['success', 'Success'],
+  ['failure', 'Failure'],
+  ['turnaround', 'Turnaround'],
+  ['warning', 'Warning'],
+  ['mixed', 'Mixed'],
+]);
+
+const evidenceLevelLabels = new Map([
+  ['high', 'High'],
+  ['medium', 'Medium'],
+  ['low', 'Low'],
+]);
+
+const sourceChannelLabels = new Map([
+  ['economyforeveryone', 'E4E'],
+  ['facebook', 'Facebook'],
+  ['linkedin', 'LinkedIn'],
+  ['mixed', 'Mixed'],
+]);
+
 export const PLAYBOOK_HIDDEN_TAGS = [
   'playbooks',
   'civics',
@@ -232,3 +253,12 @@ export const getBlogCategoryLabel = (category: string) =>
 
 export const getBlogTopicLabel = (topic: string) =>
   canonicalBlogTopicLabels.get(topic) ?? getTagLabel(topic);
+
+export const getCaseStudyBucketLabel = (bucket: string) =>
+  caseStudyBucketLabels.get(bucket) ?? getTagLabel(bucket);
+
+export const getEvidenceLevelLabel = (level: string) =>
+  evidenceLevelLabels.get(level) ?? getTagLabel(level);
+
+export const getSourceChannelLabel = (channel: string) =>
+  sourceChannelLabels.get(channel) ?? getTagLabel(channel);

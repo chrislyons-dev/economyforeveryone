@@ -5,6 +5,7 @@ import {
   BLOG_HIDDEN_TOPICS,
   getBlogCategoryLabel,
   getBlogTopicLabel,
+  getSourceChannelLabel,
   getTagLabel,
   getVisibleTags,
 } from '../utils/taxonomy';
@@ -114,7 +115,7 @@ export default function BlogBrowser({ items }: BlogBrowserProps) {
             value={category}
             onChange={(event) => setCategory(event.target.value)}
           >
-            <option value="all">All</option>
+            <option value="all">All categories</option>
             {categories.map((value) => (
               <option key={value} value={value}>
                 {getBlogCategoryLabel(value)}
@@ -130,7 +131,7 @@ export default function BlogBrowser({ items }: BlogBrowserProps) {
             value={topic}
             onChange={(event) => setTopic(event.target.value)}
           >
-            <option value="all">All</option>
+            <option value="all">All topics</option>
             {topics.map((value) => (
               <option key={value} value={value}>
                 {getBlogTopicLabel(value)}
@@ -146,7 +147,7 @@ export default function BlogBrowser({ items }: BlogBrowserProps) {
             value={tag}
             onChange={(event) => setTag(event.target.value)}
           >
-            <option value="all">All</option>
+            <option value="all">All tags</option>
             {tags.map((value) => (
               <option key={value} value={value}>
                 {getTagLabel(value)}
@@ -182,7 +183,7 @@ export default function BlogBrowser({ items }: BlogBrowserProps) {
           <li key={post.slug} className="panel timeline-item receipt-card">
             <p className="eyebrow">
               {getBlogCategoryLabel(post.category)} | {post.pubDate.slice(0, 10)} |{' '}
-              {post.sourceChannel}
+              {getSourceChannelLabel(post.sourceChannel)}
             </p>
             <h3 className="title-reset case-study-title">{post.title}</h3>
             <p>{post.description}</p>

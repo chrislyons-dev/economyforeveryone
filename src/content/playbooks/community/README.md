@@ -1,5 +1,5 @@
 ---
-title: 'E4E Community Playbooks'
+title: 'Community Playbooks'
 last_updated: 2026-03-01
 status: draft
 lane: Community
@@ -10,7 +10,7 @@ tags:
   - monthly-squeeze
 ---
 
-# E4E Community Playbooks
+# Community Playbooks
 
 This folder turns "community engagement" into a small, repeatable practice.
 
