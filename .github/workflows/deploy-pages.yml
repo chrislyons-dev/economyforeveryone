@@ -40,19 +40,51 @@ jobs:
         run: |
           PROJECT_NAME="${CF_PAGES_PROJECT_NAME:-economyforeveryone}"
           echo "Using Pages project: $PROJECT_NAME"
+          API_URL="https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/$PROJECT_NAME"
+          MAX_ATTEMPTS=4
+          ATTEMPT=1
+          STATUS_CODE=""
 
-          STATUS_CODE="$(curl -sS -o /tmp/cf-pages-project.json -w "%{http_code}" \
-            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-            -H "Content-Type: application/json" \
-            "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/$PROJECT_NAME")"
+          while [ "$ATTEMPT" -le "$MAX_ATTEMPTS" ]; do
+            STATUS_CODE="$(curl -sS -o /tmp/cf-pages-project.json -w "%{http_code}" \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+              -H "Content-Type: application/json" \
+              "$API_URL" || true)"
+
+            echo "Cloudflare Pages project check attempt $ATTEMPT/$MAX_ATTEMPTS returned HTTP $STATUS_CODE"
+
+            if [ "$STATUS_CODE" = "200" ] || [ "$STATUS_CODE" = "404" ]; then
+              break
+            fi
+
+            if [ "$STATUS_CODE" = "429" ] || [ "${STATUS_CODE#5}" != "$STATUS_CODE" ] || [ "$STATUS_CODE" = "000" ]; then
+              if [ "$ATTEMPT" -lt "$MAX_ATTEMPTS" ]; then
+                SLEEP_SECONDS=$((ATTEMPT * 5))
+                echo "Transient Cloudflare/API error detected. Retrying in ${SLEEP_SECONDS}s..."
+                sleep "$SLEEP_SECONDS"
+              fi
+            else
+              break
+            fi
+
+            ATTEMPT=$((ATTEMPT + 1))
+          done
 
           if [ "$STATUS_CODE" = "200" ]; then
             echo "Pages project '$PROJECT_NAME' already exists."
           elif [ "$STATUS_CODE" = "404" ]; then
             echo "Creating Pages project '$PROJECT_NAME'..."
             npx -y wrangler pages project create "$PROJECT_NAME" --production-branch main
+          elif [ "$STATUS_CODE" = "401" ] || [ "$STATUS_CODE" = "403" ]; then
+            echo "Cloudflare authentication/authorization failed while checking Pages project '$PROJECT_NAME' (HTTP $STATUS_CODE)."
+            cat /tmp/cf-pages-project.json
+            exit 1
+          elif [ "$STATUS_CODE" = "429" ] || [ "${STATUS_CODE#5}" != "$STATUS_CODE" ] || [ "$STATUS_CODE" = "000" ]; then
+            echo "Cloudflare Pages project check failed after $MAX_ATTEMPTS attempts with transient error HTTP $STATUS_CODE."
+            cat /tmp/cf-pages-project.json
+            exit 1
           else
-            echo "Unexpected Cloudflare API response while checking project existence:"
+            echo "Unexpected Cloudflare API response while checking project existence (HTTP $STATUS_CODE):"
             cat /tmp/cf-pages-project.json
             exit 1
           fi
