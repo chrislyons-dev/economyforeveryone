@@ -1,100 +1,92 @@
-﻿---
+---
 title: 'Minneapolis (E4E Place Playbook)'
-last_updated: 2026-02-26
+last_updated: 2026-03-01
 status: draft
 lane: Community
 tags:
-  - community
   - playbook
   - place
+  - big-costs
+  - housing
+  - minneapolis
 ---
 
----
+# Minneapolis (E4E Place Playbook)
 
-title: Minneapolis place playbook (E4E)
-place: Minneapolis, MN (USA)
-last_updated: 2026-02-26
-status: draft
-lane: Neighbor
-
----
-
-This is the **place-level** wrapper around the Minneapolis belief tests.
-It exists to turn “interesting analysis” into a **repeatable monthly practice**.
+This file turns Minneapolis analysis into a repeatable monthly practice.
+It is meant to stay short, current, and tied to one real decision path at a time.
 
 ## Quick links
 
-- Belief tests source doc: `belief-tests-minneapolis.md` (in this repo)
-- City agendas / minutes: (add link)
-- Budget calendar: (add link)
+- City meetings and agendas: https://www.minneapolismn.gov/government/city-council/meetings/
+- City budget and finance: https://www.minneapolismn.gov/government/budget/
+- Budget Committee: https://www.minneapolismn.gov/government/city-council/committees/budget/
+- City Clerk and legislative records: https://www.minneapolismn.gov/clerk/
+- Public notices and hearings: https://www.minneapolismn.gov/government/city-council/meetings/public-notices/
 
 ## Decision map (who can move what)
 
-**Bodies**
+### Bodies
 
 - City Council
-- Mayor / City departments (planning, inspections, public works)
-- Planning Commission / Zoning (if applicable)
-- Hennepin County (overlapping levers)
+- Mayor and City departments
+- Budget Committee
+- Planning Commission and related hearing bodies
 
-**Staff offices that matter**
+### Staff offices that matter
 
-- Planning / Community Planning & Economic Development (CPED)
-- Inspections / permitting
-- Procurement / contracts (quiet power)
+- CPED or planning leadership
+- inspections and permitting leadership
+- public works or transportation leadership
+- finance and property services
+- City Clerk for record and calendar flow
 
-## This quarter’s squeeze target (pick one)
+## This quarter's squeeze target
 
-- [ ] Housing supply + permitting throughput
-- [ ] Childcare capacity + licensing throughput
-- [ ] Transport reliability / safety (“time tax”)
-- [ ] Energy bills / weatherization throughput
+- [x] Housing supply and permitting throughput
+- [ ] Childcare capacity and licensing throughput
+- [ ] Transportation reliability and safety
+- [ ] Energy bills and weatherization throughput
 
-**Current pick:** Housing supply + permitting throughput (default)
+## Current bottleneck hypothesis
 
-## Current bottleneck hypothesis (1–2 sentences)
+Minneapolis affordability is constrained less by one headline policy and more by slow or uncertain permitting, capacity limits, and process friction that reduce starts and completions.
 
-Minneapolis affordability is constrained less by “one big policy” and more by **slow/uncertain permitting, capacity limits, and process friction** that reduce starts/completions — especially when interest rates and construction costs are already tight.
+## Current one ask
 
-## Current One Ask (measurable)
+Publish monthly permitting timelines by project type, from application to first review to approval, and reduce median time to first review by 25% within 6 months.
 
-**Ask (draft):** Publish monthly permitting timelines by project type (application → first review → approval → inspections) starting **[date]**, and reduce median time-to-first-review by **25%** within **6 months**.
+- Owner: CPED or permitting leadership plus Budget Committee oversight
+- Next decision date: use the City meetings calendar and Budget Committee page above
+- Metric: median days to first review and approval by project type
 
-- **Decider(s):** [committee/chair + staff owner]
-- **Next decision date:** [meeting/hearing]
-- **Metric:** median days to first review + approval, by project type
+## Scoreboard (3-5 metrics)
 
-## Scoreboard (3–5 metrics)
+- median days from application to first review
+- median days from application to approval
+- inspections backlog
+- units permitted, started, and completed
+- appeals or discretionary delay count where relevant
 
-Pick numbers that match the bottleneck.
+## Active belief tests
 
-- Median days: application → first review
-- Median days: application → approval
-- Inspection backlog (days / count)
-- Units entitled / permitted / started / completed (quarterly)
-- Appeals filed + average delay caused (optional)
+- Permission plus predictability leads to more housing starts.
+- Process reform matters more than headline fights when throughput is the real bottleneck.
+- Eviction and moving friction act as pressure gauges for the broader squeeze.
 
-## Belief tests (3–5 max, falsifiable)
+## Monthly operating rhythm
 
-Keep the full detail in `belief-tests-minneapolis.md`.
-Here are the candidate tests to choose from:
+1. Identify the next decision point.
+2. Update the one-pager and scoreboard.
+3. Show up once or send the ask.
+4. Follow up once and get an owner and date.
+5. Log what changed.
 
-- **Test A:** Permission + predictability → more homes → less rent pressure
-- **Test B:** Process reform matters more than zoning headlines
-- **Test C:** Supply + inclusionary rules → more affordable units without freezing production
-- **Test D:** Evictions are a “pressure gauge” for the monthly squeeze
-- **Test E:** Childcare capacity: more slots → lower prices + higher parent work capacity
+## Receipts backlog
 
-**Active tests this quarter:** [A, B, D] (suggested starter set)
+If a claim needs evidence, add the source you still need instead of guessing:
 
-## Monthly operating rhythm (how this runs)
-
-1. Identify the decision point (meeting/vote/budget moment)
-2. Draft/update the one-pager (one ask + metric)
-3. Show up once (or submit comment/email)
-4. Follow up once (get owner + date)
-5. Update scoreboard; log learnings
-
-## Notes / receipts backlog
-
-When you want to make a factual claim but don’t have the source ready, add a receipts stub instead of guessing.
+- current permitting workflow document
+- monthly or quarterly production data
+- staffing and backlog data
+- committee packet where process changes or funding would live

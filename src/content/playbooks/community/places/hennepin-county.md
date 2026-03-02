@@ -1,76 +1,91 @@
-﻿---
+---
 title: 'Hennepin County (E4E Place Playbook)'
-last_updated: 2026-02-26
+last_updated: 2026-03-01
 status: draft
 lane: Community
 tags:
-  - community
   - playbook
   - place
+  - big-costs
+  - housing
+  - hennepin-county
 ---
 
----
+# Hennepin County (E4E Place Playbook)
 
-title: Hennepin County place playbook (E4E)
-place: Hennepin County, MN (USA)
-last_updated: 2026-02-26
-status: starter-template
-lane: Neighbor
+Counties often control implementation gravity: health services, housing supports, procurement, courts interfaces, and a lot of money flow.
 
----
-
-Counties often control “implementation gravity”:
-health services, housing supports, courts/jails interfaces, procurement, and a lot of money flow.
+This file keeps one Hennepin County ask grounded in the real calendar and the real owners.
 
 ## Quick links
 
-- County board agendas / minutes: (add link)
-- Budget calendar: (add link)
-- Key dashboards: (add link)
+- Board meetings and agendas: https://www.hennepin.us/your-government/leadership/board-videos
+- County budget: https://www.hennepin.us/hcbudget
+- Housing and Redevelopment Authority: https://www.hennepin.us/en/your-government/leadership/hra
+- County leadership hub: https://www.hennepin.us/your-government/leadership
 
 ## Decision map
 
-**Bodies**
+### Bodies
 
 - County Board
-- Key departments (human services, public health, housing)
-- Procurement / contracts
+- Board committees
+- Housing and Redevelopment Authority where housing levers are involved
 
-## This quarter’s squeeze target (pick one)
+### Staff offices that matter
 
-- [ ] Housing stability (evictions, shelters, supportive services throughput)
-- [ ] Healthcare admin drag (access, wait times, enrollment processing)
-- [ ] Childcare supports (where county touches)
-- [ ] Overdose / crisis response (stability + dignity)
+- human services leadership
+- public health leadership
+- housing and economic development leadership
+- procurement and contract management
+- Office of Budget and Finance
 
-**Current pick:** Housing stability (default)
+## This quarter's squeeze target
+
+- [x] Housing stability and service throughput
+- [ ] Healthcare admin drag and enrollment processing
+- [ ] Childcare-related supports
+- [ ] Crisis response and stability
 
 ## Current bottleneck hypothesis
 
-The squeeze shows up in **throughput**: intake, case management load, contract capacity, and slow handoffs between agencies/providers.
+The squeeze often shows up as throughput: intake, case-management load, contract capacity, and slow handoffs between agencies and providers.
 
-## Current One Ask (measurable)
+## Current one ask
 
-**Ask (draft):** Publish a monthly “throughput dashboard” for **[program]** (intake → placement/service → outcome), and reduce median time from intake to service by **X%** within **6 months**.
+Publish a monthly throughput dashboard for one housing-stability program, from intake to placement or service, and reduce median time from intake to service by a measurable amount within 6 months.
 
-- **Decider(s):** [board chair/committee + staff owner]
-- **Next decision date:** [meeting]
-- **Metric:** median time-to-service + capacity constraints
+- Owner: relevant department leadership plus Board committee oversight
+- Next decision date: use the Board meetings page and budget page above
+- Metric: median time to service plus one capacity constraint metric
 
-## Scoreboard (3–5 metrics)
+## Scoreboard (3-5 metrics)
 
-- Median time: intake → service
-- Caseload per case manager (or proxy)
-- Contract capacity utilization (where available)
-- Eviction filings (if county tracks / can partner on data)
-- Shelter stays / exits (as appropriate)
+- median time from intake to service
+- caseload per case manager or proxy
+- contract capacity utilization
+- shelter stay and exit timing where relevant
+- housing placement or stabilization count
 
-## Belief tests (3–5 max)
+## Active belief tests
 
-- “More throughput + clearer handoffs reduces crisis outcomes.”
-- “Publishing wait times changes priorities and resource allocation.”
-- “Contract terms + performance metrics improve delivery.”
+- More throughput and clearer handoffs reduce crisis outcomes.
+- Publishing wait times changes internal priorities and resourcing.
+- Contract terms and performance metrics improve delivery when the bottleneck sits with vendors or providers.
 
-## Monthly rhythm
+## Monthly operating rhythm
 
-Same loop: one ask → one appearance → one follow-up → scoreboard.
+1. Identify the next Board, committee, or budget decision point.
+2. Update the one-pager and scoreboard.
+3. Show up once or send the ask.
+4. Follow up once and get an owner and date.
+5. Log what changed.
+
+## Receipts backlog
+
+If a claim needs evidence, add the source you still need instead of guessing:
+
+- current program workflow map
+- service wait-time data
+- contract language and reporting requirements
+- budget line item or committee packet where the fix would live

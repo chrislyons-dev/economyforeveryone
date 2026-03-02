@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import CaseStudyBrowser from '../components/CaseStudyBrowser';
+import { canonicalizeTags } from '../utils/taxonomy';
 
 const caseStudies = (
   await getCollection('case-studies', ({ data }) => data.status === 'published')
@@ -18,7 +19,7 @@ const caseStudyIndex = caseStudies.map((study) => ({
   evidenceLevel: study.data.evidenceLevel,
   eventWindowStart: study.data.eventWindowStart ? study.data.eventWindowStart.toISOString() : null,
   eventWindowEnd: study.data.eventWindowEnd ? study.data.eventWindowEnd.toISOString() : null,
-  tags: study.data.tags ?? [],
+  tags: canonicalizeTags(study.data.tags ?? []),
   policyDomain: study.data.policyDomain ?? [],
 }));
 ---

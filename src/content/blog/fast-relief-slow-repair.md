@@ -9,7 +9,6 @@ topics:
   - 'advocacy'
   - 'time-horizons'
 tags:
-  - 'economy-for-everyone'
   - 'north-star'
   - 'practical-action'
 receiptTags:

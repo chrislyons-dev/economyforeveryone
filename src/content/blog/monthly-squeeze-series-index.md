@@ -7,11 +7,8 @@ category: 'big-costs'
 topics:
   - 'monthly-squeeze'
   - 'big-costs'
-  - 'series-index'
 tags:
-  - 'economy-for-everyone'
   - 'monthly-squeeze'
-  - 'big-costs'
   - 'mechanism-first'
 receiptTags:
   - 'independent-analysis'

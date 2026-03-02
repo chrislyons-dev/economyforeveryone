@@ -1,5 +1,5 @@
 ﻿---
-title: 'Follow-Up Email (Template)'
+title: "Follow-Up Email (Template)"
 last_updated: 2026-02-26
 status: draft
 lane: Community
@@ -8,23 +8,22 @@ tags:
   - playbook
   - template
 ---
+# Follow-Up Email (Template)
 
 **Goal:** confirm the record, get an owner + date, keep it calm.
 
 ## Subject line options
-
 - “Follow-up: [topic] — next step + date?”
 - “Thank you — confirming my understanding on [item]”
 - “Quick follow-up: [ONE ASK]”
 
 ## Email (copy/paste)
 
-Hello **[Title Lastname / Staff Name]**,
+Hello **[Title Lastname / Staff Name]**,  
 
 Thank you for **[meeting / call / reply]** on **[date]**.
 
 My understanding is:
-
 - **Ask:** **[one sentence]**
 - **Next step:** **[what happens next]**
 - **Owner:** **[name/office]**
@@ -38,3 +37,4 @@ If it’s right: is there anything you need from me (or the public) before **[de
 Thank you again,  
 **[Name]**  
 ZIP **[#####]**
+

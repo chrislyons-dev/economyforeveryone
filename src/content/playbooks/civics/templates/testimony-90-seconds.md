@@ -1,5 +1,5 @@
 ﻿---
-title: '90-Second Testimony (Public Meeting)'
+title: "90-Second Testimony (Public Meeting)"
 last_updated: 2026-02-26
 status: draft
 lane: Civics
@@ -8,20 +8,19 @@ tags:
   - playbook
   - template
 ---
+# 90-Second Testimony (Public Meeting)
 
 **Goal:** be clear, calm, and quotable. One point. One ask.
 
 ## Structure (memorize this)
-
-1. **Who I am** (10 sec)
-2. **What’s happening** (15 sec)
-3. **Why it matters** (20 sec)
-4. **The ask** (20 sec)
-5. **The measurable outcome** (10 sec)
-6. **Thank you** (5 sec)
+1) **Who I am** (10 sec)  
+2) **What’s happening** (15 sec)  
+3) **Why it matters** (20 sec)  
+4) **The ask** (20 sec)  
+5) **The measurable outcome** (10 sec)  
+6) **Thank you** (5 sec)
 
 ## Fill-in script
-
 **Chair/members, thank you.** My name is **[name]**, I live in **[neighborhood/district]**.
 
 I’m here because **[plain problem]**.
@@ -35,14 +34,13 @@ This matters because **[human impact]**. When costs rise and things get unstable
 Thank you for your time.
 
 ## Optional “if questioned” one-liners
-
 - “I’m not asking for perfection—just a clear step and a way to measure it.”
-- “If you can’t do this exact thing, what _can_ you commit to by **[date]**?”
+- “If you can’t do this exact thing, what *can* you commit to by **[date]**?”
 - “Who owns the next step, and when should I follow up?”
 
 ## Don’ts (because they backfire)
-
 - Don’t read a novel.
 - Don’t litigate motives.
 - Don’t bring five asks.
 - Don’t freestyle anger.
+

@@ -9,7 +9,6 @@ topics:
   - 'middle-out-growth'
   - 'economic-insecurity'
 tags:
-  - 'economy-for-everyone'
   - 'research-families'
   - 'monthly-squeeze'
   - 'policy-evaluation'

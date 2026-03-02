@@ -1,85 +1,103 @@
-﻿---
-title: 'Module: Housing (Local + State Levers)'
-last_updated: 2026-02-26
+---
+title: 'Module: Housing (Scarcity + Fair Terms)'
+last_updated: 2026-03-01
 status: draft
 lane: Community
 tags:
-  - community
   - playbook
   - module
+  - big-costs
+  - housing
 ---
 
-**Purpose:** reduce the monthly squeeze by making housing supply more predictable and faster to deliver.
-This is mostly about **process, timelines, capacity, and rules**.
+# Module: Housing (Scarcity + Fair Terms)
+
+**Purpose:** reduce the monthly squeeze by helping a place do two things at once: make it easier to build homes, and make it harder to profit from scarcity through fees, leverage, and quiet rigging.
 
 ## The mechanism (plain language)
 
-When it’s slow, uncertain, and expensive to build, we get less housing.
-Less housing means higher rents and prices.
-The squeeze rises, and people get easier to scare and split.
+Housing gets expensive for two reasons that feed each other:
+
+1. We make it too hard, slow, or uncertain to build enough homes.
+2. Once homes are scarce, hidden fees, screening traps, eviction pressure, and pricing games get more profitable.
+
+That is why housing fights often go sideways.
+People argue about supply **or** fairness when the real answer is both.
+A normal housing market needs more homes **and** cleaner rules.
 
 ## What good looks like
 
-- predictable rules
-- fast, fair timelines
-- enough staff to review and inspect
-- transparent metrics
-- fewer “gotcha” chokepoints
+- more homes in the places people actually need to live
+- clearer all-in move-in cost before anyone pays an application fee
+- fewer junk fees and fewer surprise charges
+- screening rules that do not turn one bad month into a long exile
+- eviction process that is fair and not used as a cheap threat
+- permitting that is fast enough to matter and simple enough to follow
 
-## Quick wins (pick 1–3, not all)
+## Quick wins (pick 1-3)
 
-### Timelines + predictability
+### Price clarity + fee cleanup
 
-1. **Publish a permitting timeline dashboard** (by project type) monthly.
-2. **Set service-level targets** (e.g., first review within X business days) and report performance.
-3. **Pre-application checklists** that are clear and stable (reduce resubmits).
-4. **Standardize conditions** (avoid one-off surprises that delay).
+1. **Require all-in move-in cost disclosure** before any application fee is paid.
+2. **Standardize fee labels** so people can compare listings without guessing.
+3. **Cap or ban obvious junk fees** that do not reflect a real service.
+4. **Publish typical move-in cost examples** for common unit types in your area.
 
-### Capacity (staffing + throughput)
+### Screening + eviction fairness
 
-5. **Fund additional plan reviewers / inspectors** tied to backlog reduction targets.
-6. **Cross-train staff** so absences don’t stall reviews.
-7. **Add “expedite” only if it funds capacity** (so it doesn’t become a pay-to-play line jump).
+5. **Seal dismissed or withdrawn eviction filings automatically.**
+6. **Limit screening blacklists** to verified judgments, not just filings.
+7. **Require cure periods or mediation windows** before nonpayment cases move forward where the law allows it.
+8. **Back right-to-counsel or navigator help** for low-income tenants in eviction court.
 
-### Rules + process simplification
+### Supply + local throughput
 
-8. **By-right approvals** for code-compliant projects (reduce discretionary delay).
-9. **Simplify small infill** (ADUs, duplexes) with pre-approved plans and clear standards.
-10. **Remove duplicate reviews** across departments; create one lead reviewer.
-11. **Limit late-stage surprises**: if city misses a deadline, the clock can’t reset without cause.
+9. **Publish a permitting timeline dashboard** by project type every month.
+10. **Set first-review and approval targets** and report whether they are being met.
+11. **Use by-right approval for code-compliant infill** so fewer projects get stuck in discretionary limbo.
+12. **Simplify small infill** like ADUs, duplexes, and fourplexes with clear standards.
 
-### Transparency + accountability
+### Concentration + pricing behavior
 
-12. **Publish appeal outcomes** and reasons (so “delay tactics” are visible).
-13. **Track and publish variance/conditional use processing time**.
-14. **Publish fees and total typical costs** (so the public can see the “process tax”).
+13. **Track ownership concentration locally** so people can see whether a few firms dominate large parts of the market.
+14. **Require disclosure when pricing software is used** to set rents or recommendations.
+15. **Preserve records for pricing inputs and outputs** so rules can actually be enforced.
+16. **Treat housing coordination risk like a market-power issue, not a weird side topic.**
 
-## Scoreboard metrics (choose 3–5)
+## Scoreboard metrics (choose 3-5)
 
-- Median days: application → first review
-- Median days: application → approval
-- Inspection backlog (days / count)
-- Number of units approved per quarter
-- % of applications requiring resubmittal (and why)
-- Appeals filed and average delay caused
-- Vacancy rate trend (if available)
+- All-in move-in cost for common unit types
+- Median fee totals on new leases
+- Eviction filings per 1,000 renters
+- Share of eviction filings dismissed or withdrawn
+- Median days from application to first permit review
+- Median days from application to approval
+- Permits issued or completions by housing type
+- Share of by-right vs. discretionary approvals
+- Local ownership concentration for major operators
+- Share of listings disclosing pricing software use
 
 ## Common failure modes
 
-- “Study it” becomes a graveyard.
-- Staff get blamed for capacity and policy constraints.
-- Expedites create unfairness unless they fund capacity.
-- Process complexity becomes a stealth anti-housing policy.
+- The whole conversation gets reduced to "build more" or "protect tenants" when the real answer is both.
+- A city studies delays forever and never publishes simple timeline data.
+- Fee traps get treated like bad manners instead of rule choices.
+- Eviction filings are discussed as private disputes even when they function like a public sorting system.
+- People pass zoning reform and then act surprised when the next bottleneck is staff, utilities, labor, or materials.
+- Everyone talks ideology while renters are still getting hit with fees they cannot see up front.
 
-## Bridge language (calm, local, nonpartisan)
+## Bridge language
 
-- “This is a process problem, not a people problem.”
-- “Slow approvals are a hidden tax we all pay every month.”
-- “Let’s make rules predictable, then measure the results.”
-- “If we care about affordability, we need enough homes.”
+- "We need more homes and cleaner rules."
+- "This is a scarcity problem and a leverage problem."
+- "If moving is expensive, hidden fees stop being small."
+- "Predictable permitting and fair renting rules are not enemies."
+- "I am not asking for perfection. I am asking for fewer traps and more homes."
 
-## One Ask examples (copy/paste)
+## One Ask examples
 
-- “Publish monthly permitting timelines by project type starting [date] and reduce median review time by 25% within 6 months.”
-- “Fund two additional inspectors in the next budget and report backlog weekly until it’s under [target].”
-- “Adopt by-right approvals for code-compliant projects by [date] and track approval times publicly.”
+- "Require all-in move-in cost disclosure before any application fee is paid, and publish compliance data by quarter."
+- "Seal dismissed eviction filings automatically and report dismissal rates publicly."
+- "Publish monthly permitting timelines by project type and cut median review time by 25% within 6 months."
+- "Adopt by-right approval for code-compliant small infill and track approval times publicly."
+- "Require disclosure of pricing-software use in rental listings and preserve records for enforcement review."

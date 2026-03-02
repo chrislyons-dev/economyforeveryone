@@ -1,13 +1,14 @@
-﻿---
+---
 title: 'After-Action Review (AAR)'
 last_updated: 2026-02-26
 status: draft
 lane: Community
 tags:
-  - community
   - playbook
   - template
 ---
+
+# After-Action Review (AAR)
 
 Run this after any meeting, call, comment, or email thread.
 5 minutes. No novel.

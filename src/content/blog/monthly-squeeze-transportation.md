@@ -10,7 +10,6 @@ topics:
   - 'market-power'
   - 'mobility'
 tags:
-  - 'economy-for-everyone'
   - 'transportation'
   - 'car-dependence'
   - 'insurance'

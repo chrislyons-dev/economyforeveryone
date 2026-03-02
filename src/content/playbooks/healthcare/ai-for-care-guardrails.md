@@ -1,15 +1,18 @@
 ﻿---
-title: 'AI for Care (with Guardrails)'
-last_updated: 2026-02-26
+title: "AI for Care (with Guardrails)"
+last_updated: 2026-03-01
 status: draft
-lane: Healthcare
+lane: Healthcare-MD
 tags:
   - healthcare
+  - big-costs
   - ai
   - guardrails
   - safety
   - accountability
 ---
+
+# AI for Care (with Guardrails)
 
 AI can help clinicians **draft and organize**.
 It must not become an unaccountable decision machine.
@@ -34,6 +37,26 @@ It must not become an unaccountable decision machine.
 - auditability (why did it recommend that?)
 - an appeal path (for patients and clinicians)
 - responsibility assigned to a human role
+
+## Data boundaries
+
+- know whether the tool is allowed to handle PHI at all
+- know where processing happens and whether the environment is vendor-approved
+- know whether inputs or outputs are retained, logged, or used for model training
+- do not move PHI into a random tool because the workflow is annoying
+
+## Sign-off
+
+Any production use should have sign-off from:
+
+- clinical lead
+- privacy / compliance
+- IT / security
+
+## Non-negotiable documentation rule
+
+AI-generated text is still documentation.
+The licensed human who signs it owns the content and the decision.
 
 ## Plain-language safety rule
 

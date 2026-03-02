@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { getTagLabel, getVisibleTags, RECEIPT_HIDDEN_TAGS } from '../utils/taxonomy';
 
 const receiptTypes = [
   {
@@ -59,15 +60,24 @@ const postFilterOptions = [
   .map((slug) => ({ slug, title: postTitleBySlug.get(slug) ?? slug }))
   .sort((a, b) => a.title.localeCompare(b.title));
 
-const tagFilterOptions = [...new Set(receiptGroups.flatMap((group) => group.data.tags ?? []))].sort(
-  (a, b) => a.localeCompare(b)
-);
+const tagCounts = new Map<string, number>();
+
+for (const group of receiptGroups) {
+  for (const tag of getVisibleTags(group.data.tags ?? [], RECEIPT_HIDDEN_TAGS)) {
+    tagCounts.set(tag, (tagCounts.get(tag) ?? 0) + 1);
+  }
+}
+
+const tagFilterOptions = [...tagCounts.entries()]
+  .filter(([, count]) => count >= 2)
+  .map(([tag]) => tag)
+  .sort((a, b) => getTagLabel(a).localeCompare(getTagLabel(b)));
 
 const buildSearchText = (group: (typeof receiptGroups)[number]) =>
   [
     group.data.title,
     group.data.claim,
-    ...(group.data.tags ?? []),
+    ...getVisibleTags(group.data.tags ?? [], RECEIPT_HIDDEN_TAGS),
     ...(group.data.sources ?? []).map((source) => source.title),
     ...(group.data.linkedCaseSlugs ?? []).map((slug) => caseTitleBySlug.get(slug) ?? slug),
     ...(group.data.linkedPostSlugs ?? []).map((slug) => postTitleBySlug.get(slug) ?? slug),
@@ -158,6 +168,16 @@ const buildSearchText = (group: (typeof receiptGroups)[number]) =>
 
       <div class="case-filter-row" id="receipt-filters">
         <label>
+          Search
+          <input
+            id="receipt-filter-search"
+            class="case-filter-input"
+            type="search"
+            placeholder="Search claims, tags, or source titles"
+          />
+        </label>
+
+        <label>
           Type
           <select id="receipt-filter-type" class="case-filter-input">
             <option value="all">All types</option>
@@ -185,20 +205,10 @@ const buildSearchText = (group: (typeof receiptGroups)[number]) =>
           Tag
           <select id="receipt-filter-tag" class="case-filter-input">
             <option value="all">All tags</option>
-            {tagFilterOptions.map((tag) => <option value={tag}>{tag}</option>)}
+            {tagFilterOptions.map((tag) => <option value={tag}>{getTagLabel(tag)}</option>)}
           </select>
         </label>
       </div>
-
-      <label>
-        Search
-        <input
-          id="receipt-filter-search"
-          class="case-filter-input"
-          type="search"
-          placeholder="Search claims, tags, or source titles"
-        />
-      </label>
 
       <p id="receipt-filter-status" class="muted-note">
         Showing {receiptGroups.length} of {receiptGroups.length} receipt groups.
@@ -215,7 +225,7 @@ const buildSearchText = (group: (typeof receiptGroups)[number]) =>
             const typeMeta = receiptTypeById.get(group.data.typeId);
             const linkedCaseSlugs = group.data.linkedCaseSlugs ?? [];
             const linkedPostSlugs = group.data.linkedPostSlugs ?? [];
-            const tags = group.data.tags ?? [];
+            const tags = getVisibleTags(group.data.tags ?? [], RECEIPT_HIDDEN_TAGS);
 
             return (
               <article
@@ -252,7 +262,7 @@ const buildSearchText = (group: (typeof receiptGroups)[number]) =>
 
                 {tags.length > 0 && (
                   <p class="muted-note">
-                    <strong>Tags:</strong> {tags.join(', ')}
+                    <strong>Tags:</strong> {tags.map((tag) => getTagLabel(tag)).join(', ')}
                   </p>
                 )}
 
