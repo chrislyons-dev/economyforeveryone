@@ -39,72 +39,67 @@ receipts:
 
 ## A quick confession
 
-For a long time, my economy opinions were mostly vibes plus whatever I had absorbed from headlines,
-feeds, and room tone.
+For a long time, my "economy takes" were mostly vibes — plus whatever I’d absorbed from headlines, feeds, and the room tone of the internet.
 
-Then I started building Economy for Everyone and had an uncomfortable realization:
+Then I started building Economy for Everyone and hit an uncomfortable truth:
 
-**I am not inventing a new ideology. I am assembling existing research into something normal people can actually use.**
+I am not inventing a new ideology. I am assembling existing research into something normal people can actually use.
 
-That is what this post is: a plain-language tour of the research families behind E4E, plus why lived
-experience still matters.
+That’s what this post is: a plain-language tour of the research families behind E4E, plus why lived experience still matters.
 
-## The E4E claim, plain English
+## The E4E claim, in plain English
 
 The loop we keep replaying looks like this:
 
-**monthly squeeze -> insecurity -> easier manipulation and scapegoating -> division -> no fixes -> more squeeze**
+monthly squeeze -> insecurity -> easier manipulation and scapegoating -> division -> no fixes -> more squeeze
 
-E4E is not "one paper proves everything." It is a practical model for testing whether a policy,
-proposal, or campaign actually changes that loop.
+By "monthly squeeze," I mean the bills that show up every month and don’t care how you feel: housing, healthcare, childcare, education, transport, insurance.
 
-And it pairs the diagnosis with a target loop:
+E4E isn’t "one paper proves everything." It’s a practical model for testing whether a policy, proposal, or campaign actually changes the loop.
 
-**security -> choice -> competition -> shared gains -> more security**
+And it pairs the diagnosis with a target:
 
-## The research families behind it
+security -> choice -> competition -> shared gains -> more security
 
-### 1. Middle-out growth
+## The research families behind E4E
 
-This lane supports a core E4E point: a strong middle class is not the reward at the end. It is the
-engine that makes durable growth possible.
+### 1) Middle-out growth
 
-### 2. Inclusive growth
+This lane supports a core E4E point: a strong middle class isn’t the prize at the end. It’s the engine that makes durable growth possible.
 
-OECD/IMF/World Bank work repeatedly shows the same pattern: systems that include more people are more
-stable and less brittle.
+### 2) Inclusive growth
 
-### 3. Administrative burden
+OECD/IMF/World Bank work keeps landing on the same idea: economies that include more people tend to be more stable and less brittle.
 
-You can "offer" help and still block people from using it through paperwork, confusion, and delay.
-Friction is policy, even when nobody labels it that way.
+### 3) Administrative burden
 
-### 4. Market power and political power
+You can "offer" help and still block people from using it — through paperwork, confusion, and delay.
 
-Concentration is not only an economic problem. It can become a political one when firms gain enough
-power to protect extraction rules.
+Friction is policy, even when nobody calls it that.
 
-### 5. Economic shocks and political polarization
+### 4) Market power and political power
 
-When communities absorb sustained economic stress, politics tends to get sharper and easier to
-radicalize.
+Concentration isn’t only an economic problem. It becomes a political problem when firms gain enough power to protect extraction rules.
 
-### 6. Crises and scapegoating
+### 5) Economic shocks and political polarization
 
-Crises do not magically create prejudice from nothing. But they can lower social guardrails around
-expressing it and spreading it.
+When communities take repeated economic hits, politics tends to get sharper — and easier to radicalize.
 
-### 7. Risk shift to households
+### 6) Crises and scapegoating
 
-Retirement, healthcare, and job risk moved from institutions to families. A lot of modern anxiety is
-not abstract. It is budget math.
+Crises don’t create prejudice out of thin air. But they can lower social guardrails around expressing it — and spreading it.
 
-### 8. Manipulation ecosystems
+### 7) Risk shifted onto households
 
-Information chaos is not just a culture problem. It is often an incentive problem where outrage and
-certainty monetize better than accuracy.
+A lot of retirement, healthcare, and job risk moved from institutions to families.
 
-## What is distinct about E4E
+Modern anxiety isn’t abstract. It’s budget math.
+
+### 8) Manipulation ecosystems
+
+Information chaos isn’t just "culture." It’s often incentives: outrage and certainty monetize better than accuracy.
+
+## What’s distinct about E4E
 
 Let me say this cleanly:
 
@@ -112,14 +107,14 @@ Let me say this cleanly:
 - The integration is.
 
 No single source confirms the whole loop end-to-end. Each link has evidence. The loop is the synthesis.
-That is not a bug. It is intellectual honesty.
+
+That’s not a bug. It’s intellectual honesty.
 
 ## Why lived experience still belongs here
 
 Research gives us pattern language. Lived experience tells us where the pain is actually binding.
 
-If people are saying they are one bill away from panic, that is not a soft anecdote. It is a signal
-about system design.
+If people say they’re one bill away from panic, that’s not "just an anecdote." It’s a signal about system design.
 
 E4E tries to hold both at once:
 
@@ -135,11 +130,12 @@ When someone pitches a policy (left, right, center), ask:
 3. Does it create real options (job, housing, provider, childcare), or help only on paper?
 4. What metric would prove this worked in 12 to 24 months?
 
-If those answers are missing, it may still be well-intended. But it is probably not loop-changing.
+If those answers are missing, it may still be well-intended. But it’s probably not loop-changing.
 
 ## Close
 
-If you have felt like "this economy is making people weird," you are not imagining it.
+If you’ve felt like "this economy is making people weird," you’re not imagining it.
 
-E4E is my attempt to name the mechanism, keep my own thinking honest, and push toward boring fixes
-that lower monthly squeeze before fear and division become the only politics left.
+E4E is my attempt to name the mechanism, keep my own thinking honest, and push toward boring fixes that lower monthly squeeze — before fear and division become the only politics left.
+
+Lower the squeeze, and we lower the temperature. Not to zero — but enough to think, cooperate, and build again.
