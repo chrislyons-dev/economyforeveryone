@@ -9,7 +9,6 @@ topics:
   - 'information-environment'
   - 'middle-out-growth'
 tags:
-  - 'economy-for-everyone'
   - 'information-bubbles'
   - 'insecurity'
   - 'monthly-squeeze'

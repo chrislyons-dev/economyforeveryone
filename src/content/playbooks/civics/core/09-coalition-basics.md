@@ -9,6 +9,8 @@ tags:
   - core
 ---
 
+# Coalition Basics (Work with imperfect allies)
+
 **Use when:** you need allies to move a thing and you don’t agree on everything.  
 **Goal:** align on a shared goal, shared facts, shared rules.
 

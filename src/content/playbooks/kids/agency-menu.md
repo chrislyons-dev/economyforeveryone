@@ -1,6 +1,6 @@
 ﻿---
 title: 'Agency Menu'
-last_updated: 2026-02-26
+last_updated: 2026-03-01
 status: draft
 lane: Kids
 tags:
@@ -10,12 +10,15 @@ tags:
   - actions
 ---
 
+# Agency Menu (when “what can we do?” feels like “nothing”)
+
 Pick **one**. Small counts.
 
 ## 1-minute actions
 
 - Mute/unfollow one account that spikes your stress
 - Text one friend: “You okay?”
+- If you snapped at someone: send a 2-sentence repair text
 - Write down: “What I can control / what I can’t”
 - Put your phone in another room for 10 minutes
 

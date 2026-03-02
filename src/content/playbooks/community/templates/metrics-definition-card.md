@@ -1,6 +1,6 @@
 ﻿---
 title: 'Metrics Definition Card'
-last_updated: 2026-02-26
+last_updated: 2026-03-01
 status: draft
 lane: Community
 tags:
@@ -9,7 +9,9 @@ tags:
   - template
 ---
 
-Metrics prevent vibe-wars.
+# Metrics Definition Card
+
+Metrics prevent arguments built on impression alone.
 This template makes sure the number is real and not easily gamed.
 
 ## Metric

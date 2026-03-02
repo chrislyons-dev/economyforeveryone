@@ -1,6 +1,6 @@
 ﻿---
 title: 'Public Meeting (Show Up + Be Effective)'
-last_updated: 2026-02-26
+last_updated: 2026-03-01
 status: draft
 lane: Civics
 tags:
@@ -8,6 +8,8 @@ tags:
   - playbook
   - core
 ---
+
+# Public Meeting (Show Up + Be Effective)
 
 **Use when:** school board, city council, county, zoning, commissions.  
 **Goal:** one clear ask in the record, plus one follow-up.
@@ -32,6 +34,15 @@ tags:
 2. Log it
 3. Set one follow-up date
 
+## Meeting scoreboard
+
+- Ask submitted in writing before the meeting? (Y/N)
+- Ask read into the record? (Y/N)
+- Staff follow-up received within 14 days? (Y/N)
+- Next decision date identified? (Y/N)
+
+Use the scoreboard even when the answer is "no." That is how you learn where the process actually broke.
+
 ## Watchouts
 
 - Meetings can become performance art. Don’t take the bait.
@@ -42,3 +53,12 @@ tags:
 Your ask is on the record.
 A staffer replies.
 A date exists for next steps.
+
+## Definition of done
+
+Leave with:
+
+1. one ask on paper
+2. one channel used
+3. one follow-up date
+4. one log entry

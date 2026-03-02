@@ -7,13 +7,11 @@ category: 'big-costs'
 topics:
   - 'monthly-squeeze'
   - 'big-costs'
-  - 'series-summary'
 tags:
-  - 'economy-for-everyone'
   - 'monthly-squeeze'
   - 'scarcity'
   - 'market-power'
-  - 'administrative-burden'
+  - 'admin-drag'
 receiptTags:
   - 'independent-analysis'
   - 'direct-observation'

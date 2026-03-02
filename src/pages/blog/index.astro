@@ -2,6 +2,13 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import BlogBrowser from '../../components/BlogBrowser';
+import {
+  canonicalizeBlogTopics,
+  canonicalizeTags,
+  getBlogCategoryLabel,
+  getSourceChannelLabel,
+  toCanonicalBlogCategory,
+} from '../../utils/taxonomy';
 
 const posts = (await getCollection('blog', ({ data }) => data.status === 'published')).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
@@ -13,9 +20,9 @@ const postIndex = posts.map((post) => ({
   description: post.data.description,
   pubDate: post.data.pubDate.toISOString(),
   updatedDate: post.data.updatedDate ? post.data.updatedDate.toISOString() : null,
-  category: post.data.category,
-  topics: post.data.topics ?? [],
-  tags: post.data.tags ?? [],
+  category: toCanonicalBlogCategory(post.data.category),
+  topics: canonicalizeBlogTopics(post.data.topics ?? []),
+  tags: canonicalizeTags(post.data.tags ?? []),
   oneSmallAction: post.data.oneSmallAction ?? null,
   sourceChannel: post.data.sourceChannel,
 }));
@@ -43,7 +50,9 @@ const postIndex = posts.map((post) => ({
             {posts.map((post) => (
               <li class="panel timeline-item receipt-card">
                 <p class="eyebrow">
-                  {post.data.category} | {post.data.pubDate.toISOString().slice(0, 10)}
+                  {getBlogCategoryLabel(toCanonicalBlogCategory(post.data.category))} |{' '}
+                  {post.data.pubDate.toISOString().slice(0, 10)} |{' '}
+                  {getSourceChannelLabel(post.data.sourceChannel)}
                 </p>
                 <h3 class="title-reset case-study-title">{post.data.title}</h3>
                 <p>{post.data.description}</p>

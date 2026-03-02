@@ -31,10 +31,21 @@ export async function getStaticPaths() {
     return !id.includes('/_archive/') && !id.startsWith('_archive/') && Boolean(urlPath);
   });
 
-  return entries.map((entry) => ({
-    params: { slug: toPath(entry.id) },
-    props: { entry },
-  }));
+  return entries.flatMap((entry) => {
+    const canonicalPath = toPath(entry.id);
+    const markdownPath = normalizeId(entry.id);
+
+    return [
+      {
+        params: { slug: canonicalPath },
+        props: { entry },
+      },
+      {
+        params: { slug: markdownPath },
+        props: { entry },
+      },
+    ];
+  });
 }
 
 const { entry } = Astro.props;

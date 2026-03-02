@@ -1,6 +1,6 @@
 ﻿---
-title: 'Relational Canvassing (Friend Network, Not Weird)'
-last_updated: 2026-02-26
+title: 'Relational Canvassing (Friend Network, Low-Pressure)'
+last_updated: 2026-03-01
 status: draft
 lane: Civics
 tags:
@@ -9,7 +9,9 @@ tags:
   - core
 ---
 
-**Use when:** you want persuasion without becoming That Guy.  
+# Relational Canvassing (Friend Network, Low-Pressure)
+
+**Use when:** you want persuasion without becoming overbearing.  
 **Goal:** one honest conversation, one small ask, protect the relationship.
 
 ## Principles
@@ -43,9 +45,31 @@ Pick one:
 
 ## Correction without shaming (if needed)
 
-- “I might be wrong, but I checked this because I’m trying to avoid rage-bait…”
+- “I might be wrong, but I checked this because I’m trying to avoid getting pulled around by inflammatory claims...”
 - Share one source, one sentence takeaway.
+
+## Inoculation line (pre-bunk manipulation)
+
+Use this before the conversation gets hijacked:
+
+- “I’m trying to stay anchored in something checkable. Can we use one source we both trust, even if we disagree?”
+
+## The two-realities protocol
+
+If the conversation is running on incompatible information systems:
+
+- “Ok, we might be living in different info systems. I do not want to fight. I’m going to step back.”
+
+That is not surrender. It is how you stop feeding a fight that cannot produce a useful next step.
 
 ## Exit line (protect the bond)
 
 “I’m not trying to win an argument. I’m trying to do one useful thing and stay human.”
+
+## Definition of done
+
+Leave with:
+
+1. one real conversation
+2. one small ask
+3. one note in the log about what landed or failed

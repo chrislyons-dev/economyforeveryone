@@ -1,6 +1,6 @@
 ﻿---
 title: 'Accountability (Watchdog Lite)'
-last_updated: 2026-02-26
+last_updated: 2026-03-01
 status: draft
 lane: Civics
 tags:
@@ -8,6 +8,8 @@ tags:
   - playbook
   - core
 ---
+
+# Accountability (Watchdog Lite)
 
 **Use when:** something smells off and you want receipts, not rumors.  
 **Goal:** find the real constraint: money, rules, contracts, staffing, enforcement.
@@ -36,6 +38,14 @@ tags:
 4. Contact oversight (inspector general, ethics office, ombuds)
 5. Partner with a watchdog org (if needed)
 
+## Accountability scoreboard
+
+- Contract located? (Y/N)
+- Performance metrics in the contract? (Y/N)
+- Audit clause present? (Y/N)
+- Dashboard or reporting requirement exists? (Y/N)
+- Next procurement, renewal, or review date identified? (date)
+
 ## Watchouts
 
 - Conspiracy brain: avoid it.
@@ -45,3 +55,12 @@ tags:
 ## What success looks like
 
 A published metric, an audit clause, a changed contract term, or a funded enforcement capacity increase.
+
+## Definition of done
+
+Leave with:
+
+1. one documented constraint
+2. one named owner
+3. one escalation channel if needed
+4. one log entry and next review date

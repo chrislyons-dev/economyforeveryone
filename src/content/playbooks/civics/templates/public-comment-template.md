@@ -9,6 +9,8 @@ tags:
   - template
 ---
 
+# Public Comment Template (Rulemaking / Agency Input)
+
 **Subject:** Comment on **[Rule/Proposal name + docket/ID]**
 
 ## 1) My stake (2 sentences)

@@ -9,6 +9,8 @@ tags:
   - template
 ---
 
+# Follow-Up Email (Template)
+
 **Goal:** confirm the record, get an owner + date, keep it calm.
 
 ## Subject line options

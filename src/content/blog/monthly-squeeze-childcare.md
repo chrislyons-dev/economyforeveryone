@@ -10,7 +10,6 @@ topics:
   - 'workforce-capacity'
   - 'family-economics'
 tags:
-  - 'economy-for-everyone'
   - 'childcare'
   - 'infant-care'
   - 'subsidy-cliff'

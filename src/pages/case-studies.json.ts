@@ -1,5 +1,6 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
+import { canonicalizeTags } from '../utils/taxonomy';
 
 export const GET: APIRoute = async () => {
   const caseStudies = (
@@ -17,7 +18,7 @@ export const GET: APIRoute = async () => {
       evidenceLevel: study.data.evidenceLevel,
       eventWindowStart: study.data.eventWindowStart ?? null,
       eventWindowEnd: study.data.eventWindowEnd ?? null,
-      tags: study.data.tags ?? [],
+      tags: canonicalizeTags(study.data.tags ?? []),
       policyDomain: study.data.policyDomain ?? [],
     }));
 

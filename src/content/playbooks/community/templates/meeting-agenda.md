@@ -9,6 +9,8 @@ tags:
   - template
 ---
 
+# Meeting Agenda Template (30 minutes)
+
 This is for a small group (or you + one ally).
 Keep it action-oriented.
 

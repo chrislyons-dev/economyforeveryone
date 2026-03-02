@@ -9,6 +9,8 @@ tags:
   - core
 ---
 
+# Voting Plan (Personal + Household)
+
 **Use when:** it’s 60 days out (or whenever you realize you’re behind).  
 **Goal:** remove friction so voting is boring and guaranteed.
 

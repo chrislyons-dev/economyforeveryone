@@ -9,6 +9,8 @@ tags:
   - template
 ---
 
+# One-Ask Template (1 page)
+
 **Purpose:** turn “I’m mad / I’m worried” into one clear request with a measurable outcome.
 
 ## 0) Context (1 sentence)

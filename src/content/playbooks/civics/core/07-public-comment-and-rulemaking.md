@@ -1,6 +1,6 @@
 ﻿---
 title: 'Public Comment + Rulemaking'
-last_updated: 2026-02-26
+last_updated: 2026-03-01
 status: draft
 lane: Civics
 tags:
@@ -8,6 +8,8 @@ tags:
   - playbook
   - core
 ---
+
+# Public Comment + Rulemaking
 
 **Use when:** agencies ask for comments on proposed rules, permits, plans, or enforcement changes.  
 **Goal:** get a clear request into the official record, in a form agencies can use.
@@ -31,7 +33,33 @@ Rules and enforcement shape reality more than speeches do.
 - Avoid speculation
 - One credible source beats five angry links
 
+## Agency-friendly formatting
+
+- Put a 150-250 word executive summary at the top
+- Use numbered asks
+- Default to one page unless the record clearly needs an appendix
+- Attach evidence only if it adds something staff can actually use
+
+Agencies are more likely to use comments that can be pasted into a staff memo.
+
+## Comment scoreboard
+
+- Docket or comment channel confirmed? (Y/N)
+- Executive summary included? (Y/N)
+- Numbered asks included? (Y/N)
+- Metric and reporting cadence requested? (Y/N)
+- Confirmation or docket receipt saved? (Y/N)
+
 ## What success looks like
 
 Your comment is received and referenced.
 A rule changes, or a reporting requirement gets added.
+
+## Definition of done
+
+Leave with:
+
+1. one submitted comment
+2. one docket receipt or confirmation
+3. one follow-up date
+4. one log entry

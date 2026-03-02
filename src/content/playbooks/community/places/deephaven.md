@@ -1,84 +1,93 @@
-﻿---
+---
 title: 'Deephaven (E4E Place Playbook)'
-last_updated: 2026-02-26
+last_updated: 2026-03-01
 status: draft
 lane: Community
 tags:
-  - community
   - playbook
   - place
+  - big-costs
+  - housing
+  - deephaven
 ---
 
----
-
-title: Deephaven place playbook (E4E)
-place: Deephaven, MN (USA)
-last_updated: 2026-02-26
-status: starter-template
-lane: Neighbor
-
----
+# Deephaven (E4E Place Playbook)
 
 Small places still have big levers.
-The trick is to focus on **one bottleneck** and **one measurable ask**.
+The trick is to focus on one bottleneck and one measurable ask.
+
+This file keeps Deephaven work tied to the real calendar and real local owners.
 
 ## Quick links
 
-- City agendas / minutes: (add link)
-- Planning / zoning documents: (add link)
-- Budget calendar: (add link)
+- City Council: https://cityofdeephaven.org/departments/city-council/
+- Agendas and minutes: https://cityofdeephaven.org/agendas-minutes/
+- Planning and zoning: https://cityofdeephaven.org/city-planning-zoning/
+- Planning Commission: https://cityofdeephaven.org/planning-commission/
+- Building permits: https://cityofdeephaven.org/building-permits/
+- Code of ordinances: https://cityofdeephaven.org/code-of-ordinances/
 
 ## Decision map
 
-**Bodies**
+### Bodies
 
 - City Council
-- Planning Commission (if applicable)
-- Public works / utilities (often huge)
+- Planning Commission
+- public works and utilities functions where the issue is infrastructure or maintenance
 
-## This quarter’s squeeze target (pick one)
+### Staff offices that matter
 
-- [ ] Housing availability (small infill, ADUs, permitting predictability)
-- [ ] Transport time tax (safe crossings, winter ops, bottlenecks)
-- [ ] Energy bills (weatherization access, shutoff prevention)
-- [ ] Local fees/process “nickel-and-dime” costs
+- City Administrator
+- Planning Director
+- permitting and fee administration
+- public works or utility operations
 
-**Current pick:** [pick one]
+## This quarter's squeeze target
+
+- [x] Housing availability and permitting predictability
+- [ ] Transport time tax and winter access
+- [ ] Energy bills and weatherization access
+- [ ] Local fee and process friction
 
 ## Current bottleneck hypothesis
 
-In Deephaven, the squeeze often shows up as **time + friction**: slow processes, unclear rules, and “small” costs that accumulate.
+In Deephaven, the squeeze often shows up as time plus friction: slow processes, unclear rules, and small costs that accumulate because the process is opaque.
 
-## Current One Ask (measurable)
+## Current one ask
 
-**Ask (draft):** [who does what by when]
+Publish a simple monthly permitting status update for residential projects, including time to first review and common delay reasons, and identify one workflow fix within 6 months.
 
-- **Decider(s):**
-- **Next decision date:**
-- **Metric:**
+- Owner: Planning Director and City Council oversight
+- Next decision date: use the Council and Planning Commission pages above
+- Metric: time to first review plus count of projects waiting for action
 
-## Scoreboard (3–5 metrics)
+## Scoreboard (3-5 metrics)
 
-- Metric 1:
-- Metric 2:
-- Metric 3:
-- Metric 4:
-- Metric 5:
+- median days to first review
+- projects waiting for planning or permit action
+- common delay category count
+- permit volume by month
+- number of items requiring discretionary review
 
-## Belief tests (3–5 max)
+## Active belief tests
 
-Write tests that can be proven wrong.
-
-### Test 1 — [claim]
-
-- **Prediction:**
-- **Metric(s):**
-- **Comparison:** peer cities / past years
-- **What would change my mind:**
+- Publishing the workflow and delay reasons changes priorities and speeds up action.
+- Small-place process friction can matter as much as headline policy.
+- Clearer fee and permit rules reduce household uncertainty even before bigger reforms happen.
 
 ## Monthly rhythm
 
-1. One ask
-2. One appearance (or email)
-3. One follow-up
-4. One scoreboard update
+1. Identify the next Council or Planning Commission decision point.
+2. Update the one-pager and scoreboard.
+3. Show up once or send the ask.
+4. Follow up once and get an owner and date.
+5. Log what changed.
+
+## Receipts backlog
+
+If a claim needs evidence, add the source you still need instead of guessing:
+
+- permit workflow document
+- monthly permit volume or backlog
+- fee schedule tied to common residential projects
+- agenda packet where process or ordinance changes would appear

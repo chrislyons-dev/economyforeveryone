@@ -9,6 +9,8 @@ tags:
   - template
 ---
 
+# One-Ask Email (Template)
+
 **Goal:** one clear request with a measurable outcome.
 
 ## Subject line options

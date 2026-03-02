@@ -1,6 +1,6 @@
 ﻿---
 title: 'Bridge Language'
-last_updated: 2026-02-26
+last_updated: 2026-03-01
 status: draft
 lane: Writing
 tags:
@@ -9,6 +9,8 @@ tags:
   - boundaries
   - dialogue
 ---
+
+# Bridge Language
 
 Use these to lower the temperature without surrendering your spine.
 
@@ -40,3 +42,13 @@ Use these when the thread turns into heat, insults, or infinite debate.
 ## A simple comment policy (optional to paste sometimes)
 
 - “I’ll answer honest questions. I’m not going to debate in circles or tolerate insults.”
+- “Honest questions welcome. Insults get ignored.”
+- “If this thread gets hot, I’ll step away and do something local instead.”
+
+## Repair lines
+
+Use these after you came in too hot or want to reset the tone.
+
+- “I came in too hot earlier. That’s on me. Here’s the clean version.”
+- “Let me restate this without the extra heat.”
+- “I still mean the point. I don’t mean the sharpness.”

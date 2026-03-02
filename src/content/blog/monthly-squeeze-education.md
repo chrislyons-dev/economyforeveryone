@@ -8,9 +8,8 @@ topics:
   - 'education'
   - 'monthly-squeeze'
   - 'student-debt'
-  - 'administrative-burden'
+  - 'admin-drag'
 tags:
-  - 'economy-for-everyone'
   - 'education'
   - 'student-loans'
   - 'servicing'

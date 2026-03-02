@@ -1,6 +1,6 @@
 ﻿---
 title: 'State Adapter (rules + money layer)'
-last_updated: 2026-02-26
+last_updated: 2026-03-01
 status: draft
 lane: Civics
 tags:
@@ -8,6 +8,8 @@ tags:
   - playbook
   - adapter
 ---
+
+# State Adapter (rules + money layer)
 
 States control a lot of “the rules of the game” and the money pipelines.
 If local is the steering wheel, state is often the engine and the speed limits.
@@ -53,12 +55,33 @@ If local is the steering wheel, state is often the engine and the speed limits.
 - Budget cycles are where leverage concentrates.
 - Agencies run rulemaking year-round.
 
+## State quick targets (pull these first)
+
+- committee roster, chairs, and staff contacts
+- bill tracker links and amendment deadlines
+- agency rulemaking page and comment instructions
+- budget calendar and agency hearing schedule
+- state auditor, inspector general, ombuds, or ethics channels where they exist
+
+## Required artifact: target map
+
+Every state sprint should produce a short target map:
+
+- committee
+- chair
+- relevant agency
+- budget or rulemaking date
+- one outside ally or trade group to watch
+
+Use the [target map template](../templates/target-map.md).
+
 ## Best core playbooks to pair with state
 
-- **01 One-Ask Engine**
-- **02 Candidate Evaluation + Feedback** (state reps matter a lot)
-- **07 Public Comment + Rulemaking** (agencies are huge)
-- **08 Accountability / Watchdog Lite** (follow the money + enforcement)
+- [01 One-Ask Engine](../core/01-one-ask-engine.md)
+- [02 Candidate Evaluation + Feedback](../core/02-candidate-evaluation-and-feedback.md) (state reps matter a lot)
+- [07 Public Comment + Rulemaking](../core/07-public-comment-and-rulemaking.md) (agencies are huge)
+- [08 Accountability / Watchdog Lite](../core/08-accountability-watchdog-lite.md) (follow the money + enforcement)
+- [14 Budget Season Playbook](../core/14-budget-season.md)
 
 ## The “state move” (minimum viable)
 
@@ -86,3 +109,12 @@ If local is the steering wheel, state is often the engine and the speed limits.
 - Money allocated + staffing capacity
 - A published metric and reporting requirement
 - Preemption reduced (or clarified) so locals can act
+
+## Definition of done (state)
+
+Leave with:
+
+1. one ask mapped to rule, budget, or enforcement capacity
+2. one identified committee or agency channel
+3. one target map
+4. one follow-up date and log entry

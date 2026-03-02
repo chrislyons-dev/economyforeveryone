@@ -8,3 +8,4 @@ test-results/
 *.log
 CLAUDE.md
 ./claude/
+tmp-*.*

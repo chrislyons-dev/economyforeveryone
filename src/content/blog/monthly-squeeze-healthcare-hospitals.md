@@ -7,14 +7,13 @@ category: 'big-costs'
 topics:
   - 'healthcare'
   - 'monthly-squeeze'
-  - 'administrative-burden'
+  - 'admin-drag'
   - 'market-power'
 tags:
-  - 'economy-for-everyone'
   - 'hospitals'
   - 'prior-auth'
   - 'medical-debt'
-  - 'price-transparency'
+  - 'pricing'
 receiptTags:
   - 'independent-analysis'
   - 'direct-observation'

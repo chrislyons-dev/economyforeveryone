@@ -1,6 +1,6 @@
 ﻿---
 title: 'Editing Checklist (Integrity Gate)'
-last_updated: 2026-02-26
+last_updated: 2026-03-01
 status: draft
 lane: Writing
 tags:
@@ -10,6 +10,8 @@ tags:
   - tone
   - checklist
 ---
+
+# Editing Checklist (Integrity Gate)
 
 Run this before you post.
 
@@ -34,7 +36,7 @@ Run this before you post.
 
 ## 4) State check (don’t post from the cliff)
 
-- [ ] Quick self-check: am I Hungry, Angry, Lonely, or Tired?
+- [ ] HALT: am I Hungry, Angry, Lonely, Tired?
 - [ ] If I’m above a 6/10 emotionally, did I wait or rewrite?
 
 ## 5) One point
@@ -46,8 +48,14 @@ Run this before you post.
 
 - [ ] Did I include one doable action (1 minute / 10 minutes / 1 week)?
 - [ ] Is the ask specific (who, what, when)?
+- [ ] Does the ask name a decider or a time-boxed action?
 
 ## 7) Thread risk
 
 - [ ] Is this likely to create more heat than light?
 - [ ] If yes, did I add a **boundary line** (or choose not to engage in comments)?
+
+## 8) Misread check
+
+- [ ] What is the most likely bad-faith interpretation?
+- [ ] Did I remove the easiest ammo without blurring the point?

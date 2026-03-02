@@ -9,6 +9,8 @@ tags:
   - template
 ---
 
+# One-Pager Template (Community)
+
 Use this as a handout or as your own clarity tool.
 One page. One ask.
 

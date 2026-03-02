@@ -9,6 +9,8 @@ tags:
   - core
 ---
 
+# Mutual Aid + Rapid Response
+
 **Use when:** people get hit now (raids, layoffs, eviction, disaster).  
 **Goal:** calm coordination that keeps people safe and stable.
 

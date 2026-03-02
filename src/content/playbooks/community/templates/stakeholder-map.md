@@ -9,6 +9,8 @@ tags:
   - template
 ---
 
+# Stakeholder Map (Deciders + Influencers)
+
 Use this to avoid wasting effort.
 Most change is blocked (or enabled) by a small set of people and processes.
 

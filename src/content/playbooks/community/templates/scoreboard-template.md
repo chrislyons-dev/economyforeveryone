@@ -1,14 +1,15 @@
-﻿---
+---
 title: 'Scoreboard Template (Owner + Metric + Follow-Up)'
 last_updated: 2026-02-28
 status: draft
 lane: Community
 tags:
-  - community
   - playbook
   - template
   - scoreboard
 ---
+
+# Scoreboard Template (Owner + Metric + Follow-Up)
 
 Use this when you want to keep an ask real.
 

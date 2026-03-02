@@ -1,18 +1,20 @@
-﻿---
-title: 'Community Playbook'
-last_updated: 2026-02-28
+---
+title: 'Community Playbooks'
+last_updated: 2026-03-01
 status: draft
 lane: Community
-is_root: true
 tags:
-  - community
   - playbook
   - index
+  - big-costs
+  - monthly-squeeze
 ---
 
-This folder turns community engagement into a small, repeatable practice.
+# Community Playbooks
 
-Goal: reduce the **monthly squeeze** and lower the odds we get split by fear and scapegoats.
+This folder turns "community engagement" into a small, repeatable practice.
+
+Goal: reduce the **monthly squeeze** and lower the odds we get split by fear + scapegoats.
 
 We do that by running a loop:
 
@@ -33,43 +35,47 @@ The newer case-study work sharpened the kinds of asks that tend to matter most:
 
 ## What's inside
 
-- [Community OS (E4E)](/playbooks/community/community-os/)
+- [`community-os.md`](./community-os.md)  
   The operating system: the repeatable loop, roles, and rhythm.
 
-- [One-Pager Template](/playbooks/community/templates/one-pager/)
+- [`modules/README.md`](./modules/README.md)
+  Topic menus with concrete asks you can lift into a one-pager or meeting.
+
+- [`places/README.md`](./places/README.md)
+  Place wrappers that keep the target, bottleneck, scoreboard, and next decision date in one place.
+
+- [`templates/one-pager.md`](./templates/one-pager.md)  
   The one-page handout: problem -> mechanism -> options -> recommendation -> ask -> success.
 
-- [Meeting Agenda Template](/playbooks/community/templates/meeting-agenda/)
+- [`templates/meeting-agenda.md`](./templates/meeting-agenda.md)  
   A simple agenda for a small group (or you + one ally) to stay action-oriented.
 
-- [Scoreboard Template](/playbooks/community/templates/scoreboard-template/)
+- [`templates/scoreboard-template.md`](./templates/scoreboard-template.md)  
   A lightweight way to track the ask, the owner, the metric, and the follow-up.
 
-- [Place Belief-Test Template](/playbooks/community/places/template-place/)
+- [`places/template-place.md`](./places/template-place.md)  
   A place-specific belief-test template (3-5 tests, falsifiable, updated quarterly).
-
-- [Modules Guide](/playbooks/community/modules/)
-  How to keep topic modules small and usable instead of turning them into mini white papers.
 
 ## Current topic modules
 
-- Housing
-- Healthcare
-- Childcare
-- Education
-- Transportation
+- [Housing](./modules/housing.md)
+- [Healthcare](./modules/healthcare.md)
+- [Childcare](./modules/childcare.md)
+- [Education](./modules/education.md)
+- [Transportation](./modules/transport.md)
+- [Energy](./modules/energy.md)
 
 These are menus, not manifestos.
 Pick one bottleneck and one ask.
 
 ## How to use (the 10-minute version)
 
-1. Pick **one place** and **one squeeze target** for the quarter.
-2. Pick **one module** and steal a usable ask.
-3. Write a **one-pager** with one measurable ask.
-4. Put it on a **scoreboard** with an owner and date.
-5. Show up (meeting / email / comment) and follow up once.
-6. Repeat monthly; update belief tests quarterly.
+1. Pick **one place** and **one squeeze target** for the quarter
+2. Pick **one module** and steal a usable ask
+3. Write a **one-pager** with one measurable ask
+4. Put it on a **scoreboard** with an owner and date
+5. Show up (meeting / email / comment) and follow up once
+6. Repeat monthly; update belief tests quarterly
 
 ## What a strong ask looks like
 
@@ -82,6 +88,15 @@ A strong ask usually names:
 
 If it cannot answer those four questions yet, it is probably still a complaint, not an ask.
 
+## Definition of done
+
+A community sprint is done when it produces:
+
+1. one measurable ask
+2. one owner and one channel
+3. one follow-up date
+4. one updated scoreboard or log entry
+
 ## Success criteria
 
 This is working if:
@@ -91,3 +106,12 @@ This is working if:
 - you have a follow-up date
 - you are building shared reality without contempt
 - the group can keep going without needing a hero every week
+
+## Weekly default
+
+Pick one:
+
+- one ask drafted or sent
+- one meeting attended or watched
+- one follow-up completed
+- one scoreboard updated

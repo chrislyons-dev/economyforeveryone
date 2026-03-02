@@ -1,12 +1,16 @@
 ﻿---
 title: 'Community OS (E4E)'
-last_updated: 2026-02-26
+last_updated: 2026-03-01
 status: draft
 lane: Community
 tags:
   - community
   - playbook
+  - big-costs
+  - monthly-squeeze
 ---
+
+# Community OS (E4E)
 
 This is a lightweight operating system for local community work.
 Not a manifesto.
@@ -51,6 +55,15 @@ Name the constraint: money, rules, staffing, timelines, market power, enforcemen
 
 Bridge language: calm, factual, no contempt.
 
+## Definition of done
+
+Every community cycle should end with:
+
+1. one ask
+2. one channel used or scheduled
+3. one follow-up date
+4. one updated scoreboard or note
+
 ---
 
 ## Roles (minimum viable)
@@ -91,6 +104,15 @@ One person can hold multiple roles. Keep it light.
 - Update the scoreboard
 - Write 3 bullets: what happened, what we learned, what’s next
 
+## Default artifacts
+
+Most groups only need four documents to stay coherent:
+
+- a [one-pager](./templates/one-pager.md)
+- a [scoreboard](./templates/scoreboard-template.md)
+- a [stakeholder map](./templates/stakeholder-map.md)
+- a [place file](./places/template-place.md)
+
 ---
 
 ## Scoreboard (3–5 metrics)
@@ -104,7 +126,7 @@ Examples:
 - **Transport**: bus reliability; average commute time; crash hotspots fixed
 - **Energy**: weatherization completions; shutoff rate; bill burden
 
-Rule: if you can’t measure it, it becomes vibes.
+Rule: if you can’t measure it, it drifts into impression and argument.
 
 ---
 

@@ -7,8 +7,7 @@ status: 'draft'
 category: 'big-costs'
 topics:
   - 'monthly-squeeze'
-tags:
-  - 'economy-for-everyone'
+tags: []
 receiptTags:
   - 'independent-analysis'
 sourceChannel: 'economyforeveryone'

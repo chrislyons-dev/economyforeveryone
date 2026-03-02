@@ -9,6 +9,8 @@ tags:
   - template
 ---
 
+# Civics Log (Consistency > Intensity)
+
 **Why:** memory beats motivation. This keeps you steady and cumulative.
 
 | Date       | Level               | Target      | Topic | One Ask | Metric | Status      | Follow-up date | Links | Notes     |

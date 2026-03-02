@@ -9,6 +9,8 @@ tags:
   - place
 ---
 
+# Place Playbook Template (Belief Tests + Scoreboard)
+
 This file is for one place (city, county, school district).
 Update quarterly.
 

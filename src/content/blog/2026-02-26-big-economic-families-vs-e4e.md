@@ -9,7 +9,6 @@ topics:
   - 'bridge-building'
   - 'policy-evaluation'
 tags:
-  - 'economy-for-everyone'
   - 'research-families'
   - 'bridge-language'
   - 'monthly-squeeze'

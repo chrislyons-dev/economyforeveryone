@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import { getCaseStudyBucketLabel, getEvidenceLevelLabel } from '../utils/taxonomy';
 
 type CaseStudyIndexItem = {
   slug: string;
@@ -66,34 +67,37 @@ export default function CaseStudyBrowser({ items }: CaseStudyBrowserProps) {
   return (
     <div className="section-grid">
       <div className="case-filter-row panel">
-        <label>
-          Search
+        <div>
+          <label htmlFor="case-study-filter-search">Search</label>
           <input
+            id="case-study-filter-search"
             className="case-filter-input"
             type="search"
             placeholder="Title, claim, pattern, tags..."
             value={query}
             onChange={(event) => setQuery(event.target.value)}
           />
-        </label>
-        <label>
-          Bucket
+        </div>
+        <div>
+          <label htmlFor="case-study-filter-bucket">Bucket</label>
           <select
+            id="case-study-filter-bucket"
             className="case-filter-input"
             value={bucket}
             onChange={(event) => setBucket(event.target.value)}
           >
-            <option value="all">All</option>
+            <option value="all">All buckets</option>
             {buckets.map((value) => (
               <option key={value} value={value}>
-                {value}
+                {getCaseStudyBucketLabel(value)}
               </option>
             ))}
           </select>
-        </label>
-        <label>
-          Sort
+        </div>
+        <div>
+          <label htmlFor="case-study-filter-sort">Sort</label>
           <select
+            id="case-study-filter-sort"
             className="case-filter-input"
             value={sortBy}
             onChange={(event) => setSortBy(event.target.value as 'newest' | 'oldest' | 'title')}
@@ -102,7 +106,7 @@ export default function CaseStudyBrowser({ items }: CaseStudyBrowserProps) {
             <option value="oldest">Oldest</option>
             <option value="title">Title</option>
           </select>
-        </label>
+        </div>
       </div>
 
       <p className="muted-note">{filtered.length} case studies</p>
@@ -118,7 +122,7 @@ export default function CaseStudyBrowser({ items }: CaseStudyBrowserProps) {
             ].join(' ')}
           >
             <p className="eyebrow">
-              {study.bucket} · {study.studyDate.slice(0, 10)}
+              {getCaseStudyBucketLabel(study.bucket)} | {study.studyDate.slice(0, 10)}
             </p>
             <h3 className="title-reset case-study-title">{study.title}</h3>
             <p>
@@ -129,11 +133,11 @@ export default function CaseStudyBrowser({ items }: CaseStudyBrowserProps) {
             </p>
             {study.summary && <p>{study.summary}</p>}
             <p className="muted-note">
-              <strong>Evidence level:</strong> {study.evidenceLevel}
+              <strong>Evidence level:</strong> {getEvidenceLevelLabel(study.evidenceLevel)}
               {study.eventWindowStart && study.eventWindowEnd && (
                 <>
                   {' '}
-                  · <strong>Event window:</strong> {study.eventWindowStart.slice(0, 10)} to{' '}
+                  | <strong>Event window:</strong> {study.eventWindowStart.slice(0, 10)} to{' '}
                   {study.eventWindowEnd.slice(0, 10)}
                 </>
               )}

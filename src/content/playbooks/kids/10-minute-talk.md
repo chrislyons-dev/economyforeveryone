@@ -1,6 +1,6 @@
 ﻿---
 title: '10-Minute Talk (Kids)'
-last_updated: 2026-02-26
+last_updated: 2026-03-01
 status: draft
 lane: Kids
 tags:
@@ -10,7 +10,15 @@ tags:
   - agency
 ---
 
+## 10-Minute Talk (Kids)
+
 **Goal:** calm down, get clear, pick one next thing.
+
+Parent pre-flight:
+
+- "Am I trying to reduce harm, or win?"
+- "Am I calm enough to be useful?"
+- "If not: water, breath, then talk."
 
 If they’re already calm, skip the first bit.
 
@@ -18,9 +26,9 @@ If they’re already calm, skip the first bit.
 
 - “Hang on. You’re spinning a little. Want to reset for a sec?”
 - “Quick 0–10: how big is this right now?”
-- “If it’s above a 7, we’re not solving it yet. First we help you settle a bit.”
+- “If it’s above a 7, we’re not solving it yet. First we get you back in your body.”
 
-Options that don’t feel weird:
+(Options that don’t feel like therapy:)
 
 - “Two slow breaths with me.”
 - “Water break.”
@@ -50,13 +58,14 @@ Three buckets:
 
 - “What’s still ‘maybe’ or ‘we’ll see’?”
 
-**3) Stuff that’s trying to wind you up**
+**3) Stuff that’s trying to hijack you**
 
 - “What part feels like it’s designed to freak people out?”
+- “Gasoline doesn’t always mean fake. It means it’s built to spike your feelings and keep you stuck.”
 
 Key line (but not Hallmark):
 
-- “Your feelings can be real even if the internet is being weird about the facts.”
+- “Your feelings can be real even if the information around this is distorted or incomplete.”
 
 ### 3) Pick one next thing (2–3 minutes)
 
@@ -89,22 +98,32 @@ If they shrug:
 
 (If they’re older and allergic to feelings talk:)
 
-- “What’s your ‘don’t be a jerk’ plan here?”
+- “What is your plan for staying kind and steady here?”
 - “What’s the move you’ll still respect tomorrow?”
 
 ### 5) Close it (30 seconds)
 
-- “Alright. We’ve got the next step. We’re done doom-scrolling this for tonight.”
+- “Alright. We’ve got the next step. We’re done feeding this for tonight.”
+- “Phones park for 30 minutes. Tomorrow we can check one trusted source if we still need to.”
 
 Offer something normal:
 
-- “Snack and a stupid show?”
+- “Snack and something familiar?”
 - “Want company, or do you want quiet?”
 - “We’ll do a 5-minute check-in this weekend.”
+
+If safety is the issue:
+
+- “This is bigger than a normal reset. We’re getting another adult to help right now.”
 
 ---
 
 ### Tiny parent cheat codes (optional, but useful)
 
-- If they want to argue facts: “I’m happy to check sources with you. But not while you’re on fire.”
+- If they want to argue facts: “I’m happy to check sources with you. But not while you’re this activated.”
 - If they’re spiraling: “I’m not trying to win. I’m trying to help you feel steady.”
+
+If you want, I can also give you **two tone variants**:
+
+- **Little kids (6–10):** simpler words, more body reset
+- **Teens:** more sarcasm-proof, less “feelings” vocabulary

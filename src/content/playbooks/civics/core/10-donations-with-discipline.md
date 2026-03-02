@@ -1,6 +1,6 @@
 ﻿---
 title: 'Donations with Discipline'
-last_updated: 2026-02-26
+last_updated: 2026-03-01
 status: draft
 lane: Civics
 tags:
@@ -9,7 +9,9 @@ tags:
   - core
 ---
 
-**Use when:** you donate and want impact, not vibes.  
+# Donations with Discipline
+
+**Use when:** you donate and want impact, not impression management.  
 **Goal:** money as a tool for outcomes, not a mood.
 
 ## The giving budget (guardrail)

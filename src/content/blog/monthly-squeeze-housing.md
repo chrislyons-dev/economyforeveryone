@@ -10,7 +10,6 @@ topics:
   - 'scarcity'
   - 'market-power'
 tags:
-  - 'economy-for-everyone'
   - 'housing'
   - 'junk-fees'
   - 'zoning'

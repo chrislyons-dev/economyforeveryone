@@ -1,6 +1,6 @@
 ﻿---
 title: 'Local Adapter (highest leverage per minute)'
-last_updated: 2026-02-26
+last_updated: 2026-03-01
 status: draft
 lane: Civics
 tags:
@@ -8,6 +8,8 @@ tags:
   - playbook
   - adapter
 ---
+
+# Local Adapter (highest leverage per minute)
 
 Local government is where you often get the fastest feedback loop.
 It’s also where “monthly squeeze” shows up as real decisions: housing approvals, fees, school climate, policing priorities, contracts.
@@ -66,12 +68,35 @@ It’s also where “monthly squeeze” shows up as real decisions: housing appr
 - **Budget season**: when the real choices get locked in (learn your city’s months)
 - **Planning/zoning**: public hearings are the decision choke points
 
+## Local quick targets (pull these first)
+
+- budget book and capital improvement plan
+- current RFPs, vendor renewals, and major contract amendments
+- planning pipeline dashboard or permit dashboard
+- meeting calendar, committee structure, and public testimony rules
+- department contact list for planning, public works, procurement, housing, and clerk offices
+
+If one of these does not exist or is hard to find, that is often the ask.
+
+## Required artifact: target map
+
+Every local sprint should produce a short target map:
+
+- who decides
+- when the decision happens
+- where the item appears
+- which staff contact can shape the language
+
+Use the [target map template](../templates/target-map.md).
+
 ## Best core playbooks to pair with local
 
-- **01 One-Ask Engine** (default)
-- **06 Public Meeting** (show up + testify)
-- **08 Accountability / Watchdog Lite** (budgets + contracts + metrics)
-- **09 Coalition Basics** (you’ll need allies)
+- [01 One-Ask Engine](../core/01-one-ask-engine.md) (default)
+- [06 Public Meeting](../core/06-public-meeting.md) (show up + testify)
+- [08 Accountability / Watchdog Lite](../core/08-accountability-watchdog-lite.md) (budgets + contracts + metrics)
+- [09 Coalition Basics](../core/09-coalition-basics.md) (you’ll need allies)
+- [13 Office Hours Playbook](../core/13-office-hours.md) (quiet staff leverage)
+- [14 Budget Season Playbook](../core/14-budget-season.md) (money and capacity)
 
 ## The “local move” (minimum viable)
 
@@ -87,6 +112,15 @@ It’s also where “monthly squeeze” shows up as real decisions: housing appr
 - “Adopt a standard timeline: initial permit review within 15 business days.”
 - “Require performance and audit clauses in the next vendor renewal.”
 - “Hold one public work session on [topic] before the vote.”
+
+## Definition of done (local)
+
+Leave with:
+
+1. one ask tied to local authority
+2. one channel used or scheduled
+3. one target map
+4. one follow-up date and log entry
 
 ## Watchouts (local failure modes)
 
