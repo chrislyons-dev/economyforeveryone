@@ -1,4 +1,4 @@
-﻿@import 'tailwindcss';
+@import 'tailwindcss';
 
 @theme {
   --font-sans: 'Atkinson Hyperlegible', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
@@ -34,6 +34,7 @@
   --theme-accent-hover: var(--color-civic-strong);
   --theme-accent-alt: var(--color-terracotta);
   --theme-accent-positive: var(--color-olive);
+  --theme-accent-lever: #8a6d3b;
 
   --theme-border-subtle: rgba(31, 36, 40, 0.12);
   --theme-border-default: rgba(31, 36, 40, 0.2);
@@ -63,6 +64,7 @@
   --theme-accent-hover: #84aec9;
   --theme-accent-alt: #d18b6f;
   --theme-accent-positive: #94a96b;
+  --theme-accent-lever: #c4a36a;
 
   --theme-border-subtle: rgba(244, 239, 229, 0.14);
   --theme-border-default: rgba(244, 239, 229, 0.22);
@@ -161,6 +163,11 @@ a:hover {
   background: color-mix(in oklch, var(--theme-bg-surface) 88%, var(--theme-accent-positive) 8%);
 }
 
+.lever-card {
+  border-left: 0.28rem solid var(--theme-accent-lever);
+  background: color-mix(in oklch, var(--theme-bg-surface) 88%, var(--theme-accent-lever) 10%);
+}
+
 .case-meta-inline {
   margin: 0.4rem 0 1rem;
   font-size: 0.92rem;
@@ -176,6 +183,7 @@ a:hover {
 
 .coming-soon-link {
   cursor: default;
+  font-weight: 700;
 }
 
 .coming-soon-note {

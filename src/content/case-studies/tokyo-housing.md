@@ -1,6 +1,6 @@
 ---
 title: 'Tokyo Housing Throughput Model'
-bucket: 'mixed'
+bucket: 'stress-test'
 corePattern: 'National by-right zoning preemption removed the local veto on multifamily housing and enabled long-run throughput, but exogenous cost and capital shocks can still overwhelm permissive zoning.'
 studyDate: 2026-02-26
 eventWindowStart: 1968-01-01

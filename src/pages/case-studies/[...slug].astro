@@ -1,6 +1,7 @@
 ﻿---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCaseStudyBucketLabel, getEvidenceLevelLabel } from '../../utils/taxonomy';
 
 export async function getStaticPaths() {
   const caseStudies = await getCollection(
@@ -59,7 +60,9 @@ const relatedMethodTypes = [
     <div class="ledger-header">
       <h2 class="title-reset">{study.data.title}</h2>
       <p class="muted-note">
-        {study.data.bucket} | {study.data.studyDate.toISOString().slice(0, 10)}
+        {getCaseStudyBucketLabel(study.data.bucket)} | {
+          study.data.studyDate.toISOString().slice(0, 10)
+        }
       </p>
     </div>
 
@@ -69,7 +72,7 @@ const relatedMethodTypes = [
       {study.data.summary && <p>{study.data.summary}</p>}
       <p class="muted-note">
         <strong>Evidence level:</strong>
-        {study.data.evidenceLevel}
+        {getEvidenceLevelLabel(study.data.evidenceLevel)}
         {
           study.data.eventWindowStart && study.data.eventWindowEnd
             ? ` | Event window: ${study.data.eventWindowStart.toISOString().slice(0, 10)} to ${study.data.eventWindowEnd.toISOString().slice(0, 10)}`

@@ -21,16 +21,24 @@ test('blog index hides future-dated posts by default and shows them with query o
 }) => {
   await page.goto('/blog');
 
-  await expect(page.getByRole('heading', { name: 'The Monthly Squeeze Series' })).not.toBeVisible();
   await expect(
     page.getByRole('heading', { name: 'Housing: The Bill That Sets the Whole Month on Fire' })
+  ).not.toBeVisible();
+  await expect(
+    page.getByRole('heading', {
+      name: 'The Squeeze Summary: One System, Five Bills, Same Trap',
+    })
   ).not.toBeVisible();
 
   await page.goto('/blog?showFuture=1');
 
-  await expect(page.getByRole('heading', { name: 'The Monthly Squeeze Series' })).toBeVisible();
   await expect(
     page.getByRole('heading', { name: 'Housing: The Bill That Sets the Whole Month on Fire' })
+  ).toBeVisible();
+  await expect(
+    page.getByRole('heading', {
+      name: 'The Squeeze Summary: One System, Five Bills, Same Trap',
+    })
   ).toBeVisible();
 });
 
@@ -45,7 +53,13 @@ test('future related-reading blog links stay live on blog detail pages', async (
     relatedReading.getByRole('link', {
       name: 'Housing: The Bill That Sets the Whole Month on Fire',
     })
-  ).toHaveAttribute('href', '/blog/monthly-squeeze-housing/');
+  ).toHaveCount(0);
+  const comingSoonTitle = relatedReading.locator('.coming-soon-link', {
+    hasText: 'Housing: The Bill That Sets the Whole Month on Fire',
+  });
+  await expect(comingSoonTitle).toBeVisible();
+  await expect(comingSoonTitle).toHaveCSS('font-weight', '700');
+  await expect(relatedReading.locator('.coming-soon-note')).toContainText('(coming soon)');
 });
 
 test('blog detail shows related methods links only when real receipt groups exist', async ({

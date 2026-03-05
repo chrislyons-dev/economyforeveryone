@@ -145,6 +145,7 @@ const caseStudyBucketLabels = new Map([
   ['turnaround', 'Turnaround'],
   ['warning', 'Warning'],
   ['mixed', 'Mixed'],
+  ['stress-test', 'Stress Test'],
 ]);
 
 const evidenceLevelLabels = new Map([

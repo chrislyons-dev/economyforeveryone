@@ -4,7 +4,7 @@ const caseStudies = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string().min(1),
-    bucket: z.enum(['success', 'failure', 'turnaround', 'warning', 'mixed']),
+    bucket: z.enum(['success', 'failure', 'turnaround', 'warning', 'mixed', 'stress-test']),
     corePattern: z.string().min(1),
     studyDate: z.coerce.date(),
     eventWindowStart: z.coerce.date().optional(),
@@ -103,10 +103,22 @@ const playbooks = defineCollection({
     tags: z.array(z.string()).default([]),
   }),
 });
+const levers = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string().min(1),
+    last_updated: z.coerce.date().optional(),
+    status: z.enum(['draft', 'published']).default('draft'),
+    docType: z.enum(['Lever', 'Compass', 'Framework', 'Bridge']),
+    families: z.array(z.string()).default([]),
+    tags: z.array(z.string()).default([]),
+  }),
+});
 
 export const collections = {
   'case-studies': caseStudies,
   blog,
   receipts,
   playbooks,
+  levers,
 };

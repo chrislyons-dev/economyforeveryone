@@ -24,6 +24,7 @@ const bucketToneClass: Record<string, string> = {
   success: 'action-card',
   failure: 'guardrail-card',
   mixed: 'receipt-card',
+  'stress-test': 'receipt-card',
   turnaround: 'action-card',
   warning: 'guardrail-card',
 };
