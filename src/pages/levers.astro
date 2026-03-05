@@ -90,7 +90,8 @@ const tagOptions = [...new Set(levers.flatMap((item) => item.tags ?? []))].sort(
         <strong>Levers</strong> are the institutional and policy moves that can shift the patterns.
       </p>
       <p>
-        Use the filters to find lever families and reference docs, then jump into the matching playbook lane to execute.
+        Use the filters to find lever families and reference docs, then jump into the matching
+        playbook lane to execute.
       </p>
     </div>
 
@@ -117,7 +118,13 @@ const tagOptions = [...new Set(levers.flatMap((item) => item.tags ?? []))].sort(
         Type
         <select id="lever-filter-type" class="case-filter-input">
           <option value="all">All types</option>
-          {docTypeOptions.map((type) => <option value={type} selected={type === 'Lever'}>{type}</option>)}
+          {
+            docTypeOptions.map((type) => (
+              <option value={type} selected={type === 'Lever'}>
+                {type}
+              </option>
+            ))
+          }
         </select>
       </label>
 

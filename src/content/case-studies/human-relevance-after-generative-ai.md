@@ -50,6 +50,8 @@ sources:
     publishedDate: 2025-07-23
 ---
 
+> **Note (Early Release):** This is the initial release of our AI case-study work. A full AI case-study series is in progress and is expected to be complete by **March 31, 2026**. We released this early because the topic is important enough to share now.
+
 **Label convention for this case**
 
 - `confirmed (source)` = empirical claim grounded in named sources
