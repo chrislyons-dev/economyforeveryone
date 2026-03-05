@@ -1,0 +1,78 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const normalizeId = (id: string) => id.replaceAll('\\', '/');
+  const toPath = (id: string) => {
+    const normalized = normalizeId(id).replace(/\.md$/i, '');
+    const lower = normalized.toLowerCase();
+    if (lower === 'readme') return '';
+    if (lower.endsWith('/readme')) return normalized.slice(0, -'/README'.length);
+    return normalized;
+  };
+
+  const entries = await getCollection('levers', (entry) => {
+    const id = normalizeId(entry.id);
+    const urlPath = toPath(id);
+    return !id.includes('/_archive/') && !id.startsWith('_archive/') && Boolean(urlPath);
+  });
+
+  return entries.flatMap((entry) => {
+    const canonicalPath = toPath(entry.id);
+    const markdownPath = normalizeId(entry.id);
+
+    return [
+      {
+        params: { slug: canonicalPath },
+        props: { entry },
+      },
+      {
+        params: { slug: markdownPath },
+        props: { entry },
+      },
+    ];
+  });
+}
+
+const toLabel = (value: string) =>
+  value
+    .split('-')
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(' ');
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const updated = entry.data.last_updated ? entry.data.last_updated.toISOString().slice(0, 10) : '';
+---
+
+<BaseLayout title={`${entry.data.title} | Levers | Economy for Everyone`}>
+  <section class="section-grid prose-e4e">
+    <p>
+      <a href="/levers">Back to levers</a>
+    </p>
+
+    <div class="ledger-header">
+      <h2 class="title-reset">{entry.data.title}</h2>
+      <p class="muted-note">
+        {entry.data.docType}
+        {entry.data.families.length > 0 ? ` | ${entry.data.families.join(' / ')}` : ''}
+        {updated ? ` | Updated ${updated}` : ''}
+      </p>
+    </div>
+
+    {
+      entry.data.tags.length > 0 && (
+        <p class="case-meta-inline muted-note">
+          <strong>Tags:</strong> {entry.data.tags.map((tag) => toLabel(tag)).join(' | ')}
+        </p>
+      )
+    }
+
+    <Content />
+
+    <p>
+      <a href="/levers">Back to levers</a>
+    </p>
+  </section>
+</BaseLayout>

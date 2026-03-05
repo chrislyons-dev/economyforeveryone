@@ -22,6 +22,7 @@ Pick a lane:
 
 - [Kids](./kids/README.md)
 - [Healthcare (MD)](./healthcare/README.md)
+- [Workplace](./workplace/README.md)
 - [Civics](./civics/README.md)
 - [Community](./community/README.md)
 - [Writing](./writing/README.md)

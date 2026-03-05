@@ -1,6 +1,7 @@
 ﻿---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { shouldShowScheduledPost } from '../../utils/blog-schedule';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => data.status === 'published');
@@ -29,6 +30,11 @@ const relatedMethodTypes = [
   label: receiptTypes.get(typeId) ?? typeId.replaceAll('-', ' '),
   count: relatedReceiptGroups.filter((group) => group.data.typeId === typeId).length,
 }));
+
+const allPosts = await getCollection('blog', ({ data }) => data.status === 'published');
+const futurePostSlugs = allPosts
+  .filter((entry) => !shouldShowScheduledPost(entry.data.pubDate.toISOString(), false))
+  .map((entry) => entry.slug);
 
 const oneSmallActionParts = (() => {
   const text = post.data.oneSmallAction?.trim();
@@ -109,7 +115,9 @@ const oneSmallActionParts = (() => {
         </p>
       )
     }
-    <Content />
+    <div id="blog-content" data-future-post-slugs={JSON.stringify(futurePostSlugs)}>
+      <Content />
+    </div>
 
     {
       relatedReceiptGroups.length > 0 && (
@@ -143,7 +151,18 @@ const oneSmallActionParts = (() => {
   </section>
 </BaseLayout>
 
-<script is:inline>
+<script>
+  import { downgradeFutureBlogLinks } from '../../utils/blog-future-links';
+
+  const blogContent = document.getElementById('blog-content');
+  const rawFutureSlugs = JSON.parse(blogContent?.getAttribute('data-future-post-slugs') || '[]');
+  const futurePostSlugs = new Set(
+    Array.isArray(rawFutureSlugs) ? rawFutureSlugs.filter((item) => typeof item === 'string') : []
+  );
+
+  // Keep references visible, but disable links to future-dated blog posts.
+  if (blogContent) downgradeFutureBlogLinks(blogContent, futurePostSlugs);
+
   document.querySelectorAll('[data-print-page]').forEach((button) => {
     button.addEventListener('click', () => window.print());
   });

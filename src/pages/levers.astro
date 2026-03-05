@@ -1,0 +1,227 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const toIdPath = (id: string) => id.replaceAll('\\', '/');
+const toUrlPath = (id: string) => {
+  const normalized = toIdPath(id).replace(/\.md$/i, '');
+  const lower = normalized.toLowerCase();
+  if (lower === 'readme') return '';
+  if (lower.endsWith('/readme')) return normalized.slice(0, -'/README'.length);
+  return normalized;
+};
+
+const toExcerpt = (markdown: string) =>
+  markdown
+    .replace(/```[\s\S]*?```/g, ' ')
+    .replace(/`[^`]*`/g, ' ')
+    .replace(/!\[[^\]]*\]\([^)]+\)/g, ' ')
+    .replace(/\[[^\]]+\]\([^)]+\)/g, ' ')
+    .replace(/^#+\s+/gm, '')
+    .replace(/[*_>~-]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 190);
+
+const toLabel = (value: string) =>
+  value
+    .split('-')
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(' ');
+
+const levers = (
+  await getCollection('levers', (entry) => {
+    if (entry.data.status !== 'published') return false;
+    const id = toIdPath(entry.id);
+    const urlPath = toUrlPath(id);
+    return !id.includes('/_archive/') && !id.startsWith('_archive/') && Boolean(urlPath);
+  })
+)
+  .map((entry) => {
+    const id = toIdPath(entry.id);
+    const excerpt = toExcerpt(entry.body ?? '');
+    return {
+      id,
+      urlPath: toUrlPath(id),
+      title: entry.data.title,
+      docType: entry.data.docType,
+      families: entry.data.families ?? [],
+      tags: entry.data.tags ?? [],
+      lastUpdated: entry.data.last_updated
+        ? entry.data.last_updated.toISOString().slice(0, 10)
+        : '',
+      excerpt,
+    };
+  })
+  .sort((a, b) => {
+    const typeCompare = a.docType.localeCompare(b.docType);
+    if (typeCompare !== 0) return typeCompare;
+    return a.title.localeCompare(b.title);
+  });
+
+const familyOptions = [...new Set(levers.flatMap((item) => item.families ?? []))].sort((a, b) =>
+  a.localeCompare(b)
+);
+const docTypeOptions = [...new Set(levers.map((item) => item.docType))].sort((a, b) =>
+  a.localeCompare(b)
+);
+const tagOptions = [...new Set(levers.flatMap((item) => item.tags ?? []))].sort((a, b) =>
+  toLabel(a).localeCompare(toLabel(b))
+);
+---
+
+<BaseLayout title="Levers | Economy for Everyone">
+  <section class="section-grid">
+    <div class="ledger-header">
+      <h2 class="title-reset">Levers</h2>
+    </div>
+
+    <div class="prose-e4e">
+      <p>
+        This is the bridge between the <strong>model</strong> and the <strong>playbooks</strong>.
+      </p>
+      <p>
+        The <strong>model</strong> explains the failure and the recovery patterns.
+      </p>
+      <p>
+        The <strong>playbooks</strong> are the specific moves we can make that will pull the levers.
+      </p>
+      <p>
+        <strong>Levers</strong> are the institutional and policy moves that can shift the patterns.
+      </p>
+      <p>
+        Use the filters to find lever families and reference docs, then jump into the matching
+        playbook lane to execute.
+      </p>
+    </div>
+
+    <div class="case-filter-row panel" id="lever-filters">
+      <label>
+        Search
+        <input
+          id="lever-filter-search"
+          class="case-filter-input"
+          type="search"
+          placeholder="Search title, excerpt, path, families, or tags"
+        />
+      </label>
+
+      <label>
+        Family
+        <select id="lever-filter-family" class="case-filter-input">
+          <option value="all">All families</option>
+          {familyOptions.map((family) => <option value={family}>{family}</option>)}
+        </select>
+      </label>
+
+      <label>
+        Type
+        <select id="lever-filter-type" class="case-filter-input">
+          <option value="all">All types</option>
+          {
+            docTypeOptions.map((type) => (
+              <option value={type} selected={type === 'Lever'}>
+                {type}
+              </option>
+            ))
+          }
+        </select>
+      </label>
+
+      <label>
+        Tag
+        <select id="lever-filter-tag" class="case-filter-input">
+          <option value="all">All tags</option>
+          {tagOptions.map((tag) => <option value={tag}>{toLabel(tag)}</option>)}
+        </select>
+      </label>
+    </div>
+
+    <p id="lever-filter-status" class="muted-note">
+      Showing {levers.length} of {levers.length} levers.
+    </p>
+
+    <div class="section-grid" id="lever-list">
+      {
+        levers.map((item) => (
+          <article
+            class="panel action-card lever-card lever-item"
+            data-family={(item.families ?? []).join(',')}
+            data-type={item.docType}
+            data-tags={(item.tags ?? []).join(',')}
+            data-search={`${item.title} ${item.excerpt} ${item.id} ${(item.families ?? []).join(' ')} ${(item.tags ?? []).join(' ')}`.toLowerCase()}
+          >
+            <p class="eyebrow">
+              {item.docType}
+              {item.families.length > 0 ? ` | ${item.families.join(' / ')}` : ''}
+              {item.lastUpdated ? ` | Updated ${item.lastUpdated}` : ''}
+            </p>
+            <h3 class="title-reset case-study-title">{item.title}</h3>
+            <p>{item.excerpt}</p>
+            <p>
+              <a class="case-read-link" href={`/levers/${item.urlPath}/`}>
+                Read full lever doc
+              </a>
+            </p>
+            {item.tags.length > 0 && (
+              <p class="muted-note">
+                <strong>Tags:</strong> {item.tags.map((tag) => toLabel(tag)).join(', ')}
+              </p>
+            )}
+          </article>
+        ))
+      }
+    </div>
+
+    <p id="lever-filter-empty" class="muted-note" hidden>No lever docs match this filter.</p>
+  </section>
+
+  <script is:inline>
+    (() => {
+      const familyFilter = document.getElementById('lever-filter-family');
+      const typeFilter = document.getElementById('lever-filter-type');
+      const tagFilter = document.getElementById('lever-filter-tag');
+      const searchFilter = document.getElementById('lever-filter-search');
+      const status = document.getElementById('lever-filter-status');
+      const empty = document.getElementById('lever-filter-empty');
+      const items = Array.from(document.querySelectorAll('.lever-item'));
+
+      const toList = (value) =>
+        (value || '')
+          .split(',')
+          .map((part) => part.trim())
+          .filter(Boolean);
+
+      const applyFilters = () => {
+        const familyValue = familyFilter instanceof HTMLSelectElement ? familyFilter.value : 'all';
+        const typeValue = typeFilter instanceof HTMLSelectElement ? typeFilter.value : 'all';
+        const tagValue = tagFilter instanceof HTMLSelectElement ? tagFilter.value : 'all';
+        const searchValue =
+          searchFilter instanceof HTMLInputElement ? searchFilter.value.trim().toLowerCase() : '';
+
+        let shown = 0;
+        for (const item of items) {
+          const element = item;
+          const familyMatch =
+            familyValue === 'all' || toList(element.dataset.family).includes(familyValue);
+          const typeMatch = typeValue === 'all' || element.dataset.type === typeValue;
+          const tagMatch = tagValue === 'all' || toList(element.dataset.tags).includes(tagValue);
+          const searchMatch = !searchValue || (element.dataset.search || '').includes(searchValue);
+
+          const visible = familyMatch && typeMatch && tagMatch && searchMatch;
+          element.hidden = !visible;
+          if (visible) shown += 1;
+        }
+
+        if (status) status.textContent = `Showing ${shown} of ${items.length} levers.`;
+        if (empty) empty.hidden = shown !== 0;
+      };
+
+      if (familyFilter) familyFilter.addEventListener('change', applyFilters);
+      if (typeFilter) typeFilter.addEventListener('change', applyFilters);
+      if (tagFilter) tagFilter.addEventListener('change', applyFilters);
+      if (searchFilter) searchFilter.addEventListener('input', applyFilters);
+      applyFilters();
+    })();
+  </script>
+</BaseLayout>
