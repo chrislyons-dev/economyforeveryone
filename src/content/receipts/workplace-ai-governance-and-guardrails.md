@@ -13,7 +13,7 @@ tags:
   - 'accountability'
   - 'workplace'
 sources:
-  - title: 'The White House: Winning the AI Race: Americaâ€™s AI Action Plan'
+  - title: 'The White House: Winning the AI Race: America’s AI Action Plan'
     url: 'https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf'
   - title: 'NIST AI Risk Management Framework'
     url: 'https://www.nist.gov/itl/ai-risk-management-framework'
