@@ -30,8 +30,10 @@ sources: []
 
 - [AI and Claims \& Eligibility Systems](#ai-and-claims--eligibility-systems)
   - [1. One scene](#1-one-scene)
+  - [Why this matters](#why-this-matters)
   - [2. What's happening](#2-whats-happening)
   - [3. The optimization target problem](#3-the-optimization-target-problem)
+  - [The fork in the road](#the-fork-in-the-road)
   - [4. Why it's happening -- mechanisms and mechanism modules](#4-why-its-happening----mechanisms-and-mechanism-modules)
   - [5. Three-domain comparison](#5-three-domain-comparison)
   - [6. Control stack: Is there a human in command?](#6-control-stack-is-there-a-human-in-command)
@@ -50,33 +52,41 @@ sources: []
 
 ## 1. One scene
 
-A physician opens a queue. Fifty prior authorization denials. The screen shows a name, a procedure code, a recommended decision. There is no clinical record attached. The system is designed for batch throughput -- click, confirm, next. The physician completes the queue in under two minutes.
+A physician opens a queue. Fifty prior authorization denials. The screen shows a name, a procedure code, a recommended decision. There is no clinical record attached. The system is built for batch throughput -- click, confirm, next. The physician clears the queue in under two minutes.
 
-Down the road, a Medicaid enrollee gets a renewal notice at an old address. The letter sits unread. The automated redetermination marks the case as non-responsive. Coverage ends. She learns about it when she goes to fill a prescription.
+Down the road, a Medicaid enrollee gets a renewal notice at an old address. The letter sits unread. The automated redetermination marks her as non-responsive. Coverage ends. She finds out when she tries to fill a prescription.
 
-One is documented by ProPublica from primary documents. The other illustrates a pattern confirmed at population scale -- 25 million disenrollments, 69% for procedural reasons, though automation's specific role varied by state and staffing capacity was the documented primary driver. Neither required malice. Both required the wrong optimization target.
+The first is documented by ProPublica from primary documents. The second reflects a pattern confirmed at population scale -- 25 million disenrollments, 69% for procedural reasons, though automation's specific role varied by state and staffing capacity was the documented primary driver. Neither case required malice. Both required the wrong optimization target.
 
 This is what the minimum floor is for: notice (she knew the denial was coming), reason (specific enough to contest), appeal (a real path with a deadline and a human reviewer), records (the model output that drove the decision), and a human override (someone with authority, time, and the clinical file). In this domain, each element exists somewhere in law or regulation. None exist together, consistently, for the same person.
 
 ---
 
+### Why this matters
+
+This is not just a story about bad predictions or paperwork mistakes. It is a story about power over friction. When AI makes it cheap for institutions to deny, delay, or close a case, but leaves the person on the other side to do all the work of understanding and contesting it, formal rights stay on paper while real access erodes in practice.
+
+---
+
 ### Key numbers
 
-- **1.2 seconds per case** -- average physician review time in Cigna's PxDx batch denial system [confirmed -- ProPublica, CE-001]
-- **11.5% of denials appealed; 80.7% of those overturned** -- Medicare Advantage prior authorization [confirmed -- KFF 2025, CE-003]
-- **57% of all MA claims denials ultimately reversed** -- including those appealed and reconsidered [confirmed -- Health Affairs 2025, CE-004]
-- **69% of Medicaid disenrollments during unwinding were procedural** -- meaning eligibility was never assessed [confirmed -- KFF Unwinding Tracker, CE-005]
-- **88.5% of people whose denials could have been appealed did not appeal** -- the gap between what the rules allow and what people do [confirmed -- KFF 2025, CE-003]
+- **1.2 seconds per case** -- average physician review time in Cigna's PxDx batch denial system
+- **11.5% of denials appealed; 80.7% of those overturned** -- Medicare Advantage prior authorization
+- **57% of all MA claims denials ultimately reversed** -- including those appealed and reconsidered
+- **69% of Medicaid disenrollments during unwinding were procedural** -- meaning eligibility was never assessed
+- **88.5% of people whose denials could have been appealed did not appeal** -- the gap between what the rules allow and what people do
 
-These five numbers are the case study in miniature. The algorithm is fast. The denial rate is high. The overturn rate is high. The appeal rate is low. The procedural harm is large. The last line is the governance problem: a floor that exists on paper but not in practice.
+These five numbers are the case study in miniature. The algorithm is fast. The denial rate is high. The overturn rate is high. The appeal rate is low. The procedural harm is large. That last line is the governance problem: a floor that exists on paper but not in practice.
+
+A simpler way to say it: the machine is built to say no faster than a normal person can fight back.
 
 ---
 
 ## 2. What's happening
 
-AI and automation are being deployed at scale across insurance claims, government benefits, and consumer credit decisions. In most of the documented cases, the systems reduce the institution's cost of processing and denying while leaving the claimant's cost of contesting unchanged or higher.
+AI and automation are spreading across claims, eligibility, and account-access systems. In the documented failure cases, they do not just speed up administration. They make denial, delay, and closure cheaper for the institution while leaving notice, explanation, and appeal expensive for the person affected.
 
-This is not the only possible outcome. When the same tools are optimized for coverage retention rather than cost reduction, they help claimants. The optimization target -- not the technology -- determines direction.
+This isn't the only possible outcome. When the same tools are optimized for coverage retention rather than cost reduction, they help claimants. The optimization target -- not the technology -- determines direction.
 
 ---
 
@@ -89,59 +99,69 @@ Low appeal rates coexist with high overturn rates where appeals do occur. That g
 
 - _Confirmed by:_ Low appeal rate + high overturn rate across multiple programs and payers.
 - _Falsified by:_ Evidence that non-appealing claimants found equivalent care, or that low appeal rates reflect accurate initial decisions.
-- _Current state:_ Confirmed. MA prior auth: 11.5% appeal rate, 80.7% overturn (KFF 2025). HHS OIG 2022: 9.9% appeal rate; earlier OIG period found 75% of MA prior auth appeals overturned. This is the strongest empirical pattern in the research. [confirmed -- multiple independent sources]
+- _Current state:_ Confirmed. MA prior auth: 11.5% appeal rate, 80.7% overturn (KFF 2025). HHS OIG 2022: 9.9% appeal rate; earlier OIG period found 75% of MA prior auth appeals overturned. This is the strongest empirical pattern in the research.
 
 **Prediction 2: Rubber-stamp conditions**
 Where human review is required by law, the reviewer spends insufficient time per case, lacks model inputs, has throughput incentives, and exhibits automation bias.
 
 - _Confirmed by:_ Time-per-case below any plausible threshold for substantive review; documented throughput incentives; empirical evidence of automation bias.
 - _Falsified by:_ Override rates showing reviewers reverse AI recommendations at meaningful rates; training programs that demonstrably reduce automation bias.
-- _Current state:_ Confirmed for time-per-case (Cigna PxDx: 1.2 sec/claim). Confirmed for throughput incentives (Cigna scorecards; CVS projection revision). Confirmed for automation bias (Stanford/Health Affairs 2025). Override rates: [unknown -- proprietary everywhere].
+- _Current state:_ Confirmed for time-per-case (Cigna PxDx: 1.2 sec/claim). Confirmed for throughput incentives (Cigna scorecards; CVS projection revision). Confirmed for automation bias (Stanford/Health Affairs 2025). Override rates:.
 
 **Prediction 3: Asymmetric information**
-Institutions keep decision logs. Claimants get generic notices that do not enable contest. The informational gap grows as AI adoption accelerates.
+Institutions keep decision logs. Claimants get generic notices that don't enable a real contest. The information gap grows as AI adoption accelerates.
 
 - _Confirmed by:_ Generic notice practices documented; no claimant-accessible model output records; regulatory attempts to require disclosure being suspended or unenforced.
 - _Falsified by:_ Evidence that claimants routinely receive model-specific denial reasons; accessible audit logs; enforcement of explainability requirements at scale.
-- _Current state:_ Confirmed. CFPB circulars exist because generic notices were the documented practice (2022, 2023). CMS suspended health equity analysis requirements that would have created partial transparency (2025). Arkansas Ledgerwood: algorithm logic not disclosed to beneficiaries (court record). [confirmed -- multiple sources]
+- _Current state:_ Confirmed. CFPB circulars exist because generic notices were the documented practice (2022, 2023). CMS suspended health equity analysis requirements that would have created partial transparency (2025). Arkansas Ledgerwood: algorithm logic not disclosed to beneficiaries (court record).
 
 **Prediction 4: Automation scale effect**
 AI adoption correlates with higher adverse-decision volume per unit of institutional labor, lower marginal cost per denial, and no corresponding reduction in claimant-side burden.
 
 - _Confirmed by:_ Increased denial volume following AI adoption; rising auto-adjudication rates; claimant-side burden flat or increasing.
 - _Falsified by:_ Evidence that AI adoption reduced both institutional and claimant-side burden; denial rates stable or declining post-adoption.
-- _Current state:_ Partially confirmed. Auto-adjudication benchmark: 80-85% of claims processed without human touch (industry standard); costs cents vs. ~$20 for human-reviewed. nH Predict adoption correlated with ninefold SNF denial rate increase at UnitedHealthcare (CE-002) [note: the correlation is confirmed; nH Predict as the primary cause of the volume increase is plausible, not established -- the Senate PSI majority report supports the inference, but UnitedHealth disputes the characterization and the causal mechanism has not been independently adjudicated]. AMA 2024: 39 PA requests/physician/week; 12 hours staff time consumed weekly. [plausible -- confirmed for institutional side; claimant direct-burden data weaker]
+- _Current state:_ Partially confirmed. Auto-adjudication benchmark: 80-85% of claims processed without human touch (industry standard); costs cents vs. ~$20 for human-reviewed. nH Predict adoption correlated with ninefold SNF denial rate increase at UnitedHealthcare (CE-002), but nH Predict as the primary cause of the volume increase is plausible, not independently established. AMA 2024: 39 PA requests/physician/week; 12 hours staff time consumed weekly.
 
 **Prediction 5: Optimization target determines direction**
-The harm is not from AI per se but from what it is optimized to do. Automation optimized for access helps claimants; optimized for cost reduction, it harms them.
+The harm isn't from AI itself but from what it's optimized to do. Automation optimized for access helps claimants; optimized for cost reduction, it harms them.
 
 - _Confirmed by:_ Cases where automation optimized for access improved outcomes; cases where cost optimization led to higher denials.
 - _Falsified by:_ Evidence that all automation produces similar patterns regardless of optimization goal.
-- _Current state:_ Confirmed by comparison. Ex parte Medicaid renewal (optimized for coverage retention) produced lower procedural disenrollment. nH Predict / PxDx / CVS Post-Acute Analytics (optimized for cost reduction) produced higher denial rates. [confirmed -- the counterexample is real and must not be erased]
+- _Current state:_ Confirmed by comparison. Ex parte Medicaid renewal (optimized for coverage retention) produced lower procedural disenrollment. nH Predict / PxDx / CVS Post-Acute Analytics (optimized for cost reduction) produced higher denial rates.
 
 ---
 
 ## 3. The optimization target problem
 
-AI is an amplifier. It makes whatever an institution is optimizing for happen faster and at lower per-unit cost. It does not set the direction. The direction is set by what the institution is trying to maximize.
+AI is an amplifier. It makes whatever an institution is optimizing for happen faster and at lower per-unit cost. It doesn't set the direction. The direction is set by what the institution is trying to maximize.
 
 **When optimized for coverage retention:**
-In the 2023-2024 Medicaid unwinding, 61% of renewals were processed through automated ex parte renewals -- systems that checked eligibility against existing databases without requiring the enrollee to take any action. ASPE estimates the ex parte accuracy rate at 92.1% among eligible beneficiaries (estimated erroneous retention rate: 1.2%). [plausible -- ASPE administrative data; methodology not independently peer-reviewed] States with higher ex parte usage rates had lower procedural disenrollment rates. [confirmed -- KFF Unwinding Tracker, CE-013; plausible that the causal link is ex parte rate specifically, not just state capacity differences]
+In the 2023-2024 Medicaid unwinding, 61% of renewals went through automated ex parte renewals -- systems that checked eligibility against existing databases without requiring the enrollee to do anything. ASPE estimates the ex parte accuracy rate at 92.1% among eligible beneficiaries (estimated erroneous retention rate: 1.2%). States with higher ex parte usage rates had lower procedural disenrollment rates, though that relationship is a plausible inference rather than a causal finding tied to ex parte use alone.
 
-This is the counterexample that the rest of the document must not erase. Automation optimized for access works differently than automation optimized for cost.
+This is the counterexample that the rest of this document must not erase. Automation optimized for access works differently than automation optimized for cost.
 
-**What the helpful version looks like:** AI that routes clear, documentation-complete cases to fast approval, flags cases needing escalation (not just denial), and reduces admin burden for providers and claimants alike. Medicaid ex parte renewals are the documented example: automated cross-agency data checks reduced procedural disenrollments without reducing access. [already cited]
+**What the helpful version looks like:** AI that routes clear, documentation-complete cases to fast approval, flags cases needing escalation (not just denial), and cuts admin burden for providers and claimants alike. Medicaid ex parte renewals are the documented example: automated cross-agency data checks reduced procedural disenrollments without reducing access. [already cited]
 
-**Why it usually doesn't happen:** The optimization target is cost reduction, not access. When AI is deployed inside a system where denials generate savings and approvals generate costs, the model learns the incentive -- not the claimant's need. There is no market signal that corrects for this in captive insurance contexts.
+**Why it usually doesn't happen:** The optimization target is cost reduction, not access. When AI is deployed inside a system where denials generate savings and approvals generate costs, the model learns the incentive -- not the claimant's need. There's no market signal that corrects for this in captive insurance contexts.
 
 **What makes the helpful version more likely:** Procurement and regulatory requirements that measure outcome metrics -- approval accuracy rates, appeal overturn rates, claimant-side processing time -- not just unit cost. When auditors can see the denominator (denials that should have been approvals), the optimization target changes.
 
+The real choice is not "AI or no AI." The real choice is whether automation is aimed at keeping eligible people connected to care and benefits, or at making it easier to deny, defer, and externalize the burden.
+
 **When optimized for cost reduction / denial throughput:**
 
-- Cigna's PxDx algorithm: physicians averaged 1.2 seconds per case in batch denial review, approving groups of 50 denials at a time without reviewing individual clinical records. Internal scorecards tracked monthly batch throughput. [confirmed -- ProPublica, March 2023, CE-001]
-- UnitedHealthcare's nH Predict (NaviHealth): skilled nursing facility denial rates at UnitedHealthcare rose from 1.4% in 2019 to 12.6% in 2022 -- the first full year after NaviHealth acquisition. CVS Post-Acute Analytics initially projected $10-15 million in savings; revised that projection to $77.3 million within months of rollout. [confirmed correlation; plausible that algorithm adoption was the primary driver -- Senate PSI majority staff report, October 2024, CE-002]
+- Cigna's PxDx algorithm: physicians averaged 1.2 seconds per case in batch denial review, approving groups of 50 denials at a time without reviewing individual clinical records. Internal scorecards tracked monthly batch throughput.
+- UnitedHealthcare's nH Predict (NaviHealth): skilled nursing facility denial rates at UnitedHealthcare rose from 1.4% in 2019 to 12.6% in 2022 -- the first full year after NaviHealth acquisition. CVS Post-Acute Analytics initially projected $10-15 million in savings; revised that projection to $77.3 million within months of rollout.
 
-The load-bearing variable: the same class of technology, pointed in opposite directions, produces opposite outcomes. Saying "AI is causing harm" or "AI is helping" is both correct and misleading unless you specify the optimization target.
+The load-bearing variable: the same class of technology, pointed in opposite directions, produces opposite outcomes. Saying "AI is causing harm" or "AI is helping" is both correct and misleading unless you name the optimization target.
+
+---
+
+## The fork in the road
+
+Used badly, AI turns claims and eligibility systems into scaled friction machines. Denials move faster. Explanations get thinner. Appeals stay hard. The result is more squeeze, more insecurity, and more power for the institution over the person.
+
+Used well, the same tools can reduce paperwork, keep people enrolled, surface errors earlier, and make decisions easier to understand and challenge. The difference is not whether AI is present. The difference is what the system is optimized to do, and whether accountability follows the decision.
 
 ---
 
@@ -153,9 +173,9 @@ This section is the reusable map. Each **Mechanism** shows up across insurance, 
 
 When decisions become **too fast / cheap / opaque to overrule**, "human review" becomes a rubber stamp. Contestability still exists on paper, but not in practice.
 
-- **Module 1.1: Human Command (minimum floor)**  
+- **Module 1.1: Human Command (minimum floor)**
   If AI affects a life outcome, you get: **notice, reason, appeal, records, and a human override**.
-- **Module 1.2: Rubber-stamp proxies (how to measure it)**  
+- **Module 1.2: Rubber-stamp proxies (how to measure it)**
   How to detect "human review theater" when override rates are proprietary.
 
 **In this case study (what's confirmed):**
@@ -171,7 +191,6 @@ When decisions become **too fast / cheap / opaque to overrule**, "human review" 
 - lack of model-input visibility for reviewers
 - absence of independent audit sampling
 
-**Dependency risk.** When an insurer, agency, or lender routes all determinations through a single UM vendor or AI model, a policy update, model drift, or outage becomes a system-wide shock -- and the system typically fails closed: denials continue while the escalation path goes dark. The dependency also concentrates bargaining power: a vendor that is operationally indispensable sets contract terms the buyer cannot refuse. [ANCHOR NEEDED: documented vendor outage or model-change event producing claim-processing disruption at scale.] This is the same single-vendor dependency pattern documented in surveillance infrastructure, where Palantir and Flock lock-in converts tooling choice into governance.
 
 **Auto-adverse action.** When AI moves from recommending denials to executing them -- auto-adjudication is already estimated at 80-85% of volume in health insurance [industry benchmark, plausible] -- the error cost shifts entirely to the claimant before any adjudication. The 88.5% of Medicare Advantage prior auth denials that are never appealed may include a significant share where an automated denial was simply absorbed. The minimum floor: no auto-adverse action on a life-outcome decision without documented corroboration, a human override path, and notice of the basis for the action. This is the same "action without adjudication" pattern documented in surveillance deployments, at healthcare stakes.
 
@@ -181,9 +200,9 @@ When decisions become **too fast / cheap / opaque to overrule**, "human review" 
 
 If you can't realistically exit a system, governance has to do the work markets can't.
 
-- **Module 2.1: Exit test**  
+- **Module 2.1: Exit test**
   "Can a person leave this system fast enough to matter?"
-- **Module 2.2: Switching cost checklist**  
+- **Module 2.2: Switching cost checklist**
   The practical friction: timing windows, portability, documentation burdens, and lock-in.
 
 **In this case study:**
@@ -198,9 +217,9 @@ If you can't realistically exit a system, governance has to do the work markets 
 
 AI moves power to whoever controls **trust gates**: what counts as valid content, valid identity, valid documentation, and valid submission channels.
 
-- **Module 3.1: Provenance (content)**  
+- **Module 3.1: Provenance (content)**
   What counts as "real" documentation, and who can produce it.
-- **Module 3.2: Personhood and credentials (people)**  
+- **Module 3.2: Personhood and credentials (people)**
   Identity checks, credentialing, and "fraud" posture as a choke point.
 
 **In this case study:**
@@ -215,9 +234,9 @@ AI moves power to whoever controls **trust gates**: what counts as valid content
 
 Institutions keep the logs. People get a denial letter.
 
-- **Module 4.1: Audit/log checklist**  
+- **Module 4.1: Audit/log checklist**
   What must be logged (inputs, outputs, overrides, confidence, timing) and retained.
-- **Module 4.2: Records access and retention**  
+- **Module 4.2: Records access and retention**
   What the affected person (and regulators) can obtain, and when.
 
 **In this case study (confirmed pattern):**
@@ -232,9 +251,9 @@ Institutions keep the logs. People get a denial letter.
 
 AI scales adverse decisions faster than human adjudication capacity (appeals, hearings, corrections) can keep up. The system's "error correction" becomes attrition.
 
-- **Module 5.1: Enforcement-without-adjudication metrics**  
+- **Module 5.1: Enforcement-without-adjudication metrics**
   The quick read: volume of adverse decisions, appeal rate, overturn rate, time-to-resolution.
-- **Module 5.2: Corroboration rule**  
+- **Module 5.2: Corroboration rule**
   A single automated signal should not be enough for a high-stakes adverse action without independent corroboration.
 
 **In this case study (strongest confirmed signature):**
@@ -243,17 +262,17 @@ AI scales adverse decisions faster than human adjudication capacity (appeals, he
 - Medicare Advantage prior authorization: **~11.5% appealed; ~80.7% overturned** (KFF).
 - Medicaid unwinding: **large procedural disenrollment** (paperwork/renewal friction) shows the same "scale beats adjudication" structure, even when AI isn't the primary driver.
 
-**Accountability laundering.** When a denial crosses vendor/insurer/agency lines -- "the model flagged it," "UM vendor policy," "algorithm-based determination" -- no single party owns the harm. The insurer cites the vendor; the vendor cites the model; the model is proprietary. Each handoff increases the claimant's burden to understand, much less contest, the decision. The fix requires assigned decision ownership: one named accountable party at the institution that acted on the output, traceability (reason code, model version, data inputs), and an appeal path that does not require the claimant to first reconstruct the vendor architecture. This is the same diffusion pattern documented in surveillance coercion, where no party owns a wrongful enforcement action triggered by an algorithmic flag.
+**Accountability laundering.** When a denial crosses vendor/insurer/agency lines -- "the model flagged it," "UM vendor policy," "algorithm-based determination" -- no single party owns the harm. The insurer cites the vendor; the vendor cites the model; the model is proprietary. Each handoff increases the claimant's burden to understand, much less contest, the decision. The fix requires assigned decision ownership: one named accountable party at the institution that acted on the output, traceability (reason code, model version, data inputs), and an appeal path that doesn't require the claimant to first reconstruct the vendor architecture. This is the same diffusion pattern documented in surveillance coercion, where no party owns a wrongful enforcement action triggered by an algorithmic flag.
 
 ---
 
 ### Mechanism 6: Skill atrophy
 
-When "learning work" disappears, oversight becomes fake " and power moves upward because fewer people can challenge decisions.
+When "learning work" disappears, oversight becomes fake -- and power moves upward because fewer people can challenge decisions.
 
-- **Module 6.1: Manual flight checks**  
+- **Module 6.1: Manual flight checks**
   Protected, periodic human-led reviews to preserve independent judgment.
-- **Module 6.2: Learning-work quotas**  
+- **Module 6.2: Learning-work quotas**
   Contract and governance requirements that keep genuine review capacity alive.
 
 **In this case study:**
@@ -265,27 +284,27 @@ When "learning work" disappears, oversight becomes fake " and power moves upward
 
 ### Mechanism 7: Bottlenecks / market power
 
-When bottlenecks are concentrated, efficiency gains don't become shared gains " they become bargaining power.
+When bottlenecks are concentrated, efficiency gains don't become shared gains -- they become bargaining power.
 
-- **Module 7.1: "Where does power sit?" map**  
+- **Module 7.1: "Where does power sit?" map**
   Map the stack: payer, UM vendor, PBM, agency, portal, data broker.
-- **Module 7.2: Shared gains test**  
-  Did benefits flow to the public (prices down, burden down, access up) " or get captured?
+- **Module 7.2: Shared gains test**
+  Did benefits flow to the public (prices down, burden down, access up) -- or get captured?
 
 **In this case study:**
 
 - Utilization management layers (insurer + UM vendor + PBM) create multiple chokepoints.
-- Documented "savings" can exist without any evidence that claimants" burden fell.
+- Documented "savings" can exist without any evidence that claimants' burden fell.
 
 ---
 
 ### Mechanism 8: Control loops
 
-When delay is the decision, "process" becomes a control system that shapes life outcomes " especially in healthcare.
+When delay is the decision, "process" becomes a control system that shapes life outcomes -- especially in healthcare.
 
-- **Module 8.1: Safe-fail + kill switch**  
+- **Module 8.1: Safe-fail + kill switch**
   What happens when the model is uncertain or anomalous? Can the system degrade to human command?
-- **Module 8.2: Incident review and rate limits**  
+- **Module 8.2: Incident review and rate limits**
   Post-hoc review of harms; rate limits that prevent runaway denial throughput.
 
 **In this case study:**
@@ -332,19 +351,21 @@ When delay is the decision, "process" becomes a control system that shapes life 
 
 ### 5a. Cross-domain mechanism map
 
-How each mechanism appears across domains. Navigation tool -- not narrative. Each cell is labeled [confirmed], [plausible], or [gap].
+How each mechanism appears across domains. Navigation tool -- not narrative.
 
 | Mechanism                              | Insurance (prior auth / claims)                                                                                                                                                                                                                                                    | Government benefits (Medicaid / UI / disability)                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Consumer finance (fraud flags / underwriting)                                                                                                                                                                                                    | What the person experiences                                                                                                  | What a regulator/auditor needs to inspect                                                                                                         |
 | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Rubber-stamp review**                | **[confirmed]** Cigna PxDx: 1.2 sec/claim; physicians sign batch denials without clinical records. STAT/Senate: UnitedHealth staff expected to align with nH Predict. Stanford: reviewers exhibit automation bias.                                                                 | **[confirmed]** Arkansas: algorithm eliminated nursing discretion. Michigan MiDAS: fraud flags issued with no documented individual human review before issuance.                                                                                                                                                                                                                                                                                                                                                       | **[plausible]** Chime account closures: no evidence of individual human review before closure. Credit auto-decisioning is standard practice. Override rate: unknown.                                                                             | Denial arrives. The reason is generic. No way to know whether a person actually reviewed the file.                           | Override rate; time-per-determination; reviewer training records; throughput KPIs.                                                                |
-| **Denial-by-friction**                 | **[confirmed]** MA: 11.5% appeal rate, 80.7% overturn (KFF 2025). HHS OIG 2022: 9.9% appeal rate; 75% overturn rate in prior period. Health Affairs: 57% of MA denials reversed but 7% revenue reduction persists. AMA: 80% of patients abandoned treatment.                       | **[confirmed]** Medicaid: 69% procedurally disenrolled. SSDI: 62% initial denial; ALJ hearings 1-2+ years; most people give up before reaching ALJ. Michigan MiDAS: $20M settlement after 7 years.                                                                                                                                                                                                                                                                                                                      | **[plausible]** Chime: 90+ day refund delays after account closure. Credit denials: adverse action notice is generic; no documented mechanism for challenging model-specific inputs.                                                             | You were told no. The path to reversal is real but costs more than most people have -- in time, money, health, or knowledge. | Appeal rate vs. overturn rate by program; time from denial to resolution.                                                                         |
-| **Procedural burden**                  | **[confirmed]** AMA 2024: 39 PA requests/physician/week; 12 hrs staff time; $68K/physician/year on plan interactions. 94% of physicians report PA still delays necessary care.                                                                                                     | **[confirmed]** Medicaid: 69% procedural disenrollment. SSDI: multi-stage years-long process. Arkansas: algorithm cut hours with no explanation; claimants lacked information to challenge. Michigan: 10-day contestation window after fraud flag.                                                                                                                                                                                                                                                                      | **[plausible]** Adverse action notices are generic (CFPB circulars document this). No claimant-accessible model records. Financial consequences of denial compound quickly.                                                                      | You have to do more paperwork than they do. Miss one window and you lose.                                                    | Claimant time-to-resolution; documentation requirements; navigator program availability; language access.                                         |
-| **Asymmetric logs**                    | **[confirmed]** No MA claimant has documented access to model output-to-decision records. CMS suspended health equity analysis that would have created partial population-level audit capability (CE-012). CFPB circulars: generic denial notices documented as standard practice. | **[confirmed]** Arkansas: algorithm design not disclosed to beneficiaries. Michigan MiDAS: fraud-determination logic was proprietary. Medicaid ex parte configuration error was identified by CMS audit, not by claimants.                                                                                                                                                                                                                                                                                              | **[confirmed]** CFPB circulars: generic adverse action notices are standard in AI credit denials. No US law requires disclosure of model weights or training data. EU AI Act requires audit logs (compliance 2026); no US equivalent.            | You got a letter. It does not tell you which data point was wrong, which variable mattered, or how to fix it.                | Audit trail from model input to decision output; whether accessible outside litigation; whether denial notices are model-specific or generic.     |
-| **Optimization hidden behind process** | **[confirmed]** CVS Post-Acute Analytics: savings projected $10-15M, revised to $77.3M (Senate majority report). nH Predict: ninefold SNF denial rate increase. Cigna scorecards: throughput is the metric, not accuracy.                                                          | **[confirmed -- Michigan MiDAS]** Michigan MiDAS: stated goal was fraud reduction; 93% false positive rate; savings from incorrect collections were the immediate incentive. **[plausible -- Medicaid unwinding]** Medicaid procedural disenrollment: staffing and capacity failure was the documented primary driver; a structural incentive to auto-disenroll existed, but intent to optimize for disenrollment cannot be confirmed from available evidence. Do not treat as a confirmed case of covert optimization. | **[plausible]** Chime: fraud closure rate reduced 50%+ after CFPB complaints peaked -- consistent with initial algorithm over-calibrated for closures. Credit scoring: discriminatory outcomes can be a product of using correlation as a proxy. | You don't know what they were optimizing for. You only see the outcome.                                                      | Internal model objective function; performance KPIs used by implementation teams; whether accuracy or throughput appears in governance documents. |
+| **Rubber-stamp review**                | Cigna PxDx: 1.2 sec/claim; physicians sign batch denials without clinical records. STAT/Senate: UnitedHealth staff expected to align with nH Predict. Stanford: reviewers exhibit automation bias.                                                                 | Arkansas: algorithm eliminated nursing discretion. Michigan MiDAS: fraud flags issued with no documented individual human review before issuance.                                                                                                                                                                                                                                                                                                                                                       | Likely: Chime account closures: no evidence of individual human review before closure. Credit auto-decisioning is standard practice. Override rate: unknown.                                                                             | Denial arrives. The reason is generic. No way to know whether a person actually reviewed the file.                           | Override rate; time-per-determination; reviewer training records; throughput KPIs.                                                                |
+| **Denial-by-friction**                 | MA: 11.5% appeal rate, 80.7% overturn (KFF 2025). HHS OIG 2022: 9.9% appeal rate; 75% overturn rate in prior period. Health Affairs: 57% of MA denials reversed but 7% revenue reduction persists. AMA: 80% of patients abandoned treatment.                       | Medicaid: 69% procedurally disenrolled. SSDI: 62% initial denial; ALJ hearings 1-2+ years; most people give up before reaching ALJ. Michigan MiDAS: $20M settlement after 7 years.                                                                                                                                                                                                                                                                                                                      | Likely: Chime: 90+ day refund delays after account closure. Credit denials: adverse action notice is generic; no documented mechanism for challenging model-specific inputs.                                                             | You were told no. The path to reversal is real but costs more than most people have -- in time, money, health, or knowledge. | Appeal rate vs. overturn rate by program; time from denial to resolution.                                                                         |
+| **Procedural burden**                  | AMA 2024: 39 PA requests/physician/week; 12 hrs staff time; $68K/physician/year on plan interactions. 94% of physicians report PA still delays necessary care.                                                                                                     | Medicaid: 69% procedural disenrollment. SSDI: multi-stage years-long process. Arkansas: algorithm cut hours with no explanation; claimants lacked information to challenge. Michigan: 10-day contestation window after fraud flag.                                                                                                                                                                                                                                                                      | Likely: Adverse action notices are generic (CFPB circulars document this). No claimant-accessible model records. Financial consequences of denial compound quickly.                                                                      | You have to do more paperwork than they do. Miss one window and you lose.                                                    | Claimant time-to-resolution; documentation requirements; navigator program availability; language access.                                         |
+| **Asymmetric logs**                    | No MA claimant has documented access to model output-to-decision records. CMS suspended health equity analysis that would have created partial population-level audit capability (CE-012). CFPB circulars: generic denial notices documented as standard practice. | Arkansas: algorithm design not disclosed to beneficiaries. Michigan MiDAS: fraud-determination logic was proprietary. Medicaid ex parte configuration error was identified by CMS audit, not by claimants.                                                                                                                                                                                                                                                                                              | CFPB circulars: generic adverse action notices are standard in AI credit denials. No US law requires disclosure of model weights or training data. EU AI Act requires audit logs (compliance 2026); no US equivalent.            | You got a letter. It does not tell you which data point was wrong, which variable mattered, or how to fix it.                | Audit trail from model input to decision output; whether accessible outside litigation; whether denial notices are model-specific or generic.     |
+| **Optimization hidden behind process** | CVS Post-Acute Analytics: savings projected $10-15M, revised to $77.3M (Senate majority report). nH Predict: ninefold SNF denial rate increase. Cigna scorecards: throughput is the metric, not accuracy.                                                          | Michigan MiDAS: stated goal was fraud reduction; 93% false positive rate; savings from incorrect collections were the immediate incentive. Likely: Medicaid procedural disenrollment: staffing and capacity failure was the documented primary driver; a structural incentive to auto-disenroll existed, but intent to optimize for disenrollment cannot be confirmed from available evidence. Do not treat as a confirmed case of covert optimization. | Likely: Chime: fraud closure rate reduced 50%+ after CFPB complaints peaked -- consistent with initial algorithm over-calibrated for closures. Credit scoring: discriminatory outcomes can be a product of using correlation as a proxy. | You don't know what they were optimizing for. You only see the outcome.                                                      | Internal model objective function; performance KPIs used by implementation teams; whether accuracy or throughput appears in governance documents. |
 
 ---
 
 ## 6. Control stack: Is there a human in command?
+
+This is where a lot of "human oversight" stories fall apart. A human can be present in the workflow and still not be in command of the outcome.
 
 Three levels of human involvement, and they are not equal:
 
@@ -352,18 +373,18 @@ Three levels of human involvement, and they are not equal:
 - **Human-on-the-loop:** A person monitors the process and can intervene if something is flagged. Oversight is reactive, not proactive.
 - **Human-in-command:** A person has the authority, time, information, and audit records needed to act. Substantive accountability.
 
-The rubber-stamp detector: if humans lack any of those four elements -- authority, time, information, or logs -- then "human review" is theater. The signature provides legal cover without functional accountability.
+The rubber-stamp detector: if humans lack any of those four elements -- authority, time, information, or logs -- then "human review" is theater. It provides legal cover without functional accountability.
 
 **Applied:**
 
 | System                               | Level                     | Assessment                                                                                                                                                                                                                                                        |
 | ------------------------------------ | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Cigna PxDx batch review              | Human-in-the-loop         | [confirmed theater] Physicians approved 50 denials per batch without clinical records. 1.2 seconds per case. Scorecards rewarded throughput. Authority nominally present; time and information structurally absent.                                               |
-| UnitedHealth nH Predict / post-acute | Human-in-the-loop         | [confirmed pattern; plausible that override was rare] Staff accounts describe pressure to align with algorithm outputs. Algorithm set length-of-stay targets; staff expected to follow.                                                                           |
-| Medicaid automated redeterminations  | Human-on-the-loop at best | [plausible] State eligibility workers oversee renewal queues; case volumes during unwinding exceeded capacity to review individual cases. Outcome data (69% procedural disenrollment) is consistent with inadequate human review.                                 |
-| AI-assisted credit decisions         | Human-in-the-loop         | [confirmed -- legal obligation exists; enforcement gap confirmed] CFPB adverse action notice requirements are legally binding but compliance was demonstrably deficient (CE-009). Adverse action notices using generic checklists do not satisfy the requirement. |
+| Cigna PxDx batch review              | Human-in-the-loop         | Theater in practice. Physicians approved 50 denials per batch without clinical records. 1.2 seconds per case. Scorecards rewarded throughput. Authority nominally present; time and information structurally absent.                                               |
+| UnitedHealth nH Predict / post-acute | Human-in-the-loop         | Pattern is confirmed; whether override was common is not. Staff accounts describe pressure to align with algorithm outputs. Algorithm set length-of-stay targets; staff expected to follow.                                                                           |
+| Medicaid automated redeterminations  | Human-on-the-loop at best | State eligibility workers oversaw renewal queues, but case volumes during unwinding exceeded capacity to review individual cases. Outcome data (69% procedural disenrollment) is consistent with inadequate human review.                                 |
+| AI-assisted credit decisions         | Human-in-the-loop         | Legal obligation exists; enforcement gap is documented. CFPB adverse action notice requirements are legally binding but compliance was demonstrably deficient (CE-009). Adverse action notices using generic checklists do not satisfy the requirement. |
 
-The Green (2022) finding applies across all four: human oversight policies are systematically flawed because people cannot perform the function the policy assigns them (CE-007). The presence of a human in the process is not evidence that human command is functioning.
+The Green (2022) finding applies across all four: human oversight policies are systematically flawed because people cannot perform the function the policy assigns them (CE-007). Having a human in the process is not evidence that human command is functioning.
 
 ---
 
@@ -373,38 +394,40 @@ Direct observation of rubber-stamping is unavailable in all three domains. Eight
 
 | Proxy                           | What it measures                                                                                                            | Current evidence                                                                                                                                                                                                                                                                                                       | Confidence                                                                                             | Best data source                                                                      |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
-| **Override rate**               | How often human reviewers reverse AI-generated recommendations before a final decision                                      | No public data in any domain. Stanford/Health Affairs study implies low rate but does not quantify.                                                                                                                                                                                                                    | [unknown -- proprietary everywhere]                                                                    | Not currently available. Would require legislative or regulatory disclosure mandate.  |
-| **Auto-adjudication rate**      | Share of claims processed with no human involvement                                                                         | Industry benchmark: 80-85% target; vendor case studies: up to 94%. CMS MA data does not disaggregate auto-adjudicated from human-reviewed.                                                                                                                                                                             | [plausible as benchmark; unknown for firm-level rates]                                                 | OpsDog industry benchmarks; CMS administrative data (does not currently disaggregate) |
-| **Time-per-determination**      | Average time a human reviewer spends per case before signing off                                                            | Cigna PxDx: 1.2 seconds per claim (ProPublica primary documents, CE-001). No equivalent documented figure for other insurers, government programs, or consumer finance.                                                                                                                                                | [confirmed -- Cigna only; unknown elsewhere]                                                           | ProPublica / primary documents (CE-001)                                               |
-| **Appeal rate + overturn rate** | Share of denials contested; of those, share reversed. Gap between the two is the operational measure of denial-by-friction. | MA prior auth: 11.5% appeal / 80.7% overturn (KFF 2025, CE-003). HHS OIG 2022: 9.9% appeal rate, 75% overturn in prior period (CE-018). MA claims: 57% of all denials ultimately reversed (Health Affairs 2025, CE-004). Michigan MiDAS: no appeal rate available; seven-year litigation timeline documents attrition. | [confirmed -- MA; plausible -- SSDI; unknown -- consumer finance]                                      | KFF (MA); HHS OIG audit; Health Affairs                                               |
-| **Reason-code specificity**     | Whether denial notices provide enough information to contest effectively                                                    | CFPB Circular 2022-03 and 2023-03 issued because lenders used generic checklists not reflecting actual AI denial reasons. CMS MA notices require specific criteria citation but compliance is not systematically tracked.                                                                                              | [confirmed that non-specific notices were common; unknown -- compliance rate post-circulars]           | CFPB circulars (CE-009); CMS MA notice requirements (CE-012)                          |
-| **Log availability**            | Whether model-output-to-decision records are maintained and accessible to claimants                                         | EU AI Act requires audit logs (compliance 2026 -- prospective). No US federal equivalent. Arkansas Ledgerwood: algorithm logic not disclosed without court order. No confirmed case of voluntary claimant-accessible model logs in US practice.                                                                        | [confirmed that logs are not routinely accessible to claimants; unknown what is maintained internally] | EU AI Act (CE-011); Arkansas case record (CE-006); CFPB circulars (CE-009)            |
-| **Staffing ratios**             | Reviewers per decisions; ratios that make per-case review infeasible are circumstantial evidence of rubber-stamping         | Cigna: one physician denied 121,000 claims in two months (CE-001). No systematic staffing ratio data across insurers or agencies.                                                                                                                                                                                      | [confirmed -- Cigna only; unknown elsewhere]                                                           | ProPublica primary documents (CE-001)                                                 |
-| **Institutional incentives**    | Whether performance metrics reward throughput/speed or accuracy and appeal-reversal prevention                              | Cigna: scorecards tracked PxDx batch denial throughput per physician per month (CE-001, confirmed). CVS: savings projections revised from $10-15M to $77.3M (CE-002, plausible). UnitedHealth: staff described pressure to align with algorithm outputs (CE-002, plausible).                                           | [confirmed -- Cigna scorecards; plausible -- CVS, UnitedHealth]                                        | ProPublica primary documents (CE-001); Senate PSI majority report (CE-002)            |
+| **Override rate**               | How often human reviewers reverse AI-generated recommendations before a final decision                                      | No public data in any domain. Stanford/Health Affairs study implies low rate but does not quantify.                                                                                                                                                                                                                    |                                                                    | Not currently available. Would require legislative or regulatory disclosure mandate.  |
+| **Auto-adjudication rate**      | Share of claims processed with no human involvement                                                                         | Industry benchmark: 80-85% target; vendor case studies: up to 94%. CMS MA data does not disaggregate auto-adjudicated from human-reviewed.                                                                                                                                                                             |                                                 | OpsDog industry benchmarks; CMS administrative data (does not currently disaggregate) |
+| **Time-per-determination**      | Average time a human reviewer spends per case before signing off                                                            | Cigna PxDx: 1.2 seconds per claim (ProPublica primary documents, CE-001). No equivalent documented figure for other insurers, government programs, or consumer finance.                                                                                                                                                |                                                           | ProPublica / primary documents (CE-001)                                               |
+| **Appeal rate + overturn rate** | Share of denials contested; of those, share reversed. Gap between the two is the operational measure of denial-by-friction. | MA prior auth: 11.5% appeal / 80.7% overturn (KFF 2025, CE-003). HHS OIG 2022: 9.9% appeal rate, 75% overturn in prior period (CE-018). MA claims: 57% of all denials ultimately reversed (Health Affairs 2025, CE-004). Michigan MiDAS: no appeal rate available; seven-year litigation timeline documents attrition. |                                      | KFF (MA); HHS OIG audit; Health Affairs                                               |
+| **Reason-code specificity**     | Whether denial notices provide enough information to contest effectively                                                    | CFPB Circular 2022-03 and 2023-03 issued because lenders used generic checklists not reflecting actual AI denial reasons. CMS MA notices require specific criteria citation but compliance is not systematically tracked.                                                                                              |           | CFPB circulars (CE-009); CMS MA notice requirements (CE-012)                          |
+| **Log availability**            | Whether model-output-to-decision records are maintained and accessible to claimants                                         | EU AI Act requires audit logs (compliance 2026 -- prospective). No US federal equivalent. Arkansas Ledgerwood: algorithm logic not disclosed without court order. No confirmed case of voluntary claimant-accessible model logs in US practice.                                                                        | | EU AI Act (CE-011); Arkansas case record (CE-006); CFPB circulars (CE-009)            |
+| **Staffing ratios**             | Reviewers per decisions; ratios that make per-case review infeasible are circumstantial evidence of rubber-stamping         | Cigna: one physician denied 121,000 claims in two months (CE-001). No systematic staffing ratio data across insurers or agencies.                                                                                                                                                                                      |                                                           | ProPublica primary documents (CE-001)                                                 |
+| **Institutional incentives**    | Whether performance metrics reward throughput/speed or accuracy and appeal-reversal prevention                              | Cigna: scorecards tracked PxDx batch denial throughput per physician per month (CE-001, confirmed). CVS: savings projections revised from $10-15M to $77.3M (CE-002, plausible). UnitedHealth: staff described pressure to align with algorithm outputs (CE-002, plausible).                                           |                                        | ProPublica primary documents (CE-001); Senate PSI majority report (CE-002)            |
 
 ---
 
 ## 7. Shared Gains Test
 
+The savings are real. The sharing is not. Automation lowers administrative cost for institutions, but the reviewed evidence does not show those gains reliably returning to claimants as lower premiums, easier access, faster approvals, or less paperwork burden.
+
 Six questions. What does the evidence show?
 
 **Q1: Did prices fall (premiums, interest rates, admin costs passed to consumers)?**
-No evidence that AI-driven efficiency gains were passed to consumers as lower premiums. CVS's revised $77.3M savings projection and Cigna's batch denial system document insurer-side gains retained internally. [unknown -- absence of evidence is not a confirmed answer; premium trend data was not specifically analyzed]
+No evidence that AI-driven efficiency gains were passed to consumers as lower premiums. CVS's revised $77.3M savings projection and Cigna's batch denial system document insurer-side gains retained internally.
 
 **Q2: Did processing speed improve for claimants (not just institutions)?**
-Several major insurers reduced PA requirements in 2023-2024. Electronic prior authorization processing times have reportedly declined, but the specific figures in the research file (CE-015) cover auto-adjudication rate benchmarks, not confirmed processing time reduction data. Whether institutional speed gains translated to faster care access for patients is not established. [plausible that institutional processing speed improved; unknown whether the benefit reached patients; specific processing time claim removed -- source mismatch identified]
+Several major insurers reduced PA requirements in 2023-2024. Electronic prior authorization processing times have reportedly declined, but the specific figures in the research file (CE-015) cover auto-adjudication rate benchmarks, not confirmed processing time reduction data. Whether institutional speed gains translated to faster care access for patients is not established.
 
 **Q3: Did admin drag fall on the claimant side?**
-No evidence of reduction. Medicaid unwinding procedural disenrollments and SSDI multi-stage appeals (CE-014) suggest claimant-side burden remained or increased. AMA 2024: physicians spend approximately $68,000 per physician per year on plan interactions, including prior authorization -- a provider-side proxy for claimant-side burden. [confirmed -- AMA 2024 survey, CE-017; Tier 2 -- physician self-reported] The Stanford study found AI in insurance utilization review did not come with claimant-side navigation tools. [plausible that burden did not fall; not quantified]
+No evidence of reduction. Medicaid unwinding procedural disenrollments and SSDI multi-stage appeals (CE-014) suggest claimant-side burden remained or increased. AMA 2024: physicians spend approximately $68,000 per physician per year on plan interactions, including prior authorization -- a provider-side proxy for claimant-side burden. The Stanford study found AI in insurance utilization review did not come with claimant-side navigation tools.
 
 **Q4: Did access improve?**
 For Medicaid: access declined for eligible enrollees during unwinding (CE-005). For Medicare Advantage prior authorization: denial rates increased as AI was adopted (CE-002). For credit: proxy discrimination literature suggests access declined for protected classes (CE-010). Exception: ex parte renewal automation improved Medicaid retention where deployed (CE-013). [Medicaid procedural disenrollment access decline -- confirmed; AI as cause of Medicare Advantage denial rate increase -- plausible (confirmed correlation; cause not established); ex parte is a genuine counterexample, not a norm]
 
 **Q5: Can people contest decisions?**
-Formal appeal paths exist in all three domains. Medicare Advantage PA appeals: 30 days standard, 72 hours expedited. SSDI appeals: often one to two years. Medicaid: large state variation. Human override is formally required in all three; functionally impaired by automation bias (CE-008) and rubber-stamp dynamics (CE-001). [confirmed paths exist; confirmed paths are systematically underused relative to overturn rate; plausible that human override is functionally impaired]
+Formal appeal paths exist in all three domains. Medicare Advantage PA appeals: 30 days standard, 72 hours expedited. SSDI appeals: often one to two years. Medicaid: large state variation. Human override is formally required in all three; functionally impaired by automation bias (CE-008) and rubber-stamp dynamics (CE-001).
 
 **Q6: Can people exit / switch?**
-Medicare Advantage: annual enrollment period; mid-year switching is restricted. Employer-sponsored insurance: open enrollment or qualifying life events only. Government benefits (Medicaid, SSDI): single-payer with no alternative. Consumer credit: switching lenders is possible but denial history may follow applicants. [confirmed that exit is structurally limited in government benefits; plausible that MA mid-year portability is insufficient to function as a market check]
+Medicare Advantage: annual enrollment period; mid-year switching is restricted. Employer-sponsored insurance: open enrollment or qualifying life events only. Government benefits (Medicaid, SSDI): single-payer with no alternative. Consumer credit: switching lenders is possible but denial history may follow applicants.
 
 **Summary:** The Shared Gains Test fails across most dimensions. Processing speed may have improved for institutions. No confirmed evidence the gains were shared with claimants. Access declined where AI was optimized for cost reduction. Contest rights exist formally and are undermined functionally.
 
@@ -412,15 +435,17 @@ Medicare Advantage: annual enrollment period; mid-year switching is restricted. 
 
 ## 8. Appeal effectiveness -- the reversal rate problem
 
+Low appeal rates do not prove the denials were correct. In this domain, low appeal rates often mean the system successfully made correction too hard.
+
 This is one of the strongest confirmed findings in the research.
 
-In Medicare Advantage (2024): 53 million prior authorization requests; 4.1 million denied; 11.5% of denials appealed; 80.7% of those appeals fully or partially overturned. [confirmed -- KFF 2025, CE-003]
+In Medicare Advantage (2024): 53 million prior authorization requests; 4.1 million denied; 11.5% of denials appealed; 80.7% of those appeals fully or partially overturned.
 
-An independent government audit -- not a majority staff report, not advocacy -- reinforces this. The HHS OIG 2022 report (OEI-09-18-00260) found that 13% of MA prior authorization denials in its sample met Medicare coverage rules and should have been approved. An earlier OIG finding: 75% of MA prior auth denials that were appealed between 2014-2016 were overturned. The OIG also found a 9.9% appeal rate in 2022. [confirmed -- independent government audit, CE-018; sample from 15 largest MA organizations; does not separate AI-assisted from manual denials]
+An independent government audit -- not a majority staff report, not advocacy -- reinforces this. The HHS OIG 2022 report (OEI-09-18-00260) found that 13% of MA prior authorization denials in its sample met Medicare coverage rules and should have been approved. An earlier OIG finding: 75% of MA prior auth denials that were appealed between 2014-2016 were overturned. The OIG also found a 9.9% appeal rate in 2022.
 
-What this means: when someone appeals a denial, they win most of the time. But 88.5% of people do not appeal.
+Here's what that means: when someone appeals a denial, they win most of the time. But 88.5% of people never appeal.
 
-The rational choice to not appeal is not passivity -- it is a response to real costs. A standard Medicare Advantage appeal requires: written request within 60 days, coordination with the treating physician for supporting documentation, submission through a plan-specific portal that varies by insurer, and a wait of up to 30 days for a standard determination or 72 hours for expedited. If the denial is upheld, the next step is an Independent Review Organization review, then an ALJ hearing, then a Medicare Appeals Council review, then federal district court -- each level adding weeks and specialized knowledge most patients do not have. The appeal path exists. It was designed for the patient who has a healthcare administrator, a doctor willing to write repeated letters, and months of time. Most patients have none of those things.
+Choosing not to appeal isn't passivity -- it's a rational response to real costs. A standard Medicare Advantage appeal requires: a written request within 60 days, coordination with your treating physician for supporting documentation, submission through a plan-specific portal that varies by insurer, and a wait of up to 30 days for a standard determination or 72 hours for expedited. If the denial is upheld, the next step is an Independent Review Organization review, then an ALJ hearing, then a Medicare Appeals Council review, then federal district court -- each level adding weeks and specialized knowledge most patients don't have. The appeal path exists. It was designed for the patient who has a healthcare administrator, a doctor willing to write repeated letters, and months of time. Most patients have none of those things.
 
 The Health Affairs (June 2025) study reinforces this from the claims side: 57% of all initial MA claim denials were ultimately reversed. But a net 7% provider revenue reduction persisted -- from the denials that were never reversed, plus the friction cost of processing reversals (CE-004).
 
@@ -431,11 +456,11 @@ If 80% of appealed denials are overturned, two things are true simultaneously:
 1. The initial denial was wrong at a high rate.
 2. Most people absorb a wrong denial rather than navigate the appeal process.
 
-The institution benefits from both. It issues low-quality initial decisions cheaply. Most claimants do not contest. Those who do are mostly right -- but the cost of contestation falls on them, not the institution.
+The institution benefits from both. It issues low-quality initial decisions cheaply. Most claimants don't contest. Those who do are mostly right -- but the cost of contestation falls on them, not the institution.
 
-**Arkansas Ledgerwood confirms this at the government benefits level.** The RUGs algorithm cut attendant-care hours by 43% on average. Beneficiaries were not told how the algorithm worked. The due process violation was in the absence of adequate notice and a meaningful path to contest -- not in the denial rate per se. The court confirmed the right to contest a decision whose mechanism is not disclosed. [confirmed -- court record, CE-006]
+**Arkansas Ledgerwood confirms this at the government benefits level.** The RUGs algorithm cut attendant-care hours by 43% on average. Beneficiaries were not told how the algorithm worked. The due process violation was in the absence of adequate notice and a meaningful path to contest -- not in the denial rate per se. The court confirmed the right to contest a decision whose mechanism is not disclosed.
 
-**Attrition through the appeal process:** The data does not fully disaggregate why 88.5% do not appeal. Cost, complexity, health deterioration during delay, and not knowing that appeal is possible are all plausible explanations. The research file identifies this as an open question -- not a confirmed finding.
+**Attrition through the appeal process:** The data doesn't fully explain why 88.5% don't appeal. Cost, complexity, health deterioration during delay, and not knowing that appeal is possible are all plausible explanations. The research file identifies this as an open question -- not a confirmed finding.
 
 ---
 
@@ -443,11 +468,11 @@ The institution benefits from both. It issues low-quality initial decisions chea
 
 ### What exists now
 
-**EU AI Act [confirmed -- statutory text, CE-011]:** AI systems used for creditworthiness evaluation, credit scoring, and health/life insurance risk assessment are classified as high-risk. Requirements: conformity assessment, data governance documentation, logging, post-market monitoring, human oversight design. Full compliance deadline: August 2, 2026. This deadline is prospective as of March 2026. The Act does not apply to US companies operating exclusively in the US. Compliance and enforcement track records are not yet established.
+**EU AI Act:** AI systems used for creditworthiness evaluation, credit scoring, and health/life insurance risk assessment are classified as high-risk. Requirements: conformity assessment, data governance documentation, logging, post-market monitoring, human oversight design. Full compliance deadline: August 2, 2026. This deadline is prospective as of March 2026. The Act does not apply to US companies operating exclusively in the US. Compliance and enforcement track records are not yet established.
 
-**CFPB adverse action notice requirements [confirmed -- regulatory, CE-009]:** ECOA and Regulation B require that AI-driven credit decisions come with specific, actionable denial reasons. Generic checklists do not satisfy this. "A creditor cannot justify noncompliance based on the mere fact that the technology is too complicated or opaque to understand." Gap: compliance rates are not publicly tracked. Enforcement posture under the current administration (2025+) is uncertain.
+**CFPB adverse action notice requirements:** ECOA and Regulation B require that AI-driven credit decisions come with specific, actionable denial reasons. Generic checklists don't satisfy this. "A creditor cannot justify noncompliance based on the mere fact that the technology is too complicated or opaque to understand." Gap: compliance rates are not publicly tracked. Enforcement posture under the current administration (2025+) is uncertain.
 
-**CMS Medicare Advantage rules [confirmed, CE-012]:** Plans must publish prior authorization lists and report aggregate metrics. In June 2025, CMS suspended health equity analysis requirements and plan-level (vs. contract-level) PA reporting. The trajectory: AI adoption accelerating, transparency requirements contracting. This is not a permanent outcome -- it is the current regulatory direction.
+**CMS Medicare Advantage rules:** Plans must publish prior authorization lists and report aggregate metrics. In June 2025, CMS suspended health equity analysis requirements and plan-level (vs. contract-level) PA reporting. The trajectory: AI adoption accelerating, transparency requirements contracting. This is not a permanent outcome -- it is the current regulatory direction.
 
 **No Surprises Act:** Addresses surprise billing, not AI-assisted denial specifically. Does not require disclosure of AI use in utilization review decisions.
 
@@ -473,9 +498,9 @@ A procurement clause or regulatory requirement with teeth would include:
 
 The CFPB's Circular 2022-03 establishes the model: a denial notice must identify the specific principal reason(s) for the denial -- the actual factors the model weighted -- not a menu of possibilities. Procurement language for a state Medicaid system or an insurer contract could incorporate the same logic: _"Automated adverse decisions must be accompanied by a written statement identifying the specific data inputs that materially contributed to the determination, in plain language understandable to a person without legal training, prior to the decision taking effect."_
 
-_[Proposed extrapolation -- not a confirmed accountability template. Verify against applicable jurisdiction before use.]_
+_This is a proposed extrapolation, not a ready-to-file legal template. Verify applicable jurisdiction before use._
 
-This is not a new legal invention. It applies the logic of existing adverse action notice requirements to the benefits and insurance context.
+This isn't a new legal invention. It applies the logic of existing adverse action notice requirements to the benefits and insurance context.
 
 ---
 
@@ -483,11 +508,11 @@ This is not a new legal invention. It applies the logic of existing adverse acti
 
 **Is AI being deployed in claims and eligibility beyond validated operating conditions?**
 
-The Senate PSI report describes nH Predict as generating length-of-stay predictions based on aggregate population data. It does not document whether UnitedHealthcare validated the model's accuracy for the specific population of Medicare Advantage enrollees seeking post-acute care, or whether the model was validated against outcomes rather than cost targets. The denial rate correlation (ninefold increase) is consistent with a model miscalibrated for coverage rather than validated for clinical appropriateness. [plausible -- the Senate report implies this; it is majority staff, not adjudicated]
+The Senate PSI report describes nH Predict as generating length-of-stay predictions based on aggregate population data. It does not document whether UnitedHealthcare validated the model's accuracy for the specific population of Medicare Advantage enrollees seeking post-acute care, or whether the model was validated against outcomes rather than cost targets. The denial rate correlation (ninefold increase) is consistent with a model miscalibrated for coverage rather than validated for clinical appropriateness.
 
 **Do not assert:** The "90% error rate" figure that appeared in some press coverage of nH Predict. Its sourcing is unclear; it does not appear in the Senate PSI report or in peer-reviewed literature. Asserting a specific error rate for nH Predict without a verifiable source is not supported by the research file.
 
-**What the Stanford study found [confirmed, CE-008]:** Insurance claims reviewers using AI tools could not explain how the tools worked, did not know AI could be biased, and could not identify failure modes. Separately, the study found most large insurers (84%) lack governance processes to monitor AI accuracy or bias. This means:
+**What the Stanford study found:** Insurance claims reviewers using AI tools could not explain how the tools worked, did not know AI could be biased, and could not identify failure modes. Separately, the study found most large insurers (84%) lack governance processes to monitor AI accuracy or bias. This means:
 
 - Models may drift after deployment with no detection mechanism.
 - Fallback modes (what happens when the model fails or produces anomalous outputs) are not documented in available sources.
@@ -498,6 +523,16 @@ The Senate PSI report describes nH Predict as generating length-of-stay predicti
 ---
 
 ## 11. What good looks like -- the Human Command minimum floor
+
+The goal is not to slow every decision down. The goal is to make sure a normal person can keep coverage, understand a decision, fix a mistake, and get a real answer without needing expert navigation or extraordinary stamina.
+
+In plain language, good looks like this:
+
+- eligible people stay covered unless there is a real reason they should not
+- denial letters explain what happened in words a normal person can use
+- appeals are real, not ceremonial
+- someone clearly owns the decision from model output to final action
+- automation reduces paperwork without reducing rights
 
 The positive case exists. It is narrow. The ex parte Medicaid renewal counterexample is real. Automation optimized for coverage retention reduced procedural disenrollment where it was deployed. This is not the norm -- it is a proof-of-concept that the technology can be oriented in either direction.
 
@@ -515,7 +550,7 @@ What separates ex parte renewal from PxDx and nH Predict is not the sophisticati
 | **Anti-retaliation**     | Appealing cannot trigger worse treatment in any subsequent decision                                                                    |
 | **Measurable timelines** | Statutory windows reported publicly, by decision type                                                                                  |
 
-This is not aspirational. Every element has a legal or regulatory precedent in at least one of the three domains covered here. The problem is that the elements exist in fragmented form -- in CFPB guidance for credit, in CMS rules for Medicare Advantage appeals, in the due process standard the Arkansas court enforced. They have not been assembled into a coherent minimum floor and applied consistently.
+This isn't aspirational. Every element has a legal or regulatory precedent in at least one of the three domains covered here. The problem is that the elements exist in fragmented form -- in CFPB guidance for credit, in CMS rules for Medicare Advantage appeals, in the due process standard the Arkansas court enforced. They haven't been assembled into a coherent minimum floor and applied consistently.
 
 ---
 
@@ -531,26 +566,26 @@ The Human Command minimum floor -- from section 11 -- applied as a rapid test fo
 
 | Element            | Test question                                                                                                                            | Status in this domain                                                                                                                                                                                   |
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Notice**         | Did the claimant receive plain-language notice before the decision took effect?                                                          | [confirmed gap -- Arkansas: no notice of algorithm's role (CE-006); Medicaid unwinding: some notices at outdated addresses (CE-005)]                                                                    |
-| **Reason**         | Does the denial notice give a specific reason -- the actual factors that drove the decision -- not a generic checklist?                  | [confirmed gap -- CFPB circulars exist because generic notices were the documented practice (CE-009); no equivalent requirement enforced for health insurance or government benefits at national scale] |
-| **Appeal**         | Is the appeal path realistic and accessible: defined timeline, a reviewer with actual authority, access to the original decision record? | [confirmed path exists; confirmed path is underused -- 88.5% do not appeal (CE-003); confirmed that functional human command is impaired by automation bias (CE-008)]                                   |
-| **Records**        | Can the claimant obtain the model-output-to-decision chain on request?                                                                   | [confirmed gap -- no confirmed case of voluntary claimant-accessible model logs in US practice; EU AI Act requires this for EU-market systems; no US equivalent]                                        |
-| **Human override** | Who can override the decision, how quickly, and is that action logged?                                                                   | [confirmed gap -- Cigna PxDx: override authority is nominally present; time and information are structurally absent (CE-001); override rates proprietary across all domains]                            |
+| **Notice**         | Did the claimant receive plain-language notice before the decision took effect?                                                          |                                                                    |
+| **Reason**         | Does the denial notice give a specific reason -- the actual factors that drove the decision -- not a generic checklist?                  | |
+| **Appeal**         | Is the appeal path realistic and accessible: defined timeline, a reviewer with actual authority, access to the original decision record? |                                   |
+| **Records**        | Can the claimant obtain the model-output-to-decision chain on request?                                                                   |                                        |
+| **Human override** | Who can override the decision, how quickly, and is that action logged?                                                                   |                            |
 
 ---
 
 ### Box 2: Exit check
 
-If a person cannot realistically switch insurer, change benefit system, or opt out, governance requirements must be higher. Captivity without accountability is extraction.
+If a person can't realistically switch insurer, change benefit system, or opt out, governance requirements must be higher. Captivity without accountability is extraction.
 
 **Applied:**
 
-- **Medicare Advantage:** Mid-year switching is restricted to qualified life events. Open enrollment is annual. For a claimant facing a systematic denial pattern, the practical option is to appeal -- not to exit. [confirmed -- CE-003; section 7 Q6]
+- **Medicare Advantage:** Mid-year switching is restricted to qualified life events. Open enrollment is annual. For a claimant facing a systematic denial pattern, the practical option is to appeal -- not to exit.
 - **Government benefits (Medicaid, SSDI, SNAP):** Single-payer programs with no alternative. There is no market exit option. The regulatory floor must be higher precisely because exit is unavailable.
 - **Employer-sponsored insurance:** Switching is limited to open enrollment or qualifying life events. Most employees face a choice among 2-3 plan options selected by their employer.
 - **Consumer credit:** Exit is formally available -- you can apply to a different lender. But denial history may follow the applicant through credit bureau data. In some markets (specific mortgage products, FHA programs), the insurer pool is narrow.
 
-In practice: if you cannot switch health plans until open enrollment -- typically once a year -- you cannot realistically exit a bad system mid-cycle, even after a wrongful denial.
+In practice: if you can't switch health plans until open enrollment -- typically once a year -- you can't realistically exit a bad system mid-cycle, even after a wrongful denial.
 
 **Finding:** In the two highest-stakes domains -- government benefits and Medicare Advantage -- exit is not a realistic check on institutional behavior. This means governance must substitute for market accountability. Higher audit requirements, appeal SLAs with enforcement, and reason-code specificity are not regulatory overhead in captive markets -- they are the only accountability mechanism available.
 
@@ -566,7 +601,7 @@ In practice: if you cannot switch health plans until open enrollment -- typicall
 | What happens to the log after a decision is overturned?     | [unknown -- no documented retention requirement for overridden AI-assisted denials in US health insurance practice]                                                                                                              |
 | Does a regulator or auditor have access?                    | [partial -- HHS OIG audits MA plans on a sample basis (CE-018); no systematic real-time access to model output records; CMS suspended health equity analysis that would have created population-level audit capability (CE-012)] |
 
-**Implication:** The audit infrastructure required to detect systematic over-denial or demographic disparate impact does not currently exist in US health insurance in a form accessible to regulators, claimants, or researchers in real time. Post-hoc audits (OIG samples, Senate investigations) are the current substitute. They lag adoption by years.
+**Implication:** The audit infrastructure needed to detect systematic over-denial or demographic disparate impact doesn't currently exist in US health insurance in a form accessible to regulators, claimants, or researchers in real time. Post-hoc audits (OIG samples, Senate investigations) are the current substitute. They lag adoption by years.
 
 ---
 
@@ -576,7 +611,7 @@ AI adoption generated documented institutional efficiency gains in this domain. 
 
 | Question                                     | Finding                                                                                                                                                                                                                        |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Did prices / premiums fall?**              | No evidence in this research. CVS savings revised to $77.3M [CE-002]; no corresponding premium reduction documented. [unknown -- premium trend not analyzed in this file]                                                      |
+| **Did prices / premiums fall?**              | No evidence in this research. CVS savings revised to $77.3M [CE-002]; no corresponding premium reduction documented.                                                      |
 | **Did denial rates fall?**                   | No. MA prior auth denial rates did not fall as AI was adopted. nH Predict adoption was correlated with a ninefold SNF denial rate increase at UnitedHealthcare [CE-002].                                                       |
 | **Did admin drag on claimants decrease?**    | No evidence of decrease. AMA 2024 reports 39 PA requests per physician per week and $68,000 per physician per year in plan interaction costs [CE-017]. Claimant-side burden was not reduced.                                   |
 | **Did appeal paths become more accessible?** | No. CMS suspended transparency requirements in June 2025 [CE-012]. CFPB enforcement posture on adverse action notices is uncertain under the current administration [CE-009]. The trajectory is narrowing, not expanding.      |
@@ -590,9 +625,9 @@ AI adoption generated documented institutional efficiency gains in this domain. 
 
 ### One personal ask (for someone navigating a denial)
 
-Request the specific reason in writing before accepting a denial. In all three domains, you have a legal right to a written explanation. For credit: ECOA requires it. For Medicare Advantage: the denial notice must include the specific criteria used. For Medicaid: the fair hearing process requires the agency to explain the basis for the action.
+Ask for the specific reason in writing before accepting a denial. In all three domains, you have a legal right to a written explanation. For credit: ECOA requires it. For Medicare Advantage: the denial notice must include the specific criteria used. For Medicaid: the fair hearing process requires the agency to explain the basis for the action.
 
-When you receive the reason, ask whether it reflects what actually happened in your case or whether it is a generic form. If it is generic -- a checklist that does not match your circumstances -- that is the basis for your appeal.
+When you get the reason, ask whether it reflects what actually happened in your case or whether it is a generic form. If it's a checklist that doesn't match your circumstances, that's the basis for your appeal.
 
 File the appeal. If your denial seems wrong and you appeal, the odds are in your favor -- 80.7% of Medicare Advantage prior authorization appeals that reach review are overturned. That figure is among the 11.5% of people who actually appealed; it does not mean every denial is wrong. It means that when people do contest, they win at a high rate.
 
@@ -605,7 +640,7 @@ State Medicaid agencies, employers purchasing insurance, and federal agencies pr
 - Human override documentation (the reviewer's identity, the basis for their decision, and whether they modified the AI recommendation)
 - Public reporting of appeal rates, overturn rates, and timeline compliance
 
-This does not require new federal legislation. It requires procurement standards to reflect what the CFPB already requires for credit -- and applying the same logic to health insurance and government benefits contracts. State insurance commissioners in California, New York, and Illinois have already moved toward algorithmic transparency requirements in lending (CE-010). The same regulatory authority applies to insurance in those states.
+This doesn't require new federal legislation. It requires procurement standards to reflect what the CFPB already requires for credit -- and applying the same logic to health insurance and government benefits contracts. State insurance commissioners in California, New York, and Illinois have already moved toward algorithmic transparency requirements in lending (CE-010). The same regulatory authority applies to insurance in those states.
 
 Ground this in what the EU AI Act mandates by August 2026 for any company with EU operations -- audit logs, post-market monitoring, human oversight design, data governance documentation. Use that compliance requirement as leverage in US procurement negotiations with the same vendors.
 
@@ -637,20 +672,20 @@ For administrators and policymakers: "You already require written reasons for cr
 
 ### 14a. Key numbers at a glance
 
-Confirmed and labeled data points across all three domains. Confidence tier in brackets.
+Key data points across all three domains, with sources.
 
-- **1.2 seconds** per claim -- Cigna PxDx physician batch denial review time. [confirmed -- ProPublica primary documents, Tier 1]
-- **80.7%** of Medicare Advantage prior authorization appeals fully or partially overturned (2024). [confirmed -- KFF 2025, Tier 1]
-- **11.5%** of MA prior auth denials actually appealed -- meaning 88.5% were absorbed unappealed. [confirmed -- KFF 2025, Tier 1]
-- **13%** of MA prior authorization denials in the OIG sample met Medicare coverage rules and should have been approved. [confirmed -- HHS OIG independent audit, April 2022, Tier 1]
-- **93% false positive rate** -- Michigan MiDAS unemployment fraud detection, 2013-2015. 40,195 wrongful fraud determinations; $20M settlement; 7 years to resolve. [confirmed -- Michigan Auditor General + court record, Tier 1; note: rule-based algorithm, not ML]
-- **57%** of all initial Medicare Advantage claim denials were ultimately reversed -- but a net 7% provider revenue reduction persisted from denials never reversed. [confirmed -- Health Affairs peer-reviewed, June 2025, Tier 1]
-- **69%** of 25 million Medicaid disenrollments during the 2023-2024 unwinding were for procedural or paperwork reasons, not substantive ineligibility findings. [confirmed -- KFF, Tier 1; staffing/capacity was primary driver, not AI]
-- **92.1%** accuracy rate for automated ex parte Medicaid renewals among eligible beneficiaries. [plausible -- ASPE administrative data; methodology not independently peer-reviewed]
-- **24%** of physicians reported a serious adverse event attributable to prior authorization delays (hospitalization, permanent impairment, or death). [confirmed as survey finding -- AMA 2024, Tier 2: industry/professional association, physician self-reported; triangulate with OIG and KFF]
-- **$3.25 million** CFPB fine against Chime for 90+ day delays returning funds after algorithmic account closures. [confirmed -- regulatory enforcement action, Tier 1]
-- **39 PA requests** per physician per week; approximately **$68,000** per physician per year spent on plan interactions. [confirmed as survey finding -- AMA 2024, Tier 2: physician self-reported]
-- **80-85%** industry benchmark for auto-adjudication rate -- claims processed with no human involvement. Cost: cents per claim vs. ~$20 for human-reviewed. [plausible as industry benchmark -- OpsDog, vendor data; not independently verified at the firm level]
+- **1.2 seconds** per claim -- Cigna PxDx physician batch denial review time.
+- **80.7%** of Medicare Advantage prior authorization appeals fully or partially overturned (2024).
+- **11.5%** of MA prior auth denials actually appealed -- meaning 88.5% were absorbed unappealed.
+- **13%** of MA prior authorization denials in the OIG sample met Medicare coverage rules and should have been approved.
+- **93% false positive rate** -- Michigan MiDAS unemployment fraud detection, 2013-2015. 40,195 wrongful fraud determinations; $20M settlement; 7 years to resolve.
+- **57%** of all initial Medicare Advantage claim denials were ultimately reversed -- but a net 7% provider revenue reduction persisted from denials never reversed.
+- **69%** of 25 million Medicaid disenrollments during the 2023-2024 unwinding were for procedural or paperwork reasons, not substantive ineligibility findings.
+- **92.1%** accuracy rate for automated ex parte Medicaid renewals among eligible beneficiaries.
+- **24%** of physicians reported a serious adverse event attributable to prior authorization delays (hospitalization, permanent impairment, or death).
+- **$3.25 million** CFPB fine against Chime for 90+ day delays returning funds after algorithmic account closures.
+- **39 PA requests** per physician per week; approximately **$68,000** per physician per year spent on plan interactions.
+- **80-85%** industry benchmark for auto-adjudication rate -- claims processed with no human involvement. Cost: cents per claim vs. ~$20 for human-reviewed.
 
 ---
 
@@ -660,13 +695,13 @@ Confirmed and labeled data points across all three domains. Confidence tier in b
 
 - **Monthly squeeze:** Denied and delayed claims raise direct out-of-pocket cost. Procedural disenrollment (69% of Medicaid unwinding losses) cuts coverage without any eligibility change. Physician time lost to prior authorization ($68,000/year per physician) raises the cost of care delivery.
 - **Insecurity:** Opaque denial letters, unanswered appeals, and proprietary vendor logic leave people unable to understand or contest decisions about their own care and benefits. The 88.5% who never appeal are not all satisfied; most have simply absorbed harm.
-- **Manipulation / scapegoats:** When the denial mechanism is invisible, it is easy to attribute lost coverage to individual failure -- not navigating the system -- rather than to systemic extraction. The system's complexity is the cover story.
+- **Manipulation / scapegoats:** When the denial mechanism is invisible, it's easy to attribute lost coverage to individual failure -- not navigating the system -- rather than to systemic extraction. The system's complexity is the cover story.
 - **No fixes / more squeeze:** Accountability laundering (no single party owns the denial chain) and low appeal rates mean systemic errors persist uncorrected. Auto-adjudication at 80-85% of volume scales the error rate faster than any adjudication capacity can fix it.
 
 ### Effect on the good loop
 
 - **Security:** Specific written denial reasons + real appeal paths + published overturn rates would let people contest decisions that are wrong. The ex parte Medicaid counterexample shows automation pointed at coverage retention can close the gap rather than widen it.
-- **Choice:** Real exit is absent in most domains (government benefits have no exit; Medicare Advantage has time-boxed enrollment). Portable records and open enrollment windows are proxies where full exit is not possible.
+- **Choice:** In many of these systems, real exit does not exist. That means the substitute for choice has to be stronger rights inside the system: portable records, wider switching windows where possible, and appeal paths that actually work.
 - **Competition:** Independent oversight, procurement standards requiring contestability, and public reporting of appeal and overturn rates would make vendor capture harder to sustain invisibly.
 - **Shared gains:** Auto-adjudication savings are confirmed and large. Distribution of those savings to lower premiums, better access, or reduced admin drag for claimants is not documented in any reviewed source.
 
@@ -688,30 +723,27 @@ Does this case reinforce or complicate the loop?
 
 > security -> choice -> competition -> shared gains -> more security
 
-It reinforces the loop mechanism at a specific point: when institutions can automate denial throughput while the claimant's cost of contesting stays constant or rises, security declines without any change in eligibility criteria. You can qualify for coverage, qualify for benefits, qualify for credit -- and still not receive them, because the friction between the right and the reality is now managed by a system that the institution controls and the claimant cannot access.
+This case reinforces the loop very clearly. When institutions can automate denial throughput while leaving notice, explanation, and appeal hard for normal people, security falls even if the formal rules never changed. The right still exists on paper. The access does not.
 
-The ex parte Medicaid counterexample does not break the loop. It shows the loop can be interrupted -- but only when the optimization target is changed, not just the technology. Changing the technology while keeping the optimization target pointed at cost reduction produces the same outcome faster and at higher scale.
+The ex parte Medicaid counterexample doesn't break the loop. It shows the loop can be interrupted -- but only when the optimization target is changed, not just the technology. Changing the technology while keeping the optimization target pointed at cost reduction produces the same outcome faster and at higher scale.
 
 **System lesson in one sentence:**
 Automation pointed at cost reduction scales the gap between formal rights and functional access; automation pointed at coverage retention can close it -- the critical variable is what the institution is rewarded for maximizing.
 
-**G2 note.** Accountability laundering compounds this: when the denial chain crosses vendor/insurer/agency lines, the formal rights that exist on paper become functionally inaccessible because no single party is obligated to explain the full decision. The right exists; the accountable party does not. Assigned decision ownership -- the institution that acts on the output owns accountability for the output -- is the structural fix, not a faster appeal path through the same maze.
+**On accountability laundering.** Accountability laundering compounds this: when the denial chain crosses vendor/insurer/agency lines, the formal rights that exist on paper become functionally inaccessible because no single party is obligated to explain the full decision. The right exists; the accountable party does not. Assigned decision ownership -- the institution that acts on the output owns accountability for the output -- is the structural fix, not a faster appeal path through the same maze.
 
 ---
 
-_[RESEARCH GAP: Override rates -- how often human reviewers actually reverse AI recommendations in insurance prior auth and claims review. This is proprietary data not obtained in sources reviewed. The rubber-stamp mechanism is strongly supported by behavioral evidence; a direct rate would strengthen or bound the claim.]_
+## Research gaps
 
-_[RESEARCH GAP: AI-specific screening mechanisms in SSDI/SSI initial denials. The procedural burden pattern is confirmed. AI amplification in federal disability programs is not supported by strong primary evidence as of the research date.]_
+- **Override rates.** How often human reviewers actually reverse AI recommendations in insurance prior auth and claims review is proprietary data -- not available in sources reviewed. The rubber-stamp mechanism is strongly supported by behavioral evidence; a direct rate would strengthen or bound it.
+- **AI-specific SSDI/SSI mechanisms.** The procedural burden pattern in federal disability programs is well-documented. AI amplification of that burden is not supported by strong primary evidence. Don't assert SSA uses AI to deny claims at scale without a specific source.
+- **Claimant navigation tools.** Some states deployed Medicaid navigator programs during the unwinding; systematic evidence on their reach and impact isn't in the sources reviewed.
+- **Patient-side benefit of PA speed improvements.** Institutional-side PA processing speed improvements are documented; whether that translated to faster care access for patients is not.
+- **CFPB adverse action compliance rate.** The legal requirement exists; enforcement activity under the post-2025 administration is uncertain.
+- **Chime false-positive rate.** The CFPB fine is documented; the rate at which legitimate accounts were incorrectly closed was not adjudicated and isn't available in sources reviewed.
 
-_[RESEARCH GAP: Claimant-side navigation tools and their effectiveness. Some states deployed Medicaid navigator programs during the unwinding; systematic evidence on their reach and impact is not in the sources reviewed.]_
-
-_[RESEARCH GAP: Whether PA processing time reductions (CE-015) translated to faster care access for patients. Institutional-side speed improvement is documented; patient-side benefit is unknown.]_
-
-_[RESEARCH GAP: Compliance rate for CFPB adverse action notice requirements in AI-driven credit decisions. The requirement is confirmed; enforcement activity under the current administration (2025+) is uncertain.]_
-
-_[RESEARCH GAP: False-positive rate for Chime algorithmic account closures. The CFPB fine is confirmed; the rate at which legitimate accounts were incorrectly closed was not adjudicated and is not available in sources reviewed.]_
-
-_[RESEARCH GAP: Independent verification of AMA 2024 24% serious adverse event figure. This is physician self-reported data. A clinical outcome study capturing PA-attributable serious adverse events at scale would bound or confirm the claim.]_
+- **AMA adverse event figure.** The 24% serious adverse event claim is physician self-reported data from the AMA's 2024 survey. A clinical outcome study capturing PA-attributable serious adverse events at scale would either confirm it or tighten the range significantly.
 
 ---
 

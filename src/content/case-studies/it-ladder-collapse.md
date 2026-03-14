@@ -28,19 +28,20 @@ receiptTags:
 sources: []
 ---
 
-- [AI and the IT Ladder Collapse](#ai-and-the-it-ladder-collapse)
-  - [1. One scene](#1-one-scene)
-  - [2. What's happening](#2-whats-happening)
-  - [3. Why it's happening -- the mechanisms](#3-why-its-happening----the-mechanisms)
-  - [4. Control stack: is there a human in command?](#4-control-stack-is-there-a-human-in-command)
-  - [5. Shared Gains Test](#5-shared-gains-test)
-  - [6. Governance lag and what enforceable looks like](#6-governance-lag-and-what-enforceable-looks-like)
-  - [7. Safety and reliability overreach check](#7-safety-and-reliability-overreach-check)
-  - [8. What good looks like -- the "Learning Work" rulebook](#8-what-good-looks-like----the-learning-work-rulebook)
-  - [9. What to do](#9-what-to-do)
-  - [10. How to talk about it](#10-how-to-talk-about-it)
-  - [North Star verdict](#north-star-verdict)
-  - [Bridge language](#bridge-language)
+- [1. One scene](#1-one-scene)
+- [2. What's happening](#2-whats-happening)
+- [3. Why it's happening -- the mechanisms](#3-why-its-happening----the-mechanisms)
+- [4. Control stack: is there a human in command?](#4-control-stack-is-there-a-human-in-command)
+- [5. Shared Gains Test](#5-shared-gains-test)
+- [6. Governance lag and what enforceable looks like](#6-governance-lag-and-what-enforceable-looks-like)
+- [7. Safety and reliability overreach check](#7-safety-and-reliability-overreach-check)
+- [8. What good looks like](#8-what-good-looks-like)
+- [9. What to do](#9-what-to-do)
+- [10. How to talk about it](#10-how-to-talk-about-it)
+- [Loop Effect](#loop-effect)
+- [North Star verdict](#north-star-verdict)
+- [Research gaps](#research-gaps)
+- [Bridge language](#bridge-language)
 
 ## 1. One scene
 
@@ -48,26 +49,40 @@ A hiring manager at a mid-sized software firm has fifteen open positions. Three 
 
 ---
 
+### Why this matters
+
+If AI removes the work people used to learn on, you do not just lose some junior openings. You lose the future humans who would have learned to review, debug, and overrule the system later. That is why this is not only a hiring problem. It is a long-term competence and oversight problem. A team can look more productive now while quietly destroying the bench it will need later.
+
+---
+
 ## 2. What's happening
 
-AI tools are substituting for the specific task categories that define early-career IT work -- boilerplate code, documentation, routine bug fixing, test suite creation -- while the review and decision authority that defines senior work remains with people who already have standing. The first rung of the IT ladder is disappearing faster than new rungs are being built.
+AI is taking over the tasks that early-career IT workers used to learn through: boilerplate code, documentation, routine bug fixing, and test creation. Senior workers keep the authority to review, approve, and make judgment calls. That means the first rung is shrinking while the top of the ladder stays intact. If nothing replaces that lost learning path, institutions do not just lose junior jobs. They lose the future stock of human expertise needed for real oversight.
 
-Two things we do not yet know -- and that will determine how serious this gets:
+Two things we don't know yet -- and they'll determine how serious this gets:
 
-1. **Are new AI-adjacent roles absorbing displaced junior workers at comparable scale, stability, and pay?** No study measures this yet. If yes, the ladder is shifting rather than collapsing. If no, a cohort of workers is being priced out of the IT career path permanently.
-2. **Does mid-level compression follow junior compression with a lag?** Current data shows junior declining, mid-level stable or slightly rising. The hourglass prediction requires a second phase. Check IESE, Stanford, and Indeed data in 12--24 months.
+1. **Are new AI-adjacent roles absorbing displaced junior workers at comparable scale, stability, and pay?** No study measures this yet. If yes, the ladder is shifting rather than collapsing. If no, a cohort of workers is being permanently priced out of the IT career path.
+2. **Does mid-level compression follow junior compression with a lag?** Current data shows junior declining, mid-level stable or slightly rising. The hourglass prediction needs a second phase. Check IESE, Stanford, and Indeed data in 12--24 months.
 
 The honest answer is that the evidence is early. The mechanism is documented. The scale and permanence are not.
 
 ---
 
+### The fork in the road
+
+Used badly, AI narrows entry, weakens wage growth, concentrates gains upward, and turns human review into theater. That reinforces the bad loop: more insecurity, less mobility, weaker trust, and more concentrated power.
+
+Used well, AI can remove drudge work while protecting learning, preserving review capacity, and sharing gains through better jobs, better training, and better outcomes. That reinforces the good loop: more security, more real choice, stronger institutions, and broader gains.
+
+---
+
 ### What the helpful version looks like
 
-AI coding tools can reduce the drudge-work tax on developers -- boilerplate, repetitive scaffolding, routine documentation -- and free capacity for harder problems. In an organization that actively protects the learning pipeline, the freed time goes to mentorship, design review, and the judgment-formation work that makes senior developers valuable. The research does not document this outcome as typical; it documents it as possible when learning-work is explicitly protected. The Stack Overflow data showing a trust-use gap (46% distrust AI output accuracy, 84% use the tools anyway) [IT-012] suggests that developers who maintain independent competence are in a better position to capture the productivity gain without the atrophy risk.
+AI coding tools can cut the drudge-work tax on developers -- boilerplate, repetitive scaffolding, routine documentation -- and free up time for harder problems. In an organization that actively protects the learning pipeline, that freed time goes to mentorship, design review, and the judgment-building work that makes senior developers valuable. The research doesn't document this outcome as typical; it documents it as possible when learning-work is explicitly protected. The Stack Overflow data showing a trust-use gap (46% distrust AI output accuracy, 84% use the tools anyway) [IT-012] suggests that developers who maintain independent competence are better positioned to capture the productivity gain without the atrophy risk.
 
-**Why it usually doesn't happen:** Efficiency pressure converts freed time to more output, not more learning. When throughput KPIs reward volume and speed, the time that AI frees up does not go to mentorship or independent review -- it goes back into the sprint. The learning pipeline does not benefit unless it is explicitly protected from the same pressure that makes the efficiency gain attractive.
+**Why it usually doesn't happen:** Efficiency pressure converts freed time to more output, not more learning. When throughput KPIs reward volume and speed, the time that AI frees up doesn't go to mentorship or independent review -- it goes back into the sprint. The learning pipeline doesn't benefit unless it is explicitly protected from the same pressure that makes the efficiency gain attractive in the first place.
 
-**What makes the helpful version more likely:** Learning-work quotas: a defined portion of junior work explicitly protected for skill formation, not sprint output. Manual flight checks: periodic unassisted task completion to verify that independent judgment is present. Pair-review rotations with protected time. These practices cost nothing in policy terms -- they require only that protected time be treated as production work rather than overhead.
+**What makes the helpful version more likely:** Learning-work quotas: a defined portion of junior work explicitly protected for skill formation, not sprint output. Manual flight checks: periodic unassisted task completion to verify that independent judgment is still there. Pair-review rotations with protected time. These practices cost nothing in policy terms -- they only require that protected time be treated as production work rather than overhead.
 
 ---
 
@@ -75,26 +90,27 @@ AI coding tools can reduce the drudge-work tax on developers -- boilerplate, rep
 
 This case study uses the **E4E AI impact taxonomy**: **Mechanisms** are the reusable failure patterns, and **Mechanism Modules** are the numbered inserts you can reuse across industries.
 
-A quick domain translation for IT:
+A simpler way to say it:
 
-- The _work_ AI does first is the work that used to **train juniors** (reps).
-- The _work_ humans keep is the work that requires **standing** (trust, authority, access, and accountability).
-- If you don't actively protect learning and review capacity, "human review" becomes a checkbox and the ladder stops working.
+- AI takes the reps first.
+- Humans keep the authority first.
+- If you do not protect learning on purpose, the people with authority age upward and the people below them never get enough reps to replace them.
+- That is how a fast productivity story becomes a slow competence crisis.
 
 ---
 
 ### Mechanism 1: Contestability collapse
 
-When systems become too fast/cheap/opaque to overrule, "human review" becomes a rubber stamp. In IT, this shows up in **code review** and (invisibly) in **resume screening**.
+When systems become too fast, cheap, or opaque to overrule, "human review" becomes a rubber stamp. In IT, this shows up in **code review** and (invisibly) in **resume screening**.
 
 - The trust/use gap is a warning light: Stack Overflow 2025 reports **46%** of developers do not trust AI output accuracy while **84%** are using or planning to use the tools [IT-012].
-- DORA 2024 finds delivery stability falling (and throughput not improving) despite AI adoption [IT-006]. This is consistent with review capacity not scaling with AI-generated volume, but DORA does not directly measure rubber-stamping.
+- DORA 2024 finds delivery stability falling (and throughput not improving) despite AI adoption [IT-006]. That's consistent with review capacity not scaling with AI-generated volume, but DORA doesn't directly measure rubber-stamping.
 
-**Module 1.1: Human Command (minimum floor)**  
-If AI affects a life outcome, you get: notice, reason, appeal, records, and a human override.  
+**Module 1.1: Human Command (minimum floor)**
+If AI affects a life outcome, you get: notice, reason, appeal, records, and a human override.
 (Used in Section 4 "Control stack" via the governance boxes.)
 
-**Module 1.2: Rubber-stamp proxies (how to measure it)**  
+**Module 1.2: Rubber-stamp proxies (how to measure it)**
 Practical signals of "checkbox review" (mostly not measured in the literature yet):
 
 - time-per-review relative to PR size
@@ -102,7 +118,7 @@ Practical signals of "checkbox review" (mostly not measured in the literature ye
 - rework / bug regression rates tied to AI-authored code
 - appeal/overturn rates in AI-screened hiring funnels
 
-**Automation shifts error cost.** When AI generates code and a reviewer "approves," the rubber-stamp risk has a specific asymmetry: the reviewer faces blame if the code fails, but the AI system captured the productivity credit. When AI screens resumes and an HR professional "confirms," the HR professional owns the legal liability if the screen was discriminatory -- but the model made the decision. This error cost shift is invisible in productivity metrics; it shows up only in incident rates, rework rates, and legal exposure. Agentic automation in code deployment -- where AI can trigger merges, deployments, or rollbacks autonomously -- extends the same asymmetry to production systems. The guardrail is consistent: rate limits on automated actions, documented kill-switch authority, and incident review that names the human accountable at each step. This is the same pattern documented in claims processing, where auto-denial shifts error cost to claimants and reviewers simultaneously.
+**Automation shifts error cost.** When AI generates code and a reviewer "approves," the rubber-stamp risk has a specific asymmetry: the reviewer gets blamed if the code fails, but the AI system got credit for the productivity. When AI screens resumes and an HR professional "confirms," the HR professional owns the legal liability if the screen was discriminatory -- but the model made the decision. This error cost shift is invisible in productivity metrics; it shows up only in incident rates, rework rates, and legal exposure. Agentic automation in code deployment -- where AI can trigger merges, deployments, or rollbacks autonomously -- extends the same asymmetry to production systems. The guardrail is consistent: rate limits on automated actions, documented kill-switch authority, and incident review that names the human accountable at each step. This is the same pattern documented in claims processing, where auto-denial shifts error cost to claimants and reviewers simultaneously.
 
 ---
 
@@ -110,10 +126,10 @@ Practical signals of "checkbox review" (mostly not measured in the literature ye
 
 Exit is the safety valve. If entry-level applicants are filtered invisibly across many employers, or if workers can't switch without losing standing, exit weakens.
 
-**Module 2.1: Exit test**  
+**Module 2.1: Exit test**
 Can a junior realistically move to a different employer if AI screening (or norms) blocks them here?
 
-**Module 2.2: Switching cost checklist**  
+**Module 2.2: Switching cost checklist**
 What do you lose when you switch?
 
 - access (repos, prod, systems)
@@ -132,24 +148,22 @@ Observed signals:
 - Experience requirements rising in postings [IT-003]
 - "Junior" requisitions filled by experienced engineers (SignalFire "experience paradox") [IT-009]
 
-**Module 3.2: Personhood and credentials (people)**  
-AI makes it cheap to fabricate work samples and identities; employers tighten gates. If tightening is not **contestable**, it blocks legitimate applicants too.  
+**Module 3.2: Personhood and credentials (people)**
+AI makes it cheap to fabricate work samples and identities; employers tighten gates. If tightening is not **contestable**, it blocks legitimate applicants too.
 (See hiring fraud / verification dynamics; this case references _Mobley v. Workday_ [IT-011] as the "opacity + contestability" exemplar.)
-
-[NOTE] Module 3.1 (Provenance for _content_) is not primary in this case.
 
 ---
 
 ### Mechanism 4: Asymmetric logs
 
-If employers/vendors have the logs and workers/applicants don't, contestability becomes a mirage.
+If employers and vendors have the logs and workers and applicants don't, contestability becomes a mirage.
 
 Hiring is the clearest example: applicants usually can't see whether AI screened them, why, or how to contest it at scale (U.S. practice) [IT-011].
 
-**Module 4.1: Audit/log checklist**  
+**Module 4.1: Audit/log checklist**
 What's logged, who can see it, how long it's retained, and how a person can request it.
 
-**Module 4.2: Records access and retention**  
+**Module 4.2: Records access and retention**
 Minimum standard: employer-held logs retained long enough to audit patterns, with regulator access and a worker-facing record request path.
 
 ---
@@ -163,7 +177,7 @@ In IT:
 - AI hiring filters can reject at scale with little contestability (U.S.).
 - AI-assisted code can ship at scale while review capacity stays flat.
 
-**Module 5.1: Enforcement-without-adjudication metrics**  
+**Module 5.1: Enforcement-without-adjudication metrics**
 What % of decisions are reviewed, audited, appealed, and overturned?
 
 **Module 5.2: Corroboration rule**
@@ -173,16 +187,18 @@ What evidence is required before an adverse outcome (reject, demote, terminate, 
 
 ### Mechanism 6: Skill atrophy
 
+This is the center of the case: when AI does the work people used to learn from, the organization may save time now by destroying the human bench it will need later.
+
 This is the home mechanism for the IT ladder case: the ladder is not only "jobs lost"; it is **judgment capacity lost**.
 
 Evidence base:
 
-- Early-career employment declines for the 22"25 cohort in AI-exposed roles [IT-001]
+- Early-career employment declines for the 22--25 cohort in AI-exposed roles [IT-001]
 - Junior posting share down / experience requirements rising [IT-003]
 - Mixed or negative org-level delivery outcomes despite tool adoption [IT-006]
 - Task-level productivity gains do not automatically become system-level gains [IT-005, IT-007]
 
-**Module 6.1: Manual flight checks**  
+**Module 6.1: Manual flight checks**
 Periodic unassisted tasks to verify independent competence still exists.
 
 **Module 6.2: Learning-work quotas**
@@ -199,13 +215,13 @@ Signals in this case:
 - junior wages down; senior stable/rising [IT-004]
 - new-grad share of hires down at Big Tech [IT-009]
 
-**Module 7.1: "Where does power sit?" map**  
+**Module 7.1: "Where does power sit?" map**
 Map the choke points: hiring screens, code hosting, CI/CD, review gates, and who controls them.
 
 **Module 7.2: Shared gains test**
 Did gains show up as lower prices, higher wages, open ladders, real contestability, real exit?
 
-**Upstream capture: public code as training input.** The tools that substitute for junior IT labor were trained largely on public code repositories -- GitHub, Stack Overflow, public open-source projects. The developers who contributed that code received no compensation for supplying the training input. Returns from the productivity gains accrue to the tooling vendors, not to the contributor community. This is a direct "capture at the top" mechanism: value created by an open collaborative technical community was extracted upstream, concentrated in a few vendor products, and is now being used to reduce demand for the labor that supplied the training data in the first place. [plausible -- confirmed for mechanism; no study measures income impact on contributors vs. tooling vendor revenue.] This is the same upstream extraction documented in the content flood case, where creator work becomes training input without compensation.
+**Upstream capture: public code as training input.** The tools that substitute for junior IT labor were trained largely on public code repositories -- GitHub, Stack Overflow, public open-source projects. The developers who contributed that code received no compensation for supplying the training input. Returns from the productivity gains accrue to the tooling vendors, not to the contributor community. This is a direct "capture at the top" mechanism: value created by an open collaborative technical community was extracted upstream, concentrated in a few vendor products, and is now being used to reduce demand for the labor that supplied the training data in the first place. This is the same upstream extraction documented in the content flood case, where creator work becomes training input without compensation.
 
 ---
 
@@ -213,7 +229,7 @@ Did gains show up as lower prices, higher wages, open ladders, real contestabili
 
 If you can't slow it down, inspect it, or shut it off, you are not in command.
 
-**Module 8.1: Safe-fail + kill switch**  
+**Module 8.1: Safe-fail + kill switch**
 Named owner, defined triggers, tested rollback.
 
 **Module 8.2: Incident review and rate limits**
@@ -240,20 +256,20 @@ The distinction matters because nominal human involvement satisfies most existin
 **IT hiring (AI screening tools):**
 
 - Current position: human-on-the-loop at best; likely human-in-the-loop theater in practice. Applicants are filtered by AI before any human sees the resume in many enterprise systems. The human who eventually reviews the shortlist never sees who was filtered. No audit log is available to the applicant. No appeal path exists in most U.S. deployments.
-- Rubber-stamp risk [plausible]: High. The human reviewer sees only the AI-curated shortlist, not the full applicant pool. What looks like human judgment is judgment on a pre-filtered set.
+- Rubber-stamp risk: High. The human reviewer sees only the AI-curated shortlist, not the full applicant pool. What looks like human judgment is judgment on a pre-filtered set.
 - What "human in command" would require: Notice to applicants that AI screening is in use. Plain-language explanation of criteria. Accessible appeal path. Employer documentation of screening decisions. Override frequency tracked and auditable.
 
 **Performance review (AI-assisted evaluation):**
 
 - Current position: varies by employer. Where AI summarizes performance signals (tickets closed, commit frequency, code quality scores) and humans apply ratings, the human is technically in the loop but reviewing AI outputs, not original evidence.
-- Rubber-stamp risk [plausible]: Moderate to high. Time pressure on review cycles is real. Managers reviewing AI summaries rather than original evidence are susceptible to automation bias -- deferring to the AI signal, especially for workers they know less well (junior workers, remote workers, recent hires).
+- Rubber-stamp risk: Moderate to high. Time pressure on review cycles is real. Managers reviewing AI summaries rather than original evidence are susceptible to automation bias -- deferring to the AI signal, especially for workers they know less well (junior workers, remote workers, recent hires).
 - Rubber-stamp detector test: Does the reviewer have the time to examine original evidence? Do they have access to the audit log? Do they have authority to override without going through a second approval layer? If no to any of these, the review is theater.
 
 **Code review (AI-generated code):**
 
 - Current position: human-in-the-loop by policy in most engineering organizations. Pull request approval is still a human act.
-- Rubber-stamp risk [plausible]: Highest of the three. PRs are larger and more numerous with AI assist [DORA 2024, Faros AI Tier-2]. [Vendor-produced metric -- treat as a smoke alarm, not a measurement. Direction may be real; magnitude is unverified.] Review time has increased 91% in high-AI-adoption teams (Faros, vendor-produced, Tier-2 -- use as illustrative, not load-bearing). Trust in AI output accuracy is falling while use is rising [IT-012]. The conditions for automation bias are present: volume pressure, trust-use gap, social norms around throughput.
-- What the DORA finding shows: Delivery stability fell 7.2% despite AI adoption and nominal code review processes remaining in place [IT-006]. The most parsimonious explanation consistent with the evidence is that review quality is degrading -- but DORA does not establish this directly.
+- Rubber-stamp risk: Highest of the three. PRs are larger and more numerous with AI assist [DORA 2024]. Review time has increased 91% in high-AI-adoption teams (Faros, vendor-produced — treat as illustrative, not load-bearing). Trust in AI output accuracy is falling while use is rising [IT-012]. The conditions for automation bias are present: volume pressure, trust-use gap, social norms around throughput.
+- What the DORA finding shows: Delivery stability fell 7.2% despite AI adoption and nominal code review processes remaining in place [IT-006]. The most plausible explanation consistent with the evidence is that review quality is degrading -- but DORA does not establish this directly.
 
 ---
 
@@ -371,7 +387,7 @@ What's missing: The efficiency gains appear to be captured as margin improvement
 
 **Q2: Did wages rise (especially for mid/junior)?**
 
-What the evidence shows: No. Junior starting wages fell 6.3% post-ChatGPT in AI-exposed firms. Mid-level starting wages fell 5.9%. Senior wages were stable or increased [IT-004, IESE pre-print]. The BLS median software developer wage ($133,080, May 2024) is slightly above 2023, but this figure does not control for selection effects: if only higher-skill workers are getting hired, the median can rise even as conditions worsen for new entrants.
+What the evidence shows: No. Junior starting wages fell 6.3% post-ChatGPT in AI-exposed firms. Mid-level starting wages fell 5.9%. Senior wages were stable or increased [IT-004, IESE pre-print]. The BLS median software developer wage ($133,080, May 2024) is slightly above 2023, but this figure doesn't control for selection effects: if only higher-skill workers are getting hired, the median can rise even as conditions worsen for new entrants.
 
 Confidence: **plausible** (IESE pre-print; large dataset; not yet peer-reviewed; BLS figure confirmed but does not isolate AI effects)
 
@@ -432,11 +448,13 @@ What's missing: No study has measured whether workers rejected by one AI screeni
 | Can contest decisions   | Not in the U.S. at scale                   | Confirmed (gap)       |
 | Can exit / switch       | Unknown; correlated exclusion risk         | Unknown               |
 
-Four of six questions point against shared gains. The other two are unknown -- not neutral.
+Four of six shared-gains questions point the wrong way. The remaining two are unknown, not reassuring. So far, the pattern looks like this: productivity gains are real, but the benefits are not clearly flowing to junior workers, open ladders, or stronger oversight capacity.
 
 ---
 
 ## 6. Governance lag and what enforceable looks like
+
+This matters beyond hiring fairness. If organizations cannot preserve the path by which junior workers become competent reviewers, then "human oversight" in later high-stakes AI systems will become less and less meaningful over time.
 
 ### Where things stand
 
@@ -450,9 +468,9 @@ The gap is large. U.S. employers can deploy AI screening tools today with no obl
 
 ### What contract and procurement language would make the minimum floor enforceable
 
-The **minimum floor** is the baseline below which "human in command" becomes operationally hollow. It is derived from the three-level control stack in Section 4: a human reviewer must have access to original evidence (not only the AI-filtered output), authority to override without additional approval, and a documented record of the decision. Notice, audit logs, an accessible appeal path, named kill-switch authority, and override-rate tracking are the specific mechanisms that operationalize this. Below the floor, nominal human involvement satisfies legal standards while providing no real check on the AI system.
+The **minimum floor** is the baseline below which "human in command" becomes operationally hollow. It comes from the three-level control stack in Section 4: a human reviewer must have access to original evidence (not only the AI-filtered output), authority to override without additional approval, and a documented record of the decision. Notice, audit logs, an accessible appeal path, named kill-switch authority, and override-rate tracking are the specific mechanisms that make this real. Below the floor, nominal human involvement satisfies legal standards while providing no real check on the AI system.
 
-A real clause in plain language -- what this would look like in an enterprise software procurement agreement or collective bargaining agreement:
+Here's what a real clause looks like in plain language -- what this would look like in an enterprise software procurement agreement or collective bargaining agreement:
 
 > **AI Employment Decision Systems -- Human Command Requirements**
 >
@@ -504,7 +522,9 @@ Kill switch authority: Exists in the EU AI Act framework (Article 14 requires us
 
 ---
 
-## 8. What good looks like -- the "Learning Work" rulebook
+## 8. What good looks like
+
+The goal is not to preserve busywork for its own sake. The goal is to preserve the path by which people become capable enough to question, verify, and overrule AI later.
 
 **Important caveat up front:** The positive case is under-documented. What follows is a proposed guardrail set based on the mechanisms identified in the research. It is not established practice at scale. No controlled study documents adoption of these measures in the AI era [Section 5 of research file].
 
@@ -514,34 +534,34 @@ The business case for this rulebook is not altruism -- it is risk management. Id
 
 ### Minimum viable "Learning Work" rulebook
 
-Each item is labeled **[unknown]** because no study documents implementation at scale in the AI era.
+None of these has been documented at scale in the AI era — they're what good looks like, not a description of current practice.
 
-**1. Funded mentorship time treated as production capacity, not overhead [unknown]**
+**1. Funded mentorship time treated as production capacity, not overhead**
 Mentorship hours are budgeted alongside delivery sprint capacity. They are not optional slack to be reclaimed under schedule pressure. Metrics track junior skill development alongside team throughput.
 
-**2. Scoped junior access with deliberate task allocation [unknown]**
+**2. Scoped junior access with deliberate task allocation**
 Juniors are assigned tasks in layers: first do the underlying work without AI assist; then do it with AI assist; then review AI-generated output. The sequence preserves exposure to the work before tool abstraction. Access to AI tools expands with demonstrated competence in the underlying task.
 
-**3. Review capacity explicitly resourced, not assumed to absorb AI-generated volume [unknown]**
+**3. Review capacity explicitly resourced, not assumed to absorb AI-generated volume**
 When AI tools increase PR volume or size, review time is not assumed to compress proportionately. Reviewer capacity is a production input that must scale with AI-generated volume. Teams track time-per-review relative to PR size as a health metric.
 
-**4. Periodic manual baselines ("flight checks") [unknown]**
+**4. Periodic manual baselines ("flight checks")**
 At defined intervals, developers complete representative tasks without AI assistance. This is not punitive -- it is calibration. The goal is to ensure human judgment remains operative and to identify where over-reliance has degraded independent capability. [Note: comparisons to medical or aviation training (supervised clinical work, simulation, recurrent proficiency checks) are illustrative analogies, not documented parallels -- no source in the research file establishes that IT field practice has adopted equivalent structures.]
 
-**5. Postmortems structured as teach-not-blame [unknown]**
+**5. Postmortems structured as teach-not-blame**
 Production incidents involving AI-generated or AI-reviewed code are analyzed for what the team did not catch and why. The goal is to surface where review processes are inadequate, not to assign fault. This is the organizational learning mechanism that replaces "learning by doing" when task volume moves to AI.
 
-**6. Human Command for hiring, promotion, performance, and discipline [unknown]**
+**6. Human Command for hiring, promotion, performance, and discipline**
 AI assists; humans decide. The decision-maker has access to original evidence (not only AI summaries), authority to override without additional approval, and is named in the audit log. See Section 6 for operationalization.
 
-**7. Junior representation tracked explicitly [unknown]**
+**7. Junior representation tracked explicitly**
 The share of workforce at junior level is tracked as a leading indicator of pipeline health -- not subsumed into overall headcount. If the junior share falls below a threshold, it triggers a structured review of whether the pipeline is being maintained.
 
 ---
 
 ### The McKinsey counter-signal
 
-McKinsey North America publicly committed to hiring 12% more staff in 2026 than 2025, with potential 15-20% growth over five years, explicitly framing the strategy around "grooming" people to be both consultants and technologists [IT-015, R-014]. This is notable because McKinsey's business model depends on the pyramid structure of junior hours -- they have a direct economic incentive to maintain the pipeline. Treat this as a counter-signal worth watching, not proof that the guardrail set above is being implemented at scale. It is a hiring commitment, not a documented guardrail program.
+McKinsey North America publicly committed to hiring 12% more staff in 2026 than 2025, with potential 15-20% growth over five years, explicitly framing the strategy around "grooming" people to be both consultants and technologists [IT-015, R-014]. This is worth watching because McKinsey's business model depends on the pyramid structure of junior hours -- they have a direct economic incentive to maintain the pipeline. Treat this as a counter-signal, not proof that the guardrail set above is being implemented at scale. It is a hiring commitment, not a documented guardrail program.
 
 Exceptions exist. They do not change the pattern.
 
@@ -615,25 +635,30 @@ The villain in this story is not any individual manager or company. It is the co
 
 ## North Star verdict
 
-The IT ladder case is a direct test of the better loop -- security -> choice -> competition -> shared gains -> more security -- and it is failing on two counts simultaneously. Entry is narrowing: the 22-25 cohort is down 13-20% in the fields where AI adoption is highest, junior wages fell 6.3%, and posting data shows fewer than 2% of tech roles advertised for junior candidates. And contestability is absent: workers filtered by AI screening tools typically cannot identify when it happened, what criteria were used, or how to challenge the outcome.
+This case points toward the bad loop unless institutions intervene on purpose.
 
-The productivity gains are real. The available evidence -- improving tech-sector margins, stable or rising senior wages, falling junior wages -- is consistent with gains being captured as margin and senior stability rather than distributed downward, but this conclusion is plausible, not confirmed: no study directly measures whether efficiency savings are passed to customers or workers vs. retained as profit (Shared Gains Test Q1 is unknown). A rising median wage for software developers means little for a generation facing substantially narrowed access to the first rung -- entry is not blocked, but the path is measurably narrower and the data has not yet shown recovery.
+The short-term win is obvious: fewer junior tasks, faster output, lower labor cost.
 
-This is not a story about technology being bad. It is a story about what happens when productivity gains arrive faster than the guardrails that distribute them -- and when the apprenticeship mechanism that turns today's juniors into tomorrow's seniors is quietly dismantled in the process of capturing short-term efficiency. The mechanism is broken. The fix is guardrails, not slowdown.
+The long-term loss is easier to miss: weaker entry, weaker learning, weaker review, and weaker human capacity to govern AI-heavy systems later.
+
+Entry is already narrowing: the 22-25 cohort is down 13-20% in the fields where AI adoption is highest, junior wages fell 6.3%, and posting data shows fewer than 2% of tech roles advertised for junior candidates. Contestability is also weak: workers filtered by AI screening tools typically cannot identify when it happened, what criteria were used, or how to challenge the outcome.
+
+The productivity gains are real. The available evidence -- improving tech-sector margins, stable or rising senior wages, falling junior wages -- is consistent with gains being captured as margin and senior stability rather than distributed downward, but this conclusion remains plausible rather than confirmed: no study directly measures whether efficiency savings are passed to customers or workers versus retained as profit.
+
+The good version is possible, but only if organizations treat learning and review capacity as real production assets worth protecting. The mechanism is not the technology itself. The mechanism is the absence of guardrails that would keep AI from quietly dismantling the apprenticeship path while short-term efficiency gains are being captured.
 
 **System lesson in one sentence:** AI's productivity gains distribute upward by default; only deliberate guardrails -- in procurement contracts, HR practice, and eventually binding regulation -- will push them down.
 
-**Resource externalities.** The infrastructure enabling AI coding tools at scale -- data centers, compute, cooling, power grid upgrades -- externalizes energy and infrastructure costs onto local communities unless procurement and policy require "load pays" commitments. When compute costs are socialized through utility rate increases and gains are captured as tooling vendor margin or corporate efficiency, the monthly squeeze rises twice: once for workers who receive none of the productivity gain, and once for communities absorbing the infrastructure cost. This does not change the shared gains test result here -- it extends it: the efficiency gains from AI tools and the energy and water costs of running them belong on the same ledger. Enforceable community benefit agreements and infrastructure cost disclosure are the mechanism for ensuring the externality does not land on the people who received none of the gain.
+**Resource externalities.** The infrastructure enabling AI coding tools at scale -- data centers, compute, cooling, power grid upgrades -- externalizes energy and infrastructure costs onto local communities unless procurement and policy require ""load pays"" commitments. When compute costs are socialized through utility rate increases and gains are captured as tooling vendor margin or corporate efficiency, the monthly squeeze rises twice: once for workers who receive none of the productivity gain, and once for communities absorbing the infrastructure cost. This does not change the shared gains test result here -- it extends it: the efficiency gains from AI tools and the energy and water costs of running them belong on the same ledger. Enforceable community benefit agreements and infrastructure cost disclosure are the mechanism for ensuring the externality does not land on the people who received none of the gain.
 
 ---
 
-[RESEARCH GAP: No study measures the rate at which new AI-adjacent roles (AI trainer, prompt engineer, model evaluator) are absorbing displaced junior IT workers at comparable scale, stability, and compensation. This is the most important unresolved question for the E4E loop.]
+## Research gaps
 
-[RESEARCH GAP: No study has measured cross-employer correlation in AI screening outcomes -- whether workers rejected by one AI screening vendor are systematically rejected across all employers using the same vendor. Critical for the "exit and switch" question in Shared Gains Test Q6.]
-
-[RESEARCH GAP: No measurement of whether mid-level compression follows junior compression with a lag. The current evidence shows junior compressed, mid-level stable or slightly rising. The hourglass prediction requires a second phase. Check IESE, Stanford, and Indeed data in 12-24 months.]
-
-[RESEARCH GAP: No controlled study documents adoption of "learning work" guardrails (funded mentorship, scoped access, manual baselines, review capacity budgeting) in the AI era at any firm. The positive case is theoretical and anecdotal.]
+- **AI role absorption.** No study measures whether new AI-adjacent roles (trainer, prompt engineer, model evaluator) are absorbing displaced junior IT workers at comparable scale, stability, and pay. This is the most important open question for whether the ladder is really collapsing or just being rebuilt elsewhere.
+- **Cross-employer screening correlation.** Whether workers rejected by one AI screening vendor end up rejected across all employers using the same vendor hasn't been measured. This matters a lot for the "exit and switch" question.
+- **Mid-level compression lag.** The current evidence shows junior roles compressed, mid-level roles stable or slightly rising. The hourglass prediction requires a second phase. Worth revisiting in 12-24 months against IESE, Stanford, and Indeed hiring data.
+- **Learning work guardrails in practice.** No controlled study documents adoption of funded mentorship, scoped AI access, manual baselines, or review capacity budgeting at any firm in the AI era. The positive case is currently theoretical and anecdotal.
 
 ## Bridge language
 
@@ -645,4 +670,4 @@ How to talk about this when the audience isn't already convinced:
 - "When junior wages fall 6% while corporate margins improve and the tools promise 55% productivity gains, someone captured the efficiency. It wasn't the workers."
 - "Verification tools that screen out North Korean IT fraud at scale also screen out legitimate applicants with non-standard credentials or unconventional career paths. The test is whether the system lets you contest and correct -- not just whether it's accurate on average."
 
-[RESEARCH GAP: No study measures override rates, time-per-review relative to PR size, or reversal rates on appeal for AI-assisted code review. These are the operationally testable proxies for rubber-stamp risk that the literature has not yet measured.]
+- **Code review rubber-stamp proxies.** No study measures override rates, time-per-review relative to PR size, or reversal rates on appeal for AI-assisted code review. These are the operationally testable proxies for rubber-stamp risk that the literature hasn't yet measured.

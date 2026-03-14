@@ -29,24 +29,25 @@ receiptTags:
 sources: []
 ---
 
-- [Content Flood and the Gate Shift: Children's Books and Local News](#content-flood-and-the-gate-shift-childrens-books-and-local-news)
-  - [At a glance](#at-a-glance)
-  - [1. One scene](#1-one-scene)
-  - [2. What's happening](#2-whats-happening)
-  - [3. Why it's happening -- the mechanisms](#3-why-its-happening----the-mechanisms)
-  - [4. Two-scene comparison](#4-two-scene-comparison)
-  - [5. Harms taxonomy](#5-harms-taxonomy)
-  - [6. Control stack: Who governs the gate?](#6-control-stack-who-governs-the-gate)
-  - [7. Provenance deployment reality](#7-provenance-deployment-reality)
-  - [8. Shared Gains Test](#8-shared-gains-test)
-  - [9. Transferable lessons](#9-transferable-lessons)
-  - [10. Governance lag and what enforceable looks like](#10-governance-lag-and-what-enforceable-looks-like)
-  - [11. Minimal measurement plan](#11-minimal-measurement-plan)
-  - [12. What good looks like -- the Market Integrity minimum floor](#12-what-good-looks-like----the-market-integrity-minimum-floor)
-  - [13. What to do](#13-what-to-do)
-  - [14. How to talk about it (bridge language)](#14-how-to-talk-about-it-bridge-language)
-  - [North Star verdict](#north-star-verdict)
-  - [Bridge language](#bridge-language)
+- [At a glance](#at-a-glance)
+- [1. One scene](#1-one-scene)
+- [2. What's happening](#2-whats-happening)
+- [3. Why it's happening -- the mechanisms](#3-why-its-happening----the-mechanisms)
+- [4. Two-scene comparison](#4-two-scene-comparison)
+- [5. Harms taxonomy](#5-harms-taxonomy)
+- [6. Control stack: Who governs the gate?](#6-control-stack-who-governs-the-gate)
+- [7. Provenance deployment reality](#7-provenance-deployment-reality)
+- [8. Shared Gains Test](#8-shared-gains-test)
+- [9. Transferable lessons](#9-transferable-lessons)
+- [10. Governance lag and what enforceable looks like](#10-governance-lag-and-what-enforceable-looks-like)
+- [11. Minimal measurement plan](#11-minimal-measurement-plan)
+- [12. What good looks like](#12-what-good-looks-like)
+- [13. What to do](#13-what-to-do)
+- [14. How to talk about it (bridge language)](#14-how-to-talk-about-it-bridge-language)
+- [Loop Effect](#loop-effect)
+- [North Star verdict](#north-star-verdict)
+- [Research gaps](#research-gaps)
+- [Bridge language](#bridge-language)
 
 ---
 
@@ -56,23 +57,37 @@ sources: []
 - **Where power moved:** From who can produce to who controls ranking, distribution, and trust signals. Those choke points sit with Amazon KDP and Google Search -- platforms that are not governed for this role.
 - **Who gets squeezed:** Mid-tier creators and publishers who competed on quality, and local news audiences who lose access to reliable local information as AI-generated content fills the vacuum left by newsroom collapse.
 - **What the minimum floor asks for:** Labels (consumer-facing AI disclosure at point of discovery), contestability (real appeal rights for takedowns and ranking penalties), and friction (rate limits and identity requirements calibrated to slow flood operations without blocking legitimate creators).
-- AI can be a genuine force for abundance " but only if guardrails force gains to be shared instead of captured.
+- AI can be a genuine force for abundance -- but only if guardrails force gains to be shared instead of captured.
 
 ---
 
 ## 1. One scene
 
-A school librarian is working through a cart of new e-book additions. The cart arrived pre-loaded from the platform's recommended collection. She opens a children's biography of a scientist. The cover looks fine. The author name is unfamiliar, but that is normal for self-published work. She searches the name online and finds nothing -- no website, no social media, no other titles, no trace. The bio photo looks like a generated headstock image. Inside, a paragraph on the scientist's early childhood contains a date that doesn't match anything she can verify.
+A school librarian is working through a cart of new e-book additions. The cart arrived pre-loaded from the platform's recommended collection. She opens a children's biography of a scientist. The cover looks fine. The author name is unfamiliar, but that's normal for self-published work. She searches the name online and finds nothing -- no website, no social media, no other titles, no trace. The bio photo looks like a generated headstock image. Inside, a paragraph on the scientist's early childhood contains a date that doesn't match anything she can verify.
 
 She flags it. But there are forty books on the cart and she has forty minutes. Not every book gets this treatment. The ones that don't get checked go into the catalog. Parents borrow them. Children read them. No one knows which ones were reviewed and which ones weren't.
 
 ---
 
+### Why this matters for creators
+
+When AI makes content cheap, creators do not automatically gain freedom. They become more dependent on whoever controls discovery, ranking, and trust. That means the real question is no longer "can people make content?" The question is "can creators still get found, trusted, and paid on fair terms?"
+
+---
+
 ## 2. What's happening
 
-In two unrelated content markets -- children's books and local news -- near-zero-cost AI production is flooding distribution platforms with content that mimics the signals of quality. The economic gate has moved: the choke point is no longer who can afford to produce, but who controls what gets discovered, trusted, and read. Those choke points are not governed.
+In children's books and local news, AI has made content production fast and cheap. But that did not create a freer market for creators. It changed the bottleneck. The scarce things now are discovery, ranking, provenance, and trust. That means creators are less constrained by the cost of making something and more constrained by the platforms that decide what gets seen, believed, and paid.
 
-To be precise about what this case study is and is not: this is not an argument that AI-generated content is inherently bad, or that human-produced content is inherently good. The harm is a trust failure -- consumers cannot verify what they are reading -- combined with ungoverned distribution that rewards volume regardless of quality. The problem would exist even if AI content were accurate. It exists because the label is absent and the gate is ungoverned.
+To be clear about what this case study is and isn't: this is not an argument that AI-generated content is inherently bad, or that human-produced content is inherently good. The harm is a trust failure -- consumers can't verify what they're reading -- combined with ungoverned distribution that rewards volume regardless of quality. The problem would exist even if AI content were accurate. It exists because the label is absent and the gate is ungoverned.
+
+---
+
+### The fork in the road
+
+Used badly, AI gives creators cheaper tools while making them more dependent on opaque discovery systems. More content gets made, but fewer people can reliably make a living from it. Trust gets weaker. Manipulation gets cheaper. The middle hollow out continues.
+
+Used well, AI can lower production costs without destroying the people who make culture and public knowledge. That requires rules that make attribution clear, discovery fairer, appeals real, and audience relationships more portable. Then the gain is not just "more content." It is more trustworthy content markets with more room for human creators to survive.
 
 ---
 
@@ -86,8 +101,8 @@ This case study uses a children's-books-shaped example to surface general mechan
 
 **Mechanism Modules (reusable inserts):**
 
-- **Module 5.1: Enforcement-without-adjudication metrics** " what to measure when you suspect "the machine is deciding" (appeal rates, reversal rates, time-to-appeal, "no meaningful reason" rates).
-- **Module 5.2: Corroboration rule** " minimum standard before distribution, recommendation, payout, or enforcement (two independent signals, provenance, or a human check for high-stakes outcomes).
+- **Module 5.1: Enforcement-without-adjudication metrics** -- what to measure when you suspect "the machine is deciding" (appeal rates, reversal rates, time-to-appeal, "no meaningful reason" rates).
+- **Module 5.2: Corroboration rule** -- minimum standard before distribution, recommendation, payout, or enforcement (two independent signals, provenance, or a human check for high-stakes outcomes).
 
 #### Flood dynamics (zero-cost production)
 
@@ -95,10 +110,10 @@ This case study uses a children's-books-shaped example to surface general mechan
 
 > **What is confirmed vs. what is the accelerant.** The confirmed harm here is a trust failure: no consumer-facing label for AI-generated content exists on Amazon KDP listings; librarians cannot audit at scale; and professional guidance from the ALA and school library organizations exists but is not backed by platform enforcement. The flood -- the volume of AI-generated titles -- is the accelerant that makes this trust failure hard to contain. But the premise of the harm is the absent label and the ungoverned distribution, not the volume itself. Even a smaller flood would produce the same trust failure without the label. The fix is the label and a contestable takedown path, not a production cap. [CF-003, CF-006]
 
-- [plausible] AI tools let a publisher produce a formatted children's picture book -- text plus AI-generated images -- in minutes at near-zero cost. Traditional production costs for a mid-tier picture book run $8,000--$20,000 or more when illustrator fees are included.
-- [plausible] Amazon KDP capped new title uploads at 3 per day per publisher account in September 2023. The cap itself is proxy evidence that submission volume was high enough to require a response. Amazon stated at the time that it had not yet confirmed a spike -- suggesting the cap was precautionary, not reactive. [CF-003]
-- [plausible -- counterweight] The New Publishing Standard (October 2025) argues the AI book flood is overstated: real, but "neither the industry-ending flood nor the creative apocalypse that headlines suggest." Draft2Digital reported 2024 publishing volumes roughly 50% higher than prior years -- but that covers all publishing activity, not AI specifically. The flood is real; its scale is contested. [CF-002, R-020]
-- [plausible] One investigative sweep (Indicator, October 2025) identified 517 children's nonfiction books on Amazon appearing to be partially or fully AI-generated, with glaring errors, synthetic author profile pictures, and inauthentic reviews. [CF-004]
+- AI tools let a publisher produce a formatted children's picture book -- text plus AI-generated images -- in minutes at near-zero cost. Traditional production costs for a mid-tier picture book run $8,000--$20,000 or more when illustrator fees are included.
+- Amazon KDP capped new title uploads at 3 per day per publisher account in September 2023. The cap itself is proxy evidence that submission volume was high enough to require a response. Amazon stated at the time that it had not yet confirmed a spike -- suggesting the cap was precautionary, not reactive. [CF-003]
+- The New Publishing Standard (October 2025) argues the AI book flood is overstated: real, but "neither the industry-ending flood nor the creative apocalypse that headlines suggest." Draft2Digital reported 2024 publishing volumes roughly 50% higher than prior years -- but that covers all publishing activity, not AI specifically. The flood is real; its scale is contested. [CF-002, R-020]
+- One investigative sweep (Indicator, October 2025) identified 517 children's nonfiction books on Amazon appearing to be partially or fully AI-generated, with glaring errors, synthetic author profile pictures, and inauthentic reviews. [CF-004]
 
 **What the evidence does not say:** Amazon has not released submission volume data. The "19 of top 100 Kindle bestsellers are human-written" claim circulated in 2023 but is based on a single screenshot observation -- treat as illustrative only, not confirmed. The New Publishing Standard's counterweight applies: do not assert a volume crisis as confirmed fact.
 
@@ -106,36 +121,40 @@ This case study uses a children's-books-shaped example to surface general mechan
 
 AI is filling a vacuum left by two decades of advertising collapse and ownership consolidation, not creating the local news crisis. The crisis predates AI. AI's role is to lower the cost of mimicking local news formats while newsroom capacity continues to fall -- making the information environment harder to navigate without adding reliable reporting.
 
-- [plausible] Pink slime sites -- partisan or AI-generated sites posing as local news -- grew from 37 in August 2023 to 1,265 in June 2024, per NewsGuard: 34x growth in roughly 10 months. (NewsGuard's methodology is described but not independently peer-reviewed; treat as directionally credible.) [CF-008]
-- [plausible] AI content in Google search results reached approximately 19.56% in July 2025 (Originality.ai, vendor source, methodology not independently validated). [CF-019]
-- [plausible] By June 2024, pink slime sites outnumbered daily newspapers still operating in the US: 1,265 fake sites vs. 1,213 real papers. (This comparison derives from the same NewsGuard count as the growth figure above -- same credibility caveat applies.) [CF-008]
+- Pink slime sites -- partisan or AI-generated sites posing as local news -- grew from 37 in August 2023 to 1,265 in June 2024, per NewsGuard: 34x growth in roughly 10 months. (NewsGuard's methodology is described but not independently peer-reviewed; treat as directionally credible.) [CF-008]
+- AI content in Google search results reached approximately 19.56% in July 2025 (Originality.ai, vendor source, methodology not independently validated). [CF-019]
+- By June 2024, pink slime sites outnumbered daily newspapers still operating in the US: 1,265 fake sites vs. 1,213 real papers. (This comparison derives from the same NewsGuard count as the growth figure above -- same credibility caveat applies.) [CF-008]
 
 **What the evidence does not say:** 92% of pink slime sites have no detectable traffic (Iffy.news). Site count is not reach count. Most of the flood may be potential harm, not current-day mass reach -- with the partisan-funded subset being the important exception. NewsGuard's methodology has faced criticism from conservative outlets; treat as directionally credible with that noted caveat.
 
 ### Mechanism 3: Gate shift (trust + distribution)
 
-**What it is:** once production is cheap, _distribution_ (ranking, feeds, storefront placement, search) becomes the real choke point. Gatekeeping doesn't vanish " it moves.
+A simpler way to say it: when making gets cheap, being found becomes expensive.
+
+**What it is:** once production is cheap, _distribution_ (ranking, feeds, storefront placement, search) becomes the real choke point. Gatekeeping doesn't vanish -- it moves.
 
 **Mechanism Modules (reusable inserts):**
 
-- **Module 3.1: Provenance (content)** " "where did this come from?" labels + hash/metadata practices.
-- **Module 3.2: Personhood and credentials (people)** " who is allowed to claim expertise, and how credentials are verified.
+- **Module 3.1: Provenance (content)** -- "where did this come from?" labels + hash/metadata practices.
+- **Module 3.2: Personhood and credentials (people)** -- who is allowed to claim expertise, and how credentials are verified.
 
 #### Gate shift (distribution and ranking)
 
 ##### Children's books
 
-- [confirmed] Amazon controls the dominant e-book and self-publishing marketplace in the US. KDP's policies are the only meaningful platform-level gate on AI content volume in book publishing. [CF-003]
-- [confirmed] Amazon's disclosure requirement is internal only. Publishers must tell Amazon whether content is AI-generated; Amazon does not generate a consumer-facing label. The gate that matters for readers -- discoverability and ranking -- is not connected to AI disclosure. [CF-003, R-006]
-- [plausible] Amazon's ranking algorithm determines which books get discovered. AI-generated books optimized for keyword relevance may rank as well as human-authored books in certain search categories. No direct evidence of differential algorithmic treatment of disclosed vs. undisclosed AI content. [CF-002]
-- [confirmed] Getty Images and Shutterstock demonstrate that platforms can ban AI-generated content intake. Both simultaneously generate revenue from licensing contributor work to train AI models. Amazon chose internal disclosure over an intake ban. [CF-018]
+- Amazon controls the dominant e-book and self-publishing marketplace in the US. KDP's policies are the only meaningful platform-level gate on AI content volume in book publishing. [CF-003]
+- Amazon's disclosure requirement is internal only. Publishers must tell Amazon whether content is AI-generated; Amazon does not generate a consumer-facing label. The gate that matters for readers -- discoverability and ranking -- is not connected to AI disclosure. [CF-003, R-006]
+- Amazon's ranking algorithm determines which books get discovered. AI-generated books optimized for keyword relevance may rank as well as human-authored books in certain search categories. No direct evidence of differential algorithmic treatment of disclosed vs. undisclosed AI content. [CF-002]
+- Getty Images and Shutterstock demonstrate that platforms can ban AI-generated content intake. Both simultaneously generate revenue from licensing contributor work to train AI models. Amazon chose internal disclosure over an intake ban. [CF-018]
+
+For creators, that means success depends less on authorship alone and more on whether the platform's invisible sorting system decides they are discoverable.
 
 ##### Local news
 
-- [plausible] Google search traffic to publishers fell 33% globally and 38% in the US between November 2024 and November 2025, per Semrush data cited by Press Gazette. Causal attribution to AI Overviews specifically is an inference, not a controlled study. [CF-012]
-- [plausible] When AI Overviews appear in search results, click-through rates to publisher pages fall to 8% vs. 15% without them -- a relative reduction of nearly half. This specific figure has cleaner methodology than the aggregate traffic number. [CF-012]
-- [plausible] Local news startups, which depend heavily on Google for traffic with no legacy subscriber base, are more exposed to this shift than legacy national outlets. [CF-012]
-- [confirmed] Google's News Initiative funds local news organizations. Google simultaneously draws traffic from those same organizations through AI Overviews. The GNI funding amounts (e.g., $20,000 sustainability audits) are small relative to the displaced traffic revenue. This is a genuine structural contradiction -- not a simple villain story. [CF-012, Contradiction 4]
+- Google search traffic to publishers fell 33% globally and 38% in the US between November 2024 and November 2025, per Semrush data cited by Press Gazette. Causal attribution to AI Overviews specifically is an inference, not a controlled study. [CF-012]
+- When AI Overviews appear in search results, click-through rates to publisher pages fall to 8% vs. 15% without them -- a relative reduction of nearly half. This specific figure has cleaner methodology than the aggregate traffic number. [CF-012]
+- Local news startups, which depend heavily on Google for traffic with no legacy subscriber base, are more exposed to this shift than legacy national outlets. [CF-012]
+- Google's News Initiative funds local news organizations. Google simultaneously draws traffic from those same organizations through AI Overviews. The GNI funding amounts (e.g., $20,000 sustainability audits) are small relative to the displaced traffic revenue. This is a genuine structural contradiction -- not a simple villain story. [CF-012, Contradiction 4]
 
 **What the evidence does not say:** Whether Google's AI Overviews systematically concentrate remaining traffic toward large national brands vs. small local outlets has not been studied. Whether Amazon uses AI disclosure data in its own ranking decisions in undisclosed ways is unknown.
 
@@ -147,8 +166,8 @@ AI is filling a vacuum left by two decades of advertising collapse and ownership
 
 **Mechanism Modules (reusable inserts):**
 
-- **Module 1.1: Human Command (minimum floor)** " notice, reason, appeal, records, and a human override for life outcomes.
-- **Module 1.2: Rubber-stamp proxies (how to measure it)** " signals of fake review: reversal-rate gaps, identical reason codes, time-per-case, and "no one can explain it" patterns.
+- **Module 1.1: Human Command (minimum floor)** -- notice, reason, appeal, records, and a human override for life outcomes.
+- **Module 1.2: Rubber-stamp proxies (how to measure it)** -- signals of fake review: reversal-rate gaps, identical reason codes, time-per-case, and "no one can explain it" patterns.
 
 ### Mechanism 4: Asymmetric logs
 
@@ -156,8 +175,8 @@ AI is filling a vacuum left by two decades of advertising collapse and ownership
 
 **Mechanism Modules (reusable inserts):**
 
-- **Module 4.1: Audit/log checklist** " what must be logged to enable accountability.
-- **Module 4.2: Records access and retention** " minimum retention + user access rules.
+- **Module 4.1: Audit/log checklist** -- what must be logged to enable accountability.
+- **Module 4.2: Records access and retention** -- minimum retention + user access rules.
 
 ### Mechanism 6: Skill atrophy
 
@@ -165,28 +184,28 @@ AI is filling a vacuum left by two decades of advertising collapse and ownership
 
 **Mechanism Modules (reusable inserts):**
 
-- **Mechanism 6.1: Manual flight checks** " periodic "do it without the machine" drills.
-- **Mechanism 6.2: Learning-work quotas** " guaranteed starter work / supervised reps for juniors and apprentices.
+- **Mechanism 6.1: Manual flight checks** -- periodic "do it without the machine" drills.
+- **Mechanism 6.2: Learning-work quotas** -- guaranteed starter work / supervised reps for juniors and apprentices.
 
 #### Trust collapse and curation failure
 
 ##### Children's books
 
-- [plausible] Librarians cannot reliably detect AI-generated children's books during acquisition. They rely on proxies -- author digital footprint, review patterns -- that AI-produced books can mimic. [CF-006]
-- [confirmed] The American Library Association issued AI guidance for school librarians in September 2025. This institutional response confirms the gap is real at the national professional level. [CF-006]
-- [confirmed] No consumer-facing AI label exists on Amazon KDP listings. Parents browsing Amazon cannot distinguish AI-generated from human-authored children's books at point of purchase. [CF-003]
-- [plausible] Pre-curated e-book platform collections -- such as Hoopla -- may include AI-generated titles that libraries acquire through bulk licensing, bypassing individual title review. Practitioner-reported; Hoopla has not confirmed this. [CF-006]
-- [plausible] Most parents are willing to accept AI-generated images in children's books if the text is human-authored and images have been reviewed by educators or librarians -- but only with cover-level AI labeling. Without labeling, that conditional acceptance breaks down. (NC State, qualitative, 13 groups -- directional, not nationally representative.) [CF-006b]
+- Librarians cannot reliably detect AI-generated children's books during acquisition. They rely on proxies -- author digital footprint, review patterns -- that AI-produced books can mimic. [CF-006]
+- The American Library Association issued AI guidance for school librarians in September 2025. This institutional response confirms the gap is real at the national professional level. [CF-006]
+- No consumer-facing AI label exists on Amazon KDP listings. Parents browsing Amazon cannot distinguish AI-generated from human-authored children's books at point of purchase. [CF-003]
+- Pre-curated e-book platform collections -- such as Hoopla -- may include AI-generated titles that libraries acquire through bulk licensing, bypassing individual title review. Practitioner-reported; Hoopla has not confirmed this. [CF-006]
+- Most parents are willing to accept AI-generated images in children's books if the text is human-authored and images have been reviewed by educators or librarians -- but only with cover-level AI labeling. Without labeling, that conditional acceptance breaks down. (NC State, qualitative, 13 groups -- directional, not nationally representative.) [CF-006b]
 
 ##### Local news
 
-- [confirmed] Pink slime sites use names designed to mimic trusted local papers. NewsGuard identified this naming-mimicry pattern across its tracked sites. [CF-008]
-- [confirmed] In early 2024, AI-generated audio mimicking President Biden's voice was used in New Hampshire robocalls urging primary non-participation. The FCC fined the political consultant responsible $6 million. A separate AI-generated audio clip mimicking a Maryland school principal making racist remarks reached roughly 2 million views before being identified. These are not news-site examples, but they document the civic-harm mechanism from AI impersonation at scale. [CF-007 context; Mechanism C receipts]
-- [plausible] Readers in news deserts turning to Google for local coverage are more likely to encounter pink slime content -- but the specific user journey is not systematically studied. [CF-008]
+- Pink slime sites use names designed to mimic trusted local papers. NewsGuard identified this naming-mimicry pattern across its tracked sites. [CF-008]
+- In early 2024, AI-generated audio mimicking President Biden's voice was used in New Hampshire robocalls urging primary non-participation. The FCC fined the political consultant responsible $6 million. A separate AI-generated audio clip mimicking a Maryland school principal making racist remarks reached roughly 2 million views before being identified. These are not news-site examples, but they document the civic-harm mechanism from AI impersonation at scale. [CF-007 context; Mechanism C receipts]
+- Readers in news deserts turning to Google for local coverage are more likely to encounter pink slime content -- but the specific user journey is not systematically studied. [CF-008]
 
 **What the evidence does not say:** The rate at which AI content is escaping curation filters in either scene has not been measured. Whether AI-generated local news content measurably affects public knowledge of local government affairs cannot currently be isolated from the general news-desert effect.
 
-**Targeting makes low-quality content high-impact.** The trust collapse documented above -- mimicry, impersonation, synthetic consensus -- is not only a volume problem. AI enables cheap, micro-targeted delivery: low-reach content that would reach few people organically can be directed at specific precincts, school board races, or identity communities with surgical precision. A pink slime operation with no general traffic can still produce outsized civic damage if it is targeted at a community in a news desert during a local election. This is the "option value of harm" from the reach-and-exposure section: near-zero production cost plus cheap targeting means small-scale operations can produce outsized damage without the investment that previously signaled organized intent. Provenance requirements, friction on targeted distribution, and limits on sensitive targeting address both the volume and targeting problems; solving volume alone does not close the epistemic risk. [plausible -- confirmed for mechanism; scale of micro-targeted pink-slime distribution specifically is not independently measured.] This is the same precision persuasion mechanism documented in surveillance coercion, where behavioral data enables targeted narrative delivery at governance scale.
+**Targeting makes low-quality content high-impact.** The trust collapse documented above -- mimicry, impersonation, synthetic consensus -- is not only a volume problem. AI enables cheap, micro-targeted delivery: low-reach content that would reach few people organically can be directed at specific precincts, school board races, or identity communities with surgical precision. A pink slime operation with no general traffic can still produce outsized civic damage if it is targeted at a community in a news desert during a local election. This is the "option value of harm" from the reach-and-exposure section: near-zero production cost plus cheap targeting means small-scale operations can produce outsized damage without the investment that previously signaled organized intent. Provenance requirements, friction on targeted distribution, and limits on sensitive targeting address both the volume and targeting problems; solving volume alone does not close the epistemic risk. This is the same precision persuasion mechanism documented in surveillance coercion, where behavioral data enables targeted narrative delivery at governance scale.
 
 ### Mechanism 7: Bottlenecks / market power
 
@@ -194,34 +213,34 @@ AI is filling a vacuum left by two decades of advertising collapse and ownership
 
 **Mechanism Modules (reusable inserts):**
 
-- **Module 7.1: "Where does power sit?" map** " quick diagram of who sets prices, rules, ranking, and enforcement.
-- **Module 7.2: Shared gains test** " if costs drop, who _actually_ gets the benefit (customers, workers, creators, or just the gate)?
+- **Module 7.1: "Where does power sit?" map** -- quick diagram of who sets prices, rules, ranking, and enforcement.
+- **Module 7.2: Shared gains test** -- if costs drop, who _actually_ gets the benefit (customers, workers, creators, or just the gate)?
 
 #### Hollowing of the middle
 
 ##### Children's books
 
-- [confirmed] Median book income for all authors in 2022 was $2,000/year; for full-time authors, $10,000/year from books and $20,000/year in total author-related income. (Authors Guild, n=5,699.) This floor was already low before AI entered the market. [CF-001]
-- [confirmed] Median author book income fell 42% between 2009 and 2017 -- before significant AI-generated content existed. AI is entering a market whose middle was already hollowed. [CF-001]
-- [plausible, UK only] 26% of illustrators in the UK's Society of Authors survey (January 2024, n=787, ~6.3% response rate) reported already losing work to AI. 37% reported income decreasing in value due to AI. 78% believe AI will negatively impact future income. UK survey; self-reported; may skew toward those most affected. Not directly US evidence. [CF-005]
-- [confirmed] Traditional publishing advances for picture books average $8,000 split with the illustrator -- making mid-tier children's book economics already marginal. [CF-001 context]
-- [unknown] Whether mid-tier professional children's book authors and illustrators have seen measurable income declines specifically attributable to AI competition -- distinct from the pre-existing income compression -- has not been measured in any peer-reviewed study. [CF-001 boundary]
+- Median book income for all authors in 2022 was $2,000/year; for full-time authors, $10,000/year from books and $20,000/year in total author-related income. (Authors Guild, n=5,699.) This floor was already low before AI entered the market. [CF-001]
+- Median author book income fell 42% between 2009 and 2017 -- before significant AI-generated content existed. AI is entering a market whose middle was already hollowed. [CF-001]
+- 26% of illustrators in the UK's Society of Authors survey (January 2024, n=787, ~6.3% response rate) reported already losing work to AI. 37% reported income decreasing in value due to AI. 78% believe AI will negatively impact future income. UK survey; self-reported; may skew toward those most affected. Not directly US evidence. [CF-005]
+- Traditional publishing advances for picture books average $8,000 split with the illustrator -- making mid-tier children's book economics already marginal. [CF-001 context]
+- Whether mid-tier professional children's book authors and illustrators have seen measurable income declines specifically attributable to AI competition -- distinct from the pre-existing income compression -- has not been measured in any peer-reviewed study. [CF-001 boundary]
 
 **Contradiction to flag:** The Authors Guild survey shows median author income declining -- but full-time self-publishers active since at least 2018 saw median income rise 76% to $24,000 by 2022. AI is entering a market already bifurcated. The direction of harm is clear; the magnitude across different author segments is not.
 
 ##### Local news
 
-- [confirmed] 136 newspapers closed in the year covered by the 2025 Medill State of Local News report -- more than two per week. 3,500+ closed since 2004. 270,000+ newspaper jobs lost over two decades. 7,000 in 2023 alone. [CF-007]
-- [confirmed] 300+ local digital news startups launched over five years -- but they are smaller, predominantly digital-only, and do not replicate accountability journalism at equivalent scale. [CF-007]
-- [plausible] The survivors in local news are either major national brands or hyper-local digital nonprofits. The mid-tier regional daily is the primary casualty -- mirroring the mid-tier author pattern in Example A. [CF-007]
+- 136 newspapers closed in the year covered by the 2025 Medill State of Local News report -- more than two per week. 3,500+ closed since 2004. 270,000+ newspaper jobs lost over two decades. 7,000 in 2023 alone. [CF-007]
+- 300+ local digital news startups launched over five years -- but they are smaller, predominantly digital-only, and do not replicate accountability journalism at equivalent scale. [CF-007]
+- The survivors in local news are either major national brands or hyper-local digital nonprofits. The mid-tier regional daily is the primary casualty -- mirroring the mid-tier author pattern in Example A. [CF-007]
 
-**Upstream capture: training data.** The hollowing documented here has a second extraction layer beyond distribution. The authors, illustrators, and journalists whose work trained content-generation models received no compensation for supplying training input. Those models now produce outputs that compete directly with the work used to train them. Capture happens at both ends of the chain: upstream (training) and downstream (distribution and ranking). Even a creator who navigates the distribution gate successfully is competing against a system trained, in part, on their own prior work. Licensing frameworks (EU AI Act training data obligations, ongoing US litigation including the New York Times lawsuit) address the upstream mechanism; they are not yet binding at scale in US markets. [plausible -- confirmed for mechanism; income impact on individual creators of training-data extraction is not independently measured.] This is the same upstream extraction documented in the IT ladder case, where public code becomes training input for tools that then reduce demand for the labor that produced it.
+**Upstream capture: training data.** The hollowing documented here has a second extraction layer beyond distribution. The authors, illustrators, and journalists whose work trained content-generation models received no compensation for supplying training input. Those models now produce outputs that compete directly with the work used to train them. Capture happens at both ends of the chain: upstream (training) and downstream (distribution and ranking). Even a creator who navigates the distribution gate successfully is competing against a system trained, in part, on their own prior work. Licensing frameworks (EU AI Act training data obligations, ongoing US litigation including the New York Times lawsuit) address the upstream mechanism; they are not yet binding at scale in US markets. This is the same upstream extraction documented in the IT ladder case, where public code becomes training input for tools that then reduce demand for the labor that produced it.
 
 ### Reach and exposure
 
 **Best available reach estimates [confidence noted per figure]:**
 
-Site count is a confirmed proxy for the scale of the pink slime problem: 1,265 sites identified by NewsGuard as of June 2024, now outnumbering actual daily newspapers. [CF-008; plausible -- NewsGuard methodology, not independently peer-reviewed] Reach per site and total audience affected is not independently measured at the same confidence level. The strongest counterweight in the research is that 92% of pink slime sites have no detectable traffic, per Iffy.news -- site count is not reach count. [CF-008; plausible] The partisan-funded subset of these sites is more sophisticated and does have documented audiences, but the size of that audience has not been independently quantified. For the 50 million Americans in counties with limited or no local news access [CF-007; confirmed], the population exposed to vacuum conditions is measurable; whether and how often they encounter pink slime content in that vacuum is not.
+Site count is a confirmed proxy for the scale of the pink slime problem: 1,265 sites identified by NewsGuard as of June 2024, now outnumbering actual daily newspapers. [CF-008; plausible -- NewsGuard methodology, not independently peer-reviewed] Reach per site and total audience affected is not independently measured at the same confidence level. The strongest counterweight in the research is that 92% of pink slime sites have no detectable traffic, per Iffy.news -- site count is not reach count. The partisan-funded subset of these sites is more sophisticated and does have documented audiences, but the size of that audience has not been independently quantified. For the 50 million Americans in counties with limited or no local news access, the population exposed to vacuum conditions is measurable; whether and how often they encounter pink slime content in that vacuum is not.
 
 **Option value of harm [logical inference -- not a confirmed empirical claim]:** If reach is low today, the option value of harm is still high: production is near-zero cost and targeting is increasingly precise. A low-reach information operation can become a high-reach one quickly, without the investment that would previously have signaled intent.
 
@@ -238,7 +257,7 @@ Site count is a confirmed proxy for the scale of the pink slime problem: 1,265 s
 
 ### Mechanism 2: Exit / captivity
 
-**What it is:** if users, creators, or businesses can't leave without losing their identity, history, audience, or income, they're captive " and the gate can squeeze.
+**What it is:** if users, creators, or businesses can't leave without losing their identity, history, audience, or income, they're captive -- and the gate can squeeze.
 
 **Mechanism Modules (reusable inserts):**
 
@@ -249,12 +268,12 @@ Site count is a confirmed proxy for the scale of the pink slime problem: 1,265 s
 
 ##### Local government outcomes
 
-- [confirmed] Municipal bond offering yields rise 5.5 basis points after newspaper closure; revenue bond yields rise 10.6 basis points. Post-closure governments show higher wages, higher deficits, and more costly bond practices. (Gao, Lee, Murphy, Journal of Financial Economics, 2020.) [CF-009]
-- [confirmed] After the Cincinnati Post closed in December 2007, voter turnout fell, fewer candidates ran for office, and incumbents became more likely to win reelection in Post-reliant suburbs. Effects persisted through 2010 despite the Cincinnati Enquirer increasing coverage of former Post territory. (Schulhofer-Wohl and Garrido, NBER, natural experiment design.) [CF-010]
-- [confirmed] Citizens in areas with less local news coverage are less able to evaluate their member of Congress, less likely to express opinions, and less likely to vote. (Hayes and Lawless, Journal of Politics, 2015.) [CF-010 context]
-- [plausible -- working paper] When a newspaper disappears, corruption charges in that jurisdiction rise 6.9%, indicted defendants 6.8%, cases filed 7.4%. (George Mason working paper, BU Platform Strategy conference 2021; working paper status as of early 2026 -- not confirmed as peer-reviewed publication.) [CF-011]
-- [confirmed] In 1966, 70% of voters could name their mayor. By 2016, 40% could. (Polling data; widely cited in local news research.) [CF-007 context]
-- [unknown] Whether AI-generated local news filling news desert gaps reduces or worsens civic capacity outcomes. The mechanism could cut either way: some information might sustain some engagement; partisan content might actively harm it. No study found on this specific question.
+- Municipal bond offering yields rise 5.5 basis points after newspaper closure; revenue bond yields rise 10.6 basis points. Post-closure governments show higher wages, higher deficits, and more costly bond practices. (Gao, Lee, Murphy, Journal of Financial Economics, 2020.) [CF-009]
+- After the Cincinnati Post closed in December 2007, voter turnout fell, fewer candidates ran for office, and incumbents became more likely to win reelection in Post-reliant suburbs. Effects persisted through 2010 despite the Cincinnati Enquirer increasing coverage of former Post territory. (Schulhofer-Wohl and Garrido, NBER, natural experiment design.) [CF-010]
+- Citizens in areas with less local news coverage are less able to evaluate their member of Congress, less likely to express opinions, and less likely to vote. (Hayes and Lawless, Journal of Politics, 2015.) [CF-010 context]
+- When a newspaper disappears, corruption charges in that jurisdiction rise 6.9%, indicted defendants 6.8%, cases filed 7.4%. (George Mason working paper, BU Platform Strategy conference 2021; working paper status as of early 2026 -- not confirmed as peer-reviewed publication.) [CF-011]
+- In 1966, 70% of voters could name their mayor. By 2016, 40% could. (Polling data; widely cited in local news research.) [CF-007 context]
+- Whether AI-generated local news filling news desert gaps reduces or worsens civic capacity outcomes. The mechanism could cut either way: some information might sustain some engagement; partisan content might actively harm it. No study found on this specific question.
 
 **What the evidence does not say:** The three civic-capacity studies (municipal bonds, Cincinnati Post, Hayes/Lawless) measure the effect of newspaper closure -- a pre-AI phenomenon. They establish that the vacuum AI content farms are filling was already damaging. They do not measure what AI content does to those outcomes once it occupies the vacuum.
 
@@ -291,35 +310,35 @@ Example B has stronger quantitative and peer-reviewed evidence: multiple publish
 
 ### Children's content
 
-**Factual error risk [plausible]**
+**Factual error risk**
 The Indicator investigation (October 2025) documented cover-level errors and format anomalies in 517 AI-appearing children's nonfiction books. Internal factual errors (incorrect science, history) are reported by practitioner reviewers but have not been audited systematically. The NC State study (November 2025, qualitative, 13 groups) found parents and children raised concerns about errors in illustrations that might encourage unsafe behavior. Older children noticed size and behavior errors. This is user perception of risk, not a content audit. [CF-004, CF-006b]
 
 **Why it matters:** Consumer-facing labeling and expert curation review are needed not just to protect creators, but to protect child readers from authoritative-looking misinformation in a format they trust.
 
-**Unsafe advice risk [plausible, structural -- no confirmed incident]**
-AI systems have been documented to generate dangerous advice in conversational contexts. In children's books touching on science, nature, or health, AI generation without expert review creates the same structural risk in a format that looks authoritative to parents. No specific confirmed case of a child harmed by AI-generated book content was found in this research. The NC State study found parents and children are more concerned about realistic or science-oriented content than about fables -- consistent with the risk being concentrated in nonfiction. [CF-006b]
+**Unsafe advice risk**
+AI systems have been documented generating dangerous advice in conversational contexts. In children's books touching on science, nature, or health, AI generation without expert review creates the same structural risk in a format that looks authoritative to parents. No specific confirmed case of a child harmed by AI-generated book content was found in this research. The NC State study found parents and children are more concerned about realistic or science-oriented content than about fables -- consistent with the risk being concentrated in nonfiction. [CF-006b]
 
 **Why it matters:** The curation infrastructure -- librarian and educator review -- is the functional safety gate for this risk. Its degradation is the harm, regardless of whether a specific incident has been documented yet.
 
-**Impersonation / counterfeit risk [plausible]**
+**Impersonation / counterfeit risk**
 AI-generated books with synthetic author profiles mimicking real author names or recognizable series are documented in library practitioner sources and in NPR reporting (March 2024). Systematic documentation of specific impersonation cases is not available in this research. The Indicator investigation found books with synthetic profile pictures and author names with no digital footprint. [CF-004]
 
 **Why it matters:** Without provenance, the brand signal that parents and librarians use to select books is corruptible. An author's name becomes a mimicable signal rather than a guarantee.
 
-**Wasted trust / purchasing signal degraded [confirmed gap]**
+**Wasted trust / purchasing signal degraded**
 No consumer-facing AI label exists on Amazon KDP listings as of early 2026. Amazon has internal disclosure data; parents and librarians do not. The NC State study found most parents want cover-level AI labels and would adjust their acceptance of AI content based on them. The current system provides neither the label nor the review. [CF-003, CF-006b]
 
 ---
 
 ### News-like content
 
-**Civic harm via impersonation [confirmed -- specific documented cases]**
+**Civic harm via impersonation**
 Pink slime sites use names designed to mimic trusted local papers. AI-generated audio of President Biden was used in New Hampshire robocalls (FCC fined the consultant $6 million). AI-generated audio mimicking a Maryland school principal went viral with roughly 2 million views before identification. These demonstrate the impersonation mechanism; the news-site version is documented in structure (named mimicry) but measured reach is limited in aggregate. [CF-008, CF-007 context]
 
-**Misinformation at scale [plausible for structure; reach limited for most sites]**
+**Misinformation at scale**
 NewsGuard identified sites generating AI-written stories with partisan narratives. The site count (1,265) is confirmed per NewsGuard's methodology. Whether content contains materially false factual claims vs. partisan framing is not uniformly documented. 92% of pink slime sites have no detectable traffic (Iffy.news) -- the structural threat is larger than the current-day reach for most sites. The partisan-funded, sophisticated subset is the current-day risk. [CF-008]
 
-**Local trust erosion [plausible, mechanism not directly measured]**
+**Local trust erosion**
 When AI-generated sites masquerade as local news and publish inaccurate or partisan content, readers who later discover it was fake may reduce trust in all local digital news -- including legitimate outlets. This is a plausible mechanism, not a documented measured effect. The documented progression from news desert to AI-content-farm vacuum-filler is confirmed; whether readers can distinguish the two is unknown. [CF-008]
 
 ---
@@ -333,7 +352,7 @@ Amazon controls the dominant self-publishing and e-book platform in the US. Its 
 **What accountability mechanisms exist:**
 
 - Amazon requires publishers to disclose AI-generated content at upload (since December 2023). This is an internal disclosure -- Amazon receives the data; consumers do not see it. No public compliance audit has been published. [CF-003]
-- Amazon can remove books from sale. After the Indicator investigation notified Amazon of its findings, Amazon removed 198 books -- a confirmed fact. The 517-book base count is the investigator's inference from external signals, not Amazon's internal classification. [plausible] Taking 517 as the base, the removal rate is approximately 38%; taking only the confirmed removal figure, 319 books from the flagged set remained on sale after notification. [CF-004]
+- Amazon can remove books from sale. After the Indicator investigation notified Amazon of its findings, Amazon removed 198 books -- a confirmed fact. The 517-book base count is the investigator's inference from external signals, not Amazon's internal classification. Taking 517 as the base, the removal rate is approximately 38%; taking only the confirmed removal figure, 319 books from the flagged set remained on sale after notification. [CF-004]
 
 **What contestability looks like for authors:**
 
@@ -372,15 +391,15 @@ Google simultaneously benefits financially from AI-generated search summaries th
 
 ## 7. Provenance deployment reality
 
-| Approach                                           | Announced                               | Default-on                                                                         | Preserved (survives re-encoding)                                                     | Visible to end user                               | Actionable (affects ranking/access)                    |
-| -------------------------------------------------- | --------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------- | ------------------------------------------------------ |
-| Amazon KDP internal AI disclosure                  | confirmed                               | unknown -- self-reported by publisher                                              | N/A (internal database)                                                              | No -- not surfaced to consumers                   | unknown                                                |
-| YouTube AI disclosure label                        | confirmed                               | No -- creator opt-in; YouTube can apply proactively in some cases                  | N/A (YouTube-native)                                                                 | confirmed (label appears on video)                | No -- label does not affect distribution               |
-| TikTok AI label (Content Credentials)              | confirmed                               | Partial -- automatic for TikTok AI tools; upload-from-elsewhere requires detection | confirmed for TikTok-native; unknown for re-encoded uploads                          | confirmed (label appears)                         | No                                                     |
-| Meta AI label                                      | confirmed                               | Partial -- automatic for Meta AI tools                                             | unknown                                                                              | confirmed                                         | No                                                     |
-| C2PA Content Credentials (general)                 | confirmed (5,000+ member organizations) | No -- opt-in by content creator                                                    | **No -- stripped by all social platforms during image/video processing** [confirmed] | No -- buried in metadata, not surfaced by default | No -- no platform uses credentials as a ranking signal |
-| EU AI Act marking requirement                      | confirmed (law, adopted March 2024)     | Compliance required but not yet enforced for all system types                      | unknown -- technical implementation not yet specified                                | unknown -- depends on implementation              | unknown                                                |
-| C2PA hardware-level (Sony, Leica, Google Pixel 10) | confirmed                               | confirmed for those devices                                                        | **No -- stripped at social platform upload** [confirmed]                             | No                                                | No                                                     |
+| Approach                                           | Announced                               | Default-on                                                                         | Preserved (survives re-encoding)                                         | Visible to end user                               | Actionable (affects ranking/access)                    |
+| -------------------------------------------------- | --------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------- | ------------------------------------------------------ |
+| Amazon KDP internal AI disclosure                  | confirmed                               | unknown -- self-reported by publisher                                              | N/A (internal database)                                                  | No -- not surfaced to consumers                   | unknown                                                |
+| YouTube AI disclosure label                        | confirmed                               | No -- creator opt-in; YouTube can apply proactively in some cases                  | N/A (YouTube-native)                                                     | confirmed (label appears on video)                | No -- label does not affect distribution               |
+| TikTok AI label (Content Credentials)              | confirmed                               | Partial -- automatic for TikTok AI tools; upload-from-elsewhere requires detection | confirmed for TikTok-native; unknown for re-encoded uploads              | confirmed (label appears)                         | No                                                     |
+| Meta AI label                                      | confirmed                               | Partial -- automatic for Meta AI tools                                             | unknown                                                                  | confirmed                                         | No                                                     |
+| C2PA Content Credentials (general)                 | confirmed (5,000+ member organizations) | No -- opt-in by content creator                                                    | **No -- stripped by all social platforms during image/video processing** | No -- buried in metadata, not surfaced by default | No -- no platform uses credentials as a ranking signal |
+| EU AI Act marking requirement                      | confirmed (law, adopted March 2024)     | Compliance required but not yet enforced for all system types                      | unknown -- technical implementation not yet specified                    | unknown -- depends on implementation              | unknown                                                |
+| C2PA hardware-level (Sony, Leica, Google Pixel 10) | confirmed                               | confirmed for those devices                                                        | **No -- stripped at social platform upload**                             | No                                                | No                                                     |
 
 **On C2PA credential stripping:**
 All social networks strip photo metadata during routine image processing and video transcoding, removing C2PA content credentials. This is a technical consequence of standard platform processing, not deliberate suppression. The C2PA specification acknowledges this and proposes "soft bindings" and external manifest repositories as a workaround -- but no major social platform has confirmed that external manifest retrieval is operational at scale. (Sources: Tim Bray technical investigation, September 18, 2025; C2PA Specification v2.3, Section on Durable Content Credentials.) [CF-015]
@@ -396,7 +415,7 @@ C2PA membership (5,000+ organizations) and steering committee participation (Ope
 
 When synthetic content scales faster than verification, authenticity becomes scarce and verification becomes gate power.
 
-In both scenes here, that dynamic is already operating. Amazon cannot reliably distinguish a synthetic author profile from a real one at intake. Search engines surface AI-generated sites using names that mimic trusted local outlets. Librarians rely on the same signals -- author footprint, publisher history, cover design -- that AI production can now mimic at near-zero cost.
+In both scenes here, that dynamic is already operating. Amazon can't reliably distinguish a synthetic author profile from a real one at intake. Search engines surface AI-generated sites using names that mimic trusted local outlets. Librarians rely on the same signals -- author footprint, publisher history, cover design -- that AI production can now mimic at near-zero cost.
 
 The result: verification becomes the chokepoint. Platforms that control verification decide who is believed. That control is not governed.
 
@@ -406,15 +425,15 @@ The result: verification becomes the chokepoint. Platforms that control verifica
 
 ### Impersonation at scale is documented, not speculative
 
-**Financial identity:** FinCEN Advisory FIN-2023-A003 (November 13, 2023) documents AI-generated deepfake images, audio, and documents being used to defeat remote identity verification at financial institutions -- liveness checks, document authentication, account opening controls. FinCEN noted that standard liveness detection may be insufficient against AI-generated deepfakes. [S-08 from anchor research; confirmed]
+**Financial identity:** FinCEN Advisory FIN-2023-A003 (November 13, 2023) documents AI-generated deepfake images, audio, and documents being used to defeat remote identity verification at financial institutions -- liveness checks, document authentication, account opening controls. FinCEN noted that standard liveness detection may be insufficient against AI-generated deepfakes.
 
-**Scale of the underlying synthetic identity problem:** A Federal Reserve white paper (July 2019) estimated synthetic identity fraud costs US lenders approximately $6 billion annually, making it the fastest-growing financial crime at that time. The mechanism: a real Social Security number combined with fabricated name and address history, slowly building a credit profile before bust-out. Traditional verification fails because the SSN is valid -- the fraud doesn't trigger standard name/SSN mismatch alerts. [S-07 from anchor research; plausible-strong -- Federal Reserve research paper, not an audit finding; $6B figure is a 2019 estimate, treat as a floor]
+**Scale of the underlying synthetic identity problem:** A Federal Reserve white paper (July 2019) estimated synthetic identity fraud costs US lenders approximately $6 billion annually, making it the fastest-growing financial crime at that time. The mechanism: a real Social Security number combined with fabricated name and address history, slowly building a credit profile before bust-out. Traditional verification fails because the SSN is valid -- the fraud doesn't trigger standard name/SSN mismatch alerts. (Federal Reserve research paper, not an audit finding; $6B figure is a 2019 estimate, likely a floor rather than a ceiling.)
 
-**The AI-amplification mechanism:** AI lowers the cost of fabricating supporting documents, generating credible address histories, and automating the profile-building process. FinCEN FIN-2023-A003 confirms this mechanism is under active regulatory observation as of late 2023. The dollar scale of AI-enabled fraud specifically is not yet separately quantified in a primary government source. [plausible -- FinCEN advisory documents observed patterns; scale not quantified]
+**The AI-amplification mechanism:** AI lowers the cost of fabricating supporting documents, generating credible address histories, and automating the profile-building process. FinCEN FIN-2023-A003 confirms this mechanism is under active regulatory observation as of late 2023. The dollar scale of AI-enabled fraud specifically is not yet separately quantified in a primary government source.
 
-**Content domain:** In Example A, the Indicator investigation (October 2025) found books with synthetic author profile pictures -- generated images in place of real author photos. No external digital footprint. The impersonation is structural: a fake identity in a legitimate distribution channel, using the trust signal of a real-looking author profile. [CF-004; plausible]
+**Content domain:** In Example A, the Indicator investigation (October 2025) found books with synthetic author profile pictures -- generated images in place of real author photos. No external digital footprint. The impersonation is structural: a fake identity in a legitimate distribution channel, using the trust signal of a real-looking author profile.
 
-In Example B, pink slime sites use outlet names designed to mimic trusted local papers (NewsGuard, confirmed pattern [CF-008]). In early 2024, AI-generated audio mimicking President Biden was used in primary-suppression robocalls; the FCC fined the responsible consultant $6 million. A separate deepfake mimicking a Maryland school principal reached approximately 2 million views before identification. [CF-007 context; confirmed]
+In Example B, pink slime sites use outlet names designed to mimic trusted local papers (NewsGuard, confirmed pattern [CF-008]). In early 2024, AI-generated audio mimicking President Biden was used in primary-suppression robocalls; the FCC fined the responsible consultant $6 million. A separate deepfake mimicking a Maryland school principal reached approximately 2 million views before identification.
 
 #### Module 3.1 Provenance (content)
 
@@ -422,13 +441,13 @@ In Example B, pink slime sites use outlet names designed to mimic trusted local 
 
 The table in Section 7 maps existing provenance approaches. The relevant measure is not whether a standard is announced, but whether it is functional at the point of consumer decision:
 
-| Dimension                              | Current state in these scenes                                                                                |
-| -------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| Announced                              | Yes -- Amazon KDP disclosure requirement; EU AI Act marking; C2PA standard                                   |
-| Default-on                             | No -- Amazon disclosure is publisher-self-reported; C2PA requires creator opt-in                             |
-| Preserved (survives re-encoding)       | No -- C2PA credentials stripped by all social platforms during standard image processing [CF-015; confirmed] |
-| Visible to end user                    | No -- Amazon disclosure is internal only; no consumer-facing label on KDP listings [CF-003; confirmed]       |
-| Actionable (affects ranking or access) | No -- no platform uses AI disclosure as a ranking signal in either scene [CF-003, CF-016]                    |
+| Dimension                              | Current state in these scenes                                                             |
+| -------------------------------------- | ----------------------------------------------------------------------------------------- |
+| Announced                              | Yes -- Amazon KDP disclosure requirement; EU AI Act marking; C2PA standard                |
+| Default-on                             | No -- Amazon disclosure is publisher-self-reported; C2PA requires creator opt-in          |
+| Preserved (survives re-encoding)       | No -- C2PA credentials stripped by all social platforms during standard image processing  |
+| Visible to end user                    | No -- Amazon disclosure is internal only; no consumer-facing label on KDP listings        |
+| Actionable (affects ranking or access) | No -- no platform uses AI disclosure as a ranking signal in either scene [CF-003, CF-016] |
 
 The gap is not in the "announced" column. The gap is in every column that matters for a consumer making a real-time decision.
 
@@ -460,7 +479,7 @@ Six questions for determining whether a market shift produced broadly shared ben
 
 **1. Did prices fall for consumers (books, news access)?**
 
-[plausible/unknown] AI-generated children's books on Amazon likely price at $2.99--$9.99, or are included in Kindle Unlimited at no marginal cost, vs. $15--$20 for traditionally published picture books. Price may be lower. However, a price decline for a degraded product is not a shared gain. No systematic price comparison study exists. For local news: most local news was already free online before AI content farms appeared. AI content is not reducing subscription prices for surviving local news outlets, which are moving toward paid subscriptions. Access to high-quality local news is deteriorating even if "free" AI content is technically available.
+AI-generated children's books on Amazon likely price at $2.99--$9.99, or are included in Kindle Unlimited at no marginal cost, vs. $15--$20 for traditionally published picture books. Price may be lower. However, a price decline for a degraded product is not a shared gain. No systematic price comparison study exists. For local news: most local news was already free online before AI content farms appeared. AI content is not reducing subscription prices for surviving local news outlets, which are moving toward paid subscriptions. Access to high-quality local news is deteriorating even if "free" AI content is technically available.
 
 **2. Did creator/journalist wages rise?**
 
@@ -468,11 +487,11 @@ Six questions for determining whether a market shift produced broadly shared ben
 
 **3. Did time-cost or administrative burden fall for creators?**
 
-[plausible -- partially, with offset.] AI tools can reduce time on certain writing tasks -- drafts, outlines, image concept generation -- for authors who choose to use them. Some illustrators report using AI for initial concept work. The administrative burden of competing with AI-generated books (marketing, discoverability, review accumulation on a crowded platform) may have increased in parallel. For journalists, AI tools reduce transcription and routine content time -- but structural economic pressure is eliminating journalism jobs rather than freeing journalists to do higher-value work.
+AI tools can reduce time on certain writing tasks -- drafts, outlines, image concept generation -- for authors who choose to use them. Some illustrators report using AI for initial concept work. The administrative burden of competing with AI-generated books (marketing, discoverability, review accumulation on a crowded platform) may have increased in parallel. For journalists, AI tools reduce transcription and routine content time -- but structural economic pressure is eliminating journalism jobs rather than freeing journalists to do higher-value work.
 
 **4. Did the diversity of voices in the market increase or decrease?**
 
-[plausible -- decreased at the meaningful end.] The raw number of titles published has increased, but the diversity of human authorship in children's books and local news is likely declining. Mid-tier authors with distinctive voices are being squeezed; brand-name survivors and AI-generated volume content are the poles. News deserts create information monocultures -- only national outlets, if anything -- in affected counties. [CF-001, CF-007]
+The raw number of titles published has increased, but the diversity of human authorship in children's books and local news is likely declining. Mid-tier authors with distinctive voices are being squeezed; brand-name survivors and AI-generated volume content are the poles. News deserts create information monocultures -- only national outlets, if anything -- in affected counties. [CF-001, CF-007]
 
 **5. Can creators and journalists contest platform ranking or takedown decisions?**
 
@@ -480,21 +499,21 @@ Six questions for determining whether a market shift produced broadly shared ben
 
 **6. Can readers exit to alternative trusted sources?**
 
-[plausible -- diminishing for Example A; confirmed declining for Example B.] In Example A, readers can exit to traditional bookstores, library catalogs, or traditional publisher offerings -- for those who seek them out. Amazon's dominance means most consumer discovery happens on its platform. In Example B, in 213 news-desert counties with limited or no local news, there are no local alternatives to exit to. Exit to national news is available but does not replace local government accountability coverage. [CF-006, CF-007]
+In Example A, readers can exit to traditional bookstores, library catalogs, or traditional publisher offerings -- for those who seek them out. Amazon's dominance means most consumer discovery happens on its platform. In Example B, in 213 news-desert counties with limited or no local news, there are no local alternatives to exit to. Exit to national news is available but does not replace local government accountability coverage. [CF-006, CF-007]
 
 **Test result:** All six questions point in the same direction. Prices may be lower for a degraded product. Creator/journalist wages did not rise. Diversity likely fell. Contestability does not exist. Exit options are deteriorating. The market shift did not produce shared gains.
 
 ---
 
-### 8.A Bottlenecks and market power (M7)
+### 8.A Bottlenecks and market power
 
 ### Distribution is the gate; ranking is the product
 
 In both scenes, a small number of firms control what gets discovered.
 
-Amazon controls the dominant self-publishing and e-book marketplace in the US. Its search ranking algorithm determines which children's books reach the top of results. Its recommendation engine determines what parents see on product pages. These are not neutral conduits -- they are the product. Ranking is how Amazon sells attention, and attention is what determines whose content gets revenue. [CF-003; confirmed]
+Amazon controls the dominant self-publishing and e-book marketplace in the US. Its search ranking algorithm determines which children's books reach the top of results. Its recommendation engine determines what parents see on product pages. These are not neutral conduits -- they are the product. Ranking is how Amazon sells attention, and attention is what determines whose content gets revenue.
 
-Google controls the dominant news-discovery pathway for most US readers. In news deserts -- 213 counties as of the 2025 Medill report -- Google is often the only available local news discovery channel. Publisher traffic fell 33% globally and 38% in the US between November 2024 and November 2025. No publisher appeal process exists for that traffic loss. [CF-007, CF-012; plausible for traffic decline attribution; confirmed for the absence of a publisher appeal mechanism]
+Google controls the dominant news-discovery pathway for most US readers. In news deserts -- 213 counties as of the 2025 Medill report -- Google is often the only available local news discovery channel. Publisher traffic fell 33% globally and 38% in the US between November 2024 and November 2025. No publisher appeal process exists for that traffic loss. [CF-007, CF-012]
 
 ### Lock-in: creators and publishers cannot move their audiences
 
@@ -522,15 +541,15 @@ Lower content production costs -- the central economic change AI introduces -- a
 
 **Anti-tying.** A platform that controls distribution should not be permitted to tie algorithmic ranking to participation in its own monetization system (advertising, subscription, affiliate programs) in ways that penalize independent publishers. The structural conflict of interest documented in both scenes (Google funds publishers via GNI while also reducing their traffic via AI Overviews; Amazon benefits from volume while also receiving the internal disclosure data it does not surface to consumers) warrants regulatory scrutiny.
 
-**Transparency on ranking penalties and takedown decisions.** The minimum requirement is that a creator or publisher knows when their content was demoted or removed, why, and how to contest it. Current platform behavior does not meet this standard in either scene. [CF-020; confirmed]
+**Transparency on ranking penalties and takedown decisions.** The minimum requirement is that a creator or publisher knows when their content was demoted or removed, why, and how to contest it. Current platform behavior does not meet this standard in either scene.
 
 **Distribution gates as private law.** Ranking penalties, demonetization, and deplatforming decisions in this domain operate as private law: they are made by firms without the procedural requirements of public law -- no required notice, no defined appeal timeline, no published records, no independent review. The creator or publisher who loses discovery traffic has no recourse equivalent to what a regulated utility customer or government benefit recipient would have. This is the governance gap that makes the levers above necessary, not merely preferable.
 
 This pattern is not unique to publishing. The same trust-gate dynamic appears wherever distribution becomes concentrated and platform policy functions as de facto regulation: app stores that set developer identity requirements, hiring platforms that control credential verification for job applicants, health information platforms that determine which sources appear authoritative in search. In each case, the platform's trust decisions -- what gets labeled, ranked, removed, or deprioritized -- are governance decisions made without governance accountability. The lever is the same across all of them: contestable labels, appeal paths, and audit rights applied at the point where distribution and trust intersect.
 
-**G3 lever.** Require disclosure of training data sources for AI content-generation tools operating in commercial publishing and news contexts. Licensing frameworks, opt-in/opt-out defaults, and collective bargaining structures for creator work used in AI training address the upstream capture layer -- independent of whether the downstream distribution problem is resolved.
+**On training data disclosure.** Require disclosure of training data sources for AI content-generation tools operating in commercial publishing and news contexts. Licensing frameworks, opt-in/opt-out defaults, and collective bargaining structures for creator work used in AI training address the upstream capture layer -- independent of whether the downstream distribution problem is resolved.
 
-**One thing to do (M7).** If you are a creator or publisher choosing a distribution platform: before committing, ask whether you can export your audience contacts, your review history, and your content ranking metadata if you leave. If the platform cannot answer yes to all three, build a direct-to-reader channel (email list, RSS feed, direct website) in parallel from day one. Portability you build yourself is the only portability that does not depend on platform goodwill.
+**One thing to do.** If you are a creator or publisher choosing a distribution platform: before committing, ask whether you can export your audience contacts, your review history, and your content ranking metadata if you leave. If the platform cannot answer yes to all three, build a direct-to-reader channel (email list, RSS feed, direct website) in parallel from day one. Portability you build yourself is the only portability that does not depend on platform goodwill.
 
 ---
 
@@ -578,9 +597,9 @@ This pattern is not unique to publishing. The same trust-gate dynamic appears wh
 
 **The mechanism:** When production volume rises faster than review capacity, human editorial judgment gets replaced by platform algorithm judgment. That is not a neutral swap. Platform algorithms optimize for engagement and advertiser value -- not accuracy, safety, or community relevance. Trust in what gets surfaced migrates from human editorial decision-making to opaque algorithmic ranking.
 
-**What gets lost:** In Example A, the curation infrastructure between AI-generated production and child readers is the librarian and the school acquisitions process. ALA issued AI guidance for school librarians in September 2025 -- confirming the gap is real at the national professional level. Library acquisition workflows were designed for a world where production friction filtered content before it arrived. That friction is gone. The curation infrastructure has not expanded to compensate. [CF-006; plausible from practitioner sources and ALA response]
+**What gets lost:** In Example A, the curation infrastructure between AI-generated production and child readers is the librarian and the school acquisitions process. ALA issued AI guidance for school librarians in September 2025 -- confirming the gap is real at the national professional level. Library acquisition workflows were designed for a world where production friction filtered content before it arrived. That friction is gone. The curation infrastructure has not expanded to compensate. [CF-006]
 
-In Example B, local editorial judgment -- the reporter who knows the city council, the editor who knows which sources to trust, the institutional memory of what was promised vs. what was delivered -- is what local news provides that a search algorithm cannot. Newsrooms have shed more than 270,000 jobs over two decades. The curation function has been removed from the market; AI-generated content is filling the vacuum without any equivalent of that judgment operating. [CF-007; confirmed]
+In Example B, local editorial judgment -- the reporter who knows the city council, the editor who knows which sources to trust, the institutional memory of what was promised vs. what was delivered -- is what local news provides that a search algorithm cannot. Newsrooms have shed more than 270,000 jobs over two decades. The curation function has been removed from the market; AI-generated content is filling the vacuum without any equivalent of that judgment operating.
 
 **What this means for governance:** Curation capacity is a form of human command over what the community trusts. When it atrophies, trust shifts to whoever controls the ranking algorithm. That is a transfer of social authority from accountable local institutions (libraries, newsrooms) to unaccountable platforms. Rebuilding it is not just a staffing question -- it requires sustained funding and procurement rules that treat curation as a public function, not an overhead cost.
 
@@ -590,7 +609,7 @@ In Example B, local editorial judgment -- the reporter who knows the city counci
 - Trusted publisher programs: platforms should maintain verified publisher registries that signal editorial accountability, with the burden on platforms to maintain and disclose verification criteria
 - Public institutional curation: library systems, school districts, and public media can serve as certified human-review layers -- but only if they are funded at the scale the flood requires
 
-**One thing to do (M6).** At a public media, library board, or platform policy hearing: ask whether the platform or vendor publishes the appeal overturn rate for content removal and demonetization decisions, and what staffing level it maintains for human editorial review. A platform that cannot report these numbers does not have the curation infrastructure it is implying. Asking the question publicly creates a record that accountability requires an answer.
+**One thing to do.** At a public media, library board, or platform policy hearing: ask whether the platform or vendor publishes the appeal overturn rate for content removal and demonetization decisions, and what staffing level it maintains for human editorial review. A platform that cannot report these numbers does not have the curation infrastructure it is implying. Asking the question publicly creates a record that accountability requires an answer.
 
 ---
 
@@ -656,7 +675,7 @@ For consistent queries in both scenes, track the publisher or domain name of the
 
 ### Method 3: External footprint check (author/publisher legitimacy proxy)
 
-For each sampled book or news site: run author or outlet name through Google, LinkedIn, and WorldCat. A match on all three (any result in WorldCat, matched biography, result predating 2022) = plausibly human. Zero matches = flag for AI-likely. This operationalizes the same proxy librarians already use informally.
+For each sampled book or news site: run author or outlet name through Google, LinkedIn, and WorldCat. A match on all three (any result in WorldCat, matched biography, result predating 2022) = plausibly human. Zero matches = flag for AI-likely. This applies the same proxy librarians already use informally.
 
 ### Method 4: Removal and reporting follow-up (enforcement effectiveness)
 
@@ -670,7 +689,18 @@ For sampled Amazon listings: check for any AI disclosure label visible to consum
 
 ---
 
-## 12. What good looks like -- the Market Integrity minimum floor
+## 12. What good looks like
+
+The goal is not to stop AI-assisted creation. The goal is to make sure lower production costs do not wipe out human creators, trusted local publishers, or the public's ability to tell what it is seeing.
+
+In plain language, good looks like this:
+
+- creators can still be found without gaming an opaque system
+- audiences can tell what they are looking at
+- attribution survives the pipeline
+- ranking penalties and takedowns can be appealed
+- creators can move their audience relationships instead of starting from zero every time
+- AI lowers drudge work without destroying income, trust, or visibility
 
 ### Provenance / labeling
 
@@ -710,13 +740,13 @@ For sampled Amazon listings: check for any AI disclosure label visible to consum
 
 Does a creator or publisher have meaningful human control over decisions that affect their content?
 
-| Check                                                                                                  | Current state                                                                                                                                                                                                                                                |
-| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Notice** -- does a creator or publisher know when their content is ranked down, removed, or flagged? | No for ranking changes (neither Amazon nor Google notifies creators of algorithmic demotions). Partial for content removal -- Amazon notifies of takedowns; ranking demotion has no notice mechanism. [CF-020]                                               |
-| **Reason** -- is the basis disclosed in plain language?                                                | No for ranking changes. Partial for content removal -- policies exist but are documented as opaque by peer-reviewed research. [CF-020]                                                                                                                       |
-| **Appeal** -- is there a real path to contest a takedown or ranking penalty?                           | Partial for takedowns (formal process exists, documented as slow and opaque). None for ranking changes -- no appeal mechanism exists for ranking decisions at either Amazon or Google. [CF-020; confirmed]                                                   |
-| **Records** -- can the creator see what triggered the action?                                          | No. Creators have no access to the signals that drove a ranking decision or a content flag. Amazon's internal AI disclosure data is not accessible to creators or third parties.                                                                             |
-| **Human override** -- who can review and reverse a content decision?                                   | Unknown for Amazon KDP. No documented human review process for Google ranking changes. Peer-reviewed research characterizes platform moderation appeals as "dysfunctional" with oversight "so invisible it may as well be non-existent." [CF-020; confirmed] |
+| Check                                                                                                  | Current state                                                                                                                                                                                                                            |
+| ------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Notice** -- does a creator or publisher know when their content is ranked down, removed, or flagged? | No for ranking changes (neither Amazon nor Google notifies creators of algorithmic demotions). Partial for content removal -- Amazon notifies of takedowns; ranking demotion has no notice mechanism. [CF-020]                           |
+| **Reason** -- is the basis disclosed in plain language?                                                | No for ranking changes. Partial for content removal -- policies exist but are documented as opaque by peer-reviewed research. [CF-020]                                                                                                   |
+| **Appeal** -- is there a real path to contest a takedown or ranking penalty?                           | Partial for takedowns (formal process exists, documented as slow and opaque). None for ranking changes -- no appeal mechanism exists for ranking decisions at either Amazon or Google.                                                   |
+| **Records** -- can the creator see what triggered the action?                                          | No. Creators have no access to the signals that drove a ranking decision or a content flag. Amazon's internal AI disclosure data is not accessible to creators or third parties.                                                         |
+| **Human override** -- who can review and reverse a content decision?                                   | Unknown for Amazon KDP. No documented human review process for Google ranking changes. Peer-reviewed research characterizes platform moderation appeals as "dysfunctional" with oversight "so invisible it may as well be non-existent." |
 
 **Summary:** Human command is structurally absent for ranking decisions and weak for content removal in both scenes. This is not an accident -- it is an architectural choice. Accountability requires changing the architecture.
 
@@ -760,7 +790,7 @@ Did the efficiency gains from AI-driven production cost reduction produce broadl
 | **Did distribution costs fall for independent and local publishers?**                            | Partially for production costs (AI tools reduce transcription, drafting, image concept time). But distribution cost -- the cost of being discovered -- did not fall. Platform concentration means discovery requires conforming to Amazon's or Google's ranking preferences. Traffic to publishers fell 33-38% globally between November 2024 and November 2025. [CF-012]               |
 | **Who captured the efficiency gains?**                                                           | Platform margin and content farms. Amazon earns on every book sold regardless of whether it is AI-generated or human. Google earns ad revenue from search traffic flowing to any content type. Neither platform has a structural incentive to prefer quality over volume. The efficiency gain at the production layer produced volume that platforms monetize and creators cannot stop. |
 
-**Test result:** The market shift did not produce shared gains. Lower costs went to platform volume and content farm operators. Creators, journalists, and readers in news deserts absorbed the costs.
+**Test result:** The market shift did not produce shared gains. AI lowered production costs, but the benefits did not reliably reach creators or readers. Platforms captured the upside through volume and control of discovery. Creators absorbed the income squeeze. Readers absorbed the trust tax.
 
 ---
 
@@ -808,7 +838,7 @@ The ask is not to stop AI. It is to make the gate visible.
 
 - **Monthly squeeze:** Indirect but real. Confirmed peer-reviewed evidence links newspaper closure to higher municipal borrowing costs, higher government wages and deficits, and worse electoral accountability. The vacuum AI content fills was already damaging the public infrastructure that reduces squeeze. AI accelerates that dynamic without replacing what was lost.
 - **Insecurity:** For creators, algorithmic demotion with no notice and no appeal is income instability without cause. For readers in news deserts, the inability to distinguish reliable from synthetic local coverage is a form of epistemic insecurity -- you cannot trust what you read, but you cannot find an alternative.
-- **Manipulation / scapegoats:** The trust collapse and precision targeting (G5) make the content flood a direct accelerant of the manipulation loop. AI enables cheap, targeted delivery of narratives designed to redirect blame. A low-reach pink slime operation can produce outsized civic damage in a news desert during a local election.
+- **Manipulation / scapegoats:** The trust collapse and precision targeting make the content flood a direct accelerant of the manipulation loop. AI enables cheap, targeted delivery of narratives designed to redirect blame. A low-reach pink slime operation can produce outsized civic damage in a news desert during a local election.
 - **No fixes / more squeeze:** Absent provenance standards and contestable ranking, the information environment degrades with no accountable party. Platforms benefit from engagement regardless of source quality. The governance gap is also an information gap: only platforms know the scale.
 
 ### Effect on the good loop
@@ -832,25 +862,23 @@ The ask is not to stop AI. It is to make the gate visible.
 
 ## North Star verdict
 
-This case sits inside a pattern the project keeps finding: scarcity plus extraction, but here the scarcity is in information and trust rather than housing or healthcare. The loop still runs. Insecurity in the information commons -- parents who can't tell if a book is safe, communities that have no local news and then get fake local news instead -- is a form of squeeze that feeds the same manipulation and division the North Star is built to interrupt.
+This case shows a familiar pattern in a new setting: abundance can still be captured. AI made content cheap to produce, but that did not make the market fairer for creators or safer for audiences. The scarcity moved downstream to discovery, ranking, and trust.
 
 The gate shift is not a malfunction. It is the predictable outcome of an ungoverned market where production costs collapsed and no one re-governed the distribution and trust layers that replaced them. The middle was hollowed in both scenes before AI arrived. AI accelerated the hollowing and filled the vacuum with content that mimics what was lost.
 
-The loop runs through the news desert: information insecurity makes people easier to mislead, misleading content deepens division, division prevents fixes, no fixes means the insecurity compounds. Whether AI content filling that vacuum accelerates the civic harm or merely continues a collapse that was already underway is not yet measurable -- the research file explicitly marks this [unknown]. The loop mechanism is plausible; the marginal contribution of AI content specifically has not been isolated.
+The loop runs through the news desert: information insecurity makes people easier to mislead, misleading content deepens division, division prevents fixes, no fixes means the insecurity compounds. Whether AI content filling that vacuum accelerates the civic harm or merely continues a collapse that was already underway is not yet measurable -- the research file explicitly marks this. The loop mechanism is plausible; the marginal contribution of AI content specifically has not been isolated.
 
-**System lesson in one sentence:** When production cost drops to near-zero, governance must move downstream -- to distribution, ranking, and trust -- or the gate will be held by whoever has the least accountability to the people the content reaches.
+**System lesson in one sentence:** When content gets cheap, the people who control discovery and trust control whether creators can still earn, whether audiences can still know what they are seeing, and whether the gains are broadly shared or quietly captured.
 
 ---
 
-[RESEARCH GAP: No peer-reviewed study isolates AI-specific income decline for US children's book authors or illustrators as distinct from the pre-existing income compression trend. The UK Society of Authors survey is the best available data but is directional only -- UK context, 6.3% response rate, self-reported.]
+## Research gaps
 
-[RESEARCH GAP: No study measures whether AI-generated local news content, once it occupies a news desert, reduces or worsens civic outcomes (voter turnout, corruption detection, candidate diversity). The civic capacity studies measure the effect of news closure; they do not measure the effect of AI content filling the subsequent vacuum.]
-
-[RESEARCH GAP: No systematic content audit of AI-appearing children's books has been published assessing internal factual error rates or safety risks to child readers. The Indicator investigation documented external signals (cover errors, synthetic profiles); it did not audit content quality inside the books.]
-
-[RESEARCH GAP: Amazon has not published compliance rates for its December 2023 AI disclosure requirement. The effectiveness of the policy -- how many AI-generated books are actually disclosed -- is unknown.]
-
-[RESEARCH GAP: Whether AI-labeled content on YouTube or TikTok performs differently in audience engagement (views, completion rate, shares) than equivalent unlabeled content is not available from public data. If labeling has no audience consequence, it is a transparency measure but not a market signal.]
+- **AI-specific income decline for authors and illustrators.** No peer-reviewed study isolates AI-specific income decline for US children's book authors or illustrators as separate from the pre-existing income compression trend. The UK Society of Authors survey is the best available data but is directional only -- UK context, 6.3% response rate, self-reported.
+- **AI content in news deserts.** No study measures whether AI-generated local news filling a news desert improves or worsens civic outcomes (voter turnout, corruption detection, candidate diversity). The civic capacity studies document the effect of news closure; they don't measure what happens when AI content fills the vacuum.
+- **Children's book content quality.** No systematic content audit of AI-appearing children's books has assessed factual error rates or safety risks. The Indicator investigation documented external signals (cover errors, synthetic author profiles); it didn't audit what's inside the books.
+- **Amazon's AI disclosure compliance rate.** Amazon hasn't published how many books declared as AI-generated comply with its December 2023 disclosure requirement. The effectiveness of the policy is unknown.
+- **Labeling effects on engagement.** Whether AI-labeled content on YouTube or TikTok performs differently in audience engagement (views, completion rate, shares) than unlabeled equivalent content isn't available from public data. If labeling has no audience consequence, it's a transparency measure but not a market signal.
 
 ---
 
