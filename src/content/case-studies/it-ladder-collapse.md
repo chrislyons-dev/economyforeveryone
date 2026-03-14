@@ -62,7 +62,7 @@ AI is taking over the tasks that early-career IT workers used to learn through: 
 Two things we don't know yet -- and they'll determine how serious this gets:
 
 1. **Are new AI-adjacent roles absorbing displaced junior workers at comparable scale, stability, and pay?** No study measures this yet. If yes, the ladder is shifting rather than collapsing. If no, a cohort of workers is being permanently priced out of the IT career path.
-2. **Does mid-level compression follow junior compression with a lag?** Current data shows junior declining, mid-level stable or slightly rising. The hourglass prediction needs a second phase. Check IESE, Stanford, and Indeed data in 12--24 months.
+2. **Does mid-level compression follow junior compression with a lag?** Current data shows junior declining, mid-level stable or slightly rising. The hourglass prediction needs a second phase. Check IESE, Stanford, and Indeed data in 12-24 months.
 
 The honest answer is that the evidence is early. The mechanism is documented. The scale and permanence are not.
 
@@ -193,7 +193,7 @@ This is the home mechanism for the IT ladder case: the ladder is not only "jobs 
 
 Evidence base:
 
-- Early-career employment declines for the 22--25 cohort in AI-exposed roles [IT-001]
+- Early-career employment declines for the 22-25 cohort in AI-exposed roles [IT-001]
 - Junior posting share down / experience requirements rising [IT-003]
 - Mixed or negative org-level delivery outcomes despite tool adoption [IT-006]
 - Task-level productivity gains do not automatically become system-level gains [IT-005, IT-007]
@@ -268,7 +268,7 @@ The distinction matters because nominal human involvement satisfies most existin
 **Code review (AI-generated code):**
 
 - Current position: human-in-the-loop by policy in most engineering organizations. Pull request approval is still a human act.
-- Rubber-stamp risk: Highest of the three. PRs are larger and more numerous with AI assist [DORA 2024]. Review time has increased 91% in high-AI-adoption teams (Faros, vendor-produced — treat as illustrative, not load-bearing). Trust in AI output accuracy is falling while use is rising [IT-012]. The conditions for automation bias are present: volume pressure, trust-use gap, social norms around throughput.
+- Rubber-stamp risk: Highest of the three. PRs are larger and more numerous with AI assist [DORA 2024]. Review time has increased 91% in high-AI-adoption teams (Faros, vendor-produced - treat as illustrative, not load-bearing). Trust in AI output accuracy is falling while use is rising [IT-012]. The conditions for automation bias are present: volume pressure, trust-use gap, social norms around throughput.
 - What the DORA finding shows: Delivery stability fell 7.2% despite AI adoption and nominal code review processes remaining in place [IT-006]. The most plausible explanation consistent with the evidence is that review quality is degrading -- but DORA does not establish this directly.
 
 ---
@@ -534,7 +534,7 @@ The business case for this rulebook is not altruism -- it is risk management. Id
 
 ### Minimum viable "Learning Work" rulebook
 
-None of these has been documented at scale in the AI era — they're what good looks like, not a description of current practice.
+None of these has been documented at scale in the AI era - they're what good looks like, not a description of current practice.
 
 **1. Funded mentorship time treated as production capacity, not overhead**
 Mentorship hours are budgeted alongside delivery sprint capacity. They are not optional slack to be reclaimed under schedule pressure. Metrics track junior skill development alongside team throughput.
@@ -649,7 +649,7 @@ The good version is possible, but only if organizations treat learning and revie
 
 **System lesson in one sentence:** AI's productivity gains distribute upward by default; only deliberate guardrails -- in procurement contracts, HR practice, and eventually binding regulation -- will push them down.
 
-**Resource externalities.** The infrastructure enabling AI coding tools at scale -- data centers, compute, cooling, power grid upgrades -- externalizes energy and infrastructure costs onto local communities unless procurement and policy require ""load pays"" commitments. When compute costs are socialized through utility rate increases and gains are captured as tooling vendor margin or corporate efficiency, the monthly squeeze rises twice: once for workers who receive none of the productivity gain, and once for communities absorbing the infrastructure cost. This does not change the shared gains test result here -- it extends it: the efficiency gains from AI tools and the energy and water costs of running them belong on the same ledger. Enforceable community benefit agreements and infrastructure cost disclosure are the mechanism for ensuring the externality does not land on the people who received none of the gain.
+**Resource externalities.** The infrastructure enabling AI coding tools at scale -- data centers, compute, cooling, power grid upgrades -- externalizes energy and infrastructure costs onto local communities unless procurement and policy require "load pays" commitments. When compute costs are socialized through utility rate increases and gains are captured as tooling vendor margin or corporate efficiency, the monthly squeeze rises twice: once for workers who receive none of the productivity gain, and once for communities absorbing the infrastructure cost. This does not change the shared gains test result here -- it extends it: the efficiency gains from AI tools and the energy and water costs of running them belong on the same ledger. Enforceable community benefit agreements and infrastructure cost disclosure are the mechanism for ensuring the externality does not land on the people who received none of the gain.
 
 ---
 

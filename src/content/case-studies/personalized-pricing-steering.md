@@ -56,9 +56,15 @@ A renter in Charlotte is deciding between two apartment complexes. Both are mana
 
 ---
 
+### Why this matters
+
+This is not just a story about smarter pricing. It is a story about power in markets where normal people cannot easily walk away. When AI helps firms see exactly how trapped, urgent, or uninformed a customer is, personalization stops being a convenience and starts becoming a better way to extract.
+
+---
+
 ## 2. What's happening
 
-Pricing algorithms in essential markets -- rent, insurance, credit, healthcare -- are shifting the extraction toward consumers who can't leave. The efficiency gains from AI price-setting go to the firms deploying it. The people absorbing higher prices or worse terms have no real way to detect, contest, or escape the algorithm.
+In essential markets like rent, insurance, credit, and healthcare, pricing algorithms are often not making choice more real. They are helping firms charge more precisely against people who cannot easily leave. The result is not just higher prices. It is more unpredictable bills, weaker comparison-shopping, and less leverage for households already under pressure.
 
 ### What the helpful version looks like
 
@@ -70,9 +76,21 @@ Algorithmic pricing can genuinely help consumers when competition is real: insur
 
 ---
 
+### The fork in the road
+
+Used badly, AI turns essential markets into precision extraction systems. Firms learn who is least able to leave, what signals urgency, and how much friction a normal person will tolerate before giving up. Prices rise, choices get murkier, and the burden falls on households.
+
+Used well, AI can reduce search time, surface better-fit offers, and lower costs for people who shop carefully or have been poorly served by blunt pricing systems. But that only happens when markets are actually competitive, switching is realistic, and people can inspect and challenge the logic shaping the offer.
+
+The difference is not whether pricing is personalized. The difference is whether the person has real options.
+
+---
+
 ## 3. Why it's happening -- the mechanisms
 
 This case runs on two rails. Lumping them together muddies the analysis.
+
+A simpler way to say it: when people cannot really leave, smarter pricing becomes smarter extraction.
 
 - **Rail A: coordination at scale.** Competing firms share non-public pricing data through a common algorithm. The harm is market-level: the competitive price signal gets replaced by a coordinated one. (Primary example: RealPage rent-setting.)
 - **Rail B: individual targeting and steering.** A consumer is assigned to a price tier or routing path based on signals that act as proxies for characteristics the firm can't (or shouldn't) use directly. The harm is individual-level: unequal prices, unequal access, opaque recourse.
@@ -89,13 +107,13 @@ When systems become too fast, cheap, or opaque to overrule, "human review" becom
 
 > Applied to personalized pricing and routing decisions in essential markets.
 
-| Element            | Status                                                                                                                                                                                                                                                                                                                                                                                                     |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Notice**         | Partial and jurisdiction-dependent. New York Algorithmic Pricing Disclosure Act (effective November 10, 2025) requires disclosure when a price is set by algorithm using personal data. No federal analog. Healthcare PA decisions: no federal requirement to disclose AI involvement.                                                                                                                     |
-| **Reason**         | Incomplete. CFPB Circular 2023-03 requires specific adverse action reasons for AI credit denials; enforcement uncertain as of March 2026. No equivalent standard for insurance pricing or healthcare PA routing under federal law. Where reasons are provided, they often reference criteria categories rather than specific model inputs.                                                                 |
-| **Appeal**         | Nominally present; structurally deterred. Healthcare PA: appeal pathway exists; overturn rates are significant when pursued; most patients do not pursue. Credit: adverse action notice required; appeal path through creditor, not through a neutral party. Rent: no appeal mechanism for a coordinated price.                                                                                            |
-| **Records**        | Not accessible to consumers in any system reviewed. Pricing inputs, model version, output price, and benchmark comparison are not available to the consumer on demand. Regulator access is jurisdiction-dependent and generally not operationalized.                                                                                                                                                       |
-| **Human override** | Present for some decisions; structurally marginal for others. Healthcare PA: physician-to-physician review available on appeal; not required before initial AI denial. Rent: landlords could technically reject RealPage recommendations; DOJ complaint documents acceptance as the structural default. Credit: human review available at creditor discretion; not required for AI-driven adverse actions. |
+| Element            | Status                                                                                                                                                                                                                                                                                                                                                                                                         |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Notice**         | **Partial and jurisdiction-dependent.** New York Algorithmic Pricing Disclosure Act (effective November 10, 2025) requires disclosure when a price is set by algorithm using personal data. No federal analog. Healthcare PA decisions: no federal requirement to disclose AI involvement.                                                                                                                     |
+| **Reason**         | **Incomplete.** CFPB Circular 2023-03 requires specific adverse action reasons for AI credit denials; enforcement uncertain as of March 2026. No equivalent standard for insurance pricing or healthcare PA routing under federal law. Where reasons are provided, they often reference criteria categories rather than specific model inputs.                                                                 |
+| **Appeal**         | **Nominally present; structurally deterred.** Healthcare PA: appeal pathway exists; overturn rates are significant when pursued; most patients do not pursue. Credit: adverse action notice required; appeal path through creditor, not through a neutral party. Rent: no appeal mechanism for a coordinated price.                                                                                            |
+| **Records**        | **Not accessible to consumers in any system reviewed.** Pricing inputs, model version, output price, and benchmark comparison are not available to the consumer on demand. Regulator access is jurisdiction-dependent and generally not operationalized.                                                                                                                                                       |
+| **Human override** | **Present for some decisions; structurally marginal for others.** Healthcare PA: physician-to-physician review available on appeal; not required before initial AI denial. Rent: landlords could technically reject RealPage recommendations; DOJ complaint documents acceptance as the structural default. Credit: human review available at creditor discretion; not required for AI-driven adverse actions. |
 
 **Finding:** Human Command is not present in any essential market reviewed at a level that meets the minimum floor. The closest thing is CFPB Circular 2023-03 (credit reason codes) and New York's disclosure law. Both are partial, and one has uncertain enforcement status.
 
@@ -139,6 +157,8 @@ Captivity operational definition (from Section 5): a consumer is operationally c
 
 The switching costs aren't abstract. Switching health insurers mid-year typically requires a qualifying life event -- job change, marriage, birth. Switching landlords means losing your deposit, paying moving costs, and risking a worse market. Switching auto insurers may trigger a lapse-in-coverage penalty on your next quote. In each case, the "choice" to stay isn't a preference -- it's a barrier that the algorithm's owner faces no pressure to lower.
 
+That is why "choice" in these markets is often a performance, not a protection.
+
 **Finding:** Exit is not realistic in any essential market reviewed under the captivity definition. This raises the governance bar: where exit fails, disclosure, audit rights, and contestability aren't optional improvements -- they're the only available mechanism to prevent extraction from becoming the structural norm.
 
 ---
@@ -167,6 +187,8 @@ Checklist:
 - which data sources were used (first-party, broker, derived proxies)
 - how to challenge incorrect inputs
 - a record of the quote/route shown to the consumer
+
+Without this, a person cannot tell whether the offer reflects real cost, real risk, or the model's guess about how much extra they will tolerate.
 
 #### Module 3.2: Personhood and credentials (people)
 
@@ -287,7 +309,7 @@ A renter facing two RealPage-coordinated landlords has no non-coordinated altern
 
 For the insurer and data broker gates, dependence is compounded by invisibility. The consumer can't identify the bottleneck, which means they can't price-shop around it, advocate against it, or detect when the efficiency gain has been captured as margin.
 
-**Upstream capture via data brokers.** The data broker layer in this case is also an upstream extraction problem: location, transaction, and behavioral data that feeds pricing models was generated by individuals who received no compensation for supplying it. As AI models are trained on aggregated consumer behavioral data, the value extraction extends upstream -- the price signal trained on your behavior gets sold back to the institution that prices you. Opt-out mechanisms exist in theory (CCPA, CPRA in California); in practice, the broker ecosystem isn't auditable by individual consumers. This is the same upstream capture mechanism documented in the content flood case, where creator work becomes training input without consent or compensation.
+**Upstream capture via data brokers.** The data broker -> model vendor -> institution that prices you. Opt-out mechanisms exist in theory (CCPA, CPRA in California); in practice, the broker ecosystem isn't auditable by individual consumers. This is the same upstream capture mechanism documented in the content flood case, where creator work becomes training input without consent or compensation.
 
 ##### Levers
 
@@ -374,6 +396,8 @@ Pull from the control-stack and procurement layers:
 ---
 
 ## 5. The captivity condition
+
+This is the center of the case. The algorithm matters, but captivity is what gives it teeth. If a normal person cannot switch without losing time, money, coverage, housing stability, or income, then the market is no longer disciplining the seller.
 
 A consumer is operationally captive when two or more of the following apply simultaneously. The more conditions present, the higher the extraction ceiling.
 
@@ -526,6 +550,16 @@ Public institutions that contract with insurers, landlords, or financial service
 
 ## 13. What good looks like
 
+The goal is not to ban all personalization. The goal is to make sure AI helps normal people find fairer terms instead of helping firms discover exactly how much more they can take.
+
+In plain language, good looks like this:
+
+- people can compare real prices, not fake choices
+- switching is possible without losing the essentials tied to the service
+- the factors shaping an offer are visible enough to challenge
+- "discounts" are not just hidden penalties for the wrong ZIP code, device, or urgency signal
+- when AI lowers cost, households see part of the benefit
+
 A pricing algorithm in an essential market earns its place by showing that it improves access and reduces costs -- not by asserting that it does. The minimum conditions:
 
 - **Disclosure:** consumers know when a price is individually set using their data.
@@ -559,19 +593,21 @@ _Cross-cutting module insert pass: 2026-03-08. Agent: economy-writer. Inserts ad
 
 ## Loop Effect
 
+In E4E terms, this is how the monthly squeeze gets smarter: not just through higher prices, but through prices targeted to the places where people are least able to say no.
+
 ### Effect on the bad loop
 
 - **Monthly squeeze:** Algorithmic rent coordination adds an estimated $70/month per affected unit (plausible -- not independently confirmed). Proxy discrimination in insurance and credit inflates premiums and limits access for lower-income and minority households. In captive markets, the efficiency gain is captured as margin, not passed as lower prices.
 - **Insecurity:** When you can't see the price logic, can't tell if you're being treated fairly, and can't exit without loss, you can't plan. Invisible pricing in essential markets (housing, insurance, credit, healthcare) turns routine transactions into sources of instability.
 - **Manipulation / scapegoats:** Opaque pricing makes the extraction mechanism invisible. Consumers assume they are priced on risk or market rate, not on inferred vulnerability. The mechanism that concentrates the gain is undetectable without legal discovery.
-- **No fixes / more squeeze:** Accountability laundering (data broker â†’ model vendor â†’ institution) means no party owns the pricing harm. No US disclosure requirement exists for algorithmic pricing in most reviewed markets as of March 2026.
+- **No fixes / more squeeze:** Accountability laundering (data broker -> model vendor -> institution) means no party owns the pricing harm. No US disclosure requirement exists for algorithmic pricing in most reviewed markets as of March 2026.
 
 ### Effect on the good loop
 
 - **Security:** All-in price disclosure at point of decision, specific adverse action reasons, and non-discrimination audits with proxy tests would reduce the information asymmetry that makes extraction possible.
 - **Choice:** Portability tools, comparison-shopping infrastructure, and switching cost reductions are proxies for exit in markets where full exit isn't realistic. No current mechanism gives consumers comparable pricing logic across providers.
 - **Competition:** Independent model audits, anti-tying rules (distribution + monetization), bans on covert coordination tools in rental markets, and non-discrimination rules for mandatory markets would make rigging harder.
-- **Shared gains:** No documented evidence that algorithmic pricing efficiency in any reviewed captive market has produced lower prices, better access, or reduced switching costs for consumers. Efficiency gains are captured as margin.
+- **Shared gains:** No documented evidence in the reviewed captive markets shows algorithmic pricing lowering household costs, improving access, or making switching easier. The efficiency is real. The sharing is not. The gains are being captured as margin.
 
 ### Case verdict
 
@@ -587,7 +623,7 @@ _Cross-cutting module insert pass: 2026-03-08. Agent: economy-writer. Inserts ad
 
 ## North Star Verdict
 
-Personalized pricing and steering is **compatible with a healthy market** only when it increases real choice and lowers total cost for normal people.
+Personalized pricing is not the problem by itself. The problem is using hidden pricing and steering in markets where people cannot realistically leave. In that setting, AI does not improve choice. It helps firms turn household constraints into margin.
 
 **Pass (good loop):**
 

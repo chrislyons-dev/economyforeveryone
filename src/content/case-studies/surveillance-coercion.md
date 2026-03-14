@@ -29,23 +29,24 @@ receiptTags:
 sources: []
 ---
 
-- [AI and Surveillance + Coercion (Government + Workplace)](#ai-and-surveillance--coercion-government--workplace)
-  - [1. One scene](#1-one-scene)
-  - [2. What's happening](#2-whats-happening)
-  - [3. The mechanism](#3-the-mechanism)
-  - [4. Why it's happening](#4-why-its-happening)
-  - [5. Control stack](#5-control-stack)
-  - [6. Evidence](#6-evidence)
-  - [7. Governance + procurement](#7-governance--procurement)
-  - [7a. Vendor concentration and procurement lock-in (Module 7)](#7a-vendor-concentration-and-procurement-lock-in-module-7)
-  - [7b. Four governance checks](#7b-four-governance-checks)
-  - [8. Safety/reliability overreach check](#8-safetyreliability-overreach-check)
-  - [9. Shared gains test](#9-shared-gains-test)
-  - [10. What to do](#10-what-to-do)
-  - [11. What good looks like](#11-what-good-looks-like)
-  - [Research gaps](#research-gaps)
-  - [North Star Verdict](#north-star-verdict)
-  - [Bridge language](#bridge-language)
+- [1. One scene](#1-one-scene)
+- [2. What's happening](#2-whats-happening)
+- [The fork in the road](#the-fork-in-the-road)
+- [3. The mechanism](#3-the-mechanism)
+- [4. Why it's happening](#4-why-its-happening)
+- [5. Control stack](#5-control-stack)
+- [6. Evidence](#6-evidence)
+- [7. Governance + procurement](#7-governance--procurement)
+- [7a. Vendor concentration and procurement lock-in (Module 7)](#7a-vendor-concentration-and-procurement-lock-in-module-7)
+- [7b. Four governance checks](#7b-four-governance-checks)
+- [8. Safety/reliability overreach check](#8-safetyreliability-overreach-check)
+- [9. Shared gains test](#9-shared-gains-test)
+- [10. What to do](#10-what-to-do)
+- [11. What good looks like](#11-what-good-looks-like)
+- [Research gaps](#research-gaps)
+- [Loop Effect](#loop-effect)
+- [North Star Verdict](#north-star-verdict)
+- [Bridge language](#bridge-language)
 
 ---
 
@@ -55,15 +56,21 @@ A rideshare driver gets a notification: account deactivated. No explanation. No 
 
 The algorithm fired. The human channel absorbed the complaint. The process produced no review.
 
-Three miles away, a ShotSpotter alert fires at 1:38 AM. Officers are dispatched to a block in a majority-Black neighborhood -- 1 minute and 38 seconds faster than a 911 call. No gun, no crime, no shell casing. One of 87 similar alerts this month that will turn up nothing (NYPD Comptroller audit, June 2024). The people on that block were not charged. They were also not told they were flagged. There is no mechanism for them to find out, let alone contest it.
+Three miles away, a ShotSpotter alert sends officers to a majority-Black block at 1:38 AM. They arrive before any 911 caller reports a crime. They find no gun, no shell casings, and no evidence that a shooting happened. But that does not mean nothing happened. Police were still sent into an ordinary neighborhood because a system flagged it. That can mean people being woken up, questioned, treated as suspicious, or pulled into a tense encounter they did nothing to cause. And because no formal charge follows, the people affected are not told the alert was wrong, cannot contest it, and have no way to show how often their block is being subjected to the same kind of false deployment. This is an E4E problem because insecurity does not only come from formal punishment. It also comes from living under repeated suspicion, added stress, and unpredictable contact with state power that you cannot see, explain, or challenge.
 
 Two systems. Two industries. Same structure: automated flag, nominal human review, no functional appeal, friction cost absorbed by the person at the bottom.
 
 ---
 
+### Why this matters
+
+People do not need to be convicted, fired through a formal hearing, or even clearly told what happened for surveillance systems to control them. When AI makes people easy to flag and hard to clear, fear, friction, and selective pressure can do the work of punishment without the protections that usually come with punishment.
+
+---
+
 ## 2. What's happening
 
-AI and data-aggregation systems have made surveillance cheap enough to run continuously, at scales where formal adjudication -- charges, hearings, appeals -- would be economically or politically impossible. The result is coercion without punishment: selective pressure, chilling effects, and friction costs that fall entirely on the people being watched, while enforcement agencies and employers pocket the efficiency gains.
+AI and data-aggregation systems have made surveillance cheap enough to run continuously and broadly. In the documented failure cases, that does not mainly produce better justice or better safety. It produces cheap flagging, cheap tracking, and cheap enforcement, while the burden of clearing an error stays expensive for the person being watched.
 
 This is not inevitable. Where specific governance rules exist -- Detroit's facial recognition settlement, Seattle's gig-worker arbitration, Illinois BIPA's private right of action -- outcomes improve. The problem is not the technology. It is the absence of minimum floors, and the pace at which deployment has outrun the rules.
 
@@ -75,11 +82,23 @@ This is not inevitable. Where specific governance rules exist -- Detroit's facia
 
 ---
 
+## The fork in the road
+
+Used badly, AI turns surveillance into a low-cost pressure system. More people get flagged. More actions happen before any real review. Fear rises because normal people cannot see, understand, or challenge what is being done to them.
+
+Used well, narrowly scoped tools can support safety or administration without turning daily life into a coercive maze. That requires hard use limits, independent corroboration before high-stakes action, logs that outsiders can inspect, and real appeal paths when people are harmed.
+
+The difference is not whether AI is present. The difference is whether rights and accountability keep pace with deployment.
+
+---
+
 ## 3. The mechanism
 
 ### Which power shifts, and how
 
 The research file (Section 0a) frames this as a cost asymmetry. Surveillance tools reduce the marginal cost of flagging, scoring, or tracking individuals to near zero. Institutions use that capacity to monitor at scales where case-by-case adjudication is impossible. Enforcement then operates through selective pressure -- audits, stops, deactivations, border detentions -- rather than through formal process.
+
+A simpler way to say it: the system can now throw suspicion around at industrial scale, but clearing your name is still a hand-built process.
 
 The category matters. What produces coercive effects is not the compute method (ML vs. rules-based vs. data aggregation). It is the combination of scale, opacity, and low contestability. Three categories appear in the evidence:
 
@@ -118,7 +137,11 @@ These are distinct. Both matter. Neither substitutes for the other.
 
 An accuracy fix does not resolve a rights failure. A system can misidentify at low rates and still operate with no meaningful contest right. Accuracy arguments and rights arguments are separate -- one cannot carry the other.
 
+A system can get more accurate and still leave ordinary people powerless inside it.
+
 **Surveillance data enables precision persuasion.** The location, behavioral, and social network data collected for enforcement purposes is the same data used for targeted political ad delivery, influence operations, and algorithmic narrative control. Commercial data brokers sell the same location databases to ICE and to political campaigns. Workplace monitoring data that predicts deactivation risk can also predict union-organizing likelihood. The coercion pathways and the epistemic influence pathways share a substrate -- they are not separate problems with separate data. This matters for the E4E loop: when surveillance-scale data collection feeds precision persuasion, the chilling effect on organizing and political participation operates even without a formal enforcement action. The same contractual prohibited-use categories that limit enforcement misuse also limit secondary persuasion use -- they are the same lever, applied at the procurement stage. The scale of crossover use for political persuasion from this specific data hasn't been independently measured, but the mechanism is real. This is the same precision persuasion mechanism documented in the content flood trust-collapse section, accelerated by a surveillance-scale data substrate.
+
+That is why this is not only a civil-liberties story. It is also a shared-reality story: the same data that makes people easier to police can make them easier to target, isolate, and manipulate.
 
 ### The three coercion pathways
 
@@ -128,17 +151,23 @@ A ShotSpotter acoustic sensor classifies a sound as a gunshot and transmits an a
 
 Philadelphia's AI-assisted targeted policing, which used human-reviewed offender-focused lists rather than area-wide automated alerts, was associated with a 42% violent crime reduction in the study area (DOJ, December 2024). This is a single jurisdiction and the methodology has not been independently replicated. It did not exhibit the volume-without-accuracy pattern documented in ShotSpotter and PredPol deployments.
 
+For the people living there, that means police contact and suspicion can arrive faster than truth.
+
 **Pathway 2: Immigration / benefits enforcement (ImmigrationOS, Flock, commercial data)**
 
 ICE purchases commercial location data from data brokers without obtaining warrants -- a mechanism confirmed by a September 2023 DHS Inspector General audit. Flock Safety's network of approximately 90,000 license plate reader cameras performs 20 billion monthly vehicle scans across 7,000 law enforcement networks; local agency data has been accessed by ICE for immigration enforcement at scale, including 4,000+ documented lookups. The $30 million Palantir ImmigrationOS contract (awarded April 2025) aggregates passport records, SSA and IRS data, and ALPR records to prioritize deportation. The targeting decision precedes any judicial review; if the underlying data contains an error -- a misidentified license plate, a wrong SSN association -- the individual may not be able to discover or contest it before detention. How accurately the ImmigrationOS system prioritizes targets hasn't been independently verified.
 
 Downstream: peer-reviewed research documents that Hispanic adults reduced preventive healthcare-seeking following increased ICE activity in their state (Health Affairs). A 2025 study found a 16.9% decline in health provider visits for likely authorized Hispanic immigrants following Secure Communities (ScienceDirect). The chilling effect operates without a single formal charge. These studies measure the behavioral response to enforcement visibility broadly, not to algorithmic tracking specifically. The causal contribution of AI surveillance tools to this effect requires inference at the margin.
 
+For the person caught in the data chain, the system acts first and explains later, if it explains at all.
+
 **Pathway 3: Workplace / gig (Uber/Lyft deactivation; Amazon TOT)**
 
 Uber and Lyft monitor driver behavior continuously -- acceptance rate, cancellations, ratings, route adherence. An algorithm generates a deactivation flag. The driver may or may not receive an explanation; HRW found nearly half of surveyed deactivated workers said no adequate explanation was provided (May 2025). Deactivation is immediate income termination. Prop 22 in California eliminates NLRA grievance rights. The internal appeal channel -- 1,735+ calls, 1,458+ emails, 1,580+ in-app messages -- produced no helpful response in two-thirds of cases (ACRE, March 2025). Seattle's independent arbitration reversed 80% of deactivations. The platform's internal NYC review reversed approximately 10%. The governance structure, not the facts of each case, determines the outcome.
 
 At Amazon warehouses, the TOT system tracks time between scans, transit time between zones, bathroom breaks, and medical episodes. Warnings accumulate toward discipline or termination algorithmically. The Senate HELP Committee (December 2024) found Amazon knew its productivity standards caused injuries and did not change them. Amazon warehouse workers were injured at a rate 30% above the industry average in 2023; in each of the past seven years, Amazon workers were nearly twice as likely to be injured as workers at non-Amazon warehouses. Amazon disputes these findings and claims fewer than 1% of workers are terminated for TOT; it does not disclose the override rate or review process.
+
+For the worker, income can disappear before any meaningful review begins.
 
 ---
 
@@ -235,7 +264,6 @@ Surveillance scales because a few vendors/data brokers become the pipe. Once the
 
 Where this case study hits: data brokers, ALPR networks, and platform governance that keeps reversal/override rates private.
 
-
 #### Mechanism 8: Control loops
 
 _When automation becomes the environment, mistakes become life outcomes and appeals become post-hoc._
@@ -274,6 +302,8 @@ The villain is not law enforcement or employers as such. It is an incentive stru
 ---
 
 ## 5. Control stack
+
+This is where a lot of reassuring language breaks down. A human can appear somewhere in the workflow and still have no real chance to stop a bad action, explain it, or reverse it in time.
 
 ### Human-in-the-loop vs. human-on-the-loop vs. human-in-command
 
@@ -447,12 +477,12 @@ These four boxes apply to every system covered in this case study. They are a qu
 >
 > The question: can a normal person opt out of being surveilled? If exit is not realistic, governance burden rises -- institutions must provide the protections that exit would otherwise enable.
 >
-> | Context                                                                             | Exit available?                                                                                                                                                                                                                                                                                           |
-> | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-> | Public surveillance (ALPR, facial recognition, gunshot detection)                   | No. A person who walks, drives, or lives in a covered area is surveilled. There is no opt-out. Flock Safety cameras cover 7,000 law enforcement networks across the US. A person cannot know which streets are covered or request removal from the database.                                              |
-> | Immigration enforcement (ImmigrationOS, commercial location data)                   | No. An immigrant whose phone location data was sold to a broker and purchased by ICE has no notice of the purchase and no mechanism to correct errors in the aggregated record before enforcement action.                                                                                                 |
-> | Workplace surveillance (Amazon TOT, gig deactivation)                               | Theoretical. Workers can quit. Re-employment at comparable wages and conditions is not documented at scale. Platform deactivation is immediate income termination; platform concentration limits effective alternatives in many markets.                                                                  |
-> | Pro-democracy / political activity (fusion center surveillance, protest monitoring) | No. Fusion centers used for pro-Palestine student surveillance in 2024; multiple universities received HSI briefings on protest activity. Students and activists cannot opt out of fusion center monitoring without abandoning protected activity. |
+> | Context                                                                             | Exit available?                                                                                                                                                                                                                                              |
+> | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+> | Public surveillance (ALPR, facial recognition, gunshot detection)                   | No. A person who walks, drives, or lives in a covered area is surveilled. There is no opt-out. Flock Safety cameras cover 7,000 law enforcement networks across the US. A person cannot know which streets are covered or request removal from the database. |
+> | Immigration enforcement (ImmigrationOS, commercial location data)                   | No. An immigrant whose phone location data was sold to a broker and purchased by ICE has no notice of the purchase and no mechanism to correct errors in the aggregated record before enforcement action.                                                    |
+> | Workplace surveillance (Amazon TOT, gig deactivation)                               | Theoretical. Workers can quit. Re-employment at comparable wages and conditions is not documented at scale. Platform deactivation is immediate income termination; platform concentration limits effective alternatives in many markets.                     |
+> | Pro-democracy / political activity (fusion center surveillance, protest monitoring) | No. Fusion centers used for pro-Palestine student surveillance in 2024; multiple universities received HSI briefings on protest activity. Students and activists cannot opt out of fusion center monitoring without abandoning protected activity.           |
 >
 > **Assessment:** Exit is unavailable for public surveillance and immigration enforcement. Exit is theoretically available but structurally constrained for workplace surveillance and political monitoring. Where exit is not realistic, the governance burden on institutions is higher -- notice, reason, appeal, records, and override are not optional supplements. They are the substitutes for the exit right the person cannot exercise.
 
@@ -482,12 +512,12 @@ You cannot opt out of public surveillance. You cannot decline to have your licen
 >
 > The question: did the deployment reduce harm measurably? Did costs to the surveilled population fall? Did ladders stay open? Who captured the gains?
 >
-> | Question                                                                                             | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Supporting evidence                                                                                            |
-> | ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+> | Question                                                                                             | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Supporting evidence                                                                                                                                                                                                 |
+> | ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 > | Did the deployment reduce harm (crime, fraud, workplace injury) measurably?                          | Mixed. Philadelphia AI-assisted targeted policing: 42% violent crime reduction in one study area (DOJ, December 2024) -- single jurisdiction, methodology not independently replicated. ShotSpotter Chicago: missed 40%+ of confirmed shootings in coverage area; Chicago ended contract. PredPol: below 0.6% prediction accuracy in Plainfield, NJ; LAPD dropped. Amazon TOT: injury rate 30% above industry average; Senate HELP found Amazon knew productivity standards caused injuries and did not change them. | Philadelphia result is a single jurisdiction, not independently replicated. ShotSpotter and PredPol accuracy failures are documented. Amazon injury rate is documented by Senate HELP and industry comparison data. |
-> | Did costs to the surveilled population fall (fewer false stops, faster appeals, lower injury rates)? | No documented instance in reviewed systems. False-alert encounters concentrate in majority-Black and Latino neighborhoods. Platform deactivation: 68% of drivers were never reactivated; no documented reduction in erroneous deactivations. Amazon injury rate: above industry average for seven consecutive documented years.                                                                                                                                                                                      | No documented improvement across reviewed systems.                                                                                                                    |
-> | Did ladders stay open (junior investigative roles preserved)?                                        | No trend data. Plausible that algorithmic tool operation has reduced demand for entry-level investigative and patrol analysis roles; not independently documented in this case study's evidence base. Gig deactivation: eliminates an income rung without warning or alternative.                                                                                                                                                                                                                                    | Not independently documented for investigative roles. Gig deactivation effect is documented.                                                                                   |
-> | If gains exist, who captured them?                                                                   | Institutions. Surveillance automation reduces per-unit enforcement cost for agencies and employers. Contest and appeal burden remains entirely on the individual target. No documented mechanism by which surveillance efficiency has produced measurable benefit for workers, gig workers, or surveilled communities.                                                                                                                                                                                               | Cost asymmetry documented. No shared-gain mechanism documented.                                                    |
+> | Did costs to the surveilled population fall (fewer false stops, faster appeals, lower injury rates)? | No documented instance in reviewed systems. False-alert encounters concentrate in majority-Black and Latino neighborhoods. Platform deactivation: 68% of drivers were never reactivated; no documented reduction in erroneous deactivations. Amazon injury rate: above industry average for seven consecutive documented years.                                                                                                                                                                                      | No documented improvement across reviewed systems.                                                                                                                                                                  |
+> | Did ladders stay open (junior investigative roles preserved)?                                        | No trend data. Plausible that algorithmic tool operation has reduced demand for entry-level investigative and patrol analysis roles; not independently documented in this case study's evidence base. Gig deactivation: eliminates an income rung without warning or alternative.                                                                                                                                                                                                                                    | Not independently documented for investigative roles. Gig deactivation effect is documented.                                                                                                                        |
+> | If gains exist, who captured them?                                                                   | Institutions. Surveillance automation reduces per-unit enforcement cost for agencies and employers. Contest and appeal burden remains entirely on the individual target. No documented mechanism by which surveillance efficiency has produced measurable benefit for workers, gig workers, or surveilled communities.                                                                                                                                                                                               | Cost asymmetry documented. No shared-gain mechanism documented.                                                                                                                                                     |
 >
 > **Assessment:** The shared gains test fails across all four measures for the surveilled population. Efficiency gains from surveillance automation accrue to institutions. The Philadelphia targeted policing result is a genuine disconfirming data point -- it shows that better-targeted, human-reviewed AI-assisted tools can reduce crime without the volume-without-accuracy pattern. It is a single jurisdiction, not yet replicated, and it does not address the rights questions (notice, appeal, records) that a shared gains standard requires. A deployment that reduces crime while maintaining zero individual contestability still fails this test.
 
@@ -506,14 +536,16 @@ The pattern across systems: deployment expanded faster than validation; no agenc
 
 ## 9. Shared gains test
 
-| Question                         | Result                                       | Evidence                                                                                                                                                                                                                                                                                                                                                                                                              |
-| -------------------------------- | -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Did prices fall?                 | No                                           | Surveillance cost falls for institutions; friction and contest cost rises for surveilled individuals. No documented price reduction in any major consumer cost category attributable to surveillance adoption.                                                                                                                                                                                                         |
-| Did wages rise?                  | No                                           | No documented mechanism by which platform adoption has produced wage increases for gig workers; Prop 22 removes the formal wage floor and grievance path. Amazon warehouse wages have not increased relative to documented injury risk.                                                                                                                                                                                |
-| Did time-cost / admin drag fall? | For institutions: yes. For individuals: no.  | Surveillance automation reduces per-unit enforcement cost for agencies and employers. Contest and appeal burden remains entirely on the individual target.                                                                                                                                                                                                                                                             |
-| Did ladders stay open?           | No                                           | Algorithmic gig deactivation without recourse eliminates an income rung without warning or formal process. Amazon productivity quota escalation and injury rates reduce tenure and eliminate advancement opportunity over time.                                                                                                                                                                                        |
-| Can people contest decisions?    | Formally: sometimes. Functionally: rarely.   | BIPA litigation right preserved (but weakened); face recognition post-Detroit settlement; EEOC right-to-sue letter available. Platform deactivation: functional contestability near zero (ACRE evidence). Predictive policing: no individual notification of being flagged. ImmigrationOS: targeting decision precedes any formal proceeding.                                                                          |
-| Can people exit / switch?        | Theoretical for some; impossible for others. | Gig workers: platform concentration and contractor status constrain exit. Surveilled populations (immigrants, activists, journalists): cannot opt out of public surveillance infrastructure. Amazon warehouse workers: can quit; re-employment at comparable wages not documented at scale.                                                                                                                              |
+The efficiency gains are visible to institutions. The shared gains are not visible to the people being watched. There is no documented pattern here of lower surveillance cost turning into broader security, stronger rights, or better daily life for the affected communities.
+
+| Question                         | Result                                       | Evidence                                                                                                                                                                                                                                                                                                                                      |
+| -------------------------------- | -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Did prices fall?                 | No                                           | Surveillance cost falls for institutions; friction and contest cost rises for surveilled individuals. No documented price reduction in any major consumer cost category attributable to surveillance adoption.                                                                                                                                |
+| Did wages rise?                  | No                                           | No documented mechanism by which platform adoption has produced wage increases for gig workers; Prop 22 removes the formal wage floor and grievance path. Amazon warehouse wages have not increased relative to documented injury risk.                                                                                                       |
+| Did time-cost / admin drag fall? | For institutions: yes. For individuals: no.  | Surveillance automation reduces per-unit enforcement cost for agencies and employers. Contest and appeal burden remains entirely on the individual target.                                                                                                                                                                                    |
+| Did ladders stay open?           | No                                           | Algorithmic gig deactivation without recourse eliminates an income rung without warning or formal process. Amazon productivity quota escalation and injury rates reduce tenure and eliminate advancement opportunity over time.                                                                                                               |
+| Can people contest decisions?    | Formally: sometimes. Functionally: rarely.   | BIPA litigation right preserved (but weakened); face recognition post-Detroit settlement; EEOC right-to-sue letter available. Platform deactivation: functional contestability near zero (ACRE evidence). Predictive policing: no individual notification of being flagged. ImmigrationOS: targeting decision precedes any formal proceeding. |
+| Can people exit / switch?        | Theoretical for some; impossible for others. | Gig workers: platform concentration and contractor status constrain exit. Surveilled populations (immigrants, activists, journalists): cannot opt out of public surveillance infrastructure. Amazon warehouse workers: can quit; re-employment at comparable wages not documented at scale.                                                   |
 
 **Result:** Fails on all six measures for the surveilled population. Efficiency gains from surveillance automation accrue entirely to the surveying institution. No documented mechanism by which surveillance efficiency has been shared with workers, gig workers, or surveilled communities.
 
@@ -534,6 +566,17 @@ Require an independent corroboration standard before enforcement action on any A
 ---
 
 ## 11. What good looks like
+
+The goal is not to ban every sensing or risk tool. The goal is to make sure people can work, move, organize, seek care, and live ordinary life without being silently pushed into risk categories they cannot see or challenge.
+
+In plain language, good looks like this:
+
+- no one loses income, freedom, or status from a single opaque flag
+- people can find out what happened and why
+- appeals are real and time-bounded
+- contracts name what the system cannot be used for
+- outside auditors can inspect the logs
+- where exit is impossible, rights get stronger instead of weaker
 
 The goal is not surveillance-free institutions. Law enforcement can use pattern analysis. Employers can track output. Platforms can monitor quality signals. The question is who bears the cost of errors, who can contest a flag, and who has the power to suspend a system that is demonstrably not working.
 
@@ -572,7 +615,7 @@ The benchmark: a deployment that passes the six-element checklist, maintains doc
 ### Effect on the good loop
 
 - **Security:** Independent corroboration rules before high-stakes action, audit logs accessible to oversight bodies, public false-positive reporting, and independent arbitration (Seattle model reversed 80% of deactivations) would reduce arbitrary enforcement.
-- **Choice:** Exit from public surveillance is not available. Regulatory substitutes -- notice, reason, appeal, records, human override -- are the only available mechanism where exit is structurally impossible.
+- **Choice:** In many surveillance systems, exit is not real. You cannot opt out of being watched in public space, on the job, or inside a platform you rely on for income. That means rights inside the system have to do the work that market choice cannot do.
 - **Competition:** Anti-monopoly rules for surveillance vendor markets, portability and data-return requirements in contracts, and open competitive bidding would reduce the lock-in that converts vendor relationships into governance relationships.
 - **Shared gains:** No documented instance where surveillance efficiency savings were shared with surveilled communities. Philadelphia targeted policing (42% violent crime reduction -- plausible, single jurisdiction) is the one genuine counterexample showing human-reviewed AI-assisted tools can produce shared safety gains.
 
@@ -590,7 +633,7 @@ The benchmark: a deployment that passes the six-element checklist, maintains doc
 
 ## North Star Verdict
 
-Unchecked surveillance + automated coercion is a **direct hit** to the E4E North Star because it reduces **security** (people can be punished without warning), reduces **choice** (fear becomes the "incentive"), and concentrates **power** in institutions that control the sensors, the models, and the logs.
+Unchecked surveillance plus automated coercion is a direct attack on the good loop. It lowers security by making punishment-like consequences possible without warning or due process. It lowers choice because fear and hidden scoring replace real options. And it concentrates power in the institutions that control the sensors, the models, and the logs.
 
 This can only be compatible with the North Star if it is treated as a **high-stakes system** with a hard minimum floor:
 
