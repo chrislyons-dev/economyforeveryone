@@ -44,7 +44,7 @@ sources:
   - title: 'Which Workers are Most Exposed to AI?'
     url: 'https://siepr.stanford.edu/publications/policy-brief/which-workers-are-most-exposed-ai'
     publisher: 'Stanford SIEPR'
-  - title: 'Winning the AI Race: America’s AI Action Plan'
+  - title: 'Winning the AI Race: Americaâ€™s AI Action Plan'
     url: 'https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf'
     publisher: 'The White House'
     publishedDate: 2025-07-23
