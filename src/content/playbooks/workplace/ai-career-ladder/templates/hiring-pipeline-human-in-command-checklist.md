@@ -1,6 +1,6 @@
 ---
-title: 'Hiring Pipeline Human-in-Command Checklist'
-last_updated: 2026-03-04
+title: "Hiring Pipeline Human-in-Command Checklist"
+last_updated: 2026-03-14
 status: draft
 lane: Workplace
 tags:

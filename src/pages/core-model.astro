@@ -92,7 +92,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         <li>
           <strong>Real options:</strong> you can always leave only counts if leaving is actually possible.
           (If switching jobs, moving, changing providers, or saying no is impractical, you do not have
-          choice; you have theory.)
+          choice; you have theory. And where exit is not realistic, governance has to substitute for
+          competition.)
         </li>
         <li>
           <strong>Open markets with hard guardrails:</strong> pro-competition, anti-rigging. (Markets
@@ -108,8 +109,19 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           or full-time admin help.)
         </li>
         <li>
+          <strong>Contestability:</strong> if a system says no, a normal person needs a real way to challenge
+          it. (Formal rights that are too slow, too vague, or too hard to use are not real rights.)
+        </li>
+        <li>
+          <strong>Symmetric visibility:</strong> the institution cannot be the only party who can see what
+          happened. (If the system keeps the logs, the reasons, and the timing while the affected person gets a
+          shrug, accountability becomes theater.)
+        </li>
+        <li>
           <strong>Shared-gains feedback:</strong> broad gains reduce insecurity, which improves decisions,
-          which reduces chaos. (Security makes people harder to manipulate. That is the whole point.)
+          which reduces chaos. (Security makes people harder to manipulate. That is the whole point. If the
+          gains show up only as faster extraction, tighter control, or higher margins, they are not shared
+          gains.)
         </li>
       </ul>
     </details>
@@ -169,32 +181,35 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <p>Housing is the biggest monthly line item for most households.</p>
       <p>
         It is not just a too few homes problem. Scarcity and slow approvals raise prices, and then
-        low-choice markets make fee traps, screening leverage, and quiet coordination more
+        low-choice markets make fee traps, screening leverage, opaque tenant records, and quiet coordination more
         profitable.
       </p>
       <p>
         <em>
           What good looks like: more homes where people need them, faster approvals with clear
-          rules, all-in price clarity, and fewer bottlenecks that reward insiders.
+          rules, all-in price clarity, and screening and eviction processes people can meaningfully
+          contest before loss becomes final.
         </em>
       </p>
       <h4>Healthcare</h4>
       <p>Healthcare is expensive in dollars and in time.</p>
       <p>
         Some of that is real care cost. A lot of it is complexity, opacity, consolidation,
-        prior-auth churn, and drug-market incentive design that turn care and medicine into a maze.
+        prior-auth churn, denial systems, and drug-market incentive design that turn care and medicine into a maze.
       </p>
       <p>
         <em>
           What good looks like: simpler billing, transparent prices, fewer veto points, cleaner drug
-          incentives, and strong accountability for denials, debt harm, and errors.
+          incentives, and real notice, reasons, records, and appeals when denials or routing decisions
+          affect care in a system people cannot easily leave.
         </em>
       </p>
       <h4>Childcare</h4>
       <p>Childcare is labor-intensive, ratio-constrained, and often underbuilt.</p>
       <p>
         Providers run on thin margins; families pay a lot; workers still do not make enough. That is
-        not a normal market glitch. It is a structural design problem.
+        not a normal market glitch. It is a structural funding-and-design problem, made worse when
+        subsidy cliffs and paperwork turn support into a usability challenge.
       </p>
       <p>
         <em>
@@ -205,13 +220,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <h4>Education and debt</h4>
       <p>Education is supposed to be a mobility engine.</p>
       <p>
-        When costs rise faster than outcomes, defaults are unsafe, and servicing is hard to
-        navigate, the mobility promise starts turning into a debt trap.
+        When costs rise faster than outcomes, full repayment burdens are hard to compare, and
+        servicing and relief systems are hard to navigate, the mobility promise starts turning into a debt trap.
       </p>
       <p>
         <em>
-          What good looks like: clearer ROI, safer defaults, lower-cost pathways, and fewer traps
-          that turn aspiration into lifelong payments.
+          What good looks like: clearer ROI, safer defaults, lower-cost pathways, and servicing and
+          relief systems borrowers can actually use before errors or bad advice harden into long-tail damage.
         </em>
       </p>
       <h4>Transportation</h4>
@@ -220,13 +235,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         and daily life requires a car to keep a job.
       </p>
       <p>
-        Insurance, financing, repair access, and weak alternatives can turn mobility into a hidden
-        job-access tax.
+        Insurance, financing, repair access, opaque pricing, and weak alternatives can turn mobility
+        into a hidden job-access tax, especially when households cannot realistically opt out of driving.
       </p>
       <p>
         <em>
           What good looks like: shorter trip chains, better access to jobs without mandatory car
-          ownership, and fewer captive markets around insurance, lending, and repair.
+          ownership, and fewer captive markets around insurance, lending, claims, and repair.
         </em>
       </p>
     </details>
@@ -279,16 +294,33 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         If switching jobs, moving, changing providers, or walking away from a bad deal is practical,
         power spreads out. If it is not practical, power concentrates.
       </p>
+      <p>
+        And when exit is not practical, the burden shifts. Those systems need stronger rules, visible reasons,
+        real appeals, and oversight that can actually intervene.
+      </p>
       <h4>3) Fair competition (with hard guardrails)</h4>
       <p>Competition is how we keep systems from ossifying into extraction machines.</p>
       <p>
         But competition does not survive on vibes. It needs rules with teeth: anti-rigging,
         anti-fraud, anti-monopoly, and enforcement capacity that is not for sale.
       </p>
+      <p>
+        Fairness here also includes keeping enough human capacity in the system to catch errors, train the next
+        layer, and step in when automation fails.
+      </p>
+      <p>
+        In high-impact systems, that also means meaningful human command: real observability, override authority,
+        contestability, symmetric visibility, and clear accountability ownership. Otherwise, human review can turn
+        into a paperwork ritual instead of real control.
+      </p>
       <h4>4) Shared gains</h4>
       <p>When gains are broad, people calm down.</p>
       <p>They plan. They invest in the future.</p>
       <p>They do not need a villain in every story to explain their stress.</p>
+      <p>
+        Shared gains are not real if they come from making decisions cheaper for the institution while leaving
+        households with higher contest costs, less visibility, or fewer entry ladders.
+      </p>
       <h4>5) More security</h4>
       <p>Shared gains reinforce security.</p>
       <p>And security reinforces good decision-making.</p>
@@ -304,11 +336,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <ol>
         <li>Does it lower monthly squeeze in real households?</li>
         <li>Does it expand real options and switching power?</li>
+        <li>If exit is weak, does it add real notice, reason, appeal, records, and human override?</li>
         <li>Does it reduce concentration or capture risk?</li>
+        <li>Can the affected person see enough of the decision record to contest what happened?</li>
         <li>Can normal people use it without expert navigation?</li>
         <li>Are guardrails enforceable with current capacity?</li>
         <li>Does it provide both near-term relief and longer-term repair?</li>
-        <li>Does it preserve entry ladders so gains are actually shareable?</li>
+        <li>Does it preserve the human capability needed to review, override, and train?</li>
         <li>Does it create shared gains that can compound over time?</li>
       </ol>
       <p>

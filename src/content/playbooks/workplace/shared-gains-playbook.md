@@ -1,6 +1,6 @@
 ---
-title: 'Shared Gains Playbook'
-last_updated: 2026-03-04
+title: "Shared Gains Playbook"
+last_updated: 2026-03-14
 status: draft
 lane: Workplace
 tags:

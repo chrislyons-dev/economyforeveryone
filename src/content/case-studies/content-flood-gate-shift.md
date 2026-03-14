@@ -814,6 +814,60 @@ A real version: any platform providing e-book collections to a public library sy
 
 This does not require new law. It requires procurement officers to add one clause to vendor contracts. It applies Amazon's own internal disclosure data -- which already exists -- to a public use case Amazon has not volunteered.
 
+### Sequencing the response
+
+This case needs a fast track and a long build. If you only do the fast track, the flood outruns each cleanup cycle. If you only do the long build, discovery and trust keep degrading while institutions debate standards.
+
+#### Short term (0-12 months): make the gate more visible right now
+
+Focus on actions that improve discovery and trust before platform governance fully catches up:
+
+- require visible labeling or disclosure where platforms already track AI-generated content internally
+- add procurement clauses for public buyers of children's content and news-like content
+- create contestable reporting and takedown paths with response timelines
+- add anti-abuse friction where flood behavior is obvious
+- support trusted curation layers that help parents, readers, teachers, and librarians make better decisions today
+
+What counts as progress in this window:
+
+- readers and buyers can see more of what the platform already knows
+- trusted institutions can filter without building their own full enforcement stack
+- obviously fraudulent or misleading flood content becomes easier to report and remove
+
+#### Medium term (1-3 years): turn visibility into durable gate governance
+
+Use the first wave of disclosure and procurement pressure to build stronger trust infrastructure:
+
+- standardize provenance and labeling requirements where technically feasible
+- make ranking, removal, and appeal systems more contestable
+- build procurement and platform terms that preserve library, school, and publisher leverage
+- measure discovery concentration and exposure so gate power can be tracked over time
+- support creator and publisher portability where gatekeepers control audience access
+
+What counts as progress in this window:
+
+- provenance survives the distribution chain often enough to matter
+- public institutions can compare vendors on trust and disclosure performance
+- ranking and takedown systems become more legible to affected creators and users
+
+#### Long term (3-10 years): rebuild trust infrastructure for a low-cost production world
+
+The deeper problem is not just "too much AI content." It is that when production gets cheap, trust, ranking, and verification become the real infrastructure.
+
+That longer build includes:
+
+- durable provenance and labeling standards that are actually surfaced at the point of discovery
+- competition and portability rules that reduce gatekeeper lock-in
+- stronger public and civic trust institutions for local news, libraries, and educational content
+- market rules that make counterfeit signals and impersonation expensive
+- governance models that treat curation as infrastructure rather than as an invisible side effect of platforms
+
+What counts as success here:
+
+- people can still discover trustworthy content without expert-level filtering skills
+- creators and publishers are not fully captive to one ranking gate
+- low-cost production no longer automatically means low-trust distribution
+
 ---
 
 ## 14. How to talk about it (bridge language)

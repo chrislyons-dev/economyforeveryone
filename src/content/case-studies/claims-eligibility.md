@@ -642,6 +642,61 @@ This doesn't require new federal legislation. It requires procurement standards 
 
 Ground this in what the EU AI Act mandates by August 2026 for any company with EU operations -- audit logs, post-market monitoring, human oversight design, data governance documentation. Use that compliance requirement as leverage in US procurement negotiations with the same vendors.
 
+### Sequencing the response
+
+This case needs the same two-track discipline as the rest of the model: fast relief that people can actually feel, and a longer build that makes wrong denials harder to scale in the first place. If you only do the fast track, denial-by-friction keeps reproducing itself. If you only do the long build, people keep absorbing wrong denials while they wait.
+
+#### Short term (0-12 months): make denial and appeal usable now
+
+Focus on changes that can reduce procedural harm without waiting for Congress:
+
+- require specific denial reasons instead of generic checklists
+- require visible appeal timelines and named human reviewers
+- retain and expose enough records for a claimant or advocate to challenge the call
+- publish appeal rates, overturn rates, and timeline compliance
+- use procurement contracts and state oversight to impose the minimum floor now
+
+What counts as progress in this window:
+
+- people can tell why they were denied
+- appeals are usable without reconstructing the whole system
+- administrators can no longer hide behind vague notices and proprietary black boxes
+- overturn patterns become visible instead of anecdotal
+
+#### Medium term (1-3 years): turn procedural rights into operating standards
+
+Use the first wave of visible guardrails to shift how institutions run claims and eligibility systems:
+
+- make audit-log retention and review-path documentation standard contract language
+- make appeal and reversal metrics part of vendor performance review
+- require independent audit sampling where auto-adverse action risk is high
+- align state insurance, Medicaid, and benefits oversight around the same minimum floor
+- narrow the gap between formal contestability and functional contestability
+
+What counts as progress in this window:
+
+- appeal rights are measured as part of system performance, not treated as a side file
+- vendors and agencies can be compared on reversal rates and response times
+- denial throughput can no longer scale without corresponding adjudication capacity
+
+#### Long term (3-10 years): rebuild the system so error correction is not attrition
+
+The deeper problem is not one bad denial letter. It is a system design where the institution's cost of saying no is tiny and the claimant's cost of contesting is high.
+
+That longer build includes:
+
+- binding legal floors for notice, reason, appeal, records, and human override across domains
+- stronger penalties for repeat procedural failure and rubber-stamp review
+- administrative simplification that reduces claimant-side burden, not just institutional cost
+- durable oversight capacity in insurance, benefits, and credit systems
+- incentive structures that reward approval accuracy and claimant-side fairness, not just unit cost reduction
+
+What counts as success here:
+
+- wrong denials are corrected early instead of after attrition
+- contesting a bad call no longer requires unusual stamina, expertise, or luck
+- efficiency gains show up as lower burden and better access for households, not just lower processing cost for institutions
+
 ---
 
 ## 13. How to talk about it

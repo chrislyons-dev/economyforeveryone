@@ -538,13 +538,67 @@ Applied to essential markets (rent, insurance, ride-hail, healthcare, gig labor)
 
 ## 12. What to do
 
-**One personal action:**
+### One personal action
 
 If you're comparison-shopping rent, insurance, or a loan: ask, in writing, whether the price you received is individualized using personal data, and what data was used. In New York, businesses using algorithmic pricing must disclose it. In other states, there's no obligation to tell you -- but asking creates a record and may prompt disclosure. For healthcare prior authorization denials, always ask for the specific clinical criteria used and whether AI was involved; you have the right to appeal and overturn rates are significant when appeals are pursued.
 
-**One procurement or policy lever:**
+### One procurement or policy lever
 
 Public institutions that contract with insurers, landlords, or financial service providers (employer benefit plans, housing authorities, municipal pension funds) can require, as a contract condition, that any pricing or eligibility algorithm (a) not use protected class proxies as inputs; (b) retain pricing decision logs accessible to auditors; and (c) provide a non-personalized benchmark price on request. These are enforceable contract terms today, without waiting for federal legislation. Note that this lever is most effective for large public employers and anchor institutions with real vendor negotiating power; smaller housing authorities and municipal plans may lack the leverage to enforce these terms against dominant vendors. New York's disclosure law is the current legislative model for jurisdictions pursuing statutory requirements.
+
+### Sequencing the response
+
+This case needs visible near-term progress and a slower structural build. If you only do the fast track, sellers keep finding new ways to personalize extraction. If you only do the long build, households stay stuck inside prices they cannot inspect, compare, or contest.
+
+#### Short term (0-12 months): make pricing more legible and less one-sided
+
+Focus on actions institutions can require now:
+
+- disclose when a price or offer is individualized
+- require a non-personalized benchmark price on request
+- retain pricing and steering logs for audit
+- ban obvious proxy inputs in mandatory or captive markets
+- require plain-language reason codes when pricing, routing, or eligibility differs materially
+
+What counts as progress in this window:
+
+- people can tell whether they are seeing a personalized offer
+- auditors can compare individualized prices against a benchmark
+- institutions lose the ability to say "the model set it" without a record
+
+#### Medium term (1-3 years): turn disclosure into contestability
+
+Use the first round of legibility rules to build a system people can actually challenge:
+
+- standardize benchmark-price access and explanation rights
+- make audit rights and retention requirements part of procurement and regulation
+- publish distributional outcome data in essential markets where feasible
+- align housing, insurance, lending, and healthcare routing oversight around anti-proxy and anti-captivity rules
+- make exploitative personalization in low-exit markets easier to detect and punish
+
+What counts as progress in this window:
+
+- benchmark comparisons become normal instead of exceptional
+- enforcement can distinguish efficiency claims from extraction claims
+- regulators and buyers can spot whether personalization is widening or narrowing household burden
+
+#### Long term (3-10 years): rebuild the market so personalization cannot default to extraction
+
+The deeper problem is not personalization by itself. It is personalization inside markets where comparison shopping is weak, exit is costly, and the logic is hidden.
+
+That longer build includes:
+
+- binding statutory standards for transparency and prohibited proxy use in essential markets
+- stronger competition policy where shared tools become cartel substitutes
+- structural reductions in captivity so households can actually route around bad offers
+- durable audit capacity that can inspect vendor models and market-wide outcomes
+- shared-gains standards that require measurable consumer benefit rather than margin capture dressed up as optimization
+
+What counts as success here:
+
+- personalized systems are judged by whether they lower burden or widen access, not just by whether they raise revenue
+- households can compare, contest, and exit often enough for market discipline to work
+- efficiency gains are visible in lower costs or better access, not just in more precise extraction
 
 ---
 
