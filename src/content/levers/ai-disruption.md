@@ -143,7 +143,7 @@ if the human cannot see enough, cannot challenge enough, or cannot stop the syst
 3. Human accountability and appeal
 
 - consequential decisions require accountable human ownership and meaningful appeal paths
-In low-choice systems, that minimum floor is specific: notice, reason, appeal, records, and human override.
+  In low-choice systems, that minimum floor is specific: notice, reason, appeal, records, and human override.
 
 4. Safety, bias, and robustness testing
 

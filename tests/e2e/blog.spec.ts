@@ -4,6 +4,7 @@ type BlogPostSummary = {
   slug: string;
   title: string;
   pubDate: string;
+  earlyRelease?: boolean;
 };
 
 const SITE_TIME_ZONE = 'America/Chicago';
@@ -64,7 +65,7 @@ test('blog index hides future-dated posts by default and shows them with query o
   page,
 }) => {
   const posts = await fetchBlogPosts(page);
-  const futurePosts = posts.filter((post) => isFutureDated(post.pubDate));
+  const futurePosts = posts.filter((post) => isFutureDated(post.pubDate) && !post.earlyRelease);
 
   test.skip(
     futurePosts.length === 0,

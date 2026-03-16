@@ -1,5 +1,5 @@
 ---
-title: "Performance Metrics Without Gaming"
+title: 'Performance Metrics Without Gaming'
 last_updated: 2026-03-14
 status: draft
 lane: Workplace

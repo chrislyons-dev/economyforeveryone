@@ -1,5 +1,5 @@
 ---
-title: "Onboarding and Entry-Ladder Protection"
+title: 'Onboarding and Entry-Ladder Protection'
 last_updated: 2026-03-14
 status: draft
 lane: Workplace

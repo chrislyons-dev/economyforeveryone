@@ -1,5 +1,5 @@
 ---
-title: "Workplace AI Bill of Rights Rider"
+title: 'Workplace AI Bill of Rights Rider'
 last_updated: 2026-03-14
 status: draft
 lane: Workplace

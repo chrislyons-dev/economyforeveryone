@@ -1,5 +1,5 @@
 ---
-title: "Check the Facts Before a Denial"
+title: 'Check the Facts Before a Denial'
 last_updated: 2026-03-14
 status: draft
 lane: Civics

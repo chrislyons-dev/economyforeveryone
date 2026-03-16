@@ -1,5 +1,5 @@
 ---
-title: "Workplace Issue Map"
+title: 'Workplace Issue Map'
 last_updated: 2026-03-14
 status: draft
 lane: Workplace

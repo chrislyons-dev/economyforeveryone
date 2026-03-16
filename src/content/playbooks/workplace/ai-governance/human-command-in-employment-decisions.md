@@ -1,5 +1,5 @@
 ---
-title: "Human Command in Employment Decisions"
+title: 'Human Command in Employment Decisions'
 last_updated: 2026-03-14
 status: draft
 lane: Workplace

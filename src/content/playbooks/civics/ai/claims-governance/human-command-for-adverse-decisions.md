@@ -1,5 +1,5 @@
 ---
-title: "Human Command for Adverse Decisions"
+title: 'Human Command for Adverse Decisions'
 last_updated: 2026-03-14
 status: draft
 lane: Civics

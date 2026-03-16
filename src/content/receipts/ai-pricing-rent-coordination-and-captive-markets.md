@@ -19,6 +19,6 @@ sources:
     url: 'https://www.propublica.org/article/doj-realpage-settlement-rental-price-fixing-case'
   - title: 'FTC Surveillance Pricing Study Indicates Wide Range of Personal Data Used to Set Individualized Consumer Prices'
     url: 'https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-surveillance-pricing-study-indicates-wide-range-personal-data-used-set-individualized-consumer'
-  - title: 'Price discrimination is getting smarter — and low-income consumers are paying the price'
+  - title: 'Price discrimination is getting smarter ï¿½ and low-income consumers are paying the price'
     url: 'https://theconversation.com/price-discrimination-is-getting-smarter-and-low-income-consumers-are-paying-the-price-252723'
 ---

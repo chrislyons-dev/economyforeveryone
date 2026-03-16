@@ -1,5 +1,5 @@
 ---
-title: "AI Career Ladder Protection Playbooks"
+title: 'AI Career Ladder Protection Playbooks'
 last_updated: 2026-03-14
 status: draft
 lane: Workplace

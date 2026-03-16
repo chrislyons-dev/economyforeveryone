@@ -1,5 +1,5 @@
 ---
-title: "Audit Log Specification"
+title: 'Audit Log Specification'
 last_updated: 2026-03-14
 status: draft
 lane: Civics

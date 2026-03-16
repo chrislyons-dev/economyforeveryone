@@ -301,7 +301,9 @@ a:hover {
 }
 
 .prose-e4e ol {
-  padding-left: 1.3rem;
+  list-style: decimal;
+  list-style-position: outside;
+  padding-left: 1.5rem;
 }
 
 .prose-e4e ol li::marker {

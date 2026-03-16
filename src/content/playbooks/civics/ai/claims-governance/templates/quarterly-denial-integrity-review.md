@@ -1,5 +1,5 @@
 ---
-title: "Quarterly Denial Integrity Review"
+title: 'Quarterly Denial Integrity Review'
 last_updated: 2026-03-14
 status: draft
 lane: Civics

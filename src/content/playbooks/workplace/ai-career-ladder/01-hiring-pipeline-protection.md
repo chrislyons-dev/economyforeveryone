@@ -1,5 +1,5 @@
 ---
-title: "Hiring Pipeline Protection"
+title: 'Hiring Pipeline Protection'
 last_updated: 2026-03-14
 status: draft
 lane: Workplace

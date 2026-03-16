@@ -1,5 +1,5 @@
 ---
-title: "Workplace AI Procurement and HR Guardrails"
+title: 'Workplace AI Procurement and HR Guardrails'
 last_updated: 2026-03-14
 status: draft
 lane: Workplace

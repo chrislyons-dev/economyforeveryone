@@ -1,5 +1,5 @@
 ---
-title: "Learning Work Allocation"
+title: 'Learning Work Allocation'
 last_updated: 2026-03-14
 status: draft
 lane: Workplace

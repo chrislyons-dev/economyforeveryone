@@ -36,6 +36,7 @@ const blog = defineCollection({
     description: z.string().min(1),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
+    earlyRelease: z.boolean().default(false),
     status: z.enum(['draft', 'published']).default('draft'),
     category: z.string().min(1),
     topics: z.array(z.string()).default([]),

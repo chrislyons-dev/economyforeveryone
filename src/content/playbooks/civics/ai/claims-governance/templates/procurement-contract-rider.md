@@ -1,5 +1,5 @@
 ---
-title: "Procurement Contract Rider"
+title: 'Procurement Contract Rider'
 last_updated: 2026-03-14
 status: draft
 lane: Civics

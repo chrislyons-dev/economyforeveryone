@@ -1,5 +1,5 @@
 ---
-title: "Denial Notice Template"
+title: 'Denial Notice Template'
 last_updated: 2026-03-14
 status: draft
 lane: Community

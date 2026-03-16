@@ -1,5 +1,5 @@
 ---
-title: "AI Workplace Governance"
+title: 'AI Workplace Governance'
 last_updated: 2026-03-14
 status: draft
 lane: Workplace

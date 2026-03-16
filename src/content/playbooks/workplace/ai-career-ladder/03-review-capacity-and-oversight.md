@@ -1,5 +1,5 @@
 ---
-title: "Review Capacity and Oversight"
+title: 'Review Capacity and Oversight'
 last_updated: 2026-03-14
 status: draft
 lane: Workplace

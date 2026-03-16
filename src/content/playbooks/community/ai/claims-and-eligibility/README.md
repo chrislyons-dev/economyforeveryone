@@ -1,5 +1,5 @@
 ---
-title: "AI Claims and Eligibility"
+title: 'AI Claims and Eligibility'
 last_updated: 2026-03-14
 status: draft
 lane: Community
