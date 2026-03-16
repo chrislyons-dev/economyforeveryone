@@ -163,3 +163,4 @@ Pick one platform and check five things it surfaced. Do that once, and the gate 
 - [Don't Win the Sprint and Lose the Bench](/blog/2026-03-31-dont-win-the-sprint-and-lose-the-bench/)
 - [When the Price Is Different for You](/blog/2026-04-07-when-the-price-is-different-for-you/)
 - [The Pattern Underneath the AI Hype](/blog/2026-04-16-the-pattern-underneath-the-ai-hype/)
+- [Case study: Content Flood and the Gate Shift: Children's Books and Local News](/case-studies/content-flood-gate-shift/)

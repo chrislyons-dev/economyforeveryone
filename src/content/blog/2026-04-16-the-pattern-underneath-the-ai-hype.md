@@ -126,3 +126,4 @@ Pick one system you already deal with and map it against the five fault lines: e
 - [When the Price Is Different for You](/blog/2026-04-07-when-the-price-is-different-for-you/)
 - [Fast Decisions, Thin Appeals](/blog/2026-04-09-fast-decisions-thin-appeals/)
 - [When Watching Becomes Control](/blog/2026-04-14-when-watching-becomes-control/)
+- [Case study: AI Impact Case Study Series](/case-studies/ai-impact-case-study-series/)

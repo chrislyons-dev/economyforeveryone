@@ -227,3 +227,4 @@ Even rough answers help.
 - [Fast Decisions, Thin Appeals](/blog/2026-04-09-fast-decisions-thin-appeals)
 - [When Watching Becomes Control](/blog/2026-04-14-when-watching-becomes-control)
 - [The Pattern Underneath the AI Hype](/blog/2026-04-16-the-pattern-underneath-the-ai-hype/)
+- [Case study: AI Impact Case Study Series](/case-studies/ai-impact-case-study-series/)

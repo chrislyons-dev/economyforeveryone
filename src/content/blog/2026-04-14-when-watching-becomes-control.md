@@ -131,3 +131,4 @@ The next time you hear about a monitoring tool at work, in a school, in housing,
 
 - [Fast Decisions, Thin Appeals](/blog/2026-04-09-fast-decisions-thin-appeals/)
 - [The Pattern Underneath the AI Hype](/blog/2026-04-16-the-pattern-underneath-the-ai-hype/)
+- [Case study: AI and Surveillance + Coercion (Government + Workplace)](/case-studies/surveillance-coercion/)

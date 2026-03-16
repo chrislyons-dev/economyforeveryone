@@ -164,3 +164,4 @@ Don't just ask for the price, ask for the logic.
 - [When Cheap Content Changes Who Gets Heard](/blog/2026-04-02-when-cheap-content-changes-who-gets-heard/)
 - [Fast Decisions, Thin Appeals](/blog/2026-04-09-fast-decisions-thin-appeals/)
 - [The Pattern Underneath the AI Hype](/blog/2026-04-16-the-pattern-underneath-the-ai-hype/)
+- [Case study: AI and Personalized Pricing & Steering in Essentials](/case-studies/personalized-pricing-steering/)
