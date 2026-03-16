@@ -563,6 +563,60 @@ Require an independent corroboration standard before enforcement action on any A
 
 **Failure mode:** The corroboration requirement becomes paper compliance -- signed off by a supervisor who sees only the system's output and a form to approve. The Detroit model works because the settlement created litigation exposure for non-compliance. A policy without a private right of action or automatic penalty for violation is a speed bump, not a floor. The enforcement mechanism matters as much as the rule itself.
 
+### Sequencing the response
+
+This case especially needs sequencing discipline because the technology scales fast while governance usually moves slowly. If you only do the fast track, workarounds and paper compliance will swallow the reform. If you only do the long build, people stay exposed to coercive systems they cannot exit.
+
+#### Short term (0-12 months): stop the worst unreviewable actions first
+
+Focus on actions that can reduce immediate rights failures:
+
+- require corroboration before any arrest, detention, deactivation, or other high-stakes action
+- add audit-log review, false-positive thresholds, and kill-switch clauses to contracts
+- require named human owners for override and suspension decisions
+- publish basic transparency reporting where the system is already deployed
+- narrow or pause uses that cannot meet the minimum floor
+
+What counts as progress in this window:
+
+- fewer actions occur on an algorithmic flag alone
+- agencies and employers can no longer claim they lack the logs or authority to pause use
+- the most dangerous deployments face visible thresholds and named owners
+
+#### Medium term (1-3 years): make accountability harder to evade
+
+Use the first wave of procurement and settlement-driven fixes to build enforceable operating standards:
+
+- standardize prohibited-use categories and corroboration rules across contracts
+- create independent appeal or arbitration channels where consequences are significant
+- align procurement, oversight, and litigation exposure so non-compliance is costly
+- build regular reporting on query volume, false positives, overrides, and appeals
+- reduce cross-jurisdiction and vendor workarounds that undermine local safeguards
+
+What counts as progress in this window:
+
+- accountability no longer depends on one unusually good contract or one lawsuit
+- appeal channels are independent enough to reverse bad calls in practice
+- agencies and platforms can be compared on whether their safeguards actually function
+
+#### Long term (3-10 years): rebuild governance for systems people cannot realistically exit
+
+The deeper problem is not one bad tool. It is the spread of cheap sensing, cheap scoring, and cheap enforcement into domains where the affected person cannot opt out.
+
+That longer build includes:
+
+- binding legal floors for notice, reason, records, appeal, and human override in high-stakes surveillance systems
+- durable limits on data purchase, sharing, and prohibited-use categories
+- stronger vendor-market competition and portability rules so contracts do not become permanent governance
+- independent oversight bodies with technical audit capacity
+- labor and civil-rights protections that make private-sector coercion more contestable, not just public-sector use
+
+What counts as success here:
+
+- coercive systems cannot scale faster than accountability
+- the surveilled person has a real path to know, contest, and reverse bad decisions
+- efficiency gains for institutions no longer come entirely from shifting rights burden onto people with no exit
+
 ---
 
 ## 11. What good looks like

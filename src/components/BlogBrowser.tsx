@@ -21,6 +21,7 @@ type BlogIndexItem = {
   tags: string[];
   oneSmallAction: string | null;
   sourceChannel: string;
+  earlyRelease: boolean;
 };
 
 type BlogBrowserProps = {
@@ -69,7 +70,7 @@ export default function BlogBrowser({ items }: BlogBrowserProps) {
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     const searched = items.filter((item) => {
-      if (!shouldShowScheduledPost(item.pubDate, showFuture)) return false;
+      if (!shouldShowScheduledPost(item.pubDate, showFuture, item.earlyRelease)) return false;
       if (category !== 'all' && item.category !== category) return false;
       if (topic !== 'all' && !item.topics.includes(topic)) return false;
       if (tag !== 'all' && !item.tags.includes(tag)) return false;

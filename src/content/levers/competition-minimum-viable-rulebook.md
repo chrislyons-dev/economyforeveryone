@@ -47,16 +47,19 @@ Fast for everyone.
 
 5. Data portability and interoperability in dominant-platform contexts
 6. Transparent, standardized all-in pricing in essential markets
+7. Basic decision visibility where dominant actors use scoring, ranking, routing, or other high-impact systems to shape access
 
 Housing makes rule 6 concrete: advertised rent should mean the real recurring price, not rent plus a pile of mandatory fees discovered after the application is paid. In essential markets, price clarity is not a nice extra. It is a basic anti-rigging rule.
 
 Transportation makes the same rule concrete from another angle: all-in vehicle pricing, explicit financing markups, and standardized fee labels are not "nice consumer disclosures." They are anti-captivity rules in a market people often need to keep a job.
 
+In captive or semi-captive systems, rule 7 matters just as much: if a landlord-screening vendor, insurer, platform, or dominant intermediary can shape access through opaque scoring or routing, the affected person needs enough reason and record access to challenge the outcome.
+
 ## Enforcement design
 
-7. Injunction-first action where credible exclusionary harm is ongoing
-8. Disgorgement and meaningful damages when violations are proven
-9. Proportional compliance obligations (higher duties for dominant firms)
+8. Injunction-first action where credible exclusionary harm is ongoing
+9. Disgorgement and meaningful damages when violations are proven
+10. Proportional compliance obligations (higher duties for dominant firms)
 
 In housing or similar essential markets, higher duties can include retaining pricing records, disclosing pricing-software vendors, and facing stricter review when local ownership concentration gets high enough to weaken real choice.
 

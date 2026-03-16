@@ -33,6 +33,7 @@ That is not just annoying design.
 It is a leverage system.
 
 If the buyer cannot see the real deal until after commitment, the market is already tilted.
+And if the person cannot see enough to challenge a bad charge, a bad flag, or a bad contract term after commitment, the leverage keeps running.
 
 ## Where this shows up
 
@@ -58,8 +59,8 @@ If the buyer cannot see the real deal until after commitment, the market is alre
 5. **Automatic remedies**
    - refunds, reversals, and corrections should not depend on heroic follow-up by the weaker party
 
-6. **Neutrality requires symmetric enforcement**
-   - disclosure and contract rules are not neutral if enforcement falls mainly on small actors while dominant actors evade consequences
+6. **Post-decision visibility**
+   - people need enough record access, reason codes, and usable notices to challenge adverse terms after the transaction begins
 
 ## What good looks like
 
@@ -76,14 +77,13 @@ If the buyer cannot see the real deal until after commitment, the market is alre
 - mandatory itemized estimates
 - plain-language renewal notices
 - automatic refund or cancellation rights for mislabeled add-ons
+- reason-code and record-access requirements where adverse pricing or contract actions affect essentials
 
 ## Guardrail
 
 Legibility is not price control.
 It is the minimum condition for fair comparison and informed consent in markets people cannot easily avoid.
-
-When this lever is framed as neutral process cleanup, apply the Neutral Rule Test:
-who gets investigated, who gets protected, and who is treated as disposable.
+In low-choice systems, it is also part of contestability.
 
 ## Connection to E4E model concepts
 

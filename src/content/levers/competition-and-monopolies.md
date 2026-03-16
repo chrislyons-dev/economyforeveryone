@@ -29,6 +29,8 @@ When markets fail, people get take-it-or-leave-it terms.
 ## Core mechanism
 
 Market power is the ability to set terms because real alternatives are weak.
+Sometimes the right fix is more competition.
+Sometimes the real problem is captivity: the system may look competitive on paper, but exit is too weak to discipline abuse in time.
 
 Housing is a good example because local market power often hides in plain sight. A metro can look competitive on paper while renters still face no real exit because supply is scarce, ownership is concentrated in the submarket that fits their budget, and pricing tools or fee structures move in parallel. That is still concentrated power in lived terms, even if the national market looks diffuse.
 
@@ -41,6 +43,7 @@ Persistence mechanism:
 - real consumer and worker choice
 - low switching friction and portability
 - transparent pricing in essentials
+- contestable adverse decisions where ranking, routing, denial, or deactivation can shape access
 - enforcement that applies to dominant actors, not just small ones
 
 In housing, that means looking at local concentration, all-in move-in costs, junk-fee patterns, and coordination risk, not just asking whether one landlord dominates nationally.
@@ -50,8 +53,12 @@ In housing, that means looking at local concentration, all-in move-in costs, jun
 1. Merger prevention in already concentrated markets
 2. Switching-cost reduction and portability rules
 3. All-in pricing and anti-junk-fee transparency
-4. Enforcement capacity modernization
-5. Procurement transparency to reduce capture
+4. Contestability floors in captive or semi-captive systems
+5. Enforcement capacity modernization
+6. Procurement transparency to reduce capture
+
+If people cannot realistically exit, this lever family has to do more than lower concentration.
+It has to make the system inspectable enough to challenge and accountable enough to reverse bad calls.
 
 ## Democracy and capture guardrails
 

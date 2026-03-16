@@ -1,6 +1,6 @@
 ---
 title: 'Workplace Playbooks'
-last_updated: 2026-03-04
+last_updated: 2026-03-14
 status: draft
 lane: Workplace
 tags:
@@ -11,7 +11,7 @@ tags:
 
 # Workplace Playbooks
 
-This lane is for internal institutional rules that shape daily work.
+This lane is for the rules and routines that shape daily work.
 
 Focus:
 
@@ -32,7 +32,8 @@ This is distinct from:
 
 - [Workplace Issue Map](./workplace-issue-map.md)
 
-Use that first when you need to name the failure mode before deciding whether the problem is capacity, metrics, admin drag, accountability, training, or incentives.
+Start there when something at work feels off but the real failure mode is still fuzzy.
+It helps name whether the problem is capacity, metrics, admin drag, accountability, training, or incentives.
 
 ## Current modules
 
@@ -41,22 +42,28 @@ Use that first when you need to name the failure mode before deciding whether th
 - [Workplace Issue Map](./workplace-issue-map.md)
 - [Scheduling Fairness and Stability](./scheduling-fairness-and-stability.md)
 - [Performance Metrics Without Gaming](./performance-metrics-without-gaming.md)
-- [Onboarding and Entry-Ladder Protection](./onboarding-and-entry-ladder-protection.md)
 - [Shared Gains Playbook](./shared-gains-playbook.md)
 
 ### AI in the workplace
 
-- [Workplace AI Procurement and HR Guardrails](./workplace-ai-procurement-and-hr-guardrails.md)
-- [Workplace AI Bill of Rights Rider](./templates/workplace-ai-bill-of-rights-rider.md)
-- [Hiring Pipeline Human-in-Command Checklist](./templates/hiring-pipeline-human-in-command-checklist.md)
+- [AI Career Ladder](./ai-career-ladder/README.md)
+- [AI Workplace Governance](./ai-governance/README.md)
 
-## Near-term expansion
+### AI career ladder package
 
-This lane is for broader workplace governance, not only AI. Likely next topics:
+- [Onboarding and Entry-Ladder Protection](./ai-career-ladder/onboarding-and-entry-ladder-protection.md)
+- [Hiring Pipeline Human-in-Command Checklist](./ai-career-ladder/templates/hiring-pipeline-human-in-command-checklist.md)
 
-- scheduling fairness
-- performance metrics
+### AI governance package
+
+- [Human Command in Employment Decisions](./ai-governance/human-command-in-employment-decisions.md)
+- [Workplace AI Procurement and HR Guardrails](./ai-governance/workplace-ai-procurement-and-hr-guardrails.md)
+- [Workplace AI Bill of Rights Rider](./ai-governance/templates/workplace-ai-bill-of-rights-rider.md)
+
+## Likely next topics
+
+This lane is broader than AI. Likely next topics:
+
 - surveillance and monitoring
 - pay transparency
-- onboarding and training pathways
 - complaint and appeal systems

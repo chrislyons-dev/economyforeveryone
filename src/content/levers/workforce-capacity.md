@@ -32,6 +32,7 @@ When effective labor capacity rises:
 - squeeze pressure falls in care, housing, and services
 
 Housing is the clearest reminder that capacity is not just a worker issue. Even after zoning reform, construction can stay bottlenecked by skilled-trades shortages, slow credentialing, thin apprenticeship pipelines, and materials constraints. If you do not build workforce capacity, legal permission to build will not turn into actual homes fast enough to matter.
+The AI case-study work adds a second reminder: workforce capacity is not just headcount. It is also retained human capability. If institutions automate away learning work and junior ladders, they can lose the ability to review, override, and safely operate the system later.
 
 ## Participation
 
@@ -72,8 +73,10 @@ Pair capacity growth with:
 - training and advancement pathways
 - anti-monopsony enforcement in concentrated labor markets
 - transparent shortage criteria and periodic review
+- protected learning pathways where oversight quality depends on retained human skill
 
 For housing, this points toward practical moves such as apprenticeship expansion in the building trades, faster credential recognition where safe, and capacity planning that treats construction labor as core economic infrastructure rather than as an afterthought once zoning fights are over.
+In claims, care, compliance, and other high-impact sectors, it also points toward preserving enough junior and mid-level work to keep human judgment real rather than ceremonial.
 
 ## Connection to E4E model concepts
 
@@ -81,5 +84,6 @@ For housing, this points toward practical moves such as apprenticeship expansion
 - `Real options`
 - `Shared-gains feedback`
 - `Anti-capture capacity`
+- `Retained human capacity`
 
 See: [Core Model](/core-model/)

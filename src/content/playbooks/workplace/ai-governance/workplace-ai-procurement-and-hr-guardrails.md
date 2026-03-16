@@ -1,6 +1,6 @@
 ---
 title: 'Workplace AI Procurement and HR Guardrails'
-last_updated: 2026-03-04
+last_updated: 2026-03-14
 status: draft
 lane: Workplace
 tags:
@@ -131,9 +131,9 @@ Ask these before purchase, renewal, or deployment:
 
 ## Use with
 
-- [Workplace Issue Map](./workplace-issue-map.md)
+- [Workplace Issue Map](../workplace-issue-map.md)
 - [Workplace AI Bill of Rights Rider](./templates/workplace-ai-bill-of-rights-rider.md)
-- [Hiring Pipeline Human-in-Command Checklist](./templates/hiring-pipeline-human-in-command-checklist.md)
+- [Hiring Pipeline Human-in-Command Checklist](../ai-career-ladder/templates/hiring-pipeline-human-in-command-checklist.md)
 
 ## Definition of done
 

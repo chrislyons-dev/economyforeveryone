@@ -1,6 +1,6 @@
 ---
 title: 'Onboarding and Entry-Ladder Protection'
-last_updated: 2026-03-04
+last_updated: 2026-03-14
 status: draft
 lane: Workplace
 tags:
@@ -9,6 +9,7 @@ tags:
   - onboarding
   - training
   - entry-ladder
+  - ai
 ---
 
 # Onboarding and Entry-Ladder Protection
@@ -68,7 +69,7 @@ Short-term efficiency can create long-term skill shortages.
 
 ## Use with
 
-- [Workplace Issue Map](./workplace-issue-map.md)
+- [Career Ladder Protection Standard](./00-career-ladder-protection-standard.md)
 - [Hiring Pipeline Human-in-Command Checklist](./templates/hiring-pipeline-human-in-command-checklist.md)
 
 ## Definition of done

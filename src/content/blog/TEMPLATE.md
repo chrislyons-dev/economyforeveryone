@@ -3,6 +3,7 @@ title: 'Post Title'
 description: 'One-sentence summary focused on the practical point.'
 pubDate: 2026-02-26
 updatedDate: 2026-02-26
+earlyRelease: false
 status: 'draft'
 category: 'big-costs'
 topics:

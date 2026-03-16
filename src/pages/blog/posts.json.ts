@@ -20,6 +20,7 @@ export const GET: APIRoute = async () => {
       tags: canonicalizeTags(post.data.tags ?? []),
       oneSmallAction: post.data.oneSmallAction ?? null,
       sourceChannel: post.data.sourceChannel,
+      earlyRelease: post.data.earlyRelease ?? false,
     }));
 
   return new globalThis.Response(JSON.stringify(posts), {

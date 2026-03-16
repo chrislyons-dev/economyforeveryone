@@ -32,10 +32,14 @@ export function parseShowFutureOverride(search: string | undefined): boolean {
 export function shouldShowScheduledPost(
   pubDate: string,
   showFuture: boolean,
+  earlyReleaseOrNow: boolean | Date = false,
   now: Date = new Date()
 ): boolean {
   const pubDateKey = toDateKey(pubDate);
   if (!pubDateKey) return false;
 
-  return showFuture || pubDateKey <= getTodayKey(now);
+  const earlyRelease = typeof earlyReleaseOrNow === 'boolean' ? earlyReleaseOrNow : false;
+  const effectiveNow = earlyReleaseOrNow instanceof Date ? earlyReleaseOrNow : now;
+
+  return showFuture || earlyRelease || pubDateKey <= getTodayKey(effectiveNow);
 }

@@ -15,11 +15,13 @@ economyforeveryone.org source: a narrative-first, evidence-driven publication on
 - Astro Content Collections are defined in `src/content.config.ts` for:
   - `blog`
   - `case-studies`
+  - `levers`
   - `playbooks`
   - `receipts`
 - Primary content paths:
   - `src/content/blog`
   - `src/content/case-studies`
+  - `src/content/levers`
   - `src/content/playbooks`
   - `src/content/receipts`
 

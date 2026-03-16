@@ -1,6 +1,6 @@
 ---
 title: 'Workplace Issue Map'
-last_updated: 2026-03-04
+last_updated: 2026-03-14
 status: draft
 lane: Workplace
 tags:
@@ -127,7 +127,7 @@ Write one line for each:
 
 ## Use with
 
-- [Workplace AI Procurement and HR Guardrails](./workplace-ai-procurement-and-hr-guardrails.md)
+- [Workplace AI Procurement and HR Guardrails](./ai-governance/workplace-ai-procurement-and-hr-guardrails.md)
 
 ## Definition of done
 

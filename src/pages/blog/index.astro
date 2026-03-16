@@ -1,4 +1,4 @@
-﻿---
+---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import BlogBrowser from '../../components/BlogBrowser';
@@ -15,7 +15,7 @@ const posts = (await getCollection('blog', ({ data }) => data.status === 'publis
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 const visiblePosts = posts.filter((post) =>
-  shouldShowScheduledPost(post.data.pubDate.toISOString(), false)
+  shouldShowScheduledPost(post.data.pubDate.toISOString(), false, post.data.earlyRelease ?? false)
 );
 
 const postIndex = posts.map((post) => ({
@@ -29,6 +29,7 @@ const postIndex = posts.map((post) => ({
   tags: canonicalizeTags(post.data.tags ?? []),
   oneSmallAction: post.data.oneSmallAction ?? null,
   sourceChannel: post.data.sourceChannel,
+  earlyRelease: post.data.earlyRelease ?? false,
 }));
 ---
 

@@ -575,8 +575,6 @@ Exceptions exist. They do not change the pattern.
 
 If you have any mentorship responsibility -- formal or informal -- treat your mentees' reps as production work, not overhead. When a junior person is working on something AI could do faster, ask whether they have done it once without the tool. If not, that's the first step.
 
----
-
 ### For procurement and policy (specific, actionable, grounded in the governance gap)
 
 **Make "human in command" a procurement requirement.** Any organization -- employer, government agency, university -- that purchases AI-assisted hiring, performance evaluation, or promotion tools should require, as a contract condition:
@@ -590,6 +588,67 @@ If you have any mentorship responsibility -- formal or informal -- treat your me
 This does not require new legislation in the short term. It can be implemented today in procurement contracts, collective bargaining agreements, and HR vendor selection criteria. The EU AI Act establishes comparable requirements for EU-market deployments from August 2026. U.S. employers can voluntarily adopt equivalent language now; government agencies can require it in contracts.
 
 The policy lever for the medium term would be EEOC binding rulemaking converting existing AI hiring guidance into enforceable standards, with civil penalty authority. The legal theory is established (_Mobley_). The gap is that EEOC guidance is currently non-binding. Whether EEOC binding rulemaking is achievable under current political and administrative conditions is an open question -- this is the gap that would need to close for this lever to become active, not a lever already in motion.
+
+### Sequencing the response
+
+This case needs the same time-horizon discipline as the core model: some changes can show progress inside 12-24 months; others take multiple cycles to rebuild the ladder. If you only do the fast track, the apprenticeship system keeps eroding underneath the optics. If you only do the long build, the political and organizational window closes before anyone feels improvement.
+
+#### Short term (0-12 months): visible proof that the ladder is being protected
+
+Focus on actions an employer, team, university, or procurement office can implement now without waiting for new law:
+
+- block autonomous rejection for junior and early-career routes
+- require notice, reason, appeal, records, and human override for AI-mediated hiring and evaluation
+- log override rates and review time for AI-assisted screening and code review
+- protect one manual baseline task and one unassisted review task per sprint or quarter
+- start a bench-health scoreboard: junior share, promotion flow, mentorship hours, override rates
+
+What counts as progress in this window:
+
+- people can point to a written minimum floor
+- junior candidates have a real human review path
+- review-capacity strain is visible instead of hidden
+- teams can show where learning work still happens
+
+#### Medium term (1-3 years): turn guardrails into operating rhythm
+
+Use the first wave of visible changes to build institutional habits that survive a manager change or one budget cycle:
+
+- learning-work quotas written into team operating norms
+- review-capacity budgeting included in delivery planning
+- quarterly bench-health reviews at workforce-planning meetings
+- procurement riders and HR policy language standardized across business units
+- internal audit or worker-representative access to logs and override data
+
+This is also the window for enforceable standards to start catching up:
+
+- collective bargaining language where applicable
+- university and public-sector procurement requirements
+- agency rulemaking or state labor standards that move from guidance to enforceable obligations
+
+What counts as progress in this window:
+
+- ladder health is reviewed as an operating metric, not a side concern
+- managers are measured on review quality and pipeline health, not just throughput
+- organizations can no longer claim "human review" without showing time, authority, and records
+
+#### Long term (3-10 years): rebuild the ladder as infrastructure
+
+The deeper problem is not just one bad hiring workflow. It is whether the economy still produces enough first-rung roles, enough apprenticeship capacity, and enough mid-level progression to replenish the senior layer later.
+
+That longer build includes:
+
+- restoring durable junior hiring and apprenticeship volume
+- rebuilding promotion flow from junior to mid-level roles
+- making retained human capability a normal workforce-capacity requirement in high-impact sectors
+- aligning procurement, labor standards, and management practice so productivity gains do not default upward
+- establishing binding legal floors for contestability in AI-mediated employment systems
+
+What counts as success here:
+
+- the first rung is measurably open again
+- organizations can still grow senior reviewers internally instead of only buying them on the market
+- AI productivity gains coexist with a functioning learning pipeline rather than replacing it
 
 ---
 

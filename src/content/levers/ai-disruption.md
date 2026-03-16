@@ -43,6 +43,7 @@ without increasing extraction, opacity, or power concentration.
 
 Practical test:
 if measured productivity rises but entry ladders, contestability, or shared gains weaken, this lever is failing.
+If exit is weak and the system still cannot provide notice, reason, appeal, records, and human override, this lever is failing even faster.
 
 ## High-value use cases
 
@@ -142,6 +143,7 @@ if the human cannot see enough, cannot challenge enough, or cannot stop the syst
 3. Human accountability and appeal
 
 - consequential decisions require accountable human ownership and meaningful appeal paths
+  In low-choice systems, that minimum floor is specific: notice, reason, appeal, records, and human override.
 
 4. Safety, bias, and robustness testing
 
@@ -177,6 +179,7 @@ if the human cannot see enough, cannot challenge enough, or cannot stop the syst
 These patterns are useful but not sufficient on their own.
 They must be tied to enforcement and rights-impact processes.
 If no one is responsible when they fail, they are theater.
+And if the affected person cannot see enough of the record to use the appeal path, the safeguard is incomplete even when the log exists internally.
 
 ## AGI-like economic tripwires (update rule)
 
@@ -226,6 +229,7 @@ Use primary standards and primary legal text first, then commentary.
 - `Anti-capture state capacity`
 - `Low-friction delivery` where AI reduces admin burden without reducing rights
 - `Shared-gains feedback` only when entry ladders and contestability are preserved
+- `Contestability floor` where low-exit systems need governance to substitute for competition
 
 See:
 

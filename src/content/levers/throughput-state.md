@@ -32,6 +32,7 @@ This is not just "bureaucracy is annoying."
 It is a real economic bottleneck.
 
 When the state cannot move work through the system, scarcity stays in place and private actors extract inside the delay.
+But speed alone is not enough. In low-exit systems, delays and opaque processing can function like denial, so delivery has to include contestability, not just throughput.
 
 ## Where this shows up
 
@@ -57,8 +58,8 @@ When the state cannot move work through the system, scarcity stays in place and 
 5. **Automatic triggers**
    - missed deadlines, repeat approvals, or consistent patterns should trigger simplified handling
 
-6. **Neutrality requires symmetric enforcement**
-   - faster process is not neutral if acceleration is selective and accountability remains slow for powerful actors
+6. **Contestable decisions**
+   - if the system says no, the person needs notice, reason, records, appeal, and a real human override path
 
 ## What good looks like
 
@@ -76,12 +77,13 @@ When the state cannot move work through the system, scarcity stays in place and 
 - standardized forms and digital submission
 - midstream verification and status confirmations
 - objective by-right pathways
+- decision notices, audit logs, and appeal timelines that make adverse actions inspectable
 
 ## Guardrail
 
 Throughput is not the same thing as rubber-stamping.
 A faster system still needs due process, safety standards, and meaningful review.
-If acceleration applies unevenly, the rule is not neutral in practice.
+If a system gets faster for the institution while becoming harder for the affected person to inspect or challenge, this lever is being used badly.
 
 The goal is not less governance.
 It is governance that can actually deliver.
@@ -92,6 +94,7 @@ It is governance that can actually deliver.
 - `Anti-capture state capacity`
 - `Security floor`
 - `Real options`
+- `Contestability` / meaningful human command
 
 See:
 
