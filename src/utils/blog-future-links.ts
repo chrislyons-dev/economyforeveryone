@@ -7,9 +7,10 @@ export function normalizeBlogSlugFromHref(href: string): string {
 
 export function downgradeFutureBlogLinks(
   root: { querySelectorAll: (selector: string) => Iterable<unknown> },
-  futurePostSlugs: Set<string>
+  postPubDates: Map<string, string>
 ): number {
   let updated = 0;
+  const now = new Date();
 
   for (const candidate of Array.from(root.querySelectorAll('a[href^="/blog/"]'))) {
     if (!candidate || typeof candidate !== 'object') continue;
@@ -24,7 +25,10 @@ export function downgradeFutureBlogLinks(
 
     const href = link.getAttribute('href') || '';
     const normalized = normalizeBlogSlugFromHref(href);
-    if (!normalized || !futurePostSlugs.has(normalized)) continue;
+    if (!normalized) continue;
+
+    const pubDateStr = postPubDates.get(normalized);
+    if (!pubDateStr || new Date(pubDateStr) <= now) continue;
 
     const label = (link.textContent || '').trim();
     const text = globalThis.document.createElement('span');

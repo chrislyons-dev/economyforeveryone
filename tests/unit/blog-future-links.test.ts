@@ -29,7 +29,12 @@ describe('blog future links helpers', () => {
     expect(root).toBeTruthy();
     if (!root) return;
 
-    const updated = downgradeFutureBlogLinks(root, new Set(['monthly-squeeze-housing']));
+    const futureDate = new Date(Date.now() + 86_400_000).toISOString();
+    const pubDates = new Map([
+      ['monthly-squeeze-housing', futureDate],
+      ['monthly-squeeze-series-index', new Date(Date.now() - 86_400_000).toISOString()],
+    ]);
+    const updated = downgradeFutureBlogLinks(root, pubDates);
     expect(updated).toBe(1);
 
     expect(root.querySelector('a[href="/blog/monthly-squeeze-housing/"]')).toBeNull();
