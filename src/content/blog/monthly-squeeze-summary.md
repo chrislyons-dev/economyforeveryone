@@ -48,13 +48,13 @@ They make households easier to trap.
 
 That is why the squeeze matters politically as well as economically.
 
-And the good loop runs the other direction:
+> **Repeating pattern:** scarcity -> captivity -> complexity -> extraction -> weak guardrails
+
+The good loop runs the other direction:
 **security -> choice -> competition -> shared gains -> more security.**
 
 Inside each big cost, that same structural pattern keeps showing up.
 The larger problem loop is what happens when those patterns keep hitting households month after month.
-
-> **Repeating pattern:** scarcity -> captivity -> complexity -> extraction -> weak guardrails
 
 ## What is happening
 
