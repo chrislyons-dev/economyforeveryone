@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Economic blackout as a pause button: rule of law vs. intimidation'
 description: 'Why economic protest works best as disciplined civic pressure when court compliance and rule-of-law norms are under strain.'
 pubDate: 2026-01-30

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "The Canyon Isn't Just Information. It's Economic."
 description: "A lot of polarization is downstream of economic insecurity. When people don't feel secure, they are easier to scare, aim, and split."
 pubDate: 2026-01-31

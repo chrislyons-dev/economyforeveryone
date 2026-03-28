@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'When the DOJ''s "client" becomes the President'
 description: 'DOJ legitimacy depends on serving the Constitution and the public interest, not the personal interests of political power.'
 pubDate: 2026-02-20

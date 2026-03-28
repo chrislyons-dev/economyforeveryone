@@ -1,7 +1,7 @@
 ---
 title: "Don't Win the Sprint and Lose the Bench"
 description: 'AI can make teams faster while quietly hollowing out the learning path that creates future experts and meaningful oversight.'
-pubDate: 2026-03-31
+pubDate: 2026-04-02
 earlyRelease: true
 status: 'published'
 category: 'core-model'
@@ -17,7 +17,7 @@ tags:
 receiptTags:
   - 'independent-analysis'
 sourceChannel: 'economyforeveryone'
-legacyPostRef: '1-it-ladder-collapse'
+legacyPostRef: '2-it-ladder-collapse'
 triage: 'promote-to-canonical'
 oneSmallAction: 'Protect one piece of work this week as intentionally unassisted skill-building work instead of treating every saved minute as output to reclaim.'
 audience:
@@ -185,7 +185,7 @@ That's small enough to do right now. It's a good test of whether your team is st
 
 ## Related reading
 
-- [AI Is Not One Thing](/blog/2026-03-26-ai-is-not-one-thing/)
-- [When Cheap Content Changes Who Gets Heard](/blog/2026-04-02-when-cheap-content-changes-who-gets-heard/)
-- [The Pattern Underneath the AI Hype](/blog/2026-04-16-the-pattern-underneath-the-ai-hype/)
+- [When Building Gets Cheaper but Breaking In Doesn't](/blog/2026-03-31-when-building-gets-cheaper-but-breaking-in-doesnt/)
+- [When Cheap Content Changes Who Gets Heard](/blog/2026-04-07-when-cheap-content-changes-who-gets-heard/)
+- [Fast Decisions, Thin Appeals](/blog/2026-04-09-fast-decisions-thin-appeals/)
 - [Case study: AI and the IT Ladder Collapse](/case-studies/it-ladder-collapse/)

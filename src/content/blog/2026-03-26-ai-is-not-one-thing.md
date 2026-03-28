@@ -152,6 +152,8 @@ The case studies in this series look at:
 - content flood and gate shift
 - IT ladder collapse
 - surveillance and coercion
+- physical world control
+- lower walls, harder gates
 
 Different domains, same recurring questions:
 
@@ -221,10 +223,12 @@ Even rough answers help.
 
 ## Related reading
 
-- [Don't Win the Sprint and Lose the Bench](/blog/2026-03-31-dont-win-the-sprint-and-lose-the-bench/)
-- [When Cheap Content Changes Who Gets Heard](/blog/2026-04-02-when-cheap-content-changes-who-gets-heard)
-- [When the Price Is Different for You](/blog/2026-04-07-when-the-price-is-different-for-you)
-- [Fast Decisions, Thin Appeals](/blog/2026-04-09-fast-decisions-thin-appeals)
-- [When Watching Becomes Control](/blog/2026-04-14-when-watching-becomes-control)
-- [The Pattern Underneath the AI Hype](/blog/2026-04-16-the-pattern-underneath-the-ai-hype/)
+- [When Building Gets Cheaper but Breaking In Doesn't](/blog/2026-03-31-when-building-gets-cheaper-but-breaking-in-doesnt/)
+- [Don't Win the Sprint and Lose the Bench](/blog/2026-04-02-dont-win-the-sprint-and-lose-the-bench/)
+- [When Cheap Content Changes Who Gets Heard](/blog/2026-04-07-when-cheap-content-changes-who-gets-heard/)
+- [Fast Decisions, Thin Appeals](/blog/2026-04-09-fast-decisions-thin-appeals/)
+- [When the Price Is Different for You](/blog/2026-04-14-when-the-price-is-different-for-you/)
+- [When Watching Becomes Control](/blog/2026-04-16-when-watching-becomes-control/)
+- [When AI Steers Systems You Can't Avoid](/blog/2026-04-21-when-ai-steers-systems-you-cant-avoid/)
+- [The Pattern Underneath the AI Hype](/blog/2026-04-23-the-pattern-underneath-the-ai-hype/)
 - [Case study: AI Impact Case Study Series](/case-studies/ai-impact-case-study-series/)

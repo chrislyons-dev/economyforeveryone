@@ -1,7 +1,7 @@
 ---
 title: 'When the Price Is Different for You'
 description: "AI-driven pricing and steering matter most where people can't realistically leave and hidden precision turns into extraction."
-pubDate: 2026-04-07
+pubDate: 2026-04-14
 earlyRelease: true
 status: 'published'
 category: 'core-model'
@@ -17,7 +17,7 @@ tags:
 receiptTags:
   - 'independent-analysis'
 sourceChannel: 'economyforeveryone'
-legacyPostRef: '3-personalized-pricing-and-steering'
+legacyPostRef: '5-personalized-pricing-and-steering'
 triage: 'promote-to-canonical'
 oneSmallAction: 'The next time you get a quote for an essential service, ask for the specific factors that shaped it and keep the answer.'
 audience:
@@ -161,7 +161,7 @@ Don't just ask for the price, ask for the logic.
 
 ## Related reading
 
-- [When Cheap Content Changes Who Gets Heard](/blog/2026-04-02-when-cheap-content-changes-who-gets-heard/)
 - [Fast Decisions, Thin Appeals](/blog/2026-04-09-fast-decisions-thin-appeals/)
-- [The Pattern Underneath the AI Hype](/blog/2026-04-16-the-pattern-underneath-the-ai-hype/)
+- [When Watching Becomes Control](/blog/2026-04-16-when-watching-becomes-control/)
+- [When AI Steers Systems You Can't Avoid](/blog/2026-04-21-when-ai-steers-systems-you-cant-avoid/)
 - [Case study: AI and Personalized Pricing & Steering in Essentials](/case-studies/personalized-pricing-steering/)

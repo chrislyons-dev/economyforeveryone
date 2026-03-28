@@ -1,7 +1,7 @@
 ---
 title: 'The Pattern Underneath the AI Hype'
-description: 'Across work, content, pricing, claims, and surveillance, the recurring question is whether AI is widening access or speeding up extraction.'
-pubDate: 2026-04-16
+description: 'Across work, content, pricing, claims, surveillance, competition, and physical infrastructure, the recurring question is whether AI is widening access or speeding up extraction.'
+pubDate: 2026-04-23
 earlyRelease: true
 status: 'published'
 category: 'core-model'
@@ -17,7 +17,7 @@ tags:
 receiptTags:
   - 'independent-analysis'
 sourceChannel: 'economyforeveryone'
-legacyPostRef: '6-summary-what-these-cases-have-in-common'
+legacyPostRef: '8-summary-what-these-cases-have-in-common'
 triage: 'promote-to-canonical'
 oneSmallAction: 'Pick one system you already deal with and map it against the five fault lines: entry, review, appeal, exit, and gains.'
 audience:
@@ -28,9 +28,9 @@ receipts: []
 
 Across this series, the tool kept changing but the pattern didn't.
 
-In one post, the issue was entry-level work drying up. In another, it was synthetic content flooding the zone. Then personalized pricing. Then faster denials with thinner appeals. Then surveillance systems that shape behavior before any formal punishment ever lands.
+In one post, the issue was entry-level work drying up. In another, it was synthetic content flooding the zone. Then personalized pricing. Then faster denials with thinner appeals. Then surveillance systems that shape behavior before any formal punishment ever lands. Then physical systems where AI can steer the route, pace, or access. Then competition stories where the build cost drops but the gate does not.
 
-We saw the same drift across all five:
+We saw the same drift across all seven:
 
 - decisions get faster
 - systems get cheaper to scale
@@ -82,7 +82,7 @@ These questions don't solve everything. But they cut through a lot of fog and ge
 
 **Who has the power here, and what keeps that power from turning abusive?**
 
-## What the floor looks like after five cases
+## What the floor looks like after seven cases
 
 Each case pointed toward the same minimum: notice, a plain-language reason, a real path to appeal, records that can be reviewed, and a human override with actual authority. If exit is weak, the governance bar should rise.
 
@@ -121,9 +121,13 @@ Pick one system you already deal with and map it against the five fault lines: e
 ## Related reading
 
 - [AI Is Not One Thing](/blog/2026-03-26-ai-is-not-one-thing/)
-- [Don't Win the Sprint and Lose the Bench](/blog/2026-03-31-dont-win-the-sprint-and-lose-the-bench/)
-- [When Cheap Content Changes Who Gets Heard](/blog/2026-04-02-when-cheap-content-changes-who-gets-heard/)
-- [When the Price Is Different for You](/blog/2026-04-07-when-the-price-is-different-for-you/)
+- [When Building Gets Cheaper but Breaking In Doesn't](/blog/2026-03-31-when-building-gets-cheaper-but-breaking-in-doesnt/)
+- [Don't Win the Sprint and Lose the Bench](/blog/2026-04-02-dont-win-the-sprint-and-lose-the-bench/)
+- [When Cheap Content Changes Who Gets Heard](/blog/2026-04-07-when-cheap-content-changes-who-gets-heard/)
 - [Fast Decisions, Thin Appeals](/blog/2026-04-09-fast-decisions-thin-appeals/)
-- [When Watching Becomes Control](/blog/2026-04-14-when-watching-becomes-control/)
+- [When the Price Is Different for You](/blog/2026-04-14-when-the-price-is-different-for-you/)
+- [When Watching Becomes Control](/blog/2026-04-16-when-watching-becomes-control/)
+- [When AI Steers Systems You Can't Avoid](/blog/2026-04-21-when-ai-steers-systems-you-cant-avoid/)
 - [Case study: AI Impact Case Study Series](/case-studies/ai-impact-case-study-series/)
+- [Case study: Lower Walls, Harder Gates: AI, New Entrants, and the Competition That Doesn't Happen](/case-studies/lower-walls-harder-gates/)
+- [Case study: Physical World Control: When AI Steers the Infrastructure You Cannot Avoid](/case-studies/physical-world-control/)

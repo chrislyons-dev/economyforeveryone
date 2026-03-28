@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Election guardrails: intelligence agencies and the temptation to touch the machinery'
 description: 'Election integrity depends on boring guardrails: clear boundaries, chain of custody, and fast accountability when lines are tested.'
 pubDate: 2026-02-05

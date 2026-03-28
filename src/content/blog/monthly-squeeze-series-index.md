@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'The Monthly Squeeze Series'
 description: 'A plain-language guide to the five big bills squeezing households, the mechanisms behind them, and the practical fixes that can actually be done.'
 pubDate: 2026-03-03

@@ -1,7 +1,7 @@
 ---
 title: 'When Watching Becomes Control'
 description: "The surveillance problem isn't only privacy or accuracy. It's what happens when monitoring gets cheap and contesting the flag stays weak."
-pubDate: 2026-04-14
+pubDate: 2026-04-16
 earlyRelease: true
 status: 'published'
 category: 'core-model'
@@ -17,7 +17,7 @@ tags:
 receiptTags:
   - 'independent-analysis'
 sourceChannel: 'economyforeveryone'
-legacyPostRef: '5-surveillance-and-coercion'
+legacyPostRef: '6-surveillance-and-coercion'
 triage: 'promote-to-canonical'
 oneSmallAction: 'The next time a monitoring tool comes up, ask what happens after the alert and what the flagged person can actually do.'
 audience:
@@ -129,6 +129,7 @@ The next time you hear about a monitoring tool at work, in a school, in housing,
 
 ## Related reading
 
-- [Fast Decisions, Thin Appeals](/blog/2026-04-09-fast-decisions-thin-appeals/)
-- [The Pattern Underneath the AI Hype](/blog/2026-04-16-the-pattern-underneath-the-ai-hype/)
+- [When the Price Is Different for You](/blog/2026-04-14-when-the-price-is-different-for-you/)
+- [When AI Steers Systems You Can't Avoid](/blog/2026-04-21-when-ai-steers-systems-you-cant-avoid/)
+- [The Pattern Underneath the AI Hype](/blog/2026-04-23-the-pattern-underneath-the-ai-hype/)
 - [Case study: AI and Surveillance + Coercion (Government + Workplace)](/case-studies/surveillance-coercion/)

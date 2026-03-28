@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Two nights in Minnesota: protest, escalation, and a civic ask'
 description: 'A practical civic response to protest escalation: protect protest rights, protect observation, and demand accountable process.'
 pubDate: 2026-01-25

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Small Guardrails, Big Consequences'
 description: 'Democracies rarely die all at once. They erode when small rule changes, courts, and accountability stop working in real time.'
 pubDate: 2026-01-25

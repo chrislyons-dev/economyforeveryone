@@ -116,7 +116,7 @@ Build the record, don't just argue the outcome.
 
 ## Related reading
 
-- [When the Price Is Different for You](/blog/2026-04-07-when-the-price-is-different-for-you/)
-- [When Watching Becomes Control](/blog/2026-04-14-when-watching-becomes-control/)
-- [The Pattern Underneath the AI Hype](/blog/2026-04-16-the-pattern-underneath-the-ai-hype/)
+- [When Cheap Content Changes Who Gets Heard](/blog/2026-04-07-when-cheap-content-changes-who-gets-heard/)
+- [When the Price Is Different for You](/blog/2026-04-14-when-the-price-is-different-for-you/)
+- [When Watching Becomes Control](/blog/2026-04-16-when-watching-becomes-control/)
 - [Case study: AI and Claims & Eligibility Systems](/case-studies/claims-eligibility/)

@@ -1,7 +1,7 @@
 ---
 title: 'When Cheap Content Changes Who Gets Heard'
 description: 'When AI makes content cheap, power shifts toward ranking, discovery, and trust signals, and ordinary people inherit the sorting burden.'
-pubDate: 2026-04-02
+pubDate: 2026-04-07
 earlyRelease: true
 status: 'published'
 category: 'core-model'
@@ -17,7 +17,7 @@ tags:
 receiptTags:
   - 'independent-analysis'
 sourceChannel: 'economyforeveryone'
-legacyPostRef: '2-content-flood-and-gate-shift'
+legacyPostRef: '3-content-flood-and-gate-shift'
 triage: 'promote-to-canonical'
 oneSmallAction: 'Audit one gate you rely on this week and ask what trust signal is really doing the work.'
 audience:
@@ -160,7 +160,7 @@ Pick one platform and check five things it surfaced. Do that once, and the gate 
 
 ## Related reading
 
-- [Don't Win the Sprint and Lose the Bench](/blog/2026-03-31-dont-win-the-sprint-and-lose-the-bench/)
-- [When the Price Is Different for You](/blog/2026-04-07-when-the-price-is-different-for-you/)
-- [The Pattern Underneath the AI Hype](/blog/2026-04-16-the-pattern-underneath-the-ai-hype/)
+- [Don't Win the Sprint and Lose the Bench](/blog/2026-04-02-dont-win-the-sprint-and-lose-the-bench/)
+- [Fast Decisions, Thin Appeals](/blog/2026-04-09-fast-decisions-thin-appeals/)
+- [When the Price Is Different for You](/blog/2026-04-14-when-the-price-is-different-for-you/)
 - [Case study: Content Flood and the Gate Shift: Children's Books and Local News](/case-studies/content-flood-gate-shift/)

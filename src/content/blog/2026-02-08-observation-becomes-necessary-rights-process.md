@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'When observation becomes necessary'
 description: 'When trust breaks, public observation becomes a safeguard for shared reality, due process, and accountable institutions.'
 pubDate: 2026-02-08

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "If rights require compliance to work, rights aren't real"
 description: 'If rights only work when people stay quiet, they are permissions, not rights; process and oversight must be enforceable.'
 pubDate: 2026-02-06

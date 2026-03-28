@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Education: The Price of Entry Keeps Rising While Families Carry the Risk'
 description: 'Education is supposed to widen opportunity. When guardrails fail, it becomes debt, servicing complexity, policy whiplash, and a long-term squeeze carried mostly by the household.'
 pubDate: 2026-03-17
