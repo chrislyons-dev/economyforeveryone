@@ -202,7 +202,7 @@ What would need to be true at policy level:
 
 - consequential employment decisions cannot be meaningfully out of the loop
 - workers can know when AI is being used and challenge outcomes
-- firms cannot quietly erase training pipelines while claiming future workers will somehow appear later
+- firms cannot erase training pipelines through routine decisions while claiming future workers will somehow appear later
 - observability and auditability are treated as prerequisites for trust, not optional extras
 - fallback security and retraining systems are strong enough that adaptation is real rather than rhetorical
 
@@ -255,7 +255,7 @@ A hiring pipeline that keeps humans in command would do six things:
 5. Give applicants a real appeal path with human review.
 6. Track whether the system is narrowing entry routes for junior candidates over time.
 
-That is not a full solution to labor displacement. It is a minimum example of governance that keeps speed from quietly replacing accountability.
+That is not a full solution to labor displacement. It is a minimum example of governance that keeps speed from replacing accountability by default.
 
 For that example to be enforceable, two more things have to be true:
 

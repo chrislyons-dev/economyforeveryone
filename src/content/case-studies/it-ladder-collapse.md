@@ -51,7 +51,7 @@ A hiring manager at a mid-sized software firm has fifteen open positions. Three 
 
 ### Why this matters
 
-If AI removes the work people used to learn on, you do not just lose some junior openings. You lose the future humans who would have learned to review, debug, and overrule the system later. That is why this is not only a hiring problem. It is a long-term competence and oversight problem. A team can look more productive now while quietly destroying the bench it will need later.
+If AI removes the work people used to learn on, you do not just lose some junior openings. You lose the future humans who would have learned to review, debug, and overrule the system later. That is why this is not only a hiring problem. It is a long-term competence and oversight problem. A team can look more productive now while eroding the bench it will need later.
 
 ---
 
@@ -704,7 +704,7 @@ Entry is already narrowing: the 22-25 cohort is down 13-20% in the fields where 
 
 The productivity gains are real. The available evidence -- improving tech-sector margins, stable or rising senior wages, falling junior wages -- is consistent with gains being captured as margin and senior stability rather than distributed downward, but this conclusion remains plausible rather than confirmed: no study directly measures whether efficiency savings are passed to customers or workers versus retained as profit.
 
-The good version is possible, but only if organizations treat learning and review capacity as real production assets worth protecting. The mechanism is not the technology itself. The mechanism is the absence of guardrails that would keep AI from quietly dismantling the apprenticeship path while short-term efficiency gains are being captured.
+The good version is possible, but only if organizations treat learning and review capacity as real production assets worth protecting. The mechanism is not the technology itself. The mechanism is the absence of guardrails that would keep AI from dismantling the apprenticeship path through routine efficiency decisions while short-term gains are being captured.
 
 **System lesson in one sentence:** AI's productivity gains distribute upward by default; only deliberate guardrails -- in procurement contracts, HR practice, and eventually binding regulation -- will push them down.
 

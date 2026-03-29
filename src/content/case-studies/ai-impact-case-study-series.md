@@ -56,7 +56,7 @@ The goal is shared reality and repeatable civic action:
 
 Across domains, the same pattern repeats:
 
-When decisions become **fast, cheap, and opaque**, "human review" becomes a rubber stamp. That's how leverage quietly moves from people to institutions.
+When decisions become **fast, cheap, and opaque**, "human review" becomes a rubber stamp. That's how leverage moves from people to institutions through defaults, convenience, and time pressure.
 
 Two tests show up everywhere:
 
@@ -116,7 +116,7 @@ In every case study, the same core capability can usually be used in at least tw
 - to reduce friction, widen access, improve accountability, and make a system fairer and easier to live with
 - or to speed up extraction, hide responsibility, weaken contestability, and make the system more stressful, more opaque, and harder to escape
 
-That does **not** mean "AI is neutral" in the lazy sense. It means the **first institutional instinct matters**.
+That does **not** mean "AI is neutral" in the lazy sense. It means the **initial deployment choice usually reveals the real priority**.
 
 The default deployment path often leans toward short-term wins:
 
@@ -143,7 +143,49 @@ This is one of the main reasons the series exists. The goal is not just to descr
 
 ## The case studies
 
-### [1) Claims and eligibility](/case-studies/claims-eligibility/)
+### [1) Lower walls, harder gates](/case-studies/lower-walls-harder-gates/)
+
+**What it studies:** AI's effect on market competition and new-entrant survival across software, creative, and professional services markets, specifically the gap between lowered production costs and unchanged distribution, certification, trust, and credential gates.
+
+**Why it's useful:** it surfaces the bottleneck-shift pattern across two gate types:
+- In software and enterprise tech: the scarce resource becomes **channel access** such as procurement bundles, certification floors, and platform API dependency
+- In professional services: the scarce resource becomes **credibility, coverage, and credentials** such as trust-based distribution, liability coverage, and regulatory standing
+
+**Generalizes to:** any market where production cost deflation meets procurement bundling, regulatory certification, or trust-based distribution lock-in; including cloud services, healthcare IT, government contracting, consulting, legal, and financial services.
+
+**Primary levers:** antitrust enforcement on bundling-as-foreclosure, FedRAMP reform at scale, documented alternatives evaluation as a buyer discipline, pooled insurance structures for small professional services firms, published AI governance standards from bar associations and FINRA, acqui-hire scrutiny under HSR merger standards.
+
+### [2) The Moving Breadbox](/case-studies/moving-breadbox/)
+
+**What it studies:** AI's effect on the build-vs-buy threshold for internal software and the risk that point-solution vendors lose not to rival vendors but to their own customers' ability to build.
+
+**Why it's useful:** it captures a different competition pattern from Lower Walls. There is no outside gate to clear. The buyer is internal. When build costs fall enough, demand disappears instead of shifting to another vendor.
+
+**Generalizes to:** reporting and analytics tools, workflow automation, internal portals, integration connectors, vertical-niche point solutions, and any software category whose value proposition depended mostly on building being too expensive.
+
+**Primary levers:** explicit build-versus-buy reviews, lightweight governance for citizen-developer tools, ownership and maintenance requirements for internal replacements, and apprenticeship policies that keep the savings from thinning the junior pipeline.
+
+### [3) IT ladder collapse](/case-studies/it-ladder-collapse/)
+
+**What it studies:** what happens to skill formation when "learning work" is automated away and entry-level ladders shrink.
+
+**Why it's useful:** it captures a second-order effect many miss: institutions can lose the ability to do the work even if they want to later. When apprenticeship collapses, oversight becomes fake.
+
+**Generalizes to:** claims adjusters, caseworkers, compliance analysts, junior reporters/editors, entry-level accountants, paralegals, and any profession with a training pipeline.
+
+**Primary levers:** protected learning-work quotas, apprenticeship funding, review rotations, "manual flight checks," measurable hiring/mentorship ratios, and procurement rules that require retained human capability.
+
+### [4) Content flood and gate shift](/case-studies/content-flood-gate-shift/)
+
+**What it studies:** near-zero cost content production and the resulting shift of power to distribution, ranking, and trust layers.
+
+**Why it's useful:** it demonstrates a general rule: when production becomes cheap, the scarce resource becomes **attention and trust**, so power moves to whoever controls ranking, verification, and gatekeeping.
+
+**Generalizes to:** app stores, marketplaces, job boards, social platforms, academic publishing, reviews/ratings, and any domain where discovery is the choke point.
+
+**Primary levers:** provenance and labeling, contestable ranking/takedown, anti-spam friction, preservation of credentials through pipelines, transparency requirements, and competition constraints on gatekeepers.
+
+### [5) Claims and eligibility](/case-studies/claims-eligibility/)
 
 **What it studies:** automated or semi-automated decisions about eligibility, coverage, payment, and access (insurance, benefits, healthcare admin, financial access).
 
@@ -158,7 +200,7 @@ This is one of the main reasons the series exists. The goal is not just to descr
 
 **Primary levers:** notice/reason specificity, appeal SLAs, audit logs, independent review, procurement requirements, portability/exit constraints.
 
-### [2) Personalized pricing and steering](/case-studies/personalized-pricing-steering/)
+### [6) Personalized pricing and steering](/case-studies/personalized-pricing-steering/)
 
 **What it studies:** individualized offers, routing, eligibility nudges, and price discrimination in captive or semi-captive markets.
 
@@ -173,27 +215,7 @@ This is one of the main reasons the series exists. The goal is not just to descr
 
 **Primary levers:** all-in pricing, disclosure at point of decision, non-discrimination audits (including proxy tests), contestable adverse actions, portability and switching tools, limits on exploitative personalization in captive markets.
 
-### [3) Content flood and gate shift](/case-studies/content-flood-gate-shift/)
-
-**What it studies:** near-zero cost content production and the resulting shift of power to distribution, ranking, and trust layers.
-
-**Why it's useful:** it demonstrates a general rule: when production becomes cheap, the scarce resource becomes **attention and trust**, so power moves to whoever controls ranking, verification, and gatekeeping.
-
-**Generalizes to:** app stores, marketplaces, job boards, social platforms, academic publishing, reviews/ratings, and any domain where discovery is the choke point.
-
-**Primary levers:** provenance and labeling, contestable ranking/takedown, anti-spam friction, preservation of credentials through pipelines, transparency requirements, and competition constraints on gatekeepers.
-
-### [4) IT ladder collapse](/case-studies/it-ladder-collapse/)
-
-**What it studies:** what happens to skill formation when "learning work" is automated away and entry-level ladders shrink.
-
-**Why it's useful:** it captures a second-order effect many miss: institutions can lose the ability to do the work even if they want to later. When apprenticeship collapses, oversight becomes fake.
-
-**Generalizes to:** claims adjusters, caseworkers, compliance analysts, junior reporters/editors, entry-level accountants, paralegals, and any profession with a training pipeline.
-
-**Primary levers:** protected learning-work quotas, apprenticeship funding, review rotations, "manual flight checks," measurable hiring/mentorship ratios, and procurement rules that require retained human capability.
-
-### [5) Surveillance and coercion](/case-studies/surveillance-coercion/)
+### [7) Surveillance and coercion](/case-studies/surveillance-coercion/)
 
 **What it studies:** cheap sensing, cheap scoring, and cheap enforcement, especially where consequences arrive without adjudication.
 
@@ -208,7 +230,7 @@ It also provides a clear test: scale without accountability produces coercion.
 
 **Primary levers:** independent corroboration rules, audit logs, query constraints, appeal rights with timelines, prohibited-use boundaries, kill switches, transparency reporting, and limits on warrantless purchase of sensitive data.
 
-### [6) Physical world control](/case-studies/physical-world-control/)
+### [8) Physical world control](/case-studies/physical-world-control/)
 
 **What it studies:** AI's shift from recommendation to direct actuation in utilities, logistics, buildings, and transport -- where the affected person cannot exit, the operator holds the logs, and nominal human oversight exists without practical override.
 
@@ -218,25 +240,12 @@ It also provides a clear test: scale without accountability produces coercion.
 
 **Primary levers:** mandatory log access rights for affected parties and regulators, real human review requirements for deactivation and access decisions, national AV liability assignment (UK ADSE model), OSHA enforcement authority over algorithmically caused injury, and worker deactivation rights ordinances modeled on Seattle's.
 
-### [7) Lower walls, harder gates](/case-studies/lower-walls-harder-gates/)
-
-**What it studies:** AI's effect on market competition and new-entrant survival across software, creative, and professional services markets -- specifically the gap between lowered production costs and unchanged distribution, certification, trust, and credential gates.
-
-**Why it's useful:** it surfaces the bottleneck-shift pattern across two gate types:
-- In software and enterprise tech: the scarce resource becomes **channel access** (procurement bundles, certification floors, platform API dependency)
-- In professional services: the scarce resource becomes **credibility, coverage, and credentials** (trust-based distribution, liability coverage, regulatory standing)
-
-In both cases, power moves to whoever controls the channel, even as more competitors reach the gate.
-
-**Generalizes to:** any market where production cost deflation meets procurement bundling, regulatory certification, or trust-based distribution lock-in; including cloud services, healthcare IT, government contracting, consulting, legal, and financial services.
-
-**Primary levers:** antitrust enforcement on bundling-as-foreclosure, FedRAMP reform at scale, documented alternatives evaluation as a buyer discipline, pooled insurance structures for small professional services firms, published AI governance standards from bar associations and FINRA, acqui-hire scrutiny under HSR merger standards.
 
 ---
 
 ## What "good" looks like
 
-What good looks like is not "AI everywhere" or "AI nowhere." It is AI used in ways that lower friction for normal people, preserve real choice, keep human command meaningful, and make sure gains are actually shared instead of quietly captured.
+What good looks like is not "AI everywhere" or "AI nowhere." It is AI used in ways that lower friction for normal people, preserve real choice, keep human command meaningful, and make sure gains are actually shared instead of captured upstream.
 
 A system that uses AI well tends to have:
 

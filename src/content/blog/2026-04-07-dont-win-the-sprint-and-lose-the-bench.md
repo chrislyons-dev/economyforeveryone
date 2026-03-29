@@ -1,7 +1,7 @@
 ---
 title: "Don't Win the Sprint and Lose the Bench"
-description: 'AI can make teams faster while quietly hollowing out the learning path that creates future experts and meaningful oversight.'
-pubDate: 2026-04-02
+description: 'AI can make teams faster while hollowing out the learning path that creates future experts and meaningful oversight.'
+pubDate: 2026-04-07
 earlyRelease: true
 status: 'published'
 category: 'core-model'
@@ -17,7 +17,7 @@ tags:
 receiptTags:
   - 'independent-analysis'
 sourceChannel: 'economyforeveryone'
-legacyPostRef: '2-it-ladder-collapse'
+legacyPostRef: '3-it-ladder-collapse'
 triage: 'promote-to-canonical'
 oneSmallAction: 'Protect one piece of work this week as intentionally unassisted skill-building work instead of treating every saved minute as output to reclaim.'
 audience:
@@ -40,8 +40,6 @@ The junior posting stays up.
 The junior path doesn't.
 
 She doesn't think of this as some grand policy choice. She thinks of it as being practical.
-
-That's why this case matters.
 
 Nobody has to stand up in a meeting and say, "Let's break the ladder."
 
@@ -74,11 +72,11 @@ That's a much tighter gate. Once that happens a few things follow fast:
 3. fewer people have enough real reps to know when the machine is wrong
 4. oversight gets weaker
 
-That's the part I keep coming back to: you don't get meaningful oversight by putting a human name on the form, you get it by having people who actually know what they are looking at.
+That's the part I keep coming back to: you don't get meaningful oversight by putting a human name on the form, you get it by having people who actually know what they're looking at.
 
 ## What we know, and what we don't
 
-The evidence here is early. The whole ladder has not collapsed.
+The evidence here is early. The whole ladder hasn't collapsed.
 
 Plausible from available evidence: AI is taking over a meaningful share of the tasks that used to train junior workers, entry-level hiring is tightening in technical fields, and organizations are moving faster on efficiency than on protecting the learning path. The mechanism is consistent and the incentives are clear. But we don't yet have robust longitudinal data showing ladder collapse at scale.
 
@@ -138,7 +136,7 @@ At the institution level, stop settling for "a human signs off." That's too weak
 - how much time is actually being spent reviewing AI-generated work?
 - how often do people override the tool?
 - are junior roles shrinking?
-- are "junior" jobs quietly being filled by experienced people?
+- are "junior" jobs being filled by experienced people without saying so directly?
 - can an applicant tell when AI screened them out?
 - can they appeal it?
 
@@ -152,15 +150,15 @@ I wouldn't lead with "AI is destroying jobs." That's too broad, and it misses th
 
 I would say it like this:
 
-- I'm not anti-AI. I'm pro keeping the ladder intact.
+- I'm not arguing against better tools. I'm arguing for keeping the ladder intact.
 - If we use these tools to cut grind and help people do better work, great.
 - If we use them in a way that slowly removes the training path for the next generation, then we are borrowing from the future to make this quarter look better.
 
 That feels like the right frame to me because it lowers the heat without lowering the standard.
 
-Most leaders aren't trying to wreck their teams, they are trying to get speed under pressure.
+Most leaders aren't trying to wreck their teams, they're trying to get speed under pressure.
 
-The point is whether they are getting that speed in a way that leaves them stronger or weaker in the long term.
+The point is whether they're getting that speed in a way that leaves them stronger or weaker in the long term.
 
 ## What to notice
 
@@ -186,6 +184,6 @@ That's small enough to do right now. It's a good test of whether your team is st
 ## Related reading
 
 - [When Building Gets Cheaper but Breaking In Doesn't](/blog/2026-03-31-when-building-gets-cheaper-but-breaking-in-doesnt/)
-- [When Cheap Content Changes Who Gets Heard](/blog/2026-04-07-when-cheap-content-changes-who-gets-heard/)
-- [Fast Decisions, Thin Appeals](/blog/2026-04-09-fast-decisions-thin-appeals/)
+- [When Your Customers Can Build What You Sell](/blog/2026-04-02-when-your-customers-can-build-what-you-sell/)
+- [When Cheap Content Changes Who Gets Heard](/blog/2026-04-09-when-cheap-content-changes-who-gets-heard/)
 - [Case study: AI and the IT Ladder Collapse](/case-studies/it-ladder-collapse/)

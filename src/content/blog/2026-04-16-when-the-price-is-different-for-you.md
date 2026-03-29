@@ -1,7 +1,7 @@
 ---
 title: 'When the Price Is Different for You'
 description: "AI-driven pricing and steering matter most where people can't realistically leave and hidden precision turns into extraction."
-pubDate: 2026-04-14
+pubDate: 2026-04-16
 earlyRelease: true
 status: 'published'
 category: 'core-model'
@@ -17,7 +17,7 @@ tags:
 receiptTags:
   - 'independent-analysis'
 sourceChannel: 'economyforeveryone'
-legacyPostRef: '5-personalized-pricing-and-steering'
+legacyPostRef: '6-personalized-pricing-and-steering'
 triage: 'promote-to-canonical'
 oneSmallAction: 'The next time you get a quote for an essential service, ask for the specific factors that shaped it and keep the answer.'
 audience:
@@ -120,9 +120,9 @@ The seller gets the model, the buyer gets the quote.
 
 The answer isn't "ban personalization." That's too blunt.
 
-A reasonable person should be able to see the benchmark price and the factors that changed it. Steering should be disclosed and contestable. Audit logs should exist. Independent audits should be allowed. Adverse decisions should be appealable with records.
+A reasonable person should be able to see the benchmark price and the factors that changed it. In this domain, comparability matters as much as appeal. People should be able to tell what the base offer was, what changed their quote, and whether they were steered toward a more profitable path.
 
-And if a system changes a life outcome like coverage, rent, access, or financing, people should get notice, a reason, records, appeal, and a real human override.
+Steering should be disclosed and contestable. Audit logs should exist. Independent audits should be allowed. And if a system changes a life outcome like coverage, rent, access, or financing, people should get a specific explanation, access to the relevant record, and a real path to challenge the result.
 
 **If exit is weak the governance bar should rise, not fall.**
 
@@ -147,7 +147,7 @@ At the community or policy level, push for a minimum floor in essential markets:
 
 I would say it like this:
 
-Personalization isn't the issue by itself. The issue is whether it's being used to help the customer or to quietly extract more from the person who can't realistically leave.
+Personalization isn't the issue by itself. The issue is whether it's being used to help the customer or to extract more from the person who can't realistically leave.
 
 Or even shorter:
 
@@ -161,7 +161,7 @@ Don't just ask for the price, ask for the logic.
 
 ## Related reading
 
-- [Fast Decisions, Thin Appeals](/blog/2026-04-09-fast-decisions-thin-appeals/)
-- [When Watching Becomes Control](/blog/2026-04-16-when-watching-becomes-control/)
-- [When AI Steers Systems You Can't Avoid](/blog/2026-04-21-when-ai-steers-systems-you-cant-avoid/)
+- [Fast Decisions, Thin Appeals](/blog/2026-04-14-fast-decisions-thin-appeals/)
+- [When Watching Becomes Control](/blog/2026-04-21-when-watching-becomes-control/)
+- [When AI Steers Systems You Can't Avoid](/blog/2026-04-23-when-ai-steers-systems-you-cant-avoid/)
 - [Case study: AI and Personalized Pricing & Steering in Essentials](/case-studies/personalized-pricing-steering/)
