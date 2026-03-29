@@ -101,7 +101,7 @@ The mechanisms below are the reusable patterns that make both rails possible. Ea
 
 ### Mechanism 1: Contestability collapse
 
-When systems become too fast, cheap, or opaque to overrule, "human review" becomes a rubber stamp. Power quietly shifts from people to institutions.
+When systems become too fast, cheap, or opaque to overrule, "human review" becomes a rubber stamp. Power shifts from people to institutions through defaults, opacity, and weak recourse.
 
 #### Module 1.1: Human Command (minimum floor)
 

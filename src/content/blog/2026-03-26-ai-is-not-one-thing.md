@@ -28,7 +28,7 @@ receipts: []
 
 People keep getting pushed into the same fake argument about AI.
 
-Either you are supposed to be amazed by it, or terrified of it. Either it will save everything, or destroy everything. Either you are "pro-innovation," or you are standing in the way.
+Either you're supposed to be amazed by it, or terrified of it. Either it will save everything, or destroy everything. Either you're "pro-innovation," or you're standing in the way.
 
 I don't think that frame helps much.
 
@@ -67,7 +67,7 @@ What matters is where the tool sits in the workflow, who has the power, who can 
 
 Across domains, the same pattern keeps showing up: when decisions become fast, cheap, and opaque, "human review" starts to become a rubber stamp.
 
-That's how leverage moves from people to institutions. Not always with some grand evil plan. It happens through throughput, volume, convenience, and time pressure. It happens through a front-line human who is technically present but has no real authority or time and no useful way to override the system.
+That's how leverage moves from people to institutions. Not always with some grand evil plan. It happens through throughput, volume, convenience, and time pressure. It happens through a front-line human who's technically present but has no real authority or time and no useful way to override the system.
 
 **That isn't accountability, that's theater.**
 
@@ -103,17 +103,19 @@ An insurer can process more claims, but also deny or triage faster.
 
 A platform can host far more content, but that makes ranking and visibility more important. Power flows to whoever controls the gate.
 
-A manager can get more summaries, scores, and dashboards. That doesn't mean they are exercising better judgment. Sometimes it means they are being handed a cleaner-looking version of the same black box.
+A manager can get more summaries, scores, and dashboards. That doesn't mean they're exercising better judgment. Sometimes it means they're being handed a cleaner-looking version of the same black box.
 
-That's the mechanism I want to track in this series: **the first institutional instinct matters**.
+That's the mechanism I want to track in this series: **the initial deployment choice usually reveals the real priority**.
 
-The same capability can be used to reduce friction, widen access, improve accountability, and make a system easier to live with can also be used to speed up extraction, hide responsibility, weaken contestability, and trap people in systems they can't really leave.
+The same capability can be used to reduce friction, widen access, improve accountability, and make a system easier to live with.
+
+It can also be used to speed up extraction, hide responsibility, weaken contestability, and trap people in systems people can't really leave.
 
 The short-term wins that look impressive on a dashboard can still be harmful in the long run if they hollow out learning, weaken appeals, raise switching costs, or let gains pool upward without improving life for the people affected.
 
 ## What good looks like
 
-I'm not anti-AI, I'm pro dignity and accountability.
+The standard isn't whether the tool is impressive. It's whether it leaves people with dignity, accountability, and a way to challenge it.
 
 Good use of AI should:
 
@@ -137,7 +139,7 @@ If a system is hard to leave, the governance should get stronger, not weaker.
 
 That's one of the core ideas underneath this series: **exit matters**.
 
-If you can't realistically switch employers, platforms, providers, schools, or systems without losing your history, your eligibility, your audience, or your livelihood, then you aren't really choosing. You are captured.
+If you can't realistically switch employers, platforms, providers, schools, or systems without losing your history, your eligibility, your audience, or your livelihood, then you aren't really choosing. You're captured.
 
 That's where public rules, procurement standards, and hard guardrails matter most.
 
@@ -145,23 +147,37 @@ That's where public rules, procurement standards, and hard guardrails matter mos
 
 I'm using industry-specific case studies as stress tests because these bounded cases keep the mechanism concrete, not because these are the only places AI matters. They let us look at real decisions, real harms, real incentives, and real levers without dissolving into hand-waving.
 
-The case studies in this series look at:
+Across all of them, the same questions keep coming back:
 
-- claims and eligibility
-- personalized pricing and steering
-- content flood and gate shift
-- IT ladder collapse
-- surveillance and coercion
-
-Different domains, same recurring questions:
-
-- What is the system optimizing for right now?
+- What's the system optimizing for right now?
 - Cost, speed, control, and margin?
 - Fairness, reliability, resilience, and better outcomes for the people using it?
 - How could the same capability be pointed in a better direction?
 - Is this a short-term win creating a long-term institutional loss?
 
-That's the pattern I want us to get better at seeing.
+The series has a shape to it:
+
+**Introduction**
+
+How to Read the Pattern: this intro post sets up the core question and the recurring fault lines.
+
+**Work, Markets, and Gatekeepers**
+
+1. **Lower Walls, Harder Gates**: when building gets cheaper for new entrants but the trust, procurement, and certification gates barely move.
+2. **The Moving Breadbox**: when building gets cheaper for buyers too, and vendors start losing not to rivals but to their own customers.
+3. **IT Ladder Collapse**: when the starter work people used to learn on gets automated away and the path into the field narrows.
+4. **Content Flood and Gate Shift**: when content gets cheap, trust and discovery become the choke point instead.
+
+**The Systems Around You**
+
+1. **Claims and Eligibility**: when denials get fast and cheap but understanding, contesting, and reversing them stays hard.
+2. **Personalized Pricing and Steering**: when AI stops just predicting what you'll buy and starts shaping what you see, pay, and accept.
+3. **Surveillance and Coercion**: when cheap monitoring turns into pressure even before any formal punishment arrives.
+4. **Physical World Control**: when AI starts steering systems people cannot realistically avoid, from routing to access to safety.
+
+**Summary**
+
+What It All Adds Up To: the closing post pulls the cases back into one reusable framework.
 
 ## What to do
 
@@ -182,7 +198,9 @@ At the workplace level, one practical move is to audit any place where "human re
 
 If a person is technically in the loop but has no time, no records, no authority, or no safe way to override, the review is probably a formality.
 
-At the community and policy level, the lever is to push for minimum floors in high-stakes systems: notice, reasons, records, appeal paths, human override, and stronger protections where exit is unrealistic.
+At the community and policy level, the lever is to push for minimum floors in high-stakes systems: clear notice, usable records, workable appeals, real override authority, and stronger protections where exit is unrealistic.
+
+That's the pattern I want us to get better at seeing.
 
 The direction isn't complicated: **simple for the many, strict for the powerful, fast for everyone.**
 
@@ -192,7 +210,7 @@ This isn't anti-innovation, it's just basic rule-of-the-road thinking for system
 
 ## How to talk about it
 
-The easiest way to lose people on AI is to sound like you are either worshipping it or panicking about it.
+The easiest way to lose people on AI is to sound like you're either worshipping it or panicking about it.
 
 I think the better language is calmer.
 
@@ -221,10 +239,13 @@ Even rough answers help.
 
 ## Related reading
 
-- [Don't Win the Sprint and Lose the Bench](/blog/2026-03-31-dont-win-the-sprint-and-lose-the-bench/)
-- [When Cheap Content Changes Who Gets Heard](/blog/2026-04-02-when-cheap-content-changes-who-gets-heard)
-- [When the Price Is Different for You](/blog/2026-04-07-when-the-price-is-different-for-you)
-- [Fast Decisions, Thin Appeals](/blog/2026-04-09-fast-decisions-thin-appeals)
-- [When Watching Becomes Control](/blog/2026-04-14-when-watching-becomes-control)
-- [The Pattern Underneath the AI Hype](/blog/2026-04-16-the-pattern-underneath-the-ai-hype/)
+- [When Building Gets Cheaper but Breaking In Doesn't](/blog/2026-03-31-when-building-gets-cheaper-but-breaking-in-doesnt/)
+- [When Your Customers Can Build What You Sell](/blog/2026-04-02-when-your-customers-can-build-what-you-sell/)
+- [Don't Win the Sprint and Lose the Bench](/blog/2026-04-07-dont-win-the-sprint-and-lose-the-bench/)
+- [When Cheap Content Changes Who Gets Heard](/blog/2026-04-09-when-cheap-content-changes-who-gets-heard/)
+- [Fast Decisions, Thin Appeals](/blog/2026-04-14-fast-decisions-thin-appeals/)
+- [When the Price Is Different for You](/blog/2026-04-16-when-the-price-is-different-for-you/)
+- [When Watching Becomes Control](/blog/2026-04-21-when-watching-becomes-control/)
+- [When AI Steers Systems You Can't Avoid](/blog/2026-04-23-when-ai-steers-systems-you-cant-avoid/)
+- [The Pattern Underneath the AI Hype](/blog/2026-04-28-the-pattern-underneath-the-ai-hype/)
 - [Case study: AI Impact Case Study Series](/case-studies/ai-impact-case-study-series/)

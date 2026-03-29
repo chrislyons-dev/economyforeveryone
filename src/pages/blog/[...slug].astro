@@ -31,8 +31,14 @@ const relatedMethodTypes = [
 }));
 
 const allPosts = await getCollection('blog', ({ data }) => data.status === 'published');
-const postPubDates = Object.fromEntries(
-  allPosts.map((entry) => [entry.slug, entry.data.pubDate.toISOString()])
+const postSchedule = Object.fromEntries(
+  allPosts.map((entry) => [
+    entry.slug,
+    {
+      pubDate: entry.data.pubDate.toISOString(),
+      earlyRelease: entry.data.earlyRelease ?? false,
+    },
+  ])
 );
 
 const oneSmallActionParts = (() => {
@@ -114,7 +120,7 @@ const oneSmallActionParts = (() => {
         </p>
       )
     }
-    <div id="blog-content" data-post-pub-dates={JSON.stringify(postPubDates)}>
+    <div id="blog-content" data-post-schedule={JSON.stringify(postSchedule)}>
       <Content />
     </div>
 
@@ -154,15 +160,15 @@ const oneSmallActionParts = (() => {
   import { downgradeFutureBlogLinks } from '../../utils/blog-future-links';
 
   const blogContent = document.getElementById('blog-content');
-  const rawPubDates = JSON.parse(blogContent?.getAttribute('data-post-pub-dates') || '{}');
-  const postPubDates = new Map(
-    typeof rawPubDates === 'object' && rawPubDates !== null
-      ? Object.entries(rawPubDates).filter(([, v]) => typeof v === 'string')
+  const rawSchedule = JSON.parse(blogContent?.getAttribute('data-post-schedule') || '{}');
+  const postSchedule = new Map(
+    typeof rawSchedule === 'object' && rawSchedule !== null
+      ? Object.entries(rawSchedule).filter(([, v]) => typeof v === 'object' && v !== null)
       : []
-  ) as Map<string, string>;
+  ) as Map<string, { pubDate: string; earlyRelease?: boolean }>;
 
-  // Keep references visible, but disable links to future-dated blog posts.
-  if (blogContent) downgradeFutureBlogLinks(blogContent, postPubDates);
+  // Keep references visible, but disable links only for truly future posts.
+  if (blogContent) downgradeFutureBlogLinks(blogContent, postSchedule);
 
   document.querySelectorAll('[data-print-page]').forEach((button) => {
     button.addEventListener('click', () => window.print());

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Guardrails: ICE expansion and the accountability gap'
 description: 'As enforcement expands, oversight, evidence access, and court compliance become the minimum guardrails for legitimacy.'
 pubDate: 2026-02-17

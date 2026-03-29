@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Accountability vs obedience: why civil service guardrails matter'
 description: 'Civil-service guardrails protect accountability to law by limiting loyalty-based pressure in hiring, firing, and reclassification.'
 pubDate: 2026-02-09

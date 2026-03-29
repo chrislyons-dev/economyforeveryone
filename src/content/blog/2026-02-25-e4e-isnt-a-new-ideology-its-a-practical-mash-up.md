@@ -1,4 +1,4 @@
-﻿---
+---
 title: "E4E Isn't a New Ideology. It's a Practical Mash-Up (With Receipts)"
 description: 'E4E is not one magic theory. It is a usable synthesis of research families plus lived experience to test what actually reduces monthly squeeze.'
 pubDate: 2026-02-25

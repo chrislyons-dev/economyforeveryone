@@ -5,9 +5,14 @@ export function normalizeBlogSlugFromHref(href: string): string {
     .trim();
 }
 
+type BlogScheduleMeta = {
+  pubDate: string;
+  earlyRelease?: boolean;
+};
+
 export function downgradeFutureBlogLinks(
   root: { querySelectorAll: (selector: string) => Iterable<unknown> },
-  postPubDates: Map<string, string>
+  postSchedule: Map<string, BlogScheduleMeta>
 ): number {
   let updated = 0;
   const now = new Date();
@@ -27,8 +32,8 @@ export function downgradeFutureBlogLinks(
     const normalized = normalizeBlogSlugFromHref(href);
     if (!normalized) continue;
 
-    const pubDateStr = postPubDates.get(normalized);
-    if (!pubDateStr || new Date(pubDateStr) <= now) continue;
+    const schedule = postSchedule.get(normalized);
+    if (!schedule || schedule.earlyRelease || new Date(schedule.pubDate) <= now) continue;
 
     const label = (link.textContent || '').trim();
     const text = globalThis.document.createElement('span');

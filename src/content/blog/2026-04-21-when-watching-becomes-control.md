@@ -1,7 +1,7 @@
 ---
 title: 'When Watching Becomes Control'
 description: "The surveillance problem isn't only privacy or accuracy. It's what happens when monitoring gets cheap and contesting the flag stays weak."
-pubDate: 2026-04-14
+pubDate: 2026-04-21
 earlyRelease: true
 status: 'published'
 category: 'core-model'
@@ -17,7 +17,7 @@ tags:
 receiptTags:
   - 'independent-analysis'
 sourceChannel: 'economyforeveryone'
-legacyPostRef: '5-surveillance-and-coercion'
+legacyPostRef: '7-surveillance-and-coercion'
 triage: 'promote-to-canonical'
 oneSmallAction: 'The next time a monitoring tool comes up, ask what happens after the alert and what the flagged person can actually do.'
 audience:
@@ -53,7 +53,7 @@ That's why this post isn't really about privacy in the narrow sense. Privacy mat
 
 ## Why it's happening
 
-The mechanism is simple: monitoring got cheaper and adjudication didn't.
+The shift is plain: monitoring got cheaper and adjudication didn't.
 
 When a system can watch, score, query, and flag at very low cost, it can operate at a scale where real hearings, real review, and real appeals would be expensive, slow, or politically inconvenient.
 
@@ -68,6 +68,10 @@ And once that happens, a lot of the pressure lands before any formal punishment 
 Accuracy failures and rights failures are different problems. Both matter. Neither substitutes for the other.
 
 A system can be inaccurate and harmful. It can also be relatively accurate and still be unacceptable if people can't know they were flagged, can't inspect the record, and can't contest the action.
+
+Institutions like to defend these systems on accuracy grounds alone because it sounds clean and technical. But a system that correctly identifies a worker, driver, tenant, or resident can still be abusive if the action lands without notice, explanation, or recourse. "It usually gets the right person" is not the same as due process.
+
+That is why this case is bigger than error rates. The real question is whether the system is allowed to watch, infer, and trigger consequences faster than the person affected can respond.
 
 ## The deeper issue isn't being watched. It's being shaped.
 
@@ -91,11 +95,13 @@ Who carries the risk?
 - immigrants facing targeting systems with weak contest rights
 - communities with the least political voice and the least room to absorb extra friction
 
+And once you picture the person at the bottom of that list, the whole thing gets less abstract. It is not "a surveillance system." It is a driver trying to get a human being on the line before rent is due, or a family finding out after the fact that a system had already marked them as suspicious.
+
 ## What good looks like
 
 The better question is: what minimum floor should exist if a system can materially affect your income, movement, freedom, or legal exposure?
 
-Use cases should be narrow and named. There should be independent corroboration before action in high-stakes settings. Audit logs should be inspectable. And if a system can trigger a life-changing action, people need records access and an appeal path that works in practice.
+In this domain, notice and inspectability matter as much as appeal. Use cases should be narrow and named. There should be independent corroboration before action in high-stakes settings. Audit logs should be inspectable. People should be told when they were flagged in any case where notice will not defeat the purpose of the system. And if a system can trigger a life-changing action, people need records access, limits on how monitoring outputs can be used, and an appeal path that works in practice.
 
 That's the healthier standard: a system where the watching doesn't outrun rights.
 
@@ -115,7 +121,7 @@ That question changes the conversation fast.
 
 ## How to talk about it
 
-I'm not anti-AI. I'm pro dignity and accountability. The issue isn't whether a system can watch. The issue is whether it can flag and act without giving normal people a real way to know, challenge, or escape it.
+The issue isn't whether a system can watch. The issue is whether it can flag and act without giving normal people a real way to know, challenge, or escape it.
 
 Or even shorter:
 
@@ -129,6 +135,7 @@ The next time you hear about a monitoring tool at work, in a school, in housing,
 
 ## Related reading
 
-- [Fast Decisions, Thin Appeals](/blog/2026-04-09-fast-decisions-thin-appeals/)
-- [The Pattern Underneath the AI Hype](/blog/2026-04-16-the-pattern-underneath-the-ai-hype/)
+- [When the Price Is Different for You](/blog/2026-04-16-when-the-price-is-different-for-you/)
+- [When AI Steers Systems You Can't Avoid](/blog/2026-04-23-when-ai-steers-systems-you-cant-avoid/)
+- [The Pattern Underneath the AI Hype](/blog/2026-04-28-the-pattern-underneath-the-ai-hype/)
 - [Case study: AI and Surveillance + Coercion (Government + Workplace)](/case-studies/surveillance-coercion/)

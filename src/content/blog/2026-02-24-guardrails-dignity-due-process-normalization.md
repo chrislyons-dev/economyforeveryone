@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Guardrails: Dignity, due process, and the danger of normalization'
 description: 'Dignity and due process are baseline democratic guardrails, and normalization is what weakens them over time.'
 pubDate: 2026-02-24

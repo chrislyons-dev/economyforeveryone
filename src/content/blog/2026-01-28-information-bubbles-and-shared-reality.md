@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Information Bubbles and Shared Reality'
 description: "When we live in different information bubbles, we don't just disagree; we struggle to agree on what's happening."
 pubDate: 2026-01-28

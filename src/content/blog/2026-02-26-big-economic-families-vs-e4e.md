@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Big Economic Families vs E4E (and Why I'm Not Joining Anyone's Tribe)"
 description: 'A practical map of major economic families through an E4E lens: what to borrow, what to refuse, and how to stay outcome-aligned instead of identity-aligned.'
 pubDate: 2026-02-26

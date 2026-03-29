@@ -16,11 +16,12 @@ describe('blog future links helpers', () => {
     );
   });
 
-  it('downgrades only future-dated blog links into coming-soon text', () => {
+  it('downgrades only future-dated blog links that are not early release', () => {
     document.body.innerHTML = `
       <div id="content">
         <a href="/blog/monthly-squeeze-housing/">Housing: The Bill That Sets the Whole Month on Fire</a>
         <a href="/blog/monthly-squeeze-series-index/">The Monthly Squeeze Series</a>
+        <a href="/blog/ai-is-not-one-thing/">AI Is Not One Thing</a>
         <a href="/case-studies/housing-guardrails-and-squeeze/">Housing Case Study</a>
       </div>
     `;
@@ -30,11 +31,15 @@ describe('blog future links helpers', () => {
     if (!root) return;
 
     const futureDate = new Date(Date.now() + 86_400_000).toISOString();
-    const pubDates = new Map([
-      ['monthly-squeeze-housing', futureDate],
-      ['monthly-squeeze-series-index', new Date(Date.now() - 86_400_000).toISOString()],
+    const postSchedule = new Map([
+      ['monthly-squeeze-housing', { pubDate: futureDate, earlyRelease: false }],
+      [
+        'monthly-squeeze-series-index',
+        { pubDate: new Date(Date.now() - 86_400_000).toISOString(), earlyRelease: false },
+      ],
+      ['ai-is-not-one-thing', { pubDate: futureDate, earlyRelease: true }],
     ]);
-    const updated = downgradeFutureBlogLinks(root, pubDates);
+    const updated = downgradeFutureBlogLinks(root, postSchedule);
     expect(updated).toBe(1);
 
     expect(root.querySelector('a[href="/blog/monthly-squeeze-housing/"]')).toBeNull();
@@ -45,6 +50,9 @@ describe('blog future links helpers', () => {
 
     expect(root.querySelector('a[href="/blog/monthly-squeeze-series-index/"]')?.textContent).toBe(
       'The Monthly Squeeze Series'
+    );
+    expect(root.querySelector('a[href="/blog/ai-is-not-one-thing/"]')?.textContent).toBe(
+      'AI Is Not One Thing'
     );
     expect(
       root.querySelector('a[href="/case-studies/housing-guardrails-and-squeeze/"]')?.textContent

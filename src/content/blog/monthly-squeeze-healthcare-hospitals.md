@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Hospitals: The Complexity Tax Inside American Healthcare'
 description: 'American hospital care is not just expensive. It routes money through billing, contracting, denials, and debt collection before it reaches care, and that complexity tax lands on patients and clinicians alike.'
 pubDate: 2026-03-10

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Court orders aren't optional: a St. Paul release-order noncompliance case note"
 description: 'A Minnesota case note on why court-ordered release must mean immediate release when liberty is on the line.'
 pubDate: 2026-02-05

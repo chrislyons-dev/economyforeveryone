@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Economic pressure with guardrails: targeted strikes without breaking democracy'
 description: 'A guardrail-first approach to targeted economic pressure that protects small businesses and democratic process.'
 pubDate: 2026-02-03

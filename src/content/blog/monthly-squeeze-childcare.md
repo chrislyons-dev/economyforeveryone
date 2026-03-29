@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Childcare: When Something Essential Is Priced Like a Luxury'
 description: 'Childcare is expensive because it is labor-heavy, ratio-constrained work. Families pay too much, workers still earn too little, and providers remain fragile because we keep funding a public-good system like a private luxury.'
 pubDate: 2026-03-12

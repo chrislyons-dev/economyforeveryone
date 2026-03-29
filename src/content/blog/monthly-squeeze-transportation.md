@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Transportation: The Hidden Tax of Time, Car Dependence, and Volatility'
 description: 'Transportation is not just a commute. For many households it is a stack of unavoidable costs, weak alternatives, and low-choice markets that make work access feel like a tollbooth.'
 pubDate: 2026-03-19
