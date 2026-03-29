@@ -88,10 +88,6 @@ Each case pointed toward the same minimum floor: people should be able to find o
 
 That gap - between what the floor should be and what people actually encounter - is the problem worth naming.
 
-## Why this matters beyond AI
-
-AI governance can't just mean model safety. It also has to mean work, pricing, due process, public accountability, gate power, and whether people still get a fair shot in ordinary life.
-
 ## What to do now
 
 Pick one system you already deal with and map it against all five fault lines:
@@ -108,17 +104,17 @@ Write down which ones feel thin.
 
 **The question isn't whether the tool is impressive. The question is whether the system built around it still lets normal people understand what's happening, challenge what's unfair, and keep a real way out.**
 
+## One steady action to take this week
+
+Pick one system you already deal with and map it against the five fault lines: entry, review, appeal, exit, and gains.
+
 ## Final note
 
 Are we using these tools to reduce drag, widen access, and share gains? Or are we using them to speed up extraction, hide responsibility, thin out review, and trap people in systems they can't really leave?
 
 The better destination is not mysterious. It would feel like clearer decisions, fewer hidden traps, and more room for ordinary people to push back when a system gets something important wrong. It would mean households keeping more of the gains from efficiency instead of watching them disappear into pricing power, gatekeeping, and thinner service. It would mean workers and citizens dealing with systems that still answer to them in some practical way.
 
-Once you have the pattern in view, the next case gets easier to place.
-
-## One steady action to take this week
-
-Pick one system you already deal with and map it against the five fault lines: entry, review, appeal, exit, and gains.
+That is the standard underneath the whole series. Not whether the tool looks smart, but whether life gets more legible, more fair, and easier to live.
 
 ## Related reading
 

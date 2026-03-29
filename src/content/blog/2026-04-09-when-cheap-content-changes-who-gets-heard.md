@@ -33,7 +33,7 @@ One is a children's biography. The cover looks fine. The author name is unfamili
 
 She flags it.
 
-But there're forty books on the cart and forty minutes in the hour. She can't do that level of checking for all of them.
+But she has forty books on the cart and forty minutes in the hour. She can't do that level of checking for all of them.
 
 The problem isn't just that AI can make more content. It's that it can make more content than ordinary human judgment can realistically sort.
 
@@ -61,13 +61,13 @@ First, scale without adjudication. The system can scale creation faster than it 
 
 Second, gate shift. Once production gets cheap, distribution becomes the real choke point. Gatekeeping doesn't disappear. It moves downstream into ranking, storefront placement, search, feeds, and trust signals.
 
-That matters in two directions at once.
+This shows up in two directions at once.
 
 For readers, it becomes a trust problem. Can you tell what you're looking at? Was it checked? Is the author real? Is the outlet what it claims to be?
 
 For creators, it becomes a market problem. Cheap production does not automatically mean a freer market if getting found still depends on a few opaque systems. A platform can say it opened the door to more creators while still tightening its grip on who actually gets seen.
 
-That matters because people don't review everything directly. They rely on shortcuts:
+Most people don't review everything directly. They rely on shortcuts:
 
 - search results
 - recommendations
@@ -92,9 +92,9 @@ The flood itself is a problem. But the bigger problem is that low-cost content c
 - a search result that looks official
 - a result placed high enough that most people assume someone already checked it
 
-The flood matters. But the more damaging mechanism is the breakdown of trust signals that let bad content masquerade as good.
+The flood adds pressure. But the more damaging mechanism is the breakdown of trust signals that let bad content masquerade as good.
 
-That is why the local news part of this story matters so much. AI did not create the collapse of local news. That collapse was already underway. What AI does is make it cheaper to fill the vacuum with content that looks local enough to pass a quick glance. That is a different claim, and it is the right one. The danger is not "AI replaced journalism overnight." The danger is that communities already living with a weaker local information system now have an even harder time telling what is real.
+That is why the local news part of this story carries so much weight. AI did not create the collapse of local news. That collapse was already underway. What AI does is make it cheaper to fill the vacuum with content that looks local enough to pass a quick glance. That is a different claim, and it is the right one. The danger is not "AI replaced journalism overnight." The danger is that communities already living with a weaker local information system now have an even harder time telling what is real.
 
 And once people are left guessing, two bad things get easier: manipulation and withdrawal. Some people get pulled into nonsense. Some people stop believing anything enough to act. Neither one helps shared reality.
 
@@ -102,9 +102,17 @@ And once people are left guessing, two bad things get easier: manipulation and w
 
 Who benefits?
 
-Platforms benefit from more inventory, more engagement opportunities, and more leverage over discovery. Cheap production can also help some small creators enter markets that used to be harder to enter. That part is real.
+Platforms benefit from more inventory, more engagement opportunities, and more leverage over discovery. Cheap production can also help some small creators enter markets that used to be harder to enter. That gain is real.
 
 But the stronger point from the case study is what happens after entry. In books, for example, the market doesn't just split into "old incumbents" and "new creators." It also starts to squeeze the middle. Platform-favored content and high-volume operators can do fine. A handful of new entrants can break through. The people in trouble are often the mid-tier creators who compete on care, voice, and consistency, but now depend even more on ranking systems they cannot see or challenge.
+
+Think about the difference between a name-brand author with a marketing machine behind them and a working writer with a loyal but finite audience. The first person may still get the homepage placement, the newsletter slot, the podcast booking, the pre-order push, the "you might also like" shelf.
+
+The second person is often the one making something careful and distinctive, then watching it disappear into a much noisier field where ranking matters more than craft.
+
+Another way to say it: creators get turned into the pool. A platform can use a few recognizable names to attract attention, then let everyone else compete inside a much noisier market where ranking is opaque, payouts are thin, and volume keeps rising. The platform grows. A few anchor names still do well. The middle gets less stable.
+
+A similar split shows up in local news. The national brand with an established audience can absorb some discovery shock. The small local outlet, or the startup trying to replace the paper that already died, is the one living or dying on traffic it does not control.
 
 Who carries the risk?
 
@@ -114,7 +122,7 @@ Who carries the risk?
 - local communities already living with weakened newsrooms
 - readers who can't tell what's real, who's real, or why something is being shown to them
 
-That split matters. Once again, the system that gains speed isn't the same as the person who absorbs the uncertainty.
+That split is the point. Once again, the system that gains speed isn't the same as the person who absorbs the uncertainty.
 
 And there is a second layer here: the platforms running these gates increasingly function like private regulators. They make ranking, visibility, and traffic decisions that shape livelihoods and public understanding, but without the kind of notice, explanation, recordkeeping, or appeal we would expect if the same power were exercised by a public body. They get to act like the gate without taking on the duties of being the gate.
 

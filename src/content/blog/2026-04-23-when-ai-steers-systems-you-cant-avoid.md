@@ -48,7 +48,7 @@ The human may still exist in the loop on paper.
 
 But if the person in the loop has no time, no records, no authority, or no safe way to override, the system is effectively in charge.
 
-That is the shift to watch: recommendation becomes system behavior, and nominal oversight starts to look a lot weaker.
+That is the shift to watch: recommendation becomes system behavior, and nominal oversight starts to look a lot weaker. Most people will never describe it that way, of course. They will describe it as the door not opening, the route making no sense, or the vehicle doing something unsettling before anyone can explain it.
 
 ## Why it's happening
 
@@ -102,7 +102,7 @@ Ask three blunt questions about any AI-controlled physical system:
 2. Who can override the system in time?
 3. Who is legally responsible if it causes harm?
 
-If none of those answers are clear, the system isn't ready to deserve trust.
+If none of those answers are clear, the system is asking the public for a lot of trust without giving much back.
 
 ## How to talk about it
 
@@ -116,7 +116,7 @@ Or:
 
 Pick one physical system you rely on and ask who holds the logs, who can override it, and what you can do if it gets something important wrong.
 
-Even asking the question changes the standard.
+If nobody can answer that clearly before something goes wrong, they are asking you to live inside the experiment.
 
 ## Related reading
 

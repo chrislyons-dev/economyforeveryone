@@ -35,6 +35,8 @@ Now the build part is cheaper. The hard part starts after the demo.
 
 The product champion likes it. Procurement doesn't. One prospect already has a bundled incumbent in the contract. Another wants a certification stack that costs more than the founder can afford. A third says the board expects a recognized name.
 
+In a different corner of the same market, a solo employment lawyer can draft faster than she could two years ago. She can summarize a case file in minutes, turn around a clean first draft of a memo, and do the kind of solo prep work that used to eat whole evenings. But the corporate client still asks the same questions: Who else have you represented? Do you carry enough liability coverage? Has a board-level client trusted you before? Can you handle the matter at scale if it blows up? The work got easier to produce. The trust gate did not.
+
 That opening scene is the case in miniature.
 
 This isn't a story about AI failing to help people make things. It's a story about what happens when AI lowers the wall to build without lowering the procurement, trust, certification, and distribution walls that decide who survives.

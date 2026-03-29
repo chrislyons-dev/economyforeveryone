@@ -69,7 +69,7 @@ Accuracy failures and rights failures are different problems. Both matter. Neith
 
 A system can be inaccurate and harmful. It can also be relatively accurate and still be unacceptable if people can't know they were flagged, can't inspect the record, and can't contest the action.
 
-That distinction matters because institutions often defend these systems on accuracy grounds alone. But a system that correctly identifies a worker, driver, tenant, or resident can still be abusive if the action lands without notice, explanation, or recourse. "It usually gets the right person" is not the same as due process.
+Institutions like to defend these systems on accuracy grounds alone because it sounds clean and technical. But a system that correctly identifies a worker, driver, tenant, or resident can still be abusive if the action lands without notice, explanation, or recourse. "It usually gets the right person" is not the same as due process.
 
 That is why this case is bigger than error rates. The real question is whether the system is allowed to watch, infer, and trigger consequences faster than the person affected can respond.
 
@@ -94,6 +94,8 @@ Who carries the risk?
 - workers under productivity surveillance
 - immigrants facing targeting systems with weak contest rights
 - communities with the least political voice and the least room to absorb extra friction
+
+And once you picture the person at the bottom of that list, the whole thing gets less abstract. It is not "a surveillance system." It is a driver trying to get a human being on the line before rent is due, or a family finding out after the fact that a system had already marked them as suspicious.
 
 ## What good looks like
 

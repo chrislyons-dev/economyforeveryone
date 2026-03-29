@@ -142,7 +142,7 @@ At the institution level, stop settling for "a human signs off." That's too weak
 
 Those are much better tests of whether human oversight still means something.
 
-If a company or public institution buys AI for hiring, evaluation, or technical review, the minimum floor should be simple: notice, reason, records, appeal, and a real human override. A real human performing real oversight, not just a name attached at the end.
+If a company or public institution buys AI for hiring, evaluation, or technical review, the usual checks still have to hold: people should be told what happened, given a real reason, able to inspect the record, and able to reach a human who can actually change the answer. Oversight has to be more than a name attached at the end.
 
 ## How to talk about it
 
@@ -160,18 +160,11 @@ Most leaders aren't trying to wreck their teams, they're trying to get speed und
 
 The point is whether they're getting that speed in a way that leaves them stronger or weaker in the long term.
 
-## What to notice
-
-1. "junior" roles that are junior in title only
-2. organizations bragging about speed while entry-level hiring dries up
-3. review steps that still exist on paper but are getting thinner in real life
-4. the moment when AI is sold as support, but the actual effect is that fewer people ever get enough reps to become strong reviewers themselves
-
 ## What to ask
 
 Where do people learn now?
 
-That's the question underneath this whole case. If the old starter work is going to the machine, where is the new path to judgment, trust, and real competence?
+That's the question underneath this whole case. If the old starter work is going to the machine, where is the new path to judgment, trust, and real competence? Watch for the moment when AI is sold as support, but the actual effect is that fewer people ever get enough reps to become strong reviewers themselves.
 
 If nobody has a good answer to that then the ladder is probably not shifting, it's thinning.
 
