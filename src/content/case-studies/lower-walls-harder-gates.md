@@ -113,11 +113,13 @@ AI tools have made it materially cheaper and faster to build software products a
 But production cost was never the primary gating factor in enterprise software or professional services markets. The gates vary by market:
 
 **Software and enterprise tech:**
+
 1. Procurement channel access -- who is already in the contract
 2. Regulatory certification floors -- who has already paid the compliance cost
 3. Platform API dependency -- whose inference costs make unit economics work
 
 **Professional services (consulting, finance, legal, agency):**
+
 1. Trust-based distribution -- client relationships, institutional credibility, and the ability to have a named decision-maker vouch for the work
 2. Liability coverage -- malpractice insurance, indemnification structures, and the institutional scale to absorb error
 3. Proprietary data -- real-time market feeds, client benchmark databases, decades of engagement IP
@@ -160,6 +162,7 @@ New entrants who clear the production wall hit these gates at speed. In software
 **What matters most here:** The production wall is falling for everyone. Incumbents are adopting the same tools at scale -- McKinsey's Lilli, BCG's Deckster, Harvey at BigLaw. AI is making incumbents faster, not slower relative to boutiques. The production cost deflation story does not straightforwardly favor new entrants; it is as likely to strengthen incumbents by reducing their costs while keeping their gates intact.
 
 **What is unknown:**
+
 - How much of the cost deflation benefit accrues to small entrants versus large incumbents who can run inference at volume discounts. [unknown]
 - Net headcount compression per unit output for small software teams. The claim circulates in VC narratives but has no empirical backing. [unknown]
 
@@ -531,7 +534,7 @@ Advocate for procurement neutrality requirements in professional services -- rul
 ### Case verdict
 
 - **Net effect right now:** Mixed, with variation by scene. The software window is real and currently open -- Cursor's $2B ARR against GitHub Copilot's incumbent position is genuine evidence. Three or four meaningful competitors operating at scale in coding tools is not consolidation. In professional services, the window is more mixed: AI is making incumbents faster and more profitable, not slower. Billing rates and revenues are rising while production costs fall. The productivity gains are flowing to incumbents as margin.
-- **Forward projection (contingent):** The trajectory tilts toward bad loop *if* specific closing mechanisms proceed unchecked: bundling normalization (M365 Copilot adoption accelerates past 3%), VC exit pressure resolves into acqui-hire absorption rather than profitable independence, certification gate reform slips, and professional services procurement norms don't shift toward documented alternatives evaluation. If those mechanisms close before policy catches up, the current fragmentation resolves into consolidation. That outcome is plausible and worth preventing -- but it is a projection, not the current state.
+- **Forward projection (contingent):** The trajectory tilts toward bad loop _if_ specific closing mechanisms proceed unchecked: bundling normalization (M365 Copilot adoption accelerates past 3%), VC exit pressure resolves into acqui-hire absorption rather than profitable independence, certification gate reform slips, and professional services procurement norms don't shift toward documented alternatives evaluation. If those mechanisms close before policy catches up, the current fragmentation resolves into consolidation. That outcome is plausible and worth preventing -- but it is a projection, not the current state.
 - **What would change the projection:** FTC enforcement action on Microsoft bundling that establishes precedent; FedRAMP 20x at scale in FY26 with confirmed cost reductions for small vendors; documented alternatives evaluation becoming standard in large-client procurement; published AI governance standards from ABA and FINRA; acqui-hire transactions reviewed under HSR merger standards; Cursor achieving profitability through proprietary model execution. Any two of these would be enough to hold the window open meaningfully. [Each is an open question as of March 2026]
 
 ### One steady action

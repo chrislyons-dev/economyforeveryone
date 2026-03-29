@@ -148,6 +148,7 @@ This is one of the main reasons the series exists. The goal is not just to descr
 **What it studies:** AI's effect on market competition and new-entrant survival across software, creative, and professional services markets, specifically the gap between lowered production costs and unchanged distribution, certification, trust, and credential gates.
 
 **Why it's useful:** it surfaces the bottleneck-shift pattern across two gate types:
+
 - In software and enterprise tech: the scarce resource becomes **channel access** such as procurement bundles, certification floors, and platform API dependency
 - In professional services: the scarce resource becomes **credibility, coverage, and credentials** such as trust-based distribution, liability coverage, and regulatory standing
 
@@ -239,7 +240,6 @@ It also provides a clear test: scale without accountability produces coercion.
 **Generalizes to:** any physical infrastructure where AI controls access, pace, routing, or resource allocation and where the affected party has no realistic exit: grid management, warehouse and gig logistics, residential building systems, autonomous vehicles, and AI transit.
 
 **Primary levers:** mandatory log access rights for affected parties and regulators, real human review requirements for deactivation and access decisions, national AV liability assignment (UK ADSE model), OSHA enforcement authority over algorithmically caused injury, and worker deactivation rights ordinances modeled on Seattle's.
-
 
 ---
 

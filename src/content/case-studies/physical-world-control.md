@@ -78,7 +78,7 @@ The system steered. The supervisor was present. The supervisor had no practical 
 
 **Scene 3: Buildings**
 
-*This scene is an illustrative composite built from documented patterns in the SafeRent litigation and confirmed AI tenant screening discrimination cases. It is not a sourced event.*
+_This scene is an illustrative composite built from documented patterns in the SafeRent litigation and confirmed AI tenant screening discrimination cases. It is not a sourced event._
 
 A woman in a large apartment complex applies to renew her lease. The property management company uses an AI tenant-screening tool. The tool flags her application based on a prior eviction filing from six years ago -- a case she won, but which remains in the dataset. The system generates a denial.
 
@@ -253,12 +253,12 @@ For AI decisions in physical systems to meet the minimum floor, affected parties
 
 **Current state:**
 
-| Sector | Notice | Reason | Appeal | Records | Override |
-|---|---|---|---|---|---|
-| Utilities / demand response | Partial (program terms at enrollment; event notice varies) | Not required in US federal regulation | Not required | Not accessible to consumer | Nominal (opt-out at enrollment; real-time override program-dependent) |
-| Logistics / worker pace and routing | Minimal (policy disclosed at hire) | Not required; specific metric weights not disclosed | Appeal process exists; goes to automated system | Not accessible to worker in US federal regulation | None confirmed; override triggers performance flag |
-| Buildings / AI screening and access | Minimal (algorithmic use not always disclosed) | Not required; proprietary claim accepted | No federal requirement for real-time contestability | Not accessible; proprietary | Property manager present; no practical authority confirmed |
-| Transport / AV | Post-incident report via NHTSA | Post-incident investigation | No real-time appeal path | Operator holds logs; access requires legal process or criminal investigation | None for affected person; ASD in UK; no US equivalent |
+| Sector                              | Notice                                                     | Reason                                              | Appeal                                              | Records                                                                      | Override                                                              |
+| ----------------------------------- | ---------------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Utilities / demand response         | Partial (program terms at enrollment; event notice varies) | Not required in US federal regulation               | Not required                                        | Not accessible to consumer                                                   | Nominal (opt-out at enrollment; real-time override program-dependent) |
+| Logistics / worker pace and routing | Minimal (policy disclosed at hire)                         | Not required; specific metric weights not disclosed | Appeal process exists; goes to automated system     | Not accessible to worker in US federal regulation                            | None confirmed; override triggers performance flag                    |
+| Buildings / AI screening and access | Minimal (algorithmic use not always disclosed)             | Not required; proprietary claim accepted            | No federal requirement for real-time contestability | Not accessible; proprietary                                                  | Property manager present; no practical authority confirmed            |
+| Transport / AV                      | Post-incident report via NHTSA                             | Post-incident investigation                         | No real-time appeal path                            | Operator holds logs; access requires legal process or criminal investigation | None for affected person; ASD in UK; no US equivalent                 |
 
 No sector currently passes the full Human Command test in US federal regulation.
 
@@ -292,7 +292,7 @@ The shared gains picture is consistent across sectors: efficiency gains appear a
 
 ## 8. Minimum floor
 
-*The following section extends beyond the case evidence into prescriptive territory. It is included as a practical guide derived from the patterns documented above.*
+_The following section extends beyond the case evidence into prescriptive territory. It is included as a practical guide derived from the patterns documented above._
 
 For AI-controlled physical systems to be contestable, a minimum floor requires:
 
@@ -312,7 +312,7 @@ For AI-controlled physical systems to be contestable, a minimum floor requires:
 
 ## 9. What to do
 
-*The following section extends beyond the case evidence into prescriptive territory. It is included as a practical guide derived from the patterns documented above.*
+_The following section extends beyond the case evidence into prescriptive territory. It is included as a practical guide derived from the patterns documented above._
 
 ### Personal / interpersonal
 

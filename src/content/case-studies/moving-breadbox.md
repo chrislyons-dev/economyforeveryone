@@ -1,5 +1,5 @@
 ---
-title: "The Moving Breadbox: AI and the Collapsing Build-vs-Buy Threshold"
+title: 'The Moving Breadbox: AI and the Collapsing Build-vs-Buy Threshold'
 bucket: 'stress-test'
 corePattern: 'AI is moving the cost threshold at which it becomes cheaper to build software internally than to buy it from a vendor. The vendors below that line are not losing to competitors. They are losing to their own customers.'
 studyDate: 2026-03-28
