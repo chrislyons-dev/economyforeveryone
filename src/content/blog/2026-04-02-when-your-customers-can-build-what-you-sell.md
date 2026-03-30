@@ -63,6 +63,8 @@ First, AI coding tools lower the cost of internal builds for development teams. 
 
 Second, low-code and AI-assisted tools let non-developers build some of the smaller applications that used to wait in an IT queue.
 
+Third, AI built into development tooling -- automated dependency updates, AI-assisted code review, smarter monitoring -- is compressing the ongoing maintenance burden. The old case for buying was never just about avoiding the initial build. It was the full lifecycle: the 2am maintenance window, the upgrade cycle, the internal team that owns it forever. That care-and-feeding overhead is getting cheaper too.
+
 That is what makes this different from a normal vendor competition story. The pressure is not only vendor versus vendor. It is vendor versus internal build.
 
 And there is a useful distinction here: the dominant enterprise AI story in 2025 was still buy, not build, for AI applications specifically. This case is narrower. It is about some categories of ordinary internal software becoming easier to build than they used to be.
