@@ -123,6 +123,23 @@ Before your organization renews a software, consulting, agency, or legal-service
 
 That one question makes renewal-by-default visible.
 
+## Action ladder
+
+**Short term**
+
+- `Buyers:` Before one renewal this month, ask what alternatives were actually evaluated and why they were rejected.
+- `Builders and independent professionals:` Define the gate before you define the roadmap. Name the trust, certification, procurement, or distribution barrier up front.
+
+**Medium term**
+
+- `Procurement and operating leaders:` Require one real alternative review before major renewals so bundled incumbents do not win by default.
+- `Smaller vendors and professional firms:` Build shared trust materials - references, security documentation, liability coverage clarity, and certifications - so the gate gets easier to inspect and compare.
+
+**Long term**
+
+- `Policymakers and institutions:` Push for more contestable procurement, less bundle lock-in, and certification paths that do not automatically exclude smaller credible entrants.
+- `Buyers and trade groups:` Treat lower production cost as a chance to widen competition, not just renew faster and preserve the old gate.
+
 ## Related reading
 
 - [AI Is Not One Thing](/blog/2026-03-26-ai-is-not-one-thing/)

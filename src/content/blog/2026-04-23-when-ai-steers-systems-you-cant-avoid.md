@@ -54,6 +54,8 @@ That is the shift to watch: recommendation becomes system behavior, and nominal 
 
 The basic shift is this: it got cheaper to let the system run, and contestability didn't keep up.
 
+The pitch is always faster, cheaper, more reliable. That's usually accurate - for the operator. The worker gets the route. The operator gets the margin.
+
 Once an operator can automate the route, pace, or access decision, the burden shifts to whoever is downstream from it. The operator holds the logs. The affected person gets a notification, a denial, or nothing.
 
 That is why this case sits downstream from surveillance and coercion. Monitoring is one form of control. Taking action in the physical world is the next step.
@@ -67,6 +69,8 @@ For most people, these systems are harder to leave than an app or a feed.
 You may not be able to choose a different grid operator. You may not be able to opt out of AV traffic on your street. You may not be able to escape building automation or employer routing systems without major cost.
 
 When exit is weak, the governance bar has to go up.
+
+It's also not random who absorbs the cost when these systems get something wrong. Workers with the least legal protection, tenants in affordable housing, riders in low-income corridors - these are the people most dependent on these systems and least positioned to contest them.
 
 That's what makes this a civic and systemic AI story. These aren't only workplace tools or consumer features. They're systems that shape basic conditions of movement, access, safety, and daily life.
 
@@ -91,6 +95,8 @@ What good looks like is simple enough to name:
 - a qualified human can override the system in time
 - the system has a safe fallback when it is uncertain or fails
 - liability is assigned clearly when harm occurs
+
+The cases where this has worked - Seattle's gig worker protections, the UK's AV liability law, Denmark's grid AI - all share the same pattern: a floor built before deployment scaled, not an investigation after something went wrong.
 
 If those conditions are missing, the system is asking for trust it hasn't earned.
 
@@ -117,6 +123,23 @@ Or:
 Pick one physical system you rely on and ask who holds the logs, who can override it, and what you can do if it gets something important wrong.
 
 If nobody can answer that clearly before something goes wrong, they are asking you to live inside the experiment.
+
+## Action ladder
+
+**Short term**
+
+- `Residents, workers, and riders:` Ask who holds the logs, who can override the system in time, and who is liable if it causes harm.
+- `Journalists and community watchdogs:` Treat routing, pacing, access, and dispatch systems like real governance systems, not just background tech.
+
+**Medium term**
+
+- `Cities, employers, and building operators:` Require notice, log retention, override authority, and safe fallback behavior before scaling automated control systems.
+- `Workers and community groups:` Push for override rights and records access in the systems you cannot realistically avoid.
+
+**Long term**
+
+- `Policymakers and regulators:` Build clear floors for inspectable logs, real contestability, fail-safe behavior, and assigned liability in AI-controlled physical infrastructure.
+- `Public institutions:` Stop approving systems that can act first while leaving the people affected with no practical path to challenge what happened.
 
 ## Related reading
 

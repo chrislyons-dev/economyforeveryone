@@ -241,6 +241,26 @@ It also provides a clear test: scale without accountability produces coercion.
 
 **Primary levers:** mandatory log access rights for affected parties and regulators, real human review requirements for deactivation and access decisions, national AV liability assignment (UK ADSE model), OSHA enforcement authority over algorithmically caused injury, and worker deactivation rights ordinances modeled on Seattle's.
 
+### [9) Creator backlash, betrayal, and authenticity collapse](/case-studies/creator-backlash-authenticity-collapse/)
+
+### [10) Young worker ladder shift](/case-studies/young-worker-ladder-shift/)
+
+**What it studies:** how AI-enabled workflow changes are tightening some early-career gates by weakening old proof-of-work signals while leaving accountability with the human.
+
+**Why it's useful:** it turns a vague "kids should just learn AI" story into a more precise labor-market and governance claim: cheap first-pass output changes what counts as proof, but oversight, liability, and real judgment do not disappear.
+
+**Generalizes to:** junior analyst roles, entry-level professional services, early-career knowledge work, apprenticeship-heavy fields, and any job family where first-draft work used to double as training.
+
+**Primary levers:** apprenticeship protection, hiring transparency for true entry-level roles, real human-review standards in high-stakes workflows, and better measurement of entry-cohort conditions in AI-exposed occupations.
+
+**What it studies:** what happens when creative work is used to build generative systems before consent, compensation, provenance, and contestability are in place.
+
+**Why it's useful:** it shows that creator backlash is not just a culture-war reaction to new tools. It is a governance stress test where training-data use, labor devaluation, discovery flooding, trust failures, and institutional accommodation all converge.
+
+**Generalizes to:** any market where cheap synthetic output competes against the people whose work trained it and where distribution, labeling, and trust are controlled by platforms or institutions with weak accountability.
+
+**Primary levers:** consent before training, consumer-facing provenance labels, contestable ranking and takedown systems, compensation pathways for licensed training data, and contract floors for replica and replacement risk.
+
 ---
 
 ## What "good" looks like

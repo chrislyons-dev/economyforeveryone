@@ -118,6 +118,23 @@ If you or someone close to you gets a denial, ask for the specific reason in wri
 
 Build the record, don't just argue the outcome.
 
+## Action ladder
+
+**Short term**
+
+- `Claimants and families:` Ask for the specific reason in writing and keep every notice, date, and response.
+- `Advocates and helpers:` Help people build the record early. Missed paperwork and missing dates are part of how the system wins.
+
+**Medium term**
+
+- `Hospitals, insurers, agencies, and employers:` Require specific denial reasons, records access, and real human override in workflows that affect care, payment, or eligibility.
+- `Community groups and legal aid:` Collect examples of thin appeals, vague notices, and high-overturn decisions so the failure pattern is visible.
+
+**Long term**
+
+- `Policymakers and regulators:` Require reporting on denial rates, appeal rates, overturn rates, and correction timelines in systems where a fast "no" can destabilize a life.
+- `Institutions and purchasers:` Stop buying systems that speed up denials without funding the rights floor needed to challenge mistakes in time to matter.
+
 ## Related reading
 
 - [When Cheap Content Changes Who Gets Heard](/blog/2026-04-09-when-cheap-content-changes-who-gets-heard/)
