@@ -29,30 +29,31 @@ receiptTags:
 sources: []
 ---
 
-- [At a glance](#at-a-glance)
-- [1. Four scenes](#1-four-scenes)
-- [2. What's happening](#2-whats-happening)
-- [3. Why it's happening -- the mechanisms](#3-why-its-happening----the-mechanisms)
-- [4. Where it broke -- evidence against the good story](#4-where-it-broke----evidence-against-the-good-story)
-- [5. Where it held -- evidence that guardrails can work](#5-where-it-held----evidence-that-guardrails-can-work)
-- [6. Human Command test and Exit test](#6-human-command-test-and-exit-test)
-- [7. Shared Gains test](#7-shared-gains-test)
-- [8. Minimum floor](#8-minimum-floor)
-- [9. What to do](#9-what-to-do)
-- [Loop Effect](#loop-effect)
-- [North Star verdict](#north-star-verdict)
-- [Research gaps](#research-gaps)
+- [The System Decided](#the-system-decided)
+  - [At a glance](#at-a-glance)
+  - [1. Four scenes](#1-four-scenes)
+  - [2. What's happening](#2-whats-happening)
+  - [3. Why it's happening - the mechanisms](#3-why-its-happening---the-mechanisms)
+  - [4. Where it broke - evidence against the good story](#4-where-it-broke---evidence-against-the-good-story)
+  - [5. Where it held - evidence that guardrails can work](#5-where-it-held---evidence-that-guardrails-can-work)
+  - [6. Human Command test and Exit test](#6-human-command-test-and-exit-test)
+  - [7. Shared Gains test](#7-shared-gains-test)
+  - [8. Minimum floor](#8-minimum-floor)
+  - [9. What to do](#9-what-to-do)
+  - [Loop Effect](#loop-effect)
+  - [North Star verdict](#north-star-verdict)
+  - [Research gaps](#research-gaps)
 
 ---
 
 ## At a glance
 
-- **What changed:** AI in physical infrastructure moved from analysis and recommendation to direct actuation -- setting routes, pacing workers, managing grid loads, controlling building access, scheduling transit, dispatching autonomous vehicles.
+- **What changed:** AI in physical infrastructure moved from analysis and recommendation to direct actuation - setting routes, pacing workers, managing grid loads, controlling building access, scheduling transit, dispatching autonomous vehicles.
 - **Where power moved:** To the operator who controls the system and holds its logs. Away from the worker, resident, rider, or pedestrian on the receiving end of its decisions.
-- **The accountability gap:** When the system steers and the outcome is bad, the operator holds the footage, the algorithm, and the injury data. The affected person holds a notification or nothing at all.
+- **The hinge question:** Who eats the failure? In every sector covered here, the answer is the same: the person with the least exit and the least leverage. Then ask: can they contest it while it's happening? And can anyone prove what happened after? Those are three separate gaps - and all three are currently open in US federal regulation.
 - **The oversight illusion:** Human supervisors exist at every layer. In practice, the rate is set by algorithm; the route runs through the fire zone; the vehicle passes the school bus again. The human's authority is nominal.
 - **Who bears the failure costs:** Workers (injury, deactivation), residents (discriminatory screening, inaccessible appeal), pedestrians (AV incidents), riders (equity gaps in AI transit). Efficiency gains flow to operators.
-- **What the minimum floor asks for:** Mandatory logs accessible to the affected party and to regulators. Meaningful override capacity with documented authority. Real appeal rights -- not a link to an automated system.
+- **What the minimum floor asks for:** Mandatory logs accessible to the affected party and to regulators. Meaningful override capacity with documented authority. Real appeal rights - not a link to an automated system.
 
 ---
 
@@ -62,7 +63,7 @@ sources: []
 
 A family in a Texas suburb enrolled in their retail provider's demand response program two years ago in exchange for a $10 monthly credit. On a August afternoon, the temperature hits 104 degrees. The program's AI automatically reduces their smart thermostat's cooling capacity during a peak demand window. The notification arrives by text fifteen minutes before the event starts.
 
-Their elderly father is visiting. They want to opt out. The opt-out process requires logging into the provider's app, navigating to the demand response settings, and submitting a request -- during the same fifteen minutes they are trying to get the app to load on a spotty cell signal.
+Their elderly father is visiting. They want to opt out. The opt-out process requires logging into the provider's app, navigating to the demand response settings, and submitting a request - during the same fifteen minutes they are trying to get the app to load on a spotty cell signal.
 
 The system steered. There was a nominal opt-out. There was no practical one.
 
@@ -80,7 +81,7 @@ The system steered. The supervisor was present. The supervisor had no practical 
 
 _This scene is an illustrative composite built from documented patterns in the SafeRent litigation and confirmed AI tenant screening discrimination cases. It is not a sourced event._
 
-A woman in a large apartment complex applies to renew her lease. The property management company uses an AI tenant-screening tool. The tool flags her application based on a prior eviction filing from six years ago -- a case she won, but which remains in the dataset. The system generates a denial.
+A woman in a large apartment complex applies to renew her lease. The property management company uses an AI tenant-screening tool. The tool flags her application based on a prior eviction filing from six years ago - a case she won, but which remains in the dataset. The system generates a denial.
 
 She asks the property manager to review it. The property manager explains that the platform makes the recommendation and the company follows it. She asks for the criteria used. She is told the system is proprietary.
 
@@ -94,7 +95,7 @@ In Austin, Texas, Waymo robotaxis passed stopped school buses with flashing red 
 
 Austin ISD asked Waymo to halt operations during school drop-off and pick-up times. Waymo refused, citing disagreement with the district's risk assessment. [confirmed: KXAN Austin]
 
-A school district -- the institution with the most direct legal responsibility for the safety of its students -- asked an AV operator to stop. The operator declined.
+A school district - the institution with the most direct legal responsibility for the safety of its students - asked an AV operator to stop. The operator declined.
 
 The system steered. The institution with oversight authority asked it to stop. The operator decided whether it would.
 
@@ -104,19 +105,21 @@ The system steered. The institution with oversight authority asked it to stop. T
 
 AI has moved from assisting physical system operators to directly controlling what those systems do. This is not a future scenario. It is the current deployment state across utilities, logistics, buildings, and transport.
 
-The shift from recommendation to actuation is a power shift. A recommendation can be ignored. An actuation shapes the default. In captive or low-exit systems -- your employer's warehouse, your apartment building, your city's transit network, the road your child crosses -- the affected person rarely has the time, the information, or the access to override what the system has already done.
+The shift from recommendation to actuation is a power shift. A recommendation can be ignored. An actuation shapes the default. In captive or low-exit systems - your employer's warehouse, your apartment building, your city's transit network, the road your child crosses - the affected person rarely has the time, the information, or the access to override what the system has already done.
 
-Three conditions make the power shift durable:
+Three gaps make the power shift durable — and they are distinct, not the same problem:
 
-1. **Control shift:** The AI's decision is the system's behavior. The human operator is upstream; the affected person is downstream. The system acts first; contestability is designed around the edges.
+1. **Cost shifted down:** The AI's decision is the system's behavior. Efficiency gains flow to the operator. Injury, denial, delay, and risk land on the worker, resident, or rider. The person at the bottom with the least leverage absorbs the failure.
 
-2. **Log asymmetry:** The operator holds the footage, the algorithm parameters, the injury data, the route history. The affected party receives a notification, a denial code, or nothing. When something goes wrong, the operator decides what to disclose.
+2. **No real-time recourse:** A human supervisor, property manager, or dispatch agent is present. Their practical authority to override the system without consequence - triggering a performance flag, escalating a service-level violation, contradicting an automated compliance record - is often absent or absent in time. You cannot contest what the system is doing while it is doing it.
 
-3. **Nominal oversight:** A human supervisor, property manager, or dispatch agent is present. Their practical authority to override the system without consequence -- triggering a performance flag, escalating a service-level violation, contradicting an automated compliance record -- is often absent or absent in time.
+3. **No after-the-fact accountability:** The operator holds the footage, the algorithm parameters, the injury data, the route history. The affected party receives a notification, a denial code, or nothing. When something goes wrong, the operator decides what to disclose. Without the logs, there is no basis for appeal, audit, or correction.
+
+These three gaps travel together. But fixing one does not fix the others. Log access does not create override capacity. Override capacity does not prevent gains from flowing upward. All three are required.
 
 ---
 
-## 3. Why it's happening -- the mechanisms
+## 3. Why it's happening - the mechanisms
 
 ### Mechanism: Control shift from recommendation to actuation
 
@@ -130,7 +133,7 @@ Three conditions make the power shift durable:
 - AI traffic signal management is deployed in US cities with documented impact on traffic flow. [confirmed: Route Fifty, September 2025]
 - ERCOT is standing up a formal AI organization for grid operations. Smart meter demand response programs create algorithmic control of residential energy use during peak periods. [confirmed: ERCOT December 2025; PUC Texas 2024]
 
-**What this means in practice:** When the AI actuates, the default is already set. Contesting it requires time, system access, and often an escalation process longer than the consequence window.
+**What this means in practice:** When the AI steers, the default is already set. Contesting it requires time, system access, and often an escalation process longer than the consequence window.
 
 ### Mechanism: Nominal oversight without practical override
 
@@ -149,11 +152,11 @@ Nominal oversight fails in part because of a well-documented human behavior patt
 - A 2004 peer-reviewed study on automated aids in breast cancer diagnosis: cancers identified in 46% of cases without automated aids but only 21% of cases when the automated aid failed to flag the cancer. [confirmed: CSET Georgetown November 2024]
 - A 2001 study of pilots using engine-alerting systems found pilots detected fewer malfunctions with the automated system than without it. [confirmed: CSET Georgetown November 2024]
 
-The CSET Georgetown November 2024 brief synthesizes these findings across aviation, healthcare, and military contexts. The Harvard Journal of Law and Technology identifies five conditions required for meaningful human oversight -- qualified evaluators, ability to recognize AI failure, practical intervention capacity, willingness to act despite automation bias, and organizations that respond to findings -- and notes that most systems satisfy fewer than all five. [confirmed: Harvard JOLT]
+The CSET Georgetown November 2024 brief synthesizes these findings across aviation, healthcare, and military contexts. The Harvard Journal of Law and Technology identifies five conditions required for meaningful human oversight - qualified evaluators, ability to recognize AI failure, practical intervention capacity, willingness to act despite automation bias, and organizations that respond to findings - and notes that most systems satisfy fewer than all five. [confirmed: Harvard JOLT]
 
 This is not a story about careless humans. It is a story about how system design and organizational incentives make nominal oversight the rational choice for the person in the loop.
 
-[confirmed in aviation and healthcare; plausible inference to logistics, buildings, and utilities -- no named sector-specific case found in research]
+[confirmed in aviation and healthcare; plausible inference to logistics, buildings, and utilities - no named sector-specific case found in research]
 
 ### Mechanism: Log asymmetry
 
@@ -165,11 +168,11 @@ In October 2023, a Cruise robotaxi struck a pedestrian in San Francisco. After t
 
 In November 2024, Cruise admitted to providing a false record to NHTSA with intent to impede, obstruct, or influence a federal investigation. Criminal fine: $500,000 (deferred prosecution agreement). NHTSA civil penalty: $1.5 million. California PUC settlement: $112,500. All California permits revoked. Cruise CEO and multiple executives resigned or were fired. [confirmed: DOJ; NHTSA; CBS San Francisco]
 
-The Cruise case is the clearest single example in this series of why log access is not a procedural nicety. The operator held the footage. The regulator did not. The operator chose what to disclose. Without the footage, the characterization of the incident would have been the one Cruise submitted. Criminal liability was the mechanism that eventually surfaced the truth -- not routine audit access.
+The Cruise case is the clearest single example in this series of why log access is not a procedural nicety. The operator held the footage. The regulator did not. The operator chose what to disclose. Without the footage, the characterization of the incident would have been the one Cruise submitted. Criminal liability was the mechanism that eventually surfaced the truth - not routine audit access.
 
 **The Amazon injury data case:**
 
-Amazon held seven years of internal workplace injury data. The Senate HELP Committee's investigation, which reviewed those internal documents, established that Amazon had documented the link between quota requirements and injury rates -- and had continued the quotas anyway. Workers and regulators had to investigate to surface what Amazon's own internal data showed. [confirmed: Senate HELP Committee December 2024; NPR]
+Amazon held seven years of internal workplace injury data. The Senate HELP Committee's investigation, which reviewed those internal documents, established that Amazon had documented the link between quota requirements and injury rates - and had continued the quotas anyway. Workers and regulators had to investigate to surface what Amazon's own internal data showed. [confirmed: Senate HELP Committee December 2024; NPR]
 
 **The structural condition:**
 
@@ -179,18 +182,20 @@ Gig worker deactivation offers a clear example of the access gap. Amazon Flex dr
 
 ### Mechanism: Externalized failure costs
 
-**What it is:** When AI-controlled systems produce bad outcomes, the cost lands on workers, residents, riders, or the public -- not on the operator whose system steered.
+**What it is:** When AI-controlled systems produce bad outcomes, the cost lands on workers, residents, riders, or the public - not on the operator whose system steered.
 
 - Amazon's injury settlement: $145,000 in fines. Workers experienced injury rates 80% above the company's own targets. [confirmed]
-- Cruise incident: the pedestrian was dragged 20 feet. Criminal accountability followed -- unusually, for AV incidents. [confirmed]
+- Cruise incident: the pedestrian was dragged 20 feet. Criminal accountability followed - unusually, for AV incidents. [confirmed]
 - AI tenant screening: class action settlements reached. No affected applicant had real-time relief or access to the specific decision logic used against them. [confirmed: Georgetown Law; California Law Review]
 - Waymo school bus violations: recall issued; violations continued after fix was confirmed; the school district's request to halt was refused. Students were the ones exposed to the continuing risk. [confirmed: KXAN Austin]
 
 Liability for AV crashes remains unresolved in US law. Academic review identifies four liability regime types. 46 states have proposed AV-specific liability laws as of 2024. The UK Automated Vehicles Act (2024) resolves this by designating the Authorized Self-Driving Entity as the legally responsible party. The US has no comparable national framework. [confirmed: MDPI Vehicles journal; NHTSA July 2025 Congress report]
 
-### Mechanism: Hidden cost shifting behind efficiency language
+### Mechanism: The efficiency illusion
 
-**What it is:** Efficiency, reliability, and safety language is used to describe AI deployments. The gains in efficiency flow to the operator. The friction, risk, and delay are pushed to workers, residents, and the public.
+**What it is:** AI deployment is framed as improving the system for everyone - faster routes, more reliable service, lower maintenance costs. The gains in efficiency flow to the operator. The friction, risk, and delay are pushed to workers, residents, and the public. The framing obscures who benefits and who absorbs the failure.
+
+This is the efficiency illusion: the system is optimized, but optimized for operator metrics. The affected party gets the press release. The operator gets the margin.
 
 - Amazon: algorithmic throughput optimization reduces cost per unit delivered. Workers bear injury risk. [confirmed]
 - AI tenant screening: reduces time-to-decision for property managers. Applicants bear discriminatory denial without real-time contestability. [confirmed]
@@ -201,17 +206,25 @@ No documented case was located showing AI-driven efficiency gains in utilities, 
 
 ---
 
-## 4. Where it broke -- evidence against the good story
+## 4. Where it broke - evidence against the good story
 
 ### The cases are clean, but they required criminal liability or multi-year investigation to surface
 
-- The Cruise case produced accountability because it involved a criminal charge and federal investigation. The mechanism that surfaced the withheld footage was prosecutorial pressure, not routine audit access. If that mechanism had not existed -- or had not been applied -- the incident record would reflect the version Cruise submitted.
+- The Cruise case produced accountability because it involved a criminal charge and federal investigation. The mechanism that surfaced the withheld footage was prosecutorial pressure, not routine audit access. If that mechanism had not existed - or had not been applied - the incident record would reflect the version Cruise submitted.
 - Amazon's injury data gap required a Senate investigation using Amazon's own internal documents. OSHA's settlement followed a multi-year investigation initiated in 2022. The accountability mechanism was legislative investigation, not real-time log access.
 - RealPage accountability followed years of investigative journalism, private litigation, and ultimately a DOJ antitrust action. The affected tenants who paid higher rents during the algorithm's operation have no direct remedy under the proposed consent decree.
 
 ### The oversight gap is structural, not a product of bad actors alone
 
 The nominal oversight problem is not primarily a story about managers who chose not to act. It is a story about system design: when override has a cost (performance flag, escalation time, contradicting an automated record), the rational choice for the human in the loop is to defer. That is what automation bias research documents. The same pattern appears across aviation, healthcare, and military contexts where people are specifically trained and motivated to be vigilant.
+
+### The equity gap appears across sectors
+
+The equity gap does not appear only within a sector. It appears across them.
+
+Workers in high-surveillance logistics have the least union density, the least legal protection, and the least practical ability to escalate when the algorithm steers wrong. Tenants in affordable housing markets - the ones most dependent on every available unit - are in the buildings most likely to use low-cost AI screening tools with the fewest oversight requirements. Riders in low-income transit corridors are most dependent on the systems where AI deployment is least governed.
+
+Workers and residents who enter these physical systems with the least leverage absorb the failure costs first, most, and with the fewest paths out. The tool amplifies the gap that already exists. It does not create it.
 
 ### Confirmed gaps in the record
 
@@ -223,7 +236,7 @@ Transit equity harm is documented as a design risk and structural concern. Named
 
 ---
 
-## 5. Where it held -- evidence that guardrails can work
+## 5. Where it held - evidence that guardrails can work
 
 **Denmark's N1 grid AI:** Deployed to analyze 180,000+ cable cabinets and reduce unnecessary physical inspections, saving thousands of technician hours. No documented accountability failure. The key distinction: the AI produces a recommendation; human technicians remain responsible for physical inspection and repair. The actuation boundary is preserved. [confirmed: Microgrid Media; SAP Denmark]
 
@@ -235,7 +248,7 @@ Transit equity harm is documented as a design risk and structural concern. Named
 
 **EU AI Act (effective August 2024; high-risk systems from August 2026):** Classifies AI in critical infrastructure as high-risk. Requires human oversight mechanisms, audit logging, conformity assessment, and transparency. Provides the clearest current minimum floor across all sectors covered by this case study. No comparable US federal framework exists. [confirmed: EU AI Act Annex III, Articles 12 and 14]
 
-**The pattern in what held:** The cases that avoided documented harm share a structural feature -- either the AI operates at the recommendation layer (not actuation), or a minimum floor of contestability rights was established before deployment scaled. The Denmark case and the legislative cases (Seattle, Australia, UK) show the same thing: the mechanism that prevents harm is a prior constraint, not a post-hoc investigation.
+**The pattern in what held:** The cases that avoided documented harm share a structural feature - either the AI operates at the recommendation layer (not actuation), or a minimum floor of contestability rights was established before deployment scaled. The Denmark case and the legislative cases (Seattle, Australia, UK) show the same thing: the mechanism that prevents harm is a prior constraint, not a post-hoc investigation.
 
 ---
 
@@ -246,7 +259,7 @@ Transit equity harm is documented as a design risk and structural concern. Named
 For AI decisions in physical systems to meet the minimum floor, affected parties need:
 
 - **Notice:** Advance warning, in accessible form, that an AI decision is about to affect them.
-- **Reason:** A specific, actionable explanation of the basis for the decision -- not "algorithm" or "proprietary system."
+- **Reason:** A specific, actionable explanation of the basis for the decision - not "algorithm" or "proprietary system."
 - **Appeal:** A real human review, with timelines, that can produce a different outcome.
 - **Records:** Access to the logs and inputs used to make the decision.
 - **Override:** A practical path for a qualified human to stop the system's action before the consequence window closes.
@@ -283,7 +296,7 @@ The Shared Gains test asks: who receives those gains?
 
 - **Workers:** No documented case was located showing AI efficiency gains in logistics being shared with workers as higher wages, safer conditions, or reduced pace requirements. Amazon's injury rate was 80% above its own target in 2025. [unknown: no confirming evidence found]
 - **Residents:** No documented case was located showing AI efficiency gains in building management being passed to residents as lower rent, better maintenance response, or improved conditions. Vendor-reported HVAC cost reductions (17.6% operational, 13.2% maintenance) are self-reported and unverified. [unknown: no confirming evidence found]
-- **Utility customers:** Texas residential demand response programs offer voluntary credits for participation. This is the clearest case of a partial gain-sharing mechanism. It is opt-in, market-dependent, and program-specific -- not a systemic distribution of efficiency gains. [confirmed: PUC Texas 2024]
+- **Utility customers:** Texas residential demand response programs offer voluntary credits for participation. This is the clearest case of a partial gain-sharing mechanism. It is opt-in, market-dependent, and program-specific - not a systemic distribution of efficiency gains. [confirmed: PUC Texas 2024]
 - **Riders:** Demand-responsive transit is marketed as improving service for underserved areas. No named US deployment was found showing measurable improvement in service quality for low-income riders as a result. [plausible as design possibility; unknown as operational outcome]
 
 The shared gains picture is consistent across sectors: efficiency gains appear as operator margin. No systemic mechanism for sharing gains with workers, residents, or the public was documented.
@@ -320,7 +333,7 @@ _The following section extends beyond the case evidence into prescriptive territ
 
 **If you are an Amazon warehouse worker, gig worker, or delivery driver facing deactivation or a productivity warning:** In Seattle, you have legal rights to written notice, stated reason, and information used in the decision (effective January 1, 2025, full enforcement June 2027). Know what rights your jurisdiction provides. The Seattle ordinance is a model that other cities have not yet adopted; if you are outside Seattle, the protection may not exist at the federal level.
 
-**If you rent in a property using AI screening:** Ask the property manager in writing what automated systems were used in evaluating your application and what information was used. A denial based on an error in the underlying data -- a won eviction case, a misattributed record -- may be contestable under fair housing law even if the algorithmic decision itself is not.
+**If you rent in a property using AI screening:** Ask the property manager in writing what automated systems were used in evaluating your application and what information was used. A denial based on an error in the underlying data - a won eviction case, a misattributed record - may be contestable under fair housing law even if the algorithmic decision itself is not.
 
 ### Community / policy
 
@@ -336,23 +349,37 @@ _The following section extends beyond the case evidence into prescriptive territ
 
 ### Effect on the bad loop
 
+The bad loop runs when the system steers, the operator keeps the logs, and the person affected has no practical way to push back. Each pass tightens it:
+
+> AI steers in captive system → gains flow to operator → failure costs land on worker/resident → no recourse in the consequence window → harm goes undocumented → no correction signal reaches the operator → accountability gap widens → more AI deployed in captive systems → AI steers in captive system →
+
+Specific effects on the squeeze:
+
 - **Monthly squeeze:** AI-controlled logistics increases worker injury rates and reduces take-home pay through algorithmic deactivation. AI building screening denies housing access to applicants who may have legitimate claims. AI rent-setting (RealPage) contributed to elevated rents in markets where it was deployed. All of these increase household financial stress directly.
-- **Insecurity:** When the system that controls your route, your pace, your building access, or your rent is opaque and uncontestable, the experience is not neutral. Workers describe it as being managed by a system that cannot hear them. That is not incidental to the squeeze -- it amplifies it.
-- **Manipulation / scapegoats:** When harm from AI physical systems is attributed to "the algorithm" or "the system," the real mechanism -- a deliberate design choice to externalize failure costs -- is hidden. Cruise's initial report to NHTSA is the sharpest example: the withheld footage was not an algorithm's choice; it was a company's choice. Obscuring that is how the wrong targets get blamed.
+- **Insecurity:** When the system that controls your route, your pace, your building access, or your rent is opaque and uncontestable, the experience is not neutral. Workers describe it as being managed by a system that cannot hear them. That is not incidental to the squeeze - it amplifies it.
+- **Manipulation / scapegoats:** When harm from AI physical systems is attributed to "the algorithm" or "the system," the real mechanism - a deliberate design choice to externalize failure costs - is hidden. Cruise's initial report to NHTSA is the sharpest example: the withheld footage was not an algorithm's choice; it was a company's choice. Obscuring that is how the wrong targets get blamed.
 - **No fixes / more squeeze:** Without log access, real appeal rights, and enforceable liability, the feedback loops that produce corrections do not function. Amazon paid $145,000 in ergonomic penalties while documenting internally that its quotas caused the injuries. The settlement did not change the quotas. The mechanism that should produce fixes is not currently working.
 
 ### Effect on the good loop
 
+The good loop requires a prior constraint - a minimum floor established before deployment scales, not a post-hoc investigation after harm accumulates:
+
+> minimum floor established before deployment → affected party can contest a decision → error surfaces in real time → operator incentivized to build systems that can be overridden → enforcement capacity grows → gains distribute → trust builds → minimum floor expands →
+
+The Denmark grid AI, the Seattle worker ordinance, the UK AV liability law, and the Australia deactivation code all show the same pattern: what prevented harm was a structural floor, not more vigilant humans. The floor made the good loop the path of least resistance.
+
+Specific effects:
+
 - **Security:** Mandatory log access, real appeal rights, and enforced liability would reduce the arbitrary and uncontestable nature of AI physical system decisions. Workers, residents, and riders who have a real path to contest a harmful decision are less trapped.
-- **Choice:** Where exit is not possible -- grid management, building AI in a captive rental market, AV operations in a neighborhood -- governance requirements must substitute for market competition. Minimum floor requirements are the only available mechanism.
+- **Choice:** Where exit is not possible - grid management, building AI in a captive rental market, AV operations in a neighborhood - governance requirements must substitute for market competition. Minimum floor requirements are the only available mechanism.
 - **Competition:** Liability clarity would favor operators who invest in safety and contestability over operators who externalize failure costs. If "the system decided" becomes an unavailable defense, the incentive to build systems that can be overridden and audited improves.
-- **Shared gains:** In contestable markets, competition distributes gains -- customers choose better alternatives, workers move to better employers. Physical infrastructure is different: exit is not realistic. You cannot choose your grid operator, leave your building's AI management system, or opt out of AV operations on public streets. Where competition cannot do the distributional work, governance must substitute for it. That is why regulated rate structures, log access, and procurement requirements belong here -- not as a replacement for competition as a general philosophy, but as what the E4E framework requires when competition itself is not possible. Without them, efficiency gains default to operator margin. [no confirming evidence of gain-sharing found in research]
+- **Shared gains:** In contestable markets, competition distributes gains - customers choose better alternatives, workers move to better employers. Physical infrastructure is different: exit is not realistic. You cannot choose your grid operator, leave your building's AI management system, or opt out of AV operations on public streets. Where competition cannot do the distributional work, governance must substitute for it. That is why regulated rate structures, log access, and procurement requirements belong here - not as a replacement for competition as a general philosophy, but as what the E4E framework requires when competition itself is not possible. Without them, efficiency gains default to operator margin. [no confirming evidence of gain-sharing found in research]
 
 ### Case verdict
 
 - **Net effect right now:** Bad loop.
-- **Why:** Across all four sectors, AI-controlled physical systems produce measurable efficiency gains for operators and measurable cost or risk increases for workers, residents, riders, and the public. The accountability mechanisms that should correct this -- log access, real appeal rights, enforceable liability -- are absent or inadequate at the federal level in the US. The cases where accountability produced outcomes (Cruise, Amazon Senate investigation) required criminal prosecution or multi-year legislative investigation, not routine audit. That is not a functional accountability system.
-- **What would change the verdict:** Federal log access requirements for high-risk physical AI systems; mandatory real human review for deactivation and access decisions; national AV liability assignment on the UK model; OSHA enforcement authority over algorithmic pace-setting with injury consequences; and a mechanism -- regulatory or contractual -- that requires documented evidence of shared efficiency gains before AI deployment in captive-market physical systems can proceed.
+- **Why:** Across all four sectors, AI-controlled physical systems produce measurable efficiency gains for operators and measurable cost or risk increases for workers, residents, riders, and the public. The accountability mechanisms that should correct this - log access, real appeal rights, enforceable liability - are absent or inadequate at the federal level in the US. The cases where accountability produced outcomes (Cruise, Amazon Senate investigation) required criminal prosecution or multi-year legislative investigation, not routine audit. That is not a functional accountability system.
+- **What would change the verdict:** Federal log access requirements for high-risk physical AI systems; mandatory real human review for deactivation and access decisions; national AV liability assignment on the UK model; OSHA enforcement authority over algorithmic pace-setting with injury consequences; and a mechanism - regulatory or contractual - that requires documented evidence of shared efficiency gains before AI deployment in captive-market physical systems can proceed.
 
 ### One steady action
 
@@ -366,13 +393,15 @@ The North Star asks whether this system makes ordinary working people more secur
 
 On current evidence, AI control of physical infrastructure is working against the North Star.
 
-The mechanism is clear: AI actuation replaces human discretion, operators retain the logs, affected parties have no federal right to contest the decision or access the records, and efficiency gains flow upward. This is extraction inside low-choice systems -- the combination the North Star identifies as the hardest to break.
+The mechanism is clear: AI actuation replaces human discretion, operators retain the logs, affected parties have no federal right to contest the decision or access the records, and efficiency gains flow upward. This is extraction inside low-choice systems - the combination the North Star identifies as the hardest to break.
 
-The evidence is not uniform across sectors. The actuation shift is well-documented in logistics and transport: Amazon's ADAPT system terminates workers without supervisor input, Waymo and Cruise robotaxis act on physical streets with documented harm, and the accountability failures are on record. In buildings, most deployed AI currently advises or adjusts within set bounds -- the harm cases are concentrated in discriminatory screening, not operational control actuation. In utilities, the structural risk is analytically documented and the regulatory capacity is being built, but no named US case of grid AI removing practical human override and causing consumer harm was found in this research. The directional concern is the same across all four sectors; the harm record is thinner in buildings and utilities than in logistics and transport.
+The evidence is not uniform across sectors. The actuation shift is well-documented in logistics and transport: Amazon's ADAPT system terminates workers without supervisor input, Waymo and Cruise robotaxis act on physical streets with documented harm, and the accountability failures are on record. In buildings, most deployed AI currently advises or adjusts within set bounds - the harm cases are concentrated in discriminatory screening, not operational control actuation. In utilities, the structural risk is analytically documented and the regulatory capacity is being built, but no named US case of grid AI removing practical human override and causing consumer harm was found in this research. The directional concern is the same across all four sectors; the harm record is thinner in buildings and utilities than in logistics and transport.
 
 The counter-evidence is real and should be taken seriously. The Denmark grid AI, the Seattle worker ordinance, the UK AV liability law, and the Australia deactivation code all show that minimum floors can be built before harms scale. The pattern in what has worked is consistent: prior constraint, not post-hoc investigation.
 
 The question for the next five years is whether the US builds any comparable floor before AI physical control becomes sufficiently embedded that the political economy of accountability shifts decisively toward operators. The current trajectory points against it: the EU AI Act's high-risk infrastructure requirements take effect in August 2026 with no comparable US federal framework in place; NHTSA's July 2025 report to Congress on ADS research and rulemaking identified regulatory gaps but did not produce binding national standards for AV liability or log access; no US federal requirement mandating AI override capacity in grid management, logistics, or buildings was located in this research; and the December 2025 executive order directing federal agencies to challenge state AI regulations signals federal intent to limit, not expand, the accountability floor for physical AI systems. [confirmed: EU AI Act; NHTSA July 2025 Congress report; research file; TechPolicy.Press]
+
+**The System Lesson:** When the system could steer without explaining itself, accountability needed a new answer. We didn't build one in time. The people with no exit paid for that gap.
 
 ---
 

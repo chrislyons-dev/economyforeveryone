@@ -115,6 +115,23 @@ Governance is what closes that gap. Not reversal. Governance.
 
 Pick one platform that controls your primary discovery path - your main search feed, your distribution service, your marketplace - and find out what their current policy is on AI content labeling and training data opt-out. Write it down. Then check whether what they say matches what they actually do.
 
+## Action ladder
+
+**Short term**
+
+- `Creators:` Audit one platform you depend on. Check its policies on training-data opt-out, AI labeling, ranking appeals, and takedowns. Keep a written record of what it says and what you observe.
+- `Audiences and supporters:` Back one creator through a channel they own - newsletter, direct subscription, direct purchase, direct booking - so your support is not filtered entirely through the platform gate.
+
+**Medium term**
+
+- `Creators and creator communities:` Coordinate around a small set of shared demands: visible AI labeling at discovery, real opt-out mechanisms, and appeal paths for ranking or takedown decisions. One person complaining is easy to ignore. Organized creators are harder to dismiss.
+- `Institutions, festivals, and marketplaces:` Require provenance disclosure and contestable review in the spaces you control. If you host competitions, directories, grants, or discovery systems, make the rules visible and appealable.
+
+**Long term**
+
+- `Policymakers and regulators:` Push for enforceable consent before training, consumer-facing provenance labels, and contestable ranking systems for platforms that control primary discovery.
+- `Creators, unions, and trade groups:` Build durable standards and bargaining power that do not depend on voluntary platform promises. If the gate is structural, the response has to be structural too.
+
 ## Related reading
 
 - [When Cheap Content Changes Who Gets Heard](/blog/2026-04-09-when-cheap-content-changes-who-gets-heard/)

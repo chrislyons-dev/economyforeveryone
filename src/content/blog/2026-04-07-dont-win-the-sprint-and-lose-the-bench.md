@@ -174,6 +174,23 @@ Pick one piece of technical work this week that stays intentionally unassisted a
 
 That's small enough to do right now. It's a good test of whether your team is still building judgment or just accelerating output.
 
+## Action ladder
+
+**Short term**
+
+- `Managers:` Protect one piece of intentionally unassisted work this week and treat it as training, not wasted throughput.
+- `Workers:` Notice where the learning reps are disappearing. If AI is absorbing the starter work, ask where people are supposed to build judgment now.
+
+**Medium term**
+
+- `Teams:` Add one protected practice structure this quarter - pair-review rotations, unassisted reps, or a reserved slice of junior work that is kept for skill formation.
+- `Leaders:` Track more than output. Watch junior-role shrinkage, override rates, and whether "junior" work is quietly being reassigned upward.
+
+**Long term**
+
+- `Executives and public institutions:` Fund apprenticeship paths, not just productivity tooling. If the first rung disappears, the later bench disappears after it.
+- `Workers, managers, and educators:` Push for systems that treat training as production capacity in development, not as optional overhead to be cut under pressure.
+
 ## Related reading
 
 - [When Building Gets Cheaper but Breaking In Doesn't](/blog/2026-03-31-when-building-gets-cheaper-but-breaking-in-doesnt/)

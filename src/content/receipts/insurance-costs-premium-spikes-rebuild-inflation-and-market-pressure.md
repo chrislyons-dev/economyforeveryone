@@ -1,11 +1,12 @@
-﻿---
+---
 title: 'Insurance Costs: Premium Spikes, Rebuild Inflation, and Market Pressure'
-claim: 'Home and auto insurance prices rose sharply because catastrophe losses, rebuild and repair inflation, reinsurance strain, and underwriting pressure all fed into premiums at once.'
+claim: 'Official data and quasi-official market reporting show that home and auto insurance premiums rose sharply because catastrophe losses, rebuild and repair inflation, reinsurance strain, and underwriting pressure all fed into premiums at once.'
 typeId: 'official-data'
 status: 'published'
 linkedCaseSlugs:
   - 'insurance-cost-amplifier'
-linkedPostSlugs: []
+linkedPostSlugs:
+  - '2026-04-30-insurance-cost-amplifier'
 tags:
   - 'insurance'
   - 'housing'

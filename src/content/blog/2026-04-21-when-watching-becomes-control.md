@@ -133,6 +133,23 @@ The next time you hear about a monitoring tool at work, in a school, in housing,
 
 **What happens after the alert, and what can the flagged person actually do?**
 
+## Action ladder
+
+**Short term**
+
+- `Workers, residents, and parents:` Ask what happens after the flag, what record gets kept, and what the flagged person can actually do.
+- `Journalists and organizers:` Save examples where a system flagged someone without clear notice, explanation, or a working appeal path.
+
+**Medium term**
+
+- `Schools, employers, housing providers, and local officials:` Require notice, records access, and real reversal paths before deploying high-stakes monitoring systems.
+- `Community groups:` Push for narrow use, independent corroboration, and human review with actual authority rather than symbolic sign-off.
+
+**Long term**
+
+- `Policymakers and civil-liberties advocates:` Build enforceable rights floors for monitoring systems that can shape income, mobility, legal exposure, or housing.
+- `Institutions:` Stop defending these systems on accuracy alone. If people cannot inspect, challenge, or escape them, the system is not governed well enough to use.
+
 ## Related reading
 
 - [When the Price Is Different for You](/blog/2026-04-16-when-the-price-is-different-for-you/)

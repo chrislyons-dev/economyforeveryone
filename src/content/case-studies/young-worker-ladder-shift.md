@@ -26,6 +26,7 @@ receiptTags:
   - 'primary-documents'
 sources: []
 ---
+
 - [Young Worker Ladder Shift: What Entry-Level Compression Changes](#young-worker-ladder-shift-what-entry-level-compression-changes)
   - [At a glance](#at-a-glance)
   - [1. One scene](#1-one-scene)
@@ -139,13 +140,13 @@ The stronger claim is still serious: some ladders are narrowing, some old signal
 
 ## 6. Control stack: who governs the gate?
 
-| Gate | Who holds it | Current reality |
-|---|---|---|
-| Hiring screen | Employers + screening vendors | AI screening is spreading faster than oversight; NYC LL144 exists but a December 2025 NY State Comptroller audit found enforcement has been ineffective. [YW-014] |
-| Definition of "entry-level" | Employers | No binding rule prevents experience creep or protects true starter roles. [YW-006] |
-| AI output inside workflows | Employers + vendors + labs | Tool capability changes faster than workplace governance, but accountability stays with the worker and employer. [YW-042, YW-044] |
-| Human oversight quality | Employers + professional regulators | In high-stakes sectors, the pressure is toward competent human review, not symbolic sign-off. [YW-043, YW-044] |
-| Learning pipeline | Employers + schools + apprenticeship systems | No general rule protects learning work from efficiency pressure; apprenticeship alternatives remain too small relative to the scale of the shift. [YW-015] |
+| Gate                        | Who holds it                                 | Current reality                                                                                                                                                   |
+| --------------------------- | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Hiring screen               | Employers + screening vendors                | AI screening is spreading faster than oversight; NYC LL144 exists but a December 2025 NY State Comptroller audit found enforcement has been ineffective. [YW-014] |
+| Definition of "entry-level" | Employers                                    | No binding rule prevents experience creep or protects true starter roles. [YW-006]                                                                                |
+| AI output inside workflows  | Employers + vendors + labs                   | Tool capability changes faster than workplace governance, but accountability stays with the worker and employer. [YW-042, YW-044]                                 |
+| Human oversight quality     | Employers + professional regulators          | In high-stakes sectors, the pressure is toward competent human review, not symbolic sign-off. [YW-043, YW-044]                                                    |
+| Learning pipeline           | Employers + schools + apprenticeship systems | No general rule protects learning work from efficiency pressure; apprenticeship alternatives remain too small relative to the scale of the shift. [YW-015]        |
 
 The common pattern: young workers do not control the gate. Employers define the rung, platforms shape visibility, screening tools filter applicants, and institutions still have weak protections for apprenticeship as a public good.
 
@@ -278,31 +279,31 @@ The North Star condition here is not "young workers should be protected from tec
 
 ## 11. Receipts appendix
 
-Receipts are tracked in Methods and Sources under the linked receipt groups for this case study.
+[Receipts](../../../07-notes/research/_research-young-worker-ai-adaptation.md)
 
-| ID | Claim | Strength | Source |
-|---|---|---|---|
-| YW-001 | Workers ages 22-25 in software and tech-adjacent roles declined materially in 2023-2024 | B | Stanford Digital Economy Lab / ADP analysis |
-| YW-002 | Entry-level postings in AI-exposed occupations down ~35% from 2022 peak | B | Revelio Labs, 2024 |
-| YW-003 | Applications per entry-level posting up roughly 26-30% | B | Handshake Network Trends Report, 2024 |
-| YW-004 | Internship-to-full-time conversion at a five-year low | A | NACE Job Outlook 2024 |
-| YW-006 | Share of entry-level postings requiring 3+ years rose from ~35% to 45%+ | B | Lightcast / Burning Glass, 2024 |
-| YW-007 | 61% of Gen Z respondents say AI will make first-job or early-career progress harder | A | Deloitte Global Gen Z and Millennial Survey, 2024 |
-| YW-008 | 59% of young adults rate AI job displacement as a major economic concern | A | Harvard Youth Poll, Spring 2024 |
-| YW-028 | Early-career adults are the most likely age group to participate in job-related adult learning across the OECD | A | OECD Trends in Adult Learning, 2025 |
-| YW-030 | Workers ages 25-34 have much shorter tenure than older workers | A | BLS Employee Tenure Summary, 2024 |
-| YW-032 | Job switchers outpaced stayers in wage growth in early 2026; note that the switcher premium inverted in mid-2025 for the first time since 2010, making this figure contested rather than stable | A | Atlanta Fed Wage Growth Tracker |
-| YW-037 | Job insecurity has measurable negative mental-health effects | A | Peer-reviewed meta-analysis, 2019 |
-| YW-038 | AI in professional writing reduces time and shifts work toward editing/review | A | Noy & Zhang, Science 2023 |
-| YW-039 | AI raised novice productivity more than experienced-worker productivity in customer support | A | Brynjolfsson et al., NBER |
-| YW-012 | Junior workers showed larger proportional productivity gains from AI tools in AI-augmented task environments | B | MIT Work of the Future interim report, 2023 |
-| YW-031 | Census LEHD Job-to-Job Flows tracks age-tabulated job transitions and earnings changes from job switches | A | Census LEHD J2J documentation, current through 2024 |
-| YW-042 | Automation-bias: decision-support systems can reduce vigilance and create new error modes when users over-rely on outputs | A | Systematic review and human-factors literature, 2015 onward |
-| YW-014 | NYC LL144 enforcement found ineffective -- no penalties levied | A | New York State Comptroller audit, December 2025 |
-| YW-015 | Apprenticeship alternatives exist but are small relative to the scale of the shift | B | Apprenti scale reporting and program data |
-| YW-017 | Employer regret and "talent doom cycle" pattern reported, but not yet strongly measured | C | Forrester / business-press synthesis |
-| YW-043 | Attorney sanctions for AI hallucinations documented through 2025 | A | Court records and bar guidance |
-| YW-044 | NIST governance framing keeps human oversight and monitoring in view | A | NIST AI RMF and roadmap |
+| ID     | Claim                                                                                                                                                                                           | Strength | Source                                                      |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------------------------------- |
+| YW-001 | Workers ages 22-25 in software and tech-adjacent roles declined materially in 2023-2024                                                                                                         | B        | Stanford Digital Economy Lab / ADP analysis                 |
+| YW-002 | Entry-level postings in AI-exposed occupations down ~35% from 2022 peak                                                                                                                         | B        | Revelio Labs, 2024                                          |
+| YW-003 | Applications per entry-level posting up roughly 26-30%                                                                                                                                          | B        | Handshake Network Trends Report, 2024                       |
+| YW-004 | Internship-to-full-time conversion at a five-year low                                                                                                                                           | A        | NACE Job Outlook 2024                                       |
+| YW-006 | Share of entry-level postings requiring 3+ years rose from ~35% to 45%+                                                                                                                         | B        | Lightcast / Burning Glass, 2024                             |
+| YW-007 | 61% of Gen Z respondents say AI will make first-job or early-career progress harder                                                                                                             | A        | Deloitte Global Gen Z and Millennial Survey, 2024           |
+| YW-008 | 59% of young adults rate AI job displacement as a major economic concern                                                                                                                        | A        | Harvard Youth Poll, Spring 2024                             |
+| YW-028 | Early-career adults are the most likely age group to participate in job-related adult learning across the OECD                                                                                  | A        | OECD Trends in Adult Learning, 2025                         |
+| YW-030 | Workers ages 25-34 have much shorter tenure than older workers                                                                                                                                  | A        | BLS Employee Tenure Summary, 2024                           |
+| YW-032 | Job switchers outpaced stayers in wage growth in early 2026; note that the switcher premium inverted in mid-2025 for the first time since 2010, making this figure contested rather than stable | A        | Atlanta Fed Wage Growth Tracker                             |
+| YW-037 | Job insecurity has measurable negative mental-health effects                                                                                                                                    | A        | Peer-reviewed meta-analysis, 2019                           |
+| YW-038 | AI in professional writing reduces time and shifts work toward editing/review                                                                                                                   | A        | Noy & Zhang, Science 2023                                   |
+| YW-039 | AI raised novice productivity more than experienced-worker productivity in customer support                                                                                                     | A        | Brynjolfsson et al., NBER                                   |
+| YW-012 | Junior workers showed larger proportional productivity gains from AI tools in AI-augmented task environments                                                                                    | B        | MIT Work of the Future interim report, 2023                 |
+| YW-031 | Census LEHD Job-to-Job Flows tracks age-tabulated job transitions and earnings changes from job switches                                                                                        | A        | Census LEHD J2J documentation, current through 2024         |
+| YW-042 | Automation-bias: decision-support systems can reduce vigilance and create new error modes when users over-rely on outputs                                                                       | A        | Systematic review and human-factors literature, 2015 onward |
+| YW-014 | NYC LL144 enforcement found ineffective -- no penalties levied                                                                                                                                  | A        | New York State Comptroller audit, December 2025             |
+| YW-015 | Apprenticeship alternatives exist but are small relative to the scale of the shift                                                                                                              | B        | Apprenti scale reporting and program data                   |
+| YW-017 | Employer regret and "talent doom cycle" pattern reported, but not yet strongly measured                                                                                                         | C        | Forrester / business-press synthesis                        |
+| YW-043 | Attorney sanctions for AI hallucinations documented through 2025                                                                                                                                | A        | Court records and bar guidance                              |
+| YW-044 | NIST governance framing keeps human oversight and monitoring in view                                                                                                                            | A        | NIST AI RMF and roadmap                                     |
 
 **Strength rubric:** A = primary source or peer-reviewed | B = reputable analytics or reporting with disclosed method | C = plausible pattern or self-report with important limits
 

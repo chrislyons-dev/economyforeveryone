@@ -1,11 +1,12 @@
-﻿---
+---
 title: 'Insurance Regulation: Repricing, Reform, and State Tradeoffs'
-claim: 'Insurance outcomes differ not just because risks differ, but because states govern forward-looking pricing, litigation exposure, and residual-market design differently.'
+claim: 'Independent analysis supports the state-tradeoff story: outcomes differ not just because risks differ, but because states govern forward-looking pricing, litigation exposure, residual-market design, and reform timing differently.'
 typeId: 'independent-analysis'
 status: 'published'
 linkedCaseSlugs:
   - 'insurance-cost-amplifier'
-linkedPostSlugs: []
+linkedPostSlugs:
+  - '2026-04-30-insurance-cost-amplifier'
 tags:
   - 'insurance'
   - 'regulation'

@@ -159,6 +159,23 @@ The next time you get a quote for insurance, credit, or another essential servic
 
 Don't just ask for the price, ask for the logic.
 
+## Action ladder
+
+**Short term**
+
+- `Consumers:` Ask for the specific factors behind one quote this week and save the answer.
+- `Advocates and journalists:` Compare how different people are being quoted and where the explanation stops getting specific.
+
+**Medium term**
+
+- `Consumer groups and local officials:` Push for all-in pricing and plain-language factor disclosure in essential markets.
+- `Employers, brokers, and marketplaces:` Reduce hidden steering and document how default options, recommendations, and quote ranges are being shaped.
+
+**Long term**
+
+- `Policymakers and regulators:` Push for audit rights, stronger anti-discrimination review, portability where exit is weak, and real disclosure in markets people cannot easily leave.
+- `Communities and watchdogs:` Treat pricing opacity as a governance issue, not just a bad-customer-service issue.
+
 ## Related reading
 
 - [Fast Decisions, Thin Appeals](/blog/2026-04-14-fast-decisions-thin-appeals/)

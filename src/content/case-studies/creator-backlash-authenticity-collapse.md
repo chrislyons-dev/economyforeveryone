@@ -28,6 +28,7 @@ receiptTags:
   - 'independent-analysis'
 sources: []
 ---
+
 - [Creator Backlash, Betrayal, and Authenticity Collapse](#creator-backlash-betrayal-and-authenticity-collapse)
   - [At a glance](#at-a-glance)
   - [1. One scene](#1-one-scene)
@@ -454,7 +455,7 @@ The fix is governing the gate, not closing it. Consent, provenance, and contesta
 
 ## 11. Receipts appendix
 
-Receipts are tracked in Methods and Sources under the linked receipt groups for this case study.
+[Receipts](../../07-notes/_research-ai-creators-backlash.md)
 
 | ID          | Claim                                                                                                       | Bucket | Strength | Source                                               |
 | ----------- | ----------------------------------------------------------------------------------------------------------- | ------ | -------- | ---------------------------------------------------- |

@@ -179,6 +179,23 @@ Do one gate audit this week using the questions above.
 
 Pick one platform and check five things it surfaced. Do that once, and the gate starts to come into view.
 
+## Action ladder
+
+**Short term**
+
+- `Readers and users:` Audit one gate you rely on this week - search, recommendations, reviews, or a feed - and ask what trust signal is really doing the work.
+- `Teachers, librarians, and curators:` Slow down on one selection decision and check the source trail, not just the polish of the artifact.
+
+**Medium term**
+
+- `Communities and institutions:` Ask the platforms, schools, libraries, and marketplaces you rely on what trust checks and review standards they actually use.
+- `Creators and local outlets:` Strengthen owned trust signals - direct relationships, transparent sourcing, named authorship, and visible editorial process - so you are not relying entirely on opaque ranking.
+
+**Long term**
+
+- `Policymakers and regulators:` Push for visible labeling, contestable ranking, and accountability for private gates that now shape public understanding.
+- `Communities, educators, and civic groups:` Treat discovery and trust as infrastructure. If the gate governs what gets believed, it cannot stay unaccountable by default.
+
 ## Related reading
 
 - [When Your Customers Can Build What You Sell](/blog/2026-04-02-when-your-customers-can-build-what-you-sell/)

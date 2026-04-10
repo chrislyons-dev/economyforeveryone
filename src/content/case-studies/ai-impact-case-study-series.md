@@ -242,6 +242,7 @@ It also provides a clear test: scale without accountability produces coercion.
 **Primary levers:** mandatory log access rights for affected parties and regulators, real human review requirements for deactivation and access decisions, national AV liability assignment (UK ADSE model), OSHA enforcement authority over algorithmically caused injury, and worker deactivation rights ordinances modeled on Seattle's.
 
 ### [9) Creator backlash, betrayal, and authenticity collapse](/case-studies/creator-backlash-authenticity-collapse/)
+
 ### [10) Young worker ladder shift](/case-studies/young-worker-ladder-shift/)
 
 **What it studies:** how AI-enabled workflow changes are tightening some early-career gates by weakening old proof-of-work signals while leaving accountability with the human.
@@ -274,4 +275,3 @@ A system that uses AI well tends to have:
 - meaningful human overrides with authority and time
 - clear exit paths or stronger governance where exit is impossible
 - evidence that gains are shared (lower prices, better access, reduced admin drag) rather than captured as margin
-

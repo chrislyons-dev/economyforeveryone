@@ -127,6 +127,23 @@ Pick one internal tool your organization pays for and ask a blunt question: if w
 
 That question is simple enough to ask and specific enough to surface whether the old threshold is still doing the work.
 
+## Action ladder
+
+**Short term**
+
+- `Buyers:` Run one explicit comparison on a current tool: renew, switch, build, or go without.
+- `Technical leaders:` If you think you can build it internally now, name the owner, maintenance path, and review process before calling it a win.
+
+**Medium term**
+
+- `Companies:` Create a lightweight build-versus-buy rubric so internal builds are compared deliberately instead of approved by vibe.
+- `Vendors:` Stress-test your category against the current internal build threshold, not the one from three years ago.
+
+**Long term**
+
+- `Leaders and institutions:` If internal building really saves money, reinvest some of that gain into apprenticeships, maintainable internal tooling, and better governance instead of cashing it all out as margin.
+- `Procurement and finance teams:` Stop treating build-versus-buy as a one-time technical choice. It is now an ongoing market-power and workforce-shaping decision.
+
 ## Related reading
 
 - [AI Is Not One Thing](/blog/2026-03-26-ai-is-not-one-thing/)

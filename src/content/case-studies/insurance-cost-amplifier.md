@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Insurance as a Cost Amplifier'
 bucket: 'stress-test'
 corePattern: 'Insurance prices aggregate risk and system dysfunction into a single bill. When underlying risk, rebuild costs, and legal costs all rise at once, insurance amplifies them into premium spikes and market exits - hitting housing and transportation hardest.'
@@ -28,6 +28,7 @@ receiptTags:
   - 'independent-analysis'
 sources: []
 ---
+
 ## Three things that happened to real people
 
 A homeowner's escrow payment jumped by hundreds of dollars a month. Nothing about their property changed. No claim, no renovation, no new risk. Their insurer had repriced the ZIP code.
@@ -53,7 +54,7 @@ Insurance is where a lot of separate pressures show up as one bill. Climate risk
 1. **Risk rises.** More severe weather events, higher-value assets, longer rebuilds.
 2. **System costs rise.** Reconstruction labor and materials spiked 16.6% in a single year (Q2 2020 to Q2 2021, CoreLogic). Auto repair costs rose approximately 33% over four years. Litigation costs rose in high-liability states.
 3. **Reinsurance tightens.** Property catastrophe reinsurance rates rose 45% to 100% in the US in 2023 alone, forcing primary insurers to absorb more risk per event. This is invisible to consumers but directly drives primary premiums.
-4. **Premiums rise.** US home insurance premiums rose 40.4% cumulatively from 2019 to 2024. Auto full-coverage premiums rose 46% from 2022 to 2024. CPI for motor vehicle insurance rose 20.3% in a single year (Dec 2022 to Dec 2023), then an additional 11.3% the year after -- fast enough to dominate changes in total transportation affordability even when vehicle prices were flat.
+4. **Premiums rise.** US home insurance premiums rose 40.4% cumulatively from 2019 to 2024. Auto full-coverage premiums rose 46% from 2022 to 2024. CPI for motor vehicle insurance rose 20.3% in a single year (Dec 2022 to Dec 2023), then an additional 11.3% the year after - fast enough to dominate changes in total transportation affordability even when vehicle prices were flat.
 5. **Where pricing cannot adjust cleanly, markets thin or exit.** In California, where Proposition 103 (1988) required prior regulatory approval for rate increases - averaging 138 days without intervention, 343 days with - insurers had a harder time pricing forward-looking climate risk. In a market already under pressure, that helped push some carriers from repricing into withdrawal.
 
 This is the core mechanism: holding down the signal does not remove the pressure underneath it. It just delays the moment when the bill catches up.
@@ -62,8 +63,8 @@ The amplifier has two visible outputs: higher prices for the insured, and silent
 
 **Two additional channels that hit people who never buy a policy:**
 
-- **Renters.** Federal Reserve analysis finds multifamily property insurance costs rose from $39/unit/month (2019) to $68/unit/month (2024) in real terms -- up 75% (Federal Reserve FEDS Notes on rental pass-through; specific paper not individually identified; label: plausible). Rents tend to rise alongside those costs. A renter who never touches an insurance application still absorbs the increase through their monthly payment.
-- **Force-placed insurance.** When a homeowner's coverage lapses or is canceled, the loan servicer can impose lender-placed insurance -- which can be twice as much as regular coverage (CFPB). This hits financially stressed households at the worst possible moment: the premium spikes just as they can least afford it, and the coverage primarily protects the lender, not the homeowner.
+- **Renters.** Federal Reserve analysis finds multifamily property insurance costs rose from $39/unit/month (2019) to $68/unit/month (2024) in real terms - up 75% (Federal Reserve FEDS Notes on rental pass-through; specific paper not individually identified; label: plausible). Rents tend to rise alongside those costs. A renter who never touches an insurance application still absorbs the increase through their monthly payment.
+- **Force-placed insurance.** When a homeowner's coverage lapses or is canceled, the loan servicer can impose lender-placed insurance - which can be twice as much as regular coverage (CFPB). This hits financially stressed households at the worst possible moment: the premium spikes just as they can least afford it, and the coverage primarily protects the lender, not the homeowner.
 
 ---
 
@@ -72,12 +73,12 @@ The amplifier has two visible outputs: higher prices for the insured, and silent
 **Key metrics:**
 
 - Home insurance premiums: +40.4% nationally, 2019-2024 (Insurify / insurance.com)
-- Auto full-coverage premiums: +46% from 2022 to 2024 (The Zebra / Insurify); CPI for motor vehicle insurance: +20.3% (Dec 2022 to Dec 2023), +11.3% (Dec 2023 to Dec 2024) -- these annual figures show how concentrated the spike was
+- Auto full-coverage premiums: +46% from 2022 to 2024 (The Zebra / Insurify); CPI for motor vehicle insurance: +20.3% (Dec 2022 to Dec 2023), +11.3% (Dec 2023 to Dec 2024) - these annual figures show how concentrated the spike was
 - AAA 2025: total annual cost to own and operate a vehicle is $11,577; insurance accounts for $1,694 of that, roughly 15% (AAA Your Driving Costs 2025; label: confirmed directionally, specific figures from AAA annual report). When insurance inflation runs at 20%, it moves the total cost of car ownership more than almost any other line item
 - Home insurance now accounts for 9% of a typical homeowner's monthly payment - highest share on record
 - NBER Working Paper 32579: premium increases have reduced home price growth by over $40,000 in the most-exposed zip codes
 - 2025: national auto average dropped 6%; 39 states saw reductions - the first evidence of a reversible cycle
-- Industry combined ratio: 2022 approximately 100.7 (unprofitable), 2023 = 101.8 (unprofitable), 2024 = 96.6 (profitable) - see profit tension discussion below
+- Industry combined ratio (overall U.S. P&C; NAIC/industry sources): 2022 approximately 100.7 (unprofitable), 2023 = 101.8 (unprofitable), 2024 = 96.6 (profitable) - see profit tension discussion below
 
 Time horizon: 2019-2025 for premium trends; reform outcomes are 2019-2024 for Michigan; 2022-2024 for Florida.
 
@@ -132,6 +133,8 @@ Two interpretations fit the data:
 1. **Catch-up lag:** The industry ran unprofitable combined ratios in 2022 and 2023 after years of underpriced risk. The 2024 recovery reflects a repricing cycle completing - not steady overearning.
 2. **Overshoot:** The repricing cycle went further than underlying risk warranted. Once claims normalized, rates stayed elevated. Insurers captured excess margin during normalization.
 
+A third structural factor shaped the 2024 result directly. Record profitability in a high-catastrophe year seems counterintuitive until you account for market exits. When State Farm, Allstate, and other carriers stopped writing in California and other high-exposure states, those policies migrated to FAIR Plans - which sit outside the private market's combined ratio calculation. The carriers who remained were writing a less-exposed book; the worst risks had been selected out. Higher premiums on a smaller, lower-risk portfolio is the mechanical setup for a record combined ratio improvement even in a hard cat year. That structural shift does not resolve the catch-up vs. overshoot debate - it complicates both.
+
 Both narratives have evidence. The American Association for Justice and Consumer Watchdog cite the profit surge as evidence of extraction. The industry response is that two years of losses came first, and that Fortune 500 average net margin is 13% versus a P&C operating ratio of approximately 7% in 2024. The 2025 national auto premium drop of 6% across 39 states - without any major underlying cost reversal - is at least some evidence for the overshoot view: rates may have stayed high longer than the risk justified before starting to come back down. The answer probably differs by line, carrier, and state. The honest version is that this dispute does not resolve cleanly.
 
 **The social inflation dispute**
@@ -142,15 +145,15 @@ The Consumer Federation of America disputes the "social inflation" narrative dir
 
 **The distributional angle**
 
-The amplifier does not hit evenly. The FTC found that credit-based insurance scores are predictive of risk -- but also that African-Americans and Hispanics, as groups, tend to have lower scores than non-Hispanic whites and Asians, which means the price burden can land unevenly across groups. Neighborhood-level pricing compounds this: places already carrying more economic stress can also get hit with higher insurance premiums through the same pricing system.
+The amplifier does not hit evenly. The FTC found that credit-based insurance scores are predictive of risk - but also that African-Americans and Hispanics, as groups, tend to have lower scores than non-Hispanic whites and Asians, which means the price burden can land unevenly across groups. Neighborhood-level pricing compounds this: places already carrying more economic stress can also get hit with higher insurance premiums through the same pricing system.
 
-The uninsured feedback loop makes this worse. When premiums rise, some households drop coverage rather than pay. The Insurance Research Council puts uninsured motorists at 15.4% of drivers in 2023 and underinsured at 18.0%. More uninsured drivers in the pool means more uncompensated losses, which pushes premiums higher for everyone who is still paying -- a regressive spiral. The households priced out of insurance are not just absorbing risk themselves; they are raising costs for the households that remain.
+The uninsured feedback loop makes this worse. When premiums rise, some households drop coverage rather than pay. The Insurance Research Council puts uninsured motorists at 15.4% of drivers in 2023 and underinsured at 18.0%. More uninsured drivers in the pool means more uncompensated losses, which pushes premiums higher for everyone who is still paying - a regressive spiral. The households priced out of insurance are not just absorbing risk themselves; they are raising costs for the households that remain.
 
 **The uninsured and underinsured gap**
 
 High prices are one visible output of the amplifier. The other is unavailability. A third channel runs through existing policyholders who are structurally underinsured: the 2021 reconstruction cost spike left many properties insured at pre-spike replacement values. A policy priced in 2019 may now cover less than 85 cents on the dollar of a current rebuild - the gap opened silently, with no new bill and no warning. The premium stayed manageable; the coverage gap did not.
 
-Approximately 7-14% of owner-occupied homes are uninsured nationally (CBO 2024, JEC 2024 - the range reflects methodological differences). Flood insurance gap: $24.4 billion in estimated future annual flood losses on single-family homes; more than $17 billion currently uninsured. In low-income neighborhoods, over 90% of households are underinsured; average uninsured flood losses exceed 20% of annual income [label: plausible -- secondary citation in Philadelphia Fed paper; not independently verified].
+Approximately 7-14% of owner-occupied homes are uninsured nationally (CBO 2024, JEC 2024 - the range reflects methodological differences). Flood insurance gap: $24.4 billion in estimated future annual flood losses on single-family homes; more than $17 billion currently uninsured. In low-income neighborhoods, over 90% of households are underinsured; average uninsured flood losses exceed 20% of annual income [label: plausible - secondary citation in Philadelphia Fed paper; not independently verified].
 
 The amplifier works in both directions: too expensive for some markets, unavailable for others, often because of the same underlying cause.
 
@@ -167,6 +170,28 @@ In Florida, market recovery post-reform is measurable: 14 new carrier entrants, 
 In Michigan, reform passed in 2019 and produced confirmed aggregate savings by 2024. Whether those benefits flowed fairly to the most burdened Detroit drivers remains unresolved. The open question is distributional: whether low-income Detroit drivers saw their expected share of the savings. The current data does not settle that.
 
 Auto insurance nationally: the 6% price drop in 2025 across 39 states is early evidence that the 2022-2024 spike was partly a repricing overshoot, not a permanent step change.
+
+---
+
+## What to do
+
+**Short - do this now**
+
+- Check your homeowner policy's replacement cost estimate against current construction costs. The 2021 spike left many policies covering less than 85 cents on the dollar of a current rebuild - silently, with no new bill. Call your insurer and ask for a current estimate.
+- If you're in a state where major carriers have exited, ask your agent to compare FAIR Plan terms against surplus lines options before defaulting to the state backstop. FAIR Plans are designed for availability, not value.
+- Housing operators: verify your Statement of Values is current. Stale or undervalued data is one of the most common reasons for pricing penalties at renewal.
+
+**Medium - requires planning or investment**
+
+- Home hardening (resilient roofing, fire-resistant materials, stormwater barriers) reduces insurer-assessed risk and can qualify for premium discounts. Several states fund part of this: Alabama's Strengthen Alabama Homes Program, Louisiana's Fortify Homes Program, Colorado HB25-1182. Check what your state offers before paying out of pocket.
+- Housing operators: document every capital improvement and share it proactively with your underwriter. Bid the full program to market at each renewal rather than auto-renewing.
+- Housing operators with larger portfolios: investigate captive or risk retention group structures. The Housing Partnership Network model covers 85,000+ units across 23 organizations and has demonstrated measurable cost stabilization (Enterprise Community Partners, 2026).
+
+**Long - legislative and structural**
+
+- Ask where your state stands on forward-looking catastrophe modeling in rate filings. States still on backward-looking approval are building the next coverage gap.
+- Support home-hardening grant programs that tie state funding to mandatory insurer premium discounts - the mechanism that makes the investment durable, not one-time.
+- Track Fannie Mae / Freddie Mac deductible reform. Current GSE guidelines cap property deductibles at $50,000 for properties under $10M in value, well below commercial norms - reform here would unlock risk-sharing options for affordable housing operators.
 
 ---
 
@@ -196,6 +221,7 @@ Insurance is a measurement device - when it breaks, fix what it is measuring, no
 
 ## Research receipts
 
+[Receipts](../../07-notes/research/big-costs/_research-insurance-cost-amplifier.md)
 
 Supporting data for the main narrative. Claims carried into the main flow are drawn from this evidence base.
 
@@ -213,7 +239,7 @@ Supporting data for the main narrative. Claims carried into the main flow are dr
 
 **Industry profitability:**
 
-- Combined ratio: 2022 approximately 100.7 (unprofitable), 2023 = 101.8 (unprofitable), 2024 = 96.6 (profitable, best in a decade)
+- Combined ratio (overall U.S. P&C; NAIC/industry sources): 2022 approximately 100.7 (unprofitable), 2023 = 101.8 (unprofitable), 2024 = 96.6 (profitable, best in a decade). AM Best (via Enterprise Community Partners, Feb 2026) reports the same period at 103.1 / 103.7E / 100.7P - both series show the same directional arc; the gap likely reflects different line-of-business cuts or publication vintage
 - Ex-catastrophe combined ratio 2024: 88% - best in at least 20 years
 - Net profit 2024: $169 billion (+90% year-over-year, +333% from 2022) - see profit tension discussion
 - Return on equity: dropped to 4.8% in 2022, recovered to approximately 10% in H1 2024
@@ -256,7 +282,7 @@ Louisiana ranks 50th in auto insurance affordability at approximately $236/month
 - 80% of households at risk of flood damage lack adequate coverage
 - NFIP owes approximately $22-25 billion to the US Treasury; since 2005, NFIP losses have exceeded premiums by $36 billion
 - NFIP expired September 25, 2025; pending reauthorization as of early 2026
-- GAO: median NFIP premium was $689 but would need to rise to $1,288 to reach full-risk pricing under Risk Rating 2.0 -- a direct parallel to the California pattern: suppressing the price signal does not reduce the pressure, it just defers the reckoning
+- GAO: median NFIP premium was $689 but would need to rise to $1,288 to reach full-risk pricing under Risk Rating 2.0 - a direct parallel to the California pattern: suppressing the price signal does not reduce the pressure, it just defers the reckoning
 
 ---
 
@@ -268,5 +294,3 @@ Louisiana ranks 50th in auto insurance affordability at approximately $236/month
 - [RESEARCH GAP: Whether Michigan's aggregate premium savings distributed equitably to low-income Detroit drivers specifically.]
 - [RESEARCH GAP: Whether California's Sustainable Insurance Strategy (2024) has materially reversed insurer exits. Implementation is too recent for confirmed outcome data as of early 2026.]
 - [RESEARCH GAP: Long-run premium stability in Florida post-reform. Market recovery is confirmed for 2022-2024; durability through a major hurricane event is structurally unquantified.]
-
-
