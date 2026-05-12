@@ -37,9 +37,7 @@ Some of the fear here is real. A lot of the old starter work is changing fast. T
 
 Entry-level job postings in AI-exposed fields have contracted meaningfully since their 2022 peak. The roles that remain are asking for more. And the credentials that used to signal effort - a clean first draft, a well-formatted report - are harder to distinguish from AI-assisted work done in minutes.
 
-That does not mean young people are stuck. And it does not mean there is nothing worth building.
-
-It means the thing to build changed.
+That does not mean young people are stuck. The thing to build changed.
 
 ## Why it is happening
 
@@ -55,7 +53,7 @@ There are active lawsuits against insurers where physicians signed off on algori
 
 Two-second approval? That is not some futuristic breakthrough. That is a lawsuit in waiting.
 
-The accountability is staying with the human. That means the human's ability to actually evaluate the output is load-bearing.
+The early legal cases are consistent: accountability stays with the human. That means the human's ability to actually evaluate the output is load-bearing.
 
 The same pattern runs at the individual level. Using AI to produce work you don't fully understand feels like efficiency - until it doesn't. Early career is when the foundation is supposed to form. That is the part of the job where you do the work badly, slowly, and learn it. That formation is what lets you catch errors, ask better questions, and take on harder problems next year. Skipping it for polished output now is borrowing against a foundation you have not built yet. The output looks fine. Nobody flags the gap. Until the gap shows up somewhere it actually matters.
 
@@ -67,7 +65,7 @@ That is judgment and trust. It's the part companies cannot fake for long.
 
 Good looks like a person who can answer, specifically and honestly: here is what the AI got wrong and why I caught it. Not: I used AI to do this faster. The question is whether you understand the work well enough to catch the errors - not just produce output faster.
 
-The workers who will matter are the ones who entered the right loop early. They used AI to go deeper into their domain - to find things faster, ask better questions, get to the hard part sooner. Their skills compound because they are doing the judgment work. The workers in the other loop produce good-looking work with a growing gap underneath. The output masks the problem until it can't.
+The early pattern suggests two loops forming. Workers who use AI to go deeper - to find things faster, ask better questions, get to the hard part sooner - build judgment that compounds. Workers who use it mainly to produce output are growing a gap underneath. The work looks fine. The gap shows up later.
 
 This is not equally available to everyone. Workers who start with stronger domain foundations, better mentorship, and more institutional support are better positioned to use the tools well from the start. Workers still building those foundations - which is most entry-level workers, especially those without strong networks - are the most exposed. The tool amplifies what you bring to it. If you don't have much yet, that can work against you.
 
@@ -75,19 +73,15 @@ The rules are moving in that direction too. California now prohibits health insu
 
 ## What to do
 
-So if I were talking to a high school senior, a college student, or someone early in their career, I would not tell them to panic. I would not tell them to worship the tools either.
+The typical message that high school seniors, college students, or people early in their careers hear is some version of 'panic' or 'just learn AI.' Both miss the point.
 
-I would say: build the part that still matters after the tool changes again.
-
-Build one area of real depth. Learn one workflow where mistakes matter. Show your work. Keep the rough draft, the revision, the change in thinking, the reason you chose one path over another. Learn how to check the machine, not just use it.
+I would say: build the part that still matters after the tool changes again. Build one area of real depth. Learn one workflow where mistakes matter. Show your work. Keep the rough draft, the revision, the change in thinking, the reason you chose one path over another. Learn how to check the machine, not just use it.
 
 The companies that are using AI well are going to need people with judgment. And the companies using it badly are going to need them even more.
 
-People are more adaptable than the panic makes it sound. Young people already learn new tools constantly. That part I am not worried about.
+People are more adaptable than the panic makes it sound. Young people already learn new tools constantly. That part I'm not worried about.
 
-What I would build now is not loyalty to one interface.
-
-I would build:
+Build toward judgment. Here is what that looks like in practice.
 
 - judgment
 - proof of process
@@ -95,23 +89,17 @@ I would build:
 - the habit of checking
 - enough depth in one real area to know when something is off
 
-That is the kind of thing that travels.
-
-One honest limit: this advice is not equally available to everyone. Access to the tools, the mentorship, and the time to build real depth is not evenly distributed. The advice is sound - it lands differently depending on where you start. And none of this resolves the structural problem. If the entry ladder is collapsing, individual merit does not reopen it. That requires a different kind of fix.
+One honest limit: this advice lands differently depending on where you start. The structural problem - a collapsing entry ladder can't be solved by individual merit alone - requires a different kind of fix. The long-term action ladder below is where that lives.
 
 ## How to talk about it
 
 The ladder is changing. Some of that is unfair. Some of it is going to hurt. I am not going to pretend otherwise.
 
-But "harder" does not mean "hopeless."
+Harder is not hopeless. The cheap signals are weaker now, so build the stronger ones.
 
-It means the cheap signals are weaker now.
+You don't have to be anti-AI to care about this. The question isn't whether the tools are powerful. The question is whether a person - especially one without strong networks or institutional cushioning - can still build something real, get it seen fairly, and develop the kind of judgment that compounds over time.
 
-So build the stronger ones.
-
-You do not have to be anti-AI to care about this. The question is not whether the tools are powerful. The question is whether a person - especially one without strong networks or institutional cushioning - can still build something real, get it seen fairly, and develop the kind of judgment that compounds over time.
-
-A useful frame for those conversations: when output gets cheap, judgment gets expensive. Build toward judgment, not toward any specific interface. The tools will change. What does not change is whether you understand the work well enough to know when something is wrong - and whether you can show your work.
+A useful frame for those conversations: when output gets cheap, judgment gets expensive. Build toward judgment, not toward any specific interface. What doesn't change is whether you understand the work well enough to know when something is wrong, and whether you can show your work.
 
 ## One steady action to take this week
 
@@ -142,3 +130,4 @@ Pick one piece of work this week and document the process as you go - first atte
 - [The Pattern Underneath the AI Hype](/blog/2026-04-28-the-pattern-underneath-the-ai-hype/)
 - [Case study: Young Worker Ladder Shift](/case-studies/young-worker-ladder-shift/)
 - [Case study: AI and the IT Ladder Collapse](/case-studies/it-ladder-collapse/)
+- [Case study: AI and Claims Eligibility](/case-studies/claims-eligibility/)

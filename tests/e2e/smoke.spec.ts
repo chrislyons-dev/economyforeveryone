@@ -3,7 +3,7 @@ import { expect, test } from '@playwright/test';
 test('home page renders and exposes nav', async ({ page }) => {
   await page.goto('/');
   await expect(
-    page.getByRole('heading', { name: 'Narrative-first, evidence-driven' })
+    page.getByRole('heading', { name: 'Make sense of the squeeze and do something about it.' })
   ).toBeVisible();
   await expect(
     page.locator('.nav-links-desktop').getByRole('link', { name: 'Case Studies' })
