@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(python -c \"import sys; print\\(sys.version\\)\")",
-      "Bash(sed -i 's/, plausible-strong,/, directionally supported,/g' \"C:/Users/chris/git/economyforeveryone/src/content/case-studies/personalized-pricing-steering.md\"\nsed -i 's/ plausible-strong,/ directionally supported,/g' \"C:/Users/chris/git/economyforeveryone/src/content/case-studies/personalized-pricing-steering.md\"\nsed -i 's/plausible-strong magnitude/directionally supported magnitude/g' \"C:/Users/chris/git/economyforeveryone/src/content/case-studies/personalized-pricing-steering.md\"\nsed -i 's/treat as plausible-strong, not confirmed/treat as directionally credible, not precisely calibrated/g' \"C:/Users/chris/git/economyforeveryone/src/content/case-studies/personalized-pricing-steering.md\"\nsed -i 's/as plausible-strong without independent replication/as directionally credible, pending independent replication/g' \"C:/Users/chris/git/economyforeveryone/src/content/case-studies/personalized-pricing-steering.md\"\nsed -i 's/plausible-strong, PP-011/directionally supported by AHA data, PP-011/g' \"C:/Users/chris/git/economyforeveryone/src/content/case-studies/personalized-pricing-steering.md\")",
-      "Bash(npx vitest:*)"
-    ]
-  }
-}
