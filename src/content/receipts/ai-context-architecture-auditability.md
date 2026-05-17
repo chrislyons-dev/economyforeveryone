@@ -25,6 +25,7 @@ sources:
   - title: 'Context Rot research'
     url: 'https://www.trychroma.com/research/context-rot'
 ---
+
 # Research: Prompting Is the UI. Context Is the Architecture.
 
 **Mode:** case_research
@@ -70,7 +71,6 @@ sources:
     - [Michigan MiDAS â€” Government Benefits Canonical Case (CE-016)](#michigan-midas--government-benefits-canonical-case-ce-016)
     - [Denial-by-Friction Signature (Prediction 1 / CE-003)](#denial-by-friction-signature-prediction-1--ce-003)
     - [Summary: Why Approval Theater Belongs in This Research File](#summary-why-approval-theater-belongs-in-this-research-file)
-
 
 ---
 
@@ -118,6 +118,7 @@ Note: The HTML version returned 403. The PDF was not parseable by fetch. Extract
 OpenAI defines agentic AI as systems that "pursue complex goals with limited direct supervision." Key distinction from chat: autonomous multi-step task execution, environmental decision-making, real-world action capability, and extended operation without human intervention.
 
 Seven core governance practices proposed:
+
 1. Clear accountability assignment - "at least one human entity is accountable for every uncompensated direct harm caused by an agentic AI system"
 2. Action ledgers - deployers must provide users "visibility into agent operations through action records"
 3. Human approval gates - significant autonomous decisions require human review beforehand
@@ -181,6 +182,7 @@ Core finding: "even when models can perfectly retrieve all relevant information,
 This paper challenges the assumption that better retrieval fixes the context quality problem. Performance degrades from context length itself, not just from poor retrieval or positional effects.
 
 Quantitative results across five LLMs:
+
 - Llama-3.1-8B on MMLU extended to 30K tokens: accuracy dropped 24.2% despite 100% exact-match evidence retrieval
 - VarSum task: Llama lost 59% accuracy at 7.5K tokens; Mistral lost 44% at same length
 - With whitespace only (minimal distraction): still observed drops of at least 7% at 30K tokens
@@ -255,6 +257,7 @@ Lex Fridman: "I often have it generate dynamic html (with js) that allows me to 
 Karpathy closing: "You rarely ever write or edit the wiki manually; it's the domain of the LLM."
 
 Comparison table (from article):
+
 - Vector DB/RAG: Opaque Vectors, Semantic Similarity, Low Auditability, Static, ideal for Millions of Documents
 - Karpathy's Markdown Wiki: Human-Readable Markdown, Explicit Connections (Backlinks/Indices), High Auditability (Direct Traceability), Active (Self-healing through linting), ideal for 100-10,000 High-Signal Documents
 
@@ -289,6 +292,7 @@ Internal benchmark (explicitly flagged as not yet production-validated): "one fi
 Gartner analyst Arun Chandrasekaran: "Unlike traditional RAG, which relies on pure semantic search at runtime, architectural compilation embeds structural logic into the metadata layer, which can boost time to response and provide better reasoning... The true differentiator is deterministic grounding."
 
 HyperFRAME Research analyst Stephanie Walter:
+
 - "The real innovation isn't the idea itself, but the productization of knowledge compilation as a first-class infrastructure layer."
 - "Most enterprise failures in agentic AI will not be technical. They will be operational - tied to cost overruns, governance gaps, and security discipline."
 - "The future of agentic AI won't be decided by who has the longest context window. It will be decided by who can operationalize trusted knowledge at scale without blowing up cost or governance."
@@ -302,6 +306,7 @@ KnowQL comparison: "what SQL did for relational databases: before a standard int
 The 98% token reduction is Pinecone's internal benchmark, not customer production data - the article says so explicitly. The 85% re-discovery figure is Pinecone's estimate, not independently verified. Nexus is in early access. The article does not discuss governance failure cases or high-stakes deployment harm.
 
 **Evidence label:**
+
 - Non-determinism as auditability problem: Confirmed (analyst consensus; multi-source)
 - Compilation-stage as industry direction: Confirmed (Anthropic, Pinecone, Google, Microsoft all moving this direction per the article)
 - 85% re-discovery figure: Plausible (Pinecone estimate, not independently verified)
@@ -353,6 +358,7 @@ Key finding (exact quote from report): "LLMs do not use their context uniformly"
 Counterintuitive structural finding: "Models perform worse when the haystack preserves a logical flow of ideas. Shuffling the haystack and removing local coherence consistently improves performance." This held consistently across all 18 models.
 
 Model-specific results:
+
 - Claude models showed lowest hallucination rates; Sonnet 4 and Opus 4 conservatively abstain when uncertain
 - GPT models showed highest hallucination rates with distractors
 - Gemini 2.5 Pro generates random output starting around 500-750 words (extreme degradation)
@@ -378,6 +384,7 @@ These are not about context architecture per se - they are about opaque AI pipel
 Source: ProPublica investigation; class action lawsuit (E.D. Cal.); March 2025 ruling allowed class to proceed.
 
 Facts:
+
 - Algorithm denied 300,000 claims over two months in 2022
 - Average review time: 1.2 seconds per claim
 - Denial approach: doctors confirmed denials without checking patients' individual medical history
@@ -392,6 +399,7 @@ Facts:
 Source: Lokken v. UnitedHealth Group class action; STAT News "Denied by AI" series (March 2023); March 2026 court order compelling discovery.
 
 Facts:
+
 - nH Predict (developed by Optum subsidiary naviHealth) used to evaluate Medicare Advantage post-acute care claims
 - Algorithm overrode physicians' decisions; instructed case managers to adhere to algorithm projections
 - 90% error rate alleged - patients won more than 90% of appeals through internal appeal or federal administrative law judge rulings
@@ -414,6 +422,7 @@ Facts: Requires insurers to have a qualified human review AI-generated decisions
 Source: N.D. Cal. ruling; ADEA conditional certification (2025); ongoing litigation.
 
 Facts:
+
 - Class action: Workday's AI applicant recommendation system had disparate impact based on race, age, and disability
 - Court allowed "agent" theory of liability to proceed - Workday qualifies as "agent" of employers because its tools "perform a traditional hiring function of rejecting candidates"
 - Workday represented 1.1 billion applications were rejected using its tools during the relevant period
@@ -429,6 +438,7 @@ Facts:
 Organized by source and speaker. Ready for writer extraction.
 
 **Anthropic (Source 1):**
+
 - "Context engineering refers to the set of strategies for curating and maintaining the optimal set of tokens (information) during LLM inference"
 - "Prompt engineering refers to methods for writing and organizing LLM instructions for optimal outcomes"
 - "as the number of tokens in the context window increases, the model's ability to accurately recall information from that context decreases"
@@ -437,17 +447,20 @@ Organized by source and speaker. Ready for writer extraction.
 - "it's likely that for the foreseeable future, context windows of all sizes will be subject to context pollution and information relevance concerns"
 
 **OpenAI Paper (Source 2 - secondary synthesis; treat as plausible not exact-quoted):**
+
 - Agentic AI = systems that "pursue complex goals with limited direct supervision"
 - "at least one human entity is accountable for every uncompensated direct harm caused by an agentic AI system"
 - Deployers must provide users "visibility into agent operations through action records"
 - "actions should be reversible where possible to enable error recovery"
 
 **Karpathy Gist (Source 5):**
+
 - "The LLM reads the source, discusses key takeaways with you, writes a summary page in the wiki, updates the index, updates relevant entity and concept pages across the wiki, and appends an entry to the log."
 - "The wiki is a persistent, compounding artifact. The cross-references are already there. The contradictions have already been flagged."
 - "You're in charge of sourcing, exploration, and asking the right questions. The LLM does all the grunt work."
 
 **Karpathy VentureBeat / Community (Source 6):**
+
 - Karpathy (X post): "Something I'm finding very useful recently: using LLMs to build personal knowledge bases for various topics of research interest."
 - Karpathy (closing): "You rarely ever write or edit the wiki manually; it's the domain of the LLM."
 - Vamshi Reddy (community member, with Karpathy's agreement): "Every business has a raw/ directory. Nobody's ever compiled it. That's the product."
@@ -455,6 +468,7 @@ Organized by source and speaker. Ready for writer extraction.
 - Steph Ango (Obsidian co-creator): keep personal vault clean; let agents work in a "messy vault"
 
 **Pinecone / Nexus (Source 7):**
+
 - Ashutosh: "RAG was built for human users. Nexus was built for agentic users, because their language is very different."
 - Ashutosh: "At the heart of all this stuff was a very simple problem. You're asking agents - machines - to work on systems and data that was designed for humans."
 - Non-determinism: "Run the same task twice against the same data, and an agent may return different answers with no record of which sources drove either result. For enterprises where auditability is a compliance requirement, that is a structural disqualifier, not a tuning problem."
@@ -463,9 +477,11 @@ Organized by source and speaker. Ready for writer extraction.
 - Walter: "The future of agentic AI won't be decided by who has the longest context window. It will be decided by who can operationalize trusted knowledge at scale without blowing up cost or governance."
 
 **Databricks (Source 8):**
+
 - "Building custom RAG pipelines over heterogeneous datasets should be avoided... Multi-step reasoning where, at each step, the agent selects the right data source and reflects on its utility, is crucial."
 
 **Chroma (Source 9):**
+
 - "Models perform worse when the haystack preserves a logical flow of ideas. Shuffling the haystack and removing local coherence consistently improves performance."
 - "LLMs do not use their context uniformly"
 
@@ -473,32 +489,32 @@ Organized by source and speaker. Ready for writer extraction.
 
 ## 3. Claim Inventory
 
-| Claim | Label | Primary Source(s) |
-|---|---|---|
-| Context engineering is a distinct discipline from prompt engineering | Confirmed | Anthropic (S1) |
-| Context windows exhibit performance degradation as tokens increase (context rot) | Confirmed | Anthropic (S1), Liu et al. (S3), Chroma (S9) |
-| Position of information in context affects model reliability (U-shaped bias) | Confirmed | Liu et al. (S3), EMNLP 2025 (S4) |
-| Performance degrades even with perfect retrieval, from context length alone | Confirmed | EMNLP 2025 (S4) |
-| 24.2% accuracy drop at 30K tokens despite 100% exact-match retrieval | Confirmed | EMNLP 2025 (S4) |
-| All 18 tested frontier models exhibit context rot | Plausible | Chroma (S9) - company research, replicable methodology, not peer-reviewed |
-| Logically coherent documents hurt model performance more than shuffled ones | Plausible | Chroma (S9) |
-| Multi-step agent architecture beats stronger models on hybrid queries | Plausible | Databricks (S8) - company research blog, not peer-reviewed |
-| Databricks multi-step agent achieved +21% on STaRK-MAG vs single-step with better model | Plausible | Databricks (S8) |
-| 85% of agent compute goes to re-discovery cycle | Plausible | Pinecone estimate only (S7) - not independently verified |
-| 98% token reduction with Nexus vs standard RAG pipeline | Plausible | Pinecone internal benchmark only (S7) - not production-validated |
-| Non-determinism is a structural auditability problem, not a tuning problem | Confirmed | Pinecone (S7), Gartner/Chandrasekaran (S7), multi-source analyst consensus |
-| Compilation-stage approach is the industry direction | Confirmed | Anthropic, Pinecone, Google, Microsoft all moving this way per S7 |
-| Governance is the enterprise gating factor for agentic AI adoption | Confirmed | VB Pulse Q1 2026 survey; analyst consensus (Walter, Chandrasekaran) |
-| OpenAI's framework requires human accountability for agent harms | Confirmed | OpenAI paper (S2) - though exact quotes from PDF not directly verified |
-| "Action ledger" (log of what agent did) is part of OpenAI's governance framework | Confirmed (secondary) | OpenAI paper (S2) |
-| Cigna PXDX denied 300,000 claims at 1.2 seconds average review time | Confirmed | ProPublica investigation; Cigna-provided data |
-| Cigna lawsuit allowed to proceed (March 2025) | Confirmed | Court records |
-| UnitedHealth nH Predict overrode physician recommendations | Confirmed as alleged, proceeding | Court filings, STAT News |
-| nH Predict appeal reversal rate exceeds 90% | Plausible | Lawsuit allegation; AIAAIC; not a court finding |
-| California SB1120 requires human review of AI medical necessity decisions (eff. Jan 2025) | Confirmed | Enacted legislation |
-| Workday's AI rejected 1.1 billion applications (Workday's own representation) | Confirmed | Court proceedings |
-| "Agent" theory of vendor AI liability accepted by federal court (Mobley v. Workday) | Confirmed | N.D. Cal. ruling |
-| Context engineering is just rebranded prompt engineering | Unknown/contested | Skeptics exist (OpenAI community, some practitioners); industry consensus appears to disagree |
+| Claim                                                                                     | Label                            | Primary Source(s)                                                                             |
+| ----------------------------------------------------------------------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------- |
+| Context engineering is a distinct discipline from prompt engineering                      | Confirmed                        | Anthropic (S1)                                                                                |
+| Context windows exhibit performance degradation as tokens increase (context rot)          | Confirmed                        | Anthropic (S1), Liu et al. (S3), Chroma (S9)                                                  |
+| Position of information in context affects model reliability (U-shaped bias)              | Confirmed                        | Liu et al. (S3), EMNLP 2025 (S4)                                                              |
+| Performance degrades even with perfect retrieval, from context length alone               | Confirmed                        | EMNLP 2025 (S4)                                                                               |
+| 24.2% accuracy drop at 30K tokens despite 100% exact-match retrieval                      | Confirmed                        | EMNLP 2025 (S4)                                                                               |
+| All 18 tested frontier models exhibit context rot                                         | Plausible                        | Chroma (S9) - company research, replicable methodology, not peer-reviewed                     |
+| Logically coherent documents hurt model performance more than shuffled ones               | Plausible                        | Chroma (S9)                                                                                   |
+| Multi-step agent architecture beats stronger models on hybrid queries                     | Plausible                        | Databricks (S8) - company research blog, not peer-reviewed                                    |
+| Databricks multi-step agent achieved +21% on STaRK-MAG vs single-step with better model   | Plausible                        | Databricks (S8)                                                                               |
+| 85% of agent compute goes to re-discovery cycle                                           | Plausible                        | Pinecone estimate only (S7) - not independently verified                                      |
+| 98% token reduction with Nexus vs standard RAG pipeline                                   | Plausible                        | Pinecone internal benchmark only (S7) - not production-validated                              |
+| Non-determinism is a structural auditability problem, not a tuning problem                | Confirmed                        | Pinecone (S7), Gartner/Chandrasekaran (S7), multi-source analyst consensus                    |
+| Compilation-stage approach is the industry direction                                      | Confirmed                        | Anthropic, Pinecone, Google, Microsoft all moving this way per S7                             |
+| Governance is the enterprise gating factor for agentic AI adoption                        | Confirmed                        | VB Pulse Q1 2026 survey; analyst consensus (Walter, Chandrasekaran)                           |
+| OpenAI's framework requires human accountability for agent harms                          | Confirmed                        | OpenAI paper (S2) - though exact quotes from PDF not directly verified                        |
+| "Action ledger" (log of what agent did) is part of OpenAI's governance framework          | Confirmed (secondary)            | OpenAI paper (S2)                                                                             |
+| Cigna PXDX denied 300,000 claims at 1.2 seconds average review time                       | Confirmed                        | ProPublica investigation; Cigna-provided data                                                 |
+| Cigna lawsuit allowed to proceed (March 2025)                                             | Confirmed                        | Court records                                                                                 |
+| UnitedHealth nH Predict overrode physician recommendations                                | Confirmed as alleged, proceeding | Court filings, STAT News                                                                      |
+| nH Predict appeal reversal rate exceeds 90%                                               | Plausible                        | Lawsuit allegation; AIAAIC; not a court finding                                               |
+| California SB1120 requires human review of AI medical necessity decisions (eff. Jan 2025) | Confirmed                        | Enacted legislation                                                                           |
+| Workday's AI rejected 1.1 billion applications (Workday's own representation)             | Confirmed                        | Court proceedings                                                                             |
+| "Agent" theory of vendor AI liability accepted by federal court (Mobley v. Workday)       | Confirmed                        | N.D. Cal. ruling                                                                              |
+| Context engineering is just rebranded prompt engineering                                  | Unknown/contested                | Skeptics exist (OpenAI community, some practitioners); industry consensus appears to disagree |
 
 ---
 
@@ -595,6 +611,7 @@ The Databricks research task (STaRK-MAG) involves academic citation networks and
 **What it is:** Voluntary guidance published by the U.S. National Institute of Standards and Technology, January 2023. Not law. Widely referenced by regulators, procurement bodies, and standards organizations as the baseline for responsible AI governance in the U.S.
 
 **Structure:** Four core functions â€” Govern, Map, Measure, Manage.
+
 - **Govern:** Cross-cutting function; establishes accountability, policies, and oversight across the AI lifecycle. The only function that spans the whole organization.
 - **Map:** Scopes the context in which an AI system will operate; identifies potential impacts across the lifecycle.
 - **Measure:** Quantitative and qualitative methods to analyze and track risks.
@@ -607,6 +624,7 @@ The Databricks research task (STaRK-MAG) involves academic citation networks and
 **Use in the blog:** Frame NIST AI-RMF as the answer to "what good looks like" â€” not a law, but the most credible existing U.S. template for the governance structure the blog is advocating.
 
 **Sources:**
+
 - NIST AI 100-1: https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf
 - NIST AI RMF hub: https://www.nist.gov/itl/ai-risk-management-framework
 
@@ -619,6 +637,7 @@ The Databricks research task (STaRK-MAG) involves academic citation networks and
 **Current enforcement status:** A multistate AI Systems Evaluation Tool is in a pilot running January through September 2026, with twelve participating states. This is the structured framework that gives insurance examiners a standardized approach to reviewing insurer AI governance programs during market conduct examinations.
 
 **Key requirements:**
+
 - Insurers must develop and maintain a **written AI System Program** governing AI use across the insurance lifecycle: underwriting, rating, claims, fraud detection, marketing.
 - **Senior management accountability** to the board for AI strategy.
 - **Risk management** scaled to "Degree of Potential Harm to Consumers" â€” controls and procedures calibrated to risk level of each AI use case.
@@ -632,6 +651,7 @@ The Databricks research task (STaRK-MAG) involves academic citation networks and
 **Relevance to the blog thesis:** The NAIC bulletin is the clearest existing regulatory expression of the accountability argument in a high-stakes domain (insurance). The "written AI System Program" and vendor oversight requirements are exactly the organizational structure the blog's checklist points toward. The 24-state adoption rate makes this the most broadly applicable existing U.S. AI regulation for the sector most directly relevant to the Cigna and UnitedHealth cases.
 
 **Sources:**
+
 - NAIC Model Bulletin PDF: https://content.naic.org/sites/default/files/inline-files/2023-12-4%20Model%20Bulletin_Adopted_0.pdf
 - NAIC AI hub: https://content.naic.org/insurance-topics/artificial-intelligence
 - Plante Moran on 2026 evolution: https://www.plantemoran.com/explore-our-thinking/insight/2026/03/how-the-naic-ai-model-bulletin-is-evolving
@@ -645,6 +665,7 @@ The Databricks research task (STaRK-MAG) involves academic citation networks and
 **Scope:** Developers and deployers of **high-risk AI systems** used to make or substantially factor into **consequential decisions** â€” defined to include employment, housing, healthcare, insurance, education, financial/lending services, essential government services, and legal services.
 
 **Key requirements:**
+
 - **Notice:** Consumers must be notified before a high-risk AI system is used for a consequential decision affecting them.
 - **Explanation:** If an adverse consequential decision is made, consumers have a right to an explanation of how the AI system reached its conclusion, including the personal data used.
 - **Correction and appeal:** Consumers have the right to correct data and appeal decisions.
@@ -659,6 +680,7 @@ The Databricks research task (STaRK-MAG) involves academic citation networks and
 **Relevance to the blog thesis:** Colorado SB 24-205 establishes the right to explanation and appeal for AI in consequential decisions â€” the functional equivalent of what good context architecture should enable. The blog can use this to show the policy direction: regulators are moving toward explanation and contestability requirements, and architecture that cannot produce those records will be structurally non-compliant.
 
 **Sources:**
+
 - Colorado General Assembly: https://leg.colorado.gov/bills/sb24-205
 - ABA summary: https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-july/colorado-enacts-law-regulating-high-risk-artificial-intelligence-systems/
 
@@ -669,6 +691,7 @@ The Databricks research task (STaRK-MAG) involves academic citation networks and
 **What it is:** Passed the Connecticut Senate 32-4 and House with bipartisan support. Governor Lamont publicly committed to signing it. Effective date: **July 1, 2025.** Status as of May 2026: law in effect.
 
 **Key requirements:**
+
 - Developers and deployers of **high-risk AI systems** have a **duty of reasonable care** to avoid algorithmic discrimination.
 - Consumers must receive **notice** before a high-risk AI system makes or substantially factors into a consequential decision about them.
 - After an adverse consequential decision: consumers have a **right to explanation** of how the AI system reached its conclusion, including the personal data used.
@@ -684,6 +707,7 @@ The Databricks research task (STaRK-MAG) involves academic citation networks and
 **Relevance to the blog thesis:** Connecticut joins Colorado as a state requiring notice + explanation + appeal rights for high-risk AI in consequential decisions. Both laws implicitly require the architecture to produce explanation records â€” which non-deterministic pipelines structurally cannot.
 
 **Sources:**
+
 - CT legislative text: https://www.cga.ct.gov/2025/TOB/S/PDF/2025SB-00002-R04-SB.PDF
 - FPF analysis: https://fpf.org/blog/setting-the-stage-connecticut-senate-bill-2-lays-the-groundwork-for-responsible-ai-in-the-states/
 - CT Mirror (Senate passage, May 15, 2025): https://ctmirror.org/2025/05/15/ct-ai-artificial-intelligence-bill-passes-senate/
@@ -697,6 +721,7 @@ The Databricks research task (STaRK-MAG) involves academic citation networks and
 **Scope:** Risk-tiered. High-risk AI systems include those used in employment, education, essential services, law enforcement, migration, administration of justice, and access to credit and insurance.
 
 **Key requirements for high-risk AI systems:**
+
 - **Transparency:** Systems must be designed so deployers can interpret outputs and use them appropriately.
 - **Automatic logging:** High-risk AI systems must automatically record events over their lifetime to enable identification of situations that may result in substantial modification.
 - **Human oversight:** Mechanisms must allow human intervention in AI decision-making to prevent adverse outcomes.
@@ -710,6 +735,7 @@ The Databricks research task (STaRK-MAG) involves academic citation networks and
 **Relevance to the blog thesis:** The EU AI Act's automatic logging and human oversight requirements directly operationalize what good context architecture enables â€” and what non-deterministic RAG pipelines cannot guarantee. The regulation creates legal liability for deployers who cannot produce audit records. This is the governance gap the blog is arguing needs to be closed.
 
 **Sources:**
+
 - EU AI Act official: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
 - High-level summary: https://artificialintelligenceact.eu/high-level-summary/
 - 2026 compliance requirements: https://www.legalnodes.com/article/eu-ai-act-2026-updates-compliance-requirements-and-business-risks
@@ -718,14 +744,14 @@ The Databricks research task (STaRK-MAG) involves academic citation networks and
 
 ### Summary: The Legal Landscape as of May 2026
 
-| Framework | Type | Scope | Status | Key requirement |
-|---|---|---|---|---|
-| NIST AI RMF 1.0 | Voluntary framework | U.S., all sectors | In effect (Jan 2023) | Govern / Map / Measure / Manage across AI lifecycle |
-| NAIC Model Bulletin | Regulatory guidance (24 states + DC) | Insurance AI | In effect; enforcement pilot underway | Written AI governance program; vendor oversight; risk-scaled controls |
-| California SB1120 | State law | Insurance / medical necessity AI | In effect (Jan 2025) | Human review required for AI medical necessity decisions |
-| Colorado SB 24-205 | State law | High-risk AI / consequential decisions | In effect (Feb 2026) | Notice + explanation + appeal + annual discrimination review |
-| Connecticut SB 2 | State law | High-risk AI / consequential decisions | In effect (July 2025) | Duty of care; notice; explanation; impact assessments |
-| EU AI Act | EU regulation | High-risk AI (broad scope) | Prohibited practices Feb 2025; full Aug 2026 | Automatic logging; human oversight; traceability; conformity assessment |
+| Framework           | Type                                 | Scope                                  | Status                                       | Key requirement                                                         |
+| ------------------- | ------------------------------------ | -------------------------------------- | -------------------------------------------- | ----------------------------------------------------------------------- |
+| NIST AI RMF 1.0     | Voluntary framework                  | U.S., all sectors                      | In effect (Jan 2023)                         | Govern / Map / Measure / Manage across AI lifecycle                     |
+| NAIC Model Bulletin | Regulatory guidance (24 states + DC) | Insurance AI                           | In effect; enforcement pilot underway        | Written AI governance program; vendor oversight; risk-scaled controls   |
+| California SB1120   | State law                            | Insurance / medical necessity AI       | In effect (Jan 2025)                         | Human review required for AI medical necessity decisions                |
+| Colorado SB 24-205  | State law                            | High-risk AI / consequential decisions | In effect (Feb 2026)                         | Notice + explanation + appeal + annual discrimination review            |
+| Connecticut SB 2    | State law                            | High-risk AI / consequential decisions | In effect (July 2025)                        | Duty of care; notice; explanation; impact assessments                   |
+| EU AI Act           | EU regulation                        | High-risk AI (broad scope)             | Prohibited practices Feb 2025; full Aug 2026 | Automatic logging; human oversight; traceability; conformity assessment |
 
 **The corrected framing for Gap 2:** There is no law that specifically requires "context pipeline auditability" by name. But Colorado, Connecticut, and the EU AI Act all require that high-risk AI systems be able to explain decisions, produce audit records, and allow appeals â€” which is functionally what good context architecture enables and what non-deterministic RAG pipelines cannot reliably provide. The NAIC Model Bulletin establishes the organizational accountability structure (written program, senior management ownership, vendor oversight) that must exist before context pipeline discipline becomes enforceable. NIST AI-RMF provides the governance vocabulary that many state regulators and federal agencies are using as a reference.
 
@@ -749,34 +775,34 @@ The legal landscape is varied, changing fast, and directionally consistent: acco
 
 ## Sources
 
-| Source | Author/Organization | URL | Type | Date | Label |
-|---|---|---|---|---|---|
-| Effective Context Engineering for AI Agents | Anthropic | https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents | Engineering blog (official) | 2025 | Confirmed |
-| Practices for Governing Agentic AI Systems | OpenAI (Shavit, Agarwal et al.) | https://openai.com/index/practices-for-governing-agentic-ai-systems/ | Policy paper (official) | 2024 | Confirmed (secondary access) |
-| Lost in the Middle: How Language Models Use Long Contexts | Liu et al. (Stanford/TACL) | https://arxiv.org/abs/2307.03172 | Peer-reviewed (TACL 2024) | 2023/2024 | Confirmed |
-| Context Length Alone Hurts LLM Performance Despite Perfect Retrieval | Authors unnamed in fetch | https://arxiv.org/html/2510.05381v1 | Peer-reviewed (EMNLP 2025 Findings) | 2025 | Confirmed |
-| LLM Wiki GitHub Gist | Andrej Karpathy | https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f | Practitioner writeup (informal) | 2026 | Plausible |
-| Karpathy VentureBeat coverage | Carl Franzen, VentureBeat | https://venturebeat.com/data/karpathy-shares-llm-knowledge-base-architecture-that-bypasses-rag-with-an | Tech journalism | April 3, 2026 | Plausible |
-| Pinecone Nexus VentureBeat | Sean Michael Kerner, VentureBeat | https://venturebeat.com/data/the-rag-era-is-ending-for-agentic-ai-a-new-compilation-stage-knowledge-layer-is-what-comes-next | Tech journalism | May 4, 2026 | Plausible (vendor claims flagged) |
-| Agentic Reasoning in Practice (Databricks) | Databricks | https://www.databricks.com/blog/agentic-reasoning-practice-making-sense-structured-and-unstructured-data | Company research blog | 2026 | Plausible |
-| Context Rot research | Hong, Troynikov, Huber (Chroma) | https://www.trychroma.com/research/context-rot | Company research (open methodology) | July 14, 2025 | Plausible-to-confirmed |
-| Cigna PXDX coverage | ProPublica; class action filings | https://www.benefitspro.com/2024/03/13/cigna-class-action-algorithm-allegedly-auto-denies-300000-claims-412-163851/ | Investigative journalism + court filings | 2023-2025 | Confirmed (facts); Plausible (reversal rate) |
-| Lokken v. UnitedHealth Group | Court filings; STAT News | https://litigationtracker.law.georgetown.edu/litigation/estate-of-gene-b-lokken-the-et-al-v-unitedhealth-group-inc-et-al/ | Court records + journalism | 2023-2026 | Confirmed (proceedings); Plausible (90% error rate) |
-| California SB1120 | California Legislature | not found | Enacted legislation | Sept 2024 (eff. Jan 2025) | Confirmed |
-| Mobley v. Workday | N.D. Cal.; Fisher Phillips | https://www.fisherphillips.com/en/insights/insights/discrimination-lawsuit-over-workdays-ai-hiring-tools-can-proceed-as-class-action-6-things | Court records | 2024-2025 | Confirmed |
-| Databricks VentureBeat coverage | VentureBeat | https://venturebeat.com/data/databricks-research-shows-multi-step-agents-consistently-outperform-single | Tech journalism | 2026 | Plausible |
-| NIST AI Risk Management Framework (AI RMF 1.0) | NIST | https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf | Voluntary federal framework | Jan 2023 | Confirmed |
-| NAIC Model Bulletin on Use of AI Systems by Insurers | NAIC | https://content.naic.org/sites/default/files/inline-files/2023-12-4%20Model%20Bulletin_Adopted_0.pdf | Regulatory guidance (24 states + DC) | Dec 2023; enforcement pilot Janâ€“Sept 2026 | Confirmed |
-| Colorado SB 24-205 â€” Consumer Protections for AI Act | Colorado Legislature | https://leg.colorado.gov/bills/sb24-205 | State law | Signed May 2024; effective Feb 1, 2026 | Confirmed |
-| Connecticut SB 2 â€” Act Concerning Artificial Intelligence | Connecticut Legislature | https://www.cga.ct.gov/2025/TOB/S/PDF/2025SB-00002-R04-SB.PDF | State law | Effective July 1, 2025 | Confirmed |
-| EU Artificial Intelligence Act | European Union | https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai | EU regulation | In force Aug 2024; full Aug 2026 | Confirmed |
+| Source                                                               | Author/Organization              | URL                                                                                                                                           | Type                                     | Date                                        | Label                                               |
+| -------------------------------------------------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- | ------------------------------------------- | --------------------------------------------------- |
+| Effective Context Engineering for AI Agents                          | Anthropic                        | https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents                                                             | Engineering blog (official)              | 2025                                        | Confirmed                                           |
+| Practices for Governing Agentic AI Systems                           | OpenAI (Shavit, Agarwal et al.)  | https://openai.com/index/practices-for-governing-agentic-ai-systems/                                                                          | Policy paper (official)                  | 2024                                        | Confirmed (secondary access)                        |
+| Lost in the Middle: How Language Models Use Long Contexts            | Liu et al. (Stanford/TACL)       | https://arxiv.org/abs/2307.03172                                                                                                              | Peer-reviewed (TACL 2024)                | 2023/2024                                   | Confirmed                                           |
+| Context Length Alone Hurts LLM Performance Despite Perfect Retrieval | Authors unnamed in fetch         | https://arxiv.org/html/2510.05381v1                                                                                                           | Peer-reviewed (EMNLP 2025 Findings)      | 2025                                        | Confirmed                                           |
+| LLM Wiki GitHub Gist                                                 | Andrej Karpathy                  | https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f                                                                             | Practitioner writeup (informal)          | 2026                                        | Plausible                                           |
+| Karpathy VentureBeat coverage                                        | Carl Franzen, VentureBeat        | https://venturebeat.com/data/karpathy-shares-llm-knowledge-base-architecture-that-bypasses-rag-with-an                                        | Tech journalism                          | April 3, 2026                               | Plausible                                           |
+| Pinecone Nexus VentureBeat                                           | Sean Michael Kerner, VentureBeat | https://venturebeat.com/data/the-rag-era-is-ending-for-agentic-ai-a-new-compilation-stage-knowledge-layer-is-what-comes-next                  | Tech journalism                          | May 4, 2026                                 | Plausible (vendor claims flagged)                   |
+| Agentic Reasoning in Practice (Databricks)                           | Databricks                       | https://www.databricks.com/blog/agentic-reasoning-practice-making-sense-structured-and-unstructured-data                                      | Company research blog                    | 2026                                        | Plausible                                           |
+| Context Rot research                                                 | Hong, Troynikov, Huber (Chroma)  | https://www.trychroma.com/research/context-rot                                                                                                | Company research (open methodology)      | July 14, 2025                               | Plausible-to-confirmed                              |
+| Cigna PXDX coverage                                                  | ProPublica; class action filings | https://www.benefitspro.com/2024/03/13/cigna-class-action-algorithm-allegedly-auto-denies-300000-claims-412-163851/                           | Investigative journalism + court filings | 2023-2025                                   | Confirmed (facts); Plausible (reversal rate)        |
+| Lokken v. UnitedHealth Group                                         | Court filings; STAT News         | https://litigationtracker.law.georgetown.edu/litigation/estate-of-gene-b-lokken-the-et-al-v-unitedhealth-group-inc-et-al/                     | Court records + journalism               | 2023-2026                                   | Confirmed (proceedings); Plausible (90% error rate) |
+| California SB1120                                                    | California Legislature           | not found                                                                                                                                     | Enacted legislation                      | Sept 2024 (eff. Jan 2025)                   | Confirmed                                           |
+| Mobley v. Workday                                                    | N.D. Cal.; Fisher Phillips       | https://www.fisherphillips.com/en/insights/insights/discrimination-lawsuit-over-workdays-ai-hiring-tools-can-proceed-as-class-action-6-things | Court records                            | 2024-2025                                   | Confirmed                                           |
+| Databricks VentureBeat coverage                                      | VentureBeat                      | https://venturebeat.com/data/databricks-research-shows-multi-step-agents-consistently-outperform-single                                       | Tech journalism                          | 2026                                        | Plausible                                           |
+| NIST AI Risk Management Framework (AI RMF 1.0)                       | NIST                             | https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf                                                                                        | Voluntary federal framework              | Jan 2023                                    | Confirmed                                           |
+| NAIC Model Bulletin on Use of AI Systems by Insurers                 | NAIC                             | https://content.naic.org/sites/default/files/inline-files/2023-12-4%20Model%20Bulletin_Adopted_0.pdf                                          | Regulatory guidance (24 states + DC)     | Dec 2023; enforcement pilot Janâ€“Sept 2026 | Confirmed                                           |
+| Colorado SB 24-205 â€” Consumer Protections for AI Act               | Colorado Legislature             | https://leg.colorado.gov/bills/sb24-205                                                                                                       | State law                                | Signed May 2024; effective Feb 1, 2026      | Confirmed                                           |
+| Connecticut SB 2 â€” Act Concerning Artificial Intelligence          | Connecticut Legislature          | https://www.cga.ct.gov/2025/TOB/S/PDF/2025SB-00002-R04-SB.PDF                                                                                 | State law                                | Effective July 1, 2025                      | Confirmed                                           |
+| EU Artificial Intelligence Act                                       | European Union                   | https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai                                                                     | EU regulation                            | In force Aug 2024; full Aug 2026            | Confirmed                                           |
 
 ---
 
 ## 8. Cross-Reference: Approval Theater and the Human Oversight Failure
 
 > **Source file:** `docs/07-notes/research/ai-impact/_research-ai-claims-eligibility.md`
-> **Why it belongs here:** The blog argues that opaque context pipelines create an accountability problem. This cross-reference adds the next layer: even when human review is *legally required*, it often cannot function as a real check when the reviewer has no access to what the system saw. Opaque context architecture doesn't just harm claimants directly â€” it degrades the human oversight that law and policy mandate.
+> **Why it belongs here:** The blog argues that opaque context pipelines create an accountability problem. This cross-reference adds the next layer: even when human review is _legally required_, it often cannot function as a real check when the reviewer has no access to what the system saw. Opaque context architecture doesn't just harm claimants directly â€” it degrades the human oversight that law and policy mandate.
 
 ---
 
@@ -792,6 +818,7 @@ Four conditions that produce rubber-stamp review:
 4. **Automation bias** â€” reviewers express high confidence in AI output despite being unable to identify its errors
 
 Current evidence state (from claims/eligibility research):
+
 - Time per case: **confirmed** â€” Cigna PxDx at 1.2 seconds/claim
 - Throughput incentives: **confirmed** â€” Cigna physician scorecards; CVS Post-Acute Analytics savings projection revised from $10-15M to $77.3M within months of rollout
 - Automation bias: **confirmed** â€” Stanford/Health Affairs 2025 study (CE-008 below)
@@ -803,9 +830,10 @@ Current evidence state (from claims/eligibility research):
 
 ### Ben Green (2022) â€” Human-in-the-Loop Does Not Equal Human-in-Command (CE-007)
 
-**Source:** Ben Green, "The Flaws of Policies Requiring Human Oversight of Government Algorithms," *Computer Law & Security Review*, 2022. Survey of 41 government algorithm oversight policies. Privacy Papers for Policymakers Award (2022). Peer-reviewed.
+**Source:** Ben Green, "The Flaws of Policies Requiring Human Oversight of Government Algorithms," _Computer Law & Security Review_, 2022. Survey of 41 government algorithm oversight policies. Privacy Papers for Policymakers Award (2022). Peer-reviewed.
 
 **What it says:** Human oversight policies for government algorithms are systematically flawed in two ways:
+
 1. People cannot perform the oversight function as intended
 2. The policies legitimize faulty algorithms without fixing them â€” the appearance of accountability substitutes for the substance
 
@@ -823,9 +851,10 @@ Current evidence state (from claims/eligibility research):
 
 ### Stanford/Health Affairs Automation Bias Study (CE-008)
 
-**Source:** Michelle Mello and Stanford colleagues, "The AI Arms Race In Health Insurance Utilization Review: Promises Of Efficiency And Risks Of Supercharged Flaws," *Health Affairs*, 2025; Stanford Report, January 2026. Peer-reviewed.
+**Source:** Michelle Mello and Stanford colleagues, "The AI Arms Race In Health Insurance Utilization Review: Promises Of Efficiency And Risks Of Supercharged Flaws," _Health Affairs_, 2025; Stanford Report, January 2026. Peer-reviewed.
 
 **What it says:**
+
 - Claims reviewers at insurance companies often could not explain how AI tools work
 - Reviewers did not know AI could be biased
 - Reviewers could not identify failure modes
@@ -843,9 +872,10 @@ This is the empirical confirmation of Prediction 2 in the high-stakes insurance 
 
 ### Michigan MiDAS â€” Government Benefits Canonical Case (CE-016)
 
-**Source:** *Bauserman v. Unemployment Insurance Agency* (Michigan Supreme Court, 2019; settlement, 2022); Michigan Auditor General report; IEEE Spectrum; The Markup ("The Seven-Year Struggle to Hold an Out-of-Control Algorithm to Account"). Settlement: $20 million (October 2022).
+**Source:** _Bauserman v. Unemployment Insurance Agency_ (Michigan Supreme Court, 2019; settlement, 2022); Michigan Auditor General report; IEEE Spectrum; The Markup ("The Seven-Year Struggle to Hold an Out-of-Control Algorithm to Account"). Settlement: $20 million (October 2022).
 
 **What it says:**
+
 - MiDAS (Michigan Integrated Data Automated System) made **40,195 automated fraud determinations** from October 2013 to September 2015
 - The Michigan Auditor General found **93% of those determinations did not involve fraud**
 - Workers faced wage garnishments, some filed for bankruptcy
@@ -865,6 +895,7 @@ This is the empirical confirmation of Prediction 2 in the high-stakes insurance 
 **Pattern definition:** Low appeal rate + high overturn rate. The gap between those two numbers represents denials that were wrong but never corrected.
 
 **Strongest empirical anchor:**
+
 - Medicare Advantage, 2024 (KFF): **11.5% appeal rate; 80.7% overturn rate** (53 million prior authorization determinations)
 - HHS OIG 2022: **9.9% appeal rate**; earlier OIG finding: 75% of MA prior auth denials appealed between 2014-2016 were overturned
 - This is the strongest empirical pattern in the claims/eligibility research file â€” confirmed across multiple independent government sources
@@ -886,6 +917,7 @@ The blog's accountability argument has two layers:
 **The combined argument:** Prompting is the UI. Context is the architecture. And when the architecture is opaque, the human in the loop becomes part of the theater â€” present, authorized, and unable to act.
 
 **Cross-file citations:**
+
 - CE-001: Cigna PxDx 1.2 seconds/claim (also in Section 1 of this file)
 - CE-003: MA appeal rate / overturn rate (KFF 2025)
 - CE-007: Ben Green, "Flaws of Policies Requiring Human Oversight of Government Algorithms" (2022)

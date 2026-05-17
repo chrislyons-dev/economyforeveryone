@@ -19,7 +19,7 @@ audience:
 receipts: []
 ---
 
-Most of us picture AI as a box where someone types a question and gets an answer. That’s the part we can see. When AI is used to evaluate an insurance claim, score a job application, or check benefits eligibility, the important choices usually happened earlier: what the system was allowed to know, which records it pulled in, which rules it trusted, what it ignored, and whether it kept a trail. 
+Most of us picture AI as a box where someone types a question and gets an answer. That’s the part we can see. When AI is used to evaluate an insurance claim, score a job application, or check benefits eligibility, the important choices usually happened earlier: what the system was allowed to know, which records it pulled in, which rules it trusted, what it ignored, and whether it kept a trail.
 
 The interface might be a chatbot, a worker clicking through a portal, or nothing at all - the affected person never touches the system and just receives a result. Either way, the pattern is the same: you see the answer. The institution controls what the system saw.
 

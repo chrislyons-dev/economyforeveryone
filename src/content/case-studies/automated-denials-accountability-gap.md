@@ -1,13 +1,13 @@
 ﻿---
 title: 'Automated Denials and the Accountability Gap'
 bucket: 'failure'
-corePattern: "Opaque automated decision systems making consequential determinations on healthcare and benefits can move the decision record out of reach, leaving people with formal appeal rights but no usable way to contest the result."
+corePattern: 'Opaque automated decision systems making consequential determinations on healthcare and benefits can move the decision record out of reach, leaving people with formal appeal rights but no usable way to contest the result.'
 studyDate: 2026-05-19
 eventWindowStart: 2013-10-01
 eventWindowEnd: 2026-05-17
 status: 'published'
-summary: "Automated denial systems in health insurance and public benefits show how institutional speed, opaque decision records, and thin appeal paths can turn formal rights into practical dead ends."
-claim: "A consequential automated decision system that cannot produce a person-accessible record of the inputs, criteria, and rules behind a determination cannot support meaningful appeal or human review."
+summary: 'Automated denial systems in health insurance and public benefits show how institutional speed, opaque decision records, and thin appeal paths can turn formal rights into practical dead ends.'
+claim: 'A consequential automated decision system that cannot produce a person-accessible record of the inputs, criteria, and rules behind a determination cannot support meaningful appeal or human review.'
 evidenceLevel: 'medium'
 policyDomain:
   - 'healthcare'
@@ -28,6 +28,7 @@ receiptTags:
   - 'independent-analysis'
 sources: []
 ---
+
 # Automated Denials and the Accountability Gap
 
 > **Bucket:** failure
@@ -139,13 +140,13 @@ The two numbers are separate claims, not factors in a single equation. An 80.7% 
 
 ## Guardrails - and how each one failed
 
-| Guardrail | What should have happened | What actually happened |
-|---|---|---|
-| **Individual review** | Each claim assessed against individual patient record | Batch processing at 1.2 seconds per case; no individual record review (confirmed - Cigna) |
-| **Audit trail** | System produces a decision-specific record accessible to the affected person | No person-accessible record of which inputs, criteria, or rules drove the specific decision; UnitedHealth had to be compelled by court order to disclose algorithm documents (March 2026) |
-| **Human override** | Reviewer with clinical file, time, and authority evaluates flagged decisions | Reviewers worked from algorithm output without access to model inputs; throughput incentives penalized slowing down |
-| **Appeal access** | Claimants can contest with sufficient time and information | 10-day windows and no individual decision record provided to the claimant (MiDAS); no accessible record of which inputs drove the decision (Cigna, UnitedHealth); most people didn't appeal |
-| **Regulatory disclosure** | Insurer discloses algorithmic criteria governing coverage decisions | Criteria databases are proprietary; patients and physicians couldn't access the standards the system applied |
+| Guardrail                 | What should have happened                                                    | What actually happened                                                                                                                                                                      |
+| ------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Individual review**     | Each claim assessed against individual patient record                        | Batch processing at 1.2 seconds per case; no individual record review (confirmed - Cigna)                                                                                                   |
+| **Audit trail**           | System produces a decision-specific record accessible to the affected person | No person-accessible record of which inputs, criteria, or rules drove the specific decision; UnitedHealth had to be compelled by court order to disclose algorithm documents (March 2026)   |
+| **Human override**        | Reviewer with clinical file, time, and authority evaluates flagged decisions | Reviewers worked from algorithm output without access to model inputs; throughput incentives penalized slowing down                                                                         |
+| **Appeal access**         | Claimants can contest with sufficient time and information                   | 10-day windows and no individual decision record provided to the claimant (MiDAS); no accessible record of which inputs drove the decision (Cigna, UnitedHealth); most people didn't appeal |
+| **Regulatory disclosure** | Insurer discloses algorithmic criteria governing coverage decisions          | Criteria databases are proprietary; patients and physicians couldn't access the standards the system applied                                                                                |
 
 ---
 
@@ -200,7 +201,7 @@ The positive model is a compiled, traceable context architecture. Andrej Karpath
 
 **Connection to the three cases.** The UnitedHealth court order in March 2026, compelling production of algorithm documents and internal communications, is a judge demanding what should have existed by design. Cigna's criteria database, used to determine medical necessity, wasn't accessible to patients or physicians contesting a denial. MiDAS claimants were given 10 days to challenge a fraud determination without access to the criteria the system applied.
 
-*[SCOPE NOTE: The connection between context architecture failure and specific harm in these cases is structural, not causally documented. The research record does not establish that Cigna's denials resulted from context length degradation or that UnitedHealth's errors came from poor source ranking. The argument is that these systems produced opaque outputs, and the architectural standard they failed is traceable, auditable context. See Gap 1 in the research file.]*
+_[SCOPE NOTE: The connection between context architecture failure and specific harm in these cases is structural, not causally documented. The research record does not establish that Cigna's denials resulted from context length degradation or that UnitedHealth's errors came from poor source ranking. The argument is that these systems produced opaque outputs, and the architectural standard they failed is traceable, auditable context. See Gap 1 in the research file.]_
 
 ---
 
@@ -362,7 +363,7 @@ When 80.7% of challenged denials are overturned but only 11.5% of denials get ch
 
 ---
 
-*[RESEARCH GAP: The specific financial harm to individual Cigna claimants is not yet in the public record; discovery is ongoing. The full scope of the nH Predict deployment - total patients affected, total denials attributed to the algorithm - is also in discovery and not publicly established. The mechanism by which nH Predict incorporated or failed to incorporate individual patient context is alleged but not yet adjudicated.]*
+_[RESEARCH GAP: The specific financial harm to individual Cigna claimants is not yet in the public record; discovery is ongoing. The full scope of the nH Predict deployment - total patients affected, total denials attributed to the algorithm - is also in discovery and not publicly established. The mechanism by which nH Predict incorporated or failed to incorporate individual patient context is alleged but not yet adjudicated.]_
 
 ---
 
@@ -372,23 +373,23 @@ Evidence is labeled inline throughout this case study. This table is a reference
 
 [Full Research Document](../../07-notes/research/ai-impact/_research-prompting-ui-context-architecture.md)
 
-| ID | Claim | Strength | Source |
-|---|---|---|---|
-| AD-001 | Cigna PxDx denied ~300,000 claims over two months in 2022; 1.2 seconds average review time | Confirmed | ProPublica investigation; Cigna-provided data |
-| AD-002 | Cigna PxDx class action certified March 2025 | Confirmed | Court records, E.D. Cal. |
-| AD-003 | 80% reversal rate on Cigna PxDx appeals | Lawsuit allegation - not a court finding | Cigna PxDx class action complaint |
-| AD-004 | UnitedHealth nH Predict trained on 6 million patient records; used for Medicare Advantage post-acute care decisions | Confirmed | Lokken v. UnitedHealth Group; STAT News "Denied by AI" series |
-| AD-005 | Patients won 90%+ of nH Predict appeals | Lawsuit allegation - not a court finding | Lokken v. UnitedHealth Group |
-| AD-006 | Court ordered UnitedHealth to disclose algorithm documents and internal communications | Confirmed | Court order, Lokken v. UnitedHealth Group, March 2026 |
-| AD-007 | Michigan MiDAS issued 40,195 automated fraud determinations, October 2013 - September 2015 | Confirmed | Michigan Auditor General report |
-| AD-008 | 93% of MiDAS fraud determinations did not involve fraud | Confirmed | Michigan Auditor General |
-| AD-009 | Michigan MiDAS settlement: $20 million, October 2022 | Confirmed | Bauserman v. Unemployment Insurance Agency |
-| AD-010 | 11.5% appeal rate for Medicare Advantage prior authorization; 80.7% of those appeals overturned | Confirmed | KFF analysis of 53 million MA prior authorization determinations, 2024 |
-| AD-011 | 75% of MA prior authorization denials appealed 2014-2016 were overturned | Confirmed | HHS Office of Inspector General |
-| AD-012 | Claims reviewers at major insurers couldn't explain AI tools, didn't know AI could be biased, expressed high confidence | Confirmed | Stanford and Health Affairs study, 2025 |
-| AD-013 | Model performance degrades 13.9-85% as input length increases even when the system has the correct information | Confirmed - peer reviewed | EMNLP Findings, 2025 |
-| AD-014 | 18 frontier models (including Claude Opus 4 and GPT-4.1) show consistent degradation; open methodology | Confirmed - open methodology, not peer reviewed | Chroma engineering study, July 2025 |
-| AD-015 | 41 government algorithm oversight policies: reviewers often can't perform the assigned function; oversight layers legitimize faulty systems | Confirmed - peer reviewed | Ben Green, Computer Law & Security Review, 2022 |
-| AD-016 | Non-deterministic pipelines return different answers for the same inputs with no record of which sources drove either result | Confirmed | VentureBeat report on Pinecone Nexus launch |
+| ID     | Claim                                                                                                                                       | Strength                                        | Source                                                                 |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------------- |
+| AD-001 | Cigna PxDx denied ~300,000 claims over two months in 2022; 1.2 seconds average review time                                                  | Confirmed                                       | ProPublica investigation; Cigna-provided data                          |
+| AD-002 | Cigna PxDx class action certified March 2025                                                                                                | Confirmed                                       | Court records, E.D. Cal.                                               |
+| AD-003 | 80% reversal rate on Cigna PxDx appeals                                                                                                     | Lawsuit allegation - not a court finding        | Cigna PxDx class action complaint                                      |
+| AD-004 | UnitedHealth nH Predict trained on 6 million patient records; used for Medicare Advantage post-acute care decisions                         | Confirmed                                       | Lokken v. UnitedHealth Group; STAT News "Denied by AI" series          |
+| AD-005 | Patients won 90%+ of nH Predict appeals                                                                                                     | Lawsuit allegation - not a court finding        | Lokken v. UnitedHealth Group                                           |
+| AD-006 | Court ordered UnitedHealth to disclose algorithm documents and internal communications                                                      | Confirmed                                       | Court order, Lokken v. UnitedHealth Group, March 2026                  |
+| AD-007 | Michigan MiDAS issued 40,195 automated fraud determinations, October 2013 - September 2015                                                  | Confirmed                                       | Michigan Auditor General report                                        |
+| AD-008 | 93% of MiDAS fraud determinations did not involve fraud                                                                                     | Confirmed                                       | Michigan Auditor General                                               |
+| AD-009 | Michigan MiDAS settlement: $20 million, October 2022                                                                                        | Confirmed                                       | Bauserman v. Unemployment Insurance Agency                             |
+| AD-010 | 11.5% appeal rate for Medicare Advantage prior authorization; 80.7% of those appeals overturned                                             | Confirmed                                       | KFF analysis of 53 million MA prior authorization determinations, 2024 |
+| AD-011 | 75% of MA prior authorization denials appealed 2014-2016 were overturned                                                                    | Confirmed                                       | HHS Office of Inspector General                                        |
+| AD-012 | Claims reviewers at major insurers couldn't explain AI tools, didn't know AI could be biased, expressed high confidence                     | Confirmed                                       | Stanford and Health Affairs study, 2025                                |
+| AD-013 | Model performance degrades 13.9-85% as input length increases even when the system has the correct information                              | Confirmed - peer reviewed                       | EMNLP Findings, 2025                                                   |
+| AD-014 | 18 frontier models (including Claude Opus 4 and GPT-4.1) show consistent degradation; open methodology                                      | Confirmed - open methodology, not peer reviewed | Chroma engineering study, July 2025                                    |
+| AD-015 | 41 government algorithm oversight policies: reviewers often can't perform the assigned function; oversight layers legitimize faulty systems | Confirmed - peer reviewed                       | Ben Green, Computer Law & Security Review, 2022                        |
+| AD-016 | Non-deterministic pipelines return different answers for the same inputs with no record of which sources drove either result                | Confirmed                                       | VentureBeat report on Pinecone Nexus launch                            |
 
 **Strength rubric:** Confirmed = primary source, court record, or peer-reviewed finding | Lawsuit allegation - not a court finding = alleged in complaint; no court determination | Confirmed - peer reviewed = published in peer-reviewed venue | Confirmed - open methodology, not peer reviewed = methodology disclosed and replicable, not peer reviewed
