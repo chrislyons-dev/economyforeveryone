@@ -5,7 +5,8 @@ typeId: 'independent-analysis'
 status: 'published'
 linkedCaseSlugs:
   - 'schools-ai-education'
-linkedPostSlugs: []
+linkedPostSlugs:
+  - '2026-05-07-what-schools-should-teach'
 tags:
   - 'ai'
   - 'schools'
@@ -23,3 +24,4 @@ sources:
   - title: 'Schools Are Banning AI. Students Are Using It Anyway.'
     url: 'https://psychoftech.substack.com/p/schools-are-banning-ai-students-are'
 ---
+

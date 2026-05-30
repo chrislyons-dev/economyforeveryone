@@ -42,6 +42,8 @@ AI broke that chain. Producing the output no longer requires the cognitive work.
 
 Schools responded to the output problem - bans, detection tools, honor code updates. They did not respond to the learning problem, because that requires something harder: redesigning how assessment works so that demonstrated knowledge cannot be outsourced.
 
+Education has faced this choice before. When calculators arrived in math classrooms, the stated plan was to free students from arithmetic so they could focus on analysis and reasoning. That plan was right. It was never fully implemented, because assessments didn't change. Multiple choice and scantron tests can't measure whether a student understands why an answer is correct. AI presents the same choice at a higher capability level, with the same structural resistance.
+
 The ban-only approach also failed on a structural fact: AI is on every personal phone, accessible at home and off school networks. Substack reporting on USC Understanding America Study panel data (Psychoftech, November 2025) found that students in schools with complete bans reported AI use at roughly the same rate as students in schools with no ban. This finding is directionally consistent with other usage data but is a secondary source - not independently peer-reviewed.
 
 ---
@@ -196,7 +198,7 @@ Remote proctoring services (Pearson, Proctorio, ProctorU) handle controlled-envi
 
 **The ban cycle was compliance theater, not a structural response.**
 
-NYC banned AI, declared success, and reversed within months. Other large districts moved through the same cycle. The lesson most districts drew was "integrate instead of ban." The follow-through on what integration actually requires - teacher capacity, assessment redesign, funding - has not materialized at scale.
+NYC banned AI, declared success, and reversed within months. Other large districts moved through the same cycle. The lesson most districts drew was "integrate instead of ban." The follow-through on what integration actually requires (teacher capacity, assessment redesign, funding) hasn't materialized at scale.
 
 **The Matthew Effect is running at the school level, not just the student level.**
 
@@ -230,6 +232,13 @@ Khanmigo scaled from roughly 68,000 users in 2023-24 to 700,000+ in 2024-25. Sch
 - Error-detection tasks: ask students to diagnose weak reasoning, bad evidence, or false claims, not just produce clean outputs
 - Transfer tasks: ask students to apply what they learned to a new case they have not rehearsed
 - Scheduled no-AI drills: periodically require core work to be done without AI assistance so raw skills do not atrophy
+
+**Domain note.** Most of the above formats assume writing-intensive work. Math and STEM require different verification approaches:
+- Voice baseline: establish early handwritten or controlled-condition samples of each student's work so deviations are recognizable - the method English teachers already use
+- Error analysis: give the student an AI-generated solution and ask them to identify the step where the logic fails and explain why
+- Iteration documentation: require students to show their first approach, where it broke, and what mathematical constraint they needed to apply to revise it
+- Method comparison: present two solution paths to the same problem and ask the student to evaluate which is more efficient and why
+- Constraint check: after completing a problem, ask the student to explain what property or rule makes their method valid. Getting the right answer doesn't count.
 
 None of these is a silver bullet. The common pattern is the point: preparation can be assisted; demonstration cannot. Different subjects will need different formats. The requirement is the same in all of them - measure retained understanding, not polished output.
 

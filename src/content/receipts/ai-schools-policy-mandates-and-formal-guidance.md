@@ -5,7 +5,8 @@ typeId: 'primary-documents'
 status: 'published'
 linkedCaseSlugs:
   - 'schools-ai-education'
-linkedPostSlugs: []
+linkedPostSlugs:
+  - '2026-05-07-what-schools-should-teach'
 tags:
   - 'ai'
   - 'schools'
@@ -23,3 +24,4 @@ sources:
   - title: 'Ohio AI policy requirement tracker'
     url: 'https://www.aiforeducation.io/ai-resources/state-ai-guidance'
 ---
+
