@@ -1,6 +1,6 @@
 ---
 title: 'The Pattern Underneath the AI Hype'
-description: 'Across work, content, pricing, claims, surveillance, competition, and physical infrastructure, the recurring question is whether AI is widening access or speeding up extraction.'
+description: 'Across the AI impact cases, the recurring question is whether AI widens access, strengthens accountability, or speeds up extraction.'
 pubDate: 2026-04-28
 earlyRelease: true
 status: 'published'
@@ -50,7 +50,7 @@ When those things get cheaper, the pressure shifts to whatever is still scarce:
 - If content gets cheap, trust becomes scarce.
 - If junior work gets cheap, learning becomes scarce.
 - If prediction gets cheap, appeal capacity becomes scarce.
-- If personalization gets cheap, real exit matters more.
+- If personalization gets cheap, workable exit matters more.
 - If monitoring gets cheap, rights and recourse matter more.
 
 The bottleneck moved. The power moved with it.
@@ -60,9 +60,9 @@ The bottleneck moved. The power moved with it.
 Different cases. Same fault lines:
 
 - fair entry
-- meaningful review
-- real appeal
-- real exit
+- accountable review
+- usable appeal
+- workable exit
 - who captures the gains
 - whether human oversight still means something
 
@@ -78,23 +78,23 @@ When AI shows up in a workflow, a service, a platform, a school, a claim, a pric
 4. Can the affected person understand and challenge the decision?
 5. Can they realistically leave?
 
-These questions don't solve everything. But they cut through a lot of fog and get you back into the real one:
+These questions don't solve everything. But they cut through a lot of fog and get you back to the hard one:
 
 **Who has the power here, and what keeps that power from turning abusive?**
 
 ## What the floor looks like after eight cases
 
-Each case pointed toward the same minimum floor: people should be able to find out what happened, understand the reason, inspect the relevant record, challenge the decision, and reach a human with actual authority. If exit is weak, the governance bar should rise.
+Each case pointed toward the same minimum floor: people should be able to find out what happened, understand the reason, inspect the relevant record, challenge the decision, and reach a human with authority. If exit is weak, the governance bar should rise.
 
-That gap - between what the floor should be and what people actually encounter - is the problem worth naming.
+That gap - between what the floor should be and what people encounter - is the problem worth naming.
 
 ## What to do now
 
 Pick one system you already deal with and map it against all five fault lines:
 
 1. **Entry** - can someone new still get in on reasonable terms?
-2. **Review** - is human oversight real, or is it a name on a form?
-3. **Appeal** - if something goes wrong, can the person actually fix it?
+2. **Review** - does human oversight have time, records, and authority, or is it a name on a form?
+3. **Appeal** - if something goes wrong, can the person fix it?
 4. **Exit** - can they realistically leave without losing what matters?
 5. **Gains** - who's capturing the efficiency, and is any of it flowing back?
 
@@ -102,7 +102,7 @@ Write down which ones feel thin.
 
 ## How to talk about it
 
-**The question isn't whether the tool is impressive. The question is whether the system built around it still lets normal people understand what's happening, challenge what's unfair, and keep a real way out.**
+**The question is whether the system built around the tool still lets normal people understand what's happening, challenge what's unfair, and keep a workable way out.**
 
 ## One steady action to take this week
 
@@ -110,7 +110,7 @@ Pick one system you already deal with and map it against the five fault lines: e
 
 ## Final note
 
-Are we using these tools to reduce drag, widen access, and share gains? Or are we using them to speed up extraction, hide responsibility, thin out review, and trap people in systems they can't really leave?
+Are we using these tools to reduce drag, widen access, and share gains? Or are we using them to speed up extraction, hide responsibility, thin out review, and trap people in systems they can't leave without real cost?
 
 The better destination is not mysterious. It would feel like clearer decisions, fewer hidden traps, and more room for ordinary people to push back when a system gets something important wrong. It would mean households keeping more of the gains from efficiency instead of watching them disappear into pricing power, gatekeeping, and thinner service. It would mean workers and citizens dealing with systems that still answer to them in some practical way.
 

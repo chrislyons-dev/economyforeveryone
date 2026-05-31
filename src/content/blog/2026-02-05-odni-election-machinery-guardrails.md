@@ -29,11 +29,12 @@ The risk isn't "a legal magic key." The risk is someone trying something illegal
 
 ## What's happening
 
-There are reports of ODNI being unusually close to election machinery (including a Fulton County election-facility context and a prior voting-machine investigation).
+If reporting about ODNI activity near election machinery is confirmed, including a Fulton County
+election-facility context and a prior voting-machine investigation, the question becomes chain of
+custody and limits.
 
-That does not prove a grand plot.
-
-But it can look like perimeter-testing - and that's exactly when guardrails matter most.
+That wouldn't prove a grand plot. It would be enough to treat the perimeter as tested, which is when
+guardrails matter most.
 
 ## Why it matters (plain language)
 

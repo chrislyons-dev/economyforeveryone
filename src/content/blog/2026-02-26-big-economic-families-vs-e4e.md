@@ -1,6 +1,6 @@
 ---
 title: "Big Economic Families vs E4E (and Why I'm Not Joining Anyone's Tribe)"
-description: 'A practical map of major economic families through an E4E lens: what to borrow, what to refuse, and how to stay outcome-aligned instead of identity-aligned.'
+description: 'A practical map of major economic families through an E4E lens: what helps, what fails, and what depends on context.'
 pubDate: 2026-02-26
 status: 'published'
 category: 'methods'
@@ -28,10 +28,8 @@ receipts: []
 
 ## The point of this post (and what it's not)
 
-I am not trying to be left or right. I am trying to be useful: lower the monthly squeeze, increase
-real options, and keep dignity and guardrails intact.
-
-This is not me picking a team.
+I'm trying to be useful: lower the monthly squeeze, increase usable options, and keep dignity and
+guardrails intact.
 
 It is me stepping back, looking at the big economic families people sort into, and asking:
 
@@ -40,8 +38,7 @@ It is me stepping back, looking at the big economic families people sort into, a
 Most families have a good-faith version and an ugly version. I am trying to evaluate patterns in
 practice, not reward labels.
 
-E4E is not politically aligned, group aligned, or religiously aligned. It is trying to stay human
-aligned:
+E4E isn't aligned to a party, group, or religion. It's trying to stay aligned to human outcomes:
 
 - people need stability
 - work should pay
@@ -70,9 +67,9 @@ So the job is boring and moral at the same time:
 - reduce monthly squeeze
 - block capture (rigged markets and rigged government)
 - keep democratic guardrails intact
-- keep policy simple enough to survive real life
+- keep policy simple enough to survive daily life
 
-Simplicity is not cosmetic. Complexity becomes a moat.
+Simplicity matters because complexity becomes a moat.
 
 ## What E4E borrows (and what it refuses)
 
@@ -81,7 +78,7 @@ Simplicity is not cosmetic. Complexity becomes a moat.
 What E4E takes:
 
 - suspicion of unnecessary complexity
-- preference for rules small entrants can actually navigate
+- preference for rules small entrants can navigate
 
 What E4E refuses:
 
@@ -116,7 +113,7 @@ What E4E refuses:
 
 What E4E takes:
 
-- family and place stability are real economic variables
+- family and place stability affect economic outcomes
 - institutions matter
 
 What E4E refuses:
@@ -178,7 +175,7 @@ What E4E refuses:
 When someone pitches a policy, ask:
 
 1. Does it reduce monthly squeeze?
-2. Does it increase real options?
+2. Does it increase usable options?
 3. Does it build capacity without capture?
 4. Does it protect dignity and avoid scapegoating?
 
@@ -195,9 +192,7 @@ Now it feels more like building a toolkit:
 - a tape measure for outcomes
 - and a hard refusal to blame the nearest person for structural failures
 
-E4E is not a tribe.
-
-It is an attempt to be useful.
+E4E is an attempt to be useful, not a tribe.
 
 ## Appendix: Comparison Grid
 

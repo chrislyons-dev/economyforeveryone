@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Automated Denials and the Accountability Gap'
 bucket: 'failure'
 corePattern: 'Opaque automated decision systems making consequential determinations on healthcare and benefits can move the decision record out of reach, leaving people with formal appeal rights but no usable way to contest the result.'
@@ -27,45 +27,6 @@ receiptTags:
   - 'court-records'
   - 'independent-analysis'
 sources: []
----
-
-# Automated Denials and the Accountability Gap
-
-> **Bucket:** failure
-> **Type:** policy / platform / multi-domain
-> **Core pattern:** Opaque automated decision systems making consequential determinations on healthcare and benefits, with no audit trail and no functional appeal path - producing systematic harm that human review cannot correct because reviewers can't see what the system saw.
-
----
-
-- [Automated Denials and the Accountability Gap](#automated-denials-and-the-accountability-gap)
-  - [What they did](#what-they-did)
-  - [Why it didn't work](#why-it-didnt-work)
-  - [Mechanism evidence](#mechanism-evidence)
-    - [Cigna PxDx](#cigna-pxdx)
-    - [UnitedHealth nH Predict](#unitedhealth-nh-predict)
-    - [Michigan MiDAS](#michigan-midas)
-    - [The denial-by-friction signature](#the-denial-by-friction-signature)
-  - [Guardrails - and how each one failed](#guardrails---and-how-each-one-failed)
-  - [Where it broke](#where-it-broke)
-  - [The approval theater problem](#the-approval-theater-problem)
-  - [What the architecture needs to produce](#what-the-architecture-needs-to-produce)
-  - [Policy environment](#policy-environment)
-  - [Market verdict](#market-verdict)
-  - [What good looks like](#what-good-looks-like)
-    - [At the architecture level](#at-the-architecture-level)
-    - [For the affected person](#for-the-affected-person)
-    - [At the institutional level](#at-the-institutional-level)
-    - [At the policy level](#at-the-policy-level)
-  - [What to do](#what-to-do)
-  - [How to talk about it](#how-to-talk-about-it)
-  - [Loop Effect](#loop-effect)
-    - [Effect on the bad loop](#effect-on-the-bad-loop)
-    - [Effect on the good loop](#effect-on-the-good-loop)
-    - [Case verdict](#case-verdict)
-    - [One steady action](#one-steady-action)
-  - [North Star verdict](#north-star-verdict)
-  - [Receipts appendix](#receipts-appendix)
-
 ---
 
 ## What they did
@@ -209,15 +170,31 @@ _[SCOPE NOTE: The connection between context architecture failure and specific h
 
 **California SB1120** (effective January 1, 2025): Requires insurers to have a qualified human review AI-generated medical necessity decisions. Arizona, Maryland, Nebraska, and Texas have separately banned AI as the sole decisionmaker in prior authorization or medical necessity denials. (Confirmed - enacted legislation.)
 
-**Colorado SB 24-205** (signed; implementation delayed to June 30, 2026): The first comprehensive U.S. state AI law. Requires notice before a high-risk AI system is used for a consequential decision, a written explanation of how the system reached its conclusion including the personal data used, and a right to correction and appeal. Annual discrimination reviews required. (Confirmed - signed law; implementation deadline extended from the original February 2026 date.)
+**Colorado SB 26-189** (signed May 14, 2026; effective January 1, 2027): Repealed and replaced SB 24-205, which never took effect. Covers consequential decisions including insurance (underwriting, pricing, coverage, claims adjudication), healthcare, housing, employment, lending, and government benefits. Requires a plain-language explanation of any AI system's role within 30 days of an adverse consequential decision, a right to correct factually incorrect data, and a right to meaningful human review - defined as a reviewer with authority to override, trained, who does not default to the system's output. Minimum 3-year recordkeeping. Note for insurance cases: state-regulated insurers have a safe harbor if they comply with existing sector-specific notice and disclosure requirements; whether those existing requirements satisfy the audit-record standard SB 26-189 describes is not confirmed. (Confirmed - Colorado General Assembly; multiple law firm analyses, May 2026.)
 
-**Connecticut SB 2** (introduced 2025; not enacted): Would have imposed a duty of reasonable care on developers and deployers of high-risk AI with notice, explanation, and appeal rights for adverse decisions. Did not pass as of May 2026.
+**Connecticut SB 2** (introduced 2025; not enacted): Would have imposed a duty of reasonable care on developers and deployers of high-risk AI with notice, explanation, and appeal rights for adverse decisions. Passed the Senate 50-0 in May 2025; the House did not vote. Died at the end of the 2025 legislative session.
 
-**NAIC Model Bulletin on AI Systems** (adopted December 2023; enforcement pilot January - September 2026 in 12 participating states; adopted by at least 24 states and the District of Columbia as of March 2026): Requires insurers to maintain a written AI governance program with senior management accountability and vendor oversight, scaled to degree of potential harm to consumers. (Confirmed - official NAIC adoption.)
+**Connecticut SB 5 / Public Act 26-15** (signed May 11, 2026; primary provisions effective October 1, 2026): The enacted Connecticut AI law. Covers automated employment-related decision technology (AEDT) - systems that are a "substantial factor" in hiring, promotion, discipline, or discharge. Requires disclosure of AEDT use and purpose, a written explanation of adverse employment decisions, and the right to examine and correct data used. Establishes that AI is not a liability shield: an employer cannot attribute discriminatory outcomes to the system. Scope note: SB 5 is employment-scoped. Coverage of insurance denials, healthcare benefits, or consequential decisions outside employment is not confirmed in sources reviewed. (Confirmed - Connecticut General Assembly; multiple law firm analyses, May 2026.)
+
+**NAIC Model Bulletin on AI Systems** (adopted December 2023; over half of states adopted as of December 2025): Requires insurers to maintain a written AI governance program with senior management accountability and vendor oversight, scaled to degree of potential harm to consumers. (Confirmed - official NAIC adoption.)
+
+The NAIC launched an AI Systems Evaluation Tool in a 12-state pilot on March 2, 2026. Participating states: California, Colorado, Connecticut, Florida, Iowa, Louisiana, Maryland, Pennsylvania, Rhode Island, Vermont, Virginia, and Wisconsin. Regulators have opened the first known examination of an insurer's AI behind total-loss decisions and claims payouts under the pilot framework (auto insurance context; health insurer examinations not yet reported under the pilot). An NAIC survey found 88% of auto insurers currently use or plan to use AI to evaluate claims. Pilot results are not yet public; the pilot runs through September 2026. Formal adoption is expected at the NAIC Fall National Meeting in November 2026. (Confirmed - Autobody News, April 2026; Fenwick, April 2026.)
+
+A new NAIC Third-Party Data and Models (TPDM) Working Group is developing a vendor registry that would extend accountability directly to vendors who build AI pipelines for insurers - closing a gap the current bulletin leaves open, since the bulletin holds insurers accountable for vendor AI but doesn't let regulators examine vendors directly. Current scope is narrowed to pricing and underwriting; claims adjudication is not in the initial scope. A model law is anticipated for 2026, with first state implementations expected in late 2026 or early 2027. (Confirmed for scope and registry approach - Mondaq, March 2026; timeline is plausible, not confirmed.)
+
+**NIST AI Risk Management Framework (AI RMF 1.0)** (voluntary, January 2023; companion publications through 2026): Not law. The primary U.S. governance baseline for responsible AI, referenced by federal agencies, state regulators, and insurance examiners.
+
+Two sub-practices are the strongest framework-level statements of the accountability argument here. MEASURE 2.6 requires that AI systems produce consistent, reproducible outputs; a non-deterministic pipeline that returns different answers for the same inputs with no decision record fails this standard. MANAGE 3 requires that appeal and override mechanisms exist for AI decisions affecting individuals, with a reviewer who has the authority and context to override - not merely a reviewer who is nominally present.
+
+The framework explicitly distinguishes human-in-the-loop (procedural presence) from what Ben Green's policy analysis calls "human-in-command" (substantive oversight) - a reading grounded in NIST AI 100-1's GOVERN 1.1 and MANAGE 3 sub-practices. Those two sub-practices together require the latter. A reviewer who lacks access to the system's input context cannot exercise MANAGE 3 oversight regardless of their formal role in the process. That's the framework-level statement of the approval theater problem.
+
+Companion: NIST AI 600-1 (Generative AI Profile, July 2024) is the most relevant companion document for AI systems using LLMs in consequential decision pipelines - 13 risk categories, more than 400 suggested actions. Note: Colorado SB 26-189 dropped the explicit NIST AI RMF mandate that existed in SB 24-205; NIST alignment is no longer a statutory safe harbor under Colorado law. (Confirmed - official NIST publications.)
+
+**Treasury Financial Services AI Risk Management Framework** (released February 19, 2026; voluntary): A non-binding, sector-specific translation of NIST AI RMF principles into financial-services operational controls. 230 mapped control objectives, structured as a control matrix applicable to insurers. An insurer building a GOVERN 1.1-compliant program for claims adjudication would use these controls as the implementation layer - it's the nearest existing NIST-aligned framework designed for the financial sector, including insurance. (Confirmed - Treasury press release February 19, 2026.)
 
 **EU AI Act** (in force August 2024; key provisions for high-risk systems now targeted for December 2027, following a provisional May 2026 agreement): Requires high-risk AI systems to automatically log events over their lifetime and include mechanisms for human intervention. Traceability and conformity assessment required before deployment. (Confirmed - enacted EU regulation; December 2027 deadline reflects provisional Omnibus agreement, May 2026.)
 
-**The architectural implication:** These laws require explanation, appeal, and audit records. A system that produces no record of which inputs drove a specific decision can't comply with what Colorado SB 24-205 and the EU AI Act will require - regardless of how many humans are nominally in the loop.
+**The architectural implication:** These laws and frameworks require explanation, appeal, and audit records. A system that produces no record of which inputs drove a specific decision can't comply with what Colorado SB 26-189 and the EU AI Act will require, and fails NIST AI RMF's MANAGE 3 and MEASURE 2.6 standards - regardless of how many humans are nominally in the loop. Note: state-regulated insurers have a safe harbor under SB 26-189 if they comply with existing sector-specific disclosure requirements; whether those requirements satisfy this audit-record floor is not confirmed.
 
 ---
 
@@ -231,7 +208,7 @@ Verdict is still forming on the two active litigation cases.
 
 **Michigan MiDAS:** Settled October 2022 for $20 million. Seven years from determination to settlement. The Auditor General's 93% false positive finding is the established factual record.
 
-On the regulatory side: Colorado SB 24-205 implementation is delayed to June 30, 2026; Connecticut SB 2 did not pass. The NAIC Model Bulletin enforcement pilot (January - September 2026, twelve participating states) is the first structured examination of whether insurer AI governance programs are operating as written. Results from that pilot will be the first data point on whether the policy environment is producing compliance or a new layer of compliance theater.
+On the regulatory side: Colorado SB 24-205 was repealed and replaced by SB 26-189, signed May 14, 2026 and effective January 1, 2027. Connecticut SB 2 did not pass; Connecticut enacted SB 5 / PA 26-15 on May 11, 2026, but that law is employment-scoped and does not appear to cover insurance or benefits decisions. The NAIC Model Bulletin enforcement pilot (January - September 2026, twelve participating states) is the first structured examination of whether insurer AI governance programs are operating as written. Results from that pilot will be the first data point on whether the policy environment is producing compliance or a new layer of compliance theater.
 
 ---
 
@@ -268,10 +245,11 @@ That last point is load-bearing. MiDAS issued fraud flags with a 10-day response
 
 - audit-record production as a condition of deployment, not a reporting requirement triggered only by complaint
 - explanation and appeal rights that cover the decision record, not just notice that a decision was made
-- enforcement of what Colorado SB 24-205 and the EU AI Act require
-- third-party audit rights for AI governance programs, not only insurer self-reporting
+- enforcement of what Colorado SB 26-189 and the EU AI Act require; NIST AI RMF's MANAGE 3 and MEASURE 2.6 as the operational standard for what "meaningful review" and "consistent outputs" mean in practice
+- third-party audit rights for AI governance programs - the NAIC TPDM vendor registry is the nearest structural proposal for reaching the vendors who build the pipelines, not only the insurers who deploy them; current scope is limited to pricing and underwriting
+- insurer self-reporting paired with independent examination, not self-reporting alone; the NAIC 12-state pilot is the first test of whether written AI governance programs reflect what systems actually do
 
-The EU AI Act enforcement starting August 2026 is the first large-scale test of whether that floor will hold.
+The NAIC pilot results (expected fall 2026) and EU AI Act enforcement (key high-risk provisions targeted for December 2027) are the two nearest tests of whether the compliance floor is functional or paper-based.
 
 ---
 
@@ -280,12 +258,12 @@ The EU AI Act enforcement starting August 2026 is the first large-scale test of 
 **For institutions that deploy automated decision systems:**
 
 - Before deploying any system where a wrong answer causes financial or medical harm, document: what the system considers and where those inputs come from, what source wins when criteria conflict, what's logged, and how an affected person can challenge the result with enough information to mount a challenge. If those answers aren't documented, the system isn't ready.
-- Treat audit-record production as a design requirement. A system that can't produce source-linked decision records at the time of determination can't comply with Colorado SB 24-205 or the EU AI Act regardless of the review process above it.
+- Treat audit-record production as a design requirement. A system that can't produce source-linked decision records at the time of determination can't comply with Colorado SB 26-189 or the EU AI Act regardless of the review process above it.
 - Unlogged non-determinism is a disqualifier for consequential decisions. A pipeline that returns different results for the same inputs with no record of what drove either answer can't support an appeal process.
 
 **For people affected by these systems:**
 
-- Ask for the written explanation of any consequential decision, and note the contestation window in the same notice. Colorado SB 24-205 requires written explanation for high-risk AI decisions starting June 30, 2026. Those windows close faster than the documentation needed to mount a challenge usually arrives.
+- Ask for the written explanation of any consequential decision, and note the contestation window in the same notice. Colorado SB 26-189 requires written explanation within 30 days of an adverse consequential decision, starting January 1, 2027. Those windows close faster than the documentation needed to mount a challenge usually arrives.
 - Appeal. KFF data shows 80.7% of Medicare Advantage prior authorization appeals are overturned. Most people don't appeal. The wrong denials stand.
 
 **For policymakers:**
@@ -331,9 +309,9 @@ Better models won't fix it. More humans in the review chain won't fix it. The st
 
 - **Security:** Audit records produced at the time of decision, accessible to the affected person without a court order, would let the appeal process do the work it's supposed to do. The error rate is high when people contest - 80.7% for Medicare Advantage. The bottleneck isn't the appeal outcome. It's getting to the appeal with the information needed to mount one.
 
-- **Choice:** A person who can see what the system saw can challenge what the system got wrong. Colorado SB 24-205 is building the floor, with implementation starting June 30, 2026. Whether enforcement holds will depend on the NAIC pilot results and the first compliance actions under that law.
+- **Choice:** A person who can see what the system saw can challenge what the system got wrong. Colorado SB 26-189 is building the floor, with implementation starting January 1, 2027. Whether enforcement holds will depend on the NAIC pilot results and the first compliance actions under that law.
 
-- **Competition:** Institutions that can't produce audit records face compliance exposure under Colorado SB 24-205 (June 30, 2026) and the EU AI Act (key high-risk provisions targeted for December 2027). That creates a market incentive for architecture that produces the required records as a structural feature, not a retrofit.
+- **Competition:** Institutions that can't produce audit records face compliance exposure under Colorado SB 26-189 (January 1, 2027) and the EU AI Act (key high-risk provisions targeted for December 2027). That creates a market incentive for architecture that produces the required records as a structural feature, not a retrofit.
 
 - **Shared gains:** The efficiency gains from automated processing flow to institutions. The costs fall on the people who can't contest them. Audit architecture that gives the affected person access to the same record the institution holds shifts those terms.
 
@@ -341,7 +319,7 @@ Better models won't fix it. More humans in the review chain won't fix it. The st
 
 - **Net effect right now:** Bad loop - approval theater active, accountability arriving years late and at high cost.
 - **Why:** The efficiency gains are confirmed and the correction mechanism is functionally blocked for most people. 80.7% of challenged denials overturn; 11.5% get challenged. No institution is currently required to produce the decision record the appeal process needs to function.
-- **What would change the verdict:** Colorado SB 24-205 enforcement (starting June 30, 2026) that makes audit-record production a binding condition of deployment; NAIC Model Bulletin enforcement pilot results (2026) showing functional compliance; UnitedHealth discovery producing algorithm documents that establish what nH Predict's decision records contained; contestation windows extended and paired with a requirement that denial notices include the information needed to contest.
+- **What would change the verdict:** Colorado SB 26-189 enforcement (starting January 1, 2027) that makes audit-record production a binding condition of deployment; NAIC 12-state pilot results (expected fall 2026) showing that written AI governance programs are functioning as written, not as compliance theater (note: the first examination under the pilot covers P&C auto insurance total-loss decisions, not health insurance - health insurer examinations have not yet been reported, so the pilot's compliance signal is partial for the domain this case study documents); NAIC TPDM vendor registry extending accountability to pipeline vendors - if the registry scope expands from pricing and underwriting to claims adjudication, it would reach the naviHealth-type vendors that built the systems in this case; UnitedHealth discovery producing algorithm documents that establish what nH Predict's decision records contained; contestation windows extended and paired with a requirement that denial notices include the information needed to contest.
 
 ### One steady action
 
@@ -359,6 +337,8 @@ When 80.7% of challenged denials are overturned but only 11.5% of denials get ch
 
 **Three honest complications.** First: the three cases prove adjacent but distinct things. Cigna and UnitedHealth demonstrate the opacity-to-no-audit-trail-to-no-contestability chain: decisions made from inputs no one could inspect, producing outcomes no one could challenge without the information needed to do so. MiDAS demonstrates something different: bad rules enforced at speed with no pre-enforcement individual review produce mass harm regardless of whether an audit trail exists. Better audit logging wouldn't have prevented MiDAS's 93% false positive rate - it would have produced 40,195 auditable records of the same wrong answer. What the cases share is the absence of a correction mechanism fast enough to reach most people affected. Second: the technology varies. MiDAS was rule-based logic. PxDx was a database lookup. nH Predict was a predictive model. The failure isn't technology-specific. Third: litigation is proceeding in two of the three cases. The 80% Cigna reversal rate and the 90% UnitedHealth appeal win rate are lawsuit allegations, not court findings. The structural argument doesn't rest on them. It rests on the confirmed 80.7% MA appeal overturn rate (KFF), the confirmed 93% MiDAS false positive rate (Michigan Auditor General), and the confirmed 1.2 seconds per case (Cigna-provided data, ProPublica).
 
+The counter-case is that accountability is arriving through litigation and regulation - but the pattern this case establishes is that accountability arrives years late and at high cost, after most people affected have already absorbed the harm with no correction.
+
 **System lesson in one sentence:** A decision system that doesn't produce an auditable record of its reasoning can't be reviewed - by a court, a regulator, or the person the decision was about.
 
 ---
@@ -373,23 +353,31 @@ Evidence is labeled inline throughout this case study. This table is a reference
 
 [Full Research Document](../../07-notes/research/ai-impact/_research-prompting-ui-context-architecture.md)
 
-| ID     | Claim                                                                                                                                       | Strength                                        | Source                                                                 |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------------- |
-| AD-001 | Cigna PxDx denied ~300,000 claims over two months in 2022; 1.2 seconds average review time                                                  | Confirmed                                       | ProPublica investigation; Cigna-provided data                          |
-| AD-002 | Cigna PxDx class action certified March 2025                                                                                                | Confirmed                                       | Court records, E.D. Cal.                                               |
-| AD-003 | 80% reversal rate on Cigna PxDx appeals                                                                                                     | Lawsuit allegation - not a court finding        | Cigna PxDx class action complaint                                      |
-| AD-004 | UnitedHealth nH Predict trained on 6 million patient records; used for Medicare Advantage post-acute care decisions                         | Confirmed                                       | Lokken v. UnitedHealth Group; STAT News "Denied by AI" series          |
-| AD-005 | Patients won 90%+ of nH Predict appeals                                                                                                     | Lawsuit allegation - not a court finding        | Lokken v. UnitedHealth Group                                           |
-| AD-006 | Court ordered UnitedHealth to disclose algorithm documents and internal communications                                                      | Confirmed                                       | Court order, Lokken v. UnitedHealth Group, March 2026                  |
-| AD-007 | Michigan MiDAS issued 40,195 automated fraud determinations, October 2013 - September 2015                                                  | Confirmed                                       | Michigan Auditor General report                                        |
-| AD-008 | 93% of MiDAS fraud determinations did not involve fraud                                                                                     | Confirmed                                       | Michigan Auditor General                                               |
-| AD-009 | Michigan MiDAS settlement: $20 million, October 2022                                                                                        | Confirmed                                       | Bauserman v. Unemployment Insurance Agency                             |
-| AD-010 | 11.5% appeal rate for Medicare Advantage prior authorization; 80.7% of those appeals overturned                                             | Confirmed                                       | KFF analysis of 53 million MA prior authorization determinations, 2024 |
-| AD-011 | 75% of MA prior authorization denials appealed 2014-2016 were overturned                                                                    | Confirmed                                       | HHS Office of Inspector General                                        |
-| AD-012 | Claims reviewers at major insurers couldn't explain AI tools, didn't know AI could be biased, expressed high confidence                     | Confirmed                                       | Stanford and Health Affairs study, 2025                                |
-| AD-013 | Model performance degrades 13.9-85% as input length increases even when the system has the correct information                              | Confirmed - peer reviewed                       | EMNLP Findings, 2025                                                   |
-| AD-014 | 18 frontier models (including Claude Opus 4 and GPT-4.1) show consistent degradation; open methodology                                      | Confirmed - open methodology, not peer reviewed | Chroma engineering study, July 2025                                    |
-| AD-015 | 41 government algorithm oversight policies: reviewers often can't perform the assigned function; oversight layers legitimize faulty systems | Confirmed - peer reviewed                       | Ben Green, Computer Law & Security Review, 2022                        |
-| AD-016 | Non-deterministic pipelines return different answers for the same inputs with no record of which sources drove either result                | Confirmed                                       | VentureBeat report on Pinecone Nexus launch                            |
+| ID     | Claim                                                                                                                                                                                                                  | Strength                                                                   | Source                                                                       |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| AD-001 | Cigna PxDx denied ~300,000 claims over two months in 2022; 1.2 seconds average review time                                                                                                                             | Confirmed                                                                  | ProPublica investigation; Cigna-provided data                                |
+| AD-002 | Cigna PxDx class action certified March 2025                                                                                                                                                                           | Confirmed                                                                  | Court records, E.D. Cal.                                                     |
+| AD-003 | 80% reversal rate on Cigna PxDx appeals                                                                                                                                                                                | Lawsuit allegation - not a court finding                                   | Cigna PxDx class action complaint                                            |
+| AD-004 | UnitedHealth nH Predict trained on 6 million patient records; used for Medicare Advantage post-acute care decisions                                                                                                    | Confirmed                                                                  | Lokken v. UnitedHealth Group; STAT News "Denied by AI" series                |
+| AD-005 | Patients won 90%+ of nH Predict appeals                                                                                                                                                                                | Lawsuit allegation - not a court finding                                   | Lokken v. UnitedHealth Group                                                 |
+| AD-006 | Court ordered UnitedHealth to disclose algorithm documents and internal communications                                                                                                                                 | Confirmed                                                                  | Court order, Lokken v. UnitedHealth Group, March 2026                        |
+| AD-007 | Michigan MiDAS issued 40,195 automated fraud determinations, October 2013 - September 2015                                                                                                                             | Confirmed                                                                  | Michigan Auditor General report                                              |
+| AD-008 | 93% of MiDAS fraud determinations did not involve fraud                                                                                                                                                                | Confirmed                                                                  | Michigan Auditor General                                                     |
+| AD-009 | Michigan MiDAS settlement: $20 million, October 2022                                                                                                                                                                   | Confirmed                                                                  | Bauserman v. Unemployment Insurance Agency                                   |
+| AD-010 | 11.5% appeal rate for Medicare Advantage prior authorization; 80.7% of those appeals overturned                                                                                                                        | Confirmed                                                                  | KFF analysis of 53 million MA prior authorization determinations, 2024       |
+| AD-011 | 75% of MA prior authorization denials appealed 2014-2016 were overturned                                                                                                                                               | Confirmed                                                                  | HHS Office of Inspector General                                              |
+| AD-012 | Claims reviewers at major insurers couldn't explain AI tools, didn't know AI could be biased, expressed high confidence                                                                                                | Confirmed                                                                  | Stanford and Health Affairs study, 2025                                      |
+| AD-013 | Model performance degrades 13.9-85% as input length increases even when the system has the correct information                                                                                                         | Confirmed - peer reviewed                                                  | EMNLP Findings, 2025                                                         |
+| AD-014 | 18 frontier models (including Claude Opus 4 and GPT-4.1) show consistent degradation; open methodology                                                                                                                 | Confirmed - open methodology, not peer reviewed                            | Chroma engineering study, July 2025                                          |
+| AD-015 | 41 government algorithm oversight policies: reviewers often can't perform the assigned function; oversight layers legitimize faulty systems                                                                            | Confirmed - peer reviewed                                                  | Ben Green, Computer Law & Security Review, 2022                              |
+| AD-016 | Non-deterministic pipelines return different answers for the same inputs with no record of which sources drove either result                                                                                           | Confirmed                                                                  | VentureBeat report on Pinecone Nexus launch                                  |
+| AD-017 | NAIC 12-state pilot launched March 2, 2026; participating states named; first AI claims examination opened under pilot                                                                                                 | Confirmed                                                                  | Autobody News, April 2026; Fenwick & West, April 2026                        |
+| AD-018 | 88% of auto insurers currently use or plan to use AI to evaluate claims                                                                                                                                                | Confirmed                                                                  | NAIC survey, cited Autobody News, April 2026                                 |
+| AD-019 | NAIC pilot results not yet public; pilot runs through September 2026; formal adoption expected NAIC Fall Meeting November 2026                                                                                         | Confirmed                                                                  | Fenwick & West, Alston & Bird, April 2026                                    |
+| AD-020 | NAIC TPDM Working Group developing vendor registry; initial scope limited to pricing and underwriting, not claims adjudication                                                                                         | Confirmed for scope and registry approach                                  | Mondaq, March 2026 (NAIC Spring 2026 meeting report)                         |
+| AD-021 | NIST AI RMF MANAGE 3 requires appeal/override mechanisms; MEASURE 2.6 requires consistency/reproducibility; GOVERN 1.1 + MANAGE 3 together require what Ben Green calls "human-in-command," not just human-in-the-loop | Confirmed (sub-practices); Green (2022) for "human-in-command" terminology | NIST AI 100-1, January 2023; Ben Green, Computer Law & Security Review, 2022 |
+| AD-022 | NIST AI 600-1 (Generative AI Profile, July 2024): 13 risk categories, 400+ suggested actions for GenAI systems                                                                                                         | Confirmed                                                                  | NIST AI 600-1 official publication                                           |
+| AD-023 | Treasury Financial Services AI RMF: 230 mapped control objectives translating NIST AI RMF into financial-services operational controls; released February 19, 2026; voluntary                                          | Confirmed                                                                  | Treasury press release, February 19, 2026; Lowenstein Sandler analysis       |
+| AD-024 | Colorado SB 26-189 dropped the explicit NIST AI RMF mandate that existed in SB 24-205; NIST alignment is no longer a statutory safe harbor under Colorado law                                                          | Confirmed                                                                  | Carpe Datum Law, May 2026; Colorado General Assembly, SB 26-189              |
 
 **Strength rubric:** Confirmed = primary source, court record, or peer-reviewed finding | Lawsuit allegation - not a court finding = alleged in complaint; no court determination | Confirmed - peer reviewed = published in peer-reviewed venue | Confirmed - open methodology, not peer reviewed = methodology disclosed and replicable, not peer reviewed

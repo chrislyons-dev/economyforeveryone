@@ -19,8 +19,7 @@ _(Thin rules. Thick enforcement.)_
 
 ## One-sentence framing
 
-We are pro-hustle and pro-innovation.
-We are anti-cheating and anti-lock-in.
+We back hustle and innovation. We reject cheating and lock-in.
 
 ## Why this exists
 
@@ -32,9 +31,7 @@ The objective is a short rulebook that makes cheating expensive and entry easier
 
 ## Design principle
 
-Simple for the many.
-Strict for the powerful.
-Fast for everyone.
+Make rules simple for most actors, strict for powerful actors, and fast enough to matter.
 
 ## Core prohibitions
 
@@ -49,9 +46,9 @@ Fast for everyone.
 6. Transparent, standardized all-in pricing in essential markets
 7. Basic decision visibility where dominant actors use scoring, ranking, routing, or other high-impact systems to shape access
 
-Housing makes rule 6 concrete: advertised rent should mean the real recurring price, not rent plus a pile of mandatory fees discovered after the application is paid. In essential markets, price clarity is not a nice extra. It is a basic anti-rigging rule.
+Housing makes rule 6 concrete: advertised rent should mean the full recurring price, not rent plus a pile of mandatory fees discovered after the application is paid. In essential markets, price clarity is a basic anti-rigging rule.
 
-Transportation makes the same rule concrete from another angle: all-in vehicle pricing, explicit financing markups, and standardized fee labels are not "nice consumer disclosures." They are anti-captivity rules in a market people often need to keep a job.
+Transportation makes the same rule concrete from another angle: all-in vehicle pricing, explicit financing markups, and standardized fee labels are anti-captivity rules in a market people often need to keep a job.
 
 In captive or semi-captive systems, rule 7 matters just as much: if a landlord-screening vendor, insurer, platform, or dominant intermediary can shape access through opaque scoring or routing, the affected person needs enough reason and record access to challenge the outcome.
 
@@ -61,7 +58,7 @@ In captive or semi-captive systems, rule 7 matters just as much: if a landlord-s
 9. Disgorgement and meaningful damages when violations are proven
 10. Proportional compliance obligations (higher duties for dominant firms)
 
-In housing or similar essential markets, higher duties can include retaining pricing records, disclosing pricing-software vendors, and facing stricter review when local ownership concentration gets high enough to weaken real choice.
+In housing or similar essential markets, higher duties can include retaining pricing records, disclosing pricing-software vendors, and facing stricter review when local ownership concentration gets high enough to weaken practical choice.
 
 Healthcare and education add the same lesson in different form: when intermediaries shape life-critical choices, record retention, outcome disclosure, and auditable contract structures are not overkill. They are the minimum conditions for meaningful oversight.
 
@@ -74,10 +71,7 @@ Healthcare and education add the same lesson in different form: when intermediar
 
 ## What this is not
 
-- not blanket price control
-- not anti-profit
-- not incumbent protection
-- not bureaucracy for its own sake
+This is not blanket price control, anti-profit policy, incumbent protection, or bureaucracy for its own sake.
 
 ## Why this lowers the squeeze
 

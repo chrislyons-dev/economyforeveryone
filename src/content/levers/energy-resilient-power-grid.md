@@ -15,7 +15,7 @@ tags:
 
 North star: mesh + islands
 
-## 1) What’s happening
+## 1) What's happening
 
 The U.S. power system is a three-layer machine:
 
@@ -23,9 +23,9 @@ The U.S. power system is a three-layer machine:
 - high-voltage transmission
 - local distribution
 
-It was built for “power flows one way” and “big stuff fails rarely.”
+It was built for "power flows one way" and "big stuff fails rarely."
 
-Now we’re in a world where:
+Now we're in a world where:
 
 - extreme weather is routine
 - cybersecurity is a constant
@@ -36,9 +36,9 @@ So the old design assumptions are breaking.
 
 ## 2) The simple model (plain language)
 
-Resilience isn’t “centralized vs distributed.”
+The useful split is fragile vs resilient, not centralized vs distributed.
 
-Resilience is: **many paths instead of single paths**.
+Resilience means **many paths, not one fragile path**.
 
 A resilient grid needs both:
 
@@ -55,26 +55,26 @@ Think of it like roads + neighborhoods:
 
 ### The load-bearing weaknesses
 
-- Transmission bottlenecks: we can’t move power where it’s needed fast enough.
+- Transmission bottlenecks: we can't move power where it's needed fast enough.
 - Interconnection queue hell: connecting new generation (and storage) is slow and expensive.
-- Distribution upgrades lag: feeders and transformers weren’t designed for two-way flows.
-- Utility incentives don’t match outcomes: many utilities earn more by building big capex, not by orchestrating customer-side flexibility.
+- Distribution upgrades lag: feeders and transformers weren't designed for two-way flows.
+- Utility incentives don't match outcomes: many utilities earn more by building big capex, not by orchestrating customer-side flexibility.
 - Governance fragmentation: state rules, federal rules, different utilities, different markets. Hard to scale anything uniformly.
 - Single points of failure still exist: key substations, corridors, and control systems can take out large areas.
 
 ### The current coping pattern
 
-We often “solve” reliability by:
+We often "solve" reliability by:
 
 - building peaker plants
 - overbuilding capacity
 - throwing money at emergency response
 
-That can keep lights on, but it’s expensive and it keeps customers powerless.
+That can keep lights on, but it's expensive and it keeps customers powerless.
 
 ## 4) North star (what good looks like)
 
-A grid that’s:
+A grid that's:
 
 - hard to knock over
 - fast to recover
@@ -93,10 +93,10 @@ In E4E terms:
 - security: fewer catastrophic outages, fewer price spikes
 - choice: customers can generate/store/shift and get paid fairly
 - competition: more supply can connect and compete
-- shared gains: savings show up as lower long-run system costs, not just utility rate base
+- shared gains: savings show up as lower long-run system costs for households
 - more security: repeat
 
-## 5) The toolbelt (what “distributed” actually means)
+## 5) The toolbelt (what "distributed" means in practice)
 
 Distributed energy resources (DERs) = small things, coordinated well:
 
@@ -109,11 +109,11 @@ Distributed energy resources (DERs) = small things, coordinated well:
 - backup generators (with guardrails on emissions and runtime)
 - demand response (pay people to reduce load when it matters)
 
-Two “systems glue” concepts matter:
+Two "systems glue" concepts matter:
 
 ### Microgrids
 
-A microgrid can run connected to the larger grid, then “island” during an outage.
+A microgrid can run connected to the larger grid, then "island" during an outage.
 
 Best targets:
 
@@ -128,22 +128,22 @@ Best targets:
 
 A VPP is many small devices that act like one power plant.
 
-It’s the fastest way to scale “distributed” without requiring everyone to install rooftop solar.
+It's the fastest way to scale "distributed" without requiring everyone to install rooftop solar.
 
 ## 6) Guardrails (non-negotiables)
 
-Distributed power can become a new inequality machine if we’re not careful.
+Distributed power can become a new inequality machine if we're not careful.
 
 ### Equity
 
 - renters must be able to participate (community solar, behind-the-meter batteries at multifamily, VPP enrollment through landlords or programs)
 - low-income households must get first-class incentives and protections
-- no “rich people get resilience, everyone else gets outages” outcome
+- no "rich people get resilience, everyone else gets outages" outcome
 
 ### Cybersecurity and safety
 
-- device standards and update policies (no “internet toaster botnet” controlling the grid)
-- clear responsibility lines: who can control what, when, and how it’s audited
+- device standards and update policies (no "internet toaster botnet" controlling the grid)
+- clear responsibility lines: who can control what, when, and how it's audited
 - fail-safe defaults: loss of comms should not create unsafe behavior
 
 ### Interoperability
@@ -159,15 +159,15 @@ Distributed power can become a new inequality machine if we’re not careful.
 
 ## 7) Transition plan (what it looks like in practice)
 
-This is not a single “big switch.” It’s staged.
+The transition happens in stages.
 
-### Stage 1: Stop the bleeding (0–2 years)
+### Stage 1: Stop the bleeding (0-2 years)
 
 Goal: reduce outage pain and peak-cost spikes fast.
 
 - Map and harden critical substations and corridors.
 - Build microgrids for critical facilities first (water, shelters, clinics).
-- Stand up a VPP program that’s simple:
+- Stand up a VPP program that's simple:
   - easy opt-in
   - clear payments
   - strong consumer protections
@@ -177,30 +177,30 @@ Goal: reduce outage pain and peak-cost spikes fast.
   - predictable upgrade costs
   - standard contracts
 
-### Stage 2: Make distributed a real grid asset (2–5 years)
+### Stage 2: Make distributed a dispatchable grid asset (2-5 years)
 
-Goal: turn “random devices” into dispatchable flexibility.
+Goal: turn "random devices" into dispatchable flexibility.
 
 - Deploy DERMS / orchestration tools at utilities and ISOs (with guardrails).
 - Shift rate design away from punishing participation:
   - avoid export bans as a blunt instrument
-  - avoid “gotcha” fees that kill adoption
+  - avoid "gotcha" fees that kill adoption
 - Expand community solar + storage.
 - Use non-wires alternatives:
-  - pay DERs to solve local congestion instead of only building new wires
+  - pay DERs to solve local congestion before defaulting to new wires
 
-### Stage 3: Build the backbone (5–15 years)
+### Stage 3: Build the backbone (5-15 years)
 
 Goal: cheap power + strong reliability at scale.
 
-- Build transmission like it’s national infrastructure.
+- Build transmission like it's national infrastructure.
 - Increase inter-regional transfer capacity (more sharing, fewer islands forced by politics).
 - Standardize markets for flexibility so VPPs can bid everywhere.
 - Integrate EVs as flexible load (and eventually storage), without making it a reliability hazard.
 
 ## 8) Scoreboard (measure what matters)
 
-If we can’t measure it, it becomes vibes.
+If we can't measure it, it becomes vibes.
 
 ### Reliability
 
@@ -236,7 +236,7 @@ If we can’t measure it, it becomes vibes.
   - % renters / multifamily participation
   - % low-income participation
 - community solar subscriptions by income bracket (where data exists)
-- percentage of customers offered at least one “get paid for flexibility” option
+- percentage of customers offered at least one "get paid for flexibility" option
 
 ### Security and safety
 
@@ -246,10 +246,10 @@ If we can’t measure it, it becomes vibes.
 
 ## 9) How to talk about it (bridge language)
 
-- “This isn’t ‘centralized vs distributed.’ It’s ‘fragile vs resilient.’”
-- “We need a strong backbone and local backup. Highways and side streets.”
-- “People don’t want energy ideology. They want the lights on and bills that make sense.”
-- “Distributed power should not be a luxury good. Renters should benefit too.”
+- "The useful split is fragile vs resilient, not centralized vs distributed."
+- "We need a strong backbone and local backup. Highways and side streets."
+- "People don't want energy ideology. They want the lights on and bills that make sense."
+- "Distributed power should be available to renters too."
 
 ## 10) One-page civic asks (copy/paste)
 
@@ -257,35 +257,35 @@ Pick one lane and push it consistently.
 
 ### Ask A: Critical facilities first
 
-“Publish a list of critical facilities and a 3-year plan to add islandable backup power for each one.”
+"Publish a list of critical facilities and a 3-year plan to add islandable backup power for each one."
 
 ### Ask B: VPP for everyone
 
-“Create a VPP program that includes renters and pays customers for peak support, with simple enrollment and strong protections.”
+"Create a VPP program that includes renters and pays customers for peak support, with simple enrollment and strong protections."
 
 ### Ask C: Interconnection transparency
 
-“Publish interconnection timelines, costs, and queue status in a public dashboard. Make delays explainable and appealable.”
+"Publish interconnection timelines, costs, and queue status in a public dashboard. Make delays explainable and appealable."
 
 ### Ask D: Cost allocation fairness
 
-“If new large loads drive upgrades, require transparent cost-sharing so households aren’t quietly subsidizing private growth.”
+"If new large loads drive upgrades, require transparent cost-sharing so households aren't quietly subsidizing private growth."
 
 ## 11) Open questions / research stubs
 
 Use these to drive future notes, posts, and interviews.
 
-- Where are the real single points of failure (substations, corridors, control systems) in my region?
+- Where are the most dangerous single points of failure (substations, corridors, control systems) in my region?
 - What share of outages are transmission vs distribution vs generation?
 - What are the current rules for:
   - net metering / export
   - storage interconnection
   - community solar
   - aggregator access (VPP participation)
-- What’s the local utility incentive structure (how do they earn)?
+- What's the local utility incentive structure (how do they earn)?
 - Who can approve or block transmission and distribution upgrades (veto points)?
-- What are the best “resilience hub” microgrid case studies and financing models?
-- What’s the best renter-friendly package:
+- What are the best "resilience hub" microgrid case studies and financing models?
+- What's the best renter-friendly package:
   - community solar + bill credits
   - shared storage
   - appliance incentives tied to VPP enrollment
@@ -296,12 +296,12 @@ This is a monthly squeeze issue.
 
 - Outages are a direct cost (spoiled food, missed work, hotel nights, repairs).
 - Price spikes and congestion costs show up in bills.
-- Resilience is household security, not a luxury.
+- Resilience is household security.
 
-The “loop” version:
+The "loop" version:
 
 - insecurity (outages + volatile bills) -> fear + blame -> no durable fixes -> more insecurity
 
-The “north star” loop:
+The "north star" loop:
 
 - security -> choice -> competition -> shared gains -> more security

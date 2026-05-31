@@ -36,7 +36,7 @@ The judge's point was blunt: being overwhelmed isn't an excuse when someone's li
 
 ## Why it matters (plain language)
 
-This is what process failure looks like in real life:
+This is what process failure looks like in practice:
 
 - repeated follow-ups just to get basic information,
 - unclear timelines,

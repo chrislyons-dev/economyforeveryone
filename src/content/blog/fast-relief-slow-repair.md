@@ -1,6 +1,6 @@
 ---
 title: 'Fast relief, slow repair'
-description: 'Why real change needs both near-term relief and slower structural repair, and why small actions still matter.'
+description: 'Why near-term relief and slower structural repair both matter, and why small actions still count.'
 pubDate: 2026-03-01
 status: 'published'
 category: 'methods'
@@ -29,7 +29,7 @@ receipts: []
 ## The 2-minute version
 
 The problems people live inside are usually not one-week problems.
-Housing, healthcare, childcare, education, transportation, and civic breakdown all take real structural work.
+Housing, healthcare, childcare, education, transportation, and civic breakdown all take structural work.
 
 But people also need progress they can feel before the structural work is done.
 
@@ -47,7 +47,7 @@ A lot of public arguments fail because they ignore time.
 Some people want instant transformation.
 Some people talk like the only serious work is the slow structural stuff.
 
-Both instincts miss something real.
+Both instincts miss something important.
 
 If people never feel relief, support fades.
 If the work never reaches deeper structure, the relief gets reversed.
@@ -82,7 +82,7 @@ A healthier strategy does not make people choose between realism and relief.
 
 What that looks like:
 
-- **Fast relief:** fewer obvious traps, less friction, quicker accountability, and changes people can actually notice
+- **Fast relief:** fewer obvious traps, less friction, quicker accountability, and changes people can notice
 - **Slow repair:** more capacity, better rules, stronger enforcement, and institutions that survive the next political swing
 - **A usable action ladder:** one small action, short-term moves, medium-term changes, and long-term structural repair all lined up instead of floating apart
 
@@ -95,13 +95,13 @@ For this project, **short-term** means moves that can start now or within the ne
 
 ### Short-term
 
-- name one problem people can actually feel and one piece of relief that would make this month less punishing
+- name one problem people can feel and one piece of relief that would make this month less punishing
 - explain one fix in plain language instead of slogans
 - pick one visible metric so people can tell whether anything is improving
 
 ### Medium-term
 
-- connect the felt problem to the institutional changes that actually shape it
+- connect the felt problem to the institutional changes that shape it
 - stop treating every reform like it either has to fix everything now or does not count
 - keep the same action ladder across your work so people can compare immediate relief to durable repair
 

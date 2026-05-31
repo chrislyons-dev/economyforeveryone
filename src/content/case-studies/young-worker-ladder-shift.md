@@ -27,24 +27,6 @@ receiptTags:
 sources: []
 ---
 
-- [Young Worker Ladder Shift: What Entry-Level Compression Changes](#young-worker-ladder-shift-what-entry-level-compression-changes)
-  - [At a glance](#at-a-glance)
-  - [1. One scene](#1-one-scene)
-  - [2. What's happening](#2-whats-happening)
-  - [3. Why it's happening - the mechanisms](#3-why-its-happening---the-mechanisms)
-  - [4. What the evidence supports](#4-what-the-evidence-supports)
-  - [5. What the evidence does NOT support](#5-what-the-evidence-does-not-support)
-  - [6. Control stack: who governs the gate?](#6-control-stack-who-governs-the-gate)
-  - [7. Shared Gains Test](#7-shared-gains-test)
-  - [8. What good looks like](#8-what-good-looks-like)
-  - [9. What to do](#9-what-to-do)
-  - [10. How to talk about it](#10-how-to-talk-about-it)
-  - [Loop Effect](#loop-effect)
-  - [North Star verdict](#north-star-verdict)
-  - [11. Receipts appendix](#11-receipts-appendix)
-
----
-
 ## At a glance
 
 - **What changed:** Some old proof-of-effort signals got cheaper. A polished first draft, a clean deck, a competent-looking block of code, a plausible summary -- those no longer prove what they used to.
@@ -63,7 +45,7 @@ That bundle used to be split across stages. Entry-level meant you were allowed t
 
 Now the employer reads those signals differently. A tool can generate a plausible first draft in seconds. The surface-level proof got cheaper. The company still needs someone who can tell whether the draft is wrong, risky, or misleading -- and that person is still accountable. So the employer asks for judgment earlier than the old ladder used to produce it.
 
-That is the shift.
+That's the shift.
 
 ---
 
@@ -101,9 +83,9 @@ The lesson is consistent across high-stakes sectors: the tool can help produce t
 
 ### Mechanism 4: The counterweight shows up in bounded work
 
-This is not a one-way story. In some lower-stakes, high-volume, bounded tasks, AI helps novices more than experts. Brynjolfsson and coauthors found large productivity gains for novice customer support workers, with much smaller gains for experienced workers. [YW-039] MIT Work of the Future reported larger proportional gains for less experienced workers in some AI-augmented contexts. [YW-012]
+This isn't a one-way story. In some lower-stakes, high-volume, bounded tasks, AI helps novices more than experts. Brynjolfsson and coauthors found large productivity gains for novice customer support workers, with much smaller gains for experienced workers. [YW-039] MIT Work of the Future reported larger proportional gains for less experienced workers in some AI-augmented contexts. [YW-012]
 
-That means the "judgment moat" argument has limits. It is most defensible where error costs, liability, or domain-specific review matter. It is less secure in bounded workflows where AI can successfully distribute expert patterns to novices.
+That means the "judgment moat" argument has limits. It's most defensible where error costs, liability, or domain-specific review matter. It's less secure in bounded workflows where AI can successfully distribute expert patterns to novices.
 
 ---
 
@@ -125,9 +107,9 @@ The argument has to stay calibrated.
 
 Headline unemployment for young graduates is not historically catastrophic on its own. Rising demand in healthcare, trades, direct care, education, and infrastructure complicates any claim of universal collapse. [COUNTER-001, COUNTER-002] Adaptation channels exist at population scale, which rules out framing this as "young workers are trapped and nothing works." [COUNTER-006]
 
-The evidence also does not prove that AI fluency is a standardized hiring advantage, or that building a "judgment portfolio" has been measured as a winning strategy in hiring outcomes. There is no named public case showing a young worker who deliberately built that kind of portfolio and then measurably outperformed peers because of it. [YW-022, YW-023, YW-046]
+The evidence also doesn't prove that AI fluency is a standardized hiring advantage, or that building a "judgment portfolio" has been measured as a winning strategy in hiring outcomes. There is no named public case showing a young worker who deliberately built that kind of portfolio and then measurably outperformed peers because of it. [YW-022, YW-023, YW-046]
 
-The case study should not claim:
+The case study shouldn't claim:
 
 - that every entry-level market is collapsing
 - that AI skill alone is the answer
@@ -181,7 +163,7 @@ The gains are arriving faster than the safeguards. The current arrangement is ef
 
 ### At the individual level
 
-- one area of real depth where mistakes matter and can be explained
+- one area of depth where mistakes matter and can be explained
 - proof of process, not just proof of output
 - the ability to use AI tools without leaning on them blindly
 - visible evidence of checking, revision, and judgment
@@ -205,7 +187,7 @@ The blog's advice sits at the first layer. The case study's point is that the fi
 
 ## 9. What to do
 
-For the individual-facing version, see companion blog: [What Young People Should Build When the Job Ladder Is Moving](../../06-outputs/blogs/2_ai-impact/2026-05-07-what-young-people-should-build.md)
+For the individual-facing version, see companion blog: [What Young People Should Build When the Job Ladder Is Moving](../../06-outputs/blogs/2_ai-impact/2026-05-12-what-young-people-should-build.md)
 
 For the structural version:
 
@@ -249,7 +231,7 @@ Not proof that AI will eliminate all junior work. Not proof that everyone should
 - **Security:** Protected learning-work time -- apprenticeship treated as a production requirement rather than overhead -- would stabilize the pipeline. Transparent hiring criteria and contestable AI screening with specific rejection reasons would reduce arbitrary gatekeeping for young workers who cannot see why they are being filtered out.
 - **Choice:** Real alternatives exist in fields where entry demand is rising: healthcare, trades, direct care, infrastructure. Getting workers there requires sector retraining support, credential portability, and visible pathways -- not just the generic advice to adapt.
 - **Competition:** Procurement rules and hiring reporting requirements that make junior hiring and conversion rates visible by sector and firm size would make rubber-stamp credentialism harder to sustain quietly. Published data on entry-cohort outcomes would give the market something to act on.
-- **Shared gains:** AI productivity gains are flowing to employers and senior workers first. [YW-001, YW-002] Protecting the learning pipeline is the mechanism for ensuring the generation entering the market has a real path to build the depth that makes them the senior workers of the future -- and the reviewers the institution needs when AI is producing the bulk of the output.
+- **Shared gains:** AI productivity gains are flowing to employers and senior workers first. [YW-001, YW-002] Protecting the learning pipeline is the mechanism for ensuring the generation entering the market has a path to build the depth that makes them the senior workers of the future -- and the reviewers the institution needs when AI is producing the bulk of the output.
 
 ### Case verdict
 
@@ -269,7 +251,7 @@ The E4E thesis is that security enables choice, choice enables competition, comp
 
 The structural risk here has two parts. The first is familiar: entry compression, narrowed ladders, weaker proof-of-work signals. [YW-001, YW-002, YW-003, YW-006] The second is less visible and more serious: if the apprenticeship function of entry-level work continues to atrophy, organizations will eventually need competent reviewers for AI-generated output -- and will have fewer of them. The efficiency choice of today produces an oversight deficit of tomorrow. The IT ladder case (`it-ladder-collapse.md`) documents this at a further stage of the same dynamic.
 
-This is not a verdict that AI is bad for young workers. The evidence points both ways. Novice gains are real in bounded tasks. [YW-039, YW-012] Young workers train at high rates and move jobs more than older cohorts. [YW-028, YW-030, YW-031] The adaptation window is real and currently open. The verdict is narrower: the ladder is thinner at the bottom, the old signals are weaker, the apprenticeship function of entry work is being quietly removed, and no institution is currently required to protect it. Individual adaptation is a real response and an insufficient one. It repositions individuals within a narrowed market; it does not widen the market.
+This isn't a verdict that AI is bad for young workers. The evidence points both ways. Novice gains are real in bounded tasks. [YW-039, YW-012] Young workers train at high rates and move jobs more than older cohorts. [YW-028, YW-030, YW-031] The adaptation window is real and currently open. The verdict is narrower: the ladder is thinner at the bottom, the old signals are weaker, the apprenticeship function of entry work is being quietly removed, and no institution is currently required to protect it. Individual adaptation is a real response and an insufficient one. It repositions individuals within a narrowed market; it does not widen the market.
 
 The North Star condition here is not "young workers should be protected from technology change." It is "the pipeline that turns today's entrant into tomorrow's senior reviewer should not be dismantled through efficiency choices that no one is responsible for reversing." That requires deliberate action at the institutional and policy level -- not because the market is broken in principle, but because the current arrangement captures the gain and externalizes the cost, and the cost lands on the people who received none of the gain.
 

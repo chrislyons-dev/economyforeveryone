@@ -1,6 +1,6 @@
 ---
 title: 'When Cheap Content Changes Who Gets Heard'
-description: 'When AI makes content cheap, power shifts toward ranking, discovery, and trust signals, and ordinary people inherit the sorting burden.'
+description: 'When AI makes content cheap, power shifts toward the systems that decide what gets ranked, discovered, and trusted.'
 pubDate: 2026-04-09
 earlyRelease: true
 status: 'published'
@@ -29,19 +29,19 @@ receipts: []
 
 A school librarian is working through a cart of new books.
 
-One is a children's biography. The cover looks fine. The author name is unfamiliar, but that's normal. She searches for the author and finds almost nothing. No website. No real publishing trail. Inside, she spots a date that doesn't match anything she can verify.
+One is a children's biography. The cover looks fine. The author name is unfamiliar, but that's normal. She searches for the author and finds almost nothing. No website. No verifiable publishing trail. Inside, she spots a date that doesn't match anything she can verify.
 
 She flags it.
 
 But she has forty books on the cart and forty minutes in the hour. She can't do that level of checking for all of them.
 
-The problem isn't just that AI can make more content. It's that it can make more content than ordinary human judgment can realistically sort.
+AI can make more content than ordinary human judgment can realistically sort.
 
-That's where this post starts. This isn't really a story about "too much content." It's a story about what happens when content gets cheap and trust doesn't.
+That's where this post starts: what happens when content gets cheap and trust doesn't.
 
 ## What's happening
 
-AI has pushed the cost of producing passable content way down. The issue isn't just abundance. It's the way abundance raises the importance of ranking systems, discovery systems, and trust signals.
+AI has pushed the cost of producing passable content way down. Abundance raises the importance of ranking systems, discovery systems, and trust signals.
 
 That changes where power sits.
 
@@ -59,13 +59,13 @@ When something becomes fast, cheap, and scalable, pressure shifts to the next sc
 
 First, scale without adjudication. The system can scale creation faster than it can scale verification. The books keep arriving. The articles keep appearing. The feeds keep filling. But the human time needed to check quality, source, intent, and accuracy doesn't scale the same way.
 
-Second, gate shift. Once production gets cheap, distribution becomes the real choke point. Gatekeeping doesn't disappear. It moves downstream into ranking, storefront placement, search, feeds, and trust signals.
+Second, gate shift. Once production gets cheap, distribution becomes the choke point. Gatekeeping doesn't disappear. It moves downstream into ranking, storefront placement, search, feeds, and trust signals.
 
 This shows up in two directions at once.
 
-For readers, it becomes a trust problem. Can you tell what you're looking at? Was it checked? Is the author real? Is the outlet what it claims to be?
+For readers, it becomes a trust problem. Can you tell what you're looking at? Was it checked? Can you verify the author? Is the outlet what it claims to be?
 
-For creators, it becomes a market problem. Cheap production does not automatically mean a freer market if getting found still depends on a few opaque systems. A platform can say it opened the door to more creators while still tightening its grip on who actually gets seen.
+For creators, it becomes a market problem. Cheap production does not automatically mean a freer market if getting found still depends on a few opaque systems. A platform can say it opened the door to more creators while still tightening its grip on who gets seen.
 
 Most people don't review everything directly. They rely on shortcuts:
 
@@ -81,7 +81,7 @@ Those shortcuts are now doing more work than before. Which means the systems tha
 
 And when someone tries to contest a gate decision - why was my book buried, why was my content demoted, what do I do - the response is usually polite and empty. The platform says "proprietary." The frontline support person can't override. The buyer says "that's just the marketplace." Everyone has a script. No one has responsibility.
 
-## The deeper issue isn't volume. It's counterfeit trust signals.
+## The deeper issue is counterfeit trust signals
 
 The flood itself is a problem. But the bigger problem is that low-cost content can imitate the signals people use to decide what's worth trusting:
 
@@ -94,7 +94,7 @@ The flood itself is a problem. But the bigger problem is that low-cost content c
 
 The flood adds pressure. But the more damaging mechanism is the breakdown of trust signals that let bad content masquerade as good.
 
-That is why the local news part of this story carries so much weight. AI did not create the collapse of local news. That collapse was already underway. What AI does is make it cheaper to fill the vacuum with content that looks local enough to pass a quick glance. That is a different claim, and it is the right one. The danger is not "AI replaced journalism overnight." The danger is that communities already living with a weaker local information system now have an even harder time telling what is real.
+That is why the local news part of this story carries so much weight. AI did not create the collapse of local news. That collapse was already underway. What AI does is make it cheaper to fill the vacuum with content that looks local enough to pass a quick glance. That is a different claim, and it is the right one. The danger is not "AI replaced journalism overnight." The danger is that communities already living with a weaker local information system now have an even harder time telling what to trust.
 
 And once people are left guessing, two bad things get easier: manipulation and withdrawal. Some people get pulled into nonsense. Some people stop believing anything enough to act. Neither one helps shared reality.
 
@@ -102,7 +102,7 @@ And once people are left guessing, two bad things get easier: manipulation and w
 
 Who benefits?
 
-Platforms benefit from more inventory, more engagement opportunities, and more leverage over discovery. Cheap production can also help some small creators enter markets that used to be harder to enter. That gain is real.
+Platforms benefit from more inventory, more engagement opportunities, and more leverage over discovery. Cheap production can also help some small creators enter markets that used to be harder to enter. That gain matters.
 
 But the stronger point from the case study is what happens after entry. In books, for example, the market doesn't just split into "old incumbents" and "new creators." It also starts to squeeze the middle. Platform-favored content and high-volume operators can do fine. A handful of new entrants can break through. The people in trouble are often the mid-tier creators who compete on care, voice, and consistency, but now depend even more on ranking systems they cannot see or challenge.
 
@@ -120,7 +120,7 @@ Who carries the risk?
 - parents trying to sort trustworthy from untrustworthy material
 - librarians and teachers asked to curate at impossible scale
 - local communities already living with weakened newsrooms
-- readers who can't tell what's real, who's real, or why something is being shown to them
+- readers who can't tell what to trust, who made it, or why something is being shown to them
 
 That split is the point. Once again, the system that gains speed isn't the same as the person who absorbs the uncertainty.
 
@@ -130,14 +130,14 @@ And there is a second layer here: the platforms running these gates increasingly
 
 The answer isn't "ban AI content." That's too blunt, and it misses the mechanism. The better question is: what should the minimum floor be once the gate has moved?
 
-The minimum floor here is specific: consumer-facing labels at the point of discovery, real contestability for takedowns and ranking penalties, calibrated friction that slows flood operations without locking out legitimate creators, and enough structural room for the middle to survive.
+The minimum floor here is specific: consumer-facing labels at the point of discovery, contestable takedowns and ranking penalties, calibrated friction that slows flood operations without locking out legitimate creators, and enough structural room for the middle to survive.
 
 - people should be able to see what they're looking at
 - creators should be able to challenge decisions that affect whether they can be found
 - platforms shouldn't be allowed to become private regulators without basic accountability
 - cheap production shouldn't automatically mean that discovery power, and the money that comes with it, get captured upstream
 
-When the gate shifts to distribution and ranking, platforms exercise real power over creator livelihoods. That power should come with accountability.
+When the gate shifts to distribution and ranking, platforms exercise governing power over creator livelihoods. That power should come with accountability.
 
 **If content is becoming abundant, trust should get easier, not harder.**
 
@@ -159,7 +159,7 @@ Check five things it surfaced and ask:
 4. Would a normal person know what they're looking at?
 5. What is this system rewarding right now?
 
-That's a repeatable habit. It turns the gate from invisible background into something you can actually see.
+That's a repeatable habit. It turns the gate from invisible background into something you can see.
 
 At the community or policy level, the practical issue is simple:
 
@@ -169,7 +169,7 @@ At the community or policy level, the practical issue is simple:
 
 I wouldn't lead with "AI is ruining culture." That turns the whole thing into a vibes fight.
 
-I would say this instead: the issue isn't whether people can make more content. It's whether normal people can still tell what they're looking at, and whether the systems deciding what gets seen have any meaningful accountability.
+I would say this instead: the issue is whether normal people can still tell what they're looking at, and whether the systems deciding what gets seen have accountability anyone can use.
 
 Or even shorter: cheap content isn't the whole problem. Ungoverned gates are.
 

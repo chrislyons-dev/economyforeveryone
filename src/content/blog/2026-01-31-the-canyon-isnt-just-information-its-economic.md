@@ -31,7 +31,7 @@ realities, and how I'm trying to build small bridges instead of yelling across t
 
 But I keep coming back to an uncomfortable thought:
 
-**A lot of the canyon isn't just information. It's economic.**
+**A lot of the canyon is economic, not just informational.**
 
 And I'm thinking about it now because it feels like an emergency. Not brand-new, more like a slow
 leak that finally hit 5-alarm-fire status.
@@ -56,12 +56,10 @@ passed by, or worse, getting squeezed while being told everything is great.
 I've believed for a long time that the healthiest version of capitalism is the one where the economy
 grows from the middle.
 
-Where regular working people have enough breathing room that businesses actually have to compete for
+Where regular working people have enough breathing room that businesses have to compete for
 their dollars.
 
-Not trickle-down.
-Not the market will magically sort it out.
-Just a basic idea:
+The basic idea isn't trickle-down or magical market sorting:
 
 **If most people are doing okay, the whole system is more stable and less angry.**
 
@@ -94,7 +92,7 @@ Here's my best attempt at the map:
 - The economy grew, but a lot of the gains landed with people who already owned things.
 - Meanwhile, the basics that decide whether you feel safe, housing, healthcare, childcare, kept
   getting harder.
-- Power concentrated: fewer real choices, more take it or leave it pricing.
+- Power concentrated: fewer usable choices, more take it or leave it pricing.
 - When people are stressed and scared, the internet doesn't calm them down. It sells them certainty
   and a target.
 
@@ -122,8 +120,7 @@ Here's what I'm doing right now:
 
 ### 1) Put more money where regular people earn it
 
-Not perfectly. Just more intentionally.
-More local. More people get paid businesses.
+Imperfectly, but more intentionally: more local, more places where people get paid.
 
 ### 2) Use my tech luck to help one person at a time
 
@@ -139,7 +136,8 @@ Less gatekeeping. More places for people to live. Fewer take it or leave it situ
 
 ### 4) Talk about this without contempt
 
-Because economic fear is real, even when people attach it to bad stories or scapegoats.
+Because economic fear has a budget behind it, even when people attach it to bad stories or
+scapegoats.
 
 If I want to help, I have to start with:
 
@@ -155,7 +153,7 @@ Not:
 
 If you're feeling the same we're in an emergency vibe, maybe pick **one steady thing**.
 
-Not a grand gesture. Just something you can repeat.
+Something repeatable beats a grand gesture.
 
 I'm trying to trade doomscrolling for daily practice:
 

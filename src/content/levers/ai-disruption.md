@@ -17,8 +17,8 @@ Type: Lever
 
 ## Status note
 
-This file stays close to what we can actually show right now.
-It is not a prediction contest.
+This file stays close to what we can show right now.
+It avoids prediction contests.
 Use it with:
 
 - stress-test case: [Human Relevance After Generative AI case study](/case-studies/human-relevance-after-generative-ai/)
@@ -28,7 +28,7 @@ Labeling rule in this file:
 
 - `confirmed direction`: observed pattern with credible current evidence
 - `plausible risk`: mechanism is credible but not settled at system level
-- `unknown`: no robust medium-run evidence yet
+- `unknown`: no durable medium-run evidence yet
 
 ## What people feel
 
@@ -48,7 +48,7 @@ If exit is weak and the system still cannot provide notice, reason, appeal, reco
 ## High-value use cases
 
 - reduce administrative drag in healthcare and public-service workflows
-- help people navigate benefits, billing, and eligibility complexity
+- help people work through benefits, billing, and eligibility complexity
 - raise productivity while preserving human accountability
 
 ## High-risk use cases
@@ -57,7 +57,7 @@ If exit is weak and the system still cannot provide notice, reason, appeal, reco
 - opaque denial systems in high-stakes services
 - surveillance-heavy labor management
 - synthetic content that degrades shared reality
-- AI-mediated hiring, evaluation, or scheduling without meaningful appeal or override
+- AI-mediated hiring, evaluation, or scheduling without usable appeal or override
 
 ## What we can say now (evidence stance)
 
@@ -70,7 +70,7 @@ If exit is weak and the system still cannot provide notice, reason, appeal, reco
 
 Short version:
 AI is moving fast.
-Some gains are real.
+Some gains are visible.
 Who gets those gains is still an open question.
 
 ## Failure modes (high level)
@@ -126,7 +126,7 @@ Use this hierarchy for decisions that can materially affect someone:
 Failure pattern to watch:
 human presence without authority, time, information, or override power is functionally out-of-the-loop.
 Coffee version:
-if the human cannot see enough, cannot challenge enough, or cannot stop the system, that is not real oversight.
+if the human cannot see enough, challenge enough, or stop the system, that is oversight in name only.
 
 2026 procurement disputes also make a practical point: in high-stakes domains, `human-in-command` must be encoded in contract language and logging requirements, not left as a principles statement.
 
@@ -142,10 +142,10 @@ if the human cannot see enough, cannot challenge enough, or cannot stop the syst
 
 3. Human accountability and appeal
 
-- consequential decisions require accountable human ownership and meaningful appeal paths
+- consequential decisions require accountable human ownership and usable appeal paths
   In low-choice systems, that minimum floor is specific: notice, reason, appeal, records, and human override.
 
-4. Safety, bias, and robustness testing
+4. Safety, bias, and reliability testing
 
 - high-impact systems need pre-deployment and ongoing evaluation
 
@@ -159,7 +159,7 @@ if the human cannot see enough, cannot challenge enough, or cannot stop the syst
 
 7. Labor and transition protections
 
-- deployment should include workforce transition planning, not only cost extraction
+- deployment should include workforce transition planning alongside cost reduction
 
 8. Use-boundary enforcement
 
@@ -183,7 +183,7 @@ And if the affected person cannot see enough of the record to use the appeal pat
 
 ## AGI-like economic tripwires (update rule)
 
-Do not treat this as an AGI-arrival file by default.
+By default, treat this as an economic-impact file.
 Use these as tripwires for reclassification:
 
 - sustained autonomous multi-step task completion in production with limited handholding (`plausible risk`, uneven)

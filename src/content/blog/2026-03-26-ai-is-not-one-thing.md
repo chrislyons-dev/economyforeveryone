@@ -1,6 +1,6 @@
 ---
 title: 'AI Is Not One Thing'
-description: "The practical AI question isn't whether the tool is impressive, but what kind of system is being built around it."
+description: 'The practical AI question is what kind of system gets built around the tool and who can challenge it when it goes wrong.'
 pubDate: 2026-03-26
 earlyRelease: true
 status: 'published'
@@ -32,7 +32,7 @@ Either you're supposed to be amazed by it, or terrified of it. Either it will sa
 
 I don't think that frame helps much.
 
-This series isn't about sci-fi, whether a chatbot seems smart, or a catalog of every industry AI touches. It's a practical series about something simpler: **What kind of systems are we building around these tools?**
+This series is about the systems we build around AI tools: who they answer to, who can challenge them, and who carries the risk when they fail.
 
 That question matters more than most of the hype.
 
@@ -67,7 +67,7 @@ What matters is where the tool sits in the workflow, who has the power, who can 
 
 Across domains, the same pattern keeps showing up: when decisions become fast, cheap, and opaque, "human review" starts to become a rubber stamp.
 
-That's how leverage moves from people to institutions. Not always with some grand evil plan. It happens through throughput, volume, convenience, and time pressure. It happens through a front-line human who's technically present but has no real authority or time and no useful way to override the system.
+That's how leverage moves from people to institutions. Not always with some grand evil plan. It happens through throughput, volume, convenience, and time pressure. It happens through a front-line human who's technically present but has no authority, time, or useful way to override the system.
 
 **That isn't accountability, that's theater.**
 
@@ -93,7 +93,7 @@ When those things get cheaper, the pressure shifts to whatever is still scarce:
 
 - If content gets cheap, trust becomes scarce.
 - If junior work gets cheap, learning becomes scarce.
-- If personalization gets cheap, real exit matters more.
+- If personalization gets cheap, workable exit matters more.
 - If prediction gets cheap, appeal capacity becomes scarce.
 - If monitoring gets cheap, rights and recourse matter more.
 
@@ -105,7 +105,7 @@ A platform can host far more content, but that makes ranking and visibility more
 
 A manager can get more summaries, scores, and dashboards. That doesn't mean they're exercising better judgment. Sometimes it means they're being handed a cleaner-looking version of the same black box.
 
-That's the mechanism I want to track in this series: **the initial deployment choice usually reveals the real priority**.
+That's the mechanism I want to track in this series: **the initial deployment choice usually reveals the priority**.
 
 The same capability can be used to reduce friction, widen access, improve accountability, and make a system easier to live with.
 
@@ -115,7 +115,7 @@ The short-term wins that look impressive on a dashboard can still be harmful in 
 
 ## What good looks like
 
-The standard isn't whether the tool is impressive. It's whether it leaves people with dignity, accountability, and a way to challenge it.
+The standard is whether the tool leaves people with dignity, accountability, and a way to challenge it.
 
 Good use of AI should:
 
@@ -131,9 +131,9 @@ If AI affects a life outcome, people should get:
 
 - notice
 - a plain-language reason
-- a real path to appeal
+- a usable path to appeal
 - records that can be reviewed
-- a real human override
+- a human override with authority
 
 If a system is hard to leave, the governance should get stronger, not weaker.
 
@@ -145,7 +145,7 @@ That's where public rules, procurement standards, and hard guardrails matter mos
 
 ## What this series will cover
 
-I'm using industry-specific case studies as stress tests because these bounded cases keep the mechanism concrete, not because these are the only places AI matters. They let us look at real decisions, real harms, real incentives, and real levers without dissolving into hand-waving.
+I'm using industry-specific case studies as stress tests because these bounded cases keep the mechanism concrete, not because these are the only places AI matters. They let us look at decisions, harms, incentives, and levers without dissolving into hand-waving.
 
 Across all of them, the same questions keep coming back:
 
@@ -198,7 +198,7 @@ At the workplace level, one practical move is to audit any place where "human re
 
 If a person is technically in the loop but has no time, no records, no authority, or no safe way to override, the review is probably a formality.
 
-At the community and policy level, the lever is to push for minimum floors in high-stakes systems: clear notice, usable records, workable appeals, real override authority, and stronger protections where exit is unrealistic.
+At the community and policy level, the lever is to push for minimum floors in high-stakes systems: clear notice, usable records, workable appeals, override authority, and stronger protections where exit is unrealistic.
 
 That's the pattern I want us to get better at seeing.
 
@@ -206,7 +206,7 @@ The direction isn't complicated: **simple for the many, strict for the powerful,
 
 AI governance can't just mean model safety. It also has to mean work, pricing, due process, public accountability, and whether people still get a fair shot in ordinary life.
 
-This isn't anti-innovation, it's just basic rule-of-the-road thinking for systems that shape real lives.
+This is basic rule-of-the-road thinking for systems that shape people's lives.
 
 ## How to talk about it
 
@@ -216,11 +216,11 @@ I think the better language is calmer.
 
 Something like:
 
-"The question isn't whether AI is amazing or scary, it's whether people can still enter careers, contest decisions, and share gains."
+"The question is whether people can still enter careers, contest decisions, and share gains."
 
 Or:
 
-"If a system can change your job, your price, your claim, or your visibility it should be able to give notice, a reason, and a real path to appeal."
+"If a system can change your job, your price, your claim, or your visibility it should be able to give notice, a reason, and a usable path to appeal."
 
 That keeps the conversation where it belongs: on design, power, and whether normal people can still live with the system.
 

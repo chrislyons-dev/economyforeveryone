@@ -1,6 +1,6 @@
 ---
 title: 'Information Bubbles and Shared Reality'
-description: "When we live in different information bubbles, we don't just disagree; we struggle to agree on what's happening."
+description: 'Information bubbles can split the basic map of what happened before people ever reach the policy argument.'
 pubDate: 2026-01-28
 status: 'published'
 category: 'core-model'
@@ -29,13 +29,12 @@ I think we all agree on this: the U.S. government shouldn't violate constitution
 
 What's messing me up right now isn't even the policy debate. It's something more basic:
 
-A lot of people genuinely don't believe any violations are happening at all.
+A lot of people don't believe any violations are happening at all.
 
-Not they saw it and don't care.
-They don't think it's real.
+They didn't see it and shrug. They don't believe it happened.
 
-Even with first-hand stories. Livestreams. Consistent reports coming from a wide swath of people who
-normally don't agree on much.
+Even with first-hand stories, livestreams, and accounts from people who normally don't agree on
+much.
 
 And once you see that, you start to realize the fight isn't only about policy.
 
@@ -68,9 +67,7 @@ what it's showing.
 
 So we end up arguing about what's happening right in front of us.
 
-Not because people are stupid.
-
-Because **the sorting happened first**:
+That isn't because people are stupid. It's because **the sorting happened first**:
 
 - who we follow
 - what we see
@@ -89,11 +86,11 @@ That's the trap.
 
 I'm trying to build connection on purpose.
 
-Not grand gestures. Just human ones.
+Small human ones, repeated.
 
 ### 1) Start with values I think we share
 
-I try to start with things most decent people actually agree on:
+I try to start with things most decent people already agree on:
 
 - safety
 - dignity
@@ -112,7 +109,7 @@ Instead of here's why you're wrong, I try:
 - Here's what I'm using as my reality anchor.
 - What's yours?
 
-Not to argue, just to get on the same map.
+The point is getting on the same map before arguing.
 
 Because if we can't agree on how we know what's true, we're not having a debate.
 
@@ -128,8 +125,6 @@ Public threads turn into a stage fast. DMs stay human more often.
 
 And if it turns into dehumanizing talk, I step away.
 
-Not dramatically. Not with a speech.
-
 Just: boundary, exit, protect the relationship if I can.
 
 ## What success looks like (for me)
@@ -138,7 +133,7 @@ I'm not looking for perfect agreement.
 
 I'm looking for a thin bridge:
 
-- enough trust to ask one real question
+- enough trust to ask one honest question
 - enough respect to hear the answer
 - enough honesty to say I don't know
 
@@ -147,8 +142,7 @@ That's it.
 Because if I want to live on the same planet as the people I care about, I've got to talk like a
 neighbor.
 
-Not to win.
-To connect.
+To connect, not win.
 
 ## A small, repeatable practice (if you want to try it)
 
@@ -168,9 +162,7 @@ But I'll say this:
 
 I'm seeing better results when I do it this way.
 
-Not viral results. Not dopamine results.
-
-**Human results.**
+The results aren't viral or dopamine hits. They're human.
 
 And right now, I'll take those.
 

@@ -20,7 +20,7 @@ receiptTags:
 sourceChannel: 'economyforeveryone'
 legacyPostRef: 'monthly-squeeze-education draft'
 triage: 'promote-to-canonical'
-oneSmallAction: 'Ask: What is the safest default for borrowers here? Do: check whether the default path is actually the lowest-harm one. Share: send one plain-language explanation of a safer repayment or disclosure rule to another borrower.'
+oneSmallAction: 'Ask: What is the safest default for borrowers here? Do: check whether the default path is the lowest-harm one. Share: send one plain-language explanation of a safer repayment or disclosure rule to another borrower.'
 audience:
   - 'general-public'
   - 'borrowers'
@@ -32,8 +32,7 @@ receipts: []
 
 ## The 2-minute version
 
-The student-debt problem is not just that debt exists.
-It is that debt often comes bundled with:
+The student-debt problem is debt bundled with:
 
 - bad defaults
 - broken servicing incentives
@@ -50,7 +49,7 @@ When the guardrails fail, the payment starts functioning like a tax on having tr
 
 ## What is happening
 
-Many borrowers carry not only debt, but uncertainty too.
+Many borrowers carry debt and uncertainty.
 
 Which plan is safest?
 What happens if income changes?
@@ -75,12 +74,11 @@ borrowers choose the wrong option, get bad guidance, or give up.
 
 If federal dollars keep flowing to programs with weak results, the system can produce recruitment plus debt without durable mobility.
 
-That is not access.
-That is risk-shifting with better branding.
+Access without outcome gates becomes risk-shifting with better branding.
 
 ### 3) Policy churn is part of the harm
 
-Promised relief that gets delayed, litigated, reversed, or reworked does not just frustrate people.
+Promised relief that gets delayed, litigated, reversed, or reworked does more than frustrate people.
 It makes planning impossible.
 That compounds the squeeze and corrodes trust.
 
@@ -97,8 +95,7 @@ What that looks like:
 
 Defaults are destiny; the default must be safe.
 
-This is not anti-college.
-It is anti-trap.
+The target is the trap, not college.
 
 ## What we can do that is practical
 
@@ -109,7 +106,7 @@ For this series, **short-term** means moves that can start now or within the nex
 - make the safest repayment plan the one people get by default, instead of the one they have to discover after making mistakes
 - put firm deadlines on relief processing so borrowers are not left waiting in limbo for months or years
 - check eligibility along the way so people do not spend years doing what they were told and then learn late that the paperwork was wrong
-- pay loan servicers for getting borrowers into the right outcome, not just for moving calls through a system
+- pay loan servicers for getting borrowers into the right outcome, instead of only moving calls through a system
 
 ### Medium-term
 
@@ -121,7 +118,7 @@ For this series, **short-term** means moves that can start now or within the nex
 
 - let borrowers keep the terms they planned their lives around instead of changing the rules after they are already deep into repayment
 - make repayment work more like the tax system where possible so people are not managing a second bureaucratic life just to stay current
-- build real alternatives to degree inflation through apprenticeships, skills routes, and other paths that lead to work without loading people up with debt first
+- build strong alternatives to degree inflation through apprenticeships, skills routes, and other paths that lead to work without loading people up with debt first
 
 The right question is not whether every college path is good.
 It is whether the system is honest enough and simple enough for people to make adult decisions without needing a compliance department.
@@ -130,7 +127,7 @@ It is whether the system is honest enough and simple enough for people to make a
 
 The bridge line here is:
 
-**I am not anti-college. I am anti-trap.**
+**I am anti-trap, not anti-college.**
 
 That sentence keeps the argument where it belongs:
 on servicing incentives, complexity, outcome gates, and rule stability.
@@ -144,7 +141,7 @@ That is why the financing and servicing rules matter so much.
 This is the education version of the same trap described in the [Core Model](/core-model/):
 
 - more [monthly squeeze](/core-model/) because debt, bad defaults, and rule churn keep pulling money and attention out of the household
-- less [real choice](/core-model/) when borrowers cannot tell which path is safe or what the rules will be next year
+- less [usable choice](/core-model/) when borrowers cannot tell which path is safe or what the rules will be next year
 - more [complexity as a hidden tax](/core-model/) through repayment plans, servicing friction, and relief processes that normal people can barely navigate
 - weaker [guardrails that actually bite](/core-model/) when bad outcomes can keep repeating without fast correction
 
@@ -153,7 +150,7 @@ This is the education version of the same trap described in the [Core Model](/co
 If the north star is a society where ordinary households have breathing room, education has to move in this direction:
 
 - more [security](/core-model/) because trying to build a future should not become a long debt trap
-- more [real choice](/core-model/) because students and borrowers need honest information before they commit
+- more [informed choice](/core-model/) because students and borrowers need honest information before they commit
 - more [fair competition](/core-model/) because schools and servicers should not profit from confusion and weak outcome gates
 - more [shared gains](/core-model/) because education should widen opportunity instead of shifting more downside onto households
 

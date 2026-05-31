@@ -1,6 +1,6 @@
 ---
 title: "The Creator's Gate"
-description: "When content gets cheap, the hard part isn't making it anymore. The hard part is getting found, trusted, and paid inside systems you don't control."
+description: 'When content gets cheap, creators still have to get found, trusted, and paid inside platform gates they do not control.'
 pubDate: 2026-05-05
 status: 'published'
 category: 'perspectives'
@@ -51,21 +51,21 @@ Creators end up paying twice.
 
 First through economic displacement. The price floor drops. Commissions dry up. A survey of UK illustrators found more than 32% had already lost work to AI, averaging over GBP 9,000 per affected artist. For translators, the risk is higher - one projection puts 56% of revenue at risk in that role by 2028. Entry-level gigs disappear first, because "close enough" gets cheap enough fastest there.
 
-Then through something harder to measure but just as damaging: authenticity collapse. Once people stop trusting what they're looking at, creators have to spend energy proving their work is human. And the tools being used to flag AI-generated content have documented false-positive rates. A photographer was disqualified from a contest after their actual work was flagged as synthetic.
+Then through something harder to measure but just as damaging: authenticity collapse. Once people stop trusting what they're looking at, creators have to spend energy proving their work is human. And the tools being used to flag AI-generated content have documented false-positive rates. A photographer was disqualified from a contest after their own work was flagged as synthetic.
 
 Both are documented. They're also different problems with different remedies.
 
 ## What good looks like
 
-The ask isn't "stop AI." It's: govern the gate that got more important when content got cheap.
+The ask is to govern the gate that got more important when content got cheap.
 
 That means three things at minimum.
 
 **Consent before training.** At minimum, creators need an enforceable way to say no - not a voluntary registry that some platforms honor and others don't. The EU AI Act moves in that direction through a machine-readable opt-out obligation, though enforcement is not yet proven. The US has no equivalent. That gap matters.
 
-**Provenance at the point of discovery.** AI-generated content should carry a label where audiences actually see it - at the listing, the search result, the stream. Not buried in a description field. Not disclosed only in a press release after backlash. At the point of discovery. This isn't about punishing AI content. It's about letting audiences actually choose.
+**Provenance at the point of discovery.** AI-generated content should carry a label where audiences see it - at the listing, the search result, the stream. Not buried in a description field. Not disclosed only in a press release after backlash. At the point of discovery. The point is letting audiences choose.
 
-**Contestable ranking.** Platforms that control a creator's primary discovery path should have auditable, appealable systems for ranking and takedown decisions. Right now if anything is available at all, it often looks like a form, a delay, and no clear explanation. That's not meaningful recourse.
+**Contestable ranking.** Platforms that control a creator's primary discovery path should have auditable, appealable systems for ranking and takedown decisions. Right now if anything is available at all, it often looks like a form, a delay, and no clear explanation. That's not usable recourse.
 
 Some of this is moving. The WGA negotiated hard floors in 2023: AI can't be credited as a writer, companies must disclose when materials given to writers were AI-generated. SAG-AFTRA won explicit consent requirements before studios can replicate a performer's voice or likeness. Those are durable gains inside specific contracts.
 
@@ -85,7 +85,7 @@ When you lose ranking or get a takedown, ask in writing for the specific reason.
 
 Push for consumer-facing provenance labels. A disclosure buried in a description field is not a label. The minimum is disclosure at the point of discovery.
 
-Support opt-out with teeth - enforceable, not voluntary. Monitor whether the EU AI Act's opt-out requirement actually gets enforced. Advocate for equivalent US legislation.
+Support opt-out with teeth - enforceable, not voluntary. Monitor whether the EU AI Act's opt-out requirement gets enforced. Advocate for equivalent US legislation.
 
 Back contestable ranking. Platforms that control primary discovery should have auditable, appealable systems. That's a regulatory ask, not something platforms will build voluntarily.
 
@@ -113,7 +113,7 @@ Governance is what closes that gap. Not reversal. Governance.
 
 ## One steady action this week
 
-Pick one platform that controls your primary discovery path - your main search feed, your distribution service, your marketplace - and find out what their current policy is on AI content labeling and training data opt-out. Write it down. Then check whether what they say matches what they actually do.
+Pick one platform that controls your primary discovery path - your main search feed, your distribution service, your marketplace - and find out what their current policy is on AI content labeling and training data opt-out. Write it down. Then check whether what they say matches what they do.
 
 ## Action ladder
 
@@ -124,7 +124,7 @@ Pick one platform that controls your primary discovery path - your main search f
 
 **Medium term**
 
-- `Creators and creator communities:` Coordinate around a small set of shared demands: visible AI labeling at discovery, real opt-out mechanisms, and appeal paths for ranking or takedown decisions. One person complaining is easy to ignore. Organized creators are harder to dismiss.
+- `Creators and creator communities:` Coordinate around a small set of shared demands: visible AI labeling at discovery, enforceable opt-out mechanisms, and appeal paths for ranking or takedown decisions. One person complaining is easy to ignore. Organized creators are harder to dismiss.
 - `Institutions, festivals, and marketplaces:` Require provenance disclosure and contestable review in the spaces you control. If you host competitions, directories, grants, or discovery systems, make the rules visible and appealable.
 
 **Long term**

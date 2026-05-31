@@ -28,19 +28,19 @@ Overall score uses: `++=+2, +=+1, 0=0, -=-1, --=-2`
 
 ## What the numbers mean (and do not mean)
 
-These scores are a structured judgment aid, not an objective measurement.
+These scores are a structured judgment aid with room for disagreement.
 
 What they mean:
 
 - They summarize directional fit against E4E criteria.
 - They help compare frameworks consistently on the same dimensions.
-- They force tradeoffs to be explicit instead of rhetorical.
+- They force tradeoffs into plain language.
 
 What they do not mean:
 
-- They are not empirical proof that one family is "correct."
-- They are not a forecast of policy outcomes.
-- They are not stable forever; scores should change when evidence or implementation patterns change.
+- They do not prove that one family is "correct."
+- They do not forecast policy outcomes.
+- They should change when evidence or implementation patterns change.
 
 How to read score distance:
 
@@ -52,7 +52,7 @@ Update discipline:
 
 - Re-score when major new evidence enters `08-case-studies/`.
 - Log substantive score changes and rationale in `07-notes/decisions-log.md`.
-- If confidence is low on a category, keep score but add a note rather than forcing certainty.
+- If confidence is low on a category, keep score and add a note about uncertainty.
 
 ## Grid view
 
@@ -76,11 +76,11 @@ Update discipline:
 
 ## How to use this file
 
-Use this as a comparison lens, not an identity label.
+Use this as a comparison lens.
 
 Ask of any framework:
 
 1. Does it lower the monthly squeeze?
-2. Does it increase real options and contestability?
+2. Does it increase practical choices and contestability?
 3. Does it build capacity without capture?
 4. Does it preserve dignity and anti-scapegoating norms?

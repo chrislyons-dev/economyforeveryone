@@ -11,13 +11,14 @@ topics:
 receipts: []
 ---
 
-When enforcement expands while transparency and court compliance are shaky, that's a red light. The answer isn't panic. It's early guardrails: oversight, evidence access, and court orders that actually mean something.
+When enforcement expands while transparency and court compliance are shaky, that's a red light. The answer is early guardrails: oversight, evidence access, and court orders with teeth.
 
 ## What's happening
 
 ICE is expanding its footprint and becoming more embedded in communities.
 
-At the same time, there are repeated signals of unlawful detention findings and serious accountability questions around use of force.
+At the same time, court findings and reporting have raised detention and use-of-force accountability
+questions.
 
 When those move together - **more power, fewer limits** - it's a guardrails issue, not a partisan sport.
 
@@ -27,7 +28,7 @@ A system can be "busy" and still be lawful.
 
 But when:
 
-- court orders don't reliably translate into real-world release,
+- court orders don't reliably translate into prompt release,
 - investigators can't access evidence,
 - and enforcement grows faster than oversight,
 

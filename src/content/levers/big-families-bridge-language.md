@@ -14,7 +14,7 @@ tags:
 
 _A bridge-language guide for "An Economy for Everyone"_
 
-**Tagline:** **A strong middle class is not a reward for a healthy economy. It's what makes one possible.**
+**Tagline:** **A healthy economy starts with a strong middle class.**
 
 ## What this is
 
@@ -26,15 +26,15 @@ A set of copy-pasteable phrases that:
 
 ## What E4E is (in one breath)
 
-E4E is a practical way to ask:  
-**How do we reduce the monthly squeeze, increase real options, and protect dignity without getting captured by powerful interests or scapegoating people?**
+E4E is a practical way to ask:
+**How do we reduce the monthly squeeze, increase practical choices, and protect dignity without getting captured by powerful interests or scapegoating people?**
 
 ## The two loops (say it simply)
 
-**The trap loop we're stuck in:**  
+**The trap loop we're stuck in:**
 monthly squeeze -> insecurity -> easier manipulation / scapegoats -> division -> no fixes -> more squeeze
 
-**The replacement loop E4E wants:**  
+**The replacement loop E4E wants:**
 security -> choice -> competition -> shared gains -> more security
 
 ## The 4-question lens (use this in any debate)
@@ -42,7 +42,7 @@ security -> choice -> competition -> shared gains -> more security
 When someone pitches a policy (left/right/center/none), ask:
 
 1. **Does it lower the monthly squeeze** in essentials (housing, healthcare, childcare, education, transport)?
-2. **Does it increase real options** (can regular people actually switch jobs, providers, or housing)?
+2. **Does it increase practical choices** (can regular people switch jobs, providers, or housing)?
 3. **Does it build capacity without capture** (no rigged markets, no insider-only complexity)?
 4. **Does it protect dignity** (no scapegoats; due process; fair rules)?
 
@@ -54,11 +54,11 @@ If a proposal cannot answer these, it might be well-intended, but it is probably
 
 ## Script A: "Outcomes over labels" (default)
 
-> "I'm not attached to a label. I'm attached to a few outcomes: lower cost and volatility in essentials, real competition, and guardrails that treat people fairly. If a policy helps those, I'm interested."
+> "I care less about labels than outcomes: lower cost and volatility in essentials, open competition, and guardrails that treat people fairly. If a policy helps those, I'm interested."
 
 ## Script B: "Human-aligned, not tribe-aligned"
 
-> "I'm not trying to be left or right. I'm trying to be human. People need stability. Work should pay. Essentials shouldn't feel like a casino. And nobody should be used as a scapegoat."
+> "I'm trying to stay human before I pick a team. People need stability. Work should pay. Essentials shouldn't feel like a casino. And nobody should be used as a scapegoat."
 
 ## Script C: "I'm checking my own brain, too"
 
@@ -66,11 +66,11 @@ If a proposal cannot answer these, it might be well-intended, but it is probably
 
 ## Script D: "Common ground first"
 
-> "I think most of us want the same basics: a fair shot, rules that apply to everyone, and a system that doesn't reward cheating. My focus is: what actually lowers the squeeze and prevents rigging?"
+> "I think most of us want the same basics: a fair shot, rules that apply to everyone, and a system that doesn't reward cheating. My focus is: what lowers the squeeze and prevents rigging?"
 
 ## Script E: "Competence + simplicity"
 
-> "If it only works with perfect administrators and perfect paperwork, it won't work. Simplicity isn't a nice-to-have. It's how regular people actually get the benefit."
+> "If it only works with perfect administrators and perfect paperwork, it won't work. Simplicity isn't a nice-to-have. It's how regular people get the benefit."
 
 ---
 
@@ -78,11 +78,11 @@ If a proposal cannot answer these, it might be well-intended, but it is probably
 
 Use these when someone comes in hot.
 
-- "We might disagree on the cause, but can we agree the squeeze is real?"
+- "We might disagree on the cause, but can we agree the squeeze is hitting people?"
 - "Let's separate what happened from why we think it happened."
 - "What would we measure in six months to know if this is working?"
 - "I'm open to being wrong. What evidence would change your mind?"
-- "Can we name the tradeoff out loud instead of pretending it's free?"
+- "Can we name the tradeoff out loud?"
 
 ---
 
@@ -107,7 +107,7 @@ Swap with:
 
 ## Text message to a friend
 
-> "I'm trying a framework that's not partisan. I just ask: does it lower the monthly squeeze, increase real options, and protect dignity without scapegoating? If you're up for it, I'd love to compare notes."
+> "I'm trying a framework that starts outside the partisan lanes. I just ask: does it lower the monthly squeeze, increase practical choices, and protect dignity without scapegoating? If you're up for it, I'd love to compare notes."
 
 ## Comment on a heated thread
 
@@ -115,7 +115,7 @@ Swap with:
 
 ## Short "about me" line
 
-> "I'm not a partisan economist. I'm a monthly-squeeze realist."
+> "I'm a monthly-squeeze realist."
 
 ## "Agree to disagree" exit (clean and kind)
 
@@ -135,7 +135,7 @@ Swap with:
 ## Healthcare
 
 - Lower squeeze: predictable costs + fewer surprise bills
-- Options: real provider choice; less insurer gatekeeping
+- Options: practical provider choice; less insurer gatekeeping
 - Anti-capture: curb opaque denial; reduce admin burden
 - Dignity: humane access + accountability
 
@@ -143,14 +143,14 @@ Swap with:
 
 - Lower squeeze: lower weekly cost, more slots
 - Options: less waiting, more providers
-- Anti-capture: stable funding and rules people can actually use
+- Anti-capture: stable funding and rules people can use
 - Dignity: treat caregivers like skilled workers; treat families like adults
 
 ---
 
 # One steady thing to do this week
 
-Pick **one essential** that's squeezing you (housing, healthcare, childcare, transport).  
+Pick **one essential** that's squeezing you (housing, healthcare, childcare, transport).
 Write one sentence each for:
 
 - what would lower the squeeze
@@ -158,4 +158,4 @@ Write one sentence each for:
 - what guardrail prevents capture
 - how to keep it dignity-first
 
-That's a real conversation starter that doesn't require a tribe.
+That starts a conversation without requiring a tribe.

@@ -1,6 +1,6 @@
 ---
 title: 'Small Guardrails, Big Consequences'
-description: 'Democracies rarely die all at once. They erode when small rule changes, courts, and accountability stop working in real time.'
+description: 'Small rule changes become dangerous when courts and accountability stop working fast enough to matter.'
 pubDate: 2026-01-25
 status: 'published'
 category: 'guardrails'
@@ -70,7 +70,7 @@ Here are **5 things I'm watching**, with **one steady action** for each.
 
 ### 2) Courts + enforcement restraint
 
-**Watch:** whether courts can still set fast, real boundaries when enforcement gets aggressive around
+**Watch:** whether courts can still set fast, enforceable boundaries when enforcement gets aggressive around
 protest/observation
 **I'm doing:** learning my rights ahead of time; supporting due process for everyone
 
@@ -112,7 +112,7 @@ A system can still look like a system while it stops behaving like one.
 - new rules that make loyalty a job requirement without ever using the word
 
 **Steady action:**
-Before sharing a claim, read the underlying document (or the court filing, or the actual memo) once.
+Before sharing a claim, read the underlying document (or the court filing, or the source memo) once.
 Even five minutes helps.
 
 ---
@@ -120,7 +120,7 @@ Even five minutes helps.
 ### 2) Courts + enforcement restraint
 
 **Why it matters:**
-Rights aren't just words. They depend on whether people can enforce them in real time.
+Rights aren't just words. They depend on whether people can enforce them while it still matters.
 
 If the practical cost of exercising a right goes up, delays, intimidation, vague threats, the right
 shrinks even if the Constitution doesn't change.

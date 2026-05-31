@@ -1,6 +1,6 @@
 ---
 title: 'Hospitals: The Complexity Tax Inside American Healthcare'
-description: 'American hospital care is not just expensive. It routes money through billing, contracting, denials, and debt collection before it reaches care, and that complexity tax lands on patients and clinicians alike.'
+description: 'American hospital care routes money through billing, contracting, denials, and debt collection before it reaches care. That complexity tax lands on patients and clinicians alike.'
 pubDate: 2026-03-10
 status: 'published'
 category: 'big-costs'
@@ -32,12 +32,11 @@ receipts: []
 
 ## The 2-minute version
 
-The hospital problem is not just that care is expensive.
-It is that the system routes an enormous amount of money through billing, contracting, denial management, and collections before it ever reaches bedside care.
+The hospital problem is the routing: an enormous amount of money moves through billing, contracting, denial management, and collections before it ever reaches bedside care.
 
 That creates a predictable pattern:
 
-- patients cannot know the real price in advance
+- patients cannot know the all-in price in advance
 - insurers and hospital systems fight through contract and prior-auth mazes
 - clinicians lose time to documentation and denial churn
 - medical debt lands on households after the fact
@@ -97,13 +96,13 @@ A better hospital system would not require patients to become billing specialist
 
 What that looks like:
 
-- **Legible prices:** patients can see real expected costs, not fake list-price theater
+- **Legible prices:** patients can see usable expected costs, not fake list-price theater
 - **Lower admin load:** less coding and denial churn between patient need and patient care
 - **Cleaner market structure:** less unchecked consolidation in local hospital markets
 - **Debt protections with teeth:** getting sick should not function as a long-tail credit event
-- **Fast, boring guardrails:** transparency, timelines, disclosure, and enforcement that actually move behavior
+- **Fast, boring guardrails:** transparency, timelines, disclosure, and enforcement that move behavior
 
-Again, this needs to stay grounded in what can actually be done.
+Again, this needs to stay grounded in what can be done.
 It is just a healthcare system that wastes less money on the tollbooths.
 
 ## What we can do that is practical
@@ -113,15 +112,15 @@ For this series, **short-term** means moves that can start now or within the nex
 ### Short-term
 
 - fine hospitals that ignore price-transparency rules enough that breaking the rule stops being cheaper than following it
-- check whether posted prices are actually usable and accurate, not just whether a file exists somewhere on a website
+- check whether posted prices are usable and accurate, instead of only checking whether a file exists somewhere on a website
 - require faster prior-auth responses and plain-language denial notices that tell people what happened and what they can do next
-- bring back protections so medical debt does less long-term damage to people’s credit and daily life
-- publish denial, appeal, and overturn rates in one place where patients, employers, and reporters can actually find them
+- bring back protections so medical debt does less long-term damage to people's credit and daily life
+- publish denial, appeal, and overturn rates in one place where patients, employers, and reporters can find them
 
 ### Medium-term
 
 - give bigger hospital mergers a much harder review before more local pricing power gets locked in
-- require nonprofit hospitals to meet real charity-care and community-benefit standards if they want the tax break
+- require nonprofit hospitals to meet enforceable charity-care and community-benefit standards if they want the tax break
 - let clinicians or groups with a strong approval track record skip some prior-auth hurdles instead of refiling the same paperwork forever
 - compare how much large hospital systems spend on billing and paperwork so the public can see who is adding the most complexity
 
@@ -143,8 +142,8 @@ The bridge sentence here is simple:
 That keeps the argument focused on mechanism.
 It avoids the fake choice between hospitals are greedy and everything is just expensive now.
 
-Some hospitals are genuinely under pressure.
-That does not make the complexity layer less real.
+Some hospitals are under pressure too.
+That does not make the complexity layer less damaging.
 It makes fixing it more urgent.
 
 ## How this reinforces the problem loop
@@ -152,7 +151,7 @@ It makes fixing it more urgent.
 This is the healthcare version of the same trap described in the [Core Model](/core-model/):
 
 - more [monthly squeeze](/core-model/) because one hospital episode can destabilize the whole month
-- less [real choice](/core-model/) when patients cannot shop, switch, or walk away in time
+- less [usable choice](/core-model/) when patients cannot shop, switch, or walk away in time
 - more [complexity as a hidden tax](/core-model/) through billing churn, prior auth, and debt collection
 - weaker [guardrails that actually bite](/core-model/) when opacity and consolidation let the tollbooths keep multiplying
 
@@ -161,7 +160,7 @@ This is the healthcare version of the same trap described in the [Core Model](/c
 If the north star is a society where ordinary households have breathing room, healthcare has to move in this direction:
 
 - more [security](/core-model/) because getting sick should not trigger a second crisis in billing and debt
-- more [real choice](/core-model/) because patients need usable prices and cleaner exits from bad arrangements
+- more [usable choice](/core-model/) because patients need clear prices and cleaner exits from bad arrangements
 - more [fair competition](/core-model/) because concentrated hospital markets should not be able to charge whatever confusion allows
 - more [shared gains](/core-model/) because money spent on care should reach care more directly
 

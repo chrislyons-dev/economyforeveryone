@@ -1,6 +1,6 @@
 ---
 title: "When Building Gets Cheaper but Breaking In Doesn't"
-description: 'AI can lower the cost of building something new without lowering the procurement, trust, and certification gates that decide who survives.'
+description: 'AI can lower the cost of building something new while leaving the gates that decide who survives mostly intact.'
 pubDate: 2026-03-31
 earlyRelease: true
 status: 'published'
@@ -19,7 +19,7 @@ receiptTags:
 sourceChannel: 'economyforeveryone'
 legacyPostRef: '1-lower-walls-harder-gates'
 triage: 'promote-to-canonical'
-oneSmallAction: 'Before your organization renews a bundled vendor or service contract, ask what alternatives were actually evaluated and why they were rejected.'
+oneSmallAction: 'Before your organization renews a bundled vendor or service contract, ask what alternatives were evaluated and why they were rejected.'
 audience:
   - 'general-public'
   - 'practitioners'
@@ -39,17 +39,17 @@ In a different corner of the same market, a solo employment lawyer can draft fas
 
 That opening scene is the case in miniature.
 
-This isn't a story about AI failing to help people make things. It's a story about what happens when AI lowers the wall to build without lowering the procurement, trust, certification, and distribution walls that decide who survives.
+AI can lower the wall to build while leaving the procurement, trust, certification, and distribution walls in place.
 
 ## What's happening
 
 AI is making it easier for small teams and solo builders to produce software, research, decks, legal drafts, and creative work that used to require much larger teams.
 
-That part is real.
+That part is happening.
 
 What hasn't changed at the same speed is the gate between building something and getting paid for it: procurement bundles, trust, liability coverage, platform defaults, certification costs, and distribution relationships.
 
-So the market can look more open at the production layer while staying closed where survival is actually decided.
+So the market can look more open at the production layer while staying closed where survival is decided.
 
 That's the pattern: more people can reach the gate, but the gate itself doesn't move. This is the harder-gates story: the problem is not that buyers want to build internally, but that new entrants still have to clear the old trust and procurement stack.
 
@@ -83,29 +83,29 @@ A market can look newly open because more people can make viable products or via
 
 That doesn't mean it's newly contestable.
 
-If the dominant vendors are already in the contract, already certified, already trusted, or already embedded in the workflow, then cheaper production mostly increases pressure below the gate instead of real competition above it.
+If the dominant vendors are already in the contract, already certified, already trusted, or already embedded in the workflow, then cheaper production mostly increases pressure below the gate instead of contestable competition above it.
 
-That's why this story isn't just about startups. It's about market structure.
+That's why this story is about market structure, not only startups.
 
 ## What good looks like
 
 What good looks like isn't a world where every displaced worker becomes a founder.
 
-It is a world where lower production costs are matched by more contestable procurement, more neutral distribution, more realistic certification paths, and enough buyer discipline that alternatives actually get evaluated.
+It is a world where lower production costs are matched by contestable procurement, neutral distribution, realistic certification paths, and enough buyer discipline that alternatives get evaluated.
 
 In software, that means structural gates like bundling, platform defaults, and compliance floors become more contestable. In professional services, it means relational gates like trust, liability coverage, credentials, and buyer inertia stop functioning as lock-in by default.
 
-There is a better version of this. AI could make procurement less inertial by lowering the cost of a real market scan: finding alternatives faster, comparing capabilities more consistently, and reducing the time it takes to evaluate smaller vendors. That would help buyers make better decisions and help competition by making it cheaper to compare rather than cheaper to renew by default.
+There is a better version of this. AI could make procurement less inertial by lowering the cost of a documented market scan: finding alternatives faster, comparing capabilities more consistently, and reducing the time it takes to evaluate smaller vendors. That would help buyers make better decisions and help competition by making it cheaper to compare rather than cheaper to renew by default.
 
 If the market can't compare alternatives in practice, then the gains from cheaper production will mostly pool upward.
 
 ## What to do
 
-If you're evaluating software or professional services, ask one question before a renewal: **what alternatives were actually evaluated?**
+If you're evaluating software or professional services, ask one question before a renewal: **what alternatives were evaluated?**
 
 If the answer is "it's already in the contract" or "we've always used them," then you're looking at the gate in plain sight.
 
-If you're a builder, founder, or independent professional, define the gate before you define the product roadmap. The build problem isn't always the real problem.
+If you're a builder, founder, or independent professional, define the gate before you define the product roadmap. The build problem isn't always the hard problem.
 
 And if you're a buyer, treat that as a warning about your own process too. Procurement should not default to the vendor already in the bundle just because that path is administratively easier.
 
@@ -115,7 +115,7 @@ And if you're a buyer, treat that as a warning about your own process too. Procu
 
 Or:
 
-"The problem isn't that new entrants can't make things. The problem is that the channel between making and getting paid is still controlled by the same gates."
+"New entrants can make more things now. The channel between making and getting paid is still controlled by the same gates."
 
 ## One steady action to take this week
 
@@ -127,12 +127,12 @@ That one question makes renewal-by-default visible.
 
 **Short term**
 
-- `Buyers:` Before one renewal this month, ask what alternatives were actually evaluated and why they were rejected.
+- `Buyers:` Before one renewal this month, ask what alternatives were evaluated and why they were rejected.
 - `Builders and independent professionals:` Define the gate before you define the roadmap. Name the trust, certification, procurement, or distribution barrier up front.
 
 **Medium term**
 
-- `Procurement and operating leaders:` Require one real alternative review before major renewals so bundled incumbents do not win by default.
+- `Procurement and operating leaders:` Require one documented alternative review before major renewals so bundled incumbents do not win by default.
 - `Smaller vendors and professional firms:` Build shared trust materials - references, security documentation, liability coverage clarity, and certifications - so the gate gets easier to inspect and compare.
 
 **Long term**

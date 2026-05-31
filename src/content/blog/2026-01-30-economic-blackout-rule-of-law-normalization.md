@@ -25,7 +25,7 @@ audience:
 receipts: []
 ---
 
-When courts say "follow the law" and an agency shrugs, the tools left to regular people are witness, protest, and persistence. The goal isn't rage. It's rights that still work in real life.
+When courts say "follow the law" and an agency shrugs, the tools left to regular people are witness, protest, and persistence. The goal is usable rights, not rage.
 
 ## What's happening
 
@@ -39,15 +39,15 @@ People keep asking: "Other presidents deported more people - where were the prot
 
 Numbers alone don't capture category differences.
 
-From where I'm standing, the concern isn't "immigration enforcement exists."
-It's open contempt for the rule of law and intimidation as a tactic.
+From where I'm standing, the concern is open contempt for the rule of law and intimidation as a
+tactic.
 
 When court orders pile up and compliance becomes optional, that's not normal politics.
 That's a guardrails problem.
 
 ## What good looks like
 
-- Courts that can set fast, real boundaries
+- Courts that can set fast, enforceable boundaries
 - Enforcement that complies promptly and transparently
 - The public's right to observe and protest without retaliation
 - Local institutions that document and enforce the boring rules

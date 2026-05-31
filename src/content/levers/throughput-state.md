@@ -28,11 +28,8 @@ The case studies keep finding the same failure:
 - a relief path exists, but processing delays function like denial
 - a permit is legal, but the delivery system is too slow or discretionary to matter
 
-This is not just "bureaucracy is annoying."
-It is a real economic bottleneck.
-
-When the state cannot move work through the system, scarcity stays in place and private actors extract inside the delay.
-But speed alone is not enough. In low-exit systems, delays and opaque processing can function like denial, so delivery has to include contestability, not just throughput.
+This creates an economic bottleneck. When the state cannot move work through the system, scarcity stays in place and private actors extract inside the delay.
+But speed alone is not enough. In low-exit systems, delays and opaque processing can function like denial, so delivery has to include contestability alongside throughput.
 
 ## Where this shows up
 
@@ -44,7 +41,7 @@ But speed alone is not enough. In low-exit systems, delays and opaque processing
 ## Core design principles
 
 1. **Time limits**
-   - a request should have a deadline, not a vague future
+   - a request should have a deadline and a named next step
 
 2. **Default paths**
    - the safest or lowest-friction option should be the default where possible
@@ -59,12 +56,12 @@ But speed alone is not enough. In low-exit systems, delays and opaque processing
    - missed deadlines, repeat approvals, or consistent patterns should trigger simplified handling
 
 6. **Contestable decisions**
-   - if the system says no, the person needs notice, reason, records, appeal, and a real human override path
+   - if the system says no, the person needs notice, reason, records, appeal, and a human override path
 
 ## What good looks like
 
 - people can estimate how long a process will take
-- delays are visible instead of hidden
+- delays are visible
 - relief and approvals arrive before the damage becomes permanent
 - regulators and the public can see whether capacity is improving
 
@@ -81,12 +78,10 @@ But speed alone is not enough. In low-exit systems, delays and opaque processing
 
 ## Guardrail
 
-Throughput is not the same thing as rubber-stamping.
-A faster system still needs due process, safety standards, and meaningful review.
+Throughput still needs due process, safety standards, and meaningful review.
 If a system gets faster for the institution while becoming harder for the affected person to inspect or challenge, this lever is being used badly.
 
-The goal is not less governance.
-It is governance that can actually deliver.
+The goal is governance that can deliver.
 
 ## Connection to E4E model concepts
 

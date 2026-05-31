@@ -39,8 +39,7 @@ It is a stack of problems that reinforce each other:
 - education, training, and debt
 - transportation
 
-These are not just expensive things.
-They are the bills people cannot easily opt out of.
+These are the bills people cannot easily opt out of.
 When they rise faster than wages, or become harder to navigate, they do more than empty a checking account.
 They reduce choice.
 They increase fear.
@@ -96,7 +95,7 @@ When people cannot easily leave, the system starts to tolerate:
 - junk fees
 - delays
 - leverage tactics
-- coordination that weakens real competition
+- coordination that weakens fair competition
 
 This is not always a dramatic villain story.
 Sometimes it is just a rule set that quietly rewards taking more from people who have fewer exits.
@@ -129,16 +128,16 @@ That is how normal people end up feeling constantly behind even when they are wo
 ## What good looks like
 
 Across all five costs, the goal is not perfection.
-It is a system that gives ordinary households more real options and fewer traps.
+It is a system that gives ordinary households more usable options and fewer traps.
 
 What that usually looks like:
 
-- more real choice
+- more usable choice
 - clearer all-in pricing
 - lower switching friction
 - faster, simpler rules
-- more capacity where people actually need it
-- enforcement that reaches the powerful, not just the easy targets
+- more capacity where people need it
+- enforcement that reaches the powerful, instead of only the easy targets
 
 Different sectors need different specifics.
 But the direction is consistent.
@@ -152,12 +151,12 @@ For this series, **short-term** means moves that can start now or within the nex
 - require clearer all-in pricing in the markets people cannot easily avoid
 - remove obvious fee traps, paperwork loops, and other friction that make basic services harder to use
 - go after the worst forms of coordination, lock-in, and abuse instead of waiting until the damage is normal
-- publish simple dashboards so people can tell whether approvals, access, and prices are actually improving
+- publish simple dashboards so people can tell whether approvals, access, and prices are improving
 
 ### Medium-term
 
 - expand supply and capacity in the systems people rely on most, especially where shortages are already obvious
-- make infrastructure, staffing, and delivery systems match how people really live and where demand actually is
+- make infrastructure, staffing, and delivery systems match how people live and where demand is
 - reduce the veto points and procedural games that let scarcity drag on long after everyone can see the problem
 
 ### Long-term
@@ -167,7 +166,7 @@ For this series, **short-term** means moves that can start now or within the nex
 - design systems ordinary people can use without needing a lawyer, consultant, or full-time navigator
 
 The right test is not whether a proposal sounds ambitious.
-It is whether it lowers squeeze, increases real options, and can be implemented without creating a fresh layer of maze-like bureaucracy.
+It is whether it lowers squeeze, increases usable options, and can be implemented without creating a fresh layer of maze-like bureaucracy.
 
 ## A fair way to talk about it
 
@@ -197,10 +196,10 @@ The whole point of this summary is that the same [problem loop](/core-model/) ke
 
 ## How this moves toward the north star
 
-If the north star is a strong middle class with real breathing room, the shared direction is straightforward:
+If the north star is a strong middle class with breathing room, the shared direction is straightforward:
 
 - more [security](/core-model/) so one bad bill does not destabilize the rest of the month
-- more [real choice](/core-model/) so people can switch, wait, or walk away from bad deals
+- more [usable choice](/core-model/) so people can switch, wait, or walk away from bad deals
 - more [fair competition](/core-model/) so low-choice systems stop acting like extraction machines
 - more [shared gains](/core-model/) so broad stability reinforces the next round of good decisions
 

@@ -1,6 +1,6 @@
 ---
 title: 'Guardrails: Dignity, due process, and the danger of normalization'
-description: 'Dignity and due process are baseline democratic guardrails, and normalization is what weakens them over time.'
+description: 'Dignity and due process need clear boundaries before repeated excuses make the unacceptable feel routine.'
 pubDate: 2026-02-24
 updatedDate: 2026-02-24
 status: 'published'
@@ -26,11 +26,14 @@ audience:
 receipts: []
 ---
 
-A simple line should be easy: human dignity, due process, and "no Nazi crap." When leaders wave off signals and "jokes," they make room for worse. This is about accountability, not name-calling.
+A simple line should be easy: human dignity, due process, and "no Nazi crap." When leaders wave off
+extremist winks and "jokes," they make room for worse. This is about accountability, not
+name-calling.
 
 ## What's happening
 
-Some signals are meant to be tested in public: slogans, winks, "just joking," and the slow pressure to shrug and move on.
+Some extremist cues are tested in public: slogans, winks, "just joking," and the slow pressure to
+shrug and move on.
 
 The danger isn't one headline. It's the drip: the cost of speaking up goes up, and the cost of staying quiet goes down.
 
@@ -38,7 +41,8 @@ The danger isn't one headline. It's the drip: the cost of speaking up goes up, a
 
 "Normalization" is how a democracy's immune system gets tired.
 
-If leaders won't clearly condemn extremist signals and shut them down, they're effectively saying: _this is within bounds now._
+If leaders won't clearly condemn extremist cues and shut them down, they're effectively saying:
+_this is within bounds now._
 
 That shifts the line for everyone else.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'AI Context Architecture and Auditability'
 claim: 'AI agent reliability and accountability depend on context architecture: what information is retrieved, ranked, excluded, logged, and made available for review.'
 typeId: 'independent-analysis'
@@ -7,6 +7,7 @@ linkedCaseSlugs:
   - 'automated-denials-accountability-gap'
 linkedPostSlugs:
   - '2026-05-19-the-prompt-is-the-ui'
+  - '2026-05-26-you-cant-review-what-you-cant-see'
 tags:
   - 'ai'
   - 'context-engineering'
@@ -31,20 +32,20 @@ sources:
 **Mode:** case_research
 **Status:** Ready for economy-writer (case_study mode)
 **Date:** 2026-05-12
-**Target:** Blog post for E4E â€” technology workers / general public audience
+**Target:** Blog post for E4E — technology workers / general public audience
 
 ---
 
 - [Research: Prompting Is the UI. Context Is the Architecture.](#research-prompting-is-the-ui-context-is-the-architecture)
   - [1. Source Summaries](#1-source-summaries)
-    - [SOURCE 1: Anthropic â€” "Effective Context Engineering for AI Agents"](#source-1-anthropic--effective-context-engineering-for-ai-agents)
-    - [SOURCE 2: OpenAI â€” "Practices for Governing Agentic AI Systems"](#source-2-openai--practices-for-governing-agentic-ai-systems)
+    - [SOURCE 1: Anthropic — "Effective Context Engineering for AI Agents"](#source-1-anthropic--effective-context-engineering-for-ai-agents)
+    - [SOURCE 2: OpenAI — "Practices for Governing Agentic AI Systems"](#source-2-openai--practices-for-governing-agentic-ai-systems)
     - [SOURCE 3: "Lost in the Middle: How Language Models Use Long Contexts" (Liu et al., 2023)](#source-3-lost-in-the-middle-how-language-models-use-long-contexts-liu-et-al-2023)
     - [SOURCE 4: "Context Length Alone Hurts LLM Performance Despite Perfect Retrieval" (2025)](#source-4-context-length-alone-hurts-llm-performance-despite-perfect-retrieval-2025)
-    - [SOURCE 5: Karpathy LLM Wiki â€” GitHub Gist (primary source)](#source-5-karpathy-llm-wiki--github-gist-primary-source)
+    - [SOURCE 5: Karpathy LLM Wiki — GitHub Gist (primary source)](#source-5-karpathy-llm-wiki--github-gist-primary-source)
     - [SOURCE 6: Karpathy VentureBeat Article (PROVIDED INLINE)](#source-6-karpathy-venturebeat-article-provided-inline)
     - [SOURCE 7: Pinecone Nexus / VentureBeat Article (PROVIDED INLINE)](#source-7-pinecone-nexus--venturebeat-article-provided-inline)
-    - [SOURCE 8: Databricks â€” Multi-step Agents on Hybrid Queries](#source-8-databricks--multi-step-agents-on-hybrid-queries)
+    - [SOURCE 8: Databricks — Multi-step Agents on Hybrid Queries](#source-8-databricks--multi-step-agents-on-hybrid-queries)
     - [SOURCE 9: Chroma "Context Rot" Research (2025)](#source-9-chroma-context-rot-research-2025)
     - [REAL-WORLD CASES: High-Stakes Context Failures](#real-world-cases-high-stakes-context-failures)
       - [Cigna PXDX Algorithm](#cigna-pxdx-algorithm)
@@ -59,16 +60,16 @@ sources:
   - [7. Legal and Regulatory Landscape](#7-legal-and-regulatory-landscape)
     - [NIST AI Risk Management Framework (AI RMF 1.0)](#nist-ai-risk-management-framework-ai-rmf-10)
     - [NAIC Model Bulletin on the Use of AI Systems by Insurers](#naic-model-bulletin-on-the-use-of-ai-systems-by-insurers)
-    - [Colorado SB 24-205 â€” Consumer Protections for Artificial Intelligence Act](#colorado-sb-24-205--consumer-protections-for-artificial-intelligence-act)
-    - [Connecticut SB 2 (2025) â€” Act Concerning Artificial Intelligence](#connecticut-sb-2-2025--act-concerning-artificial-intelligence)
+    - [Colorado SB 26-189 — Consumer Protections for Artificial Intelligence Act (Revised)](#colorado-sb-26-189--consumer-protections-for-artificial-intelligence-act-revised)
+    - [Connecticut AI Legislation — SB 2 (2025, not enacted) and SB 5 / PA 26-15 (enacted)](#connecticut-ai-legislation--sb-2-2025-not-enacted-and-sb-5--pa-26-15-enacted)
     - [EU AI Act](#eu-ai-act)
     - [Summary: The Legal Landscape as of May 2026](#summary-the-legal-landscape-as-of-may-2026)
   - [Sources](#sources)
   - [8. Cross-Reference: Approval Theater and the Human Oversight Failure](#8-cross-reference-approval-theater-and-the-human-oversight-failure)
     - [The Rubber-Stamp Conditions (Prediction 2, Claims/Eligibility research)](#the-rubber-stamp-conditions-prediction-2-claimseligibility-research)
-    - [Ben Green (2022) â€” Human-in-the-Loop Does Not Equal Human-in-Command (CE-007)](#ben-green-2022--human-in-the-loop-does-not-equal-human-in-command-ce-007)
+    - [Ben Green (2022) — Human-in-the-Loop Does Not Equal Human-in-Command (CE-007)](#ben-green-2022--human-in-the-loop-does-not-equal-human-in-command-ce-007)
     - [Stanford/Health Affairs Automation Bias Study (CE-008)](#stanfordhealth-affairs-automation-bias-study-ce-008)
-    - [Michigan MiDAS â€” Government Benefits Canonical Case (CE-016)](#michigan-midas--government-benefits-canonical-case-ce-016)
+    - [Michigan MiDAS — Government Benefits Canonical Case (CE-016)](#michigan-midas--government-benefits-canonical-case-ce-016)
     - [Denial-by-Friction Signature (Prediction 1 / CE-003)](#denial-by-friction-signature-prediction-1--ce-003)
     - [Summary: Why Approval Theater Belongs in This Research File](#summary-why-approval-theater-belongs-in-this-research-file)
 
@@ -78,7 +79,7 @@ sources:
 
 ---
 
-### SOURCE 1: Anthropic â€” "Effective Context Engineering for AI Agents"
+### SOURCE 1: Anthropic — "Effective Context Engineering for AI Agents"
 
 URL: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
 
@@ -106,7 +107,7 @@ The article does not claim that larger context windows solve the coherence or re
 
 ---
 
-### SOURCE 2: OpenAI â€” "Practices for Governing Agentic AI Systems"
+### SOURCE 2: OpenAI — "Practices for Governing Agentic AI Systems"
 
 URL: https://openai.com/index/practices-for-governing-agentic-ai-systems/
 PDF: https://cdn.openai.com/papers/practices-for-governing-agentic-ai-systems.pdf
@@ -201,7 +202,7 @@ That retrieval failures and distraction are unimportant - these are complementar
 
 ---
 
-### SOURCE 5: Karpathy LLM Wiki â€” GitHub Gist (primary source)
+### SOURCE 5: Karpathy LLM Wiki — GitHub Gist (primary source)
 
 URL: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 
@@ -315,7 +316,7 @@ The 98% token reduction is Pinecone's internal benchmark, not customer productio
 
 ---
 
-### SOURCE 8: Databricks â€” Multi-step Agents on Hybrid Queries
+### SOURCE 8: Databricks — Multi-step Agents on Hybrid Queries
 
 Primary: https://www.databricks.com/blog/agentic-reasoning-practice-making-sense-structured-and-unstructured-data
 VentureBeat coverage: https://venturebeat.com/data/databricks-research-shows-multi-step-agents-consistently-outperform-single
@@ -568,7 +569,7 @@ Every agent dumps output into raw/ folder; a compiler runs every few hours; a qu
 Pinecone's KnowQL query language has six primitives: intent, filter, provenance, output shape, confidence, and budget. The SQL comparison - "before SQL, every application built its own data access layer from scratch" - is interesting for the standardization argument. The provenance and confidence primitives directly address audit trail requirements. Worth noting that this is a product announcement framing, not independent analysis.
 
 **OpenAI's four-party accountability structure (Source 2)**
-Developer â†’ Deployer â†’ User â†’ Affected Party. This four-tier model is directly relevant to the question of who is responsible when an AI agent in a high-stakes service gets it wrong. The deployer (not the user, not the AI lab) is typically the accountable party for system design and context pipeline choices. This gap between who builds the pipeline and who is harmed by it is the E4E accountability argument made precise.
+Developer → Deployer → User → Affected Party. This four-tier model is directly relevant to the question of who is responsible when an AI agent in a high-stakes service gets it wrong. The deployer (not the user, not the AI lab) is typically the accountable party for system design and context pipeline choices. This gap between who builds the pipeline and who is harmed by it is the E4E accountability argument made precise.
 
 **Chroma's counterintuitive structural finding**
 "Models perform worse when the haystack preserves a logical flow of ideas." This has a practical implication that cuts against common intuition: well-organized, coherent enterprise documents may actually perform worse as LLM context than shuffled versions. The mechanism is unknown. For the blog, this is one level too technical, but it supports the general claim that context behavior is non-obvious and requires engineering, not just document dumping.
@@ -580,8 +581,8 @@ Developer â†’ Deployer â†’ User â†’ Affected Party. This four-tie
 **Gap 1: No direct documented case of context architecture failure causing specific harm in a high-stakes service.**
 The Cigna and UnitedHealth cases are about opaque AI pipelines causing harm - they are consistent with the context accountability argument but are not specifically about retrieval failures, stale documents, or source-ranking errors. The mechanism linking "bad context architecture" to specific patient harm is plausible but not documented at the level of a traceable causal chain. The writer should be careful not to assert that Cigna's problem was specifically a RAG failure - it was an opaque algorithmic pipeline that denied claims without individual review. The connection to context architecture is analogical, not causal.
 
-**Gap 2 (revised): No law uses the term "context pipeline auditability" â€” but the functional equivalents are already arriving.**
-Colorado SB 24-205 (effective Feb 2026) and Connecticut SB 2 (effective July 2025) both require explanation and appeal rights for high-risk AI in consequential decisions â€” which non-deterministic pipelines structurally cannot provide. The EU AI Act requires automatic logging and traceability for high-risk AI. The NAIC Model Bulletin (adopted by 24 states + DC) requires written AI governance programs with vendor oversight. California SB1120 requires human review of AI medical necessity decisions. NIST AI-RMF provides the governance vocabulary across Govern / Map / Measure / Manage. The landscape is varied and fast-moving. The correct framing: regulators are requiring the outcomes that good context architecture enables; the architecture question is becoming a compliance question. See Section 7 for full detail.
+**Gap 2 (revised): No law uses the term "context pipeline auditability" — but the functional equivalents are already arriving.**
+Colorado SB 26-189 (effective January 1, 2027) requires explanation and appeal rights for consequential AI decisions — which non-deterministic pipelines structurally cannot provide. (Note: SB 24-205 was repealed before it ever took effect; SB 26-189 is the enacted replacement, signed May 14, 2026.) Connecticut enacted SB 5 / PA 26-15 (primary provisions effective October 1, 2026), but its coverage is employment-scoped — it does not appear to extend to insurance or benefits decisions. Connecticut SB 2 (2025) died in the House and was never enacted. The EU AI Act requires automatic logging and traceability for high-risk AI. The NAIC Model Bulletin (adopted by 24 states + DC) requires written AI governance programs with vendor oversight. California SB1120 requires human review of AI medical necessity decisions. NIST AI-RMF provides the governance vocabulary across Govern / Map / Measure / Manage. The landscape is varied and fast-moving. The correct framing: regulators are requiring the outcomes that good context architecture enables; the architecture question is becoming a compliance question. See Section 7 for full detail.
 
 **Gap 3: The "context engineering" vs. "prompt engineering" distinction is partially contested.**
 Multiple practitioners argue that context engineering is a rebrand of practices engineers have used for years. The counterargument - that the term matters because it surfaced the serious engineering discipline buried under prompt-trick culture - is plausible but not resolved. The blog should acknowledge this briefly rather than overstate the novelty of the framing.
@@ -602,121 +603,307 @@ The Databricks research task (STaRK-MAG) involves academic citation networks and
 
 ## 7. Legal and Regulatory Landscape
 
-> **Correction to Gap 2:** The researcher's original framing was too narrow â€” it looked for laws using the term "context pipeline auditability" specifically. The functional equivalents already exist across insurance regulation, state law, and international frameworks. The legal landscape is varied, fast-moving, and directly relevant to the accountability argument. NIST AI-RMF is not law; it is the most credible U.S. framework for "what good looks like."
+> **Correction to Gap 2:** The researcher's original framing was too narrow — it looked for laws using the term "context pipeline auditability" specifically. The functional equivalents already exist across insurance regulation, state law, and international frameworks. The legal landscape is varied, fast-moving, and directly relevant to the accountability argument. NIST AI-RMF is not law; it is the most credible U.S. framework for "what good looks like."
 
 ---
 
 ### NIST AI Risk Management Framework (AI RMF 1.0)
 
-**What it is:** Voluntary guidance published by the U.S. National Institute of Standards and Technology, January 2023. Not law. Widely referenced by regulators, procurement bodies, and standards organizations as the baseline for responsible AI governance in the U.S.
+**What it is:** Voluntary guidance published by the U.S. National Institute of Standards and Technology (NIST), January 2023. Not law. The primary U.S. baseline for responsible AI governance — referenced by federal agencies, state regulators, procurement bodies, and international standards organizations. The framework is explicitly intended to be a living document; a formal community review is expected no later than 2028, with minor versioning (e.g., 1.1) possible before then.
 
-**Structure:** Four core functions â€” Govern, Map, Measure, Manage.
+**Evidence label for existence and status:** Confirmed (official NIST publication; NIST AI 100-1, January 2023)
 
-- **Govern:** Cross-cutting function; establishes accountability, policies, and oversight across the AI lifecycle. The only function that spans the whole organization.
-- **Map:** Scopes the context in which an AI system will operate; identifies potential impacts across the lifecycle.
-- **Measure:** Quantitative and qualitative methods to analyze and track risks.
-- **Manage:** Allocates resources to treat risks, document residual risk, and respond to incidents.
+---
 
-**Relevance to the blog thesis:** NIST AI RMF's Govern function directly addresses context accountability: who is responsible for what the system knows, what it acts on, and what it produces. The Map function requires characterizing the data, sources, and environmental conditions an AI system will operate in â€” the equivalent of designing a context pipeline deliberately. The Measure function calls for documented evidence of system behavior â€” the audit trail the blog argues is missing from current high-stakes deployments.
+**Core structure — four functions with sub-practices relevant to high-stakes AI**
 
-**Evidence label:** Confirmed (official NIST publication; widely adopted as a reference framework by federal agencies and state regulators)
+**GOVERN** — the cross-cutting function. Applies across all lifecycle stages. Establishes accountability, policies, and organizational culture for AI risk management.
 
-**Use in the blog:** Frame NIST AI-RMF as the answer to "what good looks like" â€” not a law, but the most credible existing U.S. template for the governance structure the blog is advocating.
+Sub-practices most relevant to high-stakes insurance / benefits / employment AI:
+
+- GOVERN 1.1 (`confirmed`): Policies define and differentiate roles and responsibilities for human-AI configurations and oversight. Where AI pairs with human review, the policy must specify who decides what, when humans must override, and how oversight is evidenced. This sub-practice is the organizational-level equivalent of Colorado SB 26-189's "meaningful review" definition.
+- GOVERN 1.2 (`confirmed`): Trustworthy AI characteristics — validity, safety, accountability, fairness, explainability — are integrated into organizational policies, not treated as optional.
+- GOVERN 1.3 (`confirmed`): The level of risk management activity scales to organizational risk tolerance. High-stakes use cases (claims adjudication, benefits eligibility) require more intensive controls than back-office automation.
+- GOVERN 5 (`confirmed`): Policies require organizational teams — not just AI developers — to be aware of AI limitations and failure modes. Relevant to the automation bias finding in CE-008 (Stanford/Health Affairs 2025): reviewers who don't know AI can be biased cannot exercise GOVERN-level oversight.
+- GOVERN 6 (`confirmed`): Policies provide mechanisms for AI actors to raise concerns about system behavior without retaliation. Connects to whistleblower provisions in Connecticut SB 5.
+
+**MAP** — scopes the deployment context and identifies the full range of potential risks.
+
+Sub-practices most relevant to high-stakes AI:
+
+- MAP 1 (`confirmed`): Context is established — intended uses, affected populations, deployment environment, and data lineage. For insurance AI, this means documenting what patient or claimant data the system is trained on and what populations it will affect. The UnitedHealth nH Predict case (6 million patient training database, allegations of insufficient individual context) is a MAP failure: the deployment context was not adequately characterized before deployment.
+- MAP 2 (`confirmed`): Scientific and societal categories of risk are identified, including potential harms from data bias, model errors, and deployment gaps. Explicit emphasis on understanding "who is harmed when the system fails."
+- MAP 5 (`confirmed`): Likelihood, magnitude, and breadth of impacts are assessed across affected individuals and communities. Directly requires the kind of disparate impact analysis the Mobley v. Workday case involves.
+
+**MEASURE** — quantitative and qualitative assessment of risks throughout the AI lifecycle.
+
+Sub-practices most relevant to high-stakes AI:
+
+- MEASURE 2.5 (`confirmed`): AI system effectiveness is evaluated for the intended use case and for affected populations — not just aggregate benchmark performance. A claims denial AI that achieves high throughput but high error rates for a specific demographic is a MEASURE 2.5 failure.
+- MEASURE 2.6 (`confirmed`): The AI system's outputs are evaluated for consistency and reproducibility. This is the NIST equivalent of Pinecone's "run the same task twice, get different answers" problem — non-determinism is a framework-level deficiency, not a tuning parameter.
+- MEASURE 4 (`confirmed`): Measurement results are documented and tracked over time. Post-deployment drift, changing data distributions, and accuracy decay in production environments require ongoing monitoring. The Cigna PxDx algorithm operating on a criteria database that flagged diagnosis-procedure mismatches without individual review is a MEASURE 4 failure: no documented evidence that the criteria database was validated against actual medical outcomes.
+
+**MANAGE** — allocates resources to treat identified risks, implements controls, and maintains response capability.
+
+Sub-practices most relevant to high-stakes AI:
+
+- MANAGE 1 (`confirmed`): Risks are prioritized by severity and likelihood; resources and controls are allocated accordingly.
+- MANAGE 2 (`confirmed`): Technical and procedural safeguards are implemented — including bias mitigation, human review processes, and incident response triggers. All activities tracked with timestamps, assigned owners, and approval workflows.
+- MANAGE 3 (`confirmed`): Appeal and override mechanisms are established for AI decisions affecting individuals. This sub-practice maps directly to the explanation and meaningful review requirements in Colorado SB 26-189 and the EU AI Act. An organization complying with MANAGE 3 must have a documented path for an individual to contest an AI-driven denial.
+- MANAGE 4 (`confirmed`): Post-deployment monitoring defines triggers for intervention, retraining, or decommissioning. The 90%+ appeal reversal rate in nH Predict (if confirmed) would be a MANAGE 4 trigger — a signal the deployed system's error rate was unacceptable and the system should have been retrained or decommissioned.
+
+**NIST AI RMF human oversight — what the framework actually says**
+
+The framework distinguishes two oversight modes: `human-in-the-loop` (a human is present in the process) and `human-in-command` (a human has the knowledge, authority, and context to evaluate and override). GOVERN 1.1 and MANAGE 3 together require the latter. A reviewer who lacks access to the model's input context cannot exercise MANAGE 3 oversight regardless of whether they are technically present in the process. This is the framework-level statement of what Ben Green (CE-007) calls the human-in-loop/human-in-command distinction.
+
+---
+
+**The NIST AI RMF publication landscape — what exists beyond AI 100-1**
+
+The core framework (AI 100-1, January 2023) has been extended by a growing family of companion publications. Most relevant to this research file:
+
+- **NIST AI 600-1** (`confirmed`): _Artificial Intelligence Risk Management Framework: Generative AI Profile._ Published July 26, 2024. Tailors the AI RMF to generative AI systems. Identifies 13 risk categories and more than 400 suggested actions. The GenAI profile is the most relevant companion document for AI systems that use LLMs in consequential decision pipelines — including insurance claims evaluation and benefits adjudication tools built on foundation models.
+- **NIST AI 100-2** (`confirmed`): _Trustworthy and Responsible AI: Adversarial Machine Learning._ 2025 edition. Focuses on attacks on both predictive and generative AI systems. Includes a taxonomy of attack vectors — relevant to the context manipulation threat (what happens if an adversary poisons the documents an insurance AI retrieves).
+- **NIST AI 100-4** (`confirmed`): _Reducing Risks Posed by Synthetic Content._ Published 2024 by NIST AI Safety Institute. Examines standards for authenticating content, watermarking, and detecting synthetic content. Less directly relevant to this research file but relevant to the source-reliability question in context pipelines.
+- **NIST IR 8596 — Cybersecurity AI Profile** (`confirmed`): Draft released 2025. A NIST Cybersecurity Framework Profile for AI systems, extending security controls into the AI lifecycle.
+- **Critical Infrastructure AI Profile concept note** (`confirmed`): Released April 7, 2026. NIST released a concept note for an AI RMF Profile on Trustworthy AI in Critical Infrastructure. Will cover energy, healthcare, transportation sectors. Not yet a final publication.
+- **AI RMF Playbook** (`confirmed`): Companion document (available at NIST AI Resource Center). Provides suggested actions, references, and implementation guidance for each of the four functions. The playbook is where specific sub-practices are operationalized — the AI 100-1 document provides the structure; the playbook provides the how.
+
+**No sector-specific published profile for insurance or financial benefits as of May 2026.** (`unknown`) NIST has released sector-specific guidance for cybersecurity and critical infrastructure but has not published a dedicated insurance or government benefits AI profile as of May 2026.
+
+---
+
+**U.S. Treasury Department Financial Services AI RMF — February 2026** (`confirmed`)
+
+On February 19, 2026, the Treasury Department released the _Financial Services AI Risk Management Framework (FS AI RMF)_ — not a regulation, but a non-binding sector-specific translation of NIST AI RMF principles into financial services operational controls. Directly relevant to insurance AI:
+
+- 230 mapped control objectives translating NIST AI RMF principles into operational controls for financial institutions
+- Structured as: AI Adoption Stage Questionnaire → Risk and Control Matrix → Implementation Guidebook → Control Objective Reference Guide
+- Creates a common control language intended to reduce fragmentation across compliance silos in financial services
+- Not a mandate; Treasury explicitly characterizes it as voluntary guidance
+
+The FS AI RMF is the most direct existing NIST-aligned framework for the financial sector, including insurance. An insurer building a GOVERN 1.1-compliant AI program for claims adjudication would use the FS AI RMF's 230 controls as the implementation layer.
+
+**Evidence label:** Confirmed (Treasury press release February 19, 2026; Lowenstein Sandler and ZwillGen law firm analyses confirmed independently)
+
+---
+
+**Is NIST AI-RMF more than a voluntary checklist? The credible argument**
+
+The case that NIST AI-RMF should function as a governance baseline — not merely a reference document — rests on four developments:
+
+1. **Federal procurement de facto requirement** (`confirmed`): OMB procurement guidance requires federal contractors to describe AI risk management practices. NIST AI RMF is the de facto template. Federal contractors cannot reasonably ignore it.
+
+2. **Legislative citation — explicit before SB 26-189, structural after** (`confirmed with important nuance`): Colorado SB 24-205 (the original Colorado AI Act) explicitly cited NIST AI RMF and ISO 42001 as the risk management standards developers and deployers should follow, and provided a safe harbor for entities aligned with them. **SB 26-189 (the May 2026 revision) removed this explicit reference and eliminated the associated safe harbor.** The mandatory risk management program, impact assessments, and NIST AI RMF alignment requirements were dropped in the revision. NIST AI RMF alignment remains advisable as a compliance posture across other state and federal frameworks; it is no longer explicitly mandated by Colorado law. The EU AI Act does not cite NIST AI RMF by name but its conformity assessment requirements are structurally compatible. (`source: Carpe Datum Law, May 2026; IETF concept note on OMP/Colorado/NIST alignment`)
+
+3. **State regulatory use** (`confirmed`): Multiple state insurance regulators reference NIST AI RMF in market conduct exam guidance. The NAIC's AI Systems Evaluation Tool pilot (January–September 2026) assesses AI governance programs, and the NAIC's Big Data and AI Working Group has referenced NIST AI RMF as a relevant framework in panel discussions.
+
+4. **Enterprise procurement** (`plausible`): Enterprise customers and insurers increasingly require NIST AI RMF alignment in procurement contracts with AI vendors. This creates market pressure independent of regulatory mandates. Extent is not independently verified; based on secondary sources.
+
+**Bottom line for the writer:** The argument that NIST AI RMF should be the governance baseline is credible and is becoming the practical expectation through procurement and regulatory guidance — but it is not mandated by any current U.S. law for private-sector entities outside federal contracting. The Colorado explicit mandate was present in SB 24-205 and removed in SB 26-189. Frame it as the vocabulary that regulation is coalescing around, not as an existing legal floor.
+
+---
+
+**Relevance to the blog thesis:** NIST AI RMF's MANAGE 3 (appeal and override mechanisms) and MEASURE 2.6 (consistency/reproducibility evaluation) are the framework-level statements of the context accountability argument. An AI system that cannot produce a consistent, traceable decision record fails MEASURE 2.6. A deployer that does not maintain an override path for affected individuals fails MANAGE 3. These are not abstract principles — they are operationalized in the Playbook and the FS AI RMF's 230 control objectives. The framework provides the vocabulary; the gap is that it remains voluntary.
 
 **Sources:**
 
-- NIST AI 100-1: https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf
+- NIST AI 100-1 (AI RMF 1.0): https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf
 - NIST AI RMF hub: https://www.nist.gov/itl/ai-risk-management-framework
+- NIST AI Resource Center (AIRC): https://airc.nist.gov/
+- NIST AI RMF Playbook: https://airc.nist.gov/docs/AI_RMF_Playbook.pdf
+- NIST AI 600-1 (GenAI Profile): https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
+- NIST AI 100-2e2025 (Adversarial ML): https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2025.pdf
+- Treasury FS AI RMF (Feb 19, 2026): https://home.treasury.gov/news/press-releases/sb0401
+- Treasury FS AI RMF — Lowenstein Sandler analysis: https://www.lowenstein.com/news-insights/publications/client-alerts/financial-services-ai-risk-management-framework-operationalizing-the-230-control-objectives-before-the-market-wakes-up-data-privacy
+- Carpe Datum Law on SB 26-189 and NIST alignment removal: https://www.carpedatumlaw.com/2026/05/colorados-ai-reset-two-weeks-a-white-house-callout-and-a-pivot-away-from-the-eu-model/
+- NIST AI 100-4 (synthetic content): https://www.nist.gov/publications/reducing-risks-posed-synthetic-content-overview-technical-approaches-digital-content
 
 ---
 
 ### NAIC Model Bulletin on the Use of AI Systems by Insurers
 
-**What it is:** Adopted by the National Association of Insurance Commissioners (NAIC) in December 2023. Not a federal law. A model bulletin that states may adopt â€” and many have. As of August 2025, at least 24 states and the District of Columbia have adopted it in full or substantially similar form.
+**What it is:** Adopted by the National Association of Insurance Commissioners (NAIC) in December 2023. Not a federal law. A model bulletin that states may adopt. By December 2025, NAIC reported that over half of all U.S. states had adopted the bulletin or substantially similar guidance. As of March 2026, the most specific confirmed count is 23 states plus Washington, D.C. that adopted the bulletin with minimal or no material customization, with additional states having enacted related regulations addressing similar topics. The research doc's prior count of "24 states + DC" is consistent with this range but the precise current count is contested across sources — use "over half of states" or "more than 24 states and DC" as the safest formulation.
 
-**Current enforcement status:** A multistate AI Systems Evaluation Tool is in a pilot running January through September 2026, with twelve participating states. This is the structured framework that gives insurance examiners a standardized approach to reviewing insurer AI governance programs during market conduct examinations.
+**Correction to prior entry:** The prior entry cited "24 states and DC as of August 2025" (Plante Moran, March 2026). Multiple sources now report over half of states as of December 2025. The direction is confirmed; the exact count should be treated as `plausible` at any specific number above 24.
 
-**Key requirements:**
+---
 
-- Insurers must develop and maintain a **written AI System Program** governing AI use across the insurance lifecycle: underwriting, rating, claims, fraud detection, marketing.
-- **Senior management accountability** to the board for AI strategy.
-- **Risk management** scaled to "Degree of Potential Harm to Consumers" â€” controls and procedures calibrated to risk level of each AI use case.
-- **Third-party vendor oversight** â€” insurers are responsible for AI systems built or used by vendors on their behalf.
+**Key requirements (confirmed from bulletin text):**
+
+- Insurers must develop and maintain a **written AI System Program (AIS Program)** governing responsible use of AI systems that make or support decisions related to regulated insurance practices — underwriting, rating, claims, fraud detection, marketing.
+- **Senior management accountability** to the board for AI strategy and governance.
+- **Risk management** scaled to "Degree of Potential Harm to Consumers" — controls calibrated to the risk level of each AI use case. High-risk AI systems receive more intensive scrutiny.
+- **Validation, testing, and retesting** to assess generalization of AI system outputs and evaluate the suitability of data used for training, validation, and auditing.
+- **Data practices:** Insurers must ensure data currency, lineage, quality, integrity, bias analysis and minimization, and overall suitability.
+- **Third-party vendor oversight** — insurers are accountable for AI systems built or used by vendors on their behalf. Vendor oversight is an explicit, not implied, requirement.
 - Governance must prioritize "transparency, fairness, and accountability in the design and implementation of AI Systems."
 
-**What it does NOT require:** Specific context pipeline design standards, source traceability requirements, or public disclosure of algorithmic criteria. It establishes governance accountability at the organizational level, not at the technical pipeline level.
+**Implicit explanation/audit obligation** (`plausible, not confirmed in bulletin text`): In states that have adopted the bulletin, if a carrier cannot provide an adequate explanation for an AI-driven adverse action, the consumer has standing to file a complaint with the state insurance department. The bulletin's transparency requirements create a documentation trail expectation. This is not an explicit explanation right in the bulletin text itself — it is the enforcement implication of the written program requirement under existing unfair trade practice statutes. The bulletin does not create a new consumer right to explanation; it creates an organizational obligation that implicitly requires that explanations can be produced.
 
-**Evidence label:** Confirmed (official NAIC adoption December 2023; state adoption count from Plante Moran, March 2026)
+**What it does NOT require** (`confirmed`): Specific context pipeline design standards, source traceability requirements, or public disclosure of algorithmic criteria. No mandated explanation timeframe (contrast with Colorado SB 26-189's 30-day requirement). No right to human review specified at the consumer level in the bulletin itself.
 
-**Relevance to the blog thesis:** The NAIC bulletin is the clearest existing regulatory expression of the accountability argument in a high-stakes domain (insurance). The "written AI System Program" and vendor oversight requirements are exactly the organizational structure the blog's checklist points toward. The 24-state adoption rate makes this the most broadly applicable existing U.S. AI regulation for the sector most directly relevant to the Cigna and UnitedHealth cases.
+---
+
+**Enforcement pilot — January through September 2026** (`confirmed`)
+
+The NAIC launched its AI Systems Evaluation Tool in a 12-state pilot on March 2, 2026. This is the most significant NAIC AI enforcement development since the bulletin's adoption.
+
+Participating states: California, Colorado, Connecticut, Florida, Iowa, Louisiana, Maryland, Pennsylvania, Rhode Island, Vermont, Virginia, and Wisconsin.
+
+The AI Systems Evaluation Tool has four exhibits that insurers must complete:
+
+- **Exhibit A:** Quantify AI usage (how extensively the insurer uses AI across lines and functions)
+- **Exhibit B:** Governance risk assessment (how AI systems are governed internally — the AIS Program)
+- **Exhibit C:** Details on high-risk AI systems specifically (what qualifies as high-risk, what controls apply)
+- **Exhibit D:** AI data details (what data inputs feed the systems)
+
+Proportionality principle (`confirmed`): Participating states focus on domestic insurers and prioritize high-risk AI systems with potential for serious consumer or financial harm; back-office automation receives less scrutiny.
+
+**Pilot results:** Not yet public as of May 30, 2026. The pilot runs through September 2026. Results will inform whether the tool is updated and whether a formal model law follows. The NAIC expects to update the tool based on pilot feedback in September–October 2026 and expose for public review, with formal adoption anticipated at the NAIC Fall National Meeting in November 2026. (`confirmed — Fenwick, Alston & Bird, April 2026`)
+
+**Industry opposition** (`confirmed`): In December 2025, a coalition of trade associations representing life, health, P&C, mutual, and reinsurance insurers sent a joint letter to the NAIC objecting to the pilot. Core objection: the program is "voluntary for regulators while compulsory for companies" — states can opt in or out, but carriers in participating states have no choice. Additional objections: undefined pilot duration, potential penalties tied to negative findings, risk of tool use before final public comment was complete. The pilot launched anyway.
+
+**First live examination under the pilot** (`confirmed`): Regulators opened the first known examination of an insurer's AI behind total-loss decisions and claims payouts under the pilot framework. An NAIC survey found 88% of auto insurers currently use or plan to use AI to evaluate claims. (`Autobody News, April 2026`)
+
+---
+
+**New NAIC working group: Third-Party Data and Models (TPDM)**
+
+A new TPDM Working Group is developing a framework for regulatory oversight of third-party AI data and model vendors engaged by insurers for functions with direct consumer impact. This is a significant expansion beyond the original bulletin, which addressed vendor oversight at the insurer accountability level but did not reach directly to vendors.
+
+Key TPDM developments (Spring 2026 meeting, March 23, 2026):
+
+- The group confirmed the approach as a "registry" (lighter-touch) rather than full licensure. Vendors providing AI models and datasets to insurers would register with regulators, providing visibility into what third-party models are in use without requiring each vendor to undergo a full licensing process. (`confirmed — Mondaq, March 2026`)
+- **Initial scope narrowed to pricing and underwriting.** Claims adjudication and other functions are not in the initial scope, though the framework is expected to expand. (`confirmed`)
+- A model law is anticipated for 2026, with first state implementations expected in late 2026 or early 2027. (`plausible — based on NAIC meeting reports; no confirmed enactment date`)
+- Purpose: give regulators visibility into third-party models and datasets used by insurers; ensure third parties maintain appropriate governance practices to protect insurers and consumers.
+
+**Significance for this research file:** The TPDM registry would extend the accountability chain to the vendors who build the actual AI pipelines insurers deploy. Under the current bulletin, an insurer is accountable for a vendor's AI — but the regulator cannot directly examine the vendor. The TPDM registry closes that gap. For the Cigna and UnitedHealth context: naviHealth (Optum subsidiary) built nH Predict; a TPDM registry would require naviHealth to register the model and its data inputs with regulators.
+
+---
+
+**State adoption notable additions since December 2023:**
+
+- Delaware: adopted February 5, 2025
+- Hawaii: adopted December 10, 2025
+- Kentucky: adopted April 16, 2024
+- Maryland: adopted April 22, 2024
+  Additional states tracked by NAIC directly; full current list at the NAIC AI hub.
+
+---
+
+**No follow-on amendment or new AI-specific bulletin from NAIC as of May 2026** (`confirmed`): The NAIC has not issued an amendment to the December 2023 Model Bulletin or a new AI-specific model bulletin as of May 2026. The AI Systems Evaluation Tool is a new tool for examining compliance with the existing bulletin, not an amendment to the bulletin itself. The TPDM Working Group is developing a separate model law for vendor oversight.
+
+---
+
+**Relevance to the blog thesis:** The NAIC bulletin is the broadest existing U.S. AI regulatory framework for insurance — the domain where the Cigna and UnitedHealth cases sit. The written AIS Program, data lineage requirement, and vendor oversight provision are the organizational infrastructure the blog's accountability checklist requires to function. The 2026 enforcement pilot and the TPDM vendor registry are the two most significant forward-looking developments: the pilot is beginning to test whether AI governance programs on paper actually govern AI in practice, and the registry would extend accountability directly to the vendors who build the pipelines. The pilot's results (expected fall 2026) will be the first empirical data on whether the bulletin's requirements are being met at the organizational level.
 
 **Sources:**
 
 - NAIC Model Bulletin PDF: https://content.naic.org/sites/default/files/inline-files/2023-12-4%20Model%20Bulletin_Adopted_0.pdf
 - NAIC AI hub: https://content.naic.org/insurance-topics/artificial-intelligence
 - Plante Moran on 2026 evolution: https://www.plantemoran.com/explore-our-thinking/insight/2026/03/how-the-naic-ai-model-bulletin-is-evolving
+- Fenwick — 12-state pilot expansion: https://www.fenwick.com/insights/publications/naic-expands-ai-systems-evaluation-tool-pilot-program-to-12-states-key-updates-for-insurers-and-ai-vendors-supporting-insurers
+- InsuranceNewsNet — industry balks: https://insurancenewsnet.com/innarticle/naic-regulators-prep-ai-evaluation-tool-for-use-in-2026-as-industry-balks
+- Alston & Bird — Spring 2026 meeting: https://www.alstonprivacy.com/key-ai-cybersecurity-and-privacy-takeaways-from-the-naic-2026-spring-meeting/
+- Mondaq — TPDM Working Group Spring 2026: https://www.mondaq.com/unitedstates/insurance-laws-and-products/1765580/naic-spring-2026-meeting-third-party-data-and-models-h-working-group-march-23-2026
+- Autobody News — first AI claims examination: https://www.autobodynews.com/news/regulators-open-first-examination-of-insurer-ai-behind-total-loss-decisions-and-claims-payouts
+- Crowell & Moring — health payor update: https://www.crowell.com/en/insights/client-alerts/naic-intensifies-ai-regulatory-focus-what-health-insurance-payors-need-to-know
+- Quarles — state adoption count: https://www.quarles.com/newsroom/publications/nearly-half-of-states-have-now-adopted-naic-model-bulletin-on-insurers-use-of-ai
+- NAIC March 2026 AI issue brief: https://content.naic.org/sites/default/files/ai-issue-brief.pdf
 
 ---
 
-### Colorado SB 24-205 â€” Consumer Protections for Artificial Intelligence Act
+### Colorado SB 26-189 — Consumer Protections for Artificial Intelligence Act (Revised)
 
-**What it is:** Signed by Governor Polis, May 17, 2024. **Effective February 1, 2026.** The first comprehensive U.S. state AI law.
+**What it is:** Colorado SB 24-205 (signed May 2024) was delayed and then repealed before it ever took effect. SB 26-189 repealed SB 24-205 and re-enacted a revised framework. **Signed: May 14, 2026. Effective: January 1, 2027.** Attorney General rulemaking required before enforcement begins; rulemaking timeline not confirmed as of May 2026.
 
-**Scope:** Developers and deployers of **high-risk AI systems** used to make or substantially factor into **consequential decisions** â€” defined to include employment, housing, healthcare, insurance, education, financial/lending services, essential government services, and legal services.
+**Scope:** Developers and deployers of **automated decision-making technology (ADMT)** used in **consequential decisions** — defined to include employment (employees and job applicants expressly covered as "consumers"), insurance (underwriting, pricing, coverage, claims adjudication), healthcare, housing, lending, government benefits, and public programs.
 
 **Key requirements:**
 
-- **Notice:** Consumers must be notified before a high-risk AI system is used for a consequential decision affecting them.
-- **Explanation:** If an adverse consequential decision is made, consumers have a right to an explanation of how the AI system reached its conclusion, including the personal data used.
-- **Correction and appeal:** Consumers have the right to correct data and appeal decisions.
-- **Annual reviews:** Deployers must conduct annual reviews to ensure AI systems do not cause algorithmic discrimination.
-- **Developer disclosures:** Developers must provide deployers with information about intended use, training data, and risk mitigation measures.
-- **Enforcement:** Attorney General has exclusive enforcement authority. Violations are unfair trade practices.
+- **Pre-interaction notice:** Clear notice at the point of consumer interaction with covered ADMT.
+- **Post-adverse-outcome explanation:** Within 30 days of an adverse consequential decision, a plain-language explanation of the ADMT's role in that decision.
+- **Right to correct:** The right to request and correct factually incorrect personal data used in the decision.
+- **Right to meaningful human review:** The right to appeal. "Meaningful" is defined: reviewer must have authority to override, must consider relevant evidence, must be trained, must not default to the system's output.
+- **Recordkeeping:** Minimum 3-year retention of compliance records.
+- **Enforcement:** Colorado Attorney General. 60-day cure period, except for knowing or repeated violations.
 
-**What it does NOT require:** Source traceability at the context pipeline level. Disclosure of retrieval architecture or document sources. The right to explanation is about factors used, not about what the system saw in its context window.
+**Insurance safe harbor:** State-regulated insurers are compliant if they follow existing sector-specific notice and disclosure requirements. Whether those existing requirements satisfy the audit-record standard SB 26-189 implies is not confirmed.
 
-**Evidence label:** Confirmed (signed law; effective February 1, 2026)
+**What SB 26-189 dropped from SB 24-205:** Risk management programs, annual impact assessments, algorithmic discrimination duties. SB 26-189 is a significant scaling-back.
 
-**Relevance to the blog thesis:** Colorado SB 24-205 establishes the right to explanation and appeal for AI in consequential decisions â€” the functional equivalent of what good context architecture should enable. The blog can use this to show the policy direction: regulators are moving toward explanation and contestability requirements, and architecture that cannot produce those records will be structurally non-compliant.
+**What it does NOT require:** Source traceability at the context pipeline level. Disclosure of retrieval architecture. The explanation right covers the ADMT's role in the outcome, not what the system saw in its context window.
+
+**Evidence label:** Confirmed (Colorado General Assembly bill page; multiple law firm analyses, May 2026). AG rulemaking timeline: unknown.
+
+**Relevance to the blog thesis:** Colorado SB 26-189 establishes the right to explanation and meaningful human review for consequential AI decisions — the functional equivalent of what good context architecture should enable. The 30-day explanation requirement and the "meaningful" review definition operationalize what the blog argues is missing. Architecture that cannot produce a source-linked decision record at the time of determination cannot meet this floor regardless of the review process above it.
 
 **Sources:**
 
-- Colorado General Assembly: https://leg.colorado.gov/bills/sb24-205
-- ABA summary: https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-july/colorado-enacts-law-regulating-high-risk-artificial-intelligence-systems/
+- Colorado General Assembly, SB 26-189: https://leg.colorado.gov/bills/sb26-189
+- Colorado General Assembly, SB 24-205 (repealed): https://leg.colorado.gov/bills/sb24-205
+- Consumer Finance Monitor — Colorado Rewrites Its Landmark AI Law (May 2026): https://www.consumerfinancemonitor.com/2026/05/12/colorado-rewrites-its-landmark-ai-law-unpacking-sb-26-189-and-what-it-means-for-businesses/
+- Crowell & Moring — Colorado Hits Reset on AI Regulation: https://www.crowell.com/en/insights/client-alerts/colorado-hits-reset-on-ai-regulation-sb-26-189-repeals-and-reenacts-the-colorado-ai-act
 
 ---
 
-### Connecticut SB 2 (2025) â€” Act Concerning Artificial Intelligence
+### Connecticut AI Legislation — SB 2 (2025, not enacted) and SB 5 / PA 26-15 (enacted)
 
-**What it is:** Passed the Connecticut Senate 32-4 and House with bipartisan support. Governor Lamont publicly committed to signing it. Effective date: **July 1, 2025.** Status as of May 2026: law in effect.
+**Connecticut SB 2 (2025) — NOT ENACTED**
+
+SB 2 passed the Connecticut Senate 50-0 on May 14, 2025 and was placed on the House calendar May 16, 2025. The House did not vote. The bill died at the end of the 2025 legislative session. It was never signed by the Governor. There is no effective date. Any prior research note or blog text citing "Connecticut SB 2, effective July 2025" is incorrect.
+
+**What SB 2 would have required:** A duty of reasonable care for developers and deployers of high-risk AI; notice; explanation; appeal rights for adverse decisions; impact assessments. The duty-of-care framing did not survive into the enacted 2026 law.
+
+**Evidence label:** Confirmed as not enacted (Connecticut General Assembly bill status; Legiscan CT SB00002/2025)
+
+---
+
+**Connecticut SB 5 / Public Act 26-15 — ENACTED**
+
+**What it is:** Signed by Governor Lamont on May 11, 2026. "Connecticut Artificial Intelligence Responsibility and Transparency Act."
+
+**Effective dates:**
+
+- October 1, 2026: AEDT framework, anti-discrimination amendments, WARN Act disclosure, frontier developer whistleblower provisions
+- January 1, 2027: Large frontier developer anonymous reporting processes
+- October 1, 2027: Interactive pre-decision notice and disclosure for AEDT deployments
+
+**Primary scope:** Automated employment-related decision technology (AEDT) — tools that are a "substantial factor" in hiring, promotion, discipline, or discharge.
 
 **Key requirements:**
 
-- Developers and deployers of **high-risk AI systems** have a **duty of reasonable care** to avoid algorithmic discrimination.
-- Consumers must receive **notice** before a high-risk AI system makes or substantially factors into a consequential decision about them.
-- After an adverse consequential decision: consumers have a **right to explanation** of how the AI system reached its conclusion, including the personal data used.
-- Developers must provide deployers with documentation including intended use, training data, and risk mitigation measures.
-- Deployers must maintain a **risk management policy** and conduct impact assessments.
-- Chatbots must disclose they are not human.
-- Employment AI must disclose when AI is a "substantial factor" in employment decisions.
+- Employer disclosure of AEDT use and purpose before deployment
+- Written explanation of any adverse employment decision
+- Right to examine and correct data used
+- "AI is not a defense": employer cannot shield liability for discriminatory outcomes by attributing the decision to the system
+- WARN Act add-on: disclosure required when layoffs are related to AI
+- State agency requirements: inventory AI systems, conduct impact assessments, comply with centralized standards before deploying AI that affects public benefits or individual rights (specific enforcement mechanism not confirmed in sources reviewed)
 
-**What it does NOT require:** Technical pipeline disclosure, source traceability, or retrieval architecture documentation.
+**What it does NOT require:** Source traceability, context pipeline documentation, or retrieval architecture disclosure.
 
-**Evidence label:** Confirmed (enacted, effective July 1, 2025)
+**Evidence label:** Confirmed — Connecticut General Assembly; multiple law firm analyses, May 2026. State agency enforcement mechanism: plausible, not fully confirmed.
 
-**Relevance to the blog thesis:** Connecticut joins Colorado as a state requiring notice + explanation + appeal rights for high-risk AI in consequential decisions. Both laws implicitly require the architecture to produce explanation records â€” which non-deterministic pipelines structurally cannot.
+**SCOPE NOTE — critical for this research file:** SB 5 is employment-scoped. It does not appear to cover insurance denials, healthcare coverage decisions, or benefits eligibility outside employment. The cases in this research file (Cigna PxDx, UnitedHealth nH Predict, Michigan MiDAS) are largely outside SB 5's scope. Do not cite Connecticut SB 5 as accountability law for insurance or benefits AI decisions.
+
+**Relevance to the blog thesis:** Connecticut SB 5 contributes to the "AI is not a defense" accountability direction and establishes explanation rights in employment contexts. It does not extend the accountability argument into the insurance and benefits domain the blog and case study focus on.
 
 **Sources:**
 
-- CT legislative text: https://www.cga.ct.gov/2025/TOB/S/PDF/2025SB-00002-R04-SB.PDF
-- FPF analysis: https://fpf.org/blog/setting-the-stage-connecticut-senate-bill-2-lays-the-groundwork-for-responsible-ai-in-the-states/
-- CT Mirror (Senate passage, May 15, 2025): https://ctmirror.org/2025/05/15/ct-ai-artificial-intelligence-bill-passes-senate/
+- CT General Assembly, SB 5: https://www.cga.ct.gov/asp/CGABillStatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB5
+- Future of Privacy Forum, SB 5 in Five: https://fpf.org/blog/sb-5-in-five-what-to-know-about-connecticuts-new-ai-law/
+- DLA Piper, Unpacking SB5: https://www.dlapiper.com/en-us/insights/publications/2026/05/unpacking-connecticuts-new-ai-law
+- Jackson Lewis, effective dates: https://www.jacksonlewis.com/insights/new-laws-are-changing-connecticut-employers-pay-accommodation-ai-obligations-2627
+- CT Mirror (passage): https://ctmirror.org/2026/05/01/artificial-intelligence-house-regulation-passage-ct/
+- Legiscan, SB 2 (2025) status: https://legiscan.com/CT/bill/SB00002/2025
 
 ---
 
 ### EU AI Act
 
-**What it is:** Entered into force **August 1, 2024.** Fully applicable **August 2, 2026.** Prohibited practice provisions applicable since February 2, 2025.
+**What it is:** Entered into force **August 1, 2024.** General applicability **August 2, 2026.** Prohibited practice provisions applicable since February 2, 2025. **Key provisions for high-risk AI systems targeted for December 2027**, following a provisional Omnibus agreement in May 2026 that extended the compliance window for existing high-risk systems. (`Evidence label: confirmed for August 2026 general applicability; December 2027 high-risk extension — confirmed via provisional Omnibus agreement, May 2026; cite automated-denials-accountability-gap.md Policy environment section for sourcing`)
 
 **Scope:** Risk-tiered. High-risk AI systems include those used in employment, education, essential services, law enforcement, migration, administration of justice, and access to credit and insurance.
 
@@ -732,7 +919,7 @@ The Databricks research task (STaRK-MAG) involves academic citation networks and
 
 **Evidence label:** Confirmed (enacted EU regulation; enforcement timeline confirmed)
 
-**Relevance to the blog thesis:** The EU AI Act's automatic logging and human oversight requirements directly operationalize what good context architecture enables â€” and what non-deterministic RAG pipelines cannot guarantee. The regulation creates legal liability for deployers who cannot produce audit records. This is the governance gap the blog is arguing needs to be closed.
+**Relevance to the blog thesis:** The EU AI Act's automatic logging and human oversight requirements directly operationalize what good context architecture enables — and what non-deterministic RAG pipelines cannot guarantee. The regulation creates legal liability for deployers who cannot produce audit records. This is the governance gap the blog is arguing needs to be closed.
 
 **Sources:**
 
@@ -744,16 +931,19 @@ The Databricks research task (STaRK-MAG) involves academic citation networks and
 
 ### Summary: The Legal Landscape as of May 2026
 
-| Framework           | Type                                 | Scope                                  | Status                                       | Key requirement                                                         |
-| ------------------- | ------------------------------------ | -------------------------------------- | -------------------------------------------- | ----------------------------------------------------------------------- |
-| NIST AI RMF 1.0     | Voluntary framework                  | U.S., all sectors                      | In effect (Jan 2023)                         | Govern / Map / Measure / Manage across AI lifecycle                     |
-| NAIC Model Bulletin | Regulatory guidance (24 states + DC) | Insurance AI                           | In effect; enforcement pilot underway        | Written AI governance program; vendor oversight; risk-scaled controls   |
-| California SB1120   | State law                            | Insurance / medical necessity AI       | In effect (Jan 2025)                         | Human review required for AI medical necessity decisions                |
-| Colorado SB 24-205  | State law                            | High-risk AI / consequential decisions | In effect (Feb 2026)                         | Notice + explanation + appeal + annual discrimination review            |
-| Connecticut SB 2    | State law                            | High-risk AI / consequential decisions | In effect (July 2025)                        | Duty of care; notice; explanation; impact assessments                   |
-| EU AI Act           | EU regulation                        | High-risk AI (broad scope)             | Prohibited practices Feb 2025; full Aug 2026 | Automatic logging; human oversight; traceability; conformity assessment |
+| Framework                     | Type                                      | Scope                                                                                   | Status                                                                                                                                      | Key requirement                                                                                                                                                               |
+| ----------------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| NIST AI RMF 1.0 (AI 100-1)    | Voluntary framework                       | U.S., all sectors                                                                       | In effect (Jan 2023); companion publications through 2026                                                                                   | Govern / Map / Measure / Manage; MANAGE 3 requires appeal/override; MEASURE 2.6 requires consistency/reproducibility                                                          |
+| NIST AI 600-1 (GenAI Profile) | Voluntary framework supplement            | U.S., generative AI systems                                                             | In effect (July 2024)                                                                                                                       | 13 risk categories, 400+ actions for GenAI systems; most relevant for LLM-based decision pipelines                                                                            |
+| Treasury FS AI RMF            | Voluntary sector guidance                 | U.S. financial services (including insurance)                                           | Released Feb 19, 2026                                                                                                                       | 230 mapped control objectives translating NIST AI RMF into financial-services operational controls                                                                            |
+| NAIC Model Bulletin           | Regulatory guidance (over half of states) | Insurance AI                                                                            | In effect; 12-state enforcement pilot Jan–Sept 2026; pilot results expected fall 2026                                                       | Written AIS Program; data lineage; vendor oversight; risk-scaled controls; TPDM registry in development                                                                       |
+| California SB1120             | State law                                 | Insurance / medical necessity AI                                                        | In effect (Jan 2025)                                                                                                                        | Human review required for AI medical necessity decisions                                                                                                                      |
+| Colorado SB 26-189            | State law                                 | Consequential decisions (insurance, healthcare, employment, housing, benefits, lending) | Effective January 1, 2027 (AG rulemaking pending)                                                                                           | Notice + 30-day explanation + right to correct + meaningful human review; insurance safe harbor; NIST AI RMF alignment no longer explicitly required (dropped from SB 24-205) |
+| Connecticut SB 2              | Bill (not enacted)                        | High-risk AI / consequential decisions                                                  | Died in House, 2025                                                                                                                         | N/A                                                                                                                                                                           |
+| Connecticut SB 5 / PA 26-15   | State law                                 | Employment-related AEDT (hiring, promotion, discipline, discharge)                      | Effective October 1, 2026 (primary provisions)                                                                                              | Disclosure + explanation + right to correct + AI not a liability shield; does not cover insurance/benefits                                                                    |
+| EU AI Act                     | EU regulation                             | High-risk AI (broad scope)                                                              | Prohibited practices Feb 2025; general applicability Aug 2026; high-risk provisions December 2027 (provisional Omnibus agreement, May 2026) | Automatic logging; human oversight; traceability; conformity assessment                                                                                                       |
 
-**The corrected framing for Gap 2:** There is no law that specifically requires "context pipeline auditability" by name. But Colorado, Connecticut, and the EU AI Act all require that high-risk AI systems be able to explain decisions, produce audit records, and allow appeals â€” which is functionally what good context architecture enables and what non-deterministic RAG pipelines cannot reliably provide. The NAIC Model Bulletin establishes the organizational accountability structure (written program, senior management ownership, vendor oversight) that must exist before context pipeline discipline becomes enforceable. NIST AI-RMF provides the governance vocabulary that many state regulators and federal agencies are using as a reference.
+**The corrected framing for Gap 2 (updated May 2026):** There is no U.S. law that specifically requires "context pipeline auditability" by name. But Colorado SB 26-189 and the EU AI Act require that consequential AI decisions be explainable, auditable, and contestable — which is functionally what good context architecture enables and what non-deterministic RAG pipelines cannot reliably provide. Important update: Colorado SB 26-189 dropped the explicit NIST AI RMF mandate that was in SB 24-205; NIST AI RMF alignment is no longer a statutory safe harbor in Colorado. It remains the de facto governance vocabulary for federal procurement and insurance regulators. Connecticut SB 5 (enacted) adds accountability in the employment domain but is not a valid citation for insurance or benefits AI accountability. Connecticut SB 2 (2025) was never enacted. The NAIC Model Bulletin establishes the organizational accountability structure — and its new TPDM registry initiative is the most significant extension of that accountability to the vendors who actually build the pipelines. The 2026 pilot will be the first empirical test of whether that organizational accountability is real or paper-based.
 
 The legal landscape is varied, changing fast, and directionally consistent: accountability, explanation, audit trails, and contestability are where regulation is heading. Architecture that cannot produce those records will become a compliance liability.
 
@@ -775,34 +965,49 @@ The legal landscape is varied, changing fast, and directionally consistent: acco
 
 ## Sources
 
-| Source                                                               | Author/Organization              | URL                                                                                                                                           | Type                                     | Date                                        | Label                                               |
-| -------------------------------------------------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- | ------------------------------------------- | --------------------------------------------------- |
-| Effective Context Engineering for AI Agents                          | Anthropic                        | https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents                                                             | Engineering blog (official)              | 2025                                        | Confirmed                                           |
-| Practices for Governing Agentic AI Systems                           | OpenAI (Shavit, Agarwal et al.)  | https://openai.com/index/practices-for-governing-agentic-ai-systems/                                                                          | Policy paper (official)                  | 2024                                        | Confirmed (secondary access)                        |
-| Lost in the Middle: How Language Models Use Long Contexts            | Liu et al. (Stanford/TACL)       | https://arxiv.org/abs/2307.03172                                                                                                              | Peer-reviewed (TACL 2024)                | 2023/2024                                   | Confirmed                                           |
-| Context Length Alone Hurts LLM Performance Despite Perfect Retrieval | Authors unnamed in fetch         | https://arxiv.org/html/2510.05381v1                                                                                                           | Peer-reviewed (EMNLP 2025 Findings)      | 2025                                        | Confirmed                                           |
-| LLM Wiki GitHub Gist                                                 | Andrej Karpathy                  | https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f                                                                             | Practitioner writeup (informal)          | 2026                                        | Plausible                                           |
-| Karpathy VentureBeat coverage                                        | Carl Franzen, VentureBeat        | https://venturebeat.com/data/karpathy-shares-llm-knowledge-base-architecture-that-bypasses-rag-with-an                                        | Tech journalism                          | April 3, 2026                               | Plausible                                           |
-| Pinecone Nexus VentureBeat                                           | Sean Michael Kerner, VentureBeat | https://venturebeat.com/data/the-rag-era-is-ending-for-agentic-ai-a-new-compilation-stage-knowledge-layer-is-what-comes-next                  | Tech journalism                          | May 4, 2026                                 | Plausible (vendor claims flagged)                   |
-| Agentic Reasoning in Practice (Databricks)                           | Databricks                       | https://www.databricks.com/blog/agentic-reasoning-practice-making-sense-structured-and-unstructured-data                                      | Company research blog                    | 2026                                        | Plausible                                           |
-| Context Rot research                                                 | Hong, Troynikov, Huber (Chroma)  | https://www.trychroma.com/research/context-rot                                                                                                | Company research (open methodology)      | July 14, 2025                               | Plausible-to-confirmed                              |
-| Cigna PXDX coverage                                                  | ProPublica; class action filings | https://www.benefitspro.com/2024/03/13/cigna-class-action-algorithm-allegedly-auto-denies-300000-claims-412-163851/                           | Investigative journalism + court filings | 2023-2025                                   | Confirmed (facts); Plausible (reversal rate)        |
-| Lokken v. UnitedHealth Group                                         | Court filings; STAT News         | https://litigationtracker.law.georgetown.edu/litigation/estate-of-gene-b-lokken-the-et-al-v-unitedhealth-group-inc-et-al/                     | Court records + journalism               | 2023-2026                                   | Confirmed (proceedings); Plausible (90% error rate) |
-| California SB1120                                                    | California Legislature           | not found                                                                                                                                     | Enacted legislation                      | Sept 2024 (eff. Jan 2025)                   | Confirmed                                           |
-| Mobley v. Workday                                                    | N.D. Cal.; Fisher Phillips       | https://www.fisherphillips.com/en/insights/insights/discrimination-lawsuit-over-workdays-ai-hiring-tools-can-proceed-as-class-action-6-things | Court records                            | 2024-2025                                   | Confirmed                                           |
-| Databricks VentureBeat coverage                                      | VentureBeat                      | https://venturebeat.com/data/databricks-research-shows-multi-step-agents-consistently-outperform-single                                       | Tech journalism                          | 2026                                        | Plausible                                           |
-| NIST AI Risk Management Framework (AI RMF 1.0)                       | NIST                             | https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf                                                                                        | Voluntary federal framework              | Jan 2023                                    | Confirmed                                           |
-| NAIC Model Bulletin on Use of AI Systems by Insurers                 | NAIC                             | https://content.naic.org/sites/default/files/inline-files/2023-12-4%20Model%20Bulletin_Adopted_0.pdf                                          | Regulatory guidance (24 states + DC)     | Dec 2023; enforcement pilot Janâ€“Sept 2026 | Confirmed                                           |
-| Colorado SB 24-205 â€” Consumer Protections for AI Act               | Colorado Legislature             | https://leg.colorado.gov/bills/sb24-205                                                                                                       | State law                                | Signed May 2024; effective Feb 1, 2026      | Confirmed                                           |
-| Connecticut SB 2 â€” Act Concerning Artificial Intelligence          | Connecticut Legislature          | https://www.cga.ct.gov/2025/TOB/S/PDF/2025SB-00002-R04-SB.PDF                                                                                 | State law                                | Effective July 1, 2025                      | Confirmed                                           |
-| EU Artificial Intelligence Act                                       | European Union                   | https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai                                                                     | EU regulation                            | In force Aug 2024; full Aug 2026            | Confirmed                                           |
+| Source                                                                  | Author/Organization              | URL                                                                                                                                                                                                     | Type                                      | Date                                                                | Label                                               |
+| ----------------------------------------------------------------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | ------------------------------------------------------------------- | --------------------------------------------------- |
+| Effective Context Engineering for AI Agents                             | Anthropic                        | https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents                                                                                                                       | Engineering blog (official)               | 2025                                                                | Confirmed                                           |
+| Practices for Governing Agentic AI Systems                              | OpenAI (Shavit, Agarwal et al.)  | https://openai.com/index/practices-for-governing-agentic-ai-systems/                                                                                                                                    | Policy paper (official)                   | 2024                                                                | Confirmed (secondary access)                        |
+| Lost in the Middle: How Language Models Use Long Contexts               | Liu et al. (Stanford/TACL)       | https://arxiv.org/abs/2307.03172                                                                                                                                                                        | Peer-reviewed (TACL 2024)                 | 2023/2024                                                           | Confirmed                                           |
+| Context Length Alone Hurts LLM Performance Despite Perfect Retrieval    | Authors unnamed in fetch         | https://arxiv.org/html/2510.05381v1                                                                                                                                                                     | Peer-reviewed (EMNLP 2025 Findings)       | 2025                                                                | Confirmed                                           |
+| LLM Wiki GitHub Gist                                                    | Andrej Karpathy                  | https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f                                                                                                                                       | Practitioner writeup (informal)           | 2026                                                                | Plausible                                           |
+| Karpathy VentureBeat coverage                                           | Carl Franzen, VentureBeat        | https://venturebeat.com/data/karpathy-shares-llm-knowledge-base-architecture-that-bypasses-rag-with-an                                                                                                  | Tech journalism                           | April 3, 2026                                                       | Plausible                                           |
+| Pinecone Nexus VentureBeat                                              | Sean Michael Kerner, VentureBeat | https://venturebeat.com/data/the-rag-era-is-ending-for-agentic-ai-a-new-compilation-stage-knowledge-layer-is-what-comes-next                                                                            | Tech journalism                           | May 4, 2026                                                         | Plausible (vendor claims flagged)                   |
+| Agentic Reasoning in Practice (Databricks)                              | Databricks                       | https://www.databricks.com/blog/agentic-reasoning-practice-making-sense-structured-and-unstructured-data                                                                                                | Company research blog                     | 2026                                                                | Plausible                                           |
+| Context Rot research                                                    | Hong, Troynikov, Huber (Chroma)  | https://www.trychroma.com/research/context-rot                                                                                                                                                          | Company research (open methodology)       | July 14, 2025                                                       | Plausible-to-confirmed                              |
+| Cigna PXDX coverage                                                     | ProPublica; class action filings | https://www.benefitspro.com/2024/03/13/cigna-class-action-algorithm-allegedly-auto-denies-300000-claims-412-163851/                                                                                     | Investigative journalism + court filings  | 2023-2025                                                           | Confirmed (facts); Plausible (reversal rate)        |
+| Lokken v. UnitedHealth Group                                            | Court filings; STAT News         | https://litigationtracker.law.georgetown.edu/litigation/estate-of-gene-b-lokken-the-et-al-v-unitedhealth-group-inc-et-al/                                                                               | Court records + journalism                | 2023-2026                                                           | Confirmed (proceedings); Plausible (90% error rate) |
+| California SB1120                                                       | California Legislature           | not found                                                                                                                                                                                               | Enacted legislation                       | Sept 2024 (eff. Jan 2025)                                           | Confirmed                                           |
+| Mobley v. Workday                                                       | N.D. Cal.; Fisher Phillips       | https://www.fisherphillips.com/en/insights/insights/discrimination-lawsuit-over-workdays-ai-hiring-tools-can-proceed-as-class-action-6-things                                                           | Court records                             | 2024-2025                                                           | Confirmed                                           |
+| Databricks VentureBeat coverage                                         | VentureBeat                      | https://venturebeat.com/data/databricks-research-shows-multi-step-agents-consistently-outperform-single                                                                                                 | Tech journalism                           | 2026                                                                | Plausible                                           |
+| NIST AI Risk Management Framework (AI RMF 1.0)                          | NIST                             | https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf                                                                                                                                                  | Voluntary federal framework               | Jan 2023                                                            | Confirmed                                           |
+| NIST AI RMF Playbook                                                    | NIST / AIRC                      | https://airc.nist.gov/docs/AI_RMF_Playbook.pdf                                                                                                                                                          | Companion implementation guide            | 2023 (updated)                                                      | Confirmed                                           |
+| NIST AI 600-1 — Generative AI Profile                                   | NIST                             | https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf                                                                                                                                                  | Voluntary framework supplement            | July 26, 2024                                                       | Confirmed                                           |
+| NIST AI 100-2e2025 — Adversarial Machine Learning                       | NIST                             | https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2025.pdf                                                                                                                                             | Technical report                          | 2025                                                                | Confirmed                                           |
+| NIST AI 100-4 — Reducing Risks from Synthetic Content                   | NIST / AI Safety Institute       | https://www.nist.gov/publications/reducing-risks-posed-synthetic-content-overview-technical-approaches-digital-content                                                                                  | Technical report                          | 2024                                                                | Confirmed                                           |
+| Treasury Financial Services AI Risk Management Framework                | U.S. Department of the Treasury  | https://home.treasury.gov/news/press-releases/sb0401                                                                                                                                                    | Voluntary sector guidance                 | Feb 19, 2026                                                        | Confirmed                                           |
+| Treasury FS AI RMF — Lowenstein Sandler analysis                        | Lowenstein Sandler LLP           | https://www.lowenstein.com/news-insights/publications/client-alerts/financial-services-ai-risk-management-framework-operationalizing-the-230-control-objectives-before-the-market-wakes-up-data-privacy | Law firm analysis                         | 2026                                                                | Confirmed (secondary)                               |
+| NAIC Model Bulletin on Use of AI Systems by Insurers                    | NAIC                             | https://content.naic.org/sites/default/files/inline-files/2023-12-4%20Model%20Bulletin_Adopted_0.pdf                                                                                                    | Regulatory guidance (over half of states) | Dec 2023; enforcement pilot Jan–Sept 2026                           | Confirmed                                           |
+| NAIC March 2026 AI Issue Brief                                          | NAIC                             | https://content.naic.org/sites/default/files/ai-issue-brief.pdf                                                                                                                                         | NAIC staff paper                          | March 2026                                                          | Confirmed                                           |
+| NAIC 12-state pilot — Fenwick analysis                                  | Fenwick & West                   | https://www.fenwick.com/insights/publications/naic-expands-ai-systems-evaluation-tool-pilot-program-to-12-states-key-updates-for-insurers-and-ai-vendors-supporting-insurers                            | Law firm analysis                         | 2026                                                                | Confirmed (secondary)                               |
+| NAIC Spring 2026 — Alston & Bird AI/cyber takeaways                     | Alston & Bird                    | https://www.alstonprivacy.com/key-ai-cybersecurity-and-privacy-takeaways-from-the-naic-2026-spring-meeting/                                                                                             | Law firm analysis                         | April 2026                                                          | Confirmed (secondary)                               |
+| NAIC TPDM Working Group Spring 2026 — Mondaq                            | Mondaq (law firm roundup)        | https://www.mondaq.com/unitedstates/insurance-laws-and-products/1765580/naic-spring-2026-meeting-third-party-data-and-models-h-working-group-march-23-2026                                              | Law firm analysis                         | March 2026                                                          | Confirmed (secondary)                               |
+| NAIC pilot industry opposition — InsuranceNewsNet                       | InsuranceNewsNet                 | https://insurancenewsnet.com/innarticle/naic-regulators-prep-ai-evaluation-tool-for-use-in-2026-as-industry-balks                                                                                       | Trade press                               | 2026                                                                | Confirmed                                           |
+| NAIC first AI claims examination — Autobody News                        | Autobody News                    | https://www.autobodynews.com/news/regulators-open-first-examination-of-insurer-ai-behind-total-loss-decisions-and-claims-payouts                                                                        | Trade press                               | April 2026                                                          | Confirmed                                           |
+| Carpe Datum Law — Colorado SB 26-189 and NIST alignment removal         | Carpe Datum Law                  | https://www.carpedatumlaw.com/2026/05/colorados-ai-reset-two-weeks-a-white-house-callout-and-a-pivot-away-from-the-eu-model/                                                                            | Law blog analysis                         | May 2026                                                            | Confirmed (secondary)                               |
+| Colorado SB 26-189 — Consumer Protections for AI Act (revised)          | Colorado Legislature             | https://leg.colorado.gov/bills/sb26-189                                                                                                                                                                 | State law                                 | Signed May 14, 2026; effective January 1, 2027                      | Confirmed                                           |
+| Colorado SB 24-205 (repealed before taking effect)                      | Colorado Legislature             | https://leg.colorado.gov/bills/sb24-205                                                                                                                                                                 | State law                                 | Signed May 2024; repealed May 2026                                  | Historical reference only                           |
+| Connecticut SB 2 — Act Concerning AI (not enacted)                      | Connecticut Legislature          | https://legiscan.com/CT/bill/SB00002/2025                                                                                                                                                               | Bill (not enacted)                        | Died in House, 2025                                                 | Not enacted                                         |
+| Connecticut SB 5 / PA 26-15 — CT AI Responsibility and Transparency Act | Connecticut Legislature          | https://www.cga.ct.gov/asp/CGABillStatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB5                                                                                                                | State law                                 | Signed May 11, 2026; effective October 1, 2026 (primary provisions) | Confirmed (employment-scoped only)                  |
+| EU Artificial Intelligence Act                                          | European Union                   | https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai                                                                                                                               | EU regulation                             | In force Aug 2024; full Aug 2026                                    | Confirmed                                           |
 
 ---
 
 ## 8. Cross-Reference: Approval Theater and the Human Oversight Failure
 
 > **Source file:** `docs/07-notes/research/ai-impact/_research-ai-claims-eligibility.md`
-> **Why it belongs here:** The blog argues that opaque context pipelines create an accountability problem. This cross-reference adds the next layer: even when human review is _legally required_, it often cannot function as a real check when the reviewer has no access to what the system saw. Opaque context architecture doesn't just harm claimants directly â€” it degrades the human oversight that law and policy mandate.
+> **Why it belongs here:** The blog argues that opaque context pipelines create an accountability problem. This cross-reference adds the next layer: even when human review is _legally required_, it often cannot function as a real check when the reviewer has no access to what the system saw. Opaque context architecture doesn't just harm claimants directly — it degrades the human oversight that law and policy mandate.
 
 ---
 
@@ -812,40 +1017,40 @@ Core thesis from that file: "When systems become too fast, cheap, or opaque to o
 
 Four conditions that produce rubber-stamp review:
 
-1. **Insufficient time per case** â€” below any threshold for substantive individual review
-2. **No access to model inputs** â€” the reviewer cannot see what the AI actually used to reach its conclusion
-3. **Throughput incentives** â€” institutional scorecards and targets are tied to speed, not accuracy
-4. **Automation bias** â€” reviewers express high confidence in AI output despite being unable to identify its errors
+1. **Insufficient time per case** — below any threshold for substantive individual review
+2. **No access to model inputs** — the reviewer cannot see what the AI actually used to reach its conclusion
+3. **Throughput incentives** — institutional scorecards and targets are tied to speed, not accuracy
+4. **Automation bias** — reviewers express high confidence in AI output despite being unable to identify its errors
 
 Current evidence state (from claims/eligibility research):
 
-- Time per case: **confirmed** â€” Cigna PxDx at 1.2 seconds/claim
-- Throughput incentives: **confirmed** â€” Cigna physician scorecards; CVS Post-Acute Analytics savings projection revised from $10-15M to $77.3M within months of rollout
-- Automation bias: **confirmed** â€” Stanford/Health Affairs 2025 study (CE-008 below)
-- Override rates: **unknown** â€” proprietary across all major insurers
+- Time per case: **confirmed** — Cigna PxDx at 1.2 seconds/claim
+- Throughput incentives: **confirmed** — Cigna physician scorecards; CVS Post-Acute Analytics savings projection revised from $10-15M to $77.3M within months of rollout
+- Automation bias: **confirmed** — Stanford/Health Affairs 2025 study (CE-008 below)
+- Override rates: **unknown** — proprietary across all major insurers
 
-**Connection to context architecture:** Condition 2 (no access to model inputs) is the direct link. If the context pipeline is opaque â€” if no audit trail exists showing which documents the system retrieved, what sources it ranked, and what it used to reach its conclusion â€” the human reviewer cannot evaluate the decision. The review is nominally present but functionally absent.
+**Connection to context architecture:** Condition 2 (no access to model inputs) is the direct link. If the context pipeline is opaque — if no audit trail exists showing which documents the system retrieved, what sources it ranked, and what it used to reach its conclusion — the human reviewer cannot evaluate the decision. The review is nominally present but functionally absent.
 
 ---
 
-### Ben Green (2022) â€” Human-in-the-Loop Does Not Equal Human-in-Command (CE-007)
+### Ben Green (2022) — Human-in-the-Loop Does Not Equal Human-in-Command (CE-007)
 
 **Source:** Ben Green, "The Flaws of Policies Requiring Human Oversight of Government Algorithms," _Computer Law & Security Review_, 2022. Survey of 41 government algorithm oversight policies. Privacy Papers for Policymakers Award (2022). Peer-reviewed.
 
 **What it says:** Human oversight policies for government algorithms are systematically flawed in two ways:
 
 1. People cannot perform the oversight function as intended
-2. The policies legitimize faulty algorithms without fixing them â€” the appearance of accountability substitutes for the substance
+2. The policies legitimize faulty algorithms without fixing them — the appearance of accountability substitutes for the substance
 
 **Key distinction:** Human-in-the-loop (procedural) vs. human-in-command (substantive). A reviewer who is present but cannot understand, evaluate, or override the AI output is in-the-loop but not in-command.
 
-**Parallel EDPB finding** (EU GDPR/AI Act literature): The European Data Protection Board's interpretation of "meaningful" human review requires the reviewer to be (a) competent to change the decision and (b) cognitively engaged â€” not merely authorized. Automation bias research shows that even competent clinicians cannot reliably detect systematically biased AI models.
+**Parallel EDPB finding** (EU GDPR/AI Act literature): The European Data Protection Board's interpretation of "meaningful" human review requires the reviewer to be (a) competent to change the decision and (b) cognitively engaged — not merely authorized. Automation bias research shows that even competent clinicians cannot reliably detect systematically biased AI models.
 
 **Evidence label:** Confirmed as a policy analysis finding. The government-algorithm context is directly applicable to insurance and benefits AI.
 
 **Boundary:** Green's survey covers government algorithms (criminal justice, benefits, welfare), not specifically health insurance. The structural argument transfers; specific insurer findings come from CE-008.
 
-**Connection to blog thesis:** The conceptual anchor for the accountability section. The blog's checklist question â€” "Can a person challenge the result?" â€” requires more than an appeal process existing. It requires a reviewer who can actually evaluate what happened. An opaque context pipeline systematically prevents that.
+**Connection to blog thesis:** The conceptual anchor for the accountability section. The blog's checklist question — "Can a person challenge the result?" — requires more than an appeal process existing. It requires a reviewer who can actually evaluate what happened. An opaque context pipeline systematically prevents that.
 
 ---
 
@@ -864,13 +1069,13 @@ This is the empirical confirmation of Prediction 2 in the high-stakes insurance 
 
 **Additional finding from the same study:** 84% of large health insurers (NAIC survey of 93 insurers, 16 states) use AI for some operational purposes; approximately 75% use AI for prior authorization approvals.
 
-**Evidence label:** Confirmed (finding); plausible (generalizability â€” full methodology not fully retrievable from search alone; consistent with broader automation bias literature)
+**Evidence label:** Confirmed (finding); plausible (generalizability — full methodology not fully retrievable from search alone; consistent with broader automation bias literature)
 
-**Connection to blog thesis:** The clearest empirical demonstration that "human in the loop" is not equivalent to a functioning check. The reviewer is present. The review cannot happen because the reviewer lacks the context â€” what the model saw, what it ranked, what it ignored. This is not a training problem; it is an architecture problem. The reviewers can't see the pipeline.
+**Connection to blog thesis:** The clearest empirical demonstration that "human in the loop" is not equivalent to a functioning check. The reviewer is present. The review cannot happen because the reviewer lacks the context — what the model saw, what it ranked, what it ignored. This is not a training problem; it is an architecture problem. The reviewers can't see the pipeline.
 
 ---
 
-### Michigan MiDAS â€” Government Benefits Canonical Case (CE-016)
+### Michigan MiDAS — Government Benefits Canonical Case (CE-016)
 
 **Source:** _Bauserman v. Unemployment Insurance Agency_ (Michigan Supreme Court, 2019; settlement, 2022); Michigan Auditor General report; IEEE Spectrum; The Markup ("The Seven-Year Struggle to Hold an Out-of-Control Algorithm to Account"). Settlement: $20 million (October 2022).
 
@@ -879,12 +1084,12 @@ This is the empirical confirmation of Prediction 2 in the high-stakes insurance 
 - MiDAS (Michigan Integrated Data Automated System) made **40,195 automated fraud determinations** from October 2013 to September 2015
 - The Michigan Auditor General found **93% of those determinations did not involve fraud**
 - Workers faced wage garnishments, some filed for bankruptcy
-- The system required claimants to respond within **10 days** to contest â€” a short window for a high-stakes determination
+- The system required claimants to respond within **10 days** to contest — a short window for a high-stakes determination
 - The seven-year timeline to accountability (2015 to 2022 settlement) is itself evidence of appeal attrition: most people could not wait
 
-**Evidence label:** Confirmed (scale of false positives â€” Michigan Auditor General finding); confirmed (settlement amount and timeline); confirmed (no meaningful human review of determinations before flags were issued)
+**Evidence label:** Confirmed (scale of false positives — Michigan Auditor General finding); confirmed (settlement amount and timeline); confirmed (no meaningful human review of determinations before flags were issued)
 
-**Boundary:** MiDAS used rule-based logic, not ML. The case predates modern AI systems. The contestability failure is the relevant pattern â€” not the specific technology. Government benefits domain only.
+**Boundary:** MiDAS used rule-based logic, not ML. The case predates modern AI systems. The contestability failure is the relevant pattern — not the specific technology. Government benefits domain only.
 
 **Connection to blog thesis:** Government benefits domain equivalent of the insurance cases. False-positive automation at scale with no meaningful human review. The 93% false positive rate makes this the strongest cross-domain illustration that without a functioning audit trail and accessible appeal path, automation optimized for the wrong target causes mass harm with no correction mechanism.
 
@@ -898,11 +1103,11 @@ This is the empirical confirmation of Prediction 2 in the high-stakes insurance 
 
 - Medicare Advantage, 2024 (KFF): **11.5% appeal rate; 80.7% overturn rate** (53 million prior authorization determinations)
 - HHS OIG 2022: **9.9% appeal rate**; earlier OIG finding: 75% of MA prior auth denials appealed between 2014-2016 were overturned
-- This is the strongest empirical pattern in the claims/eligibility research file â€” confirmed across multiple independent government sources
+- This is the strongest empirical pattern in the claims/eligibility research file — confirmed across multiple independent government sources
 
 **Evidence label:** Confirmed
 
-**Connection to blog thesis:** The appeal path exists on paper. The architecture makes it inaccessible in practice. The checklist question â€” "How can a person challenge the result?" â€” is answered by this data: 88.5% of affected people do not. The combination of opaque context, automation bias in review, and friction-laden appeals is what the data signature shows.
+**Connection to blog thesis:** The appeal path exists on paper. The architecture makes it inaccessible in practice. The checklist question — "How can a person challenge the result?" — is answered by this data: 88.5% of affected people do not. The combination of opaque context, automation bias in review, and friction-laden appeals is what the data signature shows.
 
 ---
 
@@ -912,9 +1117,9 @@ The blog's accountability argument has two layers:
 
 **Layer 1 (covered in Sections 1-7):** Opaque or non-deterministic context pipelines cannot produce the audit records that explanation and appeal rights require. Architecture that cannot tell you what the system saw when it decided is structurally non-compliant with emerging law.
 
-**Layer 2 (added by this section):** Even when human review is legally mandated, it cannot function as a check if the reviewer has no access to the context the system used. Automation bias takes over. The human becomes a throughput node, not a safeguard. This is not a personnel problem â€” it is an architecture problem. A reviewer who cannot see the pipeline cannot review what the pipeline did.
+**Layer 2 (added by this section):** Even when human review is legally mandated, it cannot function as a check if the reviewer has no access to the context the system used. Automation bias takes over. The human becomes a throughput node, not a safeguard. This is not a personnel problem — it is an architecture problem. A reviewer who cannot see the pipeline cannot review what the pipeline did.
 
-**The combined argument:** Prompting is the UI. Context is the architecture. And when the architecture is opaque, the human in the loop becomes part of the theater â€” present, authorized, and unable to act.
+**The combined argument:** Prompting is the UI. Context is the architecture. And when the architecture is opaque, the human in the loop becomes part of the theater — present, authorized, and unable to act.
 
 **Cross-file citations:**
 

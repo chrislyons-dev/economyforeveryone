@@ -18,22 +18,19 @@ Type: Lever
 
 ## One-sentence framing
 
-People should be able to know the real terms of an essential transaction before they are trapped inside it.
+People should be able to know the full terms of an essential transaction before they are trapped inside it.
 
 ## Why this exists
 
 Across the big-cost case studies, one pattern keeps repeating:
 
-- the posted price is not the real price
+- the posted price is not the full price
 - the consumer sees key terms too late
 - optional fees are presented as required
 - comparison shopping breaks because labels and disclosures are inconsistent
 
-That is not just annoying design.
-It is a leverage system.
-
-If the buyer cannot see the real deal until after commitment, the market is already tilted.
-And if the person cannot see enough to challenge a bad charge, a bad flag, or a bad contract term after commitment, the leverage keeps running.
+Those design choices create leverage. If the buyer cannot see the full deal until after commitment, the market is already tilted.
+If the person cannot see enough to challenge a bad charge, a bad flag, or a bad contract term after commitment, the leverage keeps running.
 
 ## Where this shows up
 
@@ -45,7 +42,7 @@ And if the person cannot see enough to challenge a bad charge, a bad flag, or a 
 ## Core design principles
 
 1. **All-in before commitment**
-   - show the real recurring and up-front price before the application, signature, or deposit
+   - show the recurring and up-front price before the application, signature, or deposit
 
 2. **Standard labels**
    - the same fee or contract term should mean the same thing across providers
@@ -64,7 +61,7 @@ And if the person cannot see enough to challenge a bad charge, a bad flag, or a 
 
 ## What good looks like
 
-- advertised prices are close to real prices
+- advertised prices are close to final prices
 - surprise fee volume falls
 - households can compare providers without specialized knowledge
 - regulators can audit the disclosures without building a giant new bureaucracy
@@ -82,8 +79,8 @@ And if the person cannot see enough to challenge a bad charge, a bad flag, or a 
 ## Guardrail
 
 Legibility is not price control.
-It is the minimum condition for fair comparison and informed consent in markets people cannot easily avoid.
-In low-choice systems, it is also part of contestability.
+It sets the minimum condition for fair comparison and informed consent in markets people cannot easily avoid.
+In low-choice systems, it also supports contestability.
 
 ## Connection to E4E model concepts
 

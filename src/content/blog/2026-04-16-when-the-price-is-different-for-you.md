@@ -28,11 +28,11 @@ receipts: []
 
 A renter in Charlotte is choosing between two apartment complexes.
 
-The listed rents are similar. She picks the one closer to work. What she can't see is that both landlords use the same pricing software, and that the number she is comparing isn't really the product of two landlords competing for her business. It's the product of a shared model shaping rent recommendations across the same submarket. She gets no disclosure. No explanation. No real way to contest it.
+The listed rents are similar. She picks the one closer to work. What she can't see is that both landlords use the same pricing software, and that the number she is comparing isn't really the product of two landlords competing for her business. It's the product of a shared model shaping rent recommendations across the same submarket. She gets no disclosure. No explanation. No usable way to contest it.
 
 That opening scene is the right anchor for this case because it makes the mechanism visible: coordination, invisibility, and weak exit all at once.
 
-That's the shape of this whole problem. This isn't mainly a story about AI being creepy. It's a story about what happens when pricing gets more precise, more individualized, and harder to inspect in markets people can't easily leave.
+That's the shape of this whole problem: pricing gets more precise, more individualized, and harder to inspect in markets people can't easily leave.
 
 ## What's happening
 
@@ -40,7 +40,7 @@ Instead of one posted price or one shared path through a market, firms can now s
 
 That can be helpful in some settings.
 
-The issue isn't the algorithm by itself. The issue is the market structure around it.
+The algorithm matters because of the market structure around it.
 
 When switching is easy, information is decent, and sellers have to compete for your business, more precision can sometimes benefit the buyer.
 
@@ -50,13 +50,13 @@ It becomes a way to find your pain threshold.
 
 ## Why it's happening
 
-The mechanism isn't complicated: prediction got better, exit didn't.
+The mechanism is simple: prediction got better, exit didn't.
 
-That's the real hinge in this case: if a system is hard to leave, the governance should get stronger, not weaker. Exit matters. If you can't realistically switch providers, plans, landlords, or platforms without losing money, care, history, or basic stability, then you aren't really choosing. You are captured.
+That's the hinge in this case: if a system is hard to leave, the governance should get stronger, not weaker. Exit matters. If you can't realistically switch providers, plans, landlords, or platforms without losing money, care, history, or basic stability, then you aren't really choosing. You are captured.
 
 **The algorithm is the mechanism. Captivity is the condition that makes it extractive.**
 
-A company doesn't need mind-reading. It just needs enough signals to sort customers by urgency, switching difficulty, timing, location, and likely tolerance for friction. Once that gets paired with weak disclosure and thin appeal rights, "consumer choice" starts becoming a polite story we tell about a market that isn't actually disciplining itself very much.
+A company doesn't need mind-reading. It just needs enough signals to sort customers by urgency, switching difficulty, timing, location, and likely tolerance for friction. Once that gets paired with weak disclosure and thin appeal rights, "consumer choice" starts becoming a polite story we tell about a market that is barely disciplining itself.
 
 That's why this matters so much in essentials:
 
@@ -66,7 +66,7 @@ That's why this matters so much in essentials:
 - credit shopping has friction and penalties
 - gig workers can lose their accumulated ratings if they leave one platform for another
 
-## The deeper issue isn't personalization. It's extraction under captivity.
+## The deeper issue is extraction under captivity
 
 Personalization isn't automatically unfair. Sometimes it's helpful.
 
@@ -78,7 +78,7 @@ If companies want to say this precision is helping people, then the gains should
 - better offers
 - clearer comparisons
 - easier switching
-- real appeal paths
+- usable appeal paths
 
 Not just cleaner dashboards and higher margins.
 
@@ -86,7 +86,7 @@ Not just cleaner dashboards and higher margins.
 
 Pricing is one part of the story, steering is the other.
 
-Sometimes the system isn't just changing the price. It's changing the route:
+Sometimes the system changes the route as well as the price:
 
 - the offer you see first
 - the plan that gets emphasized
@@ -95,7 +95,7 @@ Sometimes the system isn't just changing the price. It's changing the route:
 - the coverage tier that looks normal
 - the option that gets buried in the fine print
 
-This isn't just about a different price. It's about a harder time comparing options and a nudge toward more profitable paths.
+That means a harder time comparing options and a nudge toward more profitable paths.
 
 That matters because a person can technically have choices while still being funneled.
 
@@ -118,11 +118,11 @@ The seller gets the model, the buyer gets the quote.
 
 ## What good looks like
 
-The answer isn't "ban personalization." That's too blunt.
+The answer can't be "ban personalization." That's too blunt.
 
 A reasonable person should be able to see the benchmark price and the factors that changed it. In this domain, comparability matters as much as appeal. People should be able to tell what the base offer was, what changed their quote, and whether they were steered toward a more profitable path.
 
-Steering should be disclosed and contestable. Audit logs should exist. Independent audits should be allowed. And if a system changes a life outcome like coverage, rent, access, or financing, people should get a specific explanation, access to the relevant record, and a real path to challenge the result.
+Steering should be disclosed and contestable. Audit logs should exist. Independent audits should be allowed. And if a system changes a life outcome like coverage, rent, access, or financing, people should get a specific explanation, access to the relevant record, and a workable path to challenge the result.
 
 **If exit is weak the governance bar should rise, not fall.**
 
@@ -139,7 +139,7 @@ At the community or policy level, push for a minimum floor in essential markets:
 - all-in price disclosure
 - plain-language factors
 - records access
-- real appeal
+- usable appeal
 - human override
 - stronger anti-discrimination and audit rules where exit is weak
 
@@ -147,11 +147,11 @@ At the community or policy level, push for a minimum floor in essential markets:
 
 I would say it like this:
 
-Personalization isn't the issue by itself. The issue is whether it's being used to help the customer or to extract more from the person who can't realistically leave.
+Personalization can help the customer or extract more from the person who can't realistically leave. The difference is the market around it.
 
 Or even shorter:
 
-The problem isn't that the price is personalized. The problem is that many people can't really walk away when it comes to rent, insurance, and care. That captivity turns personalization into extraction.
+Many people can't really walk away when it comes to rent, insurance, and care. That captivity turns personalization into extraction.
 
 ## One steady action to take this week
 
@@ -173,7 +173,7 @@ Don't just ask for the price, ask for the logic.
 
 **Long term**
 
-- `Policymakers and regulators:` Push for audit rights, stronger anti-discrimination review, portability where exit is weak, and real disclosure in markets people cannot easily leave.
+- `Policymakers and regulators:` Push for audit rights, stronger anti-discrimination review, portability where exit is weak, and usable disclosure in markets people cannot easily leave.
 - `Communities and watchdogs:` Treat pricing opacity as a governance issue, not just a bad-customer-service issue.
 
 ## Related reading

@@ -28,7 +28,8 @@ If prosecutors start treating a president as the "chief client," loyalty shifts 
 
 ## What's happening
 
-A report described a DOJ aide reportedly scolding career prosecutors for not treating President Trump as their "chief client."
+Bloomberg Law described a DOJ aide scolding career prosecutors for not treating President Trump as
+their "chief client."
 
 That phrase matters.
 

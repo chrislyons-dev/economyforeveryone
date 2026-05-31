@@ -24,7 +24,7 @@ Inflation is not one thing. Common drivers include:
 
 ## Practical anti-inflation levers
 
-- increase real supply in constrained essentials
+- increase supply in constrained essentials
 - strengthen competition and anti-capture enforcement
 - reduce administrative friction and hidden fee structures
 - improve transparency where price comparison is currently impossible
@@ -37,11 +37,11 @@ The newer case studies sharpen this further:
 
 ## Workforce as a capacity lever
 
-A major anti-inflation lever is expanding real productive capacity through labor participation and labor supply right-sizing.
+A major anti-inflation lever is expanding productive capacity through labor participation and labor supply right-sizing.
 
 See: [`workforce-capacity.md`](./workforce-capacity.md)
 
 ## Guardrail
 
 Anti-inflation policy should not rely on household pain as the main adjustment mechanism.
-The durable path is higher capacity + fair competition + faster delivery.
+The durable path is more capacity, fair competition, and delivery that reaches households faster.

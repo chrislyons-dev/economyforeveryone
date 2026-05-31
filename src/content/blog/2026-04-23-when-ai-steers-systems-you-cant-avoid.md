@@ -36,7 +36,7 @@ In each case, the important shift is the same: AI is no longer just recommending
 
 That's what makes this case different from a lot of knowledge-work AI discussions.
 
-The issue isn't whether the model sounds impressive, it's whether the system can act first while the person affected has almost no practical path to contest it.
+The issue is whether the system can act first while the person affected has almost no practical path to contest it.
 
 ## What's happening
 
@@ -44,9 +44,7 @@ AI is moving from analysis into systems that can take action across logistics, t
 
 That means the decision is no longer just advice on a dashboard. It is the route, the pace, the dispatch, the access rule, or the load adjustment itself.
 
-The human may still exist in the loop on paper.
-
-But if the person in the loop has no time, no records, no authority, or no safe way to override, the system is effectively in charge.
+The human may still exist in the loop on paper. But if the person in the loop has no time, no records, no authority, or no safe way to override, the system is effectively in charge.
 
 That is the shift to watch: recommendation becomes system behavior, and nominal oversight starts to look a lot weaker. Most people will never describe it that way, of course. They will describe it as the door not opening, the route making no sense, or the vehicle doing something unsettling before anyone can explain it.
 
@@ -112,7 +110,7 @@ If none of those answers are clear, the system is asking the public for a lot of
 
 ## How to talk about it
 
-"The issue isn't just that AI can recommend. It's that it can now steer systems people can't realistically avoid."
+"AI can now steer systems people can't realistically avoid."
 
 Or:
 
@@ -129,7 +127,7 @@ If nobody can answer that clearly before something goes wrong, they are asking y
 **Short term**
 
 - `Residents, workers, and riders:` Ask who holds the logs, who can override the system in time, and who is liable if it causes harm.
-- `Journalists and community watchdogs:` Treat routing, pacing, access, and dispatch systems like real governance systems, not just background tech.
+- `Journalists and community watchdogs:` Treat routing, pacing, access, and dispatch systems like governance systems rather than background tech.
 
 **Medium term**
 
@@ -138,7 +136,7 @@ If nobody can answer that clearly before something goes wrong, they are asking y
 
 **Long term**
 
-- `Policymakers and regulators:` Build clear floors for inspectable logs, real contestability, fail-safe behavior, and assigned liability in AI-controlled physical infrastructure.
+- `Policymakers and regulators:` Build clear floors for inspectable logs, practical contestability, fail-safe behavior, and assigned liability in AI-controlled physical infrastructure.
 - `Public institutions:` Stop approving systems that can act first while leaving the people affected with no practical path to challenge what happened.
 
 ## Related reading
