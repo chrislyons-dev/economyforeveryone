@@ -5,7 +5,8 @@ typeId: 'independent-analysis'
 status: 'published'
 linkedCaseSlugs:
   - 'schools-ai-education'
-linkedPostSlugs: []
+linkedPostSlugs:
+  - '2026-05-07-what-schools-should-teach'
 tags:
   - 'ai'
   - 'schools'
