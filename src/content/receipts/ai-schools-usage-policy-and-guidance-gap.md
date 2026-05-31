@@ -24,4 +24,3 @@ sources:
   - title: 'Schools Are Banning AI. Students Are Using It Anyway.'
     url: 'https://psychoftech.substack.com/p/schools-are-banning-ai-students-are'
 ---
-

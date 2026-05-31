@@ -24,4 +24,3 @@ sources:
   - title: 'The potential impact of artificial intelligence on equity and inclusion in education'
     url: 'https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/08/the-potential-impact-of-artificial-intelligence-on-equity-and-inclusion-in-education_0d7e9e00/15df715b-en.pdf'
 ---
-

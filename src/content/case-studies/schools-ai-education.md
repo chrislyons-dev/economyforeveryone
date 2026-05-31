@@ -234,6 +234,7 @@ Khanmigo scaled from roughly 68,000 users in 2023-24 to 700,000+ in 2024-25. Sch
 - Scheduled no-AI drills: periodically require core work to be done without AI assistance so raw skills do not atrophy
 
 **Domain note.** Most of the above formats assume writing-intensive work. Math and STEM require different verification approaches:
+
 - Voice baseline: establish early handwritten or controlled-condition samples of each student's work so deviations are recognizable - the method English teachers already use
 - Error analysis: give the student an AI-generated solution and ask them to identify the step where the logic fails and explain why
 - Iteration documentation: require students to show their first approach, where it broke, and what mathematical constraint they needed to apply to revise it

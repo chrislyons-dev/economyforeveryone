@@ -1,6 +1,6 @@
 ---
-title: 'The Ban Didn''t Work. Here''s What Does.'
-description: 'Schools tried to detect and punish their way out of the AI problem. It didn''t work. The kids who needed help most are still waiting. Here is what actually helps - and what you can do today.'
+title: "The Ban Didn't Work. Here's What Does."
+description: "Schools tried to detect and punish their way out of the AI problem. It didn't work. The kids who needed help most are still waiting. Here is what actually helps - and what you can do today."
 pubDate: 2026-05-07
 status: 'published'
 category: 'perspectives'

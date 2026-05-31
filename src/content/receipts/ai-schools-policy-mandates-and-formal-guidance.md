@@ -24,4 +24,3 @@ sources:
   - title: 'Ohio AI policy requirement tracker'
     url: 'https://www.aiforeducation.io/ai-resources/state-ai-guidance'
 ---
-
