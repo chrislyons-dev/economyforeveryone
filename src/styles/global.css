@@ -246,6 +246,11 @@ a:hover {
   max-width: 72ch;
 }
 
+.blog-content.prose-e4e {
+  max-width: none;
+  width: 100%;
+}
+
 .prose-e4e p {
   margin: 0 0 0.66rem;
 }

@@ -61,7 +61,7 @@ const oneSmallActionParts = (() => {
 ---
 
 <BaseLayout title={`${post.data.title} | Blog | Economy for Everyone`}>
-  <section class="section-grid prose-e4e">
+  <section class="section-grid blog-detail">
     <p class="detail-top-actions no-print">
       <a href="/blog">Back to blog</a>
       <span class="detail-action-group">
@@ -120,7 +120,11 @@ const oneSmallActionParts = (() => {
         </p>
       )
     }
-    <div id="blog-content" data-post-schedule={JSON.stringify(postSchedule)}>
+    <div
+      id="blog-content"
+      class="prose-e4e blog-content"
+      data-post-schedule={JSON.stringify(postSchedule)}
+    >
       <Content />
     </div>
 
