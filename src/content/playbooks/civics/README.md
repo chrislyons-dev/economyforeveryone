@@ -48,6 +48,7 @@ If you only ever use **two** things, use:
 - [16 Complaint to Case File](./core/16-complaint-to-case-file.md)
 - [17 Nonprofit and Org Leverage](./core/17-nonprofit-and-org-leverage.md)
 - [18 Safety and De-Escalation](./core/18-safety-and-de-escalation.md)
+- [19 Dignity-Preserving Off-Ramps](./core/19-dignity-preserving-off-ramps.md)
 
 ### Level adapters
 
