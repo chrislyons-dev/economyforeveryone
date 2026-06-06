@@ -33,11 +33,15 @@ An LLC was created days before it received a $143 million federal contract. The 
 
 That's one procurement case. It illustrates a pattern.
 
+On June 3, 2026, DHS canceled most pending Noem-era contracts after congressional scrutiny and an internal watchdog review. That case shows both directions at once: contracts moved quickly when normal approval channels were bypassed, and oversight that still functioned stopped some of them. Weak oversight created the opening. Functioning oversight closed it.
+
 The United States has structural resistance Hungary never had. Courts still block unlawful orders. States control their own election administration. Civil society hasn't been captured. This post documents active pressure against that resistance - separating confirmed abuses from things that look wrong but haven't been confirmed. The lever categories are familiar. We're earlier in the story.
 
 ---
 
 ## The three-stage logic
+
+Remove oversight. Raise the cost of resistance. Route benefits through loyalty. That is the machinery.
 
 Here's the operating logic. First, get rid of the referees - the inspectors general, the watchdogs, the people whose job is to catch you. Once they're gone, contracts don't get audited. Irregularities don't go anywhere.
 
@@ -53,7 +57,7 @@ Here are the three levers. The full receipts are in the linked case study.
 
 Hungary shows one mature version of this playbook. Hungary's version matured over sixteen years. What's happening here is earlier in that process. Courts are still blocking specific mechanisms - something Hungary's opposition never had.
 
-Not every item below proves corruption. Some do. Some show the guardrails are too weak. Both matter.
+Weak oversight, opaque discretion, and political proximity are exactly the conditions corruption needs. Some items below confirm abuse. Others show the guardrails are too weak to catch it.
 
 **Capture the referees**
 
@@ -72,6 +76,8 @@ Trump fired the Democratic Federal Trade Commission (FTC) commissioners. The FTC
 A March 2025 executive order directed agencies to revoke security clearances at a law firm that represented Hillary Clinton in 2016. A federal judge permanently blocked it. The ruling found violations of the First, Fifth, and Sixth Amendments and stated plainly that "settling personal vendettas by targeting a disliked business is not a legitimate use of the powers of the U.S. government." Similar orders targeting other law firms produced similar rulings.
 
 Reuters' retribution tracker, a Pulitzer Prize winner, documents 470+ targets and 462 punitive acts, including 128 federal workers fired for probing or challenging administration directives. A prosecution doesn't have to succeed to raise the cost of visible opposition. That's what makes it work as deterrence.
+
+A June 3, 2026 order making roughly 8,000 senior federal workers easier to fire extends the same logic inside the bureaucracy: independence becomes conditional, and everyone watching understands the risk.
 
 **Pay the constituency**
 
@@ -141,11 +147,11 @@ Every democracy has these levers. The question is whether the rules protecting t
 
 ## One steady action to take this week
 
-Find out whether your state has an independent redistricting commission by searching "Tyour state] redistricting commission" at ballotpedia.org. If it doesn't, find the organization doing commission advocacy in your state and sign their mailing list. The 2030 redistricting cycle is the next major window. The work that shapes it starts before anyone is paying attention.
+Find out whether your state has an independent redistricting commission by searching "[your state] redistricting commission" at ballotpedia.org. If it doesn't, find the organization doing commission advocacy in your state and sign their mailing list. The 2030 redistricting cycle is the next major window. The work that shapes it starts before anyone is paying attention.
 
 ## Action ladder
 
-If you're a voter or concerned citizen: Call your representative's district office and ask one question: what oversight actions has this member taken on IG removals, emergency procurement, or FEMA disaster aid delays? The answer tells you what accountability pressure exists in your congressional district. If the answer is "none," that's information worth having and sharing.
+If you're a voter or concerned citizen: Call your representative's district office and ask one question: what oversight actions has this member taken on IG removals, emergency procurement, or FEMA disaster aid delays? Also ask whether they support enforceable inspector general removal protections and mandatory audits for emergency procurement contracts. The answer tells you what accountability pressure exists in your congressional district. If the answer is "none," that's information worth having and sharing.
 
 If you're a small business owner or work in a field affected by tariffs: Document the specific impacts (supplier changes, cost increases, jobs) and share them with your congressional representatives. JPMorgan Chase Institute data shows tariff payments by midsized businesses tripled over 2025. Individual cases help translate aggregate data into visible political pressure.
 

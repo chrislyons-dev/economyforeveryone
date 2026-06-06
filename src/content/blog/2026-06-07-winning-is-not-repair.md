@@ -39,9 +39,9 @@ On election night, the courts were still staffed with holdover appointees. The p
 
 ---
 
-## What capture infrastructure actually is
+## What capture infrastructure is
 
-Capture is infrastructure. Courts that apply the law selectively. Prosecutors with political loyalties baked in. Broadcasters whose funding follows the governing party. Redistricting processes that lock in favorable maps. Together they make the loop self-sealing - grievance gets redirected, fixes get blocked, and the people who built the squeeze stay out of reach.
+Capture is infrastructure: courts that apply the law selectively, prosecutors with political loyalties baked in, broadcasters whose funding follows the governing party, redistricting processes that lock in favorable maps. Together they make the loop self-sealing - grievance gets redirected, fixes get blocked, and the people who built the squeeze stay out of reach.
 
 An election changes who holds the levers. It doesn't change what the levers do.
 
@@ -81,12 +81,12 @@ Robert Fico, Slovakia's prime minister and a pro-Russian populist who returned t
 
 ## A six-question stress test
 
-Any claimed reform to an oversight institution should pass most of these:
+Any claimed reform to an oversight institution should pass a majority of these:
 
 1. **Executive independence** - Is the board selected through cross-party agreement or civil society involvement, not by the government of the day?
 2. **Funding durability** - Is the budget set by statute on a multi-year cycle, so the next government can't use annual appropriations as a leash?
 3. **Judicial reviewability** - Can people affected by the institution's decisions contest them through a path that doesn't route back to the institution itself?
-4. **Civil society and press access** - Can independent journalists and civic organizations inspect the process, inspect the process instead of receiving only official outputs?
+4. **Civil society and press access** - Can independent journalists and civic organizations inspect the process, not just receive official outputs?
 5. **The opponent test** - Would this design still be acceptable to you if political opponents controlled it?
 6. **Tighter constraints** - Does this reform make it harder for whoever comes next to abuse the institution?
 
@@ -108,9 +108,9 @@ Seven states have fully independent redistricting commissions. Michigan and Colo
 
 The documented pressure points cover the same lever categories. Inspectors general at 19 agencies were fired in January 2025 without the notice or substantive rationale both statutes require; the inspector general workforce declined 16.6% by early 2026. Schedule F's final regulations describe civil service protections as "unconstitutional overcorrections." A federal court blocked a directive to end NPR and PBS funding. The FCC opened early license renewal scrutiny of ABC-owned stations. Columbia University lost $400 million in federal grants before settling; Harvard faced similar pressure. The Office of Personnel Management (OPM) proposed nondisclosure agreements for federal workers, including former employees. Courts blocked a Texas mid-decade redistricting map pushed at Trump's urging; the Supreme Court later allowed it for 2026.
 
-Media, maps, money, watchdogs, civil service, universities, election administration: same lever categories, same pattern. Orbán had 16 years to build a mature capture system. The US has more structural resistance - federalism, independent courts, state election control, civil society that's still largely intact. The question is whether those interrupt consolidation before it hardens.
+Media, maps, money, watchdogs, civil service, universities, election administration: same lever categories, same pattern. Orbán had 16 years to build a mature capture system. The US has more structural resistance - federalism, independent courts, state election control, civil society that's still largely intact. Whether those are strong enough to interrupt consolidation and still be standing when the next government arrives is still open.
 
-The question is whether the rules protecting these levers bind the next government too - including the one that built them.
+The longer question: if a future administration wins, does it close the structural holes that made this possible - or just restore the prior state and leave the same levers available to whoever comes next? And will the new rules it builds bind that next government too, including itself?
 
 ---
 
