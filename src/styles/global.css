@@ -330,6 +330,30 @@ a:hover {
 .prose-e4e :is(ul, ol) + p {
   margin-top: 0.2rem;
 }
+
+.blog-content table {
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin: 1.2rem 0;
+  width: 100%;
+}
+
+.blog-content th,
+.blog-content td {
+  padding: 0.4rem 1rem 0.4rem 0;
+  border-bottom: 0.06rem solid var(--theme-border-subtle);
+  text-align: left;
+  vertical-align: top;
+}
+
+.blog-content th {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--theme-text-secondary);
+  border-bottom: 0.1rem solid var(--theme-border-default);
+}
+
 .prose-e4e .appendix-table-wrap {
   width: min(92vw, 74rem);
   max-width: none;
