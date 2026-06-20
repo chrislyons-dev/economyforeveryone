@@ -56,6 +56,7 @@ Fear grows best where trust is weak. And trust is weak where the monthly squeeze
 The conditions that make scapegoating work aren't accidents. When housing, healthcare, childcare, and education consume most of what a family earns, there's less headspace to question who's actually to blame. The authoritarian offer is most attractive when people have the least margin to think it through: clear enemy, simple story, someone to blame. The emotional math works out fast: something has to be to blame, and an explanation that names someone arrives before one that explains what actually broke.
 
 Two reinforcing loops drive the problem: one creates insecurity, the other turns insecurity into institutional capture.
+
 1. Economic Loop: **monthly squeeze → insecurity → manipulation → division → no fixes → more squeeze**
 2. Governance Loop: **insecurity → distrust → strongman appeal → capture → weaker guardrails → more distrust**
 
