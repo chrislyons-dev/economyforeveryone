@@ -33,6 +33,9 @@ Run this before you post.
 - [ ] No contempt. No dehumanizing language.
 - [ ] Would I say this in front of my kid?
 - [ ] Is this written to **help**, not to humiliate?
+- [ ] **Contempt-ratio check:** is any part of this written to make my audience feel superior to the other side? That's in-group reinforcement, and every dunk confirms the story the other side has already been told about us.
+- [ ] **Dignity test:** could someone who voted the other way read this and still find a way in - without being required to perform self-condemnation first?
+- [ ] **Operator vs believer:** if I'm naming wrongdoing, am I aiming at the people who built and ran it, or spraying everyone who believed it? (Why this matters: [We Have Work to Do](/blog/2026-06-28-we-have-work-to-do/))
 
 ## 4) State check (don’t post from the cliff)
 

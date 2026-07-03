@@ -45,6 +45,17 @@ Use these when the thread turns into heat, insults, or infinite debate.
 - “Honest questions welcome. Insults get ignored.”
 - “If this thread gets hot, I’ll step away and do something local instead.”
 
+## Exit-ramp lines (for people questioning their political home)
+
+Shaming keeps people in; a door keeps them moving. These lower the cost of walking through it.
+
+- "The question isn't whether anyone was fooled. It's whether there's someone there when they figure it out."
+- "You don't owe anyone a confession to change your mind."
+- "I'm angry at the people who built this, not the people who believed it."
+- "The worry makes sense. I just think the blame got aimed at the wrong target."
+
+Why these work: [What Hungary Taught Me About American Politics](/blog/2026-06-02-what-hungary-taught-me-about-american-politics/). The full playbook: [Dignity-Preserving Off-Ramps](/playbooks/civics/core/19-dignity-preserving-off-ramps/).
+
 ## Repair lines
 
 Use these after you came in too hot or want to reset the tone.

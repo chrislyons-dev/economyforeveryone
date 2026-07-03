@@ -49,6 +49,7 @@ If you only ever use **two** things, use:
 - [17 Nonprofit and Org Leverage](./core/17-nonprofit-and-org-leverage.md)
 - [18 Safety and De-Escalation](./core/18-safety-and-de-escalation.md)
 - [19 Dignity-Preserving Off-Ramps](./core/19-dignity-preserving-off-ramps.md)
+- [20 Durable Local Presence](./core/20-durable-local-presence.md)
 
 ### Level adapters
 
@@ -215,6 +216,16 @@ Same moves, different targets.
 **Use when:** the situation is hot and rumor, duplication, or doxxing can make it worse.  
 **Includes:** role separation, rumor labels, privacy basics, and de-escalation rules.
 
+### 19) Dignity-Preserving Off-Ramps
+
+**Use when:** someone you know is questioning their political home, or your materials need an entrance that doesn't demand self-condemnation.  
+**Includes:** organizer dignity test, messenger requirement, voter/operator separation, bridge language.
+
+### 20) Durable Local Presence (Show Up Before You Need It)
+
+**Use when:** you want civic infrastructure that exists before the crisis that needs it.  
+**Includes:** build sequence, dignity test, failure modes (crisis-born groups, candidate capture, purity spirals).
+
 ---
 
 ## What stronger asks sound like
@@ -318,6 +329,8 @@ You'll usually need:
 - "Something smells off." -> **08 Accountability (Watchdog Lite)**
 - "I want to help _now_." -> **11 Mutual Aid + Rapid Response**
 - "I want to donate." -> **10 Donations with Discipline**
+- "Someone I know is questioning their political home." -> **19 Dignity-Preserving Off-Ramps**
+- "I want to build something that lasts past this election." -> **20 Durable Local Presence**
 
 ---
 
